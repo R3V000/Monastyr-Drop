@@ -13,24 +13,33 @@ import {
 } from "@/lib/drop-calculator";
 
 type DropDashboardProps = {
-  groups: DropGroup[];
-  itemLabels: Record<number, string>;
+  groups?: DropGroup[];
+  itemLabels?: Record<number, string>;
   config: DropSimulationConfig;
-  summary: {
-    groupCount: number;
-    mobCount: number;
-    entryCount: number;
-    itemCount: number;
-  };
+  summary?: DropSummary;
+  defaultDropFileUrl?: string;
+  defaultFileName?: string;
 };
 
-type DropSummary = DropDashboardProps["summary"];
+type DropSummary = {
+  groupCount: number;
+  mobCount: number;
+  entryCount: number;
+  itemCount: number;
+};
 
 type CustomDropData = {
   groups: DropGroup[];
   itemLabels: Record<number, string>;
   summary: DropSummary;
   fileName: string;
+};
+
+const emptySummary: DropSummary = {
+  groupCount: 0,
+  mobCount: 0,
+  entryCount: 0,
+  itemCount: 0
 };
 
 const typeFilters = [
@@ -68,13 +77,30 @@ function summarizeDropData(groups: DropGroup[], itemLabels: Record<number, strin
   };
 }
 
-export default function DropDashboard({ groups, itemLabels, config, summary }: DropDashboardProps) {
+export default function DropDashboard({
+  groups = [],
+  itemLabels = {},
+  config,
+  summary = emptySummary,
+  defaultDropFileUrl = "mob_drop_item.txt",
+  defaultFileName = "mob_drop_item.txt"
+}: DropDashboardProps) {
   const defaultCategory = config.categories[0]?.id ? `category:${config.categories[0].id}` : "item:25040";
   const [activeView, setActiveView] = useState<"items" | "sources">("items");
   const [selectedKey, setSelectedKey] = useState(defaultCategory);
   const [query, setQuery] = useState("");
   const [sourceQuery, setSourceQuery] = useState("");
   const [selectedSourceKey, setSelectedSourceKey] = useState("");
+  const [defaultDropData, setDefaultDropData] = useState<CustomDropData>(() => ({
+    groups,
+    itemLabels,
+    summary,
+    fileName: defaultFileName
+  }));
+  const [defaultLoadState, setDefaultLoadState] = useState<"loading" | "ready" | "error">(
+    groups.length > 0 ? "ready" : "loading"
+  );
+  const [defaultLoadError, setDefaultLoadError] = useState("");
   const [customDropData, setCustomDropData] = useState<CustomDropData | null>(null);
   const [uploadError, setUploadError] = useState("");
   const [settings, setSettings] = useState<DashboardSettings>({
@@ -82,10 +108,10 @@ export default function DropDashboard({ groups, itemLabels, config, summary }: D
     onlyConfigured: false
   });
 
-  const activeGroups = customDropData?.groups || groups;
-  const activeItemLabels = customDropData?.itemLabels || itemLabels;
-  const activeSummary = customDropData?.summary || summary;
-  const activeFileName = customDropData?.fileName || "mob_drop_item.txt";
+  const activeGroups = customDropData?.groups || defaultDropData.groups;
+  const activeItemLabels = customDropData?.itemLabels || defaultDropData.itemLabels;
+  const activeSummary = customDropData?.summary || defaultDropData.summary;
+  const activeFileName = customDropData?.fileName || defaultDropData.fileName;
 
   const itemOptions = useMemo(() => buildItemOptions(activeGroups, activeItemLabels), [activeGroups, activeItemLabels]);
   const sourceOptions = useMemo(() => buildSourceOptions(activeGroups, config), [activeGroups, config]);
@@ -136,6 +162,57 @@ export default function DropDashboard({ groups, itemLabels, config, summary }: D
   const bestRow = rows[0];
   const label = selectedLabel(selectedKey, config, activeItemLabels);
   const sourceTotalDaily = sourceRows.reduce((sum, row) => sum + row.expectedDaily, 0);
+
+  useEffect(() => {
+    if (!defaultDropFileUrl) {
+      setDefaultLoadState(groups.length > 0 ? "ready" : "error");
+      return;
+    }
+
+    const controller = new AbortController();
+
+    async function loadDefaultDropFile() {
+      setDefaultLoadState("loading");
+      setDefaultLoadError("");
+
+      try {
+        const response = await fetch(defaultDropFileUrl, {
+          cache: "no-store",
+          signal: controller.signal
+        });
+
+        if (!response.ok) {
+          throw new Error(`Nie udało się pobrać domyślnego pliku (${response.status}).`);
+        }
+
+        const text = await response.text();
+        const parsed = parseMobDropText(text, config.itemLabels);
+
+        if (parsed.groups.length === 0) {
+          throw new Error("Domyślny plik nie zawiera poprawnych grup dropu.");
+        }
+
+        setDefaultDropData({
+          groups: parsed.groups,
+          itemLabels: parsed.itemLabels,
+          summary: summarizeDropData(parsed.groups, parsed.itemLabels),
+          fileName: defaultFileName
+        });
+        setDefaultLoadState("ready");
+      } catch (error) {
+        if (error instanceof DOMException && error.name === "AbortError") {
+          return;
+        }
+
+        setDefaultLoadState("error");
+        setDefaultLoadError(error instanceof Error ? error.message : "Nie udało się pobrać domyślnego pliku.");
+      }
+    }
+
+    loadDefaultDropFile();
+
+    return () => controller.abort();
+  }, [config.itemLabels, defaultDropFileUrl, defaultFileName, groups.length]);
 
   useEffect(() => {
     if (selectedKey.startsWith("category:")) {
@@ -211,7 +288,14 @@ export default function DropDashboard({ groups, itemLabels, config, summary }: D
                 Domyślny
               </button>
             </div>
-            <small>{customDropData ? activeFileName : "Standardowy mob_drop_item.txt"}</small>
+            <small>
+              {customDropData
+                ? activeFileName
+                : defaultLoadState === "loading"
+                  ? "Ładowanie mob_drop_item.txt"
+                  : `Standardowy ${activeFileName}`}
+            </small>
+            {!customDropData && defaultLoadError ? <small className="blocked">{defaultLoadError}</small> : null}
             {uploadError ? <small className="blocked">{uploadError}</small> : null}
           </div>
           <div className="summary-strip" aria-label="Podsumowanie pliku">
