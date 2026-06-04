@@ -59,6 +59,12 @@ button {
   padding: 10px 0 20px;
 }
 
+.topbar-tools {
+  display: grid;
+  gap: 8px;
+  justify-items: end;
+}
+
 .eyebrow {
   margin: 0 0 6px;
   color: var(--teal);
@@ -100,6 +106,58 @@ h2 {
   color: var(--muted);
   font-size: 0.9rem;
   white-space: nowrap;
+}
+
+.file-panel {
+  width: min(520px, 100%);
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.file-panel label {
+  display: block;
+  margin-bottom: 7px;
+  color: var(--muted);
+  font-size: 0.74rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.file-panel small {
+  display: block;
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  overflow-wrap: anywhere;
+}
+
+.file-row {
+  display: grid;
+  grid-template-columns: minmax(190px, 1fr) 110px;
+  gap: 8px;
+}
+
+.file-row input[type="file"] {
+  min-height: 38px;
+  padding: 7px;
+}
+
+.file-row button {
+  min-height: 38px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfcfa;
+  color: var(--ink);
+  font-weight: 800;
+}
+
+.file-row button:disabled {
+  cursor: not-allowed;
+  color: var(--muted);
+  opacity: 0.55;
 }
 
 .view-tabs {
@@ -493,8 +551,16 @@ td small {
     flex-direction: column;
   }
 
+  .topbar-tools {
+    justify-items: stretch;
+  }
+
   .summary-strip {
     justify-content: flex-start;
+  }
+
+  .file-panel {
+    width: 100%;
   }
 
   .control-grid,
@@ -507,6 +573,7 @@ td small {
   }
 
   .select-row,
+  .file-row,
   .bar-row {
     grid-template-columns: 1fr;
   }

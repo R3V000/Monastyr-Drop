@@ -1,7 +1,7 @@
 "use client";
 
-import { useMemo, useState } from "react";
-import type { DropGroup } from "@/lib/mob-drop-parser";
+import { useEffect, useMemo, useState, type ChangeEvent } from "react";
+import { parseMobDropText, type DropGroup } from "@/lib/mob-drop-parser";
 import {
   buildItemOptions,
   buildSourceOptions,
@@ -22,6 +22,15 @@ type DropDashboardProps = {
     entryCount: number;
     itemCount: number;
   };
+};
+
+type DropSummary = DropDashboardProps["summary"];
+
+type CustomDropData = {
+  groups: DropGroup[];
+  itemLabels: Record<number, string>;
+  summary: DropSummary;
+  fileName: string;
 };
 
 const typeFilters = [
@@ -50,6 +59,15 @@ function selectedLabel(key: string, config: DropSimulationConfig, itemLabels: Re
   return itemLabels[vnum] || `Item ${vnum}`;
 }
 
+function summarizeDropData(groups: DropGroup[], itemLabels: Record<number, string>): DropSummary {
+  return {
+    groupCount: groups.length,
+    mobCount: new Set(groups.map((group) => group.mobVnum)).size,
+    entryCount: groups.reduce((sum, group) => sum + group.entries.length, 0),
+    itemCount: Object.keys(itemLabels).length
+  };
+}
+
 export default function DropDashboard({ groups, itemLabels, config, summary }: DropDashboardProps) {
   const defaultCategory = config.categories[0]?.id ? `category:${config.categories[0].id}` : "item:25040";
   const [activeView, setActiveView] = useState<"items" | "sources">("items");
@@ -57,13 +75,20 @@ export default function DropDashboard({ groups, itemLabels, config, summary }: D
   const [query, setQuery] = useState("");
   const [sourceQuery, setSourceQuery] = useState("");
   const [selectedSourceKey, setSelectedSourceKey] = useState("");
+  const [customDropData, setCustomDropData] = useState<CustomDropData | null>(null);
+  const [uploadError, setUploadError] = useState("");
   const [settings, setSettings] = useState<DashboardSettings>({
     typeFilter: "all",
     onlyConfigured: false
   });
 
-  const itemOptions = useMemo(() => buildItemOptions(groups, itemLabels), [groups, itemLabels]);
-  const sourceOptions = useMemo(() => buildSourceOptions(groups, config), [config, groups]);
+  const activeGroups = customDropData?.groups || groups;
+  const activeItemLabels = customDropData?.itemLabels || itemLabels;
+  const activeSummary = customDropData?.summary || summary;
+  const activeFileName = customDropData?.fileName || "mob_drop_item.txt";
+
+  const itemOptions = useMemo(() => buildItemOptions(activeGroups, activeItemLabels), [activeGroups, activeItemLabels]);
+  const sourceOptions = useMemo(() => buildSourceOptions(activeGroups, config), [activeGroups, config]);
 
   const filteredItems = useMemo(() => {
     const normalized = query.trim().toLowerCase();
@@ -89,8 +114,8 @@ export default function DropDashboard({ groups, itemLabels, config, summary }: D
 
   const selectedVnums = useMemo(() => getSelectedVnums(selectedKey, config), [config, selectedKey]);
   const rows = useMemo(
-    () => computeComparisonRows(groups, selectedVnums, config, settings),
-    [config, groups, selectedVnums, settings]
+    () => computeComparisonRows(activeGroups, selectedVnums, config, settings),
+    [activeGroups, config, selectedVnums, settings]
   );
 
   const selectedSource =
@@ -98,9 +123,9 @@ export default function DropDashboard({ groups, itemLabels, config, summary }: D
   const sourceRows = useMemo(
     () =>
       selectedSource
-        ? computeSourceDropRows(groups, selectedSource.mobVnum, itemLabels, config)
+        ? computeSourceDropRows(activeGroups, selectedSource.mobVnum, activeItemLabels, config)
         : [],
-    [config, groups, itemLabels, selectedSource]
+    [activeGroups, activeItemLabels, config, selectedSource]
   );
 
   const visibleRows = rows;
@@ -109,11 +134,60 @@ export default function DropDashboard({ groups, itemLabels, config, summary }: D
   const totalDaily = rows.reduce((sum, row) => sum + row.expectedDaily, 0);
   const totalKills = rows.reduce((sum, row) => sum + row.dailyKills, 0);
   const bestRow = rows[0];
-  const label = selectedLabel(selectedKey, config, itemLabels);
+  const label = selectedLabel(selectedKey, config, activeItemLabels);
   const sourceTotalDaily = sourceRows.reduce((sum, row) => sum + row.expectedDaily, 0);
+
+  useEffect(() => {
+    if (selectedKey.startsWith("category:")) {
+      return;
+    }
+
+    const selectedOptionExists = itemOptions.some((item) => item.key === selectedKey);
+    if (!selectedOptionExists) {
+      setSelectedKey(defaultCategory);
+    }
+  }, [defaultCategory, itemOptions, selectedKey]);
 
   const updateSetting = <K extends keyof DashboardSettings>(key: K, value: DashboardSettings[K]) => {
     setSettings((current) => ({ ...current, [key]: value }));
+  };
+
+  const handleDropFileChange = async (event: ChangeEvent<HTMLInputElement>) => {
+    const input = event.currentTarget;
+    const file = input.files?.[0];
+
+    if (!file) {
+      return;
+    }
+
+    setUploadError("");
+
+    try {
+      const text = await file.text();
+      const parsed = parseMobDropText(text, config.itemLabels);
+
+      if (parsed.groups.length === 0) {
+        throw new Error("Plik nie zawiera poprawnych grup dropu.");
+      }
+
+      setCustomDropData({
+        groups: parsed.groups,
+        itemLabels: parsed.itemLabels,
+        summary: summarizeDropData(parsed.groups, parsed.itemLabels),
+        fileName: file.name
+      });
+      setSelectedSourceKey("");
+    } catch (error) {
+      setUploadError(error instanceof Error ? error.message : "Nie udało się wczytać pliku.");
+    } finally {
+      input.value = "";
+    }
+  };
+
+  const restoreDefaultDropFile = () => {
+    setCustomDropData(null);
+    setUploadError("");
+    setSelectedSourceKey("");
   };
 
   return (
@@ -123,11 +197,29 @@ export default function DropDashboard({ groups, itemLabels, config, summary }: D
           <p className="eyebrow">Monastyr Drop</p>
           <h1>Porównanie dziennego dropu</h1>
         </div>
-        <div className="summary-strip" aria-label="Podsumowanie pliku">
-          <span>{formatCompact(summary.groupCount, 0)} grup</span>
-          <span>{formatCompact(summary.mobCount, 0)} mobów</span>
-          <span>{formatCompact(summary.itemCount, 0)} itemów</span>
-          <span>{formatCompact(summary.entryCount, 0)} wpisów</span>
+        <div className="topbar-tools">
+          <div className="file-panel" aria-label="Plik dropu">
+            <label htmlFor="drop-file">Plik dropu</label>
+            <div className="file-row">
+              <input
+                id="drop-file"
+                type="file"
+                accept=".txt,text/plain"
+                onChange={handleDropFileChange}
+              />
+              <button type="button" onClick={restoreDefaultDropFile} disabled={!customDropData}>
+                Domyślny
+              </button>
+            </div>
+            <small>{customDropData ? activeFileName : "Standardowy mob_drop_item.txt"}</small>
+            {uploadError ? <small className="blocked">{uploadError}</small> : null}
+          </div>
+          <div className="summary-strip" aria-label="Podsumowanie pliku">
+            <span>{formatCompact(activeSummary.groupCount, 0)} grup</span>
+            <span>{formatCompact(activeSummary.mobCount, 0)} mobów</span>
+            <span>{formatCompact(activeSummary.itemCount, 0)} itemów</span>
+            <span>{formatCompact(activeSummary.entryCount, 0)} wpisów</span>
+          </div>
         </div>
       </header>
 
