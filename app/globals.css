@@ -463,6 +463,43 @@ th {
   text-transform: uppercase;
 }
 
+.sort-button {
+  width: 100%;
+  min-height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  padding: 0;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: inherit;
+  font-weight: 900;
+}
+
+.sort-button span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.sort-button em {
+  color: var(--muted);
+  font-style: normal;
+  font-size: 0.78rem;
+  line-height: 1;
+}
+
+.sort-button.active {
+  color: var(--teal);
+}
+
+.sort-button.active em {
+  color: var(--teal);
+}
+
 tbody tr:last-child td {
   border-bottom: 0;
 }

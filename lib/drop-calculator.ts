@@ -7,6 +7,16 @@ export type SpawnGroup = {
   respawnMinutes: number;
 };
 
+export type SpawnWindow = {
+  startHour: number;
+  endHour: number;
+  spots: number;
+  respawnMinutes: number;
+  maps?: number;
+  channels?: number;
+  killsPerAppearance?: number;
+};
+
 export type MobOverride = {
   calculationMode?: CalculationMode;
   displayName?: string;
@@ -16,6 +26,7 @@ export type MobOverride = {
   uptimeHours?: number;
   killsPerAppearance?: number;
   spawnGroups?: SpawnGroup[];
+  spawnWindows?: SpawnWindow[];
   competitionShare?: number;
   manualDailyKills?: number | null;
   dungeonRunsPerDay?: number;
@@ -60,6 +71,7 @@ export type SourceOption = {
   itemCount: number;
   dailyKills: number;
   configured: boolean;
+  spawnWindowLabel: string;
 };
 
 export type ComparisonRow = {
@@ -73,6 +85,7 @@ export type ComparisonRow = {
   appearancesPerDay: number;
   dungeonRunsPerDay: number;
   dailyKills: number;
+  spawnWindowLabel: string;
   expectedPerKill: number;
   expectedDaily: number;
   matchingEntries: number;
@@ -100,6 +113,40 @@ function safeNumber(value: unknown, fallback: number) {
   return typeof value === "number" && Number.isFinite(value) ? value : fallback;
 }
 
+function normalizeHour(value: number) {
+  const hour = value % 24;
+  return hour < 0 ? hour + 24 : hour;
+}
+
+function windowDurationHours(startHour: number, endHour: number) {
+  const start = normalizeHour(startHour);
+  const end = normalizeHour(endHour);
+
+  if (start === end) {
+    return 24;
+  }
+
+  return end > start ? end - start : 24 - start + end;
+}
+
+function formatHour(value: number) {
+  const normalized = normalizeHour(value);
+  const hours = Math.floor(normalized);
+  const minutes = Math.round((normalized - hours) * 60);
+
+  if (minutes === 0) {
+    return String(hours).padStart(2, "0");
+  }
+
+  return `${String(hours).padStart(2, "0")}:${String(minutes).padStart(2, "0")}`;
+}
+
+function getSpawnWindowLabel(spawnWindows: SpawnWindow[]) {
+  return spawnWindows
+    .map((window) => `${formatHour(window.startHour)}-${formatHour(window.endHour)}`)
+    .join(", ");
+}
+
 function resolveCalculationMode(group: DropGroup, override: MobOverride): ResolvedCalculationMode {
   const mode = override.calculationMode || "auto";
 
@@ -123,6 +170,7 @@ export function getMobProfile(
   const uptimeHours = safeNumber(override.uptimeHours, defaults.uptimeHours);
   const killsPerAppearance = safeNumber(override.killsPerAppearance, defaults.killsPerAppearance);
   const spawnGroups = Array.isArray(override.spawnGroups) ? override.spawnGroups : defaults.spawnGroups;
+  const spawnWindows = Array.isArray(override.spawnWindows) ? override.spawnWindows : defaults.spawnWindows;
   const competitionShare = safeNumber(override.competitionShare, defaults.competitionShare);
   const dungeonRunsPerDay = safeNumber(override.dungeonRunsPerDay, defaults.dungeonRunsPerDay);
   const killsPerDungeon = safeNumber(override.killsPerDungeon, defaults.killsPerDungeon);
@@ -130,7 +178,24 @@ export function getMobProfile(
     typeof override.manualDailyKills === "number" ? override.manualDailyKills : defaults.manualDailyKills;
 
   const appearancesPerDay =
-    spawnGroups.length > 0
+    spawnWindows.length > 0
+      ? spawnWindows.reduce((sum, window) => {
+          const spots = safeNumber(window.spots, 0);
+          const maps = safeNumber(window.maps, 1);
+          const windowChannels = safeNumber(window.channels, channels);
+          const windowRespawnMinutes = safeNumber(window.respawnMinutes, 0);
+          const windowKillsPerAppearance = safeNumber(window.killsPerAppearance, killsPerAppearance);
+          const windowMinutes =
+            windowDurationHours(
+              safeNumber(window.startHour, 0),
+              safeNumber(window.endHour, 0)
+            ) * 60;
+
+          return windowRespawnMinutes > 0
+            ? sum + (windowChannels * maps * spots * windowKillsPerAppearance * windowMinutes) / windowRespawnMinutes
+            : sum;
+        }, 0)
+      : spawnGroups.length > 0
       ? channels *
         uptimeHours *
         60 *
@@ -157,6 +222,8 @@ export function getMobProfile(
     uptimeHours,
     killsPerAppearance,
     spawnGroups,
+    spawnWindows,
+    spawnWindowLabel: spawnWindows.length > 0 ? getSpawnWindowLabel(spawnWindows) : "",
     competitionShare,
     manualDailyKills,
     appearancesPerDay,
@@ -253,7 +320,8 @@ export function buildSourceOptions(groups: DropGroup[], config: DropSimulationCo
         groupCount: 0,
         itemCount: 0,
         dailyKills: profile.dailyKills,
-        configured: profile.configured
+        configured: profile.configured,
+        spawnWindowLabel: profile.spawnWindowLabel
       } satisfies SourceOption);
 
     const itemSet = itemSets.get(group.mobVnum) || new Set<number>();
@@ -389,6 +457,7 @@ export function computeComparisonRows(
       appearancesPerDay: profile.appearancesPerDay,
       dungeonRunsPerDay: profile.dungeonRunsPerDay,
       dailyKills: profile.dailyKills,
+      spawnWindowLabel: profile.spawnWindowLabel,
       expectedPerKill,
       expectedDaily: expectedPerKill * profile.dailyKills,
       matchingEntries: matchingEntries.length,

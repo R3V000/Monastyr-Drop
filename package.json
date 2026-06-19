@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "predev": "node scripts/sync-public-drop.mjs",
-    "dev": "next dev",
+    "dev": "node scripts/dev-with-sync.mjs",
+    "sync-drop": "node scripts/sync-public-drop.mjs",
     "prebuild": "node scripts/sync-public-drop.mjs",
     "build": "next build",
     "start": "node scripts/static-server.mjs out",

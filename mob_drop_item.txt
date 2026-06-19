@@ -14,7 +14,7 @@ Group Lykos
 	9	3044	1	15		// Gizarma+4
 	10	1024	1	15		// Sztylet No?ycowy+4
 	11	5024	1	15		// Z?oty Dzwon+4
-	12	25040	1	7		// Zwoj Blogoslawienstwa
+	12	25040	1	5		// Zwoj Blogoslawienstwa
 }
 Group	SkalistaMalpa
 {
@@ -35,7 +35,7 @@ Group	SkalistaMalpa
 	13	72728	1	40		// EliksirKsiezyca
 	14	70024	1	50		// MarmurBlogo
 	15	71094	1	14		// RadaPustelnika
-	16	25040	1	35		// Bodzio
+	16	25040	1	30		// Bodzio
 }
 Group	ChodzacaMalpa
 {
@@ -56,7 +56,7 @@ Group	ChodzacaMalpa
 	13	72728	1	40		// EliksirKsiezyca
 	14	70024	1	60		// MarmurBlogo
 	15	71094	1	17		// RadaPustelnika
-	16	25040	1	60		// Bodzio
+	16	25040	1	45		// Bodzio
 }
 Group	LordMalp
 {
@@ -74,7 +74,7 @@ Group	LordMalp
 	10	72034	1	120		// Obrona_boga_smokow
 	11	72037	1	120		// Zycie_boga_smokow
 	12	72040	1	120		// Inteligencja_boga_smokow
-	13	25040	1	75		// Bodzio
+	13	25040	1	60		// Bodzio
 	14	72724	1	200		// EliksirSlonca
 	15	72728	1	200		// EliksirKsiezyca
 	16	71094	1	30		// RadaPustelnika
@@ -100,7 +100,7 @@ Group	????????
 	9	72728	1	200		// Eliksir Ksi?yca
 	10	71085	1	200		// Wzmocnienie Przedmiotu
 	11	50096	1	150		// Bizuteria30
-	12	25040	1	80		// Bodzio
+	12	25040	1	60		// Bodzio
 	13	51501	1	80		// CorSurowe
 	14	71094	1	50		// Rada Pustelnika
 	15	71107	1	35		// Fasolka Zen
@@ -118,7 +118,7 @@ Group	Mahon
 	3	27104	1	50		// Fioletowa Mikstura S
 	4	71044	1	45		// Dlon Krytyka
 	5	71045	1	45		// Dlon Przebicia
-	6	25040	1	20		// Zwoj Blogoslawienstwa
+	6	25040	1	10		// Zwoj Blogoslawienstwa
 	7	70024	1	20		// Marmur Blogo
 	8	71094	1	1		// Rada Pustelnika
 }
@@ -131,7 +131,7 @@ Group	BOM2
 	3	27104	1	50		// Fioletowa Mikstura S
 	4	71044	1	45		// Dlon Krytyka
 	5	71045	1	45		// Dlon Przebicia
-	6	25040	1	20		// Zwoj Blogoslawienstwa
+	6	25040	1	10		// Zwoj Blogoslawienstwa
 	7	70024	1	20		// Marmur Blogo
 	8	71094	1	1		// Rada Pustelnika
 }
@@ -144,7 +144,7 @@ Group	GooPae
 	3	27104	1	50		// Fioletowa Mikstura S
 	4	71044	1	50		// Dlon Krytyka
 	5	71045	1	50		// Dlon Przebicia
-	6	25040	1	20		// Zwoj Blogoslawienstwa
+	6	25040	1	10		// Zwoj Blogoslawienstwa
 	7	70024	1	20		// Marmur Blogo
 	8	71094	1	1		// Rada Pustelnika
 }
@@ -157,7 +157,7 @@ Group	Chuong
 	3	27104	1	50		// Fioletowa Mikstura S
 	4	71044	1	50		// Dlon Krytyka
 	5	71045	1	50		// Dlon Przebicia
-	6	25040	1	20		// Zwoj Blogoslawienstwa
+	6	25040	1	10		// Zwoj Blogoslawienstwa
 	7	70024	1	20		// Marmur Blogo
 	8	71094	1	1		// Rada Pustelnika
 }
@@ -170,8 +170,8 @@ Group	???????????
 	3	27104	1	50		// Fioletowa Mikstura S
 	4	71044	1	50		// Dlon Krytyka
 	5	71045	1	50		// Dlon Przebicia
-	6	25040	1	20		// Zwoj Blogoslawienstwa
-	7	50215	1	30		// Bronie30
+	6	25040	1	10		// Zwoj Blogoslawienstwa
+	7	50215	1	40		// Bronie30
 	8	11241	1	30		// Smiertelka
 	9	11441	1	30		// Lwiej Mrowki
 	10	11641	1	30		// Yin-Yang
@@ -187,8 +187,8 @@ Group	?????????????
 	3	27104	1	50		// Fioletowa Mikstura S
 	4	71044	1	50		// Dlon Krytyka
 	5	71045	1	50		// Dlon Przebicia
-	6	25040	1	20		// Zwoj Blogoslawienstwa
-	7	50215	1	30		// Bronie30
+	6	25040	1	10		// Zwoj Blogoslawienstwa
+	7	50215	1	40		// Bronie30
 	8	11241	1	30		// Smiertelka
 	9	11441	1	30		// Lwiej Mrowki
 	10	11641	1	30		// Yin-Yang
@@ -204,8 +204,8 @@ Group	??????�???o
 	3	27104	1	50		// Fioletowa Mikstura S
 	4	71044	1	50		// Dlon Krytyka
 	5	71045	1	50		// Dlon Przebicia
-	6	25040	1	20		// Zwoj Blogoslawienstwa
-	7	50215	1	30		// Bronie30
+	6	25040	1	10		// Zwoj Blogoslawienstwa
+	7	50215	1	40		// Bronie30
 	8	11241	1	30		// Smiertelka
 	9	11441	1	30		// Lwiej Mrowki
 	10	11641	1	30		// Yin-Yang
@@ -221,8 +221,8 @@ Group	??????????o
 	3	27104	1	50		// Fioletowa Mikstura S
 	4	71044	1	50		// Dlon Krytyka
 	5	71045	1	50		// Dlon Przebicia
-	6	25040	1	20		// Zwoj Blogoslawienstwa
-	7	50215	1	30		// Bronie30
+	6	25040	1	10		// Zwoj Blogoslawienstwa
+	7	50215	1	40		// Bronie30
 	8	11241	1	30		// Smiertelka
 	9	11441	1	30		// Lwiej Mrowki
 	10	11641	1	30		// Yin-Yang
@@ -249,7 +249,7 @@ Group	?W???�?
 	14	72034	1	200		// Obrona_boga_smokow
 	15	72037	1	200		// Zycie_boga_smokow
 	16	72040	1	200		// Inteligencja_boga_smokow
-	17	25040	1	100		// Zw?j B?ogos?awie?stwa
+	17	25040	1	80		// Zw?j B?ogos?awie?stwa
 	18	25040	1	10		// Zw?j B?ogos?awie?stwa
 	19	39032	1	100		// Owoc zycia
 	20	51501	1	206		// CorSurowe
@@ -277,8 +277,8 @@ Group	????????
 	11	72037	1	40		// Zycie_boga_smokow
 	12	72040	1	200		// Inteligencja_boga_smokow
 	13	72040	1	30		// Inteligencja_boga_smokow
-	14	25040	1	100		// Zw?j B?ogos?awie?stwa
-	15	25040	1	30		// Zw?j B?ogos?awie?stwa
+	14	25040	1	90		// Zw?j B?ogos?awie?stwa
+	15	25040	1	20		// Zw?j B?ogos?awie?stwa
 	16	70024	1	200		// MarmurBlogo
 	17	70024	1	50		// MarmurBlogo
 	18	71094	1	80		// RadaPustelnika
@@ -323,8 +323,8 @@ Group	???????????
 	12	72040	1	200		// Inteligencja_boga_smokow
 	13	72040	1	40		// Inteligencja_boga_smokow
 	14	25040	1	100		// Bodzio
-	15	25040	1	30		// Bodzio
-	16	25040	1	10		// Bodzio
+	15	25040	1	20		// Bodzio
+	16	25040	1	2		// Bodzio
 	17	71094	1	90		// RadaPustelnika
 	18	72724	1	200		// EliksirSlonca
 	19	72728	1	200		// EliksirKsiezyca
@@ -356,8 +356,8 @@ Group	?????
 	4	71084	5	100		// Zmianki
 	5	71084	5	60		// Zmianki
 	6	50077	1	400		// Szkata Dziewieciu Ogonow
-	7	25040	1	110		// Bodzio
-	8	25040	1	80		// Bodzio
+	7	25040	1	100		// Bodzio
+	8	25040	1	50		// Bodzio
 	9	72031	1	200		// Atak
 	10	72031	1	200		// Atak
 	11	72034	1	200		// Obrona
@@ -399,7 +399,7 @@ Group	????�?
 	5	50073	1	400		// SzkataKrolowej
 	6	71130	1	120		// Przepa_v2
 	7	25040	1	100		// Bodzio
-	8	25040	1	50		// Bodzio
+	8	25040	1	30		// Bodzio
 	9	72724	1	200		// EliksirSlonca
 	10	72728	1	200		// EliksirKsiezyca
 	11	72031	1	200		// Atak
@@ -436,7 +436,7 @@ Group	KrolowaElit
 	12	70024	1	200		// MarmurBlogo
 	13	70024	1	100		// MarmurBlogo
 	14	70024	1	20		// MarmurBlogo
-	15	25040	1	120		// Bodzio
+	15	25040	1	110		// Bodzio
 	16	25040	1	50		// Bodzio
 	17	50513	1	110		// KamienDuchowy
 	18	71094	1	110		// RadaPustelnika
@@ -464,8 +464,8 @@ Group	????????
 	4	71084	6	100		// Zmianki
 	5	71084	6	60		// Zmianki
 	6	50078	1	400		// Szkata Zjawy
-	7	25040	1	120		// Bodzio
-	8	25040	1	80		// Bodzio
+	7	25040	1	110		// Bodzio
+	8	25040	1	70		// Bodzio
 	9	50513	1	130		// KamienDuchowy
 	10	72724	1	200		// EliksirSlonca
 	11	72728	1	200		// EliksirKsiezyca
@@ -527,8 +527,8 @@ Group	????????
 	19	72040	2	200		// Inteligencja_boga_smokow
 	20	72040	1	200		// Inteligencja_boga_smokow
 	21	72040	1	200		// Inteligencja_boga_smokow
-	22	25040	1	160		// Bodzio
-	23	25040	1	80		// Bodzio
+	22	25040	1	120		// Bodzio
+	23	25040	1	70		// Bodzio
 	24	72728	1	200		// EliksirKsiezyca
 	25	72724	1	200		// EliksirSlonca
 	26	50513	1	160		// KamienDuchowy
@@ -548,25 +548,25 @@ Group	????????
 	40	70024	1	120		// MarmurBlogo
 	41	70024	1	120		// MarmurBlogo
 	42	70024	1	80		// MarmurBlogo
-	43	71094	1	110		// RadaPustelnika
+	43	71094	1	80		// RadaPustelnika
 	44	71094	1	80		// RadaPustelnika
 	45	71094	1	10		// RadaPustelnika
 	46	39032	1	1		// OwocZycia
 	47	39032	1	120		// Owoc Zycia
-	48	39032	1	120		// Owoc Zycia
+	48	39032	1	80		// Owoc Zycia
 	49	30156	1	80		// Dominacja
 	50	30152	1	206		// EliksirGildii
 	51	50155	1	206		// KluczRazador
 	52	39022	1	20		// Zw?j Boga Smok?w
-	53	27992	1	120		// BialaPerla
-	54	27992	1	100		// BialaPerla
-	55	27992	1	50		// BialaPerla
-	56	27993	1	120		// NiebieskaPerla
-	57	27993	1	100		// NiebieskaPerla
-	58	27993	1	50		// NiebieskaPerla
-	59	27994	1	120		// KrwawaPerla
-	60	27994	1	100		// KrwawaPerla
-	61	27994	1	50		// KrwawaPerla
+	53	27992	1	90		// BialaPerla
+	54	27992	1	50		// BialaPerla
+	55	27992	1	30		// BialaPerla
+	56	27993	1	90		// NiebieskaPerla
+	57	27993	1	50		// NiebieskaPerla
+	58	27993	1	30		// NiebieskaPerla
+	59	27994	1	90		// KrwawaPerla
+	60	27994	1	50		// KrwawaPerla
+	61	27994	1	30		// KrwawaPerla
 	62	25041	1	40		// MagicznyKamien
 	63	25041	1	1		// MagicznyKamien
 	64	50154	1	106		// Przepa pot
@@ -581,8 +581,8 @@ Group	?????
 	4	71084	6	100		// Zmianki
 	5	71084	6	60		// Zmianki
 	6	50079	1	400		// Szkata Krola
-	7	25040	1	140		// Bodzio
-	8	25040	1	80		// Bodzio
+	7	25040	1	110		// Bodzio
+	8	25040	1	70		// Bodzio
 	9	50513	1	130		// KamienDuchowy
 	10	72724	1	200		// EliksirSlonca
 	11	72728	1	200		// EliksirKsiezyca
@@ -597,7 +597,7 @@ Group	?????
 	20	70024	1	200		// MarmurBlogo
 	21	70024	1	200		// MarmurBlogo
 	22	70024	1	200		// MarmurBlogo
-	23	71094	1	110		// RadaPustelnika
+	23	71094	1	80		// RadaPustelnika
 	24	71094	1	45		// RadaPustelnika
 	25	71094	1	1		// RadaPustelnika
 	26	51501	2	206		// CorSurowe
@@ -644,8 +644,8 @@ Group	????????
 	19	72040	2	200		// Inteligencja_boga_smokow
 	20	72040	1	200		// Inteligencja_boga_smokow
 	21	72040	1	200		// Inteligencja_boga_smokow
-	22	25040	1	160		// Bodzio
-	23	25040	1	80		// Bodzio
+	22	25040	1	120		// Bodzio
+	23	25040	1	70		// Bodzio
 	24	72728	1	200		// EliksirKsiezyca
 	25	72724	1	200		// EliksirSlonca
 	26	50513	1	160		// KamienDuchowy
@@ -665,25 +665,25 @@ Group	????????
 	40	70024	1	120		// MarmurBlogo
 	41	70024	1	120		// MarmurBlogo
 	42	70024	1	80		// MarmurBlogo
-	43	71094	1	110		// RadaPustelnika
+	43	71094	1	80		// RadaPustelnika
 	44	71094	1	80		// RadaPustelnika
 	45	71094	1	10		// RadaPustelnika
 	46	39032	1	1		// OwocZycia
 	47	39032	1	120		// Owoc Zycia
-	48	39032	1	120		// Owoc Zycia
+	48	39032	1	80		// Owoc Zycia
 	49	30156	1	80		// Dominacja
 	50	30152	1	206		// EliksirGildii
 	51	50155	1	206		// KluczRazador
 	52	39022	1	20		// Zw?j Boga Smok?w
-	53	27992	1	120		// BialaPerla
-	54	27992	1	100		// BialaPerla
-	55	27992	1	50		// BialaPerla
-	56	27993	1	120		// NiebieskaPerla
-	57	27993	1	100		// NiebieskaPerla
-	58	27993	1	50		// NiebieskaPerla
-	59	27994	1	120		// KrwawaPerla
-	60	27994	1	100		// KrwawaPerla
-	61	27994	1	50		// KrwawaPerla
+	53	27992	1	90		// BialaPerla
+	54	27992	1	50		// BialaPerla
+	55	27992	1	30		// BialaPerla
+	56	27993	1	90		// NiebieskaPerla
+	57	27993	1	50		// NiebieskaPerla
+	58	27993	1	30		// NiebieskaPerla
+	59	27994	1	90		// KrwawaPerla
+	60	27994	1	50		// KrwawaPerla
+	61	27994	1	30		// KrwawaPerla
 	62	25041	1	40		// MagicznyKamien
 	63	25041	1	1		// MagicznyKamien
 	64	50154	1	106		// Przepa pot
@@ -698,8 +698,8 @@ Group	OlbrzymiDuchDrzewa
 	4	71084	9	100		// Zmianki
 	5	71084	9	60		// Zmianki
 	6	71084	9	20		// Zmianki
-	7	25040	1	120		// Bodzio
-	8	25040	1	80		// Bodzio
+	7	25040	1	110		// Bodzio
+	8	25040	1	60		// Bodzio
 	9	39032	1	140		// Owoc Zycia
 	10	71094	1	110		// RadaPustelnika
 	11	71094	1	60		// RadaPustelnika
@@ -796,7 +796,7 @@ Group	Setaou-General2
 	53	71094	1	75		// RadaPustelnika
 	54	71094	1	75		// RadaPustelnika
 	55	39032	1	120		// Owoc Zycia
-	56	39032	1	120		// Owoc Zycia
+	56	39032	1	80		// Owoc Zycia
 	57	39022	1	50		// Zwoj Boga Smokow
 	58	30553	1	32		// Krysztal Groty
 }
@@ -826,10 +826,10 @@ Group	????????????
 	20	51501	2	206		// CorSurowe
 	21	51501	2	206		// CorSurowe
 	22	51501	2	206		// CorSurowe
-	23	51508	2	206		// CorRzadki
-	24	51508	2	206		// CorRzadki
-	25	51508	2	206		// CorRzadki
-	26	51508	2	206		// CorRzadki
+	23	51508	2	165		// CorRzadki
+	24	51508	2	165		// CorRzadki
+	25	51508	2	165		// CorRzadki
+	26	51508	2	165		// CorRzadki
 	27	72726	1	120		// ElikrSloncaS
 	28	72730	1	120		// EliksirKsiezycaS
 	29	70024	1	120		// MarmurBlogo
@@ -838,15 +838,15 @@ Group	????????????
 	32	71094	1	80		// RadaPustelnika
 	33	71094	1	80		// RadaPustelnika
 	34	30156	1	100		// Dominacja
-	35	27994	1	200		// KrwawaPerla
-	36	27994	1	150		// KrwawaPerla
-	37	27994	1	100		// KrwawaPerla
-	38	27993	1	200		// NiebieskaPerla
-	39	27993	1	150		// NiebieskaPerla
-	40	27993	1	100		// NiebieskaPerla
-	41	27992	1	200		// BialaPerla
-	42	27992	1	150		// BialaPerla
-	43	27992	1	100		// BialaPerla
+	35	27994	1	180		// KrwawaPerla
+	36	27994	1	80		// KrwawaPerla
+	37	27994	1	30		// KrwawaPerla
+	38	27993	1	180		// NiebieskaPerla
+	39	27993	1	80		// NiebieskaPerla
+	40	27993	1	30		// NiebieskaPerla
+	41	27992	1	180		// BialaPerla
+	42	27992	1	80		// BialaPerla
+	43	27992	1	30		// BialaPerla
 	44	30152	1	206		// EliksirGildii
 	45	50156	1	68		// Hydra-Przepustka
 	46	25041	1	55		// MagicznyKamien
@@ -880,12 +880,12 @@ Group	????????????
 	17	51501	2	206		// CorSurowe
 	18	51501	2	206		// CorSurowe
 	19	51501	2	206		// CorSurowe
-	20	51508	2	206		// CorRzadki
-	21	51508	2	206		// CorRzadki
-	22	51508	2	206		// CorRzadki
-	23	51508	2	206		// CorRzadki
-	24	51508	2	206		// CorRzadki
-	25	51508	2	206		// CorRzadki
+	20	51508	2	170		// CorRzadki
+	21	51508	2	170		// CorRzadki
+	22	51508	2	170		// CorRzadki
+	23	51508	2	170		// CorRzadki
+	24	51508	2	170		// CorRzadki
+	25	51508	2	170		// CorRzadki
 	26	71018	5	120		// Seta
 	27	71018	5	120		// Seta
 	28	71018	5	120		// Seta
@@ -901,17 +901,17 @@ Group	????????????
 	38	72726	1	60		// ElikrSloncaS
 	39	72730	1	60		// EliksirKsiezycaS
 	40	27994	1	200		// KrwawaPerla
-	41	27994	1	150		// KrwawaPerla
-	42	27994	1	100		// KrwawaPerla
-	43	27994	1	60		// KrwawaPerla
+	41	27994	1	100		// KrwawaPerla
+	42	27994	1	50		// KrwawaPerla
+	43	27994	1	2		// KrwawaPerla
 	44	27993	1	200		// NiebieskaPerla
-	45	27993	1	150		// NiebieskaPerla
-	46	27993	1	100		// NiebieskaPerla
-	47	27993	1	60		// NiebieskaPerla
+	45	27993	1	100		// NiebieskaPerla
+	46	27993	1	50		// NiebieskaPerla
+	47	27993	1	2		// NiebieskaPerla
 	48	27992	1	200		// BialaPerla
-	49	27992	1	150		// BialaPerla
-	50	27992	1	100		// BialaPerla
-	51	27992	1	60		// BialaPerla
+	49	27992	1	100		// BialaPerla
+	50	27992	1	50		// BialaPerla
+	51	27992	1	2		// BialaPerla
 	52	50156	1	155		// Hydra-Przepustka
 	53	25041	1	65		// MagicznyKamien
 	54	25041	1	5		// MagicznyKamien
@@ -930,7 +930,7 @@ Group	?????
 	3	71084	3	120		// Zmianki
 	4	71084	2	100		// Zmianki
 	5	71084	2	60		// Zmianki
-	6	25040	1	100		// Bodzio
+	6	25040	1	80		// Bodzio
 	7	25040	1	15		// Bodzio
 	8	72031	1	200		// Atak
 	9	72034	1	200		// Obrona
@@ -966,7 +966,7 @@ Group	?????
 	3	71084	4	120		// Zmianki
 	4	71084	3	100		// Zmianki
 	5	71084	2	60		// Zmianki
-	6	25040	1	110		// Bodzio
+	6	25040	1	80		// Bodzio
 	7	25040	1	20		// Bodzio
 	8	72031	1	200		// Atak
 	9	72034	1	30		// Obrona
@@ -1007,7 +1007,7 @@ Group	?????
 	3	71084	5	120		// Zmianki
 	4	71084	4	100		// Zmianki
 	5	71084	3	60		// Zmianki
-	6	25040	1	115		// Bodzio
+	6	25040	1	80		// Bodzio
 	7	25040	1	30		// Bodzio
 	8	72031	1	200		// Atak
 	9	72034	1	70		// Obrona
@@ -1050,8 +1050,8 @@ Group	?????
 	3	71084	5	120		// Zmianki
 	4	71084	4	100		// Zmianki
 	5	71084	3	60		// Zmianki
-	6	25040	1	120		// Bodzio
-	7	25040	1	50		// Bodzio
+	6	25040	1	90		// Bodzio
+	7	25040	1	40		// Bodzio
 	8	50513	1	80		// KamienDuchowy
 	9	50513	1	4		// KamienDuchowy
 	10	72724	1	200		// EliksirSlonca
@@ -1164,7 +1164,7 @@ Group	????
 	8	71044	1	60		// DlonKrytyka
 	9	71045	1	60		// DlonPrzebicia
 	10	27989	1	10		// Wykrywacz
-	11	25040	1	5		// Bodzio
+	11	25040	1	3.5		// Bodzio
 	12	39008	1	9		// Egzo
 	13	11231	1	100		// Lwia Zbroja P?ytowa
 	14	11431	1	100		// Czer. Ubranie Mr?wki
@@ -1186,8 +1186,8 @@ Group	?????
 	8	71044	1	60		// DlonKrytyka
 	9	71045	1	60		// DlonPrzebicia
 	10	27989	1	10		// Wykrywacz
-	11	25040	1	6		// Bodzio
-	12	39008	1	9		// Egzo
+	11	25040	1	4.5		// Bodzio
+	12	39008	1	10		// Egzo
 	13	11240	1	100		// ?miert. Zbroja P?ytowa
 	14	11440	1	100		// Ubranie Lwiej Mr?wki
 	15	11840	1	100		// Szata Zach. Nieba
@@ -1207,8 +1207,8 @@ Group	??????
 	8	71044	1	100		// DlonKrytyka
 	9	71045	1	100		// DlonPrzebicia
 	10	27989	1	13		// Wykrywacz
-	11	25040	1	8		// Bodzio
-	12	39008	1	11		// Egzo
+	11	25040	1	6		// Bodzio
+	12	39008	1	12		// Egzo
 	13	81		1	50		// Miecz Poltorareczny
 	14	82		1	25		// Miecz Poltorareczny
 	15	3071	1	50		// Halabarda
@@ -1237,9 +1237,9 @@ Group	?????
 	8	71044	1	110		// DlonKrytyka
 	9	71045	1	110		// DlonPrzebicia
 	10	27989	1	13		// Wykrywacz
-	11	25040	1	10		// Bodzio
-	12	39008	1	12		// Egzo
-	13	50513	1	12		// KamienDuchowy
+	11	25040	1	8		// Bodzio
+	12	39008	1	13		// Egzo
+	13	50513	1	7		// KamienDuchowy
 	14	38050	1	22		// SkrzyniaMocy
 	15	50151	1	13.5		// KluczOrkowy
 	16	11250	1	50		// Smocza Zbroja P?ytowa
@@ -1269,10 +1269,10 @@ Group	??????
 	8	71044	1	112		// DlonKrytyka
 	9	71045	1	112		// DlonPrzebicia
 	10	27989	1	15		// Wykrywacz
-	11	25040	1	10		// Bodzio
-	12	39008	1	13		// Egzo
+	11	25040	1	8		// Bodzio
+	12	39008	1	14		// Egzo
 	13	38050	1	22.5		// SkrzyniaMocy
-	14	50513	1	12		// KamienDuchowy
+	14	50513	1	7		// KamienDuchowy
 	15	50151	1	13.5		// KluczOrkowy
 	16	11250	1	90		// Smocza Zbroja P?ytowa
 	17	11450	1	90		// Ubranie Zab?jcy
@@ -1303,10 +1303,10 @@ Group	??????
 	8	71044	1	114		// DlonKrytyka
 	9	71045	1	114		// DlonPrzebicia
 	10	27989	1	15		// Wykrywacz
-	11	25040	1	12		// Bodzio
-	12	39008	1	14		// Egzo
+	11	25040	1	10		// Bodzio
+	12	39008	1	15		// Egzo
 	13	38050	1	23		// SkrzyniaMocy
-	14	50513	1	14		// KamienDuchowy
+	14	50513	1	8		// KamienDuchowy
 	15	50151	1	19		// KluczOrkowy
 	16	11260	1	50		// Zbroja P?ytowa Z ?usek+0
 	17	11460	1	50		// Ubranie M?odego Smoka+0
@@ -1337,11 +1337,11 @@ Group	?????
 	8	71044	1	114		// DlonKrytyka
 	9	71045	1	114		// DlonPrzebicia
 	10	27989	1	15		// Wykrywacz
-	11	25040	1	12		// Bodzio
-	12	39008	1	14		// Egzo
+	11	25040	1	10		// Bodzio
+	12	39008	1	15		// Egzo
 	13	38050	1	24		// SkrzyniaMocy
 	14	50151	1	6		// KluczOrkowy
-	15	50513	1	14		// KamienDuchowy
+	15	50513	1	8		// KamienDuchowy
 	16	30324	1	9.7		// Klucz Baronka
 	17	11260	1	60		// Zbroja P?ytowa Z ?usek+0
 	18	11460	1	60		// Ubranie M?odego Smoka+0
@@ -1373,10 +1373,10 @@ Group	????
 	9	71045	1	116		// DlonPrzebicia
 	10	27989	1	15		// Wykrywacz
 	11	72002	1	18		// PD 30 min
-	12	25040	1	14		// Bodzio
+	12	25040	1	12		// Bodzio
 	13	39008	1	15		// Egzo
 	14	38050	1	25		// SkrzyniaMocy
-	15	50513	1	14		// KamienDuchowy
+	15	50513	1	8		// KamienDuchowy
 	16	30324	1	13		// Klucz Baronka
 	17	11270	1	50		// Z?ota Zbroja P?ytowa+0
 	18	11470	1	50		// Ubranie Zab?j. Wiatru+0
@@ -1408,9 +1408,9 @@ Group	????
 	9	71045	1	120		// DlonPrzebicia
 	10	27989	1	20		// Wykrywacz
 	11	72002	1	23		// PD 30 min
-	12	25040	1	14		// Bodzio
-	13	39008	1	16		// Egzo
-	14	50513	1	15		// KamienDuchowy
+	12	25040	1	12		// Bodzio
+	13	39008	1	17		// Egzo
+	14	50513	1	9		// KamienDuchowy
 	15	38050	1	26		// SkrzyniaMocy
 	16	30324	1	17.7	// Klucz Baronka
 	17	11270	1	55		// Z?ota Zbroja P?ytowa+0
@@ -1439,10 +1439,10 @@ Group	????
 	9	71045	1	125		// DlonPrzebicia
 	10	27989	1	20		// Wykrywacz
 	11	72002	1	27		// PD 30 min
-	12	25040	1	16		// Bodzio
-	13	39008	1	18		// Egzo
+	12	25040	1	14		// Bodzio
+	13	39008	1	19		// Egzo
 	14	38050	1	30		// SkrzyniaMocy
-	15	50513	1	16		// KamienDuchowy
+	15	50513	1	10		// KamienDuchowy
 	16	50152	1	3.1		// Klucz DT
 	17	11280	1	45		// Zbroja Boga Smok?w+0
 	18	11480	1	45		// Ubranie Fuksyjne+0
@@ -1471,10 +1471,10 @@ Group	?????
 	9	71045	1	160		// DlonPrzebicia
 	10	27989	1	25		// Wykrywacz
 	11	72002	1	33		// PD 30 min
-	12	25040	1	18		// Bodzio
+	12	25040	1	16		// Bodzio
 	13	38050	1	32		// SkrzyniaMocy
-	14	39008	1	21		// Egzo
-	15	50513	1	18		// KamienDuchowy
+	14	39008	1	22		// Egzo
+	15	50513	1	11		// KamienDuchowy
 	16	50152	1	4.3		// Klucz DT
 	17	70043	1	35		// R?kawica2Godziny
 	18	11280	1	45		// Zbroja Boga Smok?w+0
@@ -1510,9 +1510,9 @@ Group	?????
 	10	27989	1	25		// Wykrywacz
 	11	72002	1	38		// PD 30 min
 	12	38050	1	35		// SkrzyniaMocy
-	13	25040	1	18		// Bodzio
-	14	39008	1	21		// Egzo
-	15	50513	1	18		// KamienDuchowy
+	13	25040	1	16		// Bodzio
+	14	39008	1	22		// Egzo
+	15	50513	1	11		// KamienDuchowy
 	16	50152	1	4.3		// Klucz DT
 	17	70043	1	35		// R?kawica2Godziny
 	18	11280	1	45		// Zbroja Boga Smok?w+0
@@ -1555,9 +1555,9 @@ Group	????
 	11	39002	1	24		// PD1Godzina
 	12	70043	1	35		// R?kawica2Godziny
 	13	38050	1	37		// SkrzyniaMocy
-	14	25040	1	22		// Bodzio
-	15	39008	1	26		// Egzo
-	16	50513	1	19		// KamienDuchowy
+	14	25040	1	20		// Bodzio
+	15	39008	1	27		// Egzo
+	16	50513	1	13		// KamienDuchowy
 	17	70101	1	8		// Metinologia
 	18	160		1	55		// Miecz Nimfy
 	19	161		1	35		// Miecz Nimfy
@@ -1598,9 +1598,9 @@ Group	????
 	11	39002	1	26		// PD1Godzina
 	12	70043	1	35		// R?kawica2Godziny
 	13	38050	1	37		// SkrzyniaMocy
-	14	25040	1	22		// Bodzio
-	15	39008	1	26		// Egzo
-	16	50513	1	19		// KamienDuchowy
+	14	25040	1	20		// Bodzio
+	15	39008	1	27		// Egzo
+	16	50513	1	13		// KamienDuchowy
 	17	70101	1	8		// Metinologia
 	18	140		1	60		// Miecz Bojowy
 	19	141		1	33		// Miecz Bojowy
@@ -1640,9 +1640,9 @@ Group	MetinAV1
 	10	39002	1	29		// PD1Godzina
 	11	70043	1	40		// R?kawica2Godziny
 	12	38050	1	40		// Skrzynia Mocy
-	13	25040	1	26		// Zwoj Blogoslawienstwa
+	13	25040	1	24		// Zwoj Blogoslawienstwa
 	14	39008	1	37		// Zwoj Egzorcyzmu
-	15	50513	1	23		// Kamien Duchowy
+	15	50513	1	15		// Kamien Duchowy
 	16	30190	1	2		// Krwisty Kamien
 	17	70101	1	10		// Metinologia
 	18	30319	1	8		// Zasuszona Głowa
@@ -1662,9 +1662,9 @@ Group	MetinAV2
 	9	27989	1	40		// Wykrywacz
 	10	39002	1	32		// PD1Godzina
 	11	70043	1	40		// R?kawica2Godziny
-	12	50513	1	23		// Kamien Duchowy
+	12	50513	1	15		// Kamien Duchowy
 	13	38050	1	40		// Skrzynia Mocy
-	14	25040	1	27		// Zwoj Blogoslawienstwa
+	14	25040	1	24		// Zwoj Blogoslawienstwa
 	15	39008	1	38		// Zwoj Egzorcyzmu
 	16	30190	1	3		// Krwisty Kamien
 	17	30179	1	10		// Krety Klucz
@@ -1685,12 +1685,13 @@ Group	WawozSmierci
 	9	27989	1	50		// Wykrywacz
 	10	39002	1	40		// PD1Godzina
 	11	70043	1	45		// R?kawica2Godziny
-	12	50513	1	26		// Kamien Duchowy
+	12	50513	1	17		// Kamien Duchowy
 	13	38050	1	45		// Skrzynia Mocy
-	14	25040	1	34		// Zwoj Blogoslawienstwa
+	14	25040	1	30		// Zwoj Blogoslawienstwa
 	15	39008	1	45		// Zwoj Egzorcyzmu
 	16	70101	1	14		// Metinologia
 	17	70024	1	50		// Marmur Blog
+	18	50154	1	4		// Przepa
 }
 Group	Orkowy
 {
@@ -1705,8 +1706,8 @@ Group	Orkowy
 	6	51501	1	100		// CorSurowy
 	7	51501	1	60		// CorSurowy
 	8	71094	1	45		// Rada
-	9	25040	1	60		// Bodzio
-	10	25040	1	50		// Bodzio
+	9	25040	1	98		// Bodzio
+	10	25040	1	1		// Bodzio
 	11	71107	1	100		// FasolkaZen
 	12	30266	1	10		// KielWodza
 	13	13044	1	10		// Okragla
@@ -1778,22 +1779,21 @@ Group	Ripper
 	10	51501	1	50		// CorSurowe
 	11	51501	1	20		// CorSurowe
 	12	51501	1	5		// CorSurowe
-	13	71094	1	98		// Rada
+	13	71094	1	80		// Rada
 	14	25040	1	98		// Bodzio
 	15	25040	1	40		// Bodzio
 	16	25040	1	20		// Bodzio
-	17	25040	1	5		// Bodzio
-	18	71107	1	100		// FasolkaZen
-	19	71107	1	30		// FasolkaZen
-	20	30319	1	30		// Zasuszona
-	21	100300	1	75		// ZielonaFasolka
-	22	71035	1	5		// EliksirPoszukiwacza
-	23	30154	1	10		// Potworologia
-	24	71158	1	15		// MedalBohatera
-	25	30152	1	1		// EliksirGildii
-	26	39022	1	5		// Zwoj Boga Smokow
-	27	70024	1	65		// piecbon
-	28	70024	1	6		// piecbon
+	17	71107	1	100		// FasolkaZen
+	18	71107	1	30		// FasolkaZen
+	19	30319	1	30		// Zasuszona
+	20	100300	1	75		// ZielonaFasolka
+	21	71035	1	5		// EliksirPoszukiwacza
+	22	30154	1	10		// Potworologia
+	23	71158	1	15		// MedalBohatera
+	24	30152	1	1		// EliksirGildii
+	25	39022	1	5		// Zwoj Boga Smokow
+	26	70024	1	65		// piecbon
+	27	70024	1	6		// piecbon
 }
 Group	Azrael
 {
@@ -7030,133 +7030,133 @@ Group Amulet-Orka
 {
 	Mob 651
 	Type drop
-	1	30007	1	2
+	1	30007	1	1.5
 }
 Group Amulet-Orka
 {
 	Mob 631
 	Type drop
-	1	30007	1	2
+	1	30007	1	1.5
 }
 Group Amulet-Orka+
 {
 	Mob 655
 	Type drop
-	1	30076	1	2
+	1	30076	1	1.5
 }
 Group Amulet-Orka+
 {
 	Mob 652
 	Type drop
-	1	30076	1	2
+	1	30076	1	1.5
 }
 Group Amulet-Orka+
 {
 	Mob 633
 	Type drop
-	1	30076	1	2
+	1	30076	1	1.5
 }
 Group Amulet-Orka+
 {
 	Mob 632
 	Type drop
-	1	30076	1	2
+	1	30076	1	1.5
 }
 Group Amulet-Orka+
 {
 	Mob 635
 	Type drop
-	1	30076	1	2
+	1	30076	1	1.5
 }
 Group Amulet-Orka+
 {
 	Mob 651
 	Type drop
-	1	30076	1	2
+	1	30076	1	1.5
 }
 Group Amulet-Orka+
 {
 	Mob 631
 	Type drop
-	1	30076	1	2
+	1	30076	1	1.5
 }
 Group Biala-Wstega
 {
 	Mob 302
 	Type drop
-	1	30034	1	1.5
+	1	30034	1	1
 }
 Group Biala-Wstega
 {
 	Mob 301
 	Type drop
-	1	30034	1	1.5
+	1	30034	1	1
 }
 Group Biala-Wstega
 {
 	Mob 392
 	Type drop
-	1	30034	1	1.5
+	1	30034	1	1
 }
 Group Biala-Wstega
 {
 	Mob 352
 	Type drop
-	1	30034	1	1.5
+	1	30034	1	1
 }
 Group Biala-Wstega
 {
 	Mob 393
 	Type drop
-	1	30034	1	1.5
+	1	30034	1	1
 }
 Group Biala-Wstega+
 {
 	Mob 394
 	Type drop
-	1	30073	1	1.5
+	1	30073	1	1
 }
 Group Biala-Wstega+
 {
 	Mob 398
 	Type drop
-	1	30073	1	1.5
+	1	30073	1	1
 }
 Group Biala-Wstega+
 {
 	Mob 304
 	Type drop
-	1	30073	1	1.5
+	1	30073	1	1
 }
 Group Biala-Wstega+
 {
 	Mob 303
 	Type drop
-	1	30073	1	1.5
+	1	30073	1	1
 }
 Group Biala-Wstega+
 {
 	Mob 392
 	Type drop
-	1	30073	1	1.5
+	1	30073	1	1
 }
 Group Czarny-Uniform
 {
 	Mob 401
 	Type drop
-	1	30032	1	3
+	1	30032	1	2
 }
 Group Czarny-Uniform
 {
 	Mob 402
 	Type drop
-	1	30032	1	3
+	1	30032	1	2
 }
 Group Czarny-Uniform+
 {
 	Mob 402
 	Type drop
-	1	30074	1	3
+	1	30074	1	2
 }
 Group Czerwona-Wstega
 {
@@ -7180,37 +7180,37 @@ Group Ezoteryczny-Przewodnik
 {
 	Mob 701
 	Type drop
-	1	30008	1	3
+	1	30008	1	2
 }
 Group Ezoteryczny-Przewodnik
 {
 	Mob 751
 	Type drop
-	1	30008	1	3
+	1	30008	1	2
 }
 Group Ezoteryczny-Przewodnik+
 {
 	Mob 702
 	Type drop
-	1	30078	1	3
+	1	30078	1	2
 }
 Group Ezoteryczny-Przewodnik+
 {
 	Mob 707
 	Type drop
-	1	30078	1	3
+	1	30078	1	2
 }
 Group Flaga
 {
 	Mob 503
 	Type drop
-	1	30052	1	4.5
+	1	30052	1	3.5
 }
 Group Flaga
 {
 	Mob 553
 	Type drop
-	1	30052	1	4.5
+	1	30052	1	3.5
 }
 Group	FutroBia?egoTygrysa
 {
@@ -7288,25 +7288,25 @@ Group Futro-Yeti
 {
 	Mob 1104
 	Type drop
-	1	30014	1	2.5
+	1	30014	1	2
 }
 Group Futro-Yeti
 {
 	Mob 1134
 	Type drop
-	1	30014	1	2.5
+	1	30014	1	2
 }
 Group Futro-Yeti+
 {
 	Mob 1105
 	Type drop
-	1	30089	1	2.5
+	1	30089	1	2
 }
 Group Futro-Yeti+
 {
 	Mob 1135
 	Type drop
-	1	30089	1	2.5
+	1	30089	1	2
 }
 Group Igla-Skorpiona
 {
@@ -7324,85 +7324,85 @@ Group J?zyk?aby
 {
 	Mob 1301
 	Type drop
-	1	30060	1	3
+	1	30060	1	2.5
 }
 Group Kawa?ek-Klejnotu
 {
 	Mob 454
 	Type drop
-	1	30021	1	3
+	1	30021	1	2.5
 }
 Group Kawa?ek-Klejnotu
 {
 	Mob 404
 	Type drop
-	1	30021	1	3
+	1	30021	1	2.5
 }
 Group Kawa?ek-Klejnotu
 {
 	Mob 456
 	Type drop
-	1	30021	1	3
+	1	30021	1	2.5
 }
 Group Kawa?ek-Lodu
 {
 	Mob 1101
 	Type drop
-	1	30048	1	3
+	1	30048	1	2.5
 }
 Group Kawa?ek-Lodu
 {
 	Mob 1171
 	Type drop
-	1	30048	1	3
+	1	30048	1	2.5
 }
 Group Kawa?ek-Lodu+
 {
 	Mob 1103
 	Type drop
-	1	30088	1	3
+	1	30088	1	2.5
 }
 Group Kawa?ek-Lodu+
 {
 	Mob 1133
 	Type drop
-	1	30088	1	3
+	1	30088	1	2.5
 }
 Group Kawa?ekP??tna
 {
 	Mob 904
 	Type drop
-	1	30039	1	4
+	1	30039	1	3
 }
 Group Kawa?ekP??tna+
 {
 	Mob 905
 	Type drop
-	1	30085	1	4
+	1	30085	1	3
 }
 Group Kawa?ekZepsutejZbroi
 {
 	Mob 455
 	Type drop
-	1	30005	1	2
+	1	30005	1	1.5
 }
 Group Kawa?ekZepsutejZbroi
 {
 	Mob 404
 	Type drop
-	1	30005	1	2
+	1	30005	1	1.5
 }
 Group Kawa?ekZepsutejZbroi
 {
 	Mob 405
 	Type drop
-	1	30005	1	2
+	1	30005	1	1.5
 }
 Group Kawa?ekZepsutejZbroi
 {
 	Mob 431
 	Type drop
-	1	30005	1	2
+	1	30005	1	1.5
 }
 Group K??b
 {
@@ -7480,49 +7480,49 @@ Group KsKlatw+
 {
 	Mob 773
 	Type drop
-	1	30080	1	2
+	1	30080	1	1.7
 }
 Group KsKlatw+
 {
 	Mob 775
 	Type drop
-	1	30080	1	2
+	1	30080	1	1.7
 }
 Group KsKlatw+
 {
 	Mob 735
 	Type drop
-	1	30080	1	2
+	1	30080	1	1.7
 }
 Group KsKlatw+
 {
 	Mob 736
 	Type drop
-	1	30080	1	2
+	1	30080	1	1.7
 }
 Group KsKlatw+
 {
 	Mob 776
 	Type drop
-	1	30080	1	2
+	1	30080	1	1.7
 }
 Group KsKlatw+
 {
 	Mob 777
 	Type drop
-	1	30080	1	2
+	1	30080	1	1.7
 }
 Group Li??
 {
 	Mob 1301
 	Type drop
-	1	30040	1	2.4
+	1	30040	1	2
 }
 Group Li??
 {
 	Mob 1303
 	Type drop
-	1	30040	1	2.4
+	1	30040	1	2
 }
 Group LodowaKulka
 {
@@ -7534,13 +7534,13 @@ Group LodowaKulka+
 {
 	Mob 1106
 	Type drop
-	1	30090	1	2.4
+	1	30090	1	2
 }
 Group LodowyR?gWieloryba
 {
 	Mob 1102
 	Type drop
-	1	30049	1	3
+	1	30049	1	2
 }
 Group Nied?wiedziaSk?ra
 {
@@ -7594,67 +7594,67 @@ Group Nieznane-Lekarstwo
 {
 	Mob 902
 	Type drop
-	1	30009	1	4
+	1	30009	1	3
 }
 Group Nieznane-Lekarstwo
 {
 	Mob 901
 	Type drop
-	1	30009	1	4
+	1	30009	1	3
 }
 Group Nieznane-Lekarstwo
 {
 	Mob 931
 	Type drop
-	1	30009	1	4
+	1	30009	1	3
 }
 Group Nieznane-Lekarstwo+
 {
 	Mob 902
 	Type drop
-	1	30083	1	4
+	1	30083	1	3
 }
 Group Nieznane-Lekarstwo+
 {
 	Mob 903
 	Type drop
-	1	30083	1	4
+	1	30083	1	3
 }
 Group Nieznane-Lekarstwo+
 {
 	Mob 933
 	Type drop
-	1	30083	1	4
+	1	30083	1	3
 }
 Group Nieznany-Talizman
 {
 	Mob 704
 	Type drop
-	1	30051	1	4
+	1	30051	1	3
 }
 Group Nieznany-Talizman+
 {
 	Mob 755
 	Type drop
-	1	30079	1	2.3
+	1	30079	1	2
 }
 Group Nieznany-Talizman+
 {
 	Mob 734
 	Type drop
-	1	30079	1	2.3
+	1	30079	1	2
 }
 Group Nieznany-Talizman+
 {
 	Mob 705
 	Type drop
-	1	30079	1	2.3
+	1	30079	1	2
 }
 Group Nieznany-Talizman+
 {
 	Mob 774
 	Type drop
-	1	30079	1	2.3
+	1	30079	1	2
 }
 Group Nogi-Pajaka
 {
@@ -7739,13 +7739,13 @@ Group Pajecza-Siec
 {
 	Mob 2052
 	Type drop
-	1	30056	1	3
+	1	30056	1	2
 }
 Group Pajecza-Siec
 {
 	Mob 2002
 	Type drop
-	1	30056	1	3
+	1	30056	1	2
 }
 Group Skora-Weza
 {
@@ -7787,37 +7787,37 @@ Group Shuriken
 {
 	Mob 502
 	Type drop
-	1	30041	1	1.5
+	1	30041	1	1
 }
 Group Shuriken
 {
 	Mob 501
 	Type drop
-	1	30041	1	1.5
+	1	30041	1	1
 }
 Group Shuriken+
 {
 	Mob 531
 	Type drop
-	1	30075	1	7
+	1	30075	1	5
 }
 Group Shuriken+
 {
 	Mob 532
 	Type drop
-	1	30075	1	7
+	1	30075	1	5
 }
 Group Shuriken+
 {
 	Mob 533
 	Type drop
-	1	30075	1	7
+	1	30075	1	5
 }
 Group Shuriken+
 {
 	Mob 534
 	Type drop
-	1	30075	1	7
+	1	30075	1	5
 }
 Group Symbol-Wojownika
 {
@@ -7895,49 +7895,49 @@ Group Z?b-Orka
 {
 	Mob 601
 	Type drop
-	1	30006	1	1.4
+	1	30006	1	1
 }
 Group Z?b-Orka
 {
 	Mob 602
 	Type drop
-	1	30006	1	1.4
+	1	30006	1	1
 }
 Group Z?b-Orka
 {
 	Mob 636
 	Type drop
-	1	30006	1	1.4
+	1	30006	1	1
 }
 Group Z?b-Orka
 {
 	Mob 656
 	Type drop
-	1	30006	1	1.4
+	1	30006	1	1
 }
 Group Z?b-Orka+
 {
 	Mob 657
 	Type drop
-	1	30077	1	2.3
+	1	30077	1	2
 }
 Group Z?b-Orka+
 {
 	Mob 637
 	Type drop
-	1	30077	1	2.3
+	1	30077	1	2
 }
 Group ?abie-Udka
 {
 	Mob 1302
 	Type drop
-	1	30116	1	3
+	1	30116	1	2.5
 }
 Group ?abie-Udka
 {
 	Mob 1332
 	Type drop
-	1	30116	1	3
+	1	30116	1	2.5
 }
 Group ???
 {
@@ -8858,7 +8858,7 @@ Group Scrofa
 	9	3044	1	15		// Gizarma+4
 	10	1024	1	15		// Sztylet No?ycowy+4
 	11	5024	1	15		// Z?oty Dzwon+4
-	12	25040	1	8		// Zwoj Blogoslawienstwa
+	12	25040	1	4		// Zwoj Blogoslawienstwa
 }
 Group Bera
 {
@@ -8875,7 +8875,7 @@ Group Bera
 	9	3044	1	15		// Gizarma+4
 	10	1024	1	15		// Sztylet No?ycowy+4
 	11	5024	1	15		// Z?oty Dzwon+4
-	12	25040	1	8		// Zwoj Blogoslawienstwa
+	12	25040	1	4		// Zwoj Blogoslawienstwa
 }
 Group Tigris
 {
@@ -8892,7 +8892,7 @@ Group Tigris
 	9	3044	1	15		// Gizarma+4
 	10	1024	1	15		// Sztylet No?ycowy+4
 	11	5024	1	15		// Z?oty Dzwon+4
-	12	25040	1	8		// Zwoj Blogoslawienstwa
+	12	25040	1	4		// Zwoj Blogoslawienstwa
 }
 Group CungMok
 {
@@ -9492,24 +9492,24 @@ Group	Wrozka
 	61	39022	1	40		// Zwój Boga Smoków
 	62	39022	1	40		// Zwój Boga Smoków
 	63	39022	1	40		// Zwój Boga Smoków
-	64	71035	1	40		// EliksirPoszukiwacza
-	65	71035	1	40		// EliksirPoszukiwacza
-	66	71035	1	40		// EliksirPoszukiwacza
-	67	71035	1	40		// EliksirPoszukiwacza
-	68	71035	1	40		// EliksirPoszukiwacza
-	69	71035	1	40		// EliksirPoszukiwacza
-	70	71035	1	40		// EliksirPoszukiwacza
-	71	71035	1	40		// EliksirPoszukiwacza
-	72	71035	1	40		// EliksirPoszukiwacza
+	64	71035	1	30		// EliksirPoszukiwacza
+	65	71035	1	30		// EliksirPoszukiwacza
+	66	71035	1	30		// EliksirPoszukiwacza
+	67	71035	1	30		// EliksirPoszukiwacza
+	68	71035	1	30		// EliksirPoszukiwacza
+	69	71035	1	30		// EliksirPoszukiwacza
+	70	71035	1	30		// EliksirPoszukiwacza
+	71	71035	1	30		// EliksirPoszukiwacza
+	72	71035	1	30		// EliksirPoszukiwacza
 	73	71158	1	100		// MedalBohatera
 	74	71158	1	100		// MedalBohatera
 	75	71158	1	100		// MedalBohatera
 	76	71158	1	100		// MedalBohatera
-	77	71017	1	100		// MedalSzczescia
-	78	71017	1	100		// MedalSzczescia
-	79	71017	1	100		// MedalSzczescia
-	80	71017	1	100		// MedalSzczescia
-	81	71017	1	100		// MedalSzczescia
+	77	71017	1	50		// MedalSzczescia
+	78	71017	1	50		// MedalSzczescia
+	79	71017	1	50		// MedalSzczescia
+	80	71017	1	50		// MedalSzczescia
+	81	71017	1	50		// MedalSzczescia
 	82	30555	1	40		// Zlota Perla
 	83	30555	1	40		// Zlota Perla
 	84	30555	1	40		// Zlota Perla
@@ -9582,15 +9582,15 @@ Group	Wrozka
 	151	70024	3	90		// piecbon
 	152	70024	3	90		// piecbon
 	153	70024	3	90		// piecbon
-	154	50513	2	40		// KamienDuchowy
-	155	50513	2	40		// KamienDuchowy
-	156	50513	2	40		// KamienDuchowy
-	157	50513	2	40		// KamienDuchowy
-	158	50513	2	40		// KamienDuchowy
-	159	50513	2	40		// KamienDuchowy
-	160	50513	2	40		// KamienDuchowy
-	161	50513	2	40		// KamienDuchowy
-	162	50513	2	40		// KamienDuchowy
+	154	50513	2	30		// KamienDuchowy
+	155	50513	2	30		// KamienDuchowy
+	156	50513	2	30		// KamienDuchowy
+	157	50513	2	30		// KamienDuchowy
+	158	50513	2	30		// KamienDuchowy
+	159	50513	2	30		// KamienDuchowy
+	160	50513	2	30		// KamienDuchowy
+	161	50513	2	30		// KamienDuchowy
+	162	50513	2	30		// KamienDuchowy
 	163	30179	2	50		// krety klucz
 	164	30179	2	50		// krety klucz
 	165	30179	2	50		// krety klucz
@@ -9651,42 +9651,42 @@ Group	Wobba
 	43	25040	5	80		// Bodzio
 	44	25040	5	80		// Bodzio
 	45	25040	5	80		// Bodzio
-	46	39022	3	60		// Zw?j Boga Smok?w
-	47	39022	3	60		// Zw?j Boga Smok?w
-	48	39022	3	60		// Zw?j Boga Smok?w
-	49	39022	3	60		// Zw?j Boga Smok?w
-	50	39022	3	60		// Zw?j Boga Smok?w
-	51	39022	3	60		// Zw?j Boga Smok?w
-	52	39022	3	60		// Zw?j Boga Smok?w
-	53	39022	3	60		// Zw?j Boga Smok?w
-	54	39022	3	60		// Zw?j Boga Smok?w
-	55	39007	1	60		// Podrecznik Kowala
-	56	39007	1	60		// Podrecznik Kowala
-	57	39007	1	60		// Podrecznik Kowala
-	58	39007	1	60		// Podrecznik Kowala
-	59	39007	1	60		// Podrecznik Kowala
+	46	39022	1	60		// Zw?j Boga Smok?w
+	47	39022	1	60		// Zw?j Boga Smok?w
+	48	39022	1	60		// Zw?j Boga Smok?w
+	49	39022	1	60		// Zw?j Boga Smok?w
+	50	39022	1	60		// Zw?j Boga Smok?w
+	51	39022	1	60		// Zw?j Boga Smok?w
+	52	39022	1	60		// Zw?j Boga Smok?w
+	53	39022	1	60		// Zw?j Boga Smok?w
+	54	39022	1	60		// Zw?j Boga Smok?w
+	55	39007	1	40		// Podrecznik Kowala
+	56	39007	1	40		// Podrecznik Kowala
+	57	39007	1	40		// Podrecznik Kowala
+	58	39007	1	40		// Podrecznik Kowala
+	59	39007	1	40		// Podrecznik Kowala
 	60	25041	1	60		// Metal
 	61	25041	1	60		// Metal
 	62	25041	1	60		// Metal
 	63	25041	1	60		// Metal
-	64	71035	1	100		// EliksirPoszukiwacza
-	65	71035	1	100		// EliksirPoszukiwacza
-	66	71035	1	100		// EliksirPoszukiwacza
-	67	71035	1	100		// EliksirPoszukiwacza
-	68	71035	1	100		// EliksirPoszukiwacza
-	69	71035	1	100		// EliksirPoszukiwacza
-	70	71035	1	100		// EliksirPoszukiwacza
-	71	71035	1	100		// EliksirPoszukiwacza
-	72	71035	1	100		// EliksirPoszukiwacza
-	73	30152	5	100		// EliksirGildii
-	74	30152	5	100		// EliksirGildii
-	75	30152	5	100		// EliksirGildii
-	76	30152	5	100		// EliksirGildii
-	77	30152	5	100		// EliksirGildii
-	78	30152	5	100		// EliksirGildii
-	79	30152	5	100		// EliksirGildii
-	80	30152	5	100		// EliksirGildii
-	81	30152	5	100		// EliksirGildii
+	64	71035	1	50		// EliksirPoszukiwacza
+	65	71035	1	50		// EliksirPoszukiwacza
+	66	71035	1	50		// EliksirPoszukiwacza
+	67	71035	1	50		// EliksirPoszukiwacza
+	68	71035	1	50		// EliksirPoszukiwacza
+	69	71035	1	50		// EliksirPoszukiwacza
+	70	71035	1	50		// EliksirPoszukiwacza
+	71	71035	1	50		// EliksirPoszukiwacza
+	72	71035	1	50		// EliksirPoszukiwacza
+	73	30152	5	50		// EliksirGildii
+	74	30152	5	50		// EliksirGildii
+	75	30152	5	50		// EliksirGildii
+	76	30152	5	50		// EliksirGildii
+	77	30152	5	50		// EliksirGildii
+	78	30152	5	50		// EliksirGildii
+	79	30152	5	50		// EliksirGildii
+	80	30152	5	50		// EliksirGildii
+	81	30152	5	50		// EliksirGildii
 	82	71107	2	100		// FasolkaZen
 	83	71107	2	100		// FasolkaZen
 	84	71107	2	100		// FasolkaZen
@@ -9714,15 +9714,15 @@ Group	Wobba
 	106	71017	1	100		// MedalSzczescia
 	107	71017	1	100		// MedalSzczescia
 	108	71017	1	100		// MedalSzczescia
-	109	50513	5	100		// KamienDuchowy
-	110	50513	5	100		// KamienDuchowy
-	111	50513	5	100		// KamienDuchowy
-	112	50513	5	100		// KamienDuchowy
-	113	50513	5	100		// KamienDuchowy
-	114	50513	5	100		// KamienDuchowy
-	115	50513	5	100		// KamienDuchowy
-	116	50513	5	100		// KamienDuchowy
-	117	50513	5	100		// KamienDuchowy
+	109	50513	3	50		// KamienDuchowy
+	110	50513	3	50		// KamienDuchowy
+	111	50513	3	50		// KamienDuchowy
+	112	50513	3	50		// KamienDuchowy
+	113	50513	3	50		// KamienDuchowy
+	114	50513	3	50		// KamienDuchowy
+	115	50513	3	50		// KamienDuchowy
+	116	50513	3	50		// KamienDuchowy
+	117	50513	3	50		// KamienDuchowy
 	118	70024	5	65		// piecbon
 	119	70024	5	65		// piecbon
 	120	70024	5	65		// piecbon
@@ -9732,24 +9732,24 @@ Group	Wobba
 	124	70024	5	65		// piecbon
 	125	70024	5	65		// piecbon
 	126	70024	5	65		// piecbon
-	127	71094	3	69		// RadaPustelnika
-	128	71094	3	69		// RadaPustelnika
-	129	71094	3	69		// RadaPustelnika
-	130	71094	3	69		// RadaPustelnika
-	131	71094	3	69		// RadaPustelnika
-	132	71094	3	69		// RadaPustelnika
-	133	71094	3	69		// RadaPustelnika
-	134	71094	3	69		// RadaPustelnika
-	135	71094	3	69		// RadaPustelnika
-	136	39008	3	69		// Egzo
-	137	39008	3	69		// Egzo
-	138	39008	3	69		// Egzo
-	139	39008	3	69		// Egzo
-	140	39008	3	69		// Egzo
-	141	39008	3	69		// Egzo
-	142	39008	3	69		// Egzo
-	143	39008	3	69		// Egzo
-	144	39008	3	69		// Egzo
+	127	71094	3	60		// RadaPustelnika
+	128	71094	3	60		// RadaPustelnika
+	129	71094	3	60		// RadaPustelnika
+	130	71094	3	60		// RadaPustelnika
+	131	71094	3	60		// RadaPustelnika
+	132	71094	3	60		// RadaPustelnika
+	133	71094	3	60		// RadaPustelnika
+	134	71094	3	60		// RadaPustelnika
+	135	71094	3	60		// RadaPustelnika
+	136	39008	3	60		// Egzo
+	137	39008	3	60		// Egzo
+	138	39008	3	60		// Egzo
+	139	39008	3	60		// Egzo
+	140	39008	3	60		// Egzo
+	141	39008	3	60		// Egzo
+	142	39008	3	60		// Egzo
+	143	39008	3	60		// Egzo
+	144	39008	3	60		// Egzo
 	145	30196	1	100		// Demoniczne Prochy
 	146	30196	1	100		// Demoniczne Prochy
 	147	30196	1	100		// Demoniczne Prochy
@@ -10032,4 +10032,146 @@ Group    SzybkiLodzik
     28    90053    1    15    // Skrzynia Ros
     29    27105    2    100    // Fioletowa Mikstura D
     30    27112    2    100    // Zielona Mikstura D
+}
+Group    Lotne
+{
+	Mob		39030				// 40LVL
+	Type	drop
+	1	71084	4	206		// Zmianki
+	2	71084	4	180		// Zmianki
+	3	71084	4	130		// Zmianki
+	4	71084	4	100		// Zmianki
+	5	71084	4	20		// Zmianki
+	6	70057	5	206		// Peleryny
+	7	70057	5	206		// Peleryny
+	8	70057	5	206		// Peleryny
+	9	70057	5	206		// Peleryny
+	10	27105	1	206		// Fioletowa Pota
+	11	27112	1	206		// ZielonaPota
+	12	39008	1	102		// Egzo
+	13	38050	1	102		// SkrzyniaMocy
+	14	50151	1	206		// KluczOrkowy
+	15	80003	1	206		// 50k
+	16	80003	1	140		// 50k
+	17	80003	1	70		// 50k
+	18	30152	1	30		// Eliksir Gildii
+}
+
+Group    Lotne
+{
+	Mob		39031				// 45LVL
+	Type	drop
+	1	71084	5	206		// Zmianki
+	2	71084	5	180		// Zmianki
+	3	71084	5	130		// Zmianki
+	4	71084	5	100		// Zmianki
+	5	71084	5	20		// Zmianki
+	6	70057	5	206		// Peleryny
+	7	70057	5	206		// Peleryny
+	8	70057	5	206		// Peleryny
+	9	70057	5	206		// Peleryny
+	10	27105	1	206		// Fioletowa Pota
+	11	27112	1	206		// ZielonaPota
+	12	39008	1	122		// Egzo
+	13	38050	1	122		// SkrzyniaMocy
+	14	50151	1	206		// KluczOrkowy
+	15	80003	1	206		// 50k
+	16	80003	1	140		// 50k
+	17	80003	1	70		// 50k
+	18	30152	1	30		// Eliksir Gildii
+}
+
+Group    Lotne
+{
+	Mob		39035				// 65LVL
+	Type	drop
+	1	71084	8	206		// Zmianki
+	2	71084	8	180		// Zmianki
+	3	71084	8	130		// Zmianki
+	4	71084	8	100		// Zmianki
+	5	71084	8	20		// Zmianki
+	6	70057	8	206		// Peleryny
+	7	70057	8	206		// Peleryny
+	8	70057	8	206		// Peleryny
+	9	70057	8	206		// Peleryny
+	10	27105	1	206		// Fioletowa Pota
+	11	27112	1	206		// ZielonaPota
+	12	39008	1	206		// Egzo
+	13	38050	1	206		// SkrzyniaMocy
+	14	30324	1	206		// KluczBaronka
+	15	30324	1	50		// KluczBaronka
+	16	80004	1	206		// 100k
+	17	80004	1	140		// 100k
+	18	80004	1	70		// 100k
+	19	30152	1	30		// Eliksir Gildii
+}
+
+Group    Lotne
+{
+	Mob		39038				// 80LVL
+	Type	drop
+	1	71084	8	206		// Zmianki
+	2	71084	8	180		// Zmianki
+	3	71084	8	130		// Zmianki
+	4	71084	8	100		// Zmianki
+	5	71084	8	20		// Zmianki
+	6	70057	8	206		// Peleryny
+	7	70057	8	206		// Peleryny
+	8	70057	8	206		// Peleryny
+	9	70057	8	206		// Peleryny
+	10	27105	1	206		// Fioletowa Pota
+	11	27112	1	206		// ZielonaPota
+	12	39008	1	206		// Egzo
+	13	38050	1	206		// SkrzyniaMocy
+	14	50152	1	206		// KluczDT
+	15	50152	1	50		// KluczDT
+	16	80004	1	206		// 100k
+	17	80004	1	140		// 100k
+	18	80004	1	70		// 100k
+	19	80005	1	20		// 100k
+	20	30152	1	30		// Eliksir Gildii
+}
+
+Group METINAV1
+{
+    Mob        39042
+    Type    drop
+    1    30198    1    206        // Wodny Krysztal
+    2    30553    1    3        // Krysztal Groty
+    3    30553    1    2        // Krysztal Groty
+    4 30179    1    25        // Krety Klucz
+    5 30179    1    25        // Krety Klucz
+    6    71084    18    206        // Zaczarowanie Przedmiotu
+    7    71084    18    140        // Zaczarowanie Przedmiotu
+    8    71084    18    70        // Zaczarowanie Przedmiotu
+    9    71084    18    30        // Zaczarowanie Przedmiotu
+    10    30152    1    20            // Eliksir Gildii
+    11    30152    1    20            // Eliksir Gildii
+    12    71035    1    10            // El Poszukiwacza
+    13    71035    1    10            // El Poszukiwacza
+    14    80005    1    206            // Sztab. 500k
+    15    80005    1    70            // Sztab. 500k
+    16    80005    1    35            // Sztab. 500k
+}
+
+Group METINAV2
+{
+    Mob        39043
+    Type    drop
+    1    30199    1    206        // Niebieski Krysztal
+    2    30553    1    4        // Krysztal Groty
+    3    30553    1    3        // Krysztal Groty
+    4 30179    1    33        // Krety Klucz
+    5 30179    1    33        // Krety Klucz
+    6    71084    20    206        // Zaczarowanie Przedmiotu
+    7    71084    20    150        // Zaczarowanie Przedmiotu
+    8    71084    20    80        // Zaczarowanie Przedmiotu
+    9    71084    20    40        // Zaczarowanie Przedmiotu
+    10    30152    1    27            // Eliksir Gildii
+    11    30152    1    27            // Eliksir Gildii
+    12    71035    1    14            // El Poszukiwacza
+    13    71035    1    14            // El Poszukiwacza
+    14    80005    1    206            // Sztab. 500k
+    15    80005    1    85            // Sztab. 500k
+    16    80005    1    45            // Sztab. 500k
 }

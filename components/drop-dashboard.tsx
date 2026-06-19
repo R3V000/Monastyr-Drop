@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState, type ChangeEvent } from "react";
+import { useEffect, useMemo, useState, type ChangeEvent, type ReactNode } from "react";
 import { parseMobDropText, type DropGroup } from "@/lib/mob-drop-parser";
 import {
   buildItemOptions,
@@ -8,8 +8,10 @@ import {
   computeComparisonRows,
   computeSourceDropRows,
   formatCompact,
+  type ComparisonRow,
   type DashboardSettings,
-  type DropSimulationConfig
+  type DropSimulationConfig,
+  type SourceDropRow
 } from "@/lib/drop-calculator";
 
 type DropDashboardProps = {
@@ -49,6 +51,14 @@ const typeFilters = [
   { value: "kill", label: "Kill" }
 ] as const;
 
+type SortDirection = "asc" | "desc";
+type ComparisonSortKey = "mobName" | "matchingEntries" | "dailyKills" | "expectedPerKill" | "expectedDaily";
+type SourceSortKey = "itemName" | "matchingEntries" | "configuredPoints" | "expectedPerKill" | "expectedDaily";
+type SortState<T extends string> = {
+  key: T;
+  direction: SortDirection;
+};
+
 function getSelectedVnums(key: string, config: DropSimulationConfig) {
   if (key.startsWith("category:")) {
     const category = config.categories.find((item) => item.id === key.replace("category:", ""));
@@ -75,6 +85,51 @@ function summarizeDropData(groups: DropGroup[], itemLabels: Record<number, strin
     entryCount: groups.reduce((sum, group) => sum + group.entries.length, 0),
     itemCount: Object.keys(itemLabels).length
   };
+}
+
+function compareSortValues(first: string | number, second: string | number) {
+  if (typeof first === "string" && typeof second === "string") {
+    return first.localeCompare(second, "pl", { numeric: true, sensitivity: "base" });
+  }
+
+  return Number(first) - Number(second);
+}
+
+function sortComparisonRows(rows: ComparisonRow[], sort: SortState<ComparisonSortKey>) {
+  const direction = sort.direction === "asc" ? 1 : -1;
+
+  return [...rows].sort((first, second) => {
+    const result = compareSortValues(first[sort.key], second[sort.key]);
+    return result === 0 ? first.mobName.localeCompare(second.mobName, "pl") : result * direction;
+  });
+}
+
+function sortSourceRows(rows: SourceDropRow[], sort: SortState<SourceSortKey>) {
+  const direction = sort.direction === "asc" ? 1 : -1;
+
+  return [...rows].sort((first, second) => {
+    const result = compareSortValues(first[sort.key], second[sort.key]);
+    return result === 0 ? first.itemName.localeCompare(second.itemName, "pl") : result * direction;
+  });
+}
+
+function SortButton({
+  active,
+  direction,
+  children,
+  onClick
+}: {
+  active: boolean;
+  direction: SortDirection;
+  children: ReactNode;
+  onClick: () => void;
+}) {
+  return (
+    <button type="button" className={active ? "sort-button active" : "sort-button"} onClick={onClick}>
+      <span>{children}</span>
+      <em>{active ? (direction === "asc" ? "↑" : "↓") : "↕"}</em>
+    </button>
+  );
 }
 
 export default function DropDashboard({
@@ -106,6 +161,14 @@ export default function DropDashboard({
   const [settings, setSettings] = useState<DashboardSettings>({
     typeFilter: "all",
     onlyConfigured: false
+  });
+  const [comparisonSort, setComparisonSort] = useState<SortState<ComparisonSortKey>>({
+    key: "expectedDaily",
+    direction: "desc"
+  });
+  const [sourceSort, setSourceSort] = useState<SortState<SourceSortKey>>({
+    key: "expectedDaily",
+    direction: "desc"
   });
 
   const activeGroups = customDropData?.groups || defaultDropData.groups;
@@ -153,9 +216,17 @@ export default function DropDashboard({
         : [],
     [activeGroups, activeItemLabels, config, selectedSource]
   );
+  const sortedComparisonRows = useMemo(
+    () => sortComparisonRows(rows, comparisonSort),
+    [comparisonSort, rows]
+  );
+  const sortedSourceRows = useMemo(
+    () => sortSourceRows(sourceRows, sourceSort),
+    [sourceRows, sourceSort]
+  );
 
-  const visibleRows = rows;
-  const chartRows = rows;
+  const visibleRows = sortedComparisonRows;
+  const chartRows = sortedComparisonRows;
   const maxDaily = Math.max(...chartRows.map((row) => row.expectedDaily), 0);
   const totalDaily = rows.reduce((sum, row) => sum + row.expectedDaily, 0);
   const totalKills = rows.reduce((sum, row) => sum + row.dailyKills, 0);
@@ -227,6 +298,20 @@ export default function DropDashboard({
 
   const updateSetting = <K extends keyof DashboardSettings>(key: K, value: DashboardSettings[K]) => {
     setSettings((current) => ({ ...current, [key]: value }));
+  };
+
+  const updateComparisonSort = (key: ComparisonSortKey) => {
+    setComparisonSort((current) => ({
+      key,
+      direction: current.key === key && current.direction === "desc" ? "asc" : "desc"
+    }));
+  };
+
+  const updateSourceSort = (key: SourceSortKey) => {
+    setSourceSort((current) => ({
+      key,
+      direction: current.key === key && current.direction === "desc" ? "asc" : "desc"
+    }));
   };
 
   const handleDropFileChange = async (event: ChangeEvent<HTMLInputElement>) => {
@@ -443,14 +528,54 @@ export default function DropDashboard({
                 <table>
                   <thead>
                     <tr>
-                      <th>Mob</th>
+                      <th>
+                        <SortButton
+                          active={comparisonSort.key === "mobName"}
+                          direction={comparisonSort.direction}
+                          onClick={() => updateComparisonSort("mobName")}
+                        >
+                          Mob
+                        </SortButton>
+                      </th>
                       <th>Typ</th>
                       <th>Model</th>
-                      <th>Wpisy</th>
+                      <th>
+                        <SortButton
+                          active={comparisonSort.key === "matchingEntries"}
+                          direction={comparisonSort.direction}
+                          onClick={() => updateComparisonSort("matchingEntries")}
+                        >
+                          Wpisy
+                        </SortButton>
+                      </th>
                       <th>Skala</th>
-                      <th>Zabić / dzień</th>
-                      <th>Szt. / kill</th>
-                      <th>Szt. / dzień</th>
+                      <th>
+                        <SortButton
+                          active={comparisonSort.key === "dailyKills"}
+                          direction={comparisonSort.direction}
+                          onClick={() => updateComparisonSort("dailyKills")}
+                        >
+                          Zabić / dzień
+                        </SortButton>
+                      </th>
+                      <th>
+                        <SortButton
+                          active={comparisonSort.key === "expectedPerKill"}
+                          direction={comparisonSort.direction}
+                          onClick={() => updateComparisonSort("expectedPerKill")}
+                        >
+                          Szt. / kill
+                        </SortButton>
+                      </th>
+                      <th>
+                        <SortButton
+                          active={comparisonSort.key === "expectedDaily"}
+                          direction={comparisonSort.direction}
+                          onClick={() => updateComparisonSort("expectedDaily")}
+                        >
+                          Szt. / dzień
+                        </SortButton>
+                      </th>
                     </tr>
                   </thead>
                   <tbody>
@@ -464,13 +589,17 @@ export default function DropDashboard({
                           <span className={`type-badge type-${row.typeSet[0]}`}>{row.typeSet.join(", ")}</span>
                         </td>
                         <td>
-                          <span className="type-badge">{row.calculationMode === "dungeon" ? "Dungeon" : "Mapa"}</span>
+                          <span className="type-badge">
+                            {row.calculationMode === "dungeon" ? "Dungeon" : row.spawnWindowLabel ? "Okno" : "Mapa"}
+                          </span>
                         </td>
                         <td>{row.matchingEntries}</td>
                         <td>
                           {row.calculationMode === "dungeon"
                             ? `${formatCompact(row.dungeonRunsPerDay, 1)} runów`
-                            : `${formatCompact(row.channels, 2)} ch`}
+                            : row.spawnWindowLabel
+                              ? `${row.spawnWindowLabel} · ${formatCompact(row.channels, 2)} ch`
+                              : `${formatCompact(row.channels, 2)} ch`}
                         </td>
                         <td>{formatCompact(row.dailyKills, 1)}</td>
                         <td>{formatCompact(row.expectedPerKill, 4)}</td>
@@ -527,8 +656,14 @@ export default function DropDashboard({
             </div>
             <div className="metric accent-red">
               <span>Model</span>
-              <strong>{selectedSource?.calculationMode === "dungeon" ? "Dungeon" : "Mapa"}</strong>
-              <small>{selectedSource?.typeSet.join(", ") || "-"}</small>
+              <strong>
+                {selectedSource?.calculationMode === "dungeon"
+                  ? "Dungeon"
+                  : selectedSource?.spawnWindowLabel
+                    ? "Okno"
+                    : "Mapa"}
+              </strong>
+              <small>{selectedSource?.spawnWindowLabel || selectedSource?.typeSet.join(", ") || "-"}</small>
             </div>
           </section>
 
@@ -542,16 +677,56 @@ export default function DropDashboard({
                 <table>
                   <thead>
                     <tr>
-                      <th>Item</th>
+                      <th>
+                        <SortButton
+                          active={sourceSort.key === "itemName"}
+                          direction={sourceSort.direction}
+                          onClick={() => updateSourceSort("itemName")}
+                        >
+                          Item
+                        </SortButton>
+                      </th>
                       <th>Typ</th>
-                      <th>Wpisy</th>
-                      <th>Punkty</th>
-                      <th>Szt. / kill</th>
-                      <th>Szt. / dzień</th>
+                      <th>
+                        <SortButton
+                          active={sourceSort.key === "matchingEntries"}
+                          direction={sourceSort.direction}
+                          onClick={() => updateSourceSort("matchingEntries")}
+                        >
+                          Wpisy
+                        </SortButton>
+                      </th>
+                      <th>
+                        <SortButton
+                          active={sourceSort.key === "configuredPoints"}
+                          direction={sourceSort.direction}
+                          onClick={() => updateSourceSort("configuredPoints")}
+                        >
+                          Punkty
+                        </SortButton>
+                      </th>
+                      <th>
+                        <SortButton
+                          active={sourceSort.key === "expectedPerKill"}
+                          direction={sourceSort.direction}
+                          onClick={() => updateSourceSort("expectedPerKill")}
+                        >
+                          Szt. / kill
+                        </SortButton>
+                      </th>
+                      <th>
+                        <SortButton
+                          active={sourceSort.key === "expectedDaily"}
+                          direction={sourceSort.direction}
+                          onClick={() => updateSourceSort("expectedDaily")}
+                        >
+                          Szt. / dzień
+                        </SortButton>
+                      </th>
                     </tr>
                   </thead>
                   <tbody>
-                    {sourceRows.map((row) => (
+                    {sortedSourceRows.map((row) => (
                       <tr key={row.itemVnum}>
                         <td>
                           <strong>{row.itemName}</strong>
