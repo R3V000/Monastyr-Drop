@@ -82,36 +82,6 @@ button {
   text-align: center;
 }
 
-.back-link {
-  width: fit-content;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 34px;
-  padding: 7px 13px;
-  border: 1px solid rgba(227, 178, 97, 0.45);
-  border-radius: 4px;
-  color: #ffe4aa;
-  background:
-    linear-gradient(180deg, rgba(255, 224, 151, 0.1), rgba(93, 43, 19, 0.22)),
-    rgba(9, 6, 4, 0.34);
-  font-family: "Segoe UI", Arial, sans-serif;
-  font-size: 13px;
-  font-weight: 800;
-  text-decoration: none;
-}
-
-.back-link {
-  justify-self: start;
-}
-
-.back-link:hover,
-.back-link:focus-visible {
-  border-color: rgba(255, 225, 150, 0.78);
-  color: #fff3cf;
-  outline: none;
-}
-
 .direct-link {
   flex: 0 0 auto;
   width: 222px;
