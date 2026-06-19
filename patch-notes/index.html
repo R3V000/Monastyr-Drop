@@ -15,7 +15,7 @@
         <a class="back-link" href="../">Panel</a>
         <p class="patch-kicker">Monastyr</p>
         <h1>Patch notes</h1>
-        <nav id="patch-list" class="patch-list" aria-label="Dostepne patche"></nav>
+        <nav id="patch-list" class="patch-list" aria-label="Dostępne patche"></nav>
       </div>
     </aside>
 
@@ -23,12 +23,20 @@
       <header class="patch-viewer-head">
         <div>
           <p id="patch-status" class="patch-kicker">Aktualny patch</p>
-          <h2 id="patch-title">Ladowanie</h2>
+          <h2 id="patch-title">Ładowanie</h2>
         </div>
-        <a id="patch-direct-link" class="direct-link" href="./" target="_blank" rel="noreferrer">Otworz</a>
+        <a id="patch-direct-link" class="direct-link" href="./" target="_blank" rel="noreferrer">Otwórz</a>
       </header>
-      <iframe id="patch-frame" title="Tresci patch notes"></iframe>
+      <iframe id="patch-frame" title="Treść patch notes"></iframe>
     </main>
+
+    <aside id="outdated-patch-note" class="outdated-patch-note" aria-live="polite" hidden>
+      <p>
+        Przeglądasz archiwalną wersję patcha: <strong id="outdated-patch-label"></strong>.
+        Aktualna wersja to <strong id="current-patch-label"></strong>.
+      </p>
+      <button id="current-patch-button" type="button">Przejdź do aktualnej wersji</button>
+    </aside>
 
     <script src="patches.config.js"></script>
     <script src="app.js"></script>

@@ -6,6 +6,10 @@
   const patchTitle = document.querySelector("#patch-title");
   const patchStatus = document.querySelector("#patch-status");
   const directLink = document.querySelector("#patch-direct-link");
+  const outdatedNote = document.querySelector("#outdated-patch-note");
+  const outdatedPatchLabel = document.querySelector("#outdated-patch-label");
+  const currentPatchLabel = document.querySelector("#current-patch-label");
+  const currentPatchButton = document.querySelector("#current-patch-button");
 
   function getRequestedPatchId() {
     const params = new URLSearchParams(window.location.search);
@@ -26,6 +30,21 @@
     }
   }
 
+  function updateOutdatedNote(patch) {
+    const currentPatch = findPatch(config.currentPatchId);
+    const isOutdated = currentPatch && patch.id !== currentPatch.id;
+
+    outdatedNote.hidden = !isOutdated;
+
+    if (!isOutdated) {
+      return;
+    }
+
+    outdatedPatchLabel.textContent = patch.label;
+    currentPatchLabel.textContent = currentPatch.label;
+    currentPatchButton.onclick = () => setActivePatch(currentPatch, false);
+  }
+
   function setActivePatch(patch, replaceState) {
     if (!patch) {
       return;
@@ -36,6 +55,7 @@
     directLink.href = patch.path;
     patchStatus.textContent = patch.id === config.currentPatchId ? "Aktualny patch" : "Archiwum";
     setShellArt(patch);
+    updateOutdatedNote(patch);
 
     document.querySelectorAll("[data-patch-id]").forEach((item) => {
       item.classList.toggle("active", item.dataset.patchId === patch.id);
