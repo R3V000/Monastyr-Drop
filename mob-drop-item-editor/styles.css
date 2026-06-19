@@ -427,6 +427,11 @@ textarea:focus {
   min-width: 104px;
 }
 
+.image-button.danger {
+  color: #ffe3d8;
+  filter: saturate(0.86) hue-rotate(158deg);
+}
+
 .drop-head {
   margin-top: 4px;
 }

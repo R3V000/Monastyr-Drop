@@ -78,6 +78,7 @@
         <div class="section-head catalog-head">
           <div>
             <h2>Baza itemów</h2>
+            <span id="customItemCount">0 lokalnych itemów</span>
           </div>
           <input id="itemSearch" class="search-input" type="search" placeholder="Szukaj itemu albo VNUM">
         </div>
@@ -85,7 +86,7 @@
         <div id="itemCatalog" class="item-catalog" aria-live="polite"></div>
 
         <details class="custom-item">
-          <summary>Item spoza bazy</summary>
+          <summary>Item spoza bazy lokalnej</summary>
           <form id="customItemForm" class="custom-grid">
             <label>
               <span>VNUM</span>
@@ -100,6 +101,7 @@
               <input id="customIcon" type="url" placeholder="https://img.m2icondb.com/71001.png">
             </label>
             <button class="image-button" type="submit">Dodaj</button>
+            <button id="clearCustomItems" class="image-button small danger" type="button">Wyczyść lokalne</button>
           </form>
         </details>
 

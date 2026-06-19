@@ -2,7 +2,10 @@
   "use strict";
 
   var DROP_SCALE = 206;
+  var CUSTOM_ITEMS_STORAGE_KEY = "monastyr-drop-writer-custom-items-v1";
   var itemDb = Array.isArray(window.ITEM_DATABASE) ? window.ITEM_DATABASE.slice() : [];
+  var defaultItemVnums = new Set();
+  var customItems = [];
   var rows = [];
   var draggedRowId = null;
 
@@ -21,9 +24,11 @@
     itemSearch: document.getElementById("itemSearch"),
     itemCatalog: document.getElementById("itemCatalog"),
     customItemForm: document.getElementById("customItemForm"),
+    customItemCount: document.getElementById("customItemCount"),
     customVnum: document.getElementById("customVnum"),
     customName: document.getElementById("customName"),
     customIcon: document.getElementById("customIcon"),
+    clearCustomItems: document.getElementById("clearCustomItems"),
     dropRows: document.getElementById("dropRows"),
     rowCount: document.getElementById("rowCount"),
     chanceColumnLabel: document.getElementById("chanceColumnLabel"),
@@ -53,6 +58,78 @@
   itemDb = itemDb.map(normalizeItem).filter(function (item) {
     return item.vnum;
   });
+  defaultItemVnums = new Set(itemDb.map(function (item) {
+    return item.vnum;
+  }));
+
+  function readCustomItems() {
+    try {
+      var parsed = JSON.parse(window.localStorage.getItem(CUSTOM_ITEMS_STORAGE_KEY) || "[]");
+      return Array.isArray(parsed) ? parsed.map(normalizeItem).filter(function (item) {
+        return item.vnum;
+      }) : [];
+    } catch (error) {
+      return [];
+    }
+  }
+
+  function writeCustomItems() {
+    try {
+      window.localStorage.setItem(CUSTOM_ITEMS_STORAGE_KEY, JSON.stringify(customItems));
+    } catch (error) {
+      showToast("Nie udało się zapisać lokalnej bazy itemów");
+    }
+  }
+
+  function upsertItem(item, persist) {
+    var normalized = normalizeItem(item);
+    var existingIndex = itemDb.findIndex(function (entry) {
+      return entry.vnum === normalized.vnum;
+    });
+
+    if (existingIndex >= 0) {
+      itemDb[existingIndex] = normalized;
+    } else {
+      itemDb.unshift(normalized);
+    }
+
+    if (persist && !defaultItemVnums.has(normalized.vnum)) {
+      var customIndex = customItems.findIndex(function (entry) {
+        return entry.vnum === normalized.vnum;
+      });
+
+      if (customIndex >= 0) {
+        customItems[customIndex] = normalized;
+      } else {
+        customItems.unshift(normalized);
+      }
+
+      writeCustomItems();
+    }
+
+    return normalized;
+  }
+
+  function loadCustomItems() {
+    customItems = readCustomItems();
+    customItems.forEach(function (item) {
+      upsertItem(item, false);
+    });
+  }
+
+  function renderCustomItemCount() {
+    if (!els.customItemCount) {
+      return;
+    }
+
+    var count = customItems.length;
+    els.customItemCount.textContent = count === 1 ? "1 lokalny item" : count + " lokalnych itemów";
+    if (els.clearCustomItems) {
+      els.clearCustomItems.disabled = count === 0;
+    }
+  }
+
+  loadCustomItems();
 
   function normalizeDropType(type) {
     var normalized = sanitizeInline(type).toLowerCase();
@@ -105,8 +182,7 @@
       name: sanitizeInline(comment) || "Item " + id,
       icon: "https://img.m2icondb.com/" + id + ".png"
     };
-    itemDb.push(item);
-    return item;
+    return upsertItem(item, true);
   }
 
   function makeRow(item) {
@@ -460,6 +536,7 @@
     rows = parsed.rows;
 
     renderCatalog();
+    renderCustomItemCount();
     renderAll();
     showToast("Wczytano " + rows.length + " pozycji dropu");
   }
@@ -656,18 +733,26 @@
         name: sanitizeInline(els.customName.value) || "Item " + vnum,
         icon: sanitizeInline(els.customIcon.value) || "https://img.m2icondb.com/" + vnum + ".png"
       });
-      var existingIndex = itemDb.findIndex(function (entry) {
-        return entry.vnum === item.vnum;
-      });
-      if (existingIndex >= 0) {
-        itemDb[existingIndex] = item;
-      } else {
-        itemDb.unshift(item);
-      }
+      item = upsertItem(item, true);
       els.customItemForm.reset();
       renderCatalog();
+      renderCustomItemCount();
       rows.push(makeRow(item));
       renderAll();
+      showToast("Dodano item do lokalnej bazy");
+    });
+
+    els.clearCustomItems.addEventListener("click", function () {
+      customItems = [];
+      writeCustomItems();
+      itemDb = itemDb.filter(function (item) {
+        return defaultItemVnums.has(item.vnum) || rows.some(function (row) {
+          return row.vnum === item.vnum;
+        });
+      });
+      renderCatalog();
+      renderCustomItemCount();
+      showToast("Wyczyszczono lokalne itemy");
     });
 
     els.dropRows.addEventListener("input", function (event) {
@@ -801,6 +886,7 @@
   }
 
   bindEvents();
+  renderCustomItemCount();
   renderCatalog();
   renderAll();
 })();
