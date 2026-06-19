@@ -26,6 +26,10 @@
           <input type="radio" name="dropType" value="limit">
           <span>Type limit</span>
         </label>
+        <label>
+          <input type="radio" name="dropType" value="special_item_group">
+          <span>special_item_group</span>
+        </label>
       </fieldset>
     </header>
 
@@ -44,14 +48,14 @@
             <input id="groupName" type="text" value="NowyBoss" autocomplete="off">
           </label>
           <label>
-            <span>VNUM moba</span>
+            <span id="mobVnumLabel">VNUM moba</span>
             <input id="mobVnum" type="number" min="0" step="1" placeholder="np. 6091">
           </label>
           <label>
-            <span>Komentarz moba</span>
+            <span id="mobCommentLabel">Komentarz moba</span>
             <input id="mobComment" type="text" placeholder="np. Razador" autocomplete="off">
           </label>
-          <label class="level-limit">
+          <label id="levelLimitField" class="level-limit">
             <span>Level_limit</span>
             <span class="checkline">
               <input id="useLevelLimit" type="checkbox">
@@ -110,8 +114,8 @@
         <div class="drop-columns" aria-hidden="true">
           <span>Item</span>
           <span>Ilość</span>
-          <span>Szansa %</span>
-          <span>Wartość</span>
+          <span id="chanceColumnLabel">Szansa %</span>
+          <span id="valueColumnLabel">Wartość</span>
           <span>Komentarz</span>
           <span></span>
         </div>

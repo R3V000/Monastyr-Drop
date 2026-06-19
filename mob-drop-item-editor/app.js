@@ -9,7 +9,10 @@
   var els = {
     groupName: document.getElementById("groupName"),
     mobVnum: document.getElementById("mobVnum"),
+    mobVnumLabel: document.getElementById("mobVnumLabel"),
     mobComment: document.getElementById("mobComment"),
+    mobCommentLabel: document.getElementById("mobCommentLabel"),
+    levelLimitField: document.getElementById("levelLimitField"),
     useLevelLimit: document.getElementById("useLevelLimit"),
     levelLimit: document.getElementById("levelLimit"),
     importDropText: document.getElementById("importDropText"),
@@ -23,6 +26,8 @@
     customIcon: document.getElementById("customIcon"),
     dropRows: document.getElementById("dropRows"),
     rowCount: document.getElementById("rowCount"),
+    chanceColumnLabel: document.getElementById("chanceColumnLabel"),
+    valueColumnLabel: document.getElementById("valueColumnLabel"),
     clearRows: document.getElementById("clearRows"),
     sampleSize: document.getElementById("sampleSize"),
     averageChart: document.getElementById("averageChart"),
@@ -49,13 +54,25 @@
     return item.vnum;
   });
 
+  function normalizeDropType(type) {
+    var normalized = sanitizeInline(type).toLowerCase();
+    if (normalized === "limit" || normalized === "special_item_group") {
+      return normalized;
+    }
+    return "drop";
+  }
+
+  function isSpecialItemGroup(type) {
+    return normalizeDropType(type || getDropType()) === "special_item_group";
+  }
+
   function getDropType() {
     var checked = document.querySelector("input[name='dropType']:checked");
-    return checked ? checked.value : "drop";
+    return checked ? normalizeDropType(checked.value) : "drop";
   }
 
   function setDropType(type) {
-    var normalized = type === "limit" ? "limit" : "drop";
+    var normalized = normalizeDropType(type);
     var input = document.querySelector("input[name='dropType'][value='" + normalized + "']");
     if (input) {
       input.checked = true;
@@ -120,7 +137,8 @@
 
   function chanceValue(percent) {
     var cleanPercent = toNumber(percent, 0);
-    if (getDropType() === "drop") {
+    var type = getDropType();
+    if (type === "drop") {
       return String(Math.floor((cleanPercent / 100) * DROP_SCALE));
     }
     return formatCodeNumber(cleanPercent);
@@ -128,15 +146,37 @@
 
   function chanceToPercent(chance, type) {
     var cleanChance = toNumber(chance, 0);
-    if (type === "drop") {
+    var normalizedType = normalizeDropType(type);
+    if (normalizedType === "drop") {
       return formatCodeNumber((cleanChance / DROP_SCALE) * 100);
     }
     return formatCodeNumber(cleanChance);
   }
 
+  function getSpecialTotalWeight() {
+    return rows.reduce(function (sum, row) {
+      return sum + Math.max(0, toNumber(row.percent, 0));
+    }, 0);
+  }
+
+  function getActualPercent(row, type, totalWeight) {
+    if (isSpecialItemGroup(type)) {
+      var weight = Math.max(0, toNumber(row.percent, 0));
+      return totalWeight > 0 ? (weight / totalWeight) * 100 : 0;
+    }
+    return toNumber(row.percent, 0);
+  }
+
+  function displayChanceValue(row, type, totalWeight) {
+    if (isSpecialItemGroup(type)) {
+      return formatDecimal(getActualPercent(row, type, totalWeight), 2) + "%";
+    }
+    return chanceValue(row.percent);
+  }
+
   function averageQuantity(row, sample) {
     var count = toNumber(row.count, 0);
-    var percent = toNumber(row.percent, 0);
+    var percent = getActualPercent(row, getDropType(), getSpecialTotalWeight());
     return sample * count * (percent / 100);
   }
 
@@ -185,7 +225,15 @@
   }
 
   function renderRows() {
+    var type = getDropType();
+    var totalWeight = getSpecialTotalWeight();
+    var chanceLabel = isSpecialItemGroup(type) ? "Waga" : "Szansa %";
+    var valueLabel = isSpecialItemGroup(type) ? "Realna %" : "Wartość";
+
     els.rowCount.textContent = rows.length === 1 ? "1 pozycja" : rows.length + " pozycji";
+    els.chanceColumnLabel.textContent = chanceLabel;
+    els.valueColumnLabel.textContent = valueLabel;
+
     els.dropRows.innerHTML = rows.map(function (row, index) {
       var item = getItem(row.vnum);
       return [
@@ -202,12 +250,12 @@
         '<input data-field="count" type="number" min="0" step="1" value="' + escapeHtml(row.count) + '">',
         "</label>",
         '<label class="compact-field">',
-        '<span>Szansa %</span>',
+        "<span>" + escapeHtml(chanceLabel) + "</span>",
         '<input data-field="percent" type="number" step="0.01" value="' + escapeHtml(row.percent) + '">',
         "</label>",
         '<div class="chance-pill">',
-        '<span>Wartość</span>',
-        "<strong>" + escapeHtml(chanceValue(row.percent)) + "</strong>",
+        "<span>" + escapeHtml(valueLabel) + "</span>",
+        "<strong>" + escapeHtml(displayChanceValue(row, type, totalWeight)) + "</strong>",
         "</div>",
         '<label class="comment-field">',
         '<span>Komentarz</span>',
@@ -225,6 +273,19 @@
     if (!rows.length) {
       els.dropRows.innerHTML = '<div class="empty-state">Dodaj item z bazy</div>';
     }
+  }
+
+  function updateChancePills() {
+    var type = getDropType();
+    var totalWeight = getSpecialTotalWeight();
+
+    rows.forEach(function (row) {
+      var rowEl = els.dropRows.querySelector('[data-id="' + row.id + '"]');
+      var pill = rowEl ? rowEl.querySelector(".chance-pill strong") : null;
+      if (pill) {
+        pill.textContent = displayChanceValue(row, type, totalWeight);
+      }
+    });
   }
 
   function getSample() {
@@ -287,7 +348,9 @@
     var item = getItem(row.vnum);
     var count = toNumber(row.count, 1);
     var countLabel = count > 1 ? '<span class="preview-count">' + escapeHtml(formatCodeNumber(count)) + "</span>" : "";
-    var title = item.name + " | VNUM " + item.vnum + " | " + row.percent + "%";
+    var type = getDropType();
+    var actualPercent = getActualPercent(row, type, getSpecialTotalWeight());
+    var title = item.name + " | VNUM " + item.vnum + " | " + formatDecimal(actualPercent, 2) + "%";
 
     return [
       '<span class="preview-slot" title="' + escapeHtml(title) + '" style="--slot-delay: ' + (index % 9) + '">',
@@ -327,6 +390,7 @@
       var groupMatch = line.match(/^\s*Group\s+(.+?)(?:\s*\/\/.*)?$/i);
       var levelMatch = line.match(/^\s*Level_limit\s+([0-9]+)(?:\s*\/\/.*)?$/i);
       var mobMatch = line.match(/^\s*Mob\s+([0-9]+)(?:\s*\/\/\s*(.*))?\s*$/i);
+      var specialVnumMatch = line.match(/^\s*Vnum\s+([0-9]+)(?:\s*\/\/\s*(.*))?\s*$/i);
       var typeMatch = line.match(/^\s*Type\s+([A-Za-z_]+)(?:\s*\/\/.*)?$/i);
 
       if (groupMatch) {
@@ -340,8 +404,13 @@
         result.mobVnum = sanitizeInline(mobMatch[1]);
         result.mobComment = sanitizeInline(mobMatch[2] || "");
       }
+      if (specialVnumMatch) {
+        result.mobVnum = sanitizeInline(specialVnumMatch[1]);
+        result.mobComment = sanitizeInline(specialVnumMatch[2] || "");
+        result.type = "special_item_group";
+      }
       if (typeMatch) {
-        result.type = sanitizeInline(typeMatch[1]).toLowerCase() === "limit" ? "limit" : "drop";
+        result.type = normalizeDropType(typeMatch[1]);
       }
     });
 
@@ -405,6 +474,19 @@
     lines.push("Group\t" + groupName);
     lines.push("{");
 
+    if (isSpecialItemGroup(type)) {
+      lines.push("\tVnum\t" + mobVnum + (mobComment ? "\t\t// " + mobComment : ""));
+      rows.forEach(function (row, index) {
+        var item = getItem(row.vnum);
+        var count = formatCodeNumber(toNumber(row.count, 1));
+        var weight = chanceValue(row.percent);
+        var comment = sanitizeInline(row.comment) || item.name;
+        lines.push("\t" + (index + 1) + "\t" + item.vnum + "\t" + count + "\t" + weight + (comment ? "\t\t// " + comment : ""));
+      });
+      lines.push("}");
+      return lines.join("\n");
+    }
+
     if (els.useLevelLimit.checked) {
       lines.push("\tLevel_limit\t" + (sanitizeInline(els.levelLimit.value) || "1"));
     }
@@ -426,12 +508,31 @@
 
   function renderOutput() {
     var type = getDropType();
-    els.scaleHint.textContent = type === "drop" ? "drop: 206 = 100%" : "limit: 100 = 100%";
-    els.outputMeta.textContent = rows.length + " linii / Type " + type;
+    var specialTotalWeight = getSpecialTotalWeight();
+    if (type === "drop") {
+      els.scaleHint.textContent = "drop: 206 = 100%";
+      els.outputMeta.textContent = rows.length + " linii / Type drop";
+    } else if (type === "limit") {
+      els.scaleHint.textContent = "limit: 100 = 100%";
+      els.outputMeta.textContent = rows.length + " linii / Type limit";
+    } else {
+      els.scaleHint.textContent = "special_item_group: szansa = waga / suma wag";
+      els.outputMeta.textContent = rows.length + " linii / suma wag " + formatCodeNumber(specialTotalWeight);
+    }
     els.outputText.value = buildOutput();
   }
 
+  function renderTypeControls() {
+    var special = isSpecialItemGroup();
+    els.mobVnumLabel.textContent = special ? "VNUM skrzynki" : "VNUM moba";
+    els.mobVnum.placeholder = special ? "np. 38050" : "np. 6091";
+    els.mobCommentLabel.textContent = special ? "Komentarz skrzynki" : "Komentarz moba";
+    els.mobComment.placeholder = special ? "np. Skrzynia Mocy" : "np. Razador";
+    els.levelLimitField.hidden = special;
+  }
+
   function renderAll() {
+    renderTypeControls();
     renderRows();
     renderStats();
     renderDropPreview();
@@ -586,10 +687,7 @@
       renderOutput();
 
       if (event.target.dataset.field === "percent") {
-        var pill = rowEl.querySelector(".chance-pill strong");
-        if (pill) {
-          pill.textContent = chanceValue(row.percent);
-        }
+        updateChancePills();
       }
     });
 
