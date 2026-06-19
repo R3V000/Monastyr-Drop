@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Drop Writer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">DW</span>
+        <div>
+          <h1>Drop Writer</h1>
+          <p>mob_drop_item</p>
+        </div>
+      </div>
+
+      <fieldset class="type-switch" aria-label="Typ dropu">
+        <label>
+          <input type="radio" name="dropType" value="drop" checked>
+          <span>Type drop</span>
+        </label>
+        <label>
+          <input type="radio" name="dropType" value="limit">
+          <span>Type limit</span>
+        </label>
+      </fieldset>
+    </header>
+
+    <main class="layout">
+      <section class="panel builder-panel" aria-label="Konfigurator">
+        <div class="section-head">
+          <div>
+            <h2>Grupa</h2>
+            <span id="scaleHint">drop: 206 = 100%</span>
+          </div>
+        </div>
+
+        <div class="meta-grid">
+          <label>
+            <span>Nazwa grupy</span>
+            <input id="groupName" type="text" value="NowyBoss" autocomplete="off">
+          </label>
+          <label>
+            <span>VNUM moba</span>
+            <input id="mobVnum" type="number" min="0" step="1" placeholder="np. 6091">
+          </label>
+          <label>
+            <span>Komentarz moba</span>
+            <input id="mobComment" type="text" placeholder="np. Razador" autocomplete="off">
+          </label>
+          <label class="level-limit">
+            <span>Level_limit</span>
+            <span class="checkline">
+              <input id="useLevelLimit" type="checkbox">
+              <input id="levelLimit" type="number" min="0" step="1" value="1">
+            </span>
+          </label>
+        </div>
+
+        <details class="import-box">
+          <summary>Wczytaj gotowy drop</summary>
+          <div class="import-grid">
+            <textarea id="importDropText" spellcheck="false" placeholder="Wklej tutaj blok Group { ... } z mob_drop_item"></textarea>
+            <div class="import-actions">
+              <button id="importDrop" class="image-button" type="button">Wczytaj</button>
+              <button id="clearImportDrop" class="image-button small" type="button">Wyczyść</button>
+            </div>
+          </div>
+        </details>
+
+        <div class="section-head catalog-head">
+          <div>
+            <h2>Baza itemów</h2>
+          </div>
+          <input id="itemSearch" class="search-input" type="search" placeholder="Szukaj itemu albo VNUM">
+        </div>
+
+        <div id="itemCatalog" class="item-catalog" aria-live="polite"></div>
+
+        <details class="custom-item">
+          <summary>Item spoza bazy</summary>
+          <form id="customItemForm" class="custom-grid">
+            <label>
+              <span>VNUM</span>
+              <input id="customVnum" type="number" min="0" step="1" required>
+            </label>
+            <label>
+              <span>Nazwa</span>
+              <input id="customName" type="text" required autocomplete="off">
+            </label>
+            <label>
+              <span>Ikonka</span>
+              <input id="customIcon" type="url" placeholder="https://img.m2icondb.com/71001.png">
+            </label>
+            <button class="image-button" type="submit">Dodaj</button>
+          </form>
+        </details>
+
+        <div class="section-head drop-head">
+          <div>
+            <h2>Drop</h2>
+            <span id="rowCount">0 pozycji</span>
+          </div>
+          <button id="clearRows" class="image-button small" type="button">Wyczyść</button>
+        </div>
+
+        <div class="drop-columns" aria-hidden="true">
+          <span>Item</span>
+          <span>Ilość</span>
+          <span>Szansa %</span>
+          <span>Wartość</span>
+          <span>Komentarz</span>
+          <span></span>
+        </div>
+        <div id="dropRows" class="drop-list"></div>
+      </section>
+
+      <aside class="side-stack">
+        <section class="panel stats-panel" aria-label="Średni drop">
+          <div class="section-head">
+            <div>
+              <h2>Średnio wydropi</h2>
+              <span id="totalAverage">0 itemów</span>
+            </div>
+            <label class="sample-control">
+              <span>Próbka</span>
+              <input id="sampleSize" type="number" min="1" step="1" value="1">
+            </label>
+          </div>
+          <div id="averageChart" class="average-chart"></div>
+        </section>
+
+        <section class="panel preview-panel" aria-label="Podgląd dropu">
+          <div class="section-head">
+            <div>
+              <h2>Podgląd dropu</h2>
+              <span id="previewMeta">9 slotów w rzędzie</span>
+            </div>
+          </div>
+          <div id="dropPreview" class="drop-preview-window"></div>
+        </section>
+
+        <section class="panel output-panel" aria-label="Output">
+          <div class="section-head">
+            <div>
+              <h2>Output</h2>
+              <span id="outputMeta">mob_drop_item</span>
+            </div>
+            <button id="copyOutput" class="image-button" type="button">Kopiuj</button>
+          </div>
+          <textarea id="outputText" spellcheck="false"></textarea>
+        </section>
+      </aside>
+    </main>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="items.config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

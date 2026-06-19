@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panel narzedzi</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      background: #0f1115;
+      color: #f5f5f5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 800px;
+      padding: 32px;
+    }
+
+    .header {
+      margin-bottom: 28px;
+    }
+
+    .header h1 {
+      margin: 0 0 8px;
+      font-size: 32px;
+    }
+
+    .header p {
+      margin: 0;
+      color: #a7a7a7;
+      font-size: 15px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      display: block;
+      padding: 22px;
+      border: 1px solid #242833;
+      border-radius: 14px;
+      background: #171a21;
+      color: #f5f5f5;
+      text-decoration: none;
+      transition: 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      border-color: #3b82f6;
+      background: #1d2230;
+    }
+
+    .card h2 {
+      margin: 0 0 10px;
+      font-size: 21px;
+    }
+
+    .card p {
+      margin: 0;
+      color: #b6b6b6;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .footer {
+      margin-top: 24px;
+      color: #686f7d;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <div class="header">
+      <h1>Panel narzedzi</h1>
+      <p>Wybierz narzedzie, ktore chcesz uruchomic.</p>
+    </div>
+
+    <div class="grid">
+      <a class="card" href="./daily-statistics/">
+        <h2>Statystyka dzienna dropu</h2>
+        <p>
+          Narzedzie do sprawdzania dziennego oblozenia i statystyk dropu.
+        </p>
+      </a>
+
+      <a class="card" href="./mob-drop-item-editor/">
+        <h2>Pisanie dropu</h2>
+        <p>
+          Edytor / generator do tworzenia dropu mobow i przedmiotow.
+        </p>
+      </a>
+    </div>
+
+    <div class="footer">
+      Monastyr2 - narzedzia administracyjne
+    </div>
+  </main>
+</body>
+</html>

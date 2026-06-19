@@ -1,0 +1,25 @@
+{
+  "name": "monastyr-drop",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/dev-with-sync.mjs",
+    "sync-drop": "node scripts/sync-public-drop.mjs",
+    "prebuild": "node scripts/sync-public-drop.mjs",
+    "build": "next build",
+    "start": "node scripts/static-server.mjs out",
+    "serve": "node scripts/static-server.mjs out",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  }
+}
