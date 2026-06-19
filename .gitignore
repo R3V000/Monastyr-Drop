@@ -2,6 +2,9 @@ node_modules/
 .next/
 out/
 dist/
+**/.git/
+**/.agents/
+**/.vscode/
 *.log
 *.err
 *.tsbuildinfo

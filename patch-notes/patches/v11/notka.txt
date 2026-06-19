@@ -1,0 +1,63 @@
+# Patch Notes
+## Opis aktualizacji v11
+**Poprawki związane z truciem bossów**
+- poprawka zgodnie z aktualizacją v10
+
+**Zmiany do podziału dropu**
+- Poprawki związane z podziałem dropu
+
+**Misja na marmury**
+- Wprowadzono blokadę na wykonywanie misji do 55 poziomu
+
+**Seon-hae (bonusy)**
+- Zmieniono obecną logikę na stałe ceny za każde losowanie:
+*1 losowanie - 100k
+2 losowanie - 200k
+3 losowanie - 400k
+4 losowanie - 800k
+5 losowanie i kazde kolejne stala kwota - 1kk*
+
+**Zdobywanie Doświadczenia**
+- Zwiększono exp w Grocie AV1/AV2
+- Zwiększono exp w Wąwozie Śmierci
+
+**Zapis Pozycji**
+- Zredukowano opłatę za teleportację o **2x**.
+
+**Dodanie Yang do bossów**
+- Dodane zostały Yangi w formie sztabek do każdego bossa.
+
+**Metiny**
+- Przywrócono złom do metinów ze zmniejszonymi %
+- Poprawiono drop z metinów AV1/AV2/Mapa 90
+*(Dodano do nich rangę, eliksir poszukiwacza, stałe yangi w postaci sztabek) *
+- Zmniejszono globalnie drop **Zwojów Egzorcyzmu** oraz **Zwojów Błogosławieństwa** o ~15%
+
+**Dungeony (Beran/Razador)**
+- lekka poprawka dropu
+- poprawiono ilość Yang możliwych do zdobycia  ( działa bonus Szansa na podwójną ilość Yang )
+
+**Alchemik / Alchemia**
+- dodano wytwarzanie Różowych Smoczych Fasolek 
+*Różowe Smocze Fasolki posiadają dużo większe szanse na ulepszenie poziomu Alchemii*
+*średnia ilość do np. +4 ~6 fasolek*
+
+**Crafting 1**
+- 5x **Zielona Smocza Fasola** + 20 **cor draconis (surowy)** + 500k = **80% szans na craft Różowej Smoczej Fasoli**
+
+**Crafting 2**
+- 5x **Niebieska Smocza Fasola** + 20 **cor draconis (surowy)** + 500k = **100% szans na craft Różowej Smoczej Fasoli**
+
+**Crafting 3**
+- 5x **Zielona Smocza Fasola** + 10 **cor draconis (szlif.)** + 500k = **80% szans na craft Różowej Smoczej Fasoli**
+
+**Crafting 4**
+- 5x **Niebieska Smocza Fasola** + 10 **cor draconis (szlif.)** + 500k = **100% szans na craft Różowej Smoczej Fasoli**
+
+**Zmieniono czasy respawnu dla Elitarnych Bossów**
+- Elit. Zjawa
+00:05, 04:05, 08:05, 12:05, 16:05, 16:55, 17:35, 18:25, 18:55, 19:45, 20:25, 21:45
+- Elit. Ognisty Król
+23:55, 03:55, 07:55, 11:55, 15:55, 16:45, 17:25, 18:15, 18:45, 19:35, 20:15, 21:35
+
+*Dodano Czerwony Materiał do dropu z Elit. (mała szansa)*

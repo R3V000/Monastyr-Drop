@@ -5,6 +5,16 @@ import { spawnSync } from "node:child_process";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const dist = join(root, "dist");
+const staticOut = join(root, "out");
+const ignoredCopyNames = new Set([
+  ".git",
+  ".agents",
+  ".vscode",
+  "node_modules",
+  ".next",
+  "out",
+  "dist"
+]);
 const skipInstall =
   process.argv.includes("--skip-install") || process.env.SKIP_DAILY_INSTALL === "1";
 
@@ -35,6 +45,19 @@ function runNpm(args, options = {}) {
   run("npm", args, options);
 }
 
+function shouldCopy(sourceRoot, source) {
+  const parts = source.slice(sourceRoot.length).split(/[\\/]/).filter(Boolean);
+  return !parts.some((part) => ignoredCopyNames.has(part));
+}
+
+function copyDirectory(source, target) {
+  const sourceRoot = resolve(source);
+  cpSync(source, target, {
+    recursive: true,
+    filter: (currentSource) => shouldCopy(sourceRoot, currentSource)
+  });
+}
+
 if (!skipInstall) {
   runNpm(["--prefix", "daily-statistics", "ci"]);
 }
@@ -47,12 +70,12 @@ runNpm(["--prefix", "daily-statistics", "run", "build"], {
 });
 
 rmSync(dist, { recursive: true, force: true });
+rmSync(staticOut, { recursive: true, force: true });
 mkdirSync(dist, { recursive: true });
 
 cpSync(join(root, "index.html"), join(dist, "index.html"));
-cpSync(join(root, "mob-drop-item-editor"), join(dist, "mob-drop-item-editor"), {
-  recursive: true
-});
+copyDirectory(join(root, "mob-drop-item-editor"), join(dist, "mob-drop-item-editor"));
+copyDirectory(join(root, "patch-notes"), join(dist, "patch-notes"));
 
 const dailyOut = join(root, "daily-statistics", "out");
 if (!existsSync(dailyOut)) {
@@ -60,3 +83,4 @@ if (!existsSync(dailyOut)) {
 }
 
 cpSync(dailyOut, join(dist, "daily-statistics"), { recursive: true });
+copyDirectory(dist, staticOut);

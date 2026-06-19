@@ -1,0 +1,876 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Patch notes v11</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="patch-notes.css">
+  </head>
+  <body class="embedded-patch">
+    <section class="lobby-view" aria-label="Patch notes v11">
+      <div class="lobby-shell">
+        <aside class="lobby-sidebar" aria-label="Nawigacja patch notes">
+          <div class="lobby-sidebar-content">
+            <p class="lobby-kicker">Monastyr</p>
+            <h1>Patch v11</h1>
+          </div>
+        </aside>
+
+        <main class="patch-notes" aria-label="Treść patch notes v11">
+          <p class="patch-kicker">Patch notes</p>
+          <h2>Opis aktualizacji v11</h2>
+
+          <section id="systemy" class="patch-block">
+            <h3>Poprawki systemowe</h3>
+            <ul>
+              <li>Poprawiono działanie trucia bossów zgodnie z aktualizacją v10.</li>
+              <li>Poprawiono obrażenia zadawane z umiejętności przez <strong>Szamana Smoka</strong>.</li>
+              <li>Wprowadzono poprawki związane z podziałem dropu.</li>
+              <li>W misji na marmury dodano blokadę wykonywania do <strong>55 poziomu</strong>.</li>
+            </ul>
+          </section>
+
+          <section id="skrzynie-peleryn" class="patch-block">
+            <h3>Skrzynie Peleryn</h3>
+            <p>Dodaliśmy nowe skrzynie przeznaczone do wygodnego przechowywania Peleryn Męstwa. Możecie je zakupić u <strong>Handlarki Różności</strong>.</p>
+
+            <div class="cape-chest-list" aria-label="Rodzaje Skrzyń Peleryn">
+              <article class="cape-chest-card">
+                <figure>
+                  <img src="https://img.m2icondb.com/50287.png" alt="Skrzynia Peleryn">
+                </figure>
+                <div>
+                  <h4>Skrzynia Peleryn</h4>
+                  <p>Służy do przechowywania zwykłych Peleryn Męstwa.</p>
+                </div>
+              </article>
+
+              <article class="cape-chest-card">
+                <figure>
+                  <img src="https://img.m2icondb.com/50288.png" alt="Skrzynia Peleryn+">
+                </figure>
+                <div>
+                  <h4>Skrzynia Peleryn+</h4>
+                  <p>Służy do przechowywania Peleryn Męstwa z plusem.</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="cape-merchant-panel">
+              <figure>
+                <img src="images/handlarka.png" alt="Handlarka Różności">
+              </figure>
+            </div>
+
+            <div class="cape-shortcuts" aria-label="Sterowanie Skrzyniami Peleryn">
+              <div class="shortcut-row">
+                <span class="key-combo" aria-label="Control plus prawy przycisk myszy">
+                  <kbd>CTRL</kbd>
+                  <span>+</span>
+                  <kbd>PPM</kbd>
+                </span>
+                <p>Umieszcza Peleryny Męstwa w odpowiedniej skrzyni.</p>
+              </div>
+              <div class="shortcut-row">
+                <span class="key-combo" aria-label="Shift plus prawy przycisk myszy">
+                  <kbd>SHIFT</kbd>
+                  <span>+</span>
+                  <kbd>PPM</kbd>
+                </span>
+                <p>Wyciąga Peleryny Męstwa ze skrzyni.</p>
+              </div>
+            </div>
+          </section>
+
+          <section id="handlarz-tygodniowy" class="patch-block">
+            <h3>Handlarz Tygodniowy</h3>
+            <div class="weekly-merchant">
+              <div>
+                <p>Dodaliśmy <strong>Handlarza Tygodniowego</strong>, u którego będziecie mogli zakupić różne przedmioty w limitowanej ilości.</p>
+                <ul class="merchant-facts">
+                  <li>Dostępny od <strong>19.06.2026</strong> do <strong>21.06.2026</strong>, do godziny <strong>21:00</strong>.</li>
+                  <li>Opcja zakupu będzie dostępna u <strong>Niepozornego Pieszego - Mitachiego</strong> w każdym królestwie M1.</li>
+                </ul>
+              </div>
+              <figure>
+                <img src="images/pieszy.png" alt="Niepozorny Pieszy - Mitachi">
+              </figure>
+            </div>
+
+            <div class="merchant-items" aria-label="Przykładowe przedmioty u Handlarza Tygodniowego">
+              <p class="craft-subtitle">Przykładowe przedmioty</p>
+
+              <div class="merchant-item-grid">
+                <article class="merchant-item-card">
+                  <h4>Pier. Blasku Księżyca +9</h4>
+                  <p>U handlarza będzie dostępny wariant już ulepszony do poziomu <strong>+9</strong>.</p>
+                  <p class="item-duration">Czas trwania <strong>10d</strong></p>
+                </article>
+
+                <article class="merchant-item-card merchant-ring-pair">
+                  <h4>Pierścienie z Kości</h4>
+                  <div class="ring-pair-text">
+                    <p><strong>Pier. z Kości Smoka</strong> - Wartość Ataku <span>+75</span></p>
+                    <p><strong>Pier. z Kości Tygrysa</strong> - Silny przeciwko potworom <span>+10%</span></p>
+                  </div>
+                  <p class="item-duration">Czas trwania <strong>7d</strong> - upływa cały czas</p>
+                  <p class="synergy-note">Po założeniu obu pierścieni jednocześnie aktywuje się <strong>Synergia</strong>: dodatkowe <strong>+1500 HP</strong>.</p>
+                </article>
+
+                <article class="merchant-item-card">
+                  <h4>Baronka</h4>
+                  <dl>
+                    <div>
+                      <dt>Silny przeciwko potworom</dt>
+                      <dd>+20%</dd>
+                    </div>
+                    <div>
+                      <dt>Szansa na cios krytyczny</dt>
+                      <dd>+15%</dd>
+                    </div>
+                    <div>
+                      <dt>Max HP</dt>
+                      <dd>+1500</dd>
+                    </div>
+                  </dl>
+                  <p class="item-duration">Czas trwania <strong>30d</strong> - upływa cały czas</p>
+                </article>
+
+                <article class="merchant-item-card">
+                  <h4>Kupony SM</h4>
+                  <p>W ofercie znajdziecie również <strong>Kupony SM [1000]</strong>.</p>
+                </article>
+
+                <article class="merchant-item-card">
+                  <h4>Leśny Yeti</h4>
+                  <p>Nowy wierzchowiec dostępny w ofercie. Więcej informacji znajdziecie w sekcji Skrzyni Premium.</p>
+                  <a class="merchant-more-button" href="#lesny-yeti">Zobacz więcej</a>
+                </article>
+              </div>
+
+            </div>
+          </section>
+
+          <section id="skrzynia-premium" class="patch-block">
+            <h3>Skrzynia Premium</h3>
+            <div class="premium-intro">
+              <figure class="premium-chest">
+                <img src="images/skrzynia-premium.png" alt="Skrzynia Premium">
+              </figure>
+              <div>
+                <p>Zamiast Koła Losu, które towarzyszyło nam dotychczas, dodaliśmy <strong>Skrzynię Premium</strong>.</p>
+                <p>Oprócz wcześniej zapowiadanych kostiumów wakacyjnych możecie zdobyć z niej również nowe, wyjątkowe przedmioty.</p>
+              </div>
+            </div>
+
+            <div class="premium-feature-list">
+              <article id="lesny-yeti" class="premium-feature">
+                <div class="premium-feature-copy">
+                  <p class="patch-kicker">Limitowany przedmiot</p>
+                  <h4>Leśny Yeti</h4>
+                  <p>Czas trwania wynosi <strong>450 godzin</strong>. Czas upływa tylko wtedy, gdy przedmiot jest założony.</p>
+                  <dl class="premium-bonuses">
+                    <div>
+                      <dt>Silny przeciwko Potworom</dt>
+                      <dd>+15%</dd>
+                    </div>
+                    <div>
+                      <dt>Szansa na cios krytyczny</dt>
+                      <dd>+15%</dd>
+                    </div>
+                    <div>
+                      <dt>Szansa na bonus doświadczenia</dt>
+                      <dd>+25%</dd>
+                    </div>
+                  </dl>
+                </div>
+                <figure class="premium-video-frame">
+                  <video autoplay muted loop preload="metadata" playsinline aria-hidden="true">
+                    <source src="skrzynki/yeti.mp4" type="video/mp4">
+                    Twoja przeglądarka nie obsługuje odtwarzania tego filmu.
+                  </video>
+                </figure>
+              </article>
+
+              <article class="premium-feature">
+                <div class="premium-feature-copy">
+                  <p class="patch-kicker">Limitowany przedmiot</p>
+                  <h4>Alistar</h4>
+                  <p>Nowy zwierzak obdarzy Was bonusami przez <strong>30 dni</strong>.</p>
+                  <dl class="premium-bonuses">
+                    <div>
+                      <dt>Silny przeciwko Potworom</dt>
+                      <dd>+20%</dd>
+                    </div>
+                    <div>
+                      <dt>Max PŻ</dt>
+                      <dd>+2000</dd>
+                    </div>
+                    <div>
+                      <dt>Szansa na bonus doświadczenia</dt>
+                      <dd>+30%</dd>
+                    </div>
+                  </dl>
+                </div>
+                <figure class="premium-video-frame">
+                  <video autoplay muted loop preload="metadata" playsinline aria-hidden="true">
+                    <source src="skrzynki/alistar.mp4" type="video/mp4">
+                    Twoja przeglądarka nie obsługuje odtwarzania tego filmu.
+                  </video>
+                </figure>
+              </article>
+            </div>
+
+            <article class="premium-ring-panel">
+              <div class="premium-ring-copy">
+                <p class="patch-kicker">Nowy przedmiot</p>
+                <h4>Pierścień Blasku Księżyca</h4>
+                <p>Ze Skrzyni Premium możecie zdobyć Pierścień Blasku Księżyca na poziomie <strong>+0</strong>.</p>
+                <p class="ring-warning">Handlować można wyłącznie pierścieniem <strong>+0</strong>. Pozostałe poziomy ulepszenia są <strong>niehandlowalne</strong>.</p>
+                <p>Jeżeli zdołacie ulepszyć pierścień do poziomu <strong>+9</strong>, wzmocni on Waszą postać bonusami na <strong>10 dni</strong>. Czas trwania upływa cały czas.</p>
+                <dl class="premium-bonuses ring-bonuses">
+                  <div>
+                    <dt>Max HP</dt>
+                    <dd>+1500</dd>
+                  </div>
+                  <div>
+                    <dt>Silny przeciwko potworom</dt>
+                    <dd>+20%</dd>
+                  </div>
+                  <div>
+                    <dt>Silny przeciwko ludziom</dt>
+                    <dd>+20%</dd>
+                  </div>
+                  <div>
+                    <dt>Szansa na cios krytyczny</dt>
+                    <dd>+20%</dd>
+                  </div>
+                  <div>
+                    <dt>Silny przeciwko Metinom</dt>
+                    <dd>+5%</dd>
+                  </div>
+                  <div>
+                    <dt>Średnie obrażenia</dt>
+                    <dd>+5%</dd>
+                  </div>
+                </dl>
+              </div>
+              <figure class="premium-ring-art">
+                <img src="images/pierscionek.png" alt="Pierścień Blasku Księżyca">
+              </figure>
+            </article>
+
+            <div class="shine-scroll-panel">
+              <figure>
+                <img src="images/kowal.png" alt="Kowal">
+              </figure>
+              <div>
+                <h4>Zwój Blasku</h4>
+                <p>Pierścień można ulepszać za pomocą <strong>Zwojów Blasku</strong>, które możecie wytworzyć u Kowala.</p>
+              </div>
+              <figure>
+                <img src="images/zwoj.png" alt="Zwój Blasku">
+              </figure>
+            </div>
+          </section>
+
+          <section class="patch-block">
+            <h3>Seon-hae - bonusy</h3>
+            <p>Zmieniono obecną logikę losowania bonusów na stałe ceny za każde losowanie.</p>
+            <div class="bonus-table-wrap">
+              <table class="bonus-table">
+                <thead>
+                  <tr>
+                    <th>Losowanie</th>
+                    <th>Koszt</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1 losowanie</td>
+                    <td>100k</td>
+                  </tr>
+                  <tr>
+                    <td>2 losowanie</td>
+                    <td>200k</td>
+                  </tr>
+                  <tr>
+                    <td>3 losowanie</td>
+                    <td>400k</td>
+                  </tr>
+                  <tr>
+                    <td>4 losowanie</td>
+                    <td>800k</td>
+                  </tr>
+                  <tr>
+                    <td>5 losowanie i każde kolejne</td>
+                    <td>1kk</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section class="patch-block">
+            <h3>Doświadczenie i zapis pozycji</h3>
+            <ul>
+              <li>Zwiększono zdobywane doświadczenie w <strong>Grocie AV1</strong> oraz <strong>Grocie AV2</strong>.</li>
+              <li>Zwiększono zdobywane doświadczenie w <strong>Wąwozie Śmierci</strong>.</li>
+              <li>Zredukowano opłatę za teleportację poprzez zapis pozycji o <strong>2x</strong>.</li>
+            </ul>
+          </section>
+
+          <section id="drop" class="patch-block">
+            <h3>Bossy, metiny i drop</h3>
+            <ul>
+              <li>Dodano Yang w formie sztabek do każdego bossa.</li>
+              <li>Przywrócono złom do metinów ze zmniejszonymi wartościami procentowymi.</li>
+              <li>Poprawiono drop z metinów na <strong>AV1</strong>, <strong>AV2</strong> oraz <strong>Mapie 90</strong>.</li>
+              <li>Do metinów AV1, AV2 i Mapy 90 dodano rangę, eliksir poszukiwacza oraz stałe Yangi w postaci sztabek.</li>
+              <li>Zmniejszono globalnie drop <strong>Zwojów Egzorcyzmu</strong> oraz <strong>Zwojów Błogosławieństwa</strong> o około <strong>15%</strong>.</li>
+            </ul>
+          </section>
+
+          <section id="rudy" class="patch-block">
+            <div class="ore-panel">
+              <figure class="ore-map">
+                <img src="images/sw-hwang.jpg" alt="Świątynia Hwang">
+              </figure>
+              <ul class="ore-list">
+                <li>
+                  <img src="images/krysztal-duszy.png" alt="Ruda Kryształu Duszy">
+                  <span>Ruda Kryształu Duszy</span>
+                </li>
+                <li>
+                  <img src="images/ametyst.png" alt="Ruda Ametystu">
+                  <span>Ruda Ametystu</span>
+                </li>
+                <li>
+                  <img src="images/niebianskie-lzy.png" alt="Ruda Niebiańskich Łez">
+                  <span>Ruda Niebiańskich Łez</span>
+                </li>
+                <li>
+                  <img src="images/krysztalu.png" alt="Ruda Kryształu">
+                  <span>Ruda Kryształu</span>
+                </li>
+                <li>
+                  <img src="images/biale-zloto.png" alt="Ruda z Białego Złota">
+                  <span>Ruda z Białego Złota</span>
+                </li>
+                <li>
+                  <img src="images/diamentu.png" alt="Ruda Diamentu">
+                  <span>Ruda Diamentu</span>
+                </li>
+              </ul>
+              <p class="ore-timer">Rudy w <strong>Świątyni Hwang</strong> pojawiają się losowo co <strong>20</strong>, <strong>25</strong> lub <strong>30 minut</strong>.</p>
+            </div>
+          </section>
+
+          <section class="patch-block">
+            <h3>Dungeony - Beran i Razador</h3>
+            <ul>
+              <li>Wprowadzono lekką poprawkę dropu.</li>
+              <li>Poprawiono ilość Yang możliwych do zdobycia.</li>
+              <li>Na Yang z dungeonów działa bonus <strong>Szansa na podwójną ilość Yang</strong>.</li>
+            </ul>
+          </section>
+
+          <section class="patch-block">
+            <h3>Wieża Demonów</h3>
+            <p>Dodano <strong>Publiczną Wieżę Demonów</strong>. W tej wersji nie pojawia się Metin - aktywność służy wyłącznie do zdobywania ulepszaczy.</p>
+          </section>
+
+          <section id="craftingi" class="patch-block">
+            <h3>Craftingi</h3>
+            <p>Zaaktualizowano wytwarzanie przedmiotów na serwerze, m.in.:</p>
+            <ul>
+              <li>Rady Konnej</li>
+              <li>Cukru dla Konia</li>
+              <li>Kamieni Duszy +5</li>
+              <li>Przetopów</li>
+              <li>Eliksiru Gildii</li>
+            </ul>
+          </section>
+
+          <section id="alchemia" class="patch-block">
+            <h3>Alchemik i alchemia</h3>
+            <p>Dodano wytwarzanie <strong>Różowych Smoczych Fasolek</strong>.</p>
+            <ul class="highlight-list">
+              <li><strong>Różowe Smocze Fasolki</strong> posiadają dużo większe szanse na ulepszenie poziomu alchemii.</li>
+              <li>Średnia ilość potrzebna do ulepszenia np. na <strong>+4</strong> wynosi około <strong>6 fasolek</strong>.</li>
+            </ul>
+          </section>
+
+          <section id="crafting" class="patch-block">
+            <h3>Crafting Różowych Smoczych Fasolek</h3>
+            <p>Receptury u Alchemika pozwalają wymienić Zielone lub Niebieskie Smocze Fasolki wraz z Cor Draconis na Różową Smoczą Fasolkę.</p>
+
+            <div class="alchemy-recipes" aria-label="Receptury Różowych Smoczych Fasolek">
+              <article class="alchemy-craft">
+                <div class="alchemy-craft-head">
+                  <span>Crafting 1</span>
+                  <strong>80%</strong>
+                </div>
+                <div class="alchemy-formula" aria-label="5 Zielonych Smoczych Fasolek plus 20 Cor Draconis surowy plus 500k Yang daje Różową Smoczą Fasolkę">
+                  <div class="craft-inputs">
+                    <figure class="craft-slot" title="Zielona Smocza Fasolka">
+                      <img src="https://img.m2icondb.com/100300.png" alt="Zielona Smocza Fasolka">
+                      <figcaption>5</figcaption>
+                    </figure>
+                    <span class="craft-plus">+</span>
+                    <figure class="craft-slot" title="Cor Draconis (surowy)">
+                      <img src="https://img.m2icondb.com/51501.png" alt="Cor Draconis (surowy)">
+                      <figcaption>20</figcaption>
+                    </figure>
+                    <span class="craft-plus">+</span>
+                    <figure class="craft-slot craft-yang" title="Yang">
+                      <img src="https://img.m2icondb.com/money.png" alt="Yang">
+                      <figcaption>500k</figcaption>
+                    </figure>
+                  </div>
+                  <span class="craft-equals">=</span>
+                  <figure class="craft-slot craft-result" title="Różowa Smocza Fasolka">
+                    <img src="https://img.m2icondb.com/100500.png" alt="Różowa Smocza Fasolka">
+                    <figcaption>1</figcaption>
+                  </figure>
+                </div>
+              </article>
+
+              <article class="alchemy-craft">
+                <div class="alchemy-craft-head">
+                  <span>Crafting 2</span>
+                  <strong>100%</strong>
+                </div>
+                <div class="alchemy-formula" aria-label="5 Niebieskich Smoczych Fasolek plus 20 Cor Draconis surowy plus 500k Yang daje Różową Smoczą Fasolkę">
+                  <div class="craft-inputs">
+                    <figure class="craft-slot" title="Niebieska Smocza Fasolka">
+                      <img src="https://img.m2icondb.com/100400.png" alt="Niebieska Smocza Fasolka">
+                      <figcaption>5</figcaption>
+                    </figure>
+                    <span class="craft-plus">+</span>
+                    <figure class="craft-slot" title="Cor Draconis (surowy)">
+                      <img src="https://img.m2icondb.com/51501.png" alt="Cor Draconis (surowy)">
+                      <figcaption>20</figcaption>
+                    </figure>
+                    <span class="craft-plus">+</span>
+                    <figure class="craft-slot craft-yang" title="Yang">
+                      <img src="https://img.m2icondb.com/money.png" alt="Yang">
+                      <figcaption>500k</figcaption>
+                    </figure>
+                  </div>
+                  <span class="craft-equals">=</span>
+                  <figure class="craft-slot craft-result" title="Różowa Smocza Fasolka">
+                    <img src="https://img.m2icondb.com/100500.png" alt="Różowa Smocza Fasolka">
+                    <figcaption>1</figcaption>
+                  </figure>
+                </div>
+              </article>
+
+              <article class="alchemy-craft">
+                <div class="alchemy-craft-head">
+                  <span>Crafting 3</span>
+                  <strong>80%</strong>
+                </div>
+                <div class="alchemy-formula" aria-label="5 Zielonych Smoczych Fasolek plus 10 Cor Draconis szlifowany plus 500k Yang daje Różową Smoczą Fasolkę">
+                  <div class="craft-inputs">
+                    <figure class="craft-slot" title="Zielona Smocza Fasolka">
+                      <img src="https://img.m2icondb.com/100300.png" alt="Zielona Smocza Fasolka">
+                      <figcaption>5</figcaption>
+                    </figure>
+                    <span class="craft-plus">+</span>
+                    <figure class="craft-slot" title="Cor Draconis (szlif.)">
+                      <img src="https://img.m2icondb.com/51549.png" alt="Cor Draconis (szlif.)">
+                      <figcaption>10</figcaption>
+                    </figure>
+                    <span class="craft-plus">+</span>
+                    <figure class="craft-slot craft-yang" title="Yang">
+                      <img src="https://img.m2icondb.com/money.png" alt="Yang">
+                      <figcaption>500k</figcaption>
+                    </figure>
+                  </div>
+                  <span class="craft-equals">=</span>
+                  <figure class="craft-slot craft-result" title="Różowa Smocza Fasolka">
+                    <img src="https://img.m2icondb.com/100500.png" alt="Różowa Smocza Fasolka">
+                    <figcaption>1</figcaption>
+                  </figure>
+                </div>
+              </article>
+
+              <article class="alchemy-craft">
+                <div class="alchemy-craft-head">
+                  <span>Crafting 4</span>
+                  <strong>100%</strong>
+                </div>
+                <div class="alchemy-formula" aria-label="5 Niebieskich Smoczych Fasolek plus 10 Cor Draconis szlifowany plus 500k Yang daje Różową Smoczą Fasolkę">
+                  <div class="craft-inputs">
+                    <figure class="craft-slot" title="Niebieska Smocza Fasolka">
+                      <img src="https://img.m2icondb.com/100400.png" alt="Niebieska Smocza Fasolka">
+                      <figcaption>5</figcaption>
+                    </figure>
+                    <span class="craft-plus">+</span>
+                    <figure class="craft-slot" title="Cor Draconis (szlif.)">
+                      <img src="https://img.m2icondb.com/51549.png" alt="Cor Draconis (szlif.)">
+                      <figcaption>10</figcaption>
+                    </figure>
+                    <span class="craft-plus">+</span>
+                    <figure class="craft-slot craft-yang" title="Yang">
+                      <img src="https://img.m2icondb.com/money.png" alt="Yang">
+                      <figcaption>500k</figcaption>
+                    </figure>
+                  </div>
+                  <span class="craft-equals">=</span>
+                  <figure class="craft-slot craft-result" title="Różowa Smocza Fasolka">
+                    <img src="https://img.m2icondb.com/100500.png" alt="Różowa Smocza Fasolka">
+                    <figcaption>1</figcaption>
+                  </figure>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section id="respawny" class="patch-block">
+            <h3>Czasy respawnu elitarnych bossów</h3>
+            <div class="respawn-grid">
+              <article class="respawn-card">
+                <h4>Elit. Zjawa</h4>
+                <p>00:05, 04:05, 08:05, 12:05, 16:05, 16:55, 17:35, 18:25, 18:55, 19:45, 20:25, 21:45</p>
+              </article>
+              <article class="respawn-card">
+                <h4>Elit. Ognisty Król</h4>
+                <p>23:55, 03:55, 07:55, 11:55, 15:55, 16:45, 17:25, 18:15, 18:45, 19:35, 20:15, 21:35</p>
+              </article>
+            </div>
+            <p class="important-note">Dodano <strong>Czerwony Materiał</strong> do dropu z elitarnych bossów. Przedmiot posiada małą szansę na zdobycie.</p>
+          </section>
+
+          <section id="szkatulki" class="patch-block">
+            <h3>Nowe szkatułki w dropie</h3>
+            <p>Do bossów dodano nowe szkatułki z osobnymi pulami nagród. Poniżej znajdziecie źródła zdobycia oraz podgląd dropu każdej z nich.</p>
+
+            <div class="box-drop-list" aria-label="Nowe szkatułki i ich drop">
+              <article class="box-drop-card">
+                <div class="box-drop-head">
+                  <img src="https://img.m2icondb.com/boss_box.png" alt="Szkatułka Pomniejszego Władcy">
+                  <div>
+                    <span>Minibossy z M2</span>
+                    <h4>Szkatułka Pomniejszego Władcy</h4>
+                  </div>
+                </div>
+                <figure class="drop-preview">
+                  <img src="skrzynki/drop-m2.png" alt="Drop ze Szkatułki Pomniejszego Władcy" loading="lazy">
+                </figure>
+              </article>
+
+              <article class="box-drop-card">
+                <div class="box-drop-head">
+                  <img src="https://img.m2icondb.com/boss_box.png" alt="Szkatułka Wędrownych Władców">
+                  <div>
+                    <span>Bossy lotne</span>
+                    <h4>Szkatułka Wędrownych Władców</h4>
+                  </div>
+                </div>
+                <figure class="drop-preview">
+                  <img src="skrzynki/drop-lotne.png" alt="Drop ze Szkatułki Wędrownych Władców" loading="lazy">
+                </figure>
+              </article>
+
+              <article class="box-drop-card">
+                <div class="box-drop-head">
+                  <img src="https://img.m2icondb.com/boss_box.png" alt="Szkatułka Elitarnych Władców">
+                  <div>
+                    <span>Bossy Elit. + Generał</span>
+                    <h4>Szkatułka Elit. Władców</h4>
+                  </div>
+                </div>
+                <figure class="drop-preview">
+                  <img src="skrzynki/drop-elit.png" alt="Drop ze Szkatułki Elitarnych Władców" loading="lazy">
+                </figure>
+              </article>
+
+              <article class="box-drop-card">
+                <div class="box-drop-head">
+                  <img src="https://img.m2icondb.com/boss_box.png" alt="Szkatułka Władców Wąwozu">
+                  <div>
+                    <span>Bossy z Wąwozu Śmierci</span>
+                    <h4>Szkatułka Władców Wąwozu</h4>
+                  </div>
+                </div>
+                <figure class="drop-preview">
+                  <img src="skrzynki/drop-wladcow-wawozu.png" alt="Drop ze Szkatułki Władców Wąwozu" loading="lazy">
+                </figure>
+              </article>
+            </div>
+
+            <p class="important-note">Kostiumy oraz nakładki zawarte w szkatułkach posiadają małą szansę na drop. Są czasowe na <strong>7 dni</strong> i posiadają zwiększone bonusy.</p>
+
+            <figure class="costume-video">
+              <video autoplay muted loop preload="auto" playsinline aria-hidden="true">
+                <source src="skrzynki/wideo.mp4" type="video/mp4">
+                Twoja przeglądarka nie obsługuje odtwarzania tego filmu.
+              </video>
+            </figure>
+
+            <div class="rare-bonus-list" aria-label="Bonusy kostiumów i nakładek ze szkatułek">
+              <article class="rare-bonus-card">
+                <h4>Nakładka Og. Króla</h4>
+                <dl>
+                  <div>
+                    <dt>Silny przeciwko Potworom</dt>
+                    <dd>+13%</dd>
+                  </div>
+                  <div>
+                    <dt>Silny przeciwko Ludziom</dt>
+                    <dd>+13%</dd>
+                  </div>
+                  <div>
+                    <dt>Wartość Ataku</dt>
+                    <dd>+75</dd>
+                  </div>
+                </dl>
+                <p>Czas Trwania <strong>7d</strong></p>
+              </article>
+
+              <article class="rare-bonus-card">
+                <h4>Zbroja Og. Króla</h4>
+                <dl>
+                  <div>
+                    <dt>Silny przeciwko Potworom</dt>
+                    <dd>+13%</dd>
+                  </div>
+                  <div>
+                    <dt>Silny przeciwko Ludziom</dt>
+                    <dd>+13%</dd>
+                  </div>
+                  <div>
+                    <dt>Max HP</dt>
+                    <dd>+1250</dd>
+                  </div>
+                </dl>
+                <p>Czas Trwania <strong>7d</strong></p>
+              </article>
+
+              <article class="rare-bonus-card">
+                <h4>Fryzura Og. Króla</h4>
+                <dl>
+                  <div>
+                    <dt>Silny przeciwko Potworom</dt>
+                    <dd>+13%</dd>
+                  </div>
+                  <div>
+                    <dt>Silny przeciwko Ludziom</dt>
+                    <dd>+13%</dd>
+                  </div>
+                  <div>
+                    <dt>Max HP</dt>
+                    <dd>+1250</dd>
+                  </div>
+                </dl>
+                <p>Czas Trwania <strong>7d</strong></p>
+              </article>
+            </div>
+          </section>
+
+          <section id="pasywki" class="patch-block">
+            <h3>Nowe umiejętności pasywne</h3>
+            <p>Do gry trafiają dwie nowe umiejętności pasywne, które wzmacniają postać na najwyższym poziomie rozwinięcia.</p>
+
+            <div class="passive-skill-grid" aria-label="Nowe umiejętności pasywne">
+              <article class="passive-skill-card">
+                <div>
+                  <h4>Bossologia</h4>
+                  <p>Na poziomie <strong>P</strong> zapewnia <strong>12% odporności na bossy</strong>.</p>
+                </div>
+              </article>
+
+              <article class="passive-skill-card">
+                <div>
+                  <h4>Waleczność</h4>
+                  <p>Na poziomie <strong>P</strong> zapewnia <strong>100 wartości ataku</strong> oraz <strong>100 wartości magicznego ataku</strong>.</p>
+                </div>
+              </article>
+            </div>
+
+            <section class="soon-panel" aria-label="Jak zdobyć nowe umiejętności pasywne">
+              <div>
+                <p class="patch-kicker">Jak zdobyć?</p>
+                <h4>Crafting u Soona</h4>
+                <p>Nowe pasywki pochodzą wyłącznie z craftingu. Będziecie mogli wytwarzać potrzebne przedmioty u <strong>Soona</strong>.</p>
+              </div>
+              <figure>
+                <img src="images/Soon.png" alt="Soon">
+              </figure>
+            </section>
+
+            <p class="craft-note">Aby wycraftować księgi nowych umiejętności pasywnych, najpierw musicie przygotować główny materiał - <strong>Urywki Strony</strong>.</p>
+            <h4 class="craft-subtitle">Materiał bazowy - Urywek Strony</h4>
+
+            <div class="alchemy-recipes passive-recipes" aria-label="Wymiany na Urywek Strony">
+              <article class="alchemy-craft">
+                <div class="alchemy-craft-head">
+                  <span>Wymiana</span>
+                  <strong>100%</strong>
+                </div>
+                <div class="alchemy-formula" aria-label="3 Dominacje plus 1kk Yang daje jeden Urywek Strony">
+                  <div class="craft-inputs">
+                    <figure class="craft-slot" title="Dominacja">
+                      <img src="https://img.m2icondb.com/70401.png" alt="Dominacja">
+                      <figcaption>3</figcaption>
+                    </figure>
+                    <span class="craft-plus">+</span>
+                    <figure class="craft-slot craft-yang" title="Yang">
+                      <img src="https://img.m2icondb.com/money.png" alt="Yang">
+                      <figcaption>1kk</figcaption>
+                    </figure>
+                  </div>
+                  <span class="craft-equals">=</span>
+                  <figure class="craft-slot craft-page" title="Urywek Strony">
+                    <img src="https://img.m2icondb.com/30181.png" alt="Urywek Strony">
+                    <figcaption>1</figcaption>
+                  </figure>
+                </div>
+              </article>
+
+              <article class="alchemy-craft">
+                <div class="alchemy-craft-head">
+                  <span>Wymiana</span>
+                  <strong>100%</strong>
+                </div>
+                <div class="alchemy-formula" aria-label="1 Metinologia plus 1kk Yang daje jeden Urywek Strony">
+                  <div class="craft-inputs">
+                    <figure class="craft-slot" title="Metinologia">
+                      <img src="https://img.m2icondb.com/79512.png" alt="Metinologia">
+                      <figcaption>1</figcaption>
+                    </figure>
+                    <span class="craft-plus">+</span>
+                    <figure class="craft-slot craft-yang" title="Yang">
+                      <img src="https://img.m2icondb.com/money.png" alt="Yang">
+                      <figcaption>1kk</figcaption>
+                    </figure>
+                  </div>
+                  <span class="craft-equals">=</span>
+                  <figure class="craft-slot craft-page" title="Urywek Strony">
+                    <img src="https://img.m2icondb.com/30181.png" alt="Urywek Strony">
+                    <figcaption>1</figcaption>
+                  </figure>
+                </div>
+              </article>
+
+              <article class="alchemy-craft">
+                <div class="alchemy-craft-head">
+                  <span>Wymiana</span>
+                  <strong>100%</strong>
+                </div>
+                <div class="alchemy-formula" aria-label="1 Potworologia plus 1kk Yang daje jeden Urywek Strony">
+                  <div class="craft-inputs">
+                    <figure class="craft-slot" title="Potworologia">
+                      <img src="https://img.m2icondb.com/79510.png" alt="Potworologia">
+                      <figcaption>1</figcaption>
+                    </figure>
+                    <span class="craft-plus">+</span>
+                    <figure class="craft-slot craft-yang" title="Yang">
+                      <img src="https://img.m2icondb.com/money.png" alt="Yang">
+                      <figcaption>1kk</figcaption>
+                    </figure>
+                  </div>
+                  <span class="craft-equals">=</span>
+                  <figure class="craft-slot craft-page" title="Urywek Strony">
+                    <img src="https://img.m2icondb.com/30181.png" alt="Urywek Strony">
+                    <figcaption>1</figcaption>
+                  </figure>
+                </div>
+              </article>
+            </div>
+
+            <h4 class="craft-subtitle">Główny crafting ksiąg</h4>
+            <p class="craft-note">Gotowe Urywki Strony możecie połączyć ze Zwojami Egzorcyzmu, Radami Pustelnika, Planami Ekwipunku oraz Yang, aby stworzyć księgę wybranej pasywki.</p>
+
+            <div class="alchemy-recipes passive-book-recipes" aria-label="Crafting ksiąg umiejętności pasywnych">
+              <article class="alchemy-craft">
+                <div class="alchemy-craft-head">
+                  <span>Bossologia</span>
+                  <strong>100%</strong>
+                </div>
+                <div class="alchemy-formula" aria-label="10 Zwojów Egzorcyzmu plus 5 Rad Pustelnika plus 5 Planów Ekwipunku plus 1 Urywek Strony plus 1kk Yang daje Księgę Pasywną Bossologia">
+                  <div class="craft-inputs">
+                    <figure class="craft-slot" title="Zwój Egzorcyzmu">
+                      <img src="https://img.m2icondb.com/71001.png" alt="Zwój Egzorcyzmu">
+                      <figcaption>10</figcaption>
+                    </figure>
+                    <span class="craft-plus">+</span>
+                    <figure class="craft-slot" title="Rada Pustelnika">
+                      <img src="https://img.m2icondb.com/71094.png" alt="Rada Pustelnika">
+                      <figcaption>5</figcaption>
+                    </figure>
+                    <span class="craft-plus">+</span>
+                    <figure class="craft-slot craft-plan" title="Plan Ekwipunku">
+                      <img src="images/plan-ekwipunku.png" alt="Plan Ekwipunku">
+                      <figcaption>5</figcaption>
+                    </figure>
+                    <span class="craft-plus">+</span>
+                    <figure class="craft-slot craft-page" title="Urywek Strony">
+                      <img src="https://img.m2icondb.com/30181.png" alt="Urywek Strony">
+                      <figcaption>1</figcaption>
+                    </figure>
+                    <span class="craft-plus">+</span>
+                    <figure class="craft-slot craft-yang" title="Yang">
+                      <img src="https://img.m2icondb.com/money.png" alt="Yang">
+                      <figcaption>1kk</figcaption>
+                    </figure>
+                  </div>
+                  <span class="craft-equals">=</span>
+                  <figure class="craft-slot craft-book" title="Księga Pasywna Bossologia">
+                    <img src="https://img.m2icondb.com/69200.png" alt="Księga Pasywna Bossologia">
+                    <figcaption>1</figcaption>
+                  </figure>
+                </div>
+              </article>
+
+              <article class="alchemy-craft">
+                <div class="alchemy-craft-head">
+                  <span>Waleczność</span>
+                  <strong>100%</strong>
+                </div>
+                <div class="alchemy-formula" aria-label="10 Zwojów Egzorcyzmu plus 5 Rad Pustelnika plus 5 Planów Ekwipunku plus 1 Urywek Strony plus 1kk Yang daje Księgę Pasywną Waleczność">
+                  <div class="craft-inputs">
+                    <figure class="craft-slot" title="Zwój Egzorcyzmu">
+                      <img src="https://img.m2icondb.com/71001.png" alt="Zwój Egzorcyzmu">
+                      <figcaption>10</figcaption>
+                    </figure>
+                    <span class="craft-plus">+</span>
+                    <figure class="craft-slot" title="Rada Pustelnika">
+                      <img src="https://img.m2icondb.com/71094.png" alt="Rada Pustelnika">
+                      <figcaption>5</figcaption>
+                    </figure>
+                    <span class="craft-plus">+</span>
+                    <figure class="craft-slot craft-plan" title="Plan Ekwipunku">
+                      <img src="images/plan-ekwipunku.png" alt="Plan Ekwipunku">
+                      <figcaption>5</figcaption>
+                    </figure>
+                    <span class="craft-plus">+</span>
+                    <figure class="craft-slot craft-page" title="Urywek Strony">
+                      <img src="https://img.m2icondb.com/30181.png" alt="Urywek Strony">
+                      <figcaption>1</figcaption>
+                    </figure>
+                    <span class="craft-plus">+</span>
+                    <figure class="craft-slot craft-yang" title="Yang">
+                      <img src="https://img.m2icondb.com/money.png" alt="Yang">
+                      <figcaption>1kk</figcaption>
+                    </figure>
+                  </div>
+                  <span class="craft-equals">=</span>
+                  <figure class="craft-slot craft-book" title="Księga Pasywna Waleczność">
+                    <img src="https://img.m2icondb.com/69201.png" alt="Księga Pasywna Waleczność">
+                    <figcaption>1</figcaption>
+                  </figure>
+                </div>
+              </article>
+            </div>
+          </section>
+        </main>
+      </div>
+    </section>
+  </body>
+</html>
