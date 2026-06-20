@@ -1,0 +1,1407 @@
+#
+## Monastyr Craft List
+#
+
+# NPC_LIST = [20383, 20015, 20018]
+
+#####################
+#  NPC VNUM 20383   #
+#####################
+
+# Scroll of the Dragon God
+
+# Blacksmith's Manual
+
+# Item craft attr on lv 55 and 75 weapons (+12 strong against monster)
+section
+npc	20383
+item	5126	1
+reward	30530	1
+gold	1000000
+percent	80
+category	OSELKI_90
+end
+
+section
+npc	20383
+item	1136	1
+reward	30530	1
+gold	1000000
+percent	80
+category	OSELKI_90
+end
+
+section
+npc	20383
+item	196	1
+reward	30530	1
+gold	1000000
+percent	80
+category	OSELKI_90
+end
+
+section
+npc	20383
+item	2176	1
+reward	30530	1
+gold	1000000
+percent	80
+category	OSELKI_90
+end
+
+section
+npc	20383
+item	3166	1
+reward	30530	1
+gold	1000000
+percent	80
+category	OSELKI_90
+end
+
+section
+npc	20383
+item	186	1
+reward	30530	1
+gold	1000000
+percent	80
+category	OSELKI_90
+end
+
+section
+npc	20383
+item	5126	1
+reward	30529	1
+gold	1000000
+percent	80
+category	OSELKI_75
+end
+
+section
+npc	20383
+item	1136	1
+reward	30529	1
+gold	1000000
+percent	80
+category	OSELKI_75
+end
+
+section
+npc	20383
+item	196	1
+reward	30529	1
+gold	1000000
+percent	80
+category	OSELKI_75
+end
+
+section
+npc	20383
+item	2176	1
+reward	30529	1
+gold	1000000
+percent	80
+category	OSELKI_75
+end
+
+section
+npc	20383
+item	3166	1
+reward	30529	1
+gold	1000000
+percent	80
+category	OSELKI_75
+end
+
+section
+npc	20383
+item	186	1
+reward	30529	1
+gold	1000000
+percent	80
+category	OSELKI_75
+end
+
+section
+npc	20383
+item	5116	1
+item	25040	20
+reward	30528	1
+gold	1000000
+percent	100
+category	OSELKI_55
+end
+
+section
+npc	20383
+item	7166	1
+item	25040	20
+reward	30528	1
+gold	1000000
+percent	100
+category	OSELKI_55
+end
+
+section
+npc	20383
+item	1176	1
+item	25040	20
+reward	30528	1
+gold	1000000
+percent	100
+category	OSELKI_55
+end
+
+section
+npc	20383
+item	2156	1
+item	25040	20
+reward	30528	1
+gold	1000000
+percent	100
+category	OSELKI_55
+end
+
+section
+npc	20383
+item	3216	1
+item	25040	20
+reward	30528	1
+gold	1000000
+percent	100
+category	OSELKI_55
+end
+
+section
+npc	20383
+item	296	1
+item	25040	20
+reward	30528	1
+gold	1000000
+percent	100
+category	OSELKI_55
+end
+
+# EXP Belt
+section
+npc	20383
+item	50070	60
+item	50073	30
+item	50076	30
+item	30518	5
+item	39008	25
+reward	18000	1
+gold	5000000
+percent	100
+category	PASY
+end
+
+# PvP Belt
+section
+npc	20383
+item	50077	30
+item	50078	30
+item	50079	30
+item	30518	5
+item	71094	25
+reward	18010	1
+gold	5000000
+percent	100
+category	PASY
+end
+
+--------------------------------
+
+#Kawalki kamienia
+
+section 
+npc 20383
+item	28437	1
+reward	30557	1
+gold	200000
+percent	100
+category	ODLAMEK_KAMIENIA
+end
+
+section 
+npc 20383
+item	28431	1
+reward	30557	1
+gold	200000
+percent	100
+category	ODLAMEK_KAMIENIA
+end
+
+section 
+npc 20383
+item	28430	1
+reward	30557	1
+gold	200000
+percent	100
+category	ODLAMEK_KAMIENIA
+end
+
+section 
+npc 20383
+item	28433	1
+reward	30557	1
+gold	200000
+percent	100
+category	ODLAMEK_KAMIENIA
+end
+
+section 
+npc 20383
+item	28434	1
+reward	30557	1
+gold	200000
+percent	100
+category	ODLAMEK_KAMIENIA
+end
+
+section 
+npc 20383
+item	28435	1
+reward	30557	1
+gold	200000
+percent	100
+category	ODLAMEK_KAMIENIA
+end
+
+section 
+npc 20383
+item	28436	1
+reward	30557	1
+gold	200000
+percent	100
+category	ODLAMEK_KAMIENIA
+end
+
+section 
+npc 20383
+item	28438	1
+reward	30557	1
+gold	200000
+percent	100
+category	ODLAMEK_KAMIENIA
+end
+
+section 
+npc 20383
+item	28439	1
+reward	30557	1
+gold	200000
+percent	100
+category	ODLAMEK_KAMIENIA
+end
+
+section 
+npc 20383
+item	28441	1
+reward	30557	1
+gold	200000
+percent	100
+category	ODLAMEK_KAMIENIA
+end
+
+section 
+npc 20383
+item	28440	1
+reward	30557	1
+gold	200000
+percent	100
+category	ODLAMEK_KAMIENIA
+end
+
+section 
+npc 20383
+item	28442	1
+reward	30557	1
+gold	200000
+percent	100
+category	ODLAMEK_KAMIENIA
+end
+
+section 
+npc 20383
+item	28443	1
+reward	30557	1
+gold	200000
+percent	100
+category	ODLAMEK_KAMIENIA
+end
+
+section 
+npc 20383
+item	28432	1
+reward	30557	1
+gold	200000
+percent	100
+category	ODLAMEK_KAMIENIA
+end
+
+section 
+npc 20383
+item	30557	20
+item	28437	5
+item	39008	5
+item	71094	5
+item	50513	5
+reward	28537	1
+gold	2000000
+percent	25
+category	KD5
+end
+
+section 
+npc 20383
+item	30557	20
+item	28431	5
+item	39008	5
+item	71094	5
+item	50513	5
+reward	28531	1
+gold	2000000
+percent	25
+category	KD5
+end
+
+section 
+npc 20383
+item	30557	20
+item	28430	5
+item	39008	5
+item	71094	5
+item	50513	5
+reward	28530	1
+gold	2000000
+percent	25
+category	KD5
+end
+
+section 
+npc 20383
+item	30557	20
+item	28433	5
+item	39008	5
+item	71094	5
+item	50513	5
+reward	28533	1
+gold	2000000
+percent	25
+category	KD5
+end
+
+section 
+npc 20383
+item	30557	20
+item	28434	5
+item	39008	5
+item	71094	5
+item	50513	5
+reward	28534	1
+gold	2000000
+percent	25
+category	KD5
+end
+
+section 
+npc 20383
+item	30557	20
+item	28435	5
+item	39008	5
+item	71094	5
+item	50513	5
+reward	28535	1
+gold	2000000
+percent	25
+category	KD5
+end
+
+section 
+npc 20383
+item	30557	20
+item	28436	5
+item	39008	5
+item	71094	5
+item	50513	5
+reward	28536	1
+gold	2000000
+percent	25
+category	KD5
+end
+
+section 
+npc 20383
+item	30557	20
+item	28438	5
+item	39008	5
+item	71094	5
+item	50513	5
+reward	28538	1
+gold	2000000
+percent	25
+category	KD5
+end
+
+section 
+npc 20383
+item	30557	20
+item	28439	5
+item	39008	5
+item	71094	5
+item	50513	5
+reward	28539	1
+gold	2000000
+percent	25
+category	KD5
+end
+
+section 
+npc 20383
+item	30557	20
+item	28441	5
+item	39008	5
+item	71094	5
+item	50513	5
+reward	28541	1
+gold	2000000
+percent	25
+category	KD5
+end
+
+section 
+npc 20383
+item	30557	20
+item	28440	5
+item	39008	5
+item	71094	5
+item	50513	5
+reward	28540	1
+gold	2000000
+percent	25
+category	KD5
+end
+
+section 
+npc 20383
+item	30557	20
+item	28442	5
+item	39008	5
+item	71094	5
+item	50513	5
+reward	28542	1
+gold	2000000
+percent	25
+category	KD5
+end
+
+section 
+npc 20383
+item	30557	20
+item	28443	5
+item	39008	5
+item	71094	5
+item	50513	5
+reward	28543	1
+gold	2000000
+percent	25
+category	KD5
+end
+
+section 
+npc 20383
+item	30557	20
+item	28432	5
+item	39008	5
+item	71094	5
+item	50513	5
+reward	28532	1
+gold	2000000
+percent	25
+category	KD5
+end
+
+#####################
+#  NPC VNUM 20018   #
+#####################
+
+# Peach Bloom Juice (50801)
+section
+npc	20018
+item	50721	1
+reward	50801	1
+gold	1000
+percent	100
+category	WODY
+end
+
+# Bell Flower Juice (50802)
+section
+npc	20018
+item	50722	1
+reward	50802	1
+gold	1000
+percent	100
+category	WODY
+end
+
+# Kaki Juice (50803)
+section
+npc	20018
+item	50723	1
+reward	50803	1
+gold	1000
+percent	100
+category	WODY
+end
+
+# Gango Juice (50804)
+section
+npc	20018
+item	50724	1
+reward	50804	1
+gold	1000
+percent	100
+category	WODY
+end
+
+# Sim Water (50813)
+section
+npc	20018
+item	50801	1
+item	50725	1
+reward	50813	1
+gold	1000
+percent	100
+category	WODY
+end
+
+# Dok Water (50814)
+section
+npc	20018
+item	50802	1
+item	50725	1
+reward	50814	1
+gold	1000
+percent	100
+category	WODY
+end
+
+# Bo Water (50815)
+section
+npc	20018
+item	50803	1
+item	50726	1
+reward	50815	1
+gold	1000
+percent	100
+category	WODY
+end
+
+# Young Water (50816)
+section
+npc	20018
+item	50804	1
+item	50726	1
+reward	50816	1
+gold	1000
+percent	100
+category	WODY
+end
+
+# Zin Water (50816)
+section
+npc	20018
+item	50813	1
+item	50727	1
+reward	50817	1
+gold	1000
+percent	100
+category	WODY
+end
+
+# Mong Water (50816)
+section
+npc	20018
+item	50815	1
+item	50728	1
+reward	50819	1
+gold	1000
+percent	100
+category	WODY
+end
+
+# SamBo Water (50818)
+section
+npc	20018
+item	50814	1
+item	50727	1
+reward	50818	1
+gold	1000
+percent	100
+category	WODY
+end
+
+section		
+npc	20018	
+item	50901	10
+item	50814	20
+reward	50821	10
+gold	500000
+percent	100	
+category	ROSY
+end	
+
+section		
+npc	20018	
+item	50901	10
+item	50813	20
+reward	50822	10
+gold	500000
+percent	100	
+category	ROSY
+end	
+
+section		
+npc	20018	
+item	50901	10
+item	50819	20
+reward	50824	10
+gold	500000
+percent	100	
+category	ROSY
+end	
+
+section		
+npc	20018	
+item	50901	10
+item	50817	20
+reward	50825	10
+gold	500000
+percent	100	
+category	ROSY
+end	
+
+section		
+npc	20018	
+item	50901	10
+item	50818	20
+reward	50826	10
+gold	500000
+percent	100	
+category	ROSY
+end	
+
+section		
+npc	20018	
+item	50901	10
+item	50815	20
+reward	50823	10
+gold	500000
+percent	100	
+category	ROSY
+end	
+
+
+
+#####################
+#  NPC VNUM 20015   #
+#####################
+
+# Dragon Tongs (100100)
+section
+npc	20001
+item	51501	15
+reward	100100	1
+gold	2000000
+percent	100
+category	CÄ™gi
+end
+
+# Red Flame Stone (18900)
+section
+npc	20015
+item	70057	250
+item	50513	5
+item	25040	2
+item	30551	1
+item	70024	5
+reward	18900	1
+gold	750000
+percent	70
+category	PRZETOPY
+end
+
+# Diamond (50621)
+section
+npc	20015
+item	50601	100
+item	70057	250
+item	50513	5
+item	25040	2
+item	30551	1
+reward	50621	1
+gold	250000
+percent	80
+category	PRZETOPY
+end
+
+# missing 50622 (Amber NOT USED)
+
+# Fossil Wood (50623)
+section
+npc	20015
+item	50603	100
+item	70057	250
+item	50513	5
+item	25040	2
+item	30551	1
+reward	50623	1
+gold	250000
+percent	80
+category	PRZETOPY
+end
+
+# Copper (50624)
+section
+npc	20015
+item	50604	100
+item	70057	250
+item	50513	5
+item	25040	2
+item	30551	1
+reward	50624	1
+gold	250000
+percent	80
+category	PRZETOPY
+end
+
+# Silver (50625)
+section
+npc	20015
+item	50605	100
+item	70057	250
+item	50513	5
+item	25040	2
+item	30551	1
+reward	50625	1
+gold	250000
+percent	80
+category	PRZETOPY
+end
+
+# Gold (50626)
+section
+npc	20015
+item	50606	100
+item	70057	250
+item	50513	5
+item	25040	2
+item	30551	1
+reward	50626	1
+gold	250000
+percent	80
+category	PRZETOPY
+end
+
+# Jade (50627)
+section
+npc	20015
+item	50607	100
+item	70057	250
+item	50513	5
+item	25040	2
+item	30551	1
+reward	50627	1
+gold	250000
+percent	80
+category	PRZETOPY
+end
+
+# Ebony (50628)
+section
+npc	20015
+item	50608	100
+item	70057	250
+item	50513	5
+item	25040	2
+item	30551	1
+reward	50628	1
+gold	250000
+percent	80
+category	PRZETOPY
+end
+
+# Pearl (50629)
+section
+npc	20015
+item	50609	100
+item	70057	250
+item	50513	5
+item	25040	2
+item	30551	1
+reward	50629	1
+gold	250000
+percent	80
+category	PRZETOPY
+end
+
+# White Gold (50630)
+section
+npc	20015
+item	50610	100
+item	70057	250
+item	50513	5
+item	25040	2
+item	30551	1
+reward	50630	1
+gold	250000
+percent	80
+category	PRZETOPY
+end
+
+# Crystal (50631)
+section
+npc	20015
+item	50611	100
+item	70057	250
+item	50513	5
+item	25040	2
+item	30551	1
+reward	50631	1
+gold	250000
+percent	80
+category	PRZETOPY
+end
+
+# Amethyst (50632)
+section
+npc	20015
+item	50612	100
+item	70057	250
+item	50513	5
+item	25040	2
+item	30551	1
+reward	50632	1
+gold	250000
+percent	80
+category	PRZETOPY
+end
+
+# Heaven's Tear (50633)
+section
+npc	20015
+item	50613	100
+item	70057	250
+item	50513	5
+item	25040	2
+item	30551	1
+reward	50633	1
+gold	250000
+percent	80
+category	PRZETOPY
+end
+
+# Soul Crystal (50634)
+section
+npc	20015
+item	50614	100
+item	70057	500
+item	50513	10
+item	25040	4
+item	30551	2
+reward	50634	1
+gold	500000
+percent	75
+category	PRZETOPY
+end
+
+# missing 50635 (Ruby NOT USED)
+
+# Garnet (50636)
+section
+npc	20015
+item	50616	100
+item	39008	5
+item	71094	5
+item	25040	5
+item	50513	5
+reward	50636	1
+gold	1000000
+percent	80
+category	PRZETOPY
+end
+
+-------------------------
+
+# Diamond (50621)
+section
+npc	20015
+item	50601	200
+reward	30556	1
+gold	500000
+percent	100
+category	ESENCJA_PRZETOPU
+end
+
+# missing 50622 (Amber NOT USED)
+
+# Fossil Wood (50623)
+section
+npc	20015
+item	50603	200
+reward	30556	1
+gold	500000
+percent	100
+category	ESENCJA_PRZETOPU
+end
+
+# Copper (50624)
+section
+npc	20015
+item	50604	200
+reward	30556	1
+gold	500000
+percent	100
+category	ESENCJA_PRZETOPU
+end
+
+# Silver (50625)
+section
+npc	20015
+item	50605	200
+reward	30556	1
+gold	500000
+percent	100
+category	ESENCJA_PRZETOPU
+end
+
+# Gold (50626)
+section
+npc	20015
+item	50606	200
+reward	30556	1
+gold	500000
+percent	100
+category	ESENCJA_PRZETOPU
+end
+
+# Jade (50627)
+section
+npc	20015
+item	50607	200
+reward	30556	1
+gold	500000
+percent	100
+category	ESENCJA_PRZETOPU
+end
+
+# Ebony (50628)
+section
+npc	20015
+item	50608	200
+reward	30556	1
+gold	500000
+percent	100
+category	ESENCJA_PRZETOPU
+end
+
+# Pearl (50629)
+section
+npc	20015
+item	50609	200
+reward	30556	1
+gold	500000
+percent	100
+category	ESENCJA_PRZETOPU
+end
+
+# White Gold (50630)
+section
+npc	20015
+item	50610	200
+reward	30556	1
+gold	500000
+percent	100
+category	ESENCJA_PRZETOPU
+end
+
+# Crystal (50631)
+section
+npc	20015
+item	50611	200
+reward	30556	1
+gold	500000
+percent	100
+category	ESENCJA_PRZETOPU
+end
+
+# Amethyst (50632)
+section
+npc	20015
+item	50612	200
+reward	30556	1
+gold	500000
+percent	100
+category	ESENCJA_PRZETOPU
+end
+
+# Heaven's Tear (50633)
+section
+npc	20015
+item	50613	200
+reward	30556	1
+gold	500000
+percent	100
+category	ESENCJA_PRZETOPU
+end
+
+# Soul Crystal (50634)
+section
+npc	20015
+item	50614	200
+reward	30556	1
+gold	500000
+percent	100
+category	ESENCJA_PRZETOPU
+end
+
+# missing 50635 (Ruby NOT USED)
+
+# Garnet (50636)
+section
+npc	20015
+item	50616	200
+reward	30556	1
+gold	500000
+percent	100
+category	ESENCJA_PRZETOPU
+end
+
+
+#Blacksmitch
+
+#ZBS
+section
+npc	20016
+item	25040	6
+reward	39022	1
+gold	200000
+percent	98
+category	ULEPSZANIE
+end
+
+#PodrecznikKowala
+section
+npc	20016
+item	39022	5
+reward	39007	1
+gold	500000
+percent	98
+category	ULEPSZANIE
+end
+
+#Moonstone
+section
+npc	20016
+item	25040	20
+item	39022	10
+item	39007	3
+item	25041	2
+reward	31001	1
+gold	2000000
+percent	100
+category	ULEPSZANIE
+end
+
+#Plan Tarczy
+section
+npc	20016
+item	13069	1
+item	25040	50
+item	39022	5
+reward	30554	1
+gold	2000000
+percent	100
+category	ULEPSZACZE
+end
+
+#Plan Tarczy
+section
+npc	20016
+item	13089	1
+item	25040	50
+item	39022	5
+reward	30554	1
+gold	2000000
+percent	100
+category	ULEPSZACZE
+end
+
+#Plan Tarczy
+section
+npc	20016
+item	13109	1
+item	25040	50
+item	39022	5
+reward	30554	1
+gold	2000000
+percent	100
+category	ULEPSZACZE
+end
+
+#Plan Tarczy
+section
+npc	20016
+item	13129	1
+item	25040	50
+item	39022	5
+reward	30554	1
+gold	2000000
+percent	100
+category	ULEPSZACZE
+end
+
+#Dwutlenek Tytanu
+section
+npc	20016
+item	189	1
+reward	30552	1
+gold	5000000
+percent	100
+category	ULEPSZACZE
+end
+
+#Dwutlenek Tytanu
+section
+npc	20016
+item	3169	1
+reward	30552	1
+gold	5000000
+percent	100
+category	ULEPSZACZE
+end
+
+#Dwutlenek Tytanu
+section
+npc	20016
+item	1139	1
+reward	30552	1
+gold	5000000
+percent	100
+category	ULEPSZACZE
+end
+
+#Dwutlenek Tytanu
+section
+npc	20016
+item	199	1
+reward	30552	1
+gold	5000000
+percent	100
+category	ULEPSZACZE
+end
+
+#Dwutlenek Tytanu
+section
+npc	20016
+item	2179	1
+reward	30552	1
+gold	5000000
+percent	100
+category	ULEPSZACZE
+end
+
+#Dwutlenek Tytanu
+section
+npc	20016
+item	5129	1
+reward	30552	1
+gold	5000000
+percent	100
+category	ULEPSZACZE
+end
+
+# Horse upgrader 21-40
+section
+npc	20349
+item	50050	15
+item	39008	3
+item	71094	3
+item	50513	10
+item	70024	10
+reward	30106	1
+gold	500000
+percent	80
+category	JEZDZIECTWO
+end
+
+section
+npc	20349
+item	50050	15
+item	39008	3
+item	71094	3
+item	25040	5
+item	30557	5
+reward	30106	1
+gold	500000
+percent	80
+category	JEZDZIECTWO
+end
+
+# Cukier dla konia
+section
+npc	20349
+item	50050	10
+item	25040	2
+item	39008	2
+item	71094	2
+item	50513	2
+reward	71110	1
+gold	2000000
+percent	100
+category	JEZDZIECTWO
+end
+
+#Uriel
+
+# Guild Elixir
+section
+npc	20011
+item	70024	10
+item	50513	10
+item	25040	5
+item	39008	2
+item	27987	5
+reward	30152	1
+gold	1000000
+percent	100
+category	ELIKSIRY
+end
+
+# Guild Elixir
+section
+npc	20011
+item	70024	10
+item	50513	10
+item	30551	5
+item	71094	3
+item	70057	500
+reward	30152	1
+gold	1000000
+percent	100
+category	ELIKSIRY
+end
+
+# Spirit Potion
+section
+npc	20011
+item	39002	15
+reward	71156	1
+gold	1000000
+percent	100
+category	ELIKSIRY
+end
+
+# Spirit Potion
+section
+npc	20011
+item	72002	20
+reward	71156	1
+gold	1000000
+percent	100
+category	ELIKSIRY
+end
+
+# Gold Pearl
+section
+npc	20011
+item	27992	1
+item	27993	1
+item	27994	1
+item	30551	3
+reward	30555	1
+gold	2000000
+percent	100
+category	ULEPSZACZE
+end
+
+# Smocza Fasolka
+section
+npc	20011
+item	71107	1
+reward	70103	1
+gold	100000
+percent	100
+category	RANGA
+end
+
+# Smoczy Owoc
+section
+npc	20011
+item	39032	1
+reward	30531	1
+gold	250000
+percent	100
+category	RANGA
+end
+
+# Dodanie
+section
+npc	20011
+item	71084	4
+reward	71085	1
+gold	0
+percent	100
+category	WZMOCNIENIA
+end
+
+# Zmianka
+section
+npc	20011
+item	71085	2
+reward	71084	1
+gold	0
+percent	100
+category	WZMOCNIENIA
+end
+
+# Marmur Blogo
+section
+npc	20011
+item	70024	1
+reward	71084	3
+gold	0
+percent	100
+category	WZMOCNIENIA
+end
+
+# Zielona zmianka
+section
+npc	20011
+item	71152	2
+reward	71151	1
+gold	0
+percent	100
+category	WZMOCNIENIA
+end
+
+# Zielone Dodanie
+section
+npc	20011
+item	71151	2
+reward	71152	1
+gold	0
+percent	100
+category	WZMOCNIENIA
+end
+
+# Peleryny
+section
+npc	20011
+item	70057	200
+reward	80000	100
+gold	200000
+percent	100
+category	PELERYNY
+end

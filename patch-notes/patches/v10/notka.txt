@@ -1,0 +1,52 @@
+## Opis aktualizacji v10
+
+Aktualizacja v10 jest z założenia ukierunkowana na upłynnienie rozgrywki, która obecnie stawiała zbyt duże ściany pomiędzy poszczególnymi etapami. Chcemy, aby progres był bardziej naturalny, a kluczowe elementy rozgrywki stawały się bardziej ogólnodostępne.
+
+Zmiany mają również na celu ograniczenie nadmiernego RNG poprzez zwiększenie dostępności najważniejszych przedmiotów oraz ulepszaczy. Dzięki temu przejścia pomiędzy etapami powinny być bardziej odczuwalne, ale jednocześnie mniej frustrujące dla graczy.
+
+Wszystkie te zmiany są także przygotowaniem pod kolejne aktualizacje, których celem będzie umożliwienie oraz wzmożenie rywalizacji. Monastyr2 od samego początku miał być serwerem nastawionym na rywalizację i walkę ekip. Do tej pory możliwości w tym zakresie były ograniczone, dlatego stopniowo rozwijamy dla Was wachlarz aktywności oraz rozwiązań, które będą wspierały ten aspekt rozgrywki. To właśnie w oparciu o rywalizację będziemy kontynuować dalszy rozwój serwera.
+
+**Zmiany gameplay'owe**
+
+---
+* Przebudowano drop z dungeonów.
+
+**Farmienie contentu PvE będzie skupiało się na pozyskiwaniu przepustek z Kamieni Metin, a następnie na zarabianiu stricte z dungeonów.** Bossy oraz minibossy pozostają dodatkowym elementem rozgrywki ze stałymi respawnami, przy których będziecie mogli rywalizować ze sobą w mniejszych starciach.
+
+  Ich drop nie jest przesadzony, ale pozostaje na tyle satysfakcjonujący, aby podejmowanie walki o danego bossa miało realny sens. Z bossów będziecie mogli pozyskać głównie przedmioty, których nie zdobędziecie z innych aktywności, takie jak **Kamienie Duchowe**, **Marmury Błogosławieństwa**, **Eliksiry Gildii** oraz różnego rodzaju **odpał**.
+
+  Drop w pewnych aspektach nadal może się powtarzać pomiędzy aktywnościami, jednak jego ilości oraz szanse na zdobycie będą znacząco się różnić.
+---
+
+- Zmiana udziału **procentowego** przy podziale dropu z wymaganych 20% na 10%.
+- Zaktualizowano wartości wizualne umiejętnośći **Odbicie** oraz **Silne Ciało**
+- Zwiększono drop ulepszaczy z **Beran-Setaou**, średnia z limitu to po ~4 ulepszacze każdy
+- Zwiększono drop ulepszaczy z **Razador**, średnia z limitu to ~6 ulepszaczy
+- Zwiększono drop z wszystkich **Kamieni Metin** ( przeskoki pomiędzy etapami rozgrywki są teraz bardziej odczuwalne, widoczna jest już różnica pomiędzy etapem M2, a np. Ognistą Ziemią różnica o ok. 350% ~ )
+- Zwiększono **Punkty Życia** Kamieni Metin o ok. 10% oraz zmniejszono czas regeneracji życia z **5s** do **2s**.
+
+- Zmiana poziomu **Olbrzymi Duch Drzewa** na poziom 81
+- Zmiana poziomu **Zjawa Żółt. Tygrysa** na poziom 75
+- Zmiana poziomu **Ognisty Król** na poziom 73
+- Zmiana poziomu **Generał Yonghan** na poziom 95
+
+- Zmiana poziomu **Metin Próżności** na poziom 90
+- Zmiana respawnów **Metin Próżności** ze stałych na **lotne**  (brak widełek, czas stały)
+
+- Zmiana poziomu **Metin Gniewu** na poziom 95
+- Zmiana respawnów **Metin Gniewu** ze stałych na **lotne** (brak widełek, czas stały)
+
+- Zmiana poziomu **Metin Mroku** na poziom 100
+- Zmiana respawnów **Metin Mroku** ze stałych na **lotne** (brak widełek, czas stały)
+---
+**Zmniejszono ilość respawnu metinów na lokacjach, wszystkie obecne respawny oraz koordynaty ich lokacji znajdziecie na naszej stronie:**
+respy.monastyr2.pl
+---
+
+- **Usunięto 1 respawn bossa - Generał Yonghan**, zamiast tego zwiększono jego częstotliwość występowania w oknie ze zwiększonym obłożeniem.  (00:00, 04:00, 08:00, 12:00, 16:00, 16:50, 17:30, 18:20, 18:50, 19:40, 20:20, 21:40)
+
+- **Usunięto 1 respawn bossa - Rakszas**, zamiast tego zwiększono jego częstotliwość występowania w oknie ze zwiększonym obłożeniem.  (00:00, 04:00, 08:00, 12:00, 16:00, 16:50, 17:30, 18:20, 18:50, 19:40, 20:20, 21:40)
+
+- Minibossy od teraz posiadają po 1 respie lotnym, nie ma już 2 respawnów.
+
+- Usunięto możliwość otruwania każdego dostępnego bossa (zabieg ma na celu wydłużenie czasu, w którym zbijane są bossy w celu wzmożenia rywalizacji, obecnie bossy po otruciu były zbyt "papierowe" i zostawały zbijane w zbyt szybkim tempie). Otruwanie na dungeonach pozostaje aktywne oprócz końcowego dungeonu - **Razadora - tam trucie zostało usunięte.**

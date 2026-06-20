@@ -3,64 +3,581 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Patch notes v10</title>
+    <title>Porównania zmian dropu</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="patch-notes.css">
+    <link rel="stylesheet" href="drop-compare.css">
   </head>
   <body>
-    <main class="patch-notes" aria-label="Treść patch notes v10">
-      <p class="patch-kicker">Patch notes</p>
-      <h1>Aktualizacja v10</h1>
-      <p class="patch-lead">
-        To przykładowy, testowy patch archiwalny. Służy do sprawdzenia listy wersji,
-        przełączania patchy i komunikatu o nieaktualnej wersji.
-      </p>
+    <section id="lobbyView" class="lobby-view" aria-label="Strona główna aktualizacji">
+      <div class="lobby-shell">
+        <aside class="lobby-sidebar" aria-label="Wybór porównań">
+          <div class="lobby-sidebar-content">
+            <p class="lobby-kicker">Monastyr</p>
+            <h1>Patch v10</h1>
+            <nav class="lobby-options" aria-label="Sekcje porównań">
+              <button class="lobby-option" type="button" data-view="metiny">
+                <span>Metiny</span>
+              </button>
+              <button class="lobby-option" type="button" data-view="dungeony">
+                <span>Dungeony</span>
+              </button>
+            </nav>
+          </div>
+        </aside>
 
-      <section class="patch-block">
-        <h2>Balans rozgrywki</h2>
-        <ul>
-          <li>Zwiększono odporność wybranych bossów na efekty kontroli tłumu.</li>
-          <li>Delikatnie poprawiono tempo zdobywania doświadczenia na mapach średniego poziomu.</li>
-          <li>Zmniejszono koszt teleportacji do najczęściej używanych lokacji.</li>
-        </ul>
-      </section>
+        <section class="patch-notes" aria-label="Opis aktualizacji v10">
+          <p class="patch-kicker">Patch notes</p>
+          <h2>Opis aktualizacji v10</h2>
 
-      <section class="patch-block">
-        <h2>Drop i ekonomia</h2>
-        <div class="feature-grid">
-          <article>
-            <h3>Metiny</h3>
-            <p>Dodano testową pulę nagród do wybranych metinów oraz poprawiono kolejność wyświetlania dropu.</p>
-          </article>
-          <article>
-            <h3>Bossy</h3>
-            <p>Ujednolicono podstawowe nagrody Yang i dodano przykładowe skrzynie do testów.</p>
-          </article>
-          <article>
-            <h3>Handel</h3>
-            <p>Poprawiono opisy kilku przedmiotów, aby lepiej wskazywały czas trwania i ograniczenia handlu.</p>
-          </article>
+          <section class="patch-block">
+            <h3>Założenia aktualizacji</h3>
+            <p>Aktualizacja v10 jest z założenia ukierunkowana na upłynnienie rozgrywki, która obecnie stawiała zbyt duże ściany pomiędzy poszczególnymi etapami. Chcemy, aby progres był bardziej naturalny, a kluczowe elementy rozgrywki stawały się bardziej ogólnodostępne.</p>
+            <p>Zmiany mają również na celu ograniczenie nadmiernego RNG poprzez zwiększenie dostępności najważniejszych przedmiotów oraz ulepszaczy. Dzięki temu przejścia pomiędzy etapami powinny być bardziej odczuwalne, ale jednocześnie mniej frustrujące dla graczy.</p>
+            <p>Wszystkie te zmiany są także przygotowaniem pod kolejne aktualizacje, których celem będzie umożliwienie oraz wzmożenie rywalizacji. Monastyr2 od samego początku miał być serwerem nastawionym na rywalizację i walkę ekip. Do tej pory możliwości w tym zakresie były ograniczone, dlatego stopniowo rozwijamy dla Was wachlarz aktywności oraz rozwiązań, które będą wspierały ten aspekt rozgrywki. To właśnie w oparciu o rywalizację będziemy kontynuować dalszy rozwój serwera.</p>
+          </section>
+
+          <section class="patch-block">
+            <h3>Dungeony, bossy i ekonomia</h3>
+            <p><strong>Przebudowano drop z dungeonów.</strong></p>
+            <p><strong>Farmienie contentu PvE będzie skupiało się na pozyskiwaniu przepustek z Kamieni Metin, a następnie na zarabianiu stricte z dungeonów.</strong> Bossy oraz minibossy pozostają dodatkowym elementem rozgrywki ze stałymi respawnami, przy których będziecie mogli rywalizować ze sobą w mniejszych starciach.</p>
+            <p>Ich drop nie jest przesadzony, ale pozostaje na tyle satysfakcjonujący, aby podejmowanie walki o danego bossa miało realny sens. Z bossów będziecie mogli pozyskać głównie przedmioty, których nie zdobędziecie z innych aktywności, takie jak <strong>Kamienie Duchowe</strong>, <strong>Marmury Błogosławieństwa</strong>, <strong>Eliksiry Gildii</strong> oraz różnego rodzaju <strong>odpał</strong>.</p>
+            <p>Drop w pewnych aspektach nadal może się powtarzać pomiędzy aktywnościami, jednak jego ilości oraz szanse na zdobycie będą znacząco się różnić.</p>
+            <ul>
+              <li>Zwiększono drop ulepszaczy z <strong>Beran-Setaou</strong>, średnia z limitu to po ~4 ulepszacze każdy.</li>
+              <li>Zwiększono drop ulepszaczy z <strong>Razador</strong>, średnia z limitu to ~6 ulepszaczy.</li>
+              <li>Wydłużono czas do powrotu na dungeon do <strong>5 minut</strong>.</li>
+            </ul>
+          </section>
+
+          <section class="patch-block demon-tower-notes">
+            <h3>Wieża Demonów</h3>
+            <ul class="highlight-list">
+              <li><strong>Usunięto publiczny dungeon.</strong></li>
+              <li><strong>Zmieniono wymóg ilości osób do wejścia z 2 na 1.</strong></li>
+            </ul>
+          </section>
+
+          <section class="patch-block">
+            <h3>Balans klas</h3>
+            <ul>
+              <li>Zbalansowano obrażenia klas na polimorfii.</li>
+              <li>Polimorfia nie skalowała się prawidłowo dla <strong>szamana</strong> oraz <strong>ninji używającej sztyletów</strong>, przez co ich skalowanie było zbyt niskie.</li>
+              <li>Dodano możliwość zakładania <strong>butów</strong>, <strong>naszyjnika</strong> oraz <strong>tarczy</strong> podczas polimorfii - tak jak ma to miejsce w przypadku hełmów.</li>
+              <li>Reszta klas pozostaje bez zmian.</li>
+            </ul>
+          </section>
+
+          <section class="patch-block crafting-notes">
+            <h3>Crafting osełek</h3>
+            <p>Dodano nową formę craftingu osełek do broni 55 i 75.</p>
+            <p>Żeby wycraftować osełkę 75 lub 95, będziecie potrzebować <strong>3 Planów Osełki</strong>.</p>
+
+            <div class="craft-highlight">
+              <img src="https://img.m2icondb.com/31197.png" alt="Plan Osełki">
+              <span>Plan Osełki</span>
+            </div>
+
+            <div class="craft-recipes" aria-label="Sposoby craftingu Planu Osełki">
+              <div class="craft-recipe">
+                <div class="craft-materials">
+                  <span class="craft-material">Dowolna broń 55 poziom</span>
+                  <span class="craft-material">
+                    <img src="https://img.m2icondb.com/25040.png" alt="Zwój Błogosławieństwa">
+                    5x bodzi
+                  </span>
+                </div>
+                <span class="craft-arrow">=</span>
+                <strong>1 Plan Osełki</strong>
+              </div>
+
+              <div class="craft-recipe">
+                <div class="craft-materials">
+                  <span class="craft-material">Dowolna broń 75 poziom</span>
+                  <span class="craft-material">
+                    <img src="https://img.m2icondb.com/25040.png" alt="Zwój Błogosławieństwa">
+                    15x bodzi
+                  </span>
+                </div>
+                <span class="craft-arrow">=</span>
+                <strong>3 Plany Osełki</strong>
+              </div>
+            </div>
+
+            <p>Szansa na craft w obu przypadkach wynosi <strong>100%</strong>.</p>
+          </section>
+
+          <section class="patch-block location-save-notes">
+            <h3>Zapisy Lokacji - zmiana logiki</h3>
+            <p>Przepisano delikatnie logikę teleportacji poprzez zapis pozycji w obrębie jednej mapy.</p>
+            <p>Od teraz nie będzie ekranu przeładowania - gracz po prostu przeteleportuje się w ułamku sekundy na zapis.</p>
+            <p>Przypominamy: działa to tylko w obrębie jednej mapy. Teleportacje na zapisy znajdujące się na innej mapie nadal będą działały jak wcześniej.</p>
+            <figure class="patch-video">
+              <video controls preload="metadata" playsinline>
+                <source src="images/zapis-poprawka.mp4" type="video/mp4">
+                Twoja przeglądarka nie obsługuje odtwarzania tego filmu.
+              </video>
+            </figure>
+          </section>
+
+          <section class="patch-block teleport-costs">
+            <h3>Koszt zapisu pozycji</h3>
+            <div class="teleport-cost-layout">
+              <div>
+                <p>Dodano opłatę za korzystanie z zapisu pozycji. Cena jest uzależniona od poziomu postaci.</p>
+                <p class="important-note">Dodano zapis pozycji w <strong>Grocie Wygnańców V1</strong> oraz <strong>Grocie Wygnańców V2</strong>.</p>
+                <p>Poniżej znajduje się pełna tabela kosztów dla poziomów od 1 do 105.</p>
+              </div>
+              <figure class="teleport-preview">
+                <img src="images/koszt-teleportacji.png" alt="Koszt zapisu pozycji">
+              </figure>
+            </div>
+
+            <div class="bonus-table-wrap">
+              <table class="bonus-table cost-table">
+                <thead>
+                  <tr>
+                    <th>Poziom</th>
+                    <th>Koszt</th>
+                    <th>Poziom</th>
+                    <th>Koszt</th>
+                    <th>Poziom</th>
+                    <th>Koszt</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>0 Yang</td>
+                    <td>36</td>
+                    <td>17 000 Yang</td>
+                    <td>71</td>
+                    <td>68 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>0 Yang</td>
+                    <td>37</td>
+                    <td>18 000 Yang</td>
+                    <td>72</td>
+                    <td>70 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>0 Yang</td>
+                    <td>38</td>
+                    <td>19 000 Yang</td>
+                    <td>73</td>
+                    <td>72 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>0 Yang</td>
+                    <td>39</td>
+                    <td>20 000 Yang</td>
+                    <td>74</td>
+                    <td>74 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>0 Yang</td>
+                    <td>40</td>
+                    <td>21 000 Yang</td>
+                    <td>75</td>
+                    <td>76 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>0 Yang</td>
+                    <td>41</td>
+                    <td>22 000 Yang</td>
+                    <td>76</td>
+                    <td>78 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>0 Yang</td>
+                    <td>42</td>
+                    <td>24 000 Yang</td>
+                    <td>77</td>
+                    <td>80 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>8</td>
+                    <td>0 Yang</td>
+                    <td>43</td>
+                    <td>25 000 Yang</td>
+                    <td>78</td>
+                    <td>82 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>0 Yang</td>
+                    <td>44</td>
+                    <td>26 000 Yang</td>
+                    <td>79</td>
+                    <td>84 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>0 Yang</td>
+                    <td>45</td>
+                    <td>27 000 Yang</td>
+                    <td>80</td>
+                    <td>87 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>11</td>
+                    <td>0 Yang</td>
+                    <td>46</td>
+                    <td>28 000 Yang</td>
+                    <td>81</td>
+                    <td>89 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>12</td>
+                    <td>0 Yang</td>
+                    <td>47</td>
+                    <td>30 000 Yang</td>
+                    <td>82</td>
+                    <td>91 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>0 Yang</td>
+                    <td>48</td>
+                    <td>31 000 Yang</td>
+                    <td>83</td>
+                    <td>93 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>14</td>
+                    <td>0 Yang</td>
+                    <td>49</td>
+                    <td>32 000 Yang</td>
+                    <td>84</td>
+                    <td>96 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>15</td>
+                    <td>3 000 Yang</td>
+                    <td>50</td>
+                    <td>34 000 Yang</td>
+                    <td>85</td>
+                    <td>98 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>3 000 Yang</td>
+                    <td>51</td>
+                    <td>35 000 Yang</td>
+                    <td>86</td>
+                    <td>100 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>17</td>
+                    <td>3 000 Yang</td>
+                    <td>52</td>
+                    <td>36 000 Yang</td>
+                    <td>87</td>
+                    <td>102 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>18</td>
+                    <td>4 000 Yang</td>
+                    <td>53</td>
+                    <td>38 000 Yang</td>
+                    <td>88</td>
+                    <td>105 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>19</td>
+                    <td>4 000 Yang</td>
+                    <td>54</td>
+                    <td>39 000 Yang</td>
+                    <td>89</td>
+                    <td>107 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>5 000 Yang</td>
+                    <td>55</td>
+                    <td>41 000 Yang</td>
+                    <td>90</td>
+                    <td>110 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>21</td>
+                    <td>6 000 Yang</td>
+                    <td>56</td>
+                    <td>42 000 Yang</td>
+                    <td>91</td>
+                    <td>112 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>22</td>
+                    <td>6 000 Yang</td>
+                    <td>57</td>
+                    <td>44 000 Yang</td>
+                    <td>92</td>
+                    <td>115 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>23</td>
+                    <td>7 000 Yang</td>
+                    <td>58</td>
+                    <td>45 000 Yang</td>
+                    <td>93</td>
+                    <td>117 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>24</td>
+                    <td>7 000 Yang</td>
+                    <td>59</td>
+                    <td>47 000 Yang</td>
+                    <td>94</td>
+                    <td>120 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>25</td>
+                    <td>8 000 Yang</td>
+                    <td>60</td>
+                    <td>48 000 Yang</td>
+                    <td>95</td>
+                    <td>122 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>26</td>
+                    <td>9 000 Yang</td>
+                    <td>61</td>
+                    <td>50 000 Yang</td>
+                    <td>96</td>
+                    <td>125 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>27</td>
+                    <td>9 000 Yang</td>
+                    <td>62</td>
+                    <td>52 000 Yang</td>
+                    <td>97</td>
+                    <td>128 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>28</td>
+                    <td>10 000 Yang</td>
+                    <td>63</td>
+                    <td>54 000 Yang</td>
+                    <td>98</td>
+                    <td>130 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>29</td>
+                    <td>11 000 Yang</td>
+                    <td>64</td>
+                    <td>55 000 Yang</td>
+                    <td>99</td>
+                    <td>133 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>30</td>
+                    <td>12 000 Yang</td>
+                    <td>65</td>
+                    <td>57 000 Yang</td>
+                    <td>100</td>
+                    <td>136 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>31</td>
+                    <td>13 000 Yang</td>
+                    <td>66</td>
+                    <td>59 000 Yang</td>
+                    <td>101</td>
+                    <td>138 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>32</td>
+                    <td>13 000 Yang</td>
+                    <td>67</td>
+                    <td>61 000 Yang</td>
+                    <td>102</td>
+                    <td>141 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>33</td>
+                    <td>14 000 Yang</td>
+                    <td>68</td>
+                    <td>62 000 Yang</td>
+                    <td>103</td>
+                    <td>144 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>34</td>
+                    <td>15 000 Yang</td>
+                    <td>69</td>
+                    <td>64 000 Yang</td>
+                    <td>104</td>
+                    <td>147 000 Yang</td>
+                  </tr>
+                  <tr>
+                    <td>35</td>
+                    <td>16 000 Yang</td>
+                    <td>70</td>
+                    <td>66 000 Yang</td>
+                    <td>105</td>
+                    <td>150 000 Yang</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section class="patch-block daily-bonuses">
+            <h3>Bonusy dzienne</h3>
+            <div class="daily-bonus-layout">
+              <div>
+                <p>Do pierwszych miast dodano nowego NPC - <strong>Seon-hae</strong>. Będziecie mogli odebrać u niego dzienne bonusy, które trwają <strong>24 godziny</strong> od momentu odebrania.</p>
+                <p>Bonusy można losować z dostępnej puli. Koszt bazowy wynosi <strong>500k</strong> i podwaja się z każdym kolejnym losowaniem.</p>
+              </div>
+              <figure class="patch-npc">
+                <img src="images/Seon-Hae.png" alt="Seon-hae">
+              </figure>
+            </div>
+
+            <div class="bonus-table-wrap">
+              <table class="bonus-table">
+                <thead>
+                  <tr>
+                    <th>Bonus</th>
+                    <th>Możliwe wartości</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Silny przeciwko potworom</td>
+                    <td>1%, 3%, 5%, 7%, 10%</td>
+                  </tr>
+                  <tr>
+                    <td>Wartość ataku</td>
+                    <td>10, 20, 30, 45, 70</td>
+                  </tr>
+                  <tr>
+                    <td>Maks. PZ</td>
+                    <td>250, 500, 750, 1000, 1500</td>
+                  </tr>
+                  <tr>
+                    <td>Silny przeciwko ludziom</td>
+                    <td>1%, 3%, 5%, 7%, 10%</td>
+                  </tr>
+                  <tr>
+                    <td>Odporność na bossy</td>
+                    <td>1%, 1%, 2%, 3%, 5%</td>
+                  </tr>
+                  <tr>
+                    <td>Zwiększone doświadczenie</td>
+                    <td>5%, 10%, 20%, 30%, 50%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <figure class="bonus-panel-preview">
+              <img src="images/losowy-bonus.png" alt="Panel losowania dziennego bonusu">
+            </figure>
+          </section>
+
+          <section class="patch-block flash-offers">
+            <h3>Błyskawiczne oferty</h3>
+            <p>Dodano <strong>Kostiumy letnie</strong> w wersji męskiej oraz żeńskiej.</p>
+
+            <div class="summer-costumes">
+              <figure class="costume-preview">
+                <video autoplay muted loop playsinline preload="metadata">
+                  <source src="images/set1.mp4" type="video/mp4">
+                  Twoja przeglądarka nie obsługuje odtwarzania tego filmu.
+                </video>
+                <figcaption>Wersja męska</figcaption>
+              </figure>
+
+              <figure class="costume-preview">
+                <video autoplay muted loop playsinline preload="metadata">
+                  <source src="images/set2.mp4" type="video/mp4">
+                  Twoja przeglądarka nie obsługuje odtwarzania tego filmu.
+                </video>
+                <figcaption>Wersja żeńska</figcaption>
+              </figure>
+            </div>
+          </section>
+
+          <section class="patch-block">
+            <h3>Metiny i progres</h3>
+            <ul>
+              <li>Zmieniono udział <strong>procentowy</strong> przy podziale dropu z wymaganych 20% na 10%.</li>
+              <li>Zaktualizowano wartości wizualne umiejętności <strong>Odbicie</strong> oraz <strong>Silne Ciało</strong>.</li>
+              <li>Zwiększono drop ze wszystkich <strong>Kamieni Metin</strong>. Przeskoki pomiędzy etapami rozgrywki są teraz bardziej odczuwalne; widoczna jest już różnica pomiędzy etapem M2, a np. Ognistą Ziemią, różnica o ok. 350%.</li>
+              <li>Zwiększono <strong>Punkty Życia</strong> Kamieni Metin o ok. 10% oraz zmniejszono czas regeneracji życia z <strong>5s</strong> do <strong>2s</strong>.</li>
+            </ul>
+          </section>
+
+          <section class="patch-block">
+            <h3>Poziomy i respawny</h3>
+            <ul>
+              <li>Zmiana poziomu <strong>Olbrzymi Duch Drzewa</strong> na poziom 81.</li>
+              <li>Zmiana poziomu <strong>Zjawa Żółt. Tygrysa</strong> na poziom 75.</li>
+              <li>Zmiana poziomu <strong>Ognisty Król</strong> na poziom 73.</li>
+              <li>Zmiana poziomu <strong>Generał Yonghan</strong> na poziom 95.</li>
+              <li>Zmiana poziomu <strong>Razadora</strong> na poziom 115.</li>
+              <li>Zmiana poziomu <strong>Metin Próżności</strong> na poziom 90 oraz zmiana respawnów ze stałych na <strong>lotne</strong> (brak widełek, czas stały).</li>
+              <li>Zmiana poziomu <strong>Metin Gniewu</strong> na poziom 95 oraz zmiana respawnów ze stałych na <strong>lotne</strong> (brak widełek, czas stały).</li>
+              <li>Zmiana poziomu <strong>Metin Mroku</strong> na poziom 100 oraz zmiana respawnów ze stałych na <strong>lotne</strong> (brak widełek, czas stały).</li>
+            </ul>
+            <p><strong>Zmniejszono ilość respawnu metinów na lokacjach, wszystkie obecne respawny oraz koordynaty ich lokacji znajdziecie na naszej stronie:</strong> respy.monastyr2.pl</p>
+          </section>
+
+          <section class="patch-block">
+            <h3>Rywalizacja</h3>
+            <ul>
+              <li><strong>Usunięto 1 respawn bossa - Generał Yonghan</strong>, zamiast tego zwiększono jego częstotliwość występowania w oknie ze zwiększonym obłożeniem. (00:00, 04:00, 08:00, 12:00, 16:00, 16:50, 17:30, 18:20, 18:50, 19:40, 20:20, 21:40)</li>
+              <li><strong>Usunięto 1 respawn bossa - Rakszas</strong>, zamiast tego zwiększono jego częstotliwość występowania w oknie ze zwiększonym obłożeniem. (00:00, 04:00, 08:00, 12:00, 16:00, 16:50, 17:30, 18:20, 18:50, 19:40, 20:20, 21:40)</li>
+              <li>Minibossy od teraz posiadają po 1 respie lotnym, nie ma już 2 respawnów.</li>
+            </ul>
+          </section>
+        </section>
+      </div>
+    </section>
+
+    <section id="appView" class="app-view" hidden>
+      <header class="page-header">
+      <div class="header-tools">
+        <label class="search">
+          <span>Szukaj</span>
+          <input id="searchInput" type="search" placeholder="Szukaj metina">
+        </label>
+      </div>
+      </header>
+
+      <main>
+        <section id="cards" class="cards" aria-label="Porównanie metinów"></section>
+        <section id="placeholderView" class="placeholder-view" hidden></section>
+      </main>
+    </section>
+
+    <dialog id="detailsDialog" class="details-dialog">
+      <div class="dialog-shell">
+        <div class="dialog-header">
+          <h2 id="dialogTitle"></h2>
+          <button id="closeDialog" class="close-button" type="button" aria-label="Zamknij">x</button>
         </div>
-      </section>
+        <div id="dialogBody" class="dialog-body"></div>
+      </div>
+    </dialog>
 
-      <section class="patch-block">
-        <h2>Wygoda gry</h2>
-        <ul>
-          <li>Dodano testowy skrót do szybkiego porządkowania ekwipunku.</li>
-          <li>Poprawiono komunikaty systemowe przy nieudanym craftingu.</li>
-          <li>Zaktualizowano kilka opisów NPC, aby były czytelniejsze dla nowych graczy.</li>
-        </ul>
-      </section>
+    <dialog id="imageDialog" class="image-dialog">
+      <button id="closeImageDialog" class="image-close" type="button" aria-label="Zamknij">x</button>
+      <img id="fullImage" alt="">
+    </dialog>
 
-      <section class="patch-block">
-        <h2>Poprawki techniczne</h2>
-        <p>
-          Wprowadzono przykładowe poprawki stabilności kanałów, odświeżania rankingów oraz zapisu pozycji postaci.
-          Ten blok jest celowo testowy i może zostać później zastąpiony właściwą treścią.
-        </p>
-      </section>
-    </main>
+    <script src="drop-compare-data.js"></script>
+    <script src="drop-compare.js"></script>
   </body>
 </html>

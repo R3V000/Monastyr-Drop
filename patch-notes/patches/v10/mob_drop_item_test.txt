@@ -1,0 +1,9949 @@
+
+Group Lykos
+{
+	Mob		191
+	Type	drop
+	1	71151	1	120		// Zmianki-Zielone
+	2	70057	3	120		// Peleryny
+	3	71152	1	100		// Wzmocnienie-Zielone
+	4	27101	1	75		// Zielona Mikstura S
+	5	27104	1	75		// Fioletowa Mikstura S
+	6	71044	1	25		// Dlon Krytyka
+	7	71045	1	25		// Dlon Przebicia
+	8	54		1	15		// Szeroki Miecz+4
+	9	3044	1	15		// Gizarma+4
+	10	1024	1	15		// Sztylet No?ycowy+4
+	11	5024	1	15		// Z?oty Dzwon+4
+	12	25040	1	5		// Zwoj Blogoslawienstwa
+}
+Group	SkalistaMalpa
+{
+	Mob		5161							//SkalistaMalpa
+	Type	drop
+	1	71084	1	200		// Zmianki
+	2	71084	1	66		// Zmianki
+	3	71084	1	33		// Zmianki
+	4	50057	1	75		// Ziolo
+	5	50050	1	45		// MedalKonny
+	6	50050	1	45		// MedalKonny
+	7	50050	1	45		// MedalKonny
+	8	72031	1	55		// Atak_boga_smokow
+	9	72034	1	55		// Obrona_boga_smokow
+	10	72037	1	55		// Zycie_boga_smokow
+	11	72040	1	55		// Inteligencja_boga_smokow
+	12	72724	1	40		// EliksirSlonca
+	13	72728	1	40		// EliksirKsiezyca
+	14	70024	1	50		// MarmurBlogo
+	15	71094	1	14		// RadaPustelnika
+	16	25040	1	30		// Bodzio
+}
+Group	ChodzacaMalpa
+{
+	Mob		5162							//ChodzacaMalpa
+	Type	drop
+	1	71084	2	200		// Zmianki
+	2	71084	1	66		// Zmianki
+	3	71084	1	33		// Zmianki
+	4	50058	1	75		// Ziolo
+	5	72031	1	75		// Atak_boga_smokow
+	6	72034	1	75		// Obrona_boga_smokow
+	7	72037	1	75		// Zycie_boga_smokow
+	8	72040	1	75		// Inteligencja_boga_smokow
+	9	50050	1	150		// MedalKonny
+	10	50050	1	100		// MedalKonny
+	11	50050	1	70		// MedalKonny
+	12	72724	1	40		// EliksirSlonca
+	13	72728	1	40		// EliksirKsiezyca
+	14	70024	1	60		// MarmurBlogo
+	15	71094	1	17		// RadaPustelnika
+	16	25040	1	45		// Bodzio
+}
+Group	LordMalp
+{
+	Mob		5163							//LordMalp
+	Type	drop
+	1	71084	3	200		// Zmianki
+	2	71084	2	66		// Zmianki
+	3	71084	1	33		// Zmianki
+	4	50059	1	75		// Ziolo
+	5	50050	1	200		// Medal
+	6	50050	1	150		// Medal
+	7	50050	1	100		// Medal
+	8	50050	1	50		// Medal
+	9	72031	1	120		// Atak_boga_smokow
+	10	72034	1	120		// Obrona_boga_smokow
+	11	72037	1	120		// Zycie_boga_smokow
+	12	72040	1	120		// Inteligencja_boga_smokow
+	13	25040	1	60		// Bodzio
+	14	72724	1	200		// EliksirSlonca
+	15	72728	1	200		// EliksirKsiezyca
+	16	71094	1	30		// RadaPustelnika
+	17	50513	1	30		// KamienDuchowy
+	18	70024	1	80		// MarmurBlogo
+	19	51501	1	150		// CorSurowe
+	20	51501	1	50		// CorSurowe
+	21	71107	1	30		// FasolkaZen
+	22	30156	1	6		// Dominacja
+}
+Group	????????
+{
+	Mob		591							// Best-Kapitan
+	Type	drop
+	1	71084	2	200		// Zaczarowanie Przedmiotu
+	2	71084	1	100		// Zaczarowanie Przedmiotu
+	3	71084	1	80		// Zaczarowanie Przedmiotu
+	4	72031	1	75		// Atak_boga_smokow
+	5	72034	1	75		// Obrona_boga_smokow
+	6	72037	1	75		// Zycie_boga_smokow
+	7	72040	1	75		// Inteligencja_boga_smokow
+	8	72724	1	200		// Eliksir S?o?ca
+	9	72728	1	200		// Eliksir Ksi?yca
+	10	71085	1	200		// Wzmocnienie Przedmiotu
+	11	50096	1	150		// Bizuteria30
+	12	25040	1	60		// Bodzio
+	13	51501	1	80		// CorSurowe
+	14	71094	1	50		// Rada Pustelnika
+	15	71107	1	35		// Fasolka Zen
+	16	50513	1	10		// Kamie? Duchowy
+	17	70024	1	80		// MarmurBlogo
+	18	30156	1	3		// Dominacja
+	19	30152	1	2		// EliksirGildii
+}
+Group	Mahon
+{
+	Mob		491							//Mahon
+	Type	drop
+	1	71085	1	99		// Zaczarowanie Przedmiotu
+	2	27101	1	50		// Zielona Mikstura S
+	3	27104	1	50		// Fioletowa Mikstura S
+	4	71044	1	45		// Dlon Krytyka
+	5	71045	1	45		// Dlon Przebicia
+	6	25040	1	10		// Zwoj Blogoslawienstwa
+	7	70024	1	20		// Marmur Blogo
+	8	71094	1	1		// Rada Pustelnika
+}
+Group	BOM2
+{
+	Mob		492							//Bo
+	Type	drop
+	1	71085	1	99		// Zaczarowanie Przedmiotu
+	2	27101	1	50		// Zielona Mikstura S
+	3	27104	1	50		// Fioletowa Mikstura S
+	4	71044	1	45		// Dlon Krytyka
+	5	71045	1	45		// Dlon Przebicia
+	6	25040	1	10		// Zwoj Blogoslawienstwa
+	7	70024	1	20		// Marmur Blogo
+	8	71094	1	1		// Rada Pustelnika
+}
+Group	GooPae
+{
+	Mob		493							//Goo-Pae
+	Type	drop
+	1	71085	1	99		// Zaczarowanie Przedmiotu
+	2	27101	1	50		// Zielona Mikstura S
+	3	27104	1	50		// Fioletowa Mikstura S
+	4	71044	1	50		// Dlon Krytyka
+	5	71045	1	50		// Dlon Przebicia
+	6	25040	1	10		// Zwoj Blogoslawienstwa
+	7	70024	1	20		// Marmur Blogo
+	8	71094	1	1		// Rada Pustelnika
+}
+Group	Chuong
+{
+	Mob		494							//Chuong
+	Type	drop
+	1	71085	1	99		// Zaczarowanie Przedmiotu
+	2	27101	1	50		// Zielona Mikstura S
+	3	27104	1	50		// Fioletowa Mikstura S
+	4	71044	1	50		// Dlon Krytyka
+	5	71045	1	50		// Dlon Przebicia
+	6	25040	1	10		// Zwoj Blogoslawienstwa
+	7	70024	1	20		// Marmur Blogo
+	8	71094	1	1		// Rada Pustelnika
+}
+Group	???????????
+{
+	Mob		531							//Best-Zolnierz
+	Type	drop
+	1	71084	1	70		// Zaczarowanie Przedmiotu
+	2	27101	1	50		// Zielona Mikstura S
+	3	27104	1	50		// Fioletowa Mikstura S
+	4	71044	1	50		// Dlon Krytyka
+	5	71045	1	50		// Dlon Przebicia
+	6	25040	1	10		// Zwoj Blogoslawienstwa
+	7	50215	1	40		// Bronie30
+	8	11241	1	30		// Smiertelka
+	9	11441	1	30		// Lwiej Mrowki
+	10	11641	1	30		// Yin-Yang
+	11	11841	1	30		// Zach. Nieba
+	12	70024	1	20		// Marmur Blogo
+}
+Group	?????????????
+{
+	Mob		532							//Best-Maniak
+	Type	drop
+	1	71084	1	70		// Zaczarowanie Przedmiotu
+	2	27101	1	50		// Zielona Mikstura S
+	3	27104	1	50		// Fioletowa Mikstura S
+	4	71044	1	50		// Dlon Krytyka
+	5	71045	1	50		// Dlon Przebicia
+	6	25040	1	10		// Zwoj Blogoslawienstwa
+	7	50215	1	40		// Bronie30
+	8	11241	1	30		// Smiertelka
+	9	11441	1	30		// Lwiej Mrowki
+	10	11641	1	30		// Yin-Yang
+	11	11841	1	30		// Zach. Nieba
+	12	70024	1	20		// Marmur Blogo
+}
+Group	??????�???o
+{
+	Mob		533							//Best-Lucznik
+	Type	drop
+	1	71084	1	70		// Zaczarowanie Przedmiotu
+	2	27101	1	50		// Zielona Mikstura S
+	3	27104	1	50		// Fioletowa Mikstura S
+	4	71044	1	50		// Dlon Krytyka
+	5	71045	1	50		// Dlon Przebicia
+	6	25040	1	10		// Zwoj Blogoslawienstwa
+	7	50215	1	40		// Bronie30
+	8	11241	1	30		// Smiertelka
+	9	11441	1	30		// Lwiej Mrowki
+	10	11641	1	30		// Yin-Yang
+	11	11841	1	30		// Zach. Nieba
+	12	70024	1	20		// Marmur Blogo
+}
+Group	??????????o
+{
+	Mob		534							//Best-Specjalista
+	Type	drop
+	1	71084	1	70		// Zaczarowanie Przedmiotu
+	2	27101	1	50		// Zielona Mikstura S
+	3	27104	1	50		// Fioletowa Mikstura S
+	4	71044	1	50		// Dlon Krytyka
+	5	71045	1	50		// Dlon Przebicia
+	6	25040	1	10		// Zwoj Blogoslawienstwa
+	7	50215	1	40		// Bronie30
+	8	11241	1	30		// Smiertelka
+	9	11441	1	30		// Lwiej Mrowki
+	10	11641	1	30		// Yin-Yang
+	11	11841	1	30		// Zach. Nieba
+	12	70024	1	20		// Marmur Blogo
+}
+Group	?W???�?
+{
+	Mob		2191							// Pustynny-Zolw
+	Type	drop
+	1	71084	3	200		// Zmianki
+	2	71084	3	160		// Zmianki
+	3	71084	3	120		// Zmianki
+	4	71084	3	100		// Zmianki
+	5	71084	3	60		// Zmianki
+	6	50076	1	400		// SzkataZolwia
+	7	70024	1	200		// MarmurBlogo
+	8	50513	1	80		// KamienDuchowy
+	9	71094	1	100		// RadaPustelnika
+	10	71094	1	60		// RadaPustelnika
+	11	72724	1	200		// EliksirSlonca
+	12	72728	1	200		// EliksirKsiezyca
+	13	72031	1	200		// Atak_boga_smokow
+	14	72034	1	200		// Obrona_boga_smokow
+	15	72037	1	200		// Zycie_boga_smokow
+	16	72040	1	200		// Inteligencja_boga_smokow
+	17	25040	1	80		// Zw?j B?ogos?awie?stwa
+	18	25040	1	10		// Zw?j B?ogos?awie?stwa
+	19	39032	1	100		// Owoc zycia
+	20	51501	1	206		// CorSurowe
+	21	51501	1	206		// CorSurowe
+	22	51501	1	180		// CorSurowe
+	23	30156	1	10		// Dominacja
+	24	30152	1	4		// EliksirGildii
+	25	30324	1	103		// Klucz Baronka
+
+}
+Group	????????
+{
+	Mob		691							// WodzOrkow
+	Type	drop
+	1	71084	3	200		// Zmianki
+	2	71084	3	160		// Zmianki
+	3	71084	2	120		// Zmianki
+	4	71084	2	100		// Zmianki
+	5	50070	1	400		// SzkatWodzaOrkow
+	6	72031	1	200		// Atak_boga_smokow
+	7	72031	1	40		// Atak_boga_smokow
+	8	72034	1	200		// Obrona_boga_smokow
+	9	72034	1	40		// Obrona_boga_smokow
+	10	72037	1	200		// Zycie_boga_smokow
+	11	72037	1	40		// Zycie_boga_smokow
+	12	72040	1	200		// Inteligencja_boga_smokow
+	13	72040	1	30		// Inteligencja_boga_smokow
+	14	25040	1	90		// Zw?j B?ogos?awie?stwa
+	15	25040	1	20		// Zw?j B?ogos?awie?stwa
+	16	70024	1	200		// MarmurBlogo
+	17	70024	1	50		// MarmurBlogo
+	18	71094	1	80		// RadaPustelnika
+	19	72724	1	200		// EliksirSlonca
+	20	72728	1	200		// EliksirKsiezyca
+	21	39032	1	80		// Owoc Zycia
+	22	51501	1	206		// CorSurowe
+	23	51501	1	180		// CorSurowe
+	24	51501	1	120		// CorSurowe
+	25	50513	1	55		// KamienDuchowy
+	26	50151	1	206		// KluczNaOrki
+	27	30156	1	10		// Dominacja
+	28	122		1	1		// LatMaga
+	29	3112	1	1		// OstrzeZbawienia
+	30	2112	1	1		// LukJednorozca
+	31	1082	1	1		// ZebrowyNoz
+	32	5072	1	1		// ZlotyRobaczyDzwon
+	33	7112	1	1		// BrwistyWachlarz
+	34	30152	1	6		// EliksirGildii
+}
+Group	???????
+{
+	Mob	791  //EzotPrzyw
+	Type	drop
+	1	50071	1	400		// Szkata
+}
+Group	???????????
+{
+	Mob		792							// Reinkar
+	Type	drop
+	1	71084	3	200		// Zmianki
+	2	71084	3	160		// Zmianki
+	3	71084	3	120		// Zmianki
+	4	71084	3	100		// Zmianki
+	5	50071	1	400		// Szkata
+	6	72031	1	200		// Atak_boga_smokow
+	7	72031	1	40		// Atak_boga_smokow
+	8	72034	1	200		// Obrona_boga_smokow
+	9	72034	1	40		// Obrona_boga_smokow
+	10	72037	1	200		// Zycie_boga_smokow
+	11	72037	1	40		// Zycie_boga_smokow
+	12	72040	1	200		// Inteligencja_boga_smokow
+	13	72040	1	40		// Inteligencja_boga_smokow
+	14	25040	1	100		// Bodzio
+	15	25040	1	20		// Bodzio
+	16	25040	1	2		// Bodzio
+	17	71094	1	90		// RadaPustelnika
+	18	72724	1	200		// EliksirSlonca
+	19	72728	1	200		// EliksirKsiezyca
+	20	39032	1	110		// Owoc Zycia
+	21	70024	1	200		// MarmurBlogo
+	22	70024	1	50		// MarmurBlogo
+	23	50513	1	65		// KamienDuchowy
+	24	51501	1	206		// CorSurowe
+	25	51501	1	180		// CorSurowe
+	26	51501	1	120		// CorSurowe
+	27	50151	1	206		// KluczNaOrki
+	28	30156	1	10		// Dominacja
+	29	122		1	2		// LatMaga
+	30	3112	1	2		// OstrzeZbawienia
+	31	2112	1	2		// LukJednorozca
+	32	1082	1	2		// ZebrowyNoz
+	33	5072	1	2		// ZlotyRobaczyDzwon
+	34	7112	1	2		// BrwistyWachlarz
+	35	30152	1	6		// EliksirGildii
+
+}
+Group	?????
+{
+	Mob		1901							//Dziewieciu Ogonow
+	Type	drop
+	1	71084	6	200		// Zmianki
+	2	71084	6	160		// Zmianki
+	3	71084	5	120		// Zmianki
+	4	71084	5	100		// Zmianki
+	5	71084	5	60		// Zmianki
+	6	50077	1	400		// Szkata Dziewieciu Ogonow
+	7	25040	1	100		// Bodzio
+	8	25040	1	50		// Bodzio
+	9	72031	1	200		// Atak
+	10	72031	1	200		// Atak
+	11	72034	1	200		// Obrona
+	12	72034	1	200		// Obrona
+	13	72037	1	200		// Zycie
+	14	72037	1	200		// Zycie
+	15	72040	1	200		// Inteligencja_boga_smokow
+	16	72040	1	200		// Inteligencja_boga_smokow
+	17	72724	1	200		// EliksirSlonca
+	18	72728	1	200		// EliksirKsiezyca
+	19	70024	1	200		// MarmurBlogo
+	20	70024	1	200		// MarmurBlogo
+	21	70024	1	60		// MarmurBlogo
+	22	50513	1	100		// KamienDuchowy
+	23	39032	1	120		// Owoc Zycia
+	24	71094	1	100		// RadaPustelnika
+	25	71094	1	15		// RadaPustelnika
+	26	51501	2	206		// CorSurowe
+	27	51501	1	180		// CorSurowe
+	28	51501	1	120		// CorSurowe
+	29	51501	1	40		// CorSurowe
+	30	71018	2	200		// Seta
+	31	71018	2	100		// Seta
+	32	71018	2	40		// Seta
+	33	70003	1	80		// Liderka
+	34	30156	1	20		// Dominacja
+	35	30152	1	8		// EliksirGildii
+	36	50152	1	140		// Demoniczny Klucz
+	37	30190	1	60		// Krwisty Kamie?
+}
+Group	????�?
+{
+	Mob		2091							// KrolowaPajakow
+	Type	drop
+	1	71084	4	200		// Zmianki
+	2	71084	4	160		// Zmianki
+	3	71084	4	120		// Zmianki
+	4	71084	4	100		// Zmianki
+	5	50073	1	400		// SzkataKrolowej
+	6	71130	1	120		// Przepa_v2
+	7	25040	1	100		// Bodzio
+	8	25040	1	30		// Bodzio
+	9	72724	1	200		// EliksirSlonca
+	10	72728	1	200		// EliksirKsiezyca
+	11	72031	1	200		// Atak
+	12	72034	1	200		// Obrona
+	13	72037	1	200		// Zycie
+	14	70024	1	200		// MarmurBlogo
+	15	50513	1	100		// KamienDuchowy
+	16	39032	1	140		// Owoc Zycia
+	17	71094	1	100		// RadaPustelnika
+	18	30324	1	206		// PajeczyKlucz
+	19	51501	1	206		// CorSurowe
+	20	51501	1	180		// CorSurowe
+	21	51501	1	120		// CorSurowe
+	22	51501	1	40		// CorSurowe
+	23	71018	1	200		// Seta
+	24	30156	1	17		// Dominacja
+	25	30152	1	8		// EliksirGildii
+}
+Group	KrolowaElit
+{
+	Mob		2093						// Elitarna-Krolowa-Pajakow
+	Type	drop
+	1	71084	5	200		// Zmianki
+	2	71084	5	160		// Zmianki
+	3	71084	5	120		// Zmianki
+	4	71084	5	100		// Zmianki
+	5	71084	5	20		// Zmianki
+	6	72031	2	200		// Atak
+	7	72034	2	200		// Obrona
+	8	72037	2	200		// Zycie
+	9	72040	2	200		// Inteligencja_boga_smokow
+	10	72724	1	200		// EliksirSlonca
+	11	72728	1	200		// EliksirKsiezyca
+	12	70024	1	200		// MarmurBlogo
+	13	70024	1	100		// MarmurBlogo
+	14	70024	1	20		// MarmurBlogo
+	15	25040	1	110		// Bodzio
+	16	25040	1	50		// Bodzio
+	17	50513	1	110		// KamienDuchowy
+	18	71094	1	110		// RadaPustelnika
+	19	71094	1	10		// RadaPustelnika
+	20	51501	2	200		// CorSurowe
+	21	51501	2	180		// CorSurowe
+	22	51501	1	120		// CorSurowe
+	23	51501	1	50		// CorSurowe
+	24	39032	1	140		// Owoc Zycia
+	25	71130	1	120		// Przepa_v2
+	26	30324	1	206		// PajeczyKlucz
+	27	51508	1	20		// CorRzadkie
+	28	30156	1	25		// Dominacja
+	29	30152	1	10		// EliksirGildii
+	30	71018	1	200		// Seta
+	31	71018	1	200		// Seta
+}
+Group	????????
+{
+	Mob		1304							// Zjawa-Zoltego-Tygrysa
+	Type	drop
+	1	71084	6	200		// Zmianki
+	2	71084	6	160		// Zmianki
+	3	71084	6	120		// Zmianki
+	4	71084	6	100		// Zmianki
+	5	71084	6	60		// Zmianki
+	6	50078	1	400		// Szkata Zjawy
+	7	25040	1	110		// Bodzio
+	8	25040	1	70		// Bodzio
+	9	50513	1	130		// KamienDuchowy
+	10	72724	1	200		// EliksirSlonca
+	11	72728	1	200		// EliksirKsiezyca
+	12	72031	2	200		// Atak
+	13	72031	2	200		// Atak
+	14	72034	2	200		// Obrona
+	15	72034	2	200		// Obrona
+	16	72037	2	200		// Zycie
+	17	72037	2	200		// Zycie
+	18	72040	2	200		// Inteligencja_boga_smokow
+	19	72040	2	200		// Inteligencja_boga_smokow
+	20	70024	1	200		// MarmurBlogo
+	21	70024	1	200		// MarmurBlogo
+	22	70024	1	200		// MarmurBlogo
+	23	71094	1	110		// RadaPustelnika
+	24	71094	1	45		// RadaPustelnika
+	25	71094	1	1		// RadaPustelnika
+	26	51501	2	206		// CorSurowe
+	27	51501	2	206		// CorSurowe
+	28	51501	1	180		// CorSurowe
+	29	51501	1	120		// CorSurowe
+	30	51501	1	80		// CorSurowe
+	31	51501	1	60		// CorSurowe
+	32	71018	2	200		// Seta
+	33	71018	2	120		// Seta
+	34	71018	2	40		// Seta
+	35	71107	1	120		// Owoc Zycia
+	36	51508	1	60		// CorRzadkie
+	37	30156	1	60		// Dominacja
+	38	30319	1	110		// Przepa Azek
+	39	30190	1	60		// Krwisty Kamie?
+	40	30152	1	106		// EliksirGildii
+	41	39022	1	10		// Zw?j Boga Smok?w
+	42	27987	1	50		// Małż
+	43	27987	1	50		// Małż
+}
+Group	????????
+{
+	Mob		1307							// Elitarna Zjawa-Zoltego-Tygrysa
+	Type	drop
+	1	71084	9	200		// Zmianki
+	2	71084	9	160		// Zmianki
+	3	71084	9	120		// Zmianki
+	4	71084	9	100		// Zmianki
+	5	71084	9	60		// Zmianki
+	6	72031	2	200		// Atak
+	7	72031	2	200		// Atak
+	8	72031	1	200		// Atak
+	9	72031	1	200		// Atak
+	10	72034	2	200		// Obrona
+	11	72034	2	200		// Obrona
+	12	72034	1	200		// Obrona
+	13	72034	1	200		// Obrona
+	14	72037	2	200		// Zycie
+	15	72037	2	200		// Zycie
+	16	72037	1	200		// Zycie
+	17	72037	1	200		// Zycie
+	18	72040	2	200		// Inteligencja_boga_smokow
+	19	72040	2	200		// Inteligencja_boga_smokow
+	20	72040	1	200		// Inteligencja_boga_smokow
+	21	72040	1	200		// Inteligencja_boga_smokow
+	22	25040	1	120		// Bodzio
+	23	25040	1	70		// Bodzio
+	24	72728	1	200		// EliksirKsiezyca
+	25	72724	1	200		// EliksirSlonca
+	26	50513	1	160		// KamienDuchowy
+	27	50513	1	50		// KamienDuchowy
+	28	71018	4	120		// Seta
+	29	71018	4	60		// Seta
+	30	71018	3	40		// Seta
+	31	51501	2	206		// CorSurowe
+	32	51501	2	206		// CorSurowe
+	33	51501	2	180		// CorSurowe
+	34	51501	2	120		// CorSurowe
+	35	51501	2	100		// CorSurowe
+	36	51508	2	200		// CorRzadki
+	37	51508	1	100		// CorRzadki
+	38	51508	1	80		// CorRzadki
+	39	51508	1	5		// CorRzadki
+	40	70024	1	120		// MarmurBlogo
+	41	70024	1	120		// MarmurBlogo
+	42	70024	1	80		// MarmurBlogo
+	43	71094	1	80		// RadaPustelnika
+	44	71094	1	80		// RadaPustelnika
+	45	71094	1	10		// RadaPustelnika
+	46	39032	1	1		// OwocZycia
+	47	39032	1	120		// Owoc Zycia
+	48	39032	1	80		// Owoc Zycia
+	49	30156	1	80		// Dominacja
+	50	30152	1	206		// EliksirGildii
+	51	50155	1	206		// KluczRazador
+	52	39022	1	20		// Zw?j Boga Smok?w
+	53	27992	1	90		// BialaPerla
+	54	27992	1	50		// BialaPerla
+	55	27992	1	30		// BialaPerla
+	56	27993	1	90		// NiebieskaPerla
+	57	27993	1	50		// NiebieskaPerla
+	58	27993	1	30		// NiebieskaPerla
+	59	27994	1	90		// KrwawaPerla
+	60	27994	1	50		// KrwawaPerla
+	61	27994	1	30		// KrwawaPerla
+	62	25041	1	40		// MagicznyKamien
+	63	25041	1	1		// MagicznyKamien
+	64	50154	1	106		// Przepa pot
+}
+Group	?????
+{
+	Mob		2206							// Ognisty-Krol
+	Type	drop
+	1	71084	6	200		// Zmianki
+	2	71084	6	160		// Zmianki
+	3	71084	6	120		// Zmianki
+	4	71084	6	100		// Zmianki
+	5	71084	6	60		// Zmianki
+	6	50079	1	400		// Szkata Krola
+	7	25040	1	110		// Bodzio
+	8	25040	1	70		// Bodzio
+	9	50513	1	130		// KamienDuchowy
+	10	72724	1	200		// EliksirSlonca
+	11	72728	1	200		// EliksirKsiezyca
+	12	72031	2	200		// Atak
+	13	72031	2	200		// Atak
+	14	72034	2	200		// Obrona
+	15	72034	2	200		// Obrona
+	16	72037	2	200		// Zycie
+	17	72037	2	200		// Zycie
+	18	72040	2	200		// Inteligencja_boga_smokow
+	19	72040	2	200		// Inteligencja_boga_smokow
+	20	70024	1	200		// MarmurBlogo
+	21	70024	1	200		// MarmurBlogo
+	22	70024	1	200		// MarmurBlogo
+	23	71094	1	80		// RadaPustelnika
+	24	71094	1	45		// RadaPustelnika
+	25	71094	1	1		// RadaPustelnika
+	26	51501	2	206		// CorSurowe
+	27	51501	2	206		// CorSurowe
+	28	51501	1	180		// CorSurowe
+	29	51501	1	120		// CorSurowe
+	30	51501	1	80		// CorSurowe
+	31	51501	1	60		// CorSurowe
+	32	71018	2	200		// Seta
+	33	71018	2	120		// Seta
+	34	71018	2	40		// Seta
+	35	71107	1	120		// Owoc Zycia
+	36	51508	1	60		// CorRzadkie
+	37	30156	1	60		// Dominacja
+	38	30319	1	110		// Przepa Azek
+	39	30190	1	60		// Krwisty Kamie?
+	40	30152	1	106		// EliksirGildii
+	41	39022	1	10		// Zw?j Boga Smok?w
+	42	27987	1	70		// Małż
+	43	27987	1	70		// Małż
+}
+Group	????????
+{
+	Mob		2207							// Elitarny Ognisty Krol
+	Type	drop
+	1	71084	9	200		// Zmianki
+	2	71084	9	160		// Zmianki
+	3	71084	9	120		// Zmianki
+	4	71084	9	100		// Zmianki
+	5	71084	9	60		// Zmianki
+	6	72031	2	200		// Atak
+	7	72031	2	200		// Atak
+	8	72031	1	200		// Atak
+	9	72031	1	200		// Atak
+	10	72034	2	200		// Obrona
+	11	72034	2	200		// Obrona
+	12	72034	1	200		// Obrona
+	13	72034	1	200		// Obrona
+	14	72037	2	200		// Zycie
+	15	72037	2	200		// Zycie
+	16	72037	1	200		// Zycie
+	17	72037	1	200		// Zycie
+	18	72040	2	200		// Inteligencja_boga_smokow
+	19	72040	2	200		// Inteligencja_boga_smokow
+	20	72040	1	200		// Inteligencja_boga_smokow
+	21	72040	1	200		// Inteligencja_boga_smokow
+	22	25040	1	120		// Bodzio
+	23	25040	1	70		// Bodzio
+	24	72728	1	200		// EliksirKsiezyca
+	25	72724	1	200		// EliksirSlonca
+	26	50513	1	160		// KamienDuchowy
+	27	50513	1	50		// KamienDuchowy
+	28	71018	4	120		// Seta
+	29	71018	4	60		// Seta
+	30	71018	3	40		// Seta
+	31	51501	2	206		// CorSurowe
+	32	51501	2	206		// CorSurowe
+	33	51501	2	180		// CorSurowe
+	34	51501	2	120		// CorSurowe
+	35	51501	2	100		// CorSurowe
+	36	51508	2	200		// CorRzadki
+	37	51508	1	100		// CorRzadki
+	38	51508	1	80		// CorRzadki
+	39	51508	1	5		// CorRzadki
+	40	70024	1	120		// MarmurBlogo
+	41	70024	1	120		// MarmurBlogo
+	42	70024	1	80		// MarmurBlogo
+	43	71094	1	80		// RadaPustelnika
+	44	71094	1	80		// RadaPustelnika
+	45	71094	1	10		// RadaPustelnika
+	46	39032	1	1		// OwocZycia
+	47	39032	1	120		// Owoc Zycia
+	48	39032	1	80		// Owoc Zycia
+	49	30156	1	80		// Dominacja
+	50	30152	1	206		// EliksirGildii
+	51	50155	1	206		// KluczRazador
+	52	39022	1	20		// Zw?j Boga Smok?w
+	53	27992	1	90		// BialaPerla
+	54	27992	1	50		// BialaPerla
+	55	27992	1	30		// BialaPerla
+	56	27993	1	90		// NiebieskaPerla
+	57	27993	1	50		// NiebieskaPerla
+	58	27993	1	30		// NiebieskaPerla
+	59	27994	1	90		// KrwawaPerla
+	60	27994	1	50		// KrwawaPerla
+	61	27994	1	30		// KrwawaPerla
+	62	25041	1	40		// MagicznyKamien
+	63	25041	1	1		// MagicznyKamien
+	64	50154	1	106		// Przepa pot
+}
+Group	OlbrzymiDuchDrzewa
+{
+	Mob		2306						// Olbrzymi Duch Drzewa
+	Type	drop
+	1	71084	9	200		// Zmianki
+	2	71084	9	160		// Zmianki
+	3	71084	9	120		// Zmianki
+	4	71084	9	100		// Zmianki
+	5	71084	9	60		// Zmianki
+	6	71084	9	20		// Zmianki
+	7	25040	1	110		// Bodzio
+	8	25040	1	60		// Bodzio
+	9	39032	1	140		// Owoc Zycia
+	10	71094	1	110		// RadaPustelnika
+	11	71094	1	60		// RadaPustelnika
+	12	50513	1	100		// KamienDuchowy
+	13	50513	1	20		// KamienDuchowy
+	14	51501	2	206		// CorSurowe
+	15	51501	2	160		// CorSurowe
+	16	51501	1	120		// CorSurowe
+	17	51501	1	80		// CorSurowe
+	18	51501	1	40		// CorSurowe
+	19	72724	1	200		// EliksirSlonca
+	20	72728	1	200		// EliksirKsiezyca
+	21	72031	3	200		// Atak
+	22	72031	3	120		// Atak
+	23	72031	3	70		// Atak
+	24	72034	3	200		// Obrona
+	25	72034	3	120		// Obrona
+	26	72034	3	70		// Obrona
+	27	72037	3	200		// Zycie
+	28	72037	3	120		// Zycie
+	29	72037	3	70		// Zycie
+	30	72040	3	200		// Inteligencja_boga_smokow
+	31	72040	3	120		// Inteligencja_boga_smokow
+	32	72040	3	70		// Inteligencja_boga_smokow
+	33	71018	2	100		// Seta
+	34	71018	2	60		// Seta
+	35	71018	2	20		// Seta
+	36	30190	1	80		// Krwisty Kamie?
+	37	30190	1	20		// Krwisty Kamie?
+	38	50154	1	11		// Przepa 90
+	39	30156	1	25		// Dominacja
+	40	30152	1	20		// EliksirGildii
+	41	39022	1	10		// Zwoj boga Smokow
+	42	51508	1	10		// CorRzadki
+	43	27987	1	70		// Małż
+	44	27987	1	1		// Małż
+}
+Group	Setaou-General2
+{
+	Mob		2492                      // GeneralYonghan
+	Type	drop
+	1	71084	10	200		// Zaczarowanie Przedmiotu
+	2	71084	10	120		// Zaczarowanie Przedmiotu
+	3	71084	10	85		// Zaczarowanie Przedmiotu
+	4	71084	10	85		// Zaczarowanie Przedmiotu
+	5	71084	10	65		// Zaczarowanie Przedmiotu
+	6	71084	10	65		// Zaczarowanie Przedmiotu
+	7	30156	1	70		// Dominacja
+	8	71018	3	200		// Seta
+	9	71018	3	120		// Seta
+	10	71018	3	100		// Seta
+	11	71018	3	80		// Seta
+	12	70024	1	200		// MarmurBlogo
+	13	70024	1	200		// MarmurBlogo
+	14	51501	2	206		// CorSurowy
+	15	51501	2	206		// CorSurowy
+	16	51501	2	160		// CorSurowy
+	17	51501	2	120		// CorSurowy
+	18	51508	1	206		// CorRzadki
+	19	51508	1	206		// CorRzadki
+	20	51508	1	60		// CorRzadki
+	21	72031	1	200		// Atak
+	22	72031	1	200		// Atak
+	23	72031	1	200		// Atak
+	24	72034	1	200		// Obrona
+	25	72034	1	200		// Obrona
+	26	72034	1	200		// Obrona
+	27	72037	1	200		// Zycie
+	28	72037	1	200		// Zycie
+	29	72037	1	200		// Zycie
+	30	72040	1	200		// Inteligencja_boga_smokow
+	31	72040	1	200		// Inteligencja_boga_smokow
+	32	72040	1	200		// Inteligencja_boga_smokow
+	33	72726	1	60		// ElikrSloncaS
+	34	72730	1	60		// EliksirKsiezycaS
+	35	30179	1	206		// Krety Klucz
+	36	30179	1	103		// Krety Klucz
+	37	30190	1	100		// krwisty
+	38	30190	1	60		// krwisty
+	39	30190	1	20		// krwisty
+	40	27992	1	70		// BialaPerla
+	41	27992	1	40		// BialaPerla
+	42	27992	1	20		// BialaPerla
+	43	27993	1	70		// NiebieskaPerla
+	44	27993	1	40		// NiebieskaPerla
+	45	27993	1	20		// NiebieskaPerla
+	46	27994	1	70		// KrwawaPerla
+	47	27994	1	40		// KrwawaPerla
+	48	27994	1	20		// KrwawaPerla
+	49	30152	1	106		// EliksirGildii
+	50	25041	1	15		// MagicznyKamien
+	51	25041	1	1		// MagicznyKamien
+	52	50154	1	50		// Przepa 90
+	53	71094	1	75		// RadaPustelnika
+	54	71094	1	75		// RadaPustelnika
+	55	39032	1	120		// Owoc Zycia
+	56	39032	1	80		// Owoc Zycia
+	57	39022	1	50		// Zwoj Boga Smokow
+	58	30553	1	32		// Krysztal Groty
+}
+Group	????????????
+{
+	Mob	    3290                      // Rakszas
+	Type	drop
+	1	71084	13	200		// Zaczarowanie Przedmiotu
+	2	71084	13	160		// Zaczarowanie Przedmiotu
+	3	71084	13	120		// Zaczarowanie Przedmiotu
+	4	71084	13	100		// Zaczarowanie Przedmiotu
+	5	71084	13	60		// Zaczarowanie Przedmiotu
+	6	71018	5	200		// Seta
+	7	71018	4	200		// Seta
+	8	71018	3	200		// Seta
+	9	71018	2	200		// Seta
+	10	72031	3	200		// Atak
+	11	72031	3	200		// Atak
+	12	72034	3	200		// Obrona
+	13	72034	3	200		// Obrona
+	14	72037	3	200		// Zycie
+	15	72037	3	200		// Zycie
+	16	72040	3	200		// Inteligencja_boga_smokow
+	17	72040	3	200		// Inteligencja_boga_smokow
+	18	51501	2	206		// CorSurowe
+	19	51501	2	206		// CorSurowe
+	20	51501	2	206		// CorSurowe
+	21	51501	2	206		// CorSurowe
+	22	51501	2	206		// CorSurowe
+	23	51508	2	165		// CorRzadki
+	24	51508	2	165		// CorRzadki
+	25	51508	2	165		// CorRzadki
+	26	51508	2	165		// CorRzadki
+	27	72726	1	120		// ElikrSloncaS
+	28	72730	1	120		// EliksirKsiezycaS
+	29	70024	1	120		// MarmurBlogo
+	30	70024	1	120		// MarmurBlogo
+	31	71094	1	80		// RadaPustelnika
+	32	71094	1	80		// RadaPustelnika
+	33	71094	1	80		// RadaPustelnika
+	34	30156	1	100		// Dominacja
+	35	27994	1	180		// KrwawaPerla
+	36	27994	1	80		// KrwawaPerla
+	37	27994	1	30		// KrwawaPerla
+	38	27993	1	180		// NiebieskaPerla
+	39	27993	1	80		// NiebieskaPerla
+	40	27993	1	30		// NiebieskaPerla
+	41	27992	1	180		// BialaPerla
+	42	27992	1	80		// BialaPerla
+	43	27992	1	30		// BialaPerla
+	44	30152	1	206		// EliksirGildii
+	45	50156	1	68		// Hydra-Przepustka
+	46	25041	1	55		// MagicznyKamien
+	47	25041	1	3		// MagicznyKamien
+	48	50154	1	50		// Przepa 90
+	49	39032	1	140		// Owoc Zycia
+	50	39032	1	140		// Owoc Zycia
+	51	39007	1	15		// Podrecznik Kowala
+	52	30514	1	45		// Fioletowy Materiał 
+}
+Group	????????????
+{
+	Mob	    3191                      // Polifem
+	Type	drop
+	1	71084	16	200		// Zaczarowanie Przedmiotu
+	2	71084	16	160		// Zaczarowanie Przedmiotu
+	3	71084	16	120		// Zaczarowanie Przedmiotu
+	4	71084	16	100		// Zaczarowanie Przedmiotu
+	5	71084	16	60		// Zaczarowanie Przedmiotu
+	6	71084	16	20		// Zaczarowanie Przedmiotu
+	7	72031	5	200		// Atak
+	8	72031	5	200		// Atak
+	9	72034	5	200		// Obrona
+	10	72034	5	200		// Obrona
+	11	72037	5	200		// Zycie
+	12	72037	5	200		// Zycie
+	13	72040	5	200		// Inteligencja_boga_smokow
+	14	72040	5	200		// Inteligencja_boga_smokow
+	15	51501	2	206		// CorSurowe
+	16	51501	2	206		// CorSurowe
+	17	51501	2	206		// CorSurowe
+	18	51501	2	206		// CorSurowe
+	19	51501	2	206		// CorSurowe
+	20	51508	2	170		// CorRzadki
+	21	51508	2	170		// CorRzadki
+	22	51508	2	170		// CorRzadki
+	23	51508	2	170		// CorRzadki
+	24	51508	2	170		// CorRzadki
+	25	51508	2	170		// CorRzadki
+	26	71018	5	120		// Seta
+	27	71018	5	120		// Seta
+	28	71018	5	120		// Seta
+	29	71018	5	120		// Seta
+	30	70024	1	200		// MarmurBlogo
+	31	70024	1	200		// MarmurBlogo
+	32	70024	1	200		// MarmurBlogo
+	33	71094	1	80		// RadaPustelnika
+	34	71094	1	80		// RadaPustelnika
+	35	71094	1	80		// RadaPustelnika
+	36	30152	2	80		// EliksirGildii
+	37	30156	1	140		// Dominacja
+	38	72726	1	60		// ElikrSloncaS
+	39	72730	1	60		// EliksirKsiezycaS
+	40	27994	1	200		// KrwawaPerla
+	41	27994	1	100		// KrwawaPerla
+	42	27994	1	50		// KrwawaPerla
+	43	27994	1	2		// KrwawaPerla
+	44	27993	1	200		// NiebieskaPerla
+	45	27993	1	100		// NiebieskaPerla
+	46	27993	1	50		// NiebieskaPerla
+	47	27993	1	2		// NiebieskaPerla
+	48	27992	1	200		// BialaPerla
+	49	27992	1	100		// BialaPerla
+	50	27992	1	50		// BialaPerla
+	51	27992	1	2		// BialaPerla
+	52	50156	1	155		// Hydra-Przepustka
+	53	25041	1	65		// MagicznyKamien
+	54	25041	1	5		// MagicznyKamien
+	55	50154	1	100		// Przepa 90
+	56	39032	1	140		// Owoc Zycia
+	57	39032	1	140		// Owoc Zycia
+	58	39007	1	50		// Podrecznik Kowala
+	59	30516	1	90		// Złoty Materiał 
+}
+Group	?????
+{
+	Mob		29004							// Mroźny Tropiciel
+	Type	drop
+	1	71084	5	200		// Zmianki
+	2	71084	4	160		// Zmianki
+	3	71084	3	120		// Zmianki
+	4	71084	2	100		// Zmianki
+	5	71084	2	60		// Zmianki
+	6	25040	1	80		// Bodzio
+	7	25040	1	15		// Bodzio
+	8	72031	1	200		// Atak
+	9	72034	1	200		// Obrona
+	10	72037	1	200		// Zycie
+	11	72040	1	200		// Inteligencja_boga_smokow
+	12	72724	1	200		// EliksirSlonca
+	13	72728	1	200		// EliksirKsiezyca
+	14	70024	1	200		// MarmurBlogo
+	15	70024	1	60		// MarmurBlogo
+	16	50513	1	80		// KamienDuchowy
+	17	50513	1	1		// KamienDuchowy
+	18	39032	1	120		// Owoc Zycia
+	19	71094	1	60		// RadaPustelnika
+	20	71094	1	10		// RadaPustelnika
+	21	51501	1	200		// CorSurowe
+	22	51501	1	140		// CorSurowe
+	23	51501	1	80		// CorSurowe
+	24	51501	1	20		// CorSurowe
+	25	71018	1	200		// Seta
+	26	71018	1	100		// Seta
+	27	71018	1	40		// Seta
+	28	30156	1	5		// Dominacja
+	29	30152	1	6		// EliksirGildii
+	30	50152	1	50		// Demoniczny Klucz
+	31	27987	1	10		// Małż
+}
+Group	?????
+{
+	Mob		29003							// Płomienny Rozbijacz
+	Type	drop
+	1	71084	5	200		// Zmianki
+	2	71084	5	160		// Zmianki
+	3	71084	4	120		// Zmianki
+	4	71084	3	100		// Zmianki
+	5	71084	2	60		// Zmianki
+	6	25040	1	80		// Bodzio
+	7	25040	1	20		// Bodzio
+	8	72031	1	200		// Atak
+	9	72034	1	30		// Obrona
+	10	72037	1	200		// Zycie
+	11	72031	1	30		// Atak
+	12	72034	1	200		// Obrona
+	13	72037	1	30		// Zycie
+	14	72040	1	200		// Inteligencja_boga_smokow
+	15	72040	1	30		// Inteligencja_boga_smokow
+	16	72724	1	200		// EliksirSlonca
+	17	72728	1	200		// EliksirKsiezyca
+	18	70024	1	200		// MarmurBlogo
+	19	70024	1	60		// MarmurBlogo
+	20	50513	1	80		// KamienDuchowy
+	21	50513	1	2		// KamienDuchowy
+	22	39032	1	120		// Owoc Zycia
+	23	71094	1	70		// RadaPustelnika
+	24	71094	1	20		// RadaPustelnika
+	25	51501	1	200		// CorSurowe
+	26	51501	1	200		// CorSurowe
+	27	51501	1	120		// CorSurowe
+	28	51501	1	80		// CorSurowe
+	29	71018	1	200		// Seta
+	30	71018	1	100		// Seta
+	31	71018	1	40		// Seta
+	32	30156	1	8		// Dominacja
+	33	30152	1	10		// EliksirGildii
+	34	50152	1	56		// Demoniczny Klucz
+	35	27987	1	10		// Małż
+	36	30190	1	60		// Krwisty Kamie?
+}
+Group	?????
+{
+	Mob		29001						// Straznik Obozu
+	Type	drop
+	1	71084	5	200		// Zmianki
+	2	71084	5	160		// Zmianki
+	3	71084	5	120		// Zmianki
+	4	71084	4	100		// Zmianki
+	5	71084	3	60		// Zmianki
+	6	25040	1	80		// Bodzio
+	7	25040	1	30		// Bodzio
+	8	72031	1	200		// Atak
+	9	72034	1	70		// Obrona
+	10	72037	1	200		// Zycie
+	11	72031	1	70		// Atak
+	12	72034	1	200		// Obrona
+	13	72037	1	70		// Zycie
+	14	72040	1	200		// Inteligencja_boga_smokow
+	15	72040	1	70		// Inteligencja_boga_smokow
+	16	72724	1	200		// EliksirSlonca
+	17	72728	1	200		// EliksirKsiezyca
+	18	70024	1	200		// MarmurBlogo
+	19	70024	1	100		// MarmurBlogo
+	20	50513	1	80		// KamienDuchowy
+	21	50513	1	3		// KamienDuchowy
+	22	39032	1	120		// Owoc Zycia
+	23	71094	1	80		// RadaPustelnika
+	24	71094	1	30		// RadaPustelnika
+	25	51501	1	200		// CorSurowe
+	26	51501	1	200		// CorSurowe
+	27	51501	1	120		// CorSurowe
+	28	51501	1	80		// CorSurowe
+	29	51508	1	60		// CorRzadki
+	30	71018	2	200		// Seta
+	31	71018	1	100		// Seta
+	32	71018	2	40		// Seta
+	33	71018	2	40		// Seta
+	34	30156	1	10		// Dominacja
+	35	30152	1	12		// EliksirGildii
+	36	50152	1	60		// Demoniczny Klucz
+	37	27987	1	20		// Małż
+	37	30190	1	70		// Krwisty Kamie?
+}
+Group	?????
+{
+	Mob		29002							// Kamienny Egzekutor
+	Type	drop
+	1	71084	6	200		// Zmianki
+	2	71084	6	160		// Zmianki
+	3	71084	5	120		// Zmianki
+	4	71084	4	100		// Zmianki
+	5	71084	3	60		// Zmianki
+	6	25040	1	90		// Bodzio
+	7	25040	1	40		// Bodzio
+	8	50513	1	80		// KamienDuchowy
+	9	50513	1	4		// KamienDuchowy
+	10	72724	1	200		// EliksirSlonca
+	11	72728	1	200		// EliksirKsiezyca
+	12	72031	2	200		// Atak
+	13	72031	2	70		// Atak
+	14	72034	2	200		// Obrona
+	15	72034	2	70		// Obrona
+	16	72037	2	200		// Zycie
+	17	72037	2	70		// Zycie
+	18	72040	2	200		// Inteligencja_boga_smokow
+	19	72040	2	70		// Inteligencja_boga_smokow
+	20	70024	1	200		// MarmurBlogo
+	21	70024	1	100		// MarmurBlogo
+	22	70024	1	60		// MarmurBlogo
+	23	71094	1	100		// RadaPustelnika
+	24	71094	1	15		// RadaPustelnika
+	25	51501	1	200		// CorSurowe
+	26	51501	1	200		// CorSurowe
+	27	51501	1	120		// CorSurowe
+	28	51501	1	80		// CorSurowe
+	29	51508	1	100		// CorRzadki
+	30	51508	1	40		// CorRzadki
+	31	71018	2	200		// Seta
+	32	71018	2	120		// Seta
+	33	71018	2	40		// Seta
+	34	71107	1	120		// Owoc Zycia
+	35	30156	1	15		// Dominacja
+	36	30152	1	10		// EliksirGildii
+	37	39022	1	2		// Zw?j Boga Smok?w
+	38	30319	1	80		// Zasuszona Glowa
+	39	27987	1	30		// Małż
+	40	50154	1	30		// Przepa 90
+}
+
+Group	????
+{
+    Mob     8001    //5LVL
+    Type    drop
+	1	70057	1	103		// Peleryny
+	2	38052	1	103		// Skrzynia KD
+	3	30093	1	103		// Ku
+	4	71152	1	103		// Wzmocnienie
+	5	71151	1	103		// Zmianki
+}
+
+Group	??????
+{
+    Mob     8002    //10LVL
+    Type    drop
+	1	70057	1	125		// Peleryny
+	2	38052	1	103		// Skrzynia KD
+	3	30093	1	103		// Ku
+	4	71152	1	103		// Wzmocnienie
+	5	71151	1	103		// Zmianki
+}
+
+Group	??????
+{
+    Mob     8003    //15LVL
+    Type    drop
+	1	70057	1	175		// Peleryny
+	2	38052	1	103		// Skrzynia KD
+	3	30093	1	103		// Ku
+	4	71152	1	103		// Wzmocnienie
+	5	71151	1	103		// Zmianki
+}
+
+Group	????
+{
+    Mob     8004    //20LVL
+    Type    drop
+	1	70057	1	200		// Peleryny
+	2	70057	1	30		// Peleryny
+	3	38052	1	103		// Skrzynia KD
+	4	30093	1	103		// Ku
+	5	71152	1	103		// Wzmocnienie
+	6	71151	1	103		// Zmianki
+}
+
+Group	????
+{
+	Mob	8005  //25LVL
+	Type	drop
+	1	70057	1	200		// Peleryny
+	2	70057	1	90		// Peleryny
+	3	30093	1	123		// Ku
+	4	38052	1	123		// Skrzynia KD
+	5	71084	1	60		// Zmianki
+	6	71085	1	60		// Wzmocnienie
+	7	27105	1	60		// FioletowaPota
+	8	27112	1	60		// ZielonaPota
+	9	71044	1	60		// DlonKrytyka
+	10	71045	1	60		// DlonPrzebicia
+	11	27989	1	10		// Wykrywacz
+	12	25040	1	8			// Bodzio
+	13	39008	1	8			// Egzo
+}
+
+Group	?????
+{
+    Mob     8006    //30LVL
+    Type    drop
+	1	70057	1	200		// Peleryny
+	2	70057	1	155		// Peleryny
+	3	30093	1	143		// Ku
+	4	38052	1	143		// Skrzynia KD
+	5	71084	1	90		// Zmianki
+	6	71085	1	90		// Wzmocnienie
+	7	27105	1	70		// FioletowaPota
+	8	27112	1	70		// ZielonaPota
+	9	71044	1	70			// DlonKrytyka
+	10	71045	1	70		// DlonPrzebicia
+	11	27989	1	10		// Wykrywacz
+	12	25040	1	9			// Bodzio
+	13	39008	1	9			// Egzo
+}
+
+Group	??????
+{
+    Mob     8007    //MetinZazdrosci
+    Type    drop
+	1	70057	2	200		// Peleryny
+	2	70057	1	25		// Peleryny
+	3	38052	1	163		// Skrzynia KD
+	4	30093	1	163		// Ku
+	5	71084	1	125		// Zmianki
+	6	71085	1	125		// Wzmocnienie
+	7	27105	1	85		// FioletowaPota
+	8	27112	1	85		// ZielonaPota
+	9	71044	1	85			// DlonKrytyka
+	10	71045	1	85		// DlonPrzebicia
+	11	27989	1	15			// Wykrywacz
+	12	25040	1	15			// Bodzio
+	13	39008	1	15			// Egzo
+}
+
+Group	?????
+{
+	Mob		8008				// 40LVL
+	Type	drop
+	1	70057	2	200		// Peleryny
+	2	70057	1	100		// Peleryny
+	3	38052	1	200		// Skrzynia KD
+	4	30093	1	200		// Ku
+	5	71084	1	165		// Zmianki
+	6	71085	1	165		// Wzmocnienie
+	7	27105	1	100		// FioletowaPota
+	8	27112	1	100		// ZielonaPota
+	9	71044	1	100			// DlonKrytyka
+	10	71045	1	100		// DlonPrzebicia
+	11	27989	1	25			// Wykrywacz
+	12	25040	1	25			// Bodzio
+	13	39008	1	25			// Egzo
+	14	38050	1	25			// SkrzyniaMocy
+	15	50151	1	13.5		// KluczOrkowy
+}
+
+Group	??????
+{
+	Mob			8009			// 45LVL
+	Type		drop
+	1	70057	2	200		// Peleryny
+	2	70057	1	180		// Peleryny
+	3	38052	1	200		// Skrzynia KD
+	4	30093	1	200		// Ku
+	5	71084	1	206		// Zmianki
+	6	71085	1	206		// Wzmocnienie
+	7	27105	1	115		// FioletowaPota
+	8	27112	1	115		// ZielonaPota
+	9	71044	1	115			// DlonKrytyka
+	10	71045	1	115		// DlonPrzebicia
+	11	27989	1	30			// Wykrywacz
+	12	25040	1	30			// Bodzio
+	13	39008	1	30			// Egzo
+	14	38050	1	30			// SkrzyniaMocy
+	15	50151	1	13.5		// KluczOrkowy
+}
+
+Group	??????
+{
+	Mob			8010				// 50LVL
+	Type		drop
+	1	70057	2	200		// Peleryny
+	2	70057	2	135		// Peleryny
+	3	38052	1	200		// Skrzynia KD
+	4	30093	1	200		// Ku
+	5	71084	1	206		// Zmianki
+	6	71084	1	60		// Zmianki
+	7	71085	1	206		// Wzmocnienie
+	8	71085	1	60		// Wzmocnienie
+	9	27105	1	130		// FioletowaPota
+	10	27112	1	130		// ZielonaPota
+	11	71044	1	130			// DlonKrytyka
+	12	71045	1	130			// DlonPrzebicia
+	13	27989	1	33			// Wykrywacz
+	14	25040	1	33			// Bodzio
+	15	39008	1	33			// Egzo
+	16	38050	1	33			// SkrzyniaMocy
+	17	50151	1	19			// KluczOrkowy
+}
+
+Group	?????
+{
+    Mob         8011                // 55LVL
+    Type        drop
+	1	70057	2	200		// Peleryny
+	2	70057	2	185		// Peleryny
+	3	38052	1	200		// Skrzynia KD
+	4	30093	1	200		// Ku
+	5	71084	1	206		// Zmianki
+	6	71084	1	109		// Zmianki
+	7	71085	1	206		// Wzmocnienie
+	8	71085	1	109		// Wzmocnienie
+	9	27105	1	145		// FioletowaPota
+	10	27112	1	145		// ZielonaPota
+	11	71044	1	145			// DlonKrytyka
+	12	71045	1	145			// DlonPrzebicia
+	13	27989	1	36			// Wykrywacz
+	14	25040	1	36			// Bodzio
+	15	39008	1	36			// Egzo
+	16	38050	1	36			// SkrzyniaMocy
+	17	30324	1	9.7		// Klucz Baronka
+}
+
+Group	????
+{
+    Mob         8012            //60LVL
+    Type        drop
+	1	70057	4	206		// Peleryny
+	2	38052	1	200		// Skrzynia KD
+	3	71084	2	100		// Zmianki
+	4	30093	1	200		// Ku
+	5	71084	1	206		// Zmianki
+	6	71084	1	169		// Zmianki
+	7	71085	1	206		// Wzmocnienie
+	8	71085	1	169		// Wzmocnienie
+	9	27105	1	160		// FioletowaPota
+	10	27112	1	160		// ZielonaPota
+	11	71044	1	160			// DlonKrytyka
+	12	71045	1	160			// DlonPrzebicia
+	13	27989	1	40			// Wykrywacz
+	14	25040	1	40			// Bodzio
+	15	39008	1	40			// Egzo
+	16	38050	1	40			// SkrzyniaMocy
+	17	30324	1	15			// Klucz Baronka
+}
+
+Group	????
+{
+	Mob			8013			// 65LVL
+	Type		drop
+	1	70057	5	190		// Peleryny
+	2	38052	1	200		// Skrzynia KD
+	3	30093	1	200		// Ku
+	4	71084	1	206		// Zmianki
+	5	71084	1	206		// Zmianki
+	6	71084	1	28		// Zmianki
+	7	71085	1	206		// Wzmocnienie
+	8	71085	1	206		// Wzmocnienie
+	9	71085	1	28		// Wzmocnienie
+	10	27105	1	175			// FioletowaPota
+	11	27112	1	175			// ZielonaPota
+	12	71044	1	175			// DlonKrytyka
+	13	71045	1	175			// DlonPrzebicia
+	14	27989	1	45			// Wykrywacz
+	15	25040	1	45			// Bodzio
+	16	39008	1	45			// Egzo
+	17	38050	1	45			// SkrzyniaMocy
+	18	72002	1	45			// PD 30 min
+	19	30324	1	18			// Klucz Baronka
+}
+
+Group	????
+{
+	Mob			8014			// 70LVL
+	Type		drop
+	1	70057	3	200		// Peleryny
+	2	70057	3	185		// Peleryny
+	3	38052	1	200		// Skrzynia KD
+	4	30093	1	200		// Ku
+	5	71084	1	206		// Zmianki
+	6	71084	1	206		// Zmianki
+	7	71084	1	98		// Zmianki
+	8	71085	1	206		// Wzmocnienie
+	9	71085	1	206		// Wzmocnienie
+	10	71085	1	98		// Wzmocnienie
+	11	27105	1	190			// FioletowaPota
+	12	27112	1	190			// ZielonaPota
+	13	71044	1	190			// DlonKrytyka
+	14	71045	1	190			// DlonPrzebicia
+	15	27989	1	50			// Wykrywacz
+	16	25040	1	50			// Bodzio
+	17	39008	1	50			// Egzo
+	18	38050	1	50			// SkrzyniaMocy
+	19	72002	1	50			// PD 30 min
+	20	50152	1	14			// Klucz DT
+}
+
+Group	?????
+{
+	Mob			8024			//75LVL
+	Type		drop
+	1	70057	6	200		// Peleryny
+	2	38052	1	200		// Skrzynia KD
+	3	30093	1	200		// Ku
+	4	71084	1	206		// Zmianki
+	5	71084	1	206		// Zmianki
+	6	71084	1	173		// Zmianki
+	7	71085	1	206		// Wzmocnienie
+	8	71085	1	206		// Wzmocnienie
+	9	71085	1	173		// Wzmocnienie
+	10	27105	1	206			// FioletowaPota
+	11	27112	1	206			// ZielonaPota
+	12	71044	1	206			// DlonKrytyka
+	13	71045	1	206			// DlonPrzebicia
+	14	27989	1	55			// Wykrywacz
+	15	25040	1	55			// Bodzio
+	16	39008	1	55			// Egzo
+	17	38050	1	55			// SkrzyniaMocy
+	18	72002	1	55			// PD 30 min
+	19	50152	1	18			// Klucz DT
+}
+
+Group	?????
+{
+    Mob         8025            //80LVL
+    Type        drop
+	1	70057	6	206		// Peleryny
+	2	38052	1	200		// Skrzynia KD
+	3	30093	1	200		// Ku
+	4	71084	2	206		// Zmianki
+	5	71084	1	206		// Zmianki
+	6	71084	1	47		// Zmianki
+	7	71085	2	206			// Wzmocnienie
+	8	71085	1	206			// Wzmocnienie
+	9	71085	1	47			// Wzmocnienie
+	10	27105	1	206			// FioletowaPota
+	11	27112	1	206			// ZielonaPota
+	12	71044	1	206			// DlonKrytyka
+	13	71045	1	206			// DlonPrzebicia
+	14	27989	1	60			// Wykrywacz
+	15	25040	1	60			// Bodzio
+	16	39008	1	60			// Egzo
+	17	38050	1	60			// SkrzyniaMocy
+	18	72002	1	60			// PD 30 min
+	19	50152	1	18			// Klucz DT
+}
+
+Group	????
+{
+	Mob			8026			//85LVL
+	Type		drop
+	1	70057	7	200		// Peleryny
+	2	38052	1	200		// Skrzynia KD
+	3	30093	1	200		// Ku
+	4	71084	2	206		// Zmianki
+	5	71084	1	206		// Zmianki
+	6	71084	1	132		// Zmianki
+	7	71085	2	206			// Wzmocnienie
+	8	71085	1	206			// Wzmocnienie
+	9	71085	1	132			// Wzmocnienie
+	10	27105	1	206			// FioletowaPota
+	11	27112	1	206			// ZielonaPota
+	12	71044	1	206			// DlonKrytyka
+	13	71045	1	206			// DlonPrzebicia
+	14	27989	1	65			// Wykrywacz
+	15	25040	1	65			// Bodzio
+	16	39008	1	65			// Egzo
+	17	38050	1	65			// SkrzyniaMocy
+	18	39002	1	9				// PD1Godzina
+	19	70043	1	9				// R?kawica2Godziny
+	20	70101	1	6				// Metinologia
+}
+Group	????
+{
+	Mob			8027				// 90LVL
+	Type		drop
+	1	30093	1	200		// Ku
+	2	38052	1	200		// Skrzynia KD
+	3	70057	8	200		// Peleryny
+	4	71084	2	206		// Zmianki
+	5	71084	2	206		// Zmianki
+	6	71084	1	16		// Zmianki
+	7	71085	2	206			// Wzmocnienie
+	8	71085	2	206			// Wzmocnienie
+	9	71085	1	16			// Wzmocnienie
+	10	27105	1	206			// FioletowaPota
+	11	27112	1	206			// ZielonaPota
+	12	71044	1	206			// DlonKrytyka
+	13	71045	1	206			// DlonPrzebicia
+	14	27989	1	72			// Wykrywacz
+	15	25040	1	72			// Bodzio
+	16	39008	1	72			// Egzo
+	17	38050	1	72			// SkrzyniaMocy
+	18	39002	1	12			// PD1Godzina
+	19	70043	1	12			// R?kawica2Godziny
+	20	70101	1	6				// Metinologia
+}
+
+Group	MetinAV1
+{
+	mob	8053		//95LVL
+	Type		drop
+	1	70057	9	200		// Peleryna Mestwa
+	2	71084	2	206		// Zmianki
+	3	71084	2	206		// Zmianki
+	4	71084	1	111		// Zmianki
+	5	71085	2	206			// Wzmocnienie
+	6	71085	2	206			// Wzmocnienie
+	7	71085	1	111			// Wzmocnienie
+	8	27105	1	206			// FioletowaPota
+	9	27112	1	206			// ZielonaPota
+	10	71044	1	206			// DlonKrytyka
+	11	71045	1	206			// DlonPrzebicia
+	12	27989	1	72			// Wykrywacz
+	13	39002	1	33			// PD1Godzina
+	14	70043	1	33			// R?kawica2Godziny
+	15	70101	1	17			// Metinologia
+	16	30190	1	26			// Krwisty Kamien
+	17	30319	1	66			// Zasuszona Głowa
+
+
+}
+Group	MetinAV2
+{
+	mob	8054		//100LV
+	Type	drop
+	1	70057	10	200		// Peleryna Mestwa
+	2	71084	2	206		// Zmianki
+	3	71084	2	206		// Zmianki
+	4	71084	1	206		// Zmianki
+	5	71085	2	206				// Wzmocnienie
+	6	71085	2	206				// Wzmocnienie
+	7	71085	1	206				// Wzmocnienie
+	8	27105	1	206				// FioletowaPota
+	9	27112	1	206				// ZielonaPota
+	10	71044	1	206			// DlonKrytyka
+	11	71045	1	206			// DlonPrzebicia
+	12	27989	1	72			// Wykrywacz
+	13	39002	1	43			// PD1Godzina
+	14	70043	1	43			// R?kawica2Godziny
+	15	70101	1	26			// Metinologia
+	16	30190	1	26			// Krwisty Kamien
+	17	30179	1	50			// Krety Klucz
+}
+
+Group	WawozSmierci
+{
+	Mob			8051			//105LVL
+	Type		drop
+	1	70057	12	200		// Peleryna Mestwa
+	2	71084	3	206		// Zmianki
+	3	71084	2	206		// Zmianki
+	4	71084	1	206		// Zmianki
+	5	71085	3	206				// Wzmocnienie
+	6	71085	2	206				// Wzmocnienie
+	7	71085	1	206				// Wzmocnienie
+	8	27105	1	206				// FioletowaPota
+	9	27112	1	206				// ZielonaPota
+	10	71044	1	206			// DlonKrytyka
+	11	71045	1	206			// DlonPrzebicia
+	12	27989	1	72			// Wykrywacz
+	13	39002	1	56			// PD1Godzina
+	14	70043	1	56			// R?kawica2Godziny
+	15	70101	1	36			// Metinologia
+	16	50154	1	26			// Przepa
+	17	50155	1	50			// Ognista Pieczec
+}
+
+Group	Orkowy
+{
+	Level_limit	1
+	Mob		693
+	Type	limit
+	1	71084	7	100		// Zmianki
+	2	71084	7	80		// Zmianki
+	3	71084	7	60		// Zmianki
+	4	51501	1	50			// CorSurowy
+	5	51501	1	45			// CorSurowy
+	6	51501	1	40			// CorSurowy
+	7	25040	1	35			// Bodzio
+	8	25040	1	25			// Bodzio
+	9	30152 1 5				// Eliksir Gildii
+	10	71094	1	20		// Rada
+	11	71094	1	15		// Rada
+	12	71107	1	25		// FasolkaZen
+	13	71107	1	20		// FasolkaZen
+	14	71107	1	15		// FasolkaZen
+	15	30266	1	15		// KielWodza
+	16	30266	1	5			// KielWodza
+	17	27987	1	8		// Małż
+	18	27799	1	8		// Ość
+	19	11244	1	7			// Smiertelka
+	20	11444	1	7			// Lwiej Mrowki
+	21	11644	1	7			// Yin-Yang
+	22	11844	1	7			// Zach. Nieba
+	23	13044	1	10		// Okragla
+	24	13045	1	10		// Okragla
+	25	50096	1	5			// SkryniaZBizu
+	26	50096	1	5			// SkryniaZBizu
+	27	30154	1	5			// Potworologia
+}
+
+Group	Baronowna
+{
+	Level_limit	1
+	Mob		2092						// Baronowna
+	Type	limit
+	1	71084	12	100		// Zmianki
+	2	71084	12	80		// Zmianki
+	3	71084	12	60		// Zmianki
+	4	71084	12	40		// Zmianki
+	5	71084 12	20		// Zmianki
+	6	25040	1		50		// Bodzio
+	7	25040	1		50		// Bodzio
+	8	71094	1	30			// Rada
+	9	71094	1	30			// Rada
+	10	51501	1	100		// CorSurowy
+	11	51501	1	100		// CorSurowy
+	12	51501	1	100		// CorSurowy
+	13 51507	1	20		// CorSzlif
+	14 51507	1	10		// CorSzlif
+	15	71107	1	45		// FasolkaZen
+	16	71107	1	30		// FasolkaZen
+	17	71107	1	25		// FasolkaZen
+	18	30152	1	8			// EliksirGildii
+	19	27987	1	15		// Małż
+	20	27799	1	15		// Ość
+	21	30518	1	3			// Ulepa Pas
+	22	30518	1	1			// Ulepa Pas
+	23	12260	1	1			// Maska Strachu
+	24	12390	1	1			// Orkowy Kaptur
+	25	12670	1	1			// Kapelusz Kardynała
+	26	12530	1	1			// Rogowy Hełm
+	27	30154	1	7.5		// Potworologia
+	28	11284	1	1			// Zbroja Boga Smokow+6
+	29	11484	1	1			// Ubranie Fuksyjne+6
+	30	11684	1	1			// Duchowa Zbroja Plyt.+6
+	31	11884	1	1			// Szata Baronow+6
+}
+
+Group	Ripper
+{
+	Level_limit	75
+	Mob		1093						// Ripper
+	Type	limit
+	1	50082	1		100			// SzkataRipa
+	2	71084	15	100		// Zaczarowanie Przedmiotu
+	3	71084	15	80		// Zaczarowanie Przedmiotu
+	4	71084	15	60		// Zaczarowanie Przedmiotu
+	5	71084	15	40		// Zaczarowanie Przedmiotu
+	6	71084	15	20		// Zaczarowanie Przedmiotu
+	7	71084	15	15		// Zaczarowanie Przedmiotu
+	8	71094	1		35			// Rada
+	9	71094	1		35			// Rada
+	10	51501	2	100			// CorSurowe
+	11	51501	2	75			// CorSurowe
+	12	51501	2	75			// CorSurowe
+	13	51507	1	15			// CorSzlif
+	14	51507	1	10			// CorSzlif
+	15	39022	1	25			// Zbs
+	16	39022	1	25			// Zbs
+	17	39032	1	30			// Owoc
+	18	39032	1	30			// Owoc
+	19	100300	1	35		// ZielonaFasolka
+	20	100300	1	25		// ZielonaFasolka
+	21	100300	1	15		// ZielonaFasolka
+	22	30319	1	15			// Zasuszona
+	23	30319	1	5				// Zasuszona
+	24	71158	1	10			// MedalBohatera
+	25	71158	1	6				// MedalBohatera
+	26	30154	1	10			// Potworologia
+	27	30154	1	 3			// Potworologia
+	28	30152	1	10			// EliksirGildii
+	29	30152	1	 5			// EliksirGildii
+}
+
+Group	Azrael
+{
+	Level_limit	75
+	Mob		2598						// Azrael
+	Type	limit
+	1	71084	25	100		// Zaczarowanie Przedmiotu
+	2	71084	25	100		// Zaczarowanie Przedmiotu
+	3	71084	25	80		// Zaczarowanie Przedmiotu
+	4	71084	25	60		// Zaczarowanie Przedmiotu
+	5	71094	1		30			// Rada
+	6	71094	1		30			// Rada
+	7	71094	1		15			// Rada
+	8	71035	1		10			// EliksirPoszukiwacza
+	9	71035	1		10			// EliksirPoszukiwacza
+	10	51507	1	100			// Cor Szlif
+	11	51507	1	90			// Cor Szlif
+	12	51507	1	80			// Cor Szlif
+	13	51507	1	70			// Cor Szlif
+	14	71158	1	10			// MedalBohatera
+	15	71158	1	6				// MedalBohatera
+	16	100300	1	35		// ZielonaFasolka
+	17	100300	1	30		// ZielonaFasolka
+	18	100300	1	25		// ZielonaFasolka
+	19	39032	1	35			// Owoc
+	20	39032	1	30			// Owoc
+	21	39032	1	25			// Owoc
+	22	39022	1	30			// Zbs
+	23	39022	1	30			// Zbs
+	24	71018	1	100			// Seta
+	25	71018	1	100			// Seta
+	26	71018	1	100			// Seta
+	27	39031	1	100			// MiksturaPospiechu
+	28	27994	1	10			// KrwawaPerla
+	29	27993	1	10			// NiebieskaPerla
+	30	27992	1	10			// BialaPerla
+	31	71158	1	14			// MedalBohatera
+	32	71158	1	10			// MedalBohatera
+	33	30152	1	15			// EliksirGildii
+	34	30152	1	15			// EliksirGildii
+	35	30154	1	20			// Potworologia
+	36	25041	1	10			// Metal
+	37	25041	1	 5			// Metal
+	38	71017	1	10			// MedalSzczescia
+	39	30196	1	15			// Demoniczne Prochy
+	40	30196	1	10			// Demoniczne Prochy	
+	41	16220	1	 1			// NasiorEXP
+	42	50186	1	100			// Szkata
+}
+
+
+Group	Baran-Setao
+{
+	Level_limit	75
+	Mob		2493							// Beran-Setao
+	Type	limit
+	1	71084	25	100		// Zaczarowanie Przedmiotu
+	2	71084	25	100		// Zaczarowanie Przedmiotu
+	3	71084	25	80		// Zaczarowanie Przedmiotu
+	4	71084	25	80		// Zaczarowanie Przedmiotu
+	5	71084	25	60		// Zaczarowanie Przedmiotu
+	6	71084	25	60		// Zaczarowanie Przedmiotu
+	7	71084	25	40		// Zaczarowanie Przedmiotu
+	8	71084	25	40		// Zaczarowanie Przedmiotu
+	9	25041	1		27		// Metal
+	10	51507	2	85		// Cor Szlif
+	11	51507	2	85		// Cor Szlif
+	12	51507	2	75		// Cor Szlif
+	13	51507	2	65		// Cor Szlif
+	14	51507	2	55		// Cor Szlif
+	15	71158	1	28		// MedalBohatera
+	16	71158	1	20		// MedalBohatera
+	17	39031	1	98		// MiksturaPospiechu
+	18	25041	1	27		// Metal
+	19	100300	1	40	// ZielonaFasolka
+	20	100300	1	35	// ZielonaFasolka
+	21	100300	1	30	// ZielonaFasolka
+	22	27994	1	22		// KrwawaPerla
+	23	27994	1	22		// KrwawaPerla
+	24	27993	1	22		// NiebieskaPerla
+	25	27993	1	22		// NiebieskaPerla
+	26	27992	1	22		// BialaPerla
+	27	27992	1	22		// BialaPerla
+	28	71018	3	100		// Seta
+	29	71018	3	70		// Seta
+	30	71018	3	50		// Seta
+	31	30154	1	25		// Potworologia
+	32	30154	1	25		// Potworologia
+	33	30152	1	25		// EliksirGildii
+	34	30152	1	25		// EliksirGildii
+	35	71123	1	10		// Luska
+	36	71035	1	20		// EliksirPoszukiwacza
+	37	71035	1	20		// EliksirPoszukiwacza
+	38	39022	1	30		// Zbs
+	39	39022	1	30		// Zbs
+	40	39022	1	15		// Zbs
+	41	39022	1	15		// Zbs
+	42	71017	1	10		// MedalSzczescia
+	43	71017	1	10		// MedalSzczescia
+	44	14220	1	1			// Bransa
+	45	71129	1	10		// Szpon	
+}
+
+Group	Razador
+{
+	Level_limit	85
+	Mob		6091						// Razador
+	Type	limit
+	1	71084	65	100		// Zaczarowanie Przedmiotu
+	2	71084	65	100		// Zaczarowanie Przedmiotu
+	3	71084	65	100		// Zaczarowanie Przedmiotu
+	4	71084	65	100		// Zaczarowanie Przedmiotu
+	5	25041	1	48		// Metal
+	6	25041	1	48		// Metal
+	7	25041	1	48		// Metal
+	8	71035	1	30		// EliksirPoszukiwacza
+	9	71035	1	30		// EliksirPoszukiwacza
+	10	51507	2	100		// Cor Szlif
+	11	51507	2	100		// Cor Szlif
+	12	51507	2	100		// Cor Szlif
+	13	51507	2	100		// Cor Szlif
+	14	51507	2	100		// Cor Szlif
+	15	51508	1	75		// corrzadki
+	16	51508	1	75		// corrzadki
+	17	51508	1	75		// corrzadki
+	18	51508	1	75		// corrzadki
+	19	27994	1	35		// KrwawaPerla
+	20	27994	1	35		// KrwawaPerla
+	21	27994	1	35		// KrwawaPerla
+	22	27993	1	35		// NiebieskaPerla
+	23	27993	1	35		// NiebieskaPerla
+	24	27993	1	35		// NiebieskaPerla
+	25	27992	1	35		// BialaPerla
+	26	27992	1	35		// BialaPerla
+	27	27992	1	35		// BialaPerla
+	28	100300	1	80		// ZielonaFasolka
+	29	100300	1	70		// ZielonaFasolka
+	30	100300	1	60		// ZielonaFasolka
+	31	71018	5	100		// Seta
+	32	71018	5	70		// Seta
+	33	71018	5	50		// Seta
+	34	71158	1	35		// MedalBohatera
+	35	71158	1	35		// MedalBohatera
+	36	30154	1	40		// Potworologia
+	36	30154	1	40		// Potworologia
+	33	30152	2	40		// EliksirGildii
+	34	30152	2	30		// EliksirGildii
+	35	17220	1	1			// Kolce
+	36	30511	1	10		// CzerwonyMaterial
+	37	30511	1	10		// CzerwonyMaterial
+	38	30511	1	10		// CzerwonyMaterial
+}
+
+Group	Hydra
+{
+	Level_limit	95
+	Mob	3960						// Hydra
+	Type	limit
+	1	71084	100	100		// Zaczarowanie Przedmiotu
+	2	71084	100	100		// Zaczarowanie Przedmiotu
+	3	71084	100	85		// Zaczarowanie Przedmiotu
+	4	71084	100	85		// Zaczarowanie Przedmiotu
+	5	71084	50	100		// Zaczarowanie Przedmiotu
+	6	71084	50	100		// Zaczarowanie Przedmiotu
+	7	71084	50	85		// Zaczarowanie Przedmiotu
+	8	71084	50	85		// Zaczarowanie Przedmiotu
+	9	31001	1	20			// Kamien Ksiezycowy
+	10	25041	2	68		// Metal
+	11	25041	2	68		// Metal
+	12	25041	2	68		// Metal
+	13	71035	1	60		// EliksirPoszukiwacza
+	14	71035	1	60		// EliksirPoszukiwacza
+	15	39031	1	100		// MiksturaPospiechu
+	16	39031	1	100		// MiksturaPospiechu
+	17	39031	1	50		// MiksturaPospiechu
+	18	51508	2	100		// corrzadki
+	19	51508	2	100		// corrzadki
+	20	51508	2	100		// corrzadki
+	21	51508	2	100		// corrzadki
+	22	51508	2	100		// corrzadki
+	23	51508	2	100		// corrzadki
+	24	51508	2	100		// corrzadki
+	25	51508	2	85		// corrzadki
+	26	51508	2	65		// corrzadki
+	27	51508	2	45		// corrzadki
+	28	51508	2	35		// corrzadki
+	29	51508	2	25		// corrzadki
+	30	71158	1	50		// MedalBohatera
+	31	71158	1	50		// MedalBohatera
+	32	71017	1	20		// MedalSzczescia
+	33	71017	1	20		// MedalSzczescia
+	34	30154	1	40		// Potworologia
+	35	30154	1	40		// Potworologia
+	36	30152	2	100		// EliksirGildii
+	37	30152	2	100		// EliksirGildii
+	38	27994	1	60		// KrwawaPerla
+	39	27994	1	60		// KrwawaPerla
+	40	27994	1	60		// KrwawaPerla
+	41	27993	1	60		// NiebieskaPerla
+	42	27993	1	60		// NiebieskaPerla
+	43	27993	1	60		// NiebieskaPerla
+	44	27992	1	60		// BialaPerla
+	45	27992	1	60		// BialaPerla
+	46	27992	1	60		// BialaPerla
+	47	71018	5	100		// Seta
+	48	71018	5	100		// Seta
+	49	71018	5	100		// Seta
+}
+
+Group	????
+{
+	Kill_drop	1						// krol demonow
+	Mob			1092
+	Type	drop
+	1	50081	1	400		// Szkata Kr?la Demon?w
+	2	70024	1	15		// Marmur Blogo
+}
+Group	Setaou-K?pfer87
+{
+	Mob	2401
+	Type	drop
+	1	50721	1	0.9		// Kwiat Brzoskwini
+	2	50725	1	0.2		// Bez
+	3	160		1	0.1		// Miecz Nimfy
+	4	161		1	0.1		// Miecz Nimfy
+	5	3140	1	0.1		// Magnetyczne Ostrze
+	6	3141	1	0.1		// Magnetyczne Ostrze
+	7	11280	1	0.1		// Zbroja Boga Smok?w
+	8	11281	1	0.1		// Zbroja Boga Smok?w
+	9	12243	1	0.1		// Upiorna Maska
+}
+Group	Setaou-J?er89
+{
+	Mob	2402
+	Type	drop
+	1	50722	1	0.2		// Pokrzywa
+	2	50726	1	0.2		// Grzyb Tue
+	3	2130	1	0.1		// Boski ?uk Moreli
+	4	2131	1	0.1		// Boski ?uk Moreli
+	5	1110	1	0.1		// N? B?yskawicy
+	6	1111	1	0.1		// N? B?yskawicy
+	7	11480	1	0.1		// Ubranie Fuksyjne
+	8	11481	1	0.1		// Ubranie Fuksyjne
+	9	12383	1	0.1		// Stalowa Maska
+}
+Group	Podziemny-Lodowy-Golem
+{
+	Mob	1137
+	Type	drop
+	1	50722	1	0.2		// Pokrzywa
+	2	50726	1	0.2		// Grzyb Tue
+	3	2130	1	0.1		// Boski ?uk Moreli
+	4	2131	1	0.1		// Boski ?uk Moreli
+	5	1110	1	0.1		// N? B?yskawicy
+	6	1111	1	0.1		// N? B?yskawicy
+	7	11480	1	0.1		// Ubranie Fuksyjne
+	8	11481	1	0.1		// Ubranie Fuksyjne
+	9	12383	1	0.1		// Stalowa Maska
+	10	30198	1	1		// Wodny Krysztal
+}
+Group	Setaou-Seherin89
+{
+	Mob	2403
+	Type	drop
+	1	50723	1	0.2		// Kwiat Kaki
+	2	50727	1	0.2		// R?a Alpejska
+	3	7130	1	0.1		// Niebia?. Ptasi Wachl
+	4	7131	1	0.1		// Niebia?. Ptasi Wachl
+	5	5090	1	0.1		// Dzwon Burzowego Ptaka
+	6	5091	1	0.1		// Dzwon Burzowego Ptaka
+	7	11880	1	0.1		// Szata Baron?w
+	8	11881	1	0.1		// Szata Baron?w
+	9	12663	1	0.1		// ?wietlista Czapka
+}
+Group	Setaou-Anf?rer90
+{
+	Mob	2404
+	Type	drop
+	1	50724	1	0.2		// Korze? Gango
+	2	50728	1	0.2		// Morwa
+	3	160	1	0.1		// Miecz Nimfy
+	4	161	1	0.1		// Miecz Nimfy
+	5	240	1	0.1		// Miecz Egzorcysty
+	6	241	1	0.1		// Miecz Egzorcysty
+	7	11680	1	0.1		// Duchowa Zbroja P?yt
+	8	11681	1	0.1		// Duchowa Zbroja P?yt
+	9	12523	1	0.1		// Zamkowy He?m
+}
+Group	Setaou-Soldat91
+{
+	Mob	2411
+	Type	drop
+	1	50721	2	0.9
+	2	50725	2	0.5
+	3	160	1	0.05
+	4	161	1	0.05
+	5	240	1	0.05
+	6	241	1	0.05
+	7	1110	1	0.05
+	8	1111	1	0.05
+	9	2130	1	0.05
+	10	2131	1	0.05
+	11	7130	1	0.05
+	12	7131	1	0.05
+	13	11280	1	0.05		// Zbroja Boga Smok?w+0
+	14	11281	1	0.05		// Zbroja Boga Smok?w+1
+	15	11282	1	0.05		// Zbroja Boga Smok?w+2
+	16	11283	1	0.05		// Zbroja Boga Smok?w+3
+	17	11284	1	0.05		// Zbroja Boga Smok?w+4
+	18	12244	1	0.05		// Upiorna Maska+4
+	19	162	1	0.05
+	20	163	1	0.05
+	21	164	1	0.05
+	22	242	1	0.05
+	23	243	1	0.05
+	24	244	1	0.05
+	25	1112	1	0.05
+	26	1113	1	0.05
+	27	1114	1	0.05
+	28	2132	1	0.05
+	29	2133	1	0.05
+	30	2134	1	0.05
+	31	7132	1	0.05
+	32	7133	1	0.05
+	33	7134	1	0.05
+}
+Group	Setaou-J?er93
+{
+	Mob	2412
+	Type	drop
+	1	50722	2	0.5
+	2	50726	2	0.5
+	3	160	1	0.05
+	4	161	1	0.05
+	5	240	1	0.05
+	6	241	1	0.05
+	7	1110	1	0.05
+	8	1111	1	0.05
+	9	2130	1	0.05
+	10	2131	1	0.05
+	11	7130	1	0.05
+	12	7131	1	0.05
+	13	11480	1	0.05		// Ubranie Fuksyjne+0
+	14	11481	1	0.05		// Ubranie Fuksyjne+1
+	15	11482	1	0.05		// Ubranie Fuksyjne+2
+	16	11483	1	0.05		// Ubranie Fuksyjne+3
+	17	11484	1	0.05		// Ubranie Fuksyjne+4
+	18	12384	1	0.05		// Stalowa Maska+4
+	19	162	1	0.05
+	20	163	1	0.05
+	21	164	1	0.05
+	22	242	1	0.05
+	23	243	1	0.05
+	24	244	1	0.05
+	25	1112	1	0.05
+	26	1113	1	0.05
+	27	1114	1	0.05
+	28	2132	1	0.05
+	29	2133	1	0.05
+	30	2134	1	0.05
+	31	7132	1	0.05
+	32	7133	1	0.05
+	33	7134	1	0.05
+}
+Group	Setaou-Seherin95
+{
+	Mob	2413
+	Type	drop
+	1	50723	2	0.5
+	2	50727	2	0.5
+	3	160	1	0.05
+	4	161	1	0.05
+	5	240	1	0.05
+	6	241	1	0.05
+	7	1110	1	0.05
+	8	1111	1	0.05
+	9	2130	1	0.05
+	10	2131	1	0.05
+	11	7130	1	0.05
+	12	7131	1	0.05
+	13	11880	1	0.05		// Szata Baron?w+0
+	14	11881	1	0.05		// Szata Baron?w+1
+	15	11882	1	0.05		// Szata Baron?w+2
+	16	11883	1	0.05		// Szata Baron?w+3
+	17	11884	1	0.05		// Szata Baron?w+4
+	18	12644	1	0.05		// Czapka Feniksa+4
+	19	30199	1	0.4		// Niebieski Kryszta?
+	20	162	1	0.05
+	21	163	1	0.05
+	22	164	1	0.05
+	23	242	1	0.05
+	24	243	1	0.05
+	25	244	1	0.05
+	26	1112	1	0.05
+	27	1113	1	0.05
+	28	1114	1	0.05
+	29	2132	1	0.05
+	30	2133	1	0.05
+	31	2134	1	0.05
+	32	7132	1	0.05
+	33	7133	1	0.05
+	34	7134	1	0.05
+}
+Group	Refine_2414
+{
+	Mob	2414
+	Type	drop
+	1	50723	2	0.5
+	2	50727	2	0.5
+	3	160	1	0.05
+	4	161	1	0.05
+	5	162	1	0.05
+	6	163	1	0.05
+	7	164	1	0.05
+	8	240	1	0.05
+	9	241	1	0.05
+	10	242	1	0.05
+	11	243	1	0.05
+	12	244	1	0.05
+	13	1110	1	0.05
+	14	1111	1	0.05
+	15	1112	1	0.05
+	16	1113	1	0.05
+	17	1114	1	0.05
+	18	2130	1	0.05
+	19	2131	1	0.05
+	20	2132	1	0.05
+	21	2133	1	0.05
+	22	2134	1	0.05
+	23	7130	1	0.05
+	24	7131	1	0.05
+	25	7132	1	0.05
+	26	7133	1	0.05
+	27	7134	1	0.05
+	28	11680	1	0.05		// Duchowa Zbroja P?yt.+0
+	29	11681	1	0.05		// Duchowa Zbroja P?yt.+1
+	30	11682	1	0.05		// Duchowa Zbroja P?yt.+2
+	31	11683	1	0.05		// Duchowa Zbroja P?yt.+3
+	32	11684	1	0.05		// Duchowa Zbroja P?yt.+4
+	33	12524	1	0.05		// Zamkowy He?m+4
+	34	30199	1	0.4		// Niebieski Kryszta?
+}
+Group	???T??_?????
+{
+	Kill_drop	1
+	Mob	5004
+	Type	kill
+	1	30202	1	1	0
+}
+Group	???
+{
+	Mob	11506
+	Type	drop
+	1	50117	1	40
+}
+Group	???
+{
+	Mob	11507
+	Type	drop
+	1	50117	1	40
+}
+Group	???
+{
+	Mob	11508
+	Type	drop
+	1	50117	1	40
+}
+Group	???
+{
+	Mob	11509
+	Type	drop
+	1	50117	1	40
+}
+Group	???
+{
+	Mob	11510
+	Type	drop
+	1	50117	1	40
+}
+Group	???
+{
+	Level_limit	75
+	Mob	2501
+	Type	limit
+	1	50722	1	0.03
+}
+Group	????
+{
+	Level_limit	75
+	Mob	2502
+	Type	limit
+	1	50723	1	0.03
+
+}
+Group	????????
+{
+	Level_limit	75
+	Mob	2503
+	Type	limit
+	1	50724	1	0.03
+}
+Group	???????
+{
+	Level_limit	75
+	Mob	2504
+	Type	limit
+	1	50725	1	0.03
+}
+Group	??????�??
+{
+	Level_limit	75
+	Mob	2505
+	Type	limit
+	1	50726	1	0.03
+}
+Group	???????�?
+{
+	Level_limit	75
+	Mob	2506
+	Type	limit
+	1	50727	1	0.03
+}
+Group	?????????
+{
+	Level_limit	75
+	Mob	2507
+	Type	limit
+	1	50728	1	0.03
+}
+Group	????????
+{
+	Level_limit	75
+	Mob	2541
+	Type	limit
+	1	50722	1	0.2
+	2	50723	1	0.2
+}
+Group	???????�?
+{
+	Level_limit	75
+	Mob	2542
+	Type	limit
+	1	50722	1	0.2
+	2	50723	1	0.2
+}
+Group	???????�??
+{
+	Level_limit	75
+	Mob	2543
+	Type	limit
+	1	50724	1	0.2
+	2	50725	1	0.2
+}
+Group	????????????
+{
+	Level_limit	75
+	Mob	2544
+	Type	limit
+	1	50724	1	0.2
+	2	50725	1	0.2
+}
+Group	?????????
+{
+	Level_limit	75
+	Mob	2545
+	Type	limit
+}
+Group	???????????
+{
+	Level_limit	75
+	Mob	2546
+	Type	limit
+}
+Group	??????????
+{
+	Level_limit	75
+	Mob	2547
+	Type	limit
+	1	50728	1	0.2
+}
+Group	??????
+{
+	Level_limit	75
+	Mob	2591
+	Type	limit
+}
+Group	Charon
+{
+	Level_limit	75
+	Mob	2597
+	Type	limit
+	1	71084	3	100		// Zmianka
+	2	70057	10	100		// Peleryna M?stwa
+	3	27987	1	20		// Ma??
+	4	70024	1	15		// Marmur Blogo
+	5	30196	1	5		// Demoniczne Prochy
+}
+Group	XXXXX
+{
+    Mob    2064
+    Type    drop
+	1	50722	1	0.2		// pokrzywa
+	2	100	1	0.02		// Krwawy Miecz
+	3	101	1	0.02
+	4	102	1	0.02
+	5	103	1	0.02
+	6	110	1	0.02		// Wielki Miecz
+	7	111	1	0.02
+	8	112	1	0.02
+	9	113	1	0.02
+	10	130	1	0.02		// P?-ksi?ycowy Miecz
+	11	131	1	0.02
+	12	132	1	0.02
+	13	133	1	0.02
+	14	1060	1	0.02		// Sztylet Pi?ci Diab.
+	15	1061	1	0.02
+	16	1062	1	0.02
+	17	1063	1	0.02
+	18	1070	1	0.02		// Krwawy Sztylet
+	19	1071	1	0.02
+	20	1072	1	0.02
+	21	1073	1	0.02
+	22	1090	1	0.02		// Chakram
+	23	1091	1	0.02
+	24	1092	1	0.02
+	25	1093	1	0.02
+	26	2090	1	0.02		// ?uk Kolczastego Li?.
+	27	2091	1	0.02
+	28	2092	1	0.02
+	29	2093	1	0.02
+	30	2100	1	0.02		// ?uk z rogu byka
+	31	2101	1	0.02
+	32	2102	1	0.02
+	33	2103	1	0.02
+	34	2120	1	0.02		// Olbrz. Skrzydl. ?uk
+	35	2121	1	0.02
+	36	2122	1	0.02
+	37	2123	1	0.02
+	38	3090	1	0.02		// Lodowa Iglica
+	39	3091	1	0.02
+	40	3092	1	0.02
+	41	3093	1	0.02
+	42	3100	1	0.02		// Miecz Dwunastu Duch?w
+	43	3101	1	0.02
+	44	3102	1	0.02
+	45	3103	1	0.02
+	46	3120	1	0.02		// Zabojca lwow
+	47	3121	1	0.02
+	48	3122	1	0.02
+	49	3123	1	0.02
+	50	5060	1	0.02		// Morelowy dzwon
+	51	5061	1	0.02
+	52	5062	1	0.02
+	53	5063	1	0.02
+	54	5080	1	0.02		// Stalowy robaczy dzwon
+	55	5081	1	0.02
+	56	5082	1	0.02
+	57	5083	1	0.02
+	58	7090	1	0.02		// Wachlarz Feniksa
+	59	7091	1	0.02
+	60	7092	1	0.02
+	61	7093	1	0.02
+	62	7100	1	0.02		// Wachlarz Potr?jny
+	63	7101	1	0.02
+	64	7102	1	0.02
+	65	7103	1	0.02
+	66	7120	1	0.02		// Czarny. S?on. Wachlarz
+	67	7121	1	0.02
+	68	7122	1	0.02
+	69	7123	1	0.02
+	70	13060	1	0.02
+	71	13080	1	0.02
+	72	13100	1	0.02
+	73	13120	1	0.02		// tarcze 61
+}
+Group	???????�?
+{
+	Mob	2065
+	Type	drop
+	1	50723	1	0.2		// kaki
+	2	100	1	0.02		// Krwawy Miecz
+	3	101	1	0.02
+	4	102	1	0.02
+	5	103	1	0.02
+	6	110	1	0.02		// Wielki Miecz
+	7	111	1	0.02
+	8	112	1	0.02
+	9	113	1	0.02
+	10	130	1	0.02		// P?-ksi?ycowy Miecz
+	11	131	1	0.02
+	12	132	1	0.02
+	13	133	1	0.02
+	14	1060	1	0.02		// Sztylet Pi?ci Diab.
+	15	1061	1	0.02
+	16	1062	1	0.02
+	17	1063	1	0.02
+	18	1070	1	0.02		// Krwawy Sztylet
+	19	1071	1	0.02
+	20	1072	1	0.02
+	21	1073	1	0.02
+	22	1090	1	0.02		// Chakram
+	23	1091	1	0.02
+	24	1092	1	0.02
+	25	1093	1	0.02
+	26	2090	1	0.02		// ?uk Kolczastego Li?.
+	27	2091	1	0.02
+	28	2092	1	0.02
+	29	2093	1	0.02
+	30	2100	1	0.02		// ?uk z rogu byka
+	31	2101	1	0.02
+	32	2102	1	0.02
+	33	2103	1	0.02
+	34	2120	1	0.02		// Olbrz. Skrzydl. ?uk
+	35	2121	1	0.02
+	36	2122	1	0.02
+	37	2123	1	0.02
+	38	3090	1	0.02		// Lodowa Iglica
+	39	3091	1	0.02
+	40	3092	1	0.02
+	41	3093	1	0.02
+	42	3100	1	0.02		// Miecz Dwunastu Duch?w
+	43	3101	1	0.02
+	44	3102	1	0.02
+	45	3103	1	0.02
+	46	3120	1	0.02		// Zabojca lwow
+	47	3121	1	0.02
+	48	3122	1	0.02
+	49	3123	1	0.02
+	50	5060	1	0.02		// Morelowy dzwon
+	51	5061	1	0.02
+	52	5062	1	0.02
+	53	5063	1	0.02
+	54	5080	1	0.02		// Stalowy robaczy dzwon
+	55	5081	1	0.02
+	56	5082	1	0.02
+	57	5083	1	0.02
+	58	7090	1	0.02		// Wachlarz Feniksa
+	59	7091	1	0.02
+	60	7092	1	0.02
+	61	7093	1	0.02
+	62	7100	1	0.02		// Wachlarz Potr?jny
+	63	7101	1	0.02
+	64	7102	1	0.02
+	65	7103	1	0.02
+	66	7120	1	0.02		// Czarny. S?on. Wachlarz
+	67	7121	1	0.02
+	68	7122	1	0.02
+	69	7123	1	0.02
+	70	13060	1	0.02
+	71	13080	1	0.02
+	72	13100	1	0.02
+	73	13120	1	0.02		// tarcze 61
+}
+Group	??????�?
+{
+	Mob	2134
+	Type	drop
+	1	50727	1	2
+	2	100	1	0.2		// Krwawy Miecz
+	3	101	1	0.2
+	4	102	1	0.2
+	5	103	1	0.2
+	6	104	1	0.2
+}
+Group	????????
+{
+	Mob	2133
+	Type	drop
+	1	50725	1	2
+	2	1060	1	0.2		// Sztylet Pi?ci Diab.
+	3	1061	1	0.2
+	4	1062	1	0.2
+	5	1063	1	0.2
+	6	1064	1	0.2
+}
+Group	?????�?
+{
+	Mob	2132
+	Type	drop
+	1	50726	1	2
+	2	2090	1	0.2		// ?uk Kolczastego Li?.
+	3	2091	1	0.2
+	4	2092	1	0.2
+	5	2093	1	0.2
+	6	2094	1	0.2
+}
+Group	?????????
+{
+	Mob	2135
+	Type	drop
+	1	50725	1	2
+	2	3090	1	0.2		// Lodowa Iglica
+	3	3091	1	0.2
+	4	3092	1	0.2
+	5	3093	1	0.2
+	6	3094	1	0.2
+}
+Group	????????�?
+{
+	Mob	2063
+	Type	drop
+	1	50724	1	2
+	2	7090	1	0.1		// Wachlarz Feniksa
+	3	7091	1	0.1
+	4	7092	1	0.1
+	5	7093	1	0.1
+	6	7094	1	0.1
+	7	5060	1	0.1		// Magiczny Dzwon
+	8	5061	1	0.1
+	9	5062	1	0.1
+	10	5063	1	0.1
+	11	5064	1	0.1
+}
+Group	????�?
+{
+	Mob	2062
+	Type	drop
+	1	50721	1	3
+	2	7090	1	0.1		// Wachlarz Feniksa
+	3	7091	1	0.1
+	4	7092	1	0.1
+	5	7093	1	0.1
+	6	7094	1	0.1
+	7	5060	1	0.1		// Magiczny Dzwon
+	8	5061	1	0.1
+	9	5062	1	0.1
+	10	5063	1	0.1
+	11	5064	1	0.1
+}
+Group	???????�?
+{
+	Mob	2061
+	Type	drop
+	1	50724	1	2
+	2	7090	1	0.1		// Wachlarz Feniksa
+	3	7091	1	0.1
+	4	7092	1	0.1
+	5	7093	1	0.1
+	6	7094	1	0.1
+	7	5060	1	0.1		// Magiczny Dzwon
+	8	5061	1	0.1
+	9	5062	1	0.1
+	10	5063	1	0.1
+	11	5064	1	0.1
+}
+Group M2
+{
+	Mob 502
+	Type drop
+	1	50723	1	1
+	2	50724	1	1
+	3	50	1	0.09
+	4	60	1	0.09
+	5	70	1	0.09
+	6	80	1	0.09
+	7	1020	1	0.09
+	8	1030	1	0.09
+	9	1040	1	0.09
+	10	2050	1	0.09
+	11	2060	1	0.09
+	12	2070	1	0.09
+	13	3040	1	0.09
+	14	3050	1	0.09
+	15	3060	1	0.09
+	16	3070	1	0.09
+	17	5020	1	0.09
+	18	5030	1	0.09
+	19	5040	1	0.09
+	20	7040	1	0.09
+	21	7050	1	0.09
+	22	7060	1	0.09
+	23	7070	1	0.09
+	24	11240	1	0.09
+	25	11430	1	0.09
+	26	11640	1	0.09
+	27	11840	1	0.09
+	28	12220	1	0.09
+	29	12360	1	0.09
+	30	12500	1	0.09
+	31	12640	1	0.09
+	32	13020	1	0.09
+}
+Group M2
+{
+	Mob 552
+	Type drop
+	1	50723	1	1
+	2	50724	1	1
+	3	50	1	0.09
+	4	60	1	0.09
+	5	70	1	0.09
+	6	80	1	0.09
+	7	1020	1	0.09
+	8	1030	1	0.09
+	9	1040	1	0.09
+	10	2050	1	0.09
+	11	2060	1	0.09
+	12	2070	1	0.09
+	13	3040	1	0.09
+	14	3050	1	0.09
+	15	3060	1	0.09
+	16	3070	1	0.09
+	17	5020	1	0.09
+	18	5030	1	0.09
+	19	5040	1	0.09
+	20	7040	1	0.09
+	21	7050	1	0.09
+	22	7060	1	0.09
+	23	7070	1	0.09
+	24	11240	1	0.09
+	25	11430	1	0.09
+	26	11640	1	0.09
+	27	11840	1	0.09
+	28	12220	1	0.09
+	29	12360	1	0.09
+	30	12500	1	0.09
+	31	12640	1	0.09
+	32	13020	1	0.09
+}
+Group M2
+{
+	Mob 503
+	Type drop
+	1	50723	1	1
+	2	50724	1	1
+	3	50	1	0.09
+	4	60	1	0.09
+	5	70	1	0.09
+	6	80	1	0.09
+	7	1020	1	0.09
+	8	1030	1	0.09
+	9	1040	1	0.09
+	10	2050	1	0.09
+	11	2060	1	0.09
+	12	2070	1	0.09
+	13	3040	1	0.09
+	14	3050	1	0.09
+	15	3060	1	0.09
+	16	3070	1	0.09
+	17	5020	1	0.09
+	18	5030	1	0.09
+	19	5040	1	0.09
+	20	7040	1	0.09
+	21	7050	1	0.09
+	22	7060	1	0.09
+	23	7070	1	0.09
+	24	11240	1	0.09
+	25	11430	1	0.09
+	26	11640	1	0.09
+	27	11840	1	0.09
+	28	12220	1	0.09
+	29	12360	1	0.09
+	30	12500	1	0.09
+	31	12640	1	0.09
+	32	13020	1	0.09
+}
+Group M2
+{
+	Mob 504
+	Type drop
+	1	50723	1	1
+	2	50724	1	1
+	3	50	1	0.09
+	4	60	1	0.09
+	5	70	1	0.09
+	6	80	1	0.09
+	7	1020	1	0.09
+	8	1030	1	0.09
+	9	1040	1	0.09
+	10	2050	1	0.09
+	11	2060	1	0.09
+	12	2070	1	0.09
+	13	3040	1	0.09
+	14	3050	1	0.09
+	15	3060	1	0.09
+	16	3070	1	0.09
+	17	5020	1	0.09
+	18	5030	1	0.09
+	19	5040	1	0.09
+	20	7040	1	0.09
+	21	7050	1	0.09
+	22	7060	1	0.09
+	23	7070	1	0.09
+	24	11240	1	0.09
+	25	11430	1	0.09
+	26	11640	1	0.09
+	27	11840	1	0.09
+	28	12220	1	0.09
+	29	12360	1	0.09
+	30	12500	1	0.09
+	31	12640	1	0.09
+	32	13020	1	0.09
+}
+Group M2
+{
+	Mob 553
+	Type drop
+	1	50723	1	1
+	2	50724	1	1
+	3	50	1	0.09
+	4	60	1	0.09
+	5	70	1	0.09
+	6	80	1	0.09
+	7	1020	1	0.09
+	8	1030	1	0.09
+	9	1040	1	0.09
+	10	2050	1	0.09
+	11	2060	1	0.09
+	12	2070	1	0.09
+	13	3040	1	0.09
+	14	3050	1	0.09
+	15	3060	1	0.09
+	16	3070	1	0.09
+	17	5020	1	0.09
+	18	5030	1	0.09
+	19	5040	1	0.09
+	20	7040	1	0.09
+	21	7050	1	0.09
+	22	7060	1	0.09
+	23	7070	1	0.09
+	24	11240	1	0.09
+	25	11430	1	0.09
+	26	11640	1	0.09
+	27	11840	1	0.09
+	28	12220	1	0.09
+	29	12360	1	0.09
+	30	12500	1	0.09
+	31	12640	1	0.09
+	32	13020	1	0.09
+}
+Group M2
+{
+	Mob 554
+	Type drop
+	1	50723	1	1
+	2	50724	1	1
+	3	50	1	0.09
+	4	60	1	0.09
+	5	70	1	0.09
+	6	80	1	0.09
+	7	1020	1	0.09
+	8	1030	1	0.09
+	9	1040	1	0.09
+	10	2050	1	0.09
+	11	2060	1	0.09
+	12	2070	1	0.09
+	13	3040	1	0.09
+	14	3050	1	0.09
+	15	3060	1	0.09
+	16	3070	1	0.09
+	17	5020	1	0.09
+	18	5030	1	0.09
+	19	5040	1	0.09
+	20	7040	1	0.09
+	21	7050	1	0.09
+	22	7060	1	0.09
+	23	7070	1	0.09
+	24	11240	1	0.09
+	25	11430	1	0.09
+	26	11640	1	0.09
+	27	11840	1	0.09
+	28	12220	1	0.09
+	29	12360	1	0.09
+	30	12500	1	0.09
+	31	12640	1	0.09
+	32	13020	1	0.09
+}
+Group M2
+{
+	Mob 501
+	Type drop
+	1	50723	1	1
+	2	50724	1	1
+	3	50	1	0.09
+	4	60	1	0.09
+	5	70	1	0.09
+	6	80	1	0.09
+	7	1020	1	0.09
+	8	1030	1	0.09
+	9	1040	1	0.09
+	10	2050	1	0.09
+	11	2060	1	0.09
+	12	2070	1	0.09
+	13	3040	1	0.09
+	14	3050	1	0.09
+	15	3060	1	0.09
+	16	3070	1	0.09
+	17	5020	1	0.09
+	18	5030	1	0.09
+	19	5040	1	0.09
+	20	7040	1	0.09
+	21	7050	1	0.09
+	22	7060	1	0.09
+	23	7070	1	0.09
+	24	11240	1	0.09
+	25	11430	1	0.09
+	26	11640	1	0.09
+	27	11840	1	0.09
+	28	12220	1	0.09
+	29	12360	1	0.09
+	30	12500	1	0.09
+	31	12640	1	0.09
+	32	13020	1	0.09
+}
+Group M2
+{
+	Mob 401
+	Type drop
+	1	50723	1	1
+	2	50724	1	1
+	3	50	1	0.09
+	4	60	1	0.09
+	5	70	1	0.09
+	6	80	1	0.09
+	7	1020	1	0.09
+	8	1030	1	0.09
+	9	1040	1	0.09
+	10	2050	1	0.09
+	11	2060	1	0.09
+	12	2070	1	0.09
+	13	3040	1	0.09
+	14	3050	1	0.09
+	15	3060	1	0.09
+	16	3070	1	0.09
+	17	5020	1	0.09
+	18	5030	1	0.09
+	19	5040	1	0.09
+	20	7040	1	0.09
+	21	7050	1	0.09
+	22	7060	1	0.09
+	23	7070	1	0.09
+	24	11240	1	0.09
+	25	11430	1	0.09
+	26	11640	1	0.09
+	27	11840	1	0.09
+	28	12220	1	0.09
+	29	12360	1	0.09
+	30	12500	1	0.09
+	31	12640	1	0.09
+	32	13020	1	0.09
+}
+Group M2
+{
+	Mob 402
+	Type drop
+	1	50723	1	1
+	2	50724	1	1
+	3	50	1	0.09
+	4	60	1	0.09
+	5	70	1	0.09
+	6	80	1	0.09
+	7	1020	1	0.09
+	8	1030	1	0.09
+	9	1040	1	0.09
+	10	2050	1	0.09
+	11	2060	1	0.09
+	12	2070	1	0.09
+	13	3040	1	0.09
+	14	3050	1	0.09
+	15	3060	1	0.09
+	16	3070	1	0.09
+	17	5020	1	0.09
+	18	5030	1	0.09
+	19	5040	1	0.09
+	20	7040	1	0.09
+	21	7050	1	0.09
+	22	7060	1	0.09
+	23	7070	1	0.09
+	24	11240	1	0.09
+	25	11430	1	0.09
+	26	11640	1	0.09
+	27	11840	1	0.09
+	28	12220	1	0.09
+	29	12360	1	0.09
+	30	12500	1	0.09
+	31	12640	1	0.09
+	32	13020	1	0.09
+}
+Group M2
+{
+	Mob 403
+	Type drop
+	1	50723	1	1
+	2	50724	1	1
+	3	50	1	0.09
+	4	60	1	0.09
+	5	70	1	0.09
+	6	80	1	0.09
+	7	1020	1	0.09
+	8	1030	1	0.09
+	9	1040	1	0.09
+	10	2050	1	0.09
+	11	2060	1	0.09
+	12	2070	1	0.09
+	13	3040	1	0.09
+	14	3050	1	0.09
+	15	3060	1	0.09
+	16	3070	1	0.09
+	17	5020	1	0.09
+	18	5030	1	0.09
+	19	5040	1	0.09
+	20	7040	1	0.09
+	21	7050	1	0.09
+	22	7060	1	0.09
+	23	7070	1	0.09
+	24	11240	1	0.09
+	25	11430	1	0.09
+	26	11640	1	0.09
+	27	11840	1	0.09
+	28	12220	1	0.09
+	29	12360	1	0.09
+	30	12500	1	0.09
+	31	12640	1	0.09
+	32	13020	1	0.09
+}
+Group M2
+{
+	Mob 404
+	Type drop
+	1	50723	1	1
+	2	50724	1	1
+	3	50	1	0.09
+	4	60	1	0.09
+	5	70	1	0.09
+	6	80	1	0.09
+	7	1020	1	0.09
+	8	1030	1	0.09
+	9	1040	1	0.09
+	10	2050	1	0.09
+	11	2060	1	0.09
+	12	2070	1	0.09
+	13	3040	1	0.09
+	14	3050	1	0.09
+	15	3060	1	0.09
+	16	3070	1	0.09
+	17	5020	1	0.09
+	18	5030	1	0.09
+	19	5040	1	0.09
+	20	7040	1	0.09
+	21	7050	1	0.09
+	22	7060	1	0.09
+	23	7070	1	0.09
+	24	11240	1	0.09
+	25	11430	1	0.09
+	26	11640	1	0.09
+	27	11840	1	0.09
+	28	12220	1	0.09
+	29	12360	1	0.09
+	30	12500	1	0.09
+	31	12640	1	0.09
+	32	13020	1	0.09
+}
+Group M2
+{
+	Mob 405
+	Type drop
+	1	50723	1	1
+	2	50724	1	1
+	3	50	1	0.09
+	4	60	1	0.09
+	5	70	1	0.09
+	6	80	1	0.09
+	7	1020	1	0.09
+	8	1030	1	0.09
+	9	1040	1	0.09
+	10	2050	1	0.09
+	11	2060	1	0.09
+	12	2070	1	0.09
+	13	3040	1	0.09
+	14	3050	1	0.09
+	15	3060	1	0.09
+	16	3070	1	0.09
+	17	5020	1	0.09
+	18	5030	1	0.09
+	19	5040	1	0.09
+	20	7040	1	0.09
+	21	7050	1	0.09
+	22	7060	1	0.09
+	23	7070	1	0.09
+	24	11240	1	0.09
+	25	11430	1	0.09
+	26	11640	1	0.09
+	27	11840	1	0.09
+	28	12220	1	0.09
+	29	12360	1	0.09
+	30	12500	1	0.09
+	31	12640	1	0.09
+	32	13020	1	0.09
+}
+Group M2
+{
+	Mob 406
+	Type drop
+	1	50723	1	1
+	2	50724	1	1
+	3	50	1	0.09
+	4	60	1	0.09
+	5	70	1	0.09
+	6	80	1	0.09
+	7	1020	1	0.09
+	8	1030	1	0.09
+	9	1040	1	0.09
+	10	2050	1	0.09
+	11	2060	1	0.09
+	12	2070	1	0.09
+	13	3040	1	0.09
+	14	3050	1	0.09
+	15	3060	1	0.09
+	16	3070	1	0.09
+	17	5020	1	0.09
+	18	5030	1	0.09
+	19	5040	1	0.09
+	20	7040	1	0.09
+	21	7050	1	0.09
+	22	7060	1	0.09
+	23	7070	1	0.09
+	24	11240	1	0.09
+	25	11430	1	0.09
+	26	11640	1	0.09
+	27	11840	1	0.09
+	28	12220	1	0.09
+	29	12360	1	0.09
+	30	12500	1	0.09
+	31	12640	1	0.09
+	32	13020	1	0.09
+}
+Group M2
+{
+	Mob 431
+	Type drop
+	1	50723	1	1
+	2	50724	1	1
+	3	50	1	0.09
+	4	60	1	0.09
+	5	70	1	0.09
+	6	80	1	0.09
+	7	1020	1	0.09
+	8	1030	1	0.09
+	9	1040	1	0.09
+	10	2050	1	0.09
+	11	2060	1	0.09
+	12	2070	1	0.09
+	13	3040	1	0.09
+	14	3050	1	0.09
+	15	3060	1	0.09
+	16	3070	1	0.09
+	17	5020	1	0.09
+	18	5030	1	0.09
+	19	5040	1	0.09
+	20	7040	1	0.09
+	21	7050	1	0.09
+	22	7060	1	0.09
+	23	7070	1	0.09
+	24	11240	1	0.09
+	25	11430	1	0.09
+	26	11640	1	0.09
+	27	11840	1	0.09
+	28	12220	1	0.09
+	29	12360	1	0.09
+	30	12500	1	0.09
+	31	12640	1	0.09
+	32	13020	1	0.09
+}
+Group M2
+{
+	Mob 432
+	Type drop
+	1	50723	1	1
+	2	50724	1	1
+	3	50	1	0.09
+	4	60	1	0.09
+	5	70	1	0.09
+	6	80	1	0.09
+	7	1020	1	0.09
+	8	1030	1	0.09
+	9	1040	1	0.09
+	10	2050	1	0.09
+	11	2060	1	0.09
+	12	2070	1	0.09
+	13	3040	1	0.09
+	14	3050	1	0.09
+	15	3060	1	0.09
+	16	3070	1	0.09
+	17	5020	1	0.09
+	18	5030	1	0.09
+	19	5040	1	0.09
+	20	7040	1	0.09
+	21	7050	1	0.09
+	22	7060	1	0.09
+	23	7070	1	0.09
+	24	11240	1	0.09
+	25	11430	1	0.09
+	26	11640	1	0.09
+	27	11840	1	0.09
+	28	12220	1	0.09
+	29	12360	1	0.09
+	30	12500	1	0.09
+	31	12640	1	0.09
+	32	13020	1	0.09
+}
+Group M2
+{
+	Mob 433
+	Type drop
+	1	50723	1	1
+	2	50724	1	1
+	3	50	1	0.09
+	4	60	1	0.09
+	5	70	1	0.09
+	6	80	1	0.09
+	7	1020	1	0.09
+	8	1030	1	0.09
+	9	1040	1	0.09
+	10	2050	1	0.09
+	11	2060	1	0.09
+	12	2070	1	0.09
+	13	3040	1	0.09
+	14	3050	1	0.09
+	15	3060	1	0.09
+	16	3070	1	0.09
+	17	5020	1	0.09
+	18	5030	1	0.09
+	19	5040	1	0.09
+	20	7040	1	0.09
+	21	7050	1	0.09
+	22	7060	1	0.09
+	23	7070	1	0.09
+	24	11240	1	0.09
+	25	11430	1	0.09
+	26	11640	1	0.09
+	27	11840	1	0.09
+	28	12220	1	0.09
+	29	12360	1	0.09
+	30	12500	1	0.09
+	31	12640	1	0.09
+	32	13020	1	0.09
+}
+Group M2
+{
+	Mob 434
+	Type drop
+	1	50723	1	1
+	2	50724	1	1
+	3	50	1	0.09
+	4	60	1	0.09
+	5	70	1	0.09
+	6	80	1	0.09
+	7	1020	1	0.09
+	8	1030	1	0.09
+	9	1040	1	0.09
+	10	2050	1	0.09
+	11	2060	1	0.09
+	12	2070	1	0.09
+	13	3040	1	0.09
+	14	3050	1	0.09
+	15	3060	1	0.09
+	16	3070	1	0.09
+	17	5020	1	0.09
+	18	5030	1	0.09
+	19	5040	1	0.09
+	20	7040	1	0.09
+	21	7050	1	0.09
+	22	7060	1	0.09
+	23	7070	1	0.09
+	24	11240	1	0.09
+	25	11430	1	0.09
+	26	11640	1	0.09
+	27	11840	1	0.09
+	28	12220	1	0.09
+	29	12360	1	0.09
+	30	12500	1	0.09
+	31	12640	1	0.09
+	32	13020	1	0.09
+}
+Group M2
+{
+	Mob 435
+	Type drop
+	1	50723	1	1
+	2	50724	1	1
+	3	50	1	0.09
+	4	60	1	0.09
+	5	70	1	0.09
+	6	80	1	0.09
+	7	1020	1	0.09
+	8	1030	1	0.09
+	9	1040	1	0.09
+	10	2050	1	0.09
+	11	2060	1	0.09
+	12	2070	1	0.09
+	13	3040	1	0.09
+	14	3050	1	0.09
+	15	3060	1	0.09
+	16	3070	1	0.09
+	17	5020	1	0.09
+	18	5030	1	0.09
+	19	5040	1	0.09
+	20	7040	1	0.09
+	21	7050	1	0.09
+	22	7060	1	0.09
+	23	7070	1	0.09
+	24	11240	1	0.09
+	25	11430	1	0.09
+	26	11640	1	0.09
+	27	11840	1	0.09
+	28	12220	1	0.09
+	29	12360	1	0.09
+	30	12500	1	0.09
+	31	12640	1	0.09
+	32	13020	1	0.09
+}
+Group M2
+{
+	Mob 436
+	Type drop
+	1	50723	1	1
+	2	50724	1	1
+	3	50	1	0.09
+	4	60	1	0.09
+	5	70	1	0.09
+	6	80	1	0.09
+	7	1020	1	0.09
+	8	1030	1	0.09
+	9	1040	1	0.09
+	10	2050	1	0.09
+	11	2060	1	0.09
+	12	2070	1	0.09
+	13	3040	1	0.09
+	14	3050	1	0.09
+	15	3060	1	0.09
+	16	3070	1	0.09
+	17	5020	1	0.09
+	18	5030	1	0.09
+	19	5040	1	0.09
+	20	7040	1	0.09
+	21	7050	1	0.09
+	22	7060	1	0.09
+	23	7070	1	0.09
+	24	11240	1	0.09
+	25	11430	1	0.09
+	26	11640	1	0.09
+	27	11840	1	0.09
+	28	12220	1	0.09
+	29	12360	1	0.09
+	30	12500	1	0.09
+	31	12640	1	0.09
+	32	13020	1	0.09
+}
+Group M2
+{
+	Mob 451
+	Type drop
+	1	50723	1	1
+	2	50724	1	1
+	3	50	1	0.09
+	4	60	1	0.09
+	5	70	1	0.09
+	6	80	1	0.09
+	7	1020	1	0.09
+	8	1030	1	0.09
+	9	1040	1	0.09
+	10	2050	1	0.09
+	11	2060	1	0.09
+	12	2070	1	0.09
+	13	3040	1	0.09
+	14	3050	1	0.09
+	15	3060	1	0.09
+	16	3070	1	0.09
+	17	5020	1	0.09
+	18	5030	1	0.09
+	19	5040	1	0.09
+	20	7040	1	0.09
+	21	7050	1	0.09
+	22	7060	1	0.09
+	23	7070	1	0.09
+	24	11240	1	0.09
+	25	11430	1	0.09
+	26	11640	1	0.09
+	27	11840	1	0.09
+	28	12220	1	0.09
+	29	12360	1	0.09
+	30	12500	1	0.09
+	31	12640	1	0.09
+	32	13020	1	0.09
+}
+Group M2
+{
+	Mob 452
+	Type drop
+	1	50723	1	1
+	2	50724	1	1
+	3	50	1	0.09
+	4	60	1	0.09
+	5	70	1	0.09
+	6	80	1	0.09
+	7	1020	1	0.09
+	8	1030	1	0.09
+	9	1040	1	0.09
+	10	2050	1	0.09
+	11	2060	1	0.09
+	12	2070	1	0.09
+	13	3040	1	0.09
+	14	3050	1	0.09
+	15	3060	1	0.09
+	16	3070	1	0.09
+	17	5020	1	0.09
+	18	5030	1	0.09
+	19	5040	1	0.09
+	20	7040	1	0.09
+	21	7050	1	0.09
+	22	7060	1	0.09
+	23	7070	1	0.09
+	24	11240	1	0.09
+	25	11430	1	0.09
+	26	11640	1	0.09
+	27	11840	1	0.09
+	28	12220	1	0.09
+	29	12360	1	0.09
+	30	12500	1	0.09
+	31	12640	1	0.09
+	32	13020	1	0.09
+}
+Group M2
+{
+	Mob 453
+	Type drop
+	1	50723	1	1
+	2	50724	1	1
+	3	50	1	0.09
+	4	60	1	0.09
+	5	70	1	0.09
+	6	80	1	0.09
+	7	1020	1	0.09
+	8	1030	1	0.09
+	9	1040	1	0.09
+	10	2050	1	0.09
+	11	2060	1	0.09
+	12	2070	1	0.09
+	13	3040	1	0.09
+	14	3050	1	0.09
+	15	3060	1	0.09
+	16	3070	1	0.09
+	17	5020	1	0.09
+	18	5030	1	0.09
+	19	5040	1	0.09
+	20	7040	1	0.09
+	21	7050	1	0.09
+	22	7060	1	0.09
+	23	7070	1	0.09
+	24	11240	1	0.09
+	25	11430	1	0.09
+	26	11640	1	0.09
+	27	11840	1	0.09
+	28	12220	1	0.09
+	29	12360	1	0.09
+	30	12500	1	0.09
+	31	12640	1	0.09
+	32	13020	1	0.09
+}
+Group M2
+{
+	Mob 454
+	Type drop
+	1	50723	1	1
+	2	50724	1	1
+	3	50	1	0.09
+	4	60	1	0.09
+	5	70	1	0.09
+	6	80	1	0.09
+	7	1020	1	0.09
+	8	1030	1	0.09
+	9	1040	1	0.09
+	10	2050	1	0.09
+	11	2060	1	0.09
+	12	2070	1	0.09
+	13	3040	1	0.09
+	14	3050	1	0.09
+	15	3060	1	0.09
+	16	3070	1	0.09
+	17	5020	1	0.09
+	18	5030	1	0.09
+	19	5040	1	0.09
+	20	7040	1	0.09
+	21	7050	1	0.09
+	22	7060	1	0.09
+	23	7070	1	0.09
+	24	11240	1	0.09
+	25	11430	1	0.09
+	26	11640	1	0.09
+	27	11840	1	0.09
+	28	12220	1	0.09
+	29	12360	1	0.09
+	30	12500	1	0.09
+	31	12640	1	0.09
+	32	13020	1	0.09
+}
+Group M2
+{
+	Mob 455
+	Type drop
+	1	50723	1	1
+	2	50724	1	1
+	3	50	1	0.09
+	4	60	1	0.09
+	5	70	1	0.09
+	6	80	1	0.09
+	7	1020	1	0.09
+	8	1030	1	0.09
+	9	1040	1	0.09
+	10	2050	1	0.09
+	11	2060	1	0.09
+	12	2070	1	0.09
+	13	3040	1	0.09
+	14	3050	1	0.09
+	15	3060	1	0.09
+	16	3070	1	0.09
+	17	5020	1	0.09
+	18	5030	1	0.09
+	19	5040	1	0.09
+	20	7040	1	0.09
+	21	7050	1	0.09
+	22	7060	1	0.09
+	23	7070	1	0.09
+	24	11240	1	0.09
+	25	11430	1	0.09
+	26	11640	1	0.09
+	27	11840	1	0.09
+	28	12220	1	0.09
+	29	12360	1	0.09
+	30	12500	1	0.09
+	31	12640	1	0.09
+	32	13020	1	0.09
+}
+Group M2
+{
+	Mob 456
+	Type drop
+	1	50723	1	1
+	2	50724	1	1
+	3	50	1	0.09
+	4	60	1	0.09
+	5	70	1	0.09
+	6	80	1	0.09
+	7	1020	1	0.09
+	8	1030	1	0.09
+	9	1040	1	0.09
+	10	2050	1	0.09
+	11	2060	1	0.09
+	12	2070	1	0.09
+	13	3040	1	0.09
+	14	3050	1	0.09
+	15	3060	1	0.09
+	16	3070	1	0.09
+	17	5020	1	0.09
+	18	5030	1	0.09
+	19	5040	1	0.09
+	20	7040	1	0.09
+	21	7050	1	0.09
+	22	7060	1	0.09
+	23	7070	1	0.09
+	24	11240	1	0.09
+	25	11430	1	0.09
+	26	11640	1	0.09
+	27	11840	1	0.09
+	28	12220	1	0.09
+	29	12360	1	0.09
+	30	12500	1	0.09
+	31	12640	1	0.09
+	32	13020	1	0.09
+}
+Group Dolina
+{
+	Mob 601
+	Type drop
+	1	50722	1	1
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Dolina
+{
+	Mob 602
+	Type drop
+	1	50722	1	1
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Dolina
+{
+	Mob 603
+	Type drop
+	1	50722	1	1
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Dolina
+{
+	Mob 604
+	Type drop
+	1	50722	1	1
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Dolina
+{
+	Mob 636
+	Type drop
+	1	50722	1	1
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Dolina
+{
+	Mob 637
+	Type drop
+	1	50722	1	1
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Dolina
+{
+	Mob 657
+	Type drop
+	1	50722	1	1
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Dolina
+{
+	Mob 705
+	Type drop
+	1	50722	1	1
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Dolina
+{
+	Mob 702
+	Type drop
+	1	50722	1	1
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Dolina
+{
+	Mob 701
+	Type drop
+	1	50722	1	1
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Dolina
+{
+	Mob 751
+	Type drop
+	1	50722	1	1
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Dolina
+{
+	Mob 752
+	Type drop
+	1	50722	1	1
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Dolina
+{
+	Mob 633
+	Type drop
+	1	50722	1	1
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Dolina
+{
+	Mob 631
+	Type drop
+	1	50722	1	1
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Dolina
+{
+	Mob 634
+	Type drop
+	1	50722	1	1
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Dolina
+{
+	Mob 632
+	Type drop
+	1	50722	1	1
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+}
+Group Dolina
+{
+	Mob 2103
+	Type drop
+	1	50722	1	1
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Dolina
+{
+	Mob 651
+	Type drop
+	1	50722	1	1
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Dolina
+{
+	Mob 652
+	Type drop
+	1	50722	1	1
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Dolina
+{
+	Mob 653
+	Type drop
+	1	50722	1	1
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Dolina
+{
+	Mob 654
+	Type drop
+	1	50722	1	1
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Dolina
+{
+	Mob 655
+	Type drop
+	1	50722	1	1
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Dolina
+{
+	Mob 656
+	Type drop
+	1	50722	1	1
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Dolina
+{
+	Mob 635
+	Type drop
+	1	50722	1	1
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Dolina
+{
+	Mob 703
+	Type drop
+	1	50722	1	1
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Dolina
+{
+	Mob 704
+	Type drop
+	1	50722	1	1
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Pustynia
+{
+	Mob 2001
+	Type drop
+	1	50721	1	2
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Pustynia
+{
+	Mob 2002
+	Type drop
+	1	50721	1	2
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Pustynia
+{
+	Mob 2003
+	Type drop
+	1	50721	1	2
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Pustynia
+{
+	Mob 2004
+	Type drop
+	1	50721	1	2
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Pustynia
+{
+	Mob 2005
+	Type drop
+	1	50721	1	2
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Pustynia
+{
+	Mob	2051
+	Type	drop
+	1	50721	1	2
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Pustynia
+{
+	Mob	2052
+	Type	drop
+	1	50721	1	2
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Pustynia
+{
+	Mob	2053
+	Type	drop
+	1	50721	1	2
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Pustynia
+{
+	Mob	2054
+	Type	drop
+	1	50721	1	2
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Pustynia
+{
+	Mob	2055
+	Type	drop
+	1	50721	1	2
+	2	60	1	0.09
+	3	72	1	0.09
+	4	81	1	0.09
+	5	90	1	0.09
+	6	1032	1	0.09
+	7	1041	1	0.09
+	8	1050	1	0.09
+	9	2062	1	0.09
+	10	2071	1	0.09
+	11	2080	1	0.09
+	12	3052	1	0.09
+	13	3061	1	0.09
+	14	3070	1	0.09
+	15	3080	1	0.09
+	16	5022	1	0.09
+	17	5041	1	0.09
+	18	5052	1	0.09
+	19	7052	1	0.09
+	20	7062	1	0.09
+	21	7071	1	0.09
+	22	7080	1	0.09
+	23	11240	1	0.09
+	24	11430	1	0.09
+	25	11640	1	0.09
+	26	11840	1	0.09
+	27	12220	1	0.09
+	28	12360	1	0.09
+	29	12500	1	0.09
+	30	12640	1	0.09
+	31	13020	1	0.09
+}
+Group Loch
+{
+	Mob	2031
+	Type	drop
+	1	50723	1	2.3
+	2	80	1	0.13
+	3	81	1	0.13
+	4	82	1	0.13
+	5	3070	1	0.13
+	6	3071	1	0.13
+	7	3072	1	0.13
+	8	1040	1	0.13
+	9	1041	1	0.13
+	10	1042	1	0.13
+	11	2070	1	0.13
+	12	2071	1	0.13
+	13	2072	1	0.13
+	14	7070	1	0.13
+	15	7071	1	0.13
+	16	7072	1	0.13
+	17	5040	1	0.13
+	18	5041	1	0.13
+	19	5042	1	0.13
+	20	11250	1	0.13
+	21	11650	1	0.13
+	22	11850	1	0.13
+	23	11450	1	0.13
+}
+Group Loch
+{
+	Mob	2032
+	Type	drop
+	1	50723	1	2.3
+	2	80	1	0.13
+	3	81	1	0.13
+	4	82	1	0.13
+	5	3070	1	0.13
+	6	3071	1	0.13
+	7	3072	1	0.13
+	8	1040	1	0.13
+	9	1041	1	0.13
+	10	1042	1	0.13
+	11	2070	1	0.13
+	12	2071	1	0.13
+	13	2072	1	0.13
+	14	7070	1	0.13
+	15	7071	1	0.13
+	16	7072	1	0.13
+	17	5040	1	0.13
+	18	5041	1	0.13
+	19	5042	1	0.13
+	20	11250	1	0.13
+	21	11650	1	0.13
+	22	11850	1	0.13
+	23	11450	1	0.13
+}
+Group Loch
+{
+	Mob	2033
+	Type	drop
+	1	50723	1	2.3
+	2	80	1	0.13
+	3	81	1	0.13
+	4	82	1	0.13
+	5	3070	1	0.13
+	6	3071	1	0.13
+	7	3072	1	0.13
+	8	1040	1	0.13
+	9	1041	1	0.13
+	10	1042	1	0.13
+	11	2070	1	0.13
+	12	2071	1	0.13
+	13	2072	1	0.13
+	14	7070	1	0.13
+	15	7071	1	0.13
+	16	7072	1	0.13
+	17	5040	1	0.13
+	18	5041	1	0.13
+	19	5042	1	0.13
+	20	11250	1	0.13
+	21	11650	1	0.13
+	22	11850	1	0.13
+	23	11450	1	0.13
+}
+Group Loch
+{
+	Mob	2034
+	Type	drop
+	1	50723	1	2.3
+	2	7080	1	0.13
+	3	7081	1	0.13
+	4	7082	1	0.13
+	5	5050	1	0.13
+	6	5051	1	0.13
+	7	5052	1	0.13
+	8	90	1	0.13
+	9	91	1	0.13
+	10	92	1	0.13
+	11	3080	1	0.13
+	12	3081	1	0.13
+	13	3082	1	0.13
+	14	11260	1	0.13
+	15	11660	1	0.13
+	16	11860	1	0.13
+	17	11460	1	0.13
+	18	13022	1	0.13
+	19	13023	1	0.13
+	20	13024	1	0.13
+}
+Group Loch
+{
+	Mob	2035
+	Type	drop
+	1	50723	1	2.3
+	2	7080	1	0.13
+	3	7081	1	0.13
+	4	7082	1	0.13
+	5	5050	1	0.13
+	6	5051	1	0.13
+	7	5052	1	0.13
+	8	90	1	0.13
+	9	91	1	0.13
+	10	92	1	0.13
+	11	3080	1	0.13
+	12	3081	1	0.13
+	13	3082	1	0.13
+	14	11260	1	0.13
+	15	11660	1	0.13
+	16	11860	1	0.13
+	17	11460	1	0.13
+	18	12223	1	0.13
+	19	12224	1	0.13
+	20	12503	1	0.13
+	21	12504	1	0.13
+}
+Group Loch
+{
+	Mob	2036
+	Type	drop
+	1	50723	1	2.3
+	2	7080	1	0.13
+	3	7081	1	0.13
+	4	7082	1	0.13
+	5	5050	1	0.13
+	6	5051	1	0.13
+	7	5052	1	0.13
+	8	90	1	0.13
+	9	91	1	0.13
+	10	92	1	0.13
+	11	3080	1	0.13
+	12	3081	1	0.13
+	13	3082	1	0.13
+	14	11260	1	0.13
+	15	11660	1	0.13
+	16	11860	1	0.13
+	17	11460	1	0.13
+	18	12363	1	0.13
+	19	12364	1	0.13
+	20	12643	1	0.13
+	21	12644	1	0.13
+}
+Group MidMobs
+{
+	Mob	731
+	Type	drop
+	1	50725	1	1
+	2	50724	1	1
+	3	92	1	0.05
+	4	101	1	0.05
+	5	111	1	0.05
+	6	1052	1	0.05
+	7	1061	1	0.05
+	8	1071	1	0.05
+	9	2082	1	0.05
+	10	2091	1	0.05
+	11	2100	1	0.05
+	12	3081	1	0.05
+	13	3090	1	0.05
+	14	3100	1	0.05
+	15	5052	1	0.05
+	16	5060	1	0.05
+	17	7081	1	0.05
+	18	7090	1	0.05
+	19	7100	1	0.05
+	20	13040	1	0.05
+	21	11460	1	0.05
+	22	11470	1	0.05
+	23	11860	1	0.05
+	24	11870	1	0.05
+	25	11660	1	0.05
+	26	11670	1	0.05
+	27	11260	1	0.05
+	28	11270	1	0.05
+}
+Group MidMobs
+{
+	Mob	732
+	Type	drop
+	1	50725	1	1
+	2	50724	1	1
+	3	50725	1	1
+	4	50724	1	1
+	5	92	1	0.05
+	6	101	1	0.05
+	7	111	1	0.05
+	8	1052	1	0.05
+	9	1061	1	0.05
+	10	1071	1	0.05
+	11	2082	1	0.05
+	12	2091	1	0.05
+	13	2100	1	0.05
+	14	3081	1	0.05
+	15	3090	1	0.05
+	16	3100	1	0.05
+	17	5052	1	0.05
+	18	5060	1	0.05
+	19	7081	1	0.05
+	20	7090	1	0.05
+	21	7100	1	0.05
+	22	13040	1	0.05
+	23	11460	1	0.05
+	24	11470	1	0.05
+	25	11860	1	0.05
+	26	11870	1	0.05
+	27	11660	1	0.05
+	28	11670	1	0.05
+	29	11260	1	0.05
+	30	11270	1	0.05
+}
+Group MidMobs
+{
+	Mob	733
+	Type	drop
+	1	50725	1	1
+	2	50724	1	1
+	3	50725	1	1
+	4	50724	1	1
+	5	92	1	0.05
+	6	101	1	0.05
+	7	111	1	0.05
+	8	1052	1	0.05
+	9	1061	1	0.05
+	10	1071	1	0.05
+	11	2082	1	0.05
+	12	2091	1	0.05
+	13	2100	1	0.05
+	14	3081	1	0.05
+	15	3090	1	0.05
+	16	3100	1	0.05
+	17	5052	1	0.05
+	18	5060	1	0.05
+	19	7081	1	0.05
+	20	7090	1	0.05
+	21	7100	1	0.05
+	22	13040	1	0.05
+	23	11460	1	0.05
+	24	11470	1	0.05
+	25	11860	1	0.05
+	26	11870	1	0.05
+	27	11660	1	0.05
+	28	11670	1	0.05
+	29	11260	1	0.05
+	30	11270	1	0.05
+}
+Group MidMobs
+{
+	Mob	734
+	Type	drop
+	1	50725	1	1
+	2	50724	1	1
+	3	50725	1	1
+	4	50724	1	1
+	5	92	1	0.05
+	6	101	1	0.05
+	7	111	1	0.05
+	8	1052	1	0.05
+	9	1061	1	0.05
+	10	1071	1	0.05
+	11	2082	1	0.05
+	12	2091	1	0.05
+	13	2100	1	0.05
+	14	3081	1	0.05
+	15	3090	1	0.05
+	16	3100	1	0.05
+	17	5052	1	0.05
+	18	5060	1	0.05
+	19	7081	1	0.05
+	20	7090	1	0.05
+	21	7100	1	0.05
+	22	13040	1	0.05
+	23	11460	1	0.05
+	24	11470	1	0.05
+	25	11860	1	0.05
+	26	11870	1	0.05
+	27	11660	1	0.05
+	28	11670	1	0.05
+	29	11260	1	0.05
+	30	11270	1	0.05
+}
+Group MidMobs
+{
+	Mob	735
+	Type	drop
+	1	50725	1	1
+	2	50724	1	1
+	3	50725	1	1
+	4	50724	1	1
+	5	92	1	0.05
+	6	101	1	0.05
+	7	111	1	0.05
+	8	1052	1	0.05
+	9	1061	1	0.05
+	10	1071	1	0.05
+	11	2082	1	0.05
+	12	2091	1	0.05
+	13	2100	1	0.05
+	14	3081	1	0.05
+	15	3090	1	0.05
+	16	3100	1	0.05
+	17	5052	1	0.05
+	18	5060	1	0.05
+	19	7081	1	0.05
+	20	7090	1	0.05
+	21	7100	1	0.05
+	22	13040	1	0.05
+	23	11460	1	0.05
+	24	11470	1	0.05
+	25	11860	1	0.05
+	26	11870	1	0.05
+	27	11660	1	0.05
+	28	11670	1	0.05
+	29	11260	1	0.05
+	30	11270	1	0.05
+}
+Group MidMobs
+{
+	Mob	736
+	Type	drop
+	1	50725	1	1
+	2	50724	1	1
+	3	50725	1	1
+	4	50724	1	1
+	5	92	1	0.05
+	6	101	1	0.05
+	7	111	1	0.05
+	8	1052	1	0.05
+	9	1061	1	0.05
+	10	1071	1	0.05
+	11	2082	1	0.05
+	12	2091	1	0.05
+	13	2100	1	0.05
+	14	3081	1	0.05
+	15	3090	1	0.05
+	16	3100	1	0.05
+	17	5052	1	0.05
+	18	5060	1	0.05
+	19	7081	1	0.05
+	20	7090	1	0.05
+	21	7100	1	0.05
+	22	13040	1	0.05
+	23	11460	1	0.05
+	24	11470	1	0.05
+	25	11860	1	0.05
+	26	11870	1	0.05
+	27	11660	1	0.05
+	28	11670	1	0.05
+	29	11260	1	0.05
+	30	11270	1	0.05
+}
+Group MidMobs
+{
+	Mob	737
+	Type	drop
+	1	50725	1	1
+	2	50724	1	1
+	3	50725	1	1
+	4	50724	1	1
+	5	92	1	0.05
+	6	101	1	0.05
+	7	111	1	0.05
+	8	1052	1	0.05
+	9	1061	1	0.05
+	10	1071	1	0.05
+	11	2082	1	0.05
+	12	2091	1	0.05
+	13	2100	1	0.05
+	14	3081	1	0.05
+	15	3090	1	0.05
+	16	3100	1	0.05
+	17	5052	1	0.05
+	18	5060	1	0.05
+	19	7081	1	0.05
+	20	7090	1	0.05
+	21	7100	1	0.05
+	22	13040	1	0.05
+	23	11460	1	0.05
+	24	11470	1	0.05
+	25	11860	1	0.05
+	26	11870	1	0.05
+	27	11660	1	0.05
+	28	11670	1	0.05
+	29	11260	1	0.05
+	30	11270	1	0.05
+}
+Group MidMobs
+{
+	Mob	1303
+	Type	drop
+	1	50725	1	1
+	2	50724	1	1
+	3	50725	1	1
+	4	50724	1	1
+	5	92	1	0.05
+	6	101	1	0.05
+	7	111	1	0.05
+	8	1052	1	0.05
+	9	1061	1	0.05
+	10	1071	1	0.05
+	11	2082	1	0.05
+	12	2091	1	0.05
+	13	2100	1	0.05
+	14	3081	1	0.05
+	15	3090	1	0.05
+	16	3100	1	0.05
+	17	5052	1	0.05
+	18	5060	1	0.05
+	19	7081	1	0.05
+	20	7090	1	0.05
+	21	7100	1	0.05
+	22	13040	1	0.05
+	23	11460	1	0.05
+	24	11470	1	0.05
+	25	11860	1	0.05
+	26	11870	1	0.05
+	27	11660	1	0.05
+	28	11670	1	0.05
+	29	11260	1	0.05
+	30	11270	1	0.05
+}
+Group MidMobs
+{
+	Mob	1301
+	Type	drop
+	1	50725	1	1
+	2	50724	1	1
+	3	50725	1	1
+	4	50724	1	1
+	5	92	1	0.05
+	6	101	1	0.05
+	7	111	1	0.05
+	8	1052	1	0.05
+	9	1061	1	0.05
+	10	1071	1	0.05
+	11	2082	1	0.05
+	12	2091	1	0.05
+	13	2100	1	0.05
+	14	3081	1	0.05
+	15	3090	1	0.05
+	16	3100	1	0.05
+	17	5052	1	0.05
+	18	5060	1	0.05
+	19	7081	1	0.05
+	20	7090	1	0.05
+	21	7100	1	0.05
+	22	13040	1	0.05
+	23	11460	1	0.05
+	24	11470	1	0.05
+	25	11860	1	0.05
+	26	11870	1	0.05
+	27	11660	1	0.05
+	28	11670	1	0.05
+	29	11260	1	0.05
+	30	11270	1	0.05
+}
+Group MidMobs
+{
+	Mob	776
+	Type	drop
+	1	50725	1	1
+	2	50724	1	1
+	3	50725	1	1
+	4	50724	1	1
+	5	92	1	0.05
+	6	101	1	0.05
+	7	111	1	0.05
+	8	1052	1	0.05
+	9	1061	1	0.05
+	10	1071	1	0.05
+	11	2082	1	0.05
+	12	2091	1	0.05
+	13	2100	1	0.05
+	14	3081	1	0.05
+	15	3090	1	0.05
+	16	3100	1	0.05
+	17	5052	1	0.05
+	18	5060	1	0.05
+	19	7081	1	0.05
+	20	7090	1	0.05
+	21	7100	1	0.05
+	22	13040	1	0.05
+	23	11460	1	0.05
+	24	11470	1	0.05
+	25	11860	1	0.05
+	26	11870	1	0.05
+	27	11660	1	0.05
+	28	11670	1	0.05
+	29	11260	1	0.05
+	30	11270	1	0.05
+}
+Group MidMobs
+{
+	Mob	1302
+	Type	drop
+	1	50725	1	1
+	2	50724	1	1
+	3	50725	1	1
+	4	50724	1	1
+	5	92	1	0.05
+	6	101	1	0.05
+	7	111	1	0.05
+	8	1052	1	0.05
+	9	1061	1	0.05
+	10	1071	1	0.05
+	11	2082	1	0.05
+	12	2091	1	0.05
+	13	2100	1	0.05
+	14	3081	1	0.05
+	15	3090	1	0.05
+	16	3100	1	0.05
+	17	5052	1	0.05
+	18	5060	1	0.05
+	19	7081	1	0.05
+	20	7090	1	0.05
+	21	7100	1	0.05
+	22	13040	1	0.05
+	23	11460	1	0.05
+	24	11470	1	0.05
+	25	11860	1	0.05
+	26	11870	1	0.05
+	27	11660	1	0.05
+	28	11670	1	0.05
+	29	11260	1	0.05
+	30	11270	1	0.05
+}
+Group MidMobs
+{
+	Mob	1332
+	Type	drop
+	1	50725	1	1
+	2	50724	1	1
+	3	50725	1	1
+	4	50724	1	1
+	5	92	1	0.05
+	6	101	1	0.05
+	7	111	1	0.05
+	8	1052	1	0.05
+	9	1061	1	0.05
+	10	1071	1	0.05
+	11	2082	1	0.05
+	12	2091	1	0.05
+	13	2100	1	0.05
+	14	3081	1	0.05
+	15	3090	1	0.05
+	16	3100	1	0.05
+	17	5052	1	0.05
+	18	5060	1	0.05
+	19	7081	1	0.05
+	20	7090	1	0.05
+	21	7100	1	0.05
+	22	13040	1	0.05
+	23	11460	1	0.05
+	24	11470	1	0.05
+	25	11860	1	0.05
+	26	11870	1	0.05
+	27	11660	1	0.05
+	28	11670	1	0.05
+	29	11260	1	0.05
+	30	11270	1	0.05
+}
+Group MidMobs
+{
+	Mob	1305
+	Type	drop
+	1	50725	1	1
+	2	50724	1	1
+	3	50725	1	1
+	4	50724	1	1
+	5	92	1	0.05
+	6	101	1	0.05
+	7	111	1	0.05
+	8	1052	1	0.05
+	9	1061	1	0.05
+	10	1071	1	0.05
+	11	2082	1	0.05
+	12	2091	1	0.05
+	13	2100	1	0.05
+	14	3081	1	0.05
+	15	3090	1	0.05
+	16	3100	1	0.05
+	17	5052	1	0.05
+	18	5060	1	0.05
+	19	7081	1	0.05
+	20	7090	1	0.05
+	21	7100	1	0.05
+	22	13040	1	0.05
+	23	11460	1	0.05
+	24	11470	1	0.05
+	25	11860	1	0.05
+	26	11870	1	0.05
+	27	11660	1	0.05
+	28	11670	1	0.05
+	29	11260	1	0.05
+	30	11270	1	0.05
+}
+Group MidMobs
+{
+	Mob	901
+	Type	drop
+	1	50725	1	1
+	2	50724	1	1
+	3	50725	1	1
+	4	50724	1	1
+	5	92	1	0.05
+	6	101	1	0.05
+	7	111	1	0.05
+	8	1052	1	0.05
+	9	1061	1	0.05
+	10	1071	1	0.05
+	11	2082	1	0.05
+	12	2091	1	0.05
+	13	2100	1	0.05
+	14	3081	1	0.05
+	15	3090	1	0.05
+	16	3100	1	0.05
+	17	5052	1	0.05
+	18	5060	1	0.05
+	19	7081	1	0.05
+	20	7090	1	0.05
+	21	7100	1	0.05
+	22	13040	1	0.05
+	23	11460	1	0.05
+	24	11470	1	0.05
+	25	11860	1	0.05
+	26	11870	1	0.05
+	27	11660	1	0.05
+	28	11670	1	0.05
+	29	11260	1	0.05
+	30	11270	1	0.05
+}
+Group MidMobs
+{
+	Mob	902
+	Type	drop
+	1	50725	1	1
+	2	50724	1	1
+	3	50725	1	1
+	4	50724	1	1
+	5	92	1	0.05
+	6	101	1	0.05
+	7	111	1	0.05
+	8	1052	1	0.05
+	9	1061	1	0.05
+	10	1071	1	0.05
+	11	2082	1	0.05
+	12	2091	1	0.05
+	13	2100	1	0.05
+	14	3081	1	0.05
+	15	3090	1	0.05
+	16	3100	1	0.05
+	17	5052	1	0.05
+	18	5060	1	0.05
+	19	7081	1	0.05
+	20	7090	1	0.05
+	21	7100	1	0.05
+	22	13040	1	0.05
+	23	11460	1	0.05
+	24	11470	1	0.05
+	25	11860	1	0.05
+	26	11870	1	0.05
+	27	11660	1	0.05
+	28	11670	1	0.05
+	29	11260	1	0.05
+	30	11270	1	0.05
+}
+Group MidMobs
+{
+	Mob	903
+	Type	drop
+	1	50725	1	1
+	2	50724	1	1
+	3	50725	1	1
+	4	50724	1	1
+	5	92	1	0.05
+	6	101	1	0.05
+	7	111	1	0.05
+	8	1052	1	0.05
+	9	1061	1	0.05
+	10	1071	1	0.05
+	11	2082	1	0.05
+	12	2091	1	0.05
+	13	2100	1	0.05
+	14	3081	1	0.05
+	15	3090	1	0.05
+	16	3100	1	0.05
+	17	5052	1	0.05
+	18	5060	1	0.05
+	19	7081	1	0.05
+	20	7090	1	0.05
+	21	7100	1	0.05
+	22	13040	1	0.05
+	23	11460	1	0.05
+	24	11470	1	0.05
+	25	11860	1	0.05
+	26	11870	1	0.05
+	27	11660	1	0.05
+	28	11670	1	0.05
+	29	11260	1	0.05
+	30	11270	1	0.05
+}
+Group MidMobs
+{
+	Mob	904
+	Type	drop
+	1	50725	1	1
+	2	50724	1	1
+	3	50725	1	1
+	4	50724	1	1
+	5	92	1	0.05
+	6	101	1	0.05
+	7	111	1	0.05
+	8	1052	1	0.05
+	9	1061	1	0.05
+	10	1071	1	0.05
+	11	2082	1	0.05
+	12	2091	1	0.05
+	13	2100	1	0.05
+	14	3081	1	0.05
+	15	3090	1	0.05
+	16	3100	1	0.05
+	17	5052	1	0.05
+	18	5060	1	0.05
+	19	7081	1	0.05
+	20	7090	1	0.05
+	21	7100	1	0.05
+	22	13040	1	0.05
+	23	11460	1	0.05
+	24	11470	1	0.05
+	25	11860	1	0.05
+	26	11870	1	0.05
+	27	11660	1	0.05
+	28	11670	1	0.05
+	29	11260	1	0.05
+	30	11270	1	0.05
+}
+Group MidMobs
+{
+	Mob	905
+	Type	drop
+	1	50725	1	1
+	2	50724	1	1
+	3	50725	1	1
+	4	50724	1	1
+	5	92	1	0.05
+	6	101	1	0.05
+	7	111	1	0.05
+	8	1052	1	0.05
+	9	1061	1	0.05
+	10	1071	1	0.05
+	11	2082	1	0.05
+	12	2091	1	0.05
+	13	2100	1	0.05
+	14	3081	1	0.05
+	15	3090	1	0.05
+	16	3100	1	0.05
+	17	5052	1	0.05
+	18	5060	1	0.05
+	19	7081	1	0.05
+	20	7090	1	0.05
+	21	7100	1	0.05
+	22	13040	1	0.05
+	23	11460	1	0.05
+	24	11470	1	0.05
+	25	11860	1	0.05
+	26	11870	1	0.05
+	27	11660	1	0.05
+	28	11670	1	0.05
+	29	11260	1	0.05
+	30	11270	1	0.05
+}
+Group MidMobs
+{
+	Mob	906
+	Type	drop
+	1	50725	1	1
+	2	50724	1	1
+	3	50725	1	1
+	4	50724	1	1
+	5	92	1	0.05
+	6	101	1	0.05
+	7	111	1	0.05
+	8	1052	1	0.05
+	9	1061	1	0.05
+	10	1071	1	0.05
+	11	2082	1	0.05
+	12	2091	1	0.05
+	13	2100	1	0.05
+	14	3081	1	0.05
+	15	3090	1	0.05
+	16	3100	1	0.05
+	17	5052	1	0.05
+	18	5060	1	0.05
+	19	7081	1	0.05
+	20	7090	1	0.05
+	21	7100	1	0.05
+	22	13040	1	0.05
+	23	11460	1	0.05
+	24	11470	1	0.05
+	25	11860	1	0.05
+	26	11870	1	0.05
+	27	11660	1	0.05
+	28	11670	1	0.05
+	29	11260	1	0.05
+	30	11270	1	0.05
+}
+Group MidMobs
+{
+	Mob	907
+	Type	drop
+	1	50725	1	1
+	2	50724	1	1
+	3	50725	1	1
+	4	50724	1	1
+	5	92	1	0.05
+	6	101	1	0.05
+	7	111	1	0.05
+	8	1052	1	0.05
+	9	1061	1	0.05
+	10	1071	1	0.05
+	11	2082	1	0.05
+	12	2091	1	0.05
+	13	2100	1	0.05
+	14	3081	1	0.05
+	15	3090	1	0.05
+	16	3100	1	0.05
+	17	5052	1	0.05
+	18	5060	1	0.05
+	19	7081	1	0.05
+	20	7090	1	0.05
+	21	7100	1	0.05
+	22	13040	1	0.05
+	23	11460	1	0.05
+	24	11470	1	0.05
+	25	11860	1	0.05
+	26	11870	1	0.05
+	27	11660	1	0.05
+	28	11670	1	0.05
+	29	11260	1	0.05
+	30	11270	1	0.05
+}
+Group MidMobs
+{
+	Mob	931
+	Type	drop
+	1	50725	1	1
+	2	50724	1	1
+	3	50725	1	1
+	4	50724	1	1
+	5	92	1	0.05
+	6	101	1	0.05
+	7	111	1	0.05
+	8	1052	1	0.05
+	9	1061	1	0.05
+	10	1071	1	0.05
+	11	2082	1	0.05
+	12	2091	1	0.05
+	13	2100	1	0.05
+	14	3081	1	0.05
+	15	3090	1	0.05
+	16	3100	1	0.05
+	17	5052	1	0.05
+	18	5060	1	0.05
+	19	7081	1	0.05
+	20	7090	1	0.05
+	21	7100	1	0.05
+	22	13040	1	0.05
+	23	11460	1	0.05
+	24	11470	1	0.05
+	25	11860	1	0.05
+	26	11870	1	0.05
+	27	11660	1	0.05
+	28	11670	1	0.05
+	29	11260	1	0.05
+	30	11270	1	0.05
+}
+Group MidMobs
+{
+	Mob	932
+	Type	drop
+	1	50725	1	1
+	2	50724	1	1
+	3	50725	1	1
+	4	50724	1	1
+	5	92	1	0.05
+	6	101	1	0.05
+	7	111	1	0.05
+	8	1052	1	0.05
+	9	1061	1	0.05
+	10	1071	1	0.05
+	11	2082	1	0.05
+	12	2091	1	0.05
+	13	2100	1	0.05
+	14	3081	1	0.05
+	15	3090	1	0.05
+	16	3100	1	0.05
+	17	5052	1	0.05
+	18	5060	1	0.05
+	19	7081	1	0.05
+	20	7090	1	0.05
+	21	7100	1	0.05
+	22	13040	1	0.05
+	23	11460	1	0.05
+	24	11470	1	0.05
+	25	11860	1	0.05
+	26	11870	1	0.05
+	27	11660	1	0.05
+	28	11670	1	0.05
+	29	11260	1	0.05
+	30	11270	1	0.05
+}
+Group MidMobs
+{
+	Mob	933
+	Type	drop
+	1	50725	1	1
+	2	50724	1	1
+	3	50725	1	1
+	4	50724	1	1
+	5	92	1	0.05
+	6	101	1	0.05
+	7	111	1	0.05
+	8	1052	1	0.05
+	9	1061	1	0.05
+	10	1071	1	0.05
+	11	2082	1	0.05
+	12	2091	1	0.05
+	13	2100	1	0.05
+	14	3081	1	0.05
+	15	3090	1	0.05
+	16	3100	1	0.05
+	17	5052	1	0.05
+	18	5060	1	0.05
+	19	7081	1	0.05
+	20	7090	1	0.05
+	21	7100	1	0.05
+	22	13040	1	0.05
+	23	11460	1	0.05
+	24	11470	1	0.05
+	25	11860	1	0.05
+	26	11870	1	0.05
+	27	11660	1	0.05
+	28	11670	1	0.05
+	29	11260	1	0.05
+	30	11270	1	0.05
+}
+Group MidMobs
+{
+	Mob	934
+	Type	drop
+	1	50725	1	1
+	2	50724	1	1
+	3	50725	1	1
+	4	50724	1	1
+	5	92	1	0.05
+	6	101	1	0.05
+	7	111	1	0.05
+	8	1052	1	0.05
+	9	1061	1	0.05
+	10	1071	1	0.05
+	11	2082	1	0.05
+	12	2091	1	0.05
+	13	2100	1	0.05
+	14	3081	1	0.05
+	15	3090	1	0.05
+	16	3100	1	0.05
+	17	5052	1	0.05
+	18	5060	1	0.05
+	19	7081	1	0.05
+	20	7090	1	0.05
+	21	7100	1	0.05
+	22	13040	1	0.05
+	23	11460	1	0.05
+	24	11470	1	0.05
+	25	11860	1	0.05
+	26	11870	1	0.05
+	27	11660	1	0.05
+	28	11670	1	0.05
+	29	11260	1	0.05
+	30	11270	1	0.05
+}
+Group MidMobs
+{
+	Mob	935
+	Type	drop
+	1	50725	1	1
+	2	50724	1	1
+	3	50725	1	1
+	4	50724	1	1
+	5	92	1	0.05
+	6	101	1	0.05
+	7	111	1	0.05
+	8	1052	1	0.05
+	9	1061	1	0.05
+	10	1071	1	0.05
+	11	2082	1	0.05
+	12	2091	1	0.05
+	13	2100	1	0.05
+	14	3081	1	0.05
+	15	3090	1	0.05
+	16	3100	1	0.05
+	17	5052	1	0.05
+	18	5060	1	0.05
+	19	7081	1	0.05
+	20	7090	1	0.05
+	21	7100	1	0.05
+	22	13040	1	0.05
+	23	11460	1	0.05
+	24	11470	1	0.05
+	25	11860	1	0.05
+	26	11870	1	0.05
+	27	11660	1	0.05
+	28	11670	1	0.05
+	29	11260	1	0.05
+	30	11270	1	0.05
+}
+Group MidMobs
+{
+	Mob	936
+	Type	drop
+	1	50725	1	1
+	2	50724	1	1
+	3	50725	1	1
+	4	50724	1	1
+	5	92	1	0.05
+	6	101	1	0.05
+	7	111	1	0.05
+	8	1052	1	0.05
+	9	1061	1	0.05
+	10	1071	1	0.05
+	11	2082	1	0.05
+	12	2091	1	0.05
+	13	2100	1	0.05
+	14	3081	1	0.05
+	15	3090	1	0.05
+	16	3100	1	0.05
+	17	5052	1	0.05
+	18	5060	1	0.05
+	19	7081	1	0.05
+	20	7090	1	0.05
+	21	7100	1	0.05
+	22	13040	1	0.05
+	23	11460	1	0.05
+	24	11470	1	0.05
+	25	11860	1	0.05
+	26	11870	1	0.05
+	27	11660	1	0.05
+	28	11670	1	0.05
+	29	11260	1	0.05
+	30	11270	1	0.05
+}
+Group MidMobs
+{
+	Mob	937
+	Type	drop
+	1	50725	1	1
+	2	50724	1	1
+	3	50725	1	1
+	4	50724	1	1
+	5	92	1	0.05
+	6	101	1	0.05
+	7	111	1	0.05
+	8	1052	1	0.05
+	9	1061	1	0.05
+	10	1071	1	0.05
+	11	2082	1	0.05
+	12	2091	1	0.05
+	13	2100	1	0.05
+	14	3081	1	0.05
+	15	3090	1	0.05
+	16	3100	1	0.05
+	17	5052	1	0.05
+	18	5060	1	0.05
+	19	7081	1	0.05
+	20	7090	1	0.05
+	21	7100	1	0.05
+	22	13040	1	0.05
+	23	11460	1	0.05
+	24	11470	1	0.05
+	25	11860	1	0.05
+	26	11870	1	0.05
+	27	11660	1	0.05
+	28	11670	1	0.05
+	29	11260	1	0.05
+	30	11270	1	0.05
+}
+Group sohanognistalas
+{
+	Mob	1101
+	Type	drop
+	1	50726	1	1
+	2	50727	1	1
+	3	130	1	0.03
+	4	131	1	0.03
+	5	132	1	0.03
+	6	133	1	0.03
+	7	1090	1	0.03
+	8	1091	1	0.03
+	9	1092	1	0.03
+	10	1093	1	0.03
+	11	2120	1	0.03
+	12	2121	1	0.03
+	13	2122	1	0.03
+	14	2123	1	0.03
+	15	3120	1	0.03
+	16	3121	1	0.03
+	17	3122	1	0.03
+	18	3123	1	0.03
+	19	5080	1	0.03
+	20	5081	1	0.03
+	21	5082	1	0.03
+	22	5083	1	0.03
+	23	7120	1	0.03
+	24	7121	1	0.03
+	25	7122	1	0.03
+	26	7123	1	0.03
+	27	11270	1	0.03
+	28	11280	1	0.03
+	29	11470	1	0.03
+	30	11480	1	0.03
+	31	11670	1	0.03
+	32	11680	1	0.03
+	33	11870	1	0.03
+	34	11880	1	0.03
+	35	12240	1	0.03
+	36	12380	1	0.03
+	37	12520	1	0.03
+	38	12660	1	0.03
+	39	13060	1	0.03
+	40	13080	1	0.03
+	41	13100	1	0.03
+	42	13120	1	0.03
+	43	14140	1	0.01		// Bransoleta z Bia?ego Z?ota
+	44	14160	1	0.01		// Kryszta?owa Bransoleta
+	45	14180	1	0.01		// Ametystowa Bransoleta
+	46	14200	1	0.01		// Bransoleta z Niebia?skich ?ez
+}
+Group sohanognistalas
+{
+	Mob	1102
+	Type	drop
+	1	50726	1	1
+	2	50727	1	1
+	3	130	1	0.03
+	4	131	1	0.03
+	5	132	1	0.03
+	6	133	1	0.03
+	7	1090	1	0.03
+	8	1091	1	0.03
+	9	1092	1	0.03
+	10	1093	1	0.03
+	11	2120	1	0.03
+	12	2121	1	0.03
+	13	2122	1	0.03
+	14	2123	1	0.03
+	15	3120	1	0.03
+	16	3121	1	0.03
+	17	3122	1	0.03
+	18	3123	1	0.03
+	19	5080	1	0.03
+	20	5081	1	0.03
+	21	5082	1	0.03
+	22	5083	1	0.03
+	23	7120	1	0.03
+	24	7121	1	0.03
+	25	7122	1	0.03
+	26	7123	1	0.03
+	27	11270	1	0.03
+	28	11280	1	0.03
+	29	11470	1	0.03
+	30	11480	1	0.03
+	31	11670	1	0.03
+	32	11680	1	0.03
+	33	11870	1	0.03
+	34	11880	1	0.03
+	35	12240	1	0.03
+	36	12380	1	0.03
+	37	12520	1	0.03
+	38	12660	1	0.03
+	39	13060	1	0.03
+	40	13080	1	0.03
+	41	13100	1	0.03
+	42	13120	1	0.03
+	43	14140	1	0.01		// Bransoleta z Bia?ego Z?ota
+	44	14160	1	0.01		// Kryszta?owa Bransoleta
+	45	14180	1	0.01		// Ametystowa Bransoleta
+	46	14200	1	0.01		// Bransoleta z Niebia?skich ?ez
+}
+Group sohanognistalas
+{
+	Mob	1103
+	Type	drop
+	1	50726	1	1
+	2	50727	1	1
+	3	130	1	0.03
+	4	131	1	0.03
+	5	132	1	0.03
+	6	133	1	0.03
+	7	1090	1	0.03
+	8	1091	1	0.03
+	9	1092	1	0.03
+	10	1093	1	0.03
+	11	2120	1	0.03
+	12	2121	1	0.03
+	13	2122	1	0.03
+	14	2123	1	0.03
+	15	3120	1	0.03
+	16	3121	1	0.03
+	17	3122	1	0.03
+	18	3123	1	0.03
+	19	5080	1	0.03
+	20	5081	1	0.03
+	21	5082	1	0.03
+	22	5083	1	0.03
+	23	7120	1	0.03
+	24	7121	1	0.03
+	25	7122	1	0.03
+	26	7123	1	0.03
+	27	11270	1	0.03
+	28	11280	1	0.03
+	29	11470	1	0.03
+	30	11480	1	0.03
+	31	11670	1	0.03
+	32	11680	1	0.03
+	33	11870	1	0.03
+	34	11880	1	0.03
+	35	12240	1	0.03
+	36	12380	1	0.03
+	37	12520	1	0.03
+	38	12660	1	0.03
+	39	13060	1	0.03
+	40	13080	1	0.03
+	41	13100	1	0.03
+	42	13120	1	0.03
+	43	14140	1	0.01		// Bransoleta z Bia?ego Z?ota
+	44	14160	1	0.01		// Kryszta?owa Bransoleta
+	45	14180	1	0.01		// Ametystowa Bransoleta
+	46	14200	1	0.01		// Bransoleta z Niebia?skich ?ez
+}
+Group sohanognistalas
+{
+	Mob	1104
+	Type	drop
+	1	50726	1	1
+	2	50727	1	1
+	3	130	1	0.03
+	4	131	1	0.03
+	5	132	1	0.03
+	6	133	1	0.03
+	7	1090	1	0.03
+	8	1091	1	0.03
+	9	1092	1	0.03
+	10	1093	1	0.03
+	11	2120	1	0.03
+	12	2121	1	0.03
+	13	2122	1	0.03
+	14	2123	1	0.03
+	15	3120	1	0.03
+	16	3121	1	0.03
+	17	3122	1	0.03
+	18	3123	1	0.03
+	19	5080	1	0.03
+	20	5081	1	0.03
+	21	5082	1	0.03
+	22	5083	1	0.03
+	23	7120	1	0.03
+	24	7121	1	0.03
+	25	7122	1	0.03
+	26	7123	1	0.03
+	27	11270	1	0.03
+	28	11280	1	0.03
+	29	11470	1	0.03
+	30	11480	1	0.03
+	31	11670	1	0.03
+	32	11680	1	0.03
+	33	11870	1	0.03
+	34	11880	1	0.03
+	35	12240	1	0.03
+	36	12380	1	0.03
+	37	12520	1	0.03
+	38	12660	1	0.03
+	39	13060	1	0.03
+	40	13080	1	0.03
+	41	13100	1	0.03
+	42	13120	1	0.03
+	43	14140	1	0.01		// Bransoleta z Bia?ego Z?ota
+	44	14160	1	0.01		// Kryszta?owa Bransoleta
+	45	14180	1	0.01		// Ametystowa Bransoleta
+	46	14200	1	0.01		// Bransoleta z Niebia?skich ?ez
+}
+Group sohanognistalas
+{
+	Mob	1105
+	Type	drop
+	1	50726	1	1
+	2	50727	1	1
+	3	130	1	0.03
+	4	131	1	0.03
+	5	132	1	0.03
+	6	133	1	0.03
+	7	1090	1	0.03
+	8	1091	1	0.03
+	9	1092	1	0.03
+	10	1093	1	0.03
+	11	2120	1	0.03
+	12	2121	1	0.03
+	13	2122	1	0.03
+	14	2123	1	0.03
+	15	3120	1	0.03
+	16	3121	1	0.03
+	17	3122	1	0.03
+	18	3123	1	0.03
+	19	5080	1	0.03
+	20	5081	1	0.03
+	21	5082	1	0.03
+	22	5083	1	0.03
+	23	7120	1	0.03
+	24	7121	1	0.03
+	25	7122	1	0.03
+	26	7123	1	0.03
+	27	11270	1	0.03
+	28	11280	1	0.03
+	29	11470	1	0.03
+	30	11480	1	0.03
+	31	11670	1	0.03
+	32	11680	1	0.03
+	33	11870	1	0.03
+	34	11880	1	0.03
+	35	12240	1	0.03
+	36	12380	1	0.03
+	37	12520	1	0.03
+	38	12660	1	0.03
+	39	13060	1	0.03
+	40	13080	1	0.03
+	41	13100	1	0.03
+	42	13120	1	0.03
+	43	14140	1	0.01		// Bransoleta z Bia?ego Z?ota
+	44	14160	1	0.01		// Kryszta?owa Bransoleta
+	45	14180	1	0.01		// Ametystowa Bransoleta
+	46	14200	1	0.01		// Bransoleta z Niebia?skich ?ez
+}
+Group sohanognistalas
+{
+	Mob	1106
+	Type	drop
+	1	50726	1	1
+	2	50727	1	1
+	3	130	1	0.03
+	4	131	1	0.03
+	5	132	1	0.03
+	6	133	1	0.03
+	7	1090	1	0.03
+	8	1091	1	0.03
+	9	1092	1	0.03
+	10	1093	1	0.03
+	11	2120	1	0.03
+	12	2121	1	0.03
+	13	2122	1	0.03
+	14	2123	1	0.03
+	15	3120	1	0.03
+	16	3121	1	0.03
+	17	3122	1	0.03
+	18	3123	1	0.03
+	19	5080	1	0.03
+	20	5081	1	0.03
+	21	5082	1	0.03
+	22	5083	1	0.03
+	23	7120	1	0.03
+	24	7121	1	0.03
+	25	7122	1	0.03
+	26	7123	1	0.03
+	27	11270	1	0.03
+	28	11280	1	0.03
+	29	11470	1	0.03
+	30	11480	1	0.03
+	31	11670	1	0.03
+	32	11680	1	0.03
+	33	11870	1	0.03
+	34	11880	1	0.03
+	35	12240	1	0.03
+	36	12380	1	0.03
+	37	12520	1	0.03
+	38	12660	1	0.03
+	39	13060	1	0.03
+	40	13080	1	0.03
+	41	13100	1	0.03
+	42	13120	1	0.03
+	43	14140	1	0.01		// Bransoleta z Bia?ego Z?ota
+	44	14160	1	0.01		// Kryszta?owa Bransoleta
+	45	14180	1	0.01		// Ametystowa Bransoleta
+	46	14200	1	0.01		// Bransoleta z Niebia?skich ?ez
+}
+Group sohanognistalas
+{
+	Mob	1107
+	Type	drop
+	1	50726	1	1
+	2	50727	1	1
+	3	130	1	0.03
+	4	131	1	0.03
+	5	132	1	0.03
+	6	133	1	0.03
+	7	1090	1	0.03
+	8	1091	1	0.03
+	9	1092	1	0.03
+	10	1093	1	0.03
+	11	2120	1	0.03
+	12	2121	1	0.03
+	13	2122	1	0.03
+	14	2123	1	0.03
+	15	3120	1	0.03
+	16	3121	1	0.03
+	17	3122	1	0.03
+	18	3123	1	0.03
+	19	5080	1	0.03
+	20	5081	1	0.03
+	21	5082	1	0.03
+	22	5083	1	0.03
+	23	7120	1	0.03
+	24	7121	1	0.03
+	25	7122	1	0.03
+	26	7123	1	0.03
+	27	11270	1	0.03
+	28	11280	1	0.03
+	29	11470	1	0.03
+	30	11480	1	0.03
+	31	11670	1	0.03
+	32	11680	1	0.03
+	33	11870	1	0.03
+	34	11880	1	0.03
+	35	12240	1	0.03
+	36	12380	1	0.03
+	37	12520	1	0.03
+	38	12660	1	0.03
+	39	13060	1	0.03
+	40	13080	1	0.03
+	41	13100	1	0.03
+	42	13120	1	0.03
+	43	14140	1	0.01		// Bransoleta z Bia?ego Z?ota
+	44	14160	1	0.01		// Kryszta?owa Bransoleta
+	45	14180	1	0.01		// Ametystowa Bransoleta
+	46	14200	1	0.01		// Bransoleta z Niebia?skich ?ez
+}
+Group sohanognistalas
+{
+	Mob	2202
+	Type	drop
+	1	50726	1	1
+	2	50727	1	1
+	3	130	1	0.03
+	4	131	1	0.03
+	5	132	1	0.03
+	6	133	1	0.03
+	7	1090	1	0.03
+	8	1091	1	0.03
+	9	1092	1	0.03
+	10	1093	1	0.03
+	11	2120	1	0.03
+	12	2121	1	0.03
+	13	2122	1	0.03
+	14	2123	1	0.03
+	15	3120	1	0.03
+	16	3121	1	0.03
+	17	3122	1	0.03
+	18	3123	1	0.03
+	19	5080	1	0.03
+	20	5081	1	0.03
+	21	5082	1	0.03
+	22	5083	1	0.03
+	23	7120	1	0.03
+	24	7121	1	0.03
+	25	7122	1	0.03
+	26	7123	1	0.03
+	27	11270	1	0.03
+	28	11280	1	0.03
+	29	11470	1	0.03
+	30	11480	1	0.03
+	31	11670	1	0.03
+	32	11680	1	0.03
+	33	11870	1	0.03
+	34	11880	1	0.03
+	35	12240	1	0.03
+	36	12380	1	0.03
+	37	12520	1	0.03
+	38	12660	1	0.03
+	39	13060	1	0.03
+	40	13080	1	0.03
+	41	13100	1	0.03
+	42	13120	1	0.03
+	43	15140	1	0.01		// Jadeitowe Buty
+	44	15160	1	0.01		// Ekstazyjne Buty
+	45	15180	1	0.01		// Deszczowe Buty
+	46	15200	1	0.01		// Buty Feniksa
+	47	15220	1	0.01		// Buty Ognistego Ptaka
+}
+Group sohanognistalas
+{
+	Mob	2203
+	Type	drop
+	1	50726	1	1
+	2	50727	1	1
+	3	130	1	0.03
+	4	131	1	0.03
+	5	132	1	0.03
+	6	133	1	0.03
+	7	1090	1	0.03
+	8	1091	1	0.03
+	9	1092	1	0.03
+	10	1093	1	0.03
+	11	2120	1	0.03
+	12	2121	1	0.03
+	13	2122	1	0.03
+	14	2123	1	0.03
+	15	3120	1	0.03
+	16	3121	1	0.03
+	17	3122	1	0.03
+	18	3123	1	0.03
+	19	5080	1	0.03
+	20	5081	1	0.03
+	21	5082	1	0.03
+	22	5083	1	0.03
+	23	7120	1	0.03
+	24	7121	1	0.03
+	25	7122	1	0.03
+	26	7123	1	0.03
+	27	11270	1	0.03
+	28	11280	1	0.03
+	29	11470	1	0.03
+	30	11480	1	0.03
+	31	11670	1	0.03
+	32	11680	1	0.03
+	33	11870	1	0.03
+	34	11880	1	0.03
+	35	12240	1	0.03
+	36	12380	1	0.03
+	37	12520	1	0.03
+	38	12660	1	0.03
+	39	13060	1	0.03
+	40	13080	1	0.03
+	41	13100	1	0.03
+	42	13120	1	0.03
+	43	15140	1	0.01		// Jadeitowe Buty
+	44	15160	1	0.01		// Ekstazyjne Buty
+	45	15180	1	0.01		// Deszczowe Buty
+	46	15200	1	0.01		// Buty Feniksa
+	47	15220	1	0.01		// Buty Ognistego Ptaka
+}
+Group sohanognistalas
+{
+	Mob	2204
+	Type	drop
+	1	50726	1	1
+	2	50727	1	1
+	3	130	1	0.03
+	4	131	1	0.03
+	5	132	1	0.03
+	6	133	1	0.03
+	7	1090	1	0.03
+	8	1091	1	0.03
+	9	1092	1	0.03
+	10	1093	1	0.03
+	11	2120	1	0.03
+	12	2121	1	0.03
+	13	2122	1	0.03
+	14	2123	1	0.03
+	15	3120	1	0.03
+	16	3121	1	0.03
+	17	3122	1	0.03
+	18	3123	1	0.03
+	19	5080	1	0.03
+	20	5081	1	0.03
+	21	5082	1	0.03
+	22	5083	1	0.03
+	23	7120	1	0.03
+	24	7121	1	0.03
+	25	7122	1	0.03
+	26	7123	1	0.03
+	27	11270	1	0.03
+	28	11280	1	0.03
+	29	11470	1	0.03
+	30	11480	1	0.03
+	31	11670	1	0.03
+	32	11680	1	0.03
+	33	11870	1	0.03
+	34	11880	1	0.03
+	35	12240	1	0.03
+	36	12380	1	0.03
+	37	12520	1	0.03
+	38	12660	1	0.03
+	39	13060	1	0.03
+	40	13080	1	0.03
+	41	13100	1	0.03
+	42	13120	1	0.03
+	43	15140	1	0.01		// Jadeitowe Buty
+	44	15160	1	0.01		// Ekstazyjne Buty
+	45	15180	1	0.01		// Deszczowe Buty
+	46	15200	1	0.01		// Buty Feniksa
+	47	15220	1	0.01		// Buty Ognistego Ptaka
+}
+Group sohanognistalas
+{
+	Mob	2205
+	Type	drop
+	1	50726	1	1
+	2	50727	1	1
+	3	130	1	0.03
+	4	131	1	0.03
+	5	132	1	0.03
+	6	133	1	0.03
+	7	1090	1	0.03
+	8	1091	1	0.03
+	9	1092	1	0.03
+	10	1093	1	0.03
+	11	2120	1	0.03
+	12	2121	1	0.03
+	13	2122	1	0.03
+	14	2123	1	0.03
+	15	3120	1	0.03
+	16	3121	1	0.03
+	17	3122	1	0.03
+	18	3123	1	0.03
+	19	5080	1	0.03
+	20	5081	1	0.03
+	21	5082	1	0.03
+	22	5083	1	0.03
+	23	7120	1	0.03
+	24	7121	1	0.03
+	25	7122	1	0.03
+	26	7123	1	0.03
+	27	11270	1	0.03
+	28	11280	1	0.03
+	29	11470	1	0.03
+	30	11480	1	0.03
+	31	11670	1	0.03
+	32	11680	1	0.03
+	33	11870	1	0.03
+	34	11880	1	0.03
+	35	12240	1	0.03
+	36	12380	1	0.03
+	37	12520	1	0.03
+	38	12660	1	0.03
+	39	13060	1	0.03
+	40	13080	1	0.03
+	41	13100	1	0.03
+	42	13120	1	0.03
+	43	15140	1	0.01		// Jadeitowe Buty
+	44	15160	1	0.01		// Ekstazyjne Buty
+	45	15180	1	0.01		// Deszczowe Buty
+	46	15200	1	0.01		// Buty Feniksa
+	47	15220	1	0.01		// Buty Ognistego Ptaka
+}
+Group sohanognistalas
+{
+	Mob	2201
+	Type	drop
+	1	50726	1	1
+	2	50727	1	1
+	3	130	1	0.03
+	4	131	1	0.03
+	5	132	1	0.03
+	6	133	1	0.03
+	7	1090	1	0.03
+	8	1091	1	0.03
+	9	1092	1	0.03
+	10	1093	1	0.03
+	11	2120	1	0.03
+	12	2121	1	0.03
+	13	2122	1	0.03
+	14	2123	1	0.03
+	15	3120	1	0.03
+	16	3121	1	0.03
+	17	3122	1	0.03
+	18	3123	1	0.03
+	19	5080	1	0.03
+	20	5081	1	0.03
+	21	5082	1	0.03
+	22	5083	1	0.03
+	23	7120	1	0.03
+	24	7121	1	0.03
+	25	7122	1	0.03
+	26	7123	1	0.03
+	27	11270	1	0.03
+	28	11280	1	0.03
+	29	11470	1	0.03
+	30	11480	1	0.03
+	31	11670	1	0.03
+	32	11680	1	0.03
+	33	11870	1	0.03
+	34	11880	1	0.03
+	35	12240	1	0.03
+	36	12380	1	0.03
+	37	12520	1	0.03
+	38	12660	1	0.03
+	39	13060	1	0.03
+	40	13080	1	0.03
+	41	13100	1	0.03
+	42	13120	1	0.03
+	43	15140	1	0.01		// Jadeitowe Buty
+	44	15160	1	0.01		// Ekstazyjne Buty
+	45	15180	1	0.01		// Deszczowe Buty
+	46	15200	1	0.01		// Buty Feniksa
+	47	15220	1	0.01		// Buty Ognistego Ptaka
+}
+Group sohanognistalas
+{
+	Mob	2302
+	Type	drop
+	1	50726	1	1
+	2	30192	1	0.3		// Mleczny Sok
+	3	130	1	0.03
+	4	131	1	0.03
+	5	132	1	0.03
+	6	133	1	0.03
+	7	1090	1	0.03
+	8	1091	1	0.03
+	9	1092	1	0.03
+	10	1093	1	0.03
+	11	2120	1	0.03
+	12	2121	1	0.03
+	13	2122	1	0.03
+	14	2123	1	0.03
+	15	3120	1	0.03
+	16	3121	1	0.03
+	17	3122	1	0.03
+	18	3123	1	0.03
+	19	5080	1	0.03
+	20	5081	1	0.03
+	21	5082	1	0.03
+	22	5083	1	0.03
+	23	7120	1	0.03
+	24	7121	1	0.03
+	25	7122	1	0.03
+	26	7123	1	0.03
+	27	11270	1	0.03
+	28	11280	1	0.03
+	29	11470	1	0.03
+	30	11480	1	0.03
+	31	11670	1	0.03
+	32	11680	1	0.03
+	33	11870	1	0.03
+	34	11880	1	0.03
+	35	12240	1	0.03
+	36	12380	1	0.03
+	37	12520	1	0.03
+	38	12660	1	0.03
+	39	13060	1	0.03
+	40	13080	1	0.03
+	41	13100	1	0.03
+	42	13120	1	0.03
+	43	16140	1	0.01		// Naszyjnik z Bia?ego Z?ota
+	44	16160	1	0.01		// Kryszta?owy Naszyjnik
+	45	16180	1	0.01		// Ametystowy Naszyjnik
+	46	16200	1	0.01		// Naszyjnik z Niebia?skich ?ez
+}
+Group sohanognistalas
+{
+	Mob	2303
+	Type	drop
+	1	50726	1	1
+	2	50727	1	1
+	3	30192	1	0.3		// Mleczny Sok
+	4	130	1	0.03
+	5	131	1	0.03
+	6	132	1	0.03
+	7	133	1	0.03
+	8	1090	1	0.03
+	9	1091	1	0.03
+	10	1092	1	0.03
+	11	1093	1	0.03
+	12	2120	1	0.03
+	13	2121	1	0.03
+	14	2122	1	0.03
+	15	2123	1	0.03
+	16	3120	1	0.03
+	17	3121	1	0.03
+	18	3122	1	0.03
+	19	3123	1	0.03
+	20	5080	1	0.03
+	21	5081	1	0.03
+	22	5082	1	0.03
+	23	5083	1	0.03
+	24	7120	1	0.03
+	25	7121	1	0.03
+	26	7122	1	0.03
+	27	7123	1	0.03
+	28	11270	1	0.03
+	29	11280	1	0.03
+	30	11470	1	0.03
+	31	11480	1	0.03
+	32	11670	1	0.03
+	33	11680	1	0.03
+	34	11870	1	0.03
+	35	11880	1	0.03
+	36	12240	1	0.03
+	37	12380	1	0.03
+	38	12520	1	0.03
+	39	12660	1	0.03
+	40	13060	1	0.03
+	41	13080	1	0.03
+	42	13100	1	0.03
+	43	13120	1	0.03
+	44	16140	1	0.01		// Naszyjnik z Bia?ego Z?ota
+	45	16160	1	0.01		// Kryszta?owy Naszyjnik
+	46	16180	1	0.01		// Ametystowy Naszyjnik
+	47	16200	1	0.01		// Naszyjnik z Niebia?skich ?ez
+}
+Group	sohanognistalas
+{
+	Mob	2304
+	Type	drop
+	1	50726	1	1
+	2	50727	1	1
+	3	30192	1	0.3		// Mleczny Sok
+	4	130	1	0.03
+	5	131	1	0.03
+	6	132	1	0.03
+	7	133	1	0.03
+	8	1090	1	0.03
+	9	1091	1	0.03
+	10	1092	1	0.03
+	11	1093	1	0.03
+	12	2120	1	0.03
+	13	2121	1	0.03
+	14	2122	1	0.03
+	15	2123	1	0.03
+	16	3120	1	0.03
+	17	3121	1	0.03
+	18	3122	1	0.03
+	19	3123	1	0.03
+	20	5080	1	0.03
+	21	5081	1	0.03
+	22	5082	1	0.03
+	23	5083	1	0.03
+	24	7120	1	0.03
+	25	7121	1	0.03
+	26	7122	1	0.03
+	27	7123	1	0.03
+	28	11270	1	0.03
+	29	11280	1	0.03
+	30	11470	1	0.03
+	31	11480	1	0.03
+	32	11670	1	0.03
+	33	11680	1	0.03
+	34	11870	1	0.03
+	35	11880	1	0.03
+	36	12240	1	0.03
+	37	12380	1	0.03
+	38	12520	1	0.03
+	39	12660	1	0.03
+	40	13060	1	0.03
+	41	13080	1	0.03
+	42	13100	1	0.03
+	43	13120	1	0.03
+	44	16140	1	0.01		// Naszyjnik z Bia?ego Z?ota
+	45	16160	1	0.01		// Kryszta?owy Naszyjnik
+	46	16180	1	0.01		// Ametystowy Naszyjnik
+	47	16200	1	0.01		// Naszyjnik z Niebia?skich ?ez
+}
+Group	sohanognistalas
+{
+	Mob	2305
+	Type	drop
+	1	50726	1	1
+	2	50727	1	1
+	3	30192	1	0.3		// Mleczny Sok
+	4	130	1	0.02
+	5	131	1	0.02
+	6	132	1	0.02
+	7	133	1	0.02
+	8	1090	1	0.02
+	9	1091	1	0.02
+	10	1092	1	0.02
+	11	1093	1	0.02
+	12	2120	1	0.02
+	13	2121	1	0.02
+	14	2122	1	0.02
+	15	2123	1	0.02
+	16	3120	1	0.02
+	17	3121	1	0.02
+	18	3122	1	0.02
+	19	3123	1	0.02
+	20	5080	1	0.02
+	21	5081	1	0.02
+	22	5082	1	0.02
+	23	5083	1	0.02
+	24	7120	1	0.02
+	25	7121	1	0.02
+	26	7122	1	0.02
+	27	7123	1	0.02
+	28	11270	1	0.02
+	29	11280	1	0.02
+	30	11470	1	0.02
+	31	11480	1	0.02
+	32	11670	1	0.02
+	33	11680	1	0.02
+	34	11870	1	0.02
+	35	11880	1	0.02
+	36	12240	1	0.02
+	37	12380	1	0.02
+	38	12520	1	0.02
+	39	12660	1	0.02
+	40	13060	1	0.02
+	41	13080	1	0.02
+	42	13100	1	0.02
+	43	13120	1	0.02
+	44	16140	1	0.01		// Naszyjnik z Bia?ego Z?ota
+	45	16160	1	0.01		// Kryszta?owy Naszyjnik
+	46	16180	1	0.01		// Ametystowy Naszyjnik
+	47	16200	1	0.01		// Naszyjnik z Niebia?skich ?ez
+}
+Group redlas
+{
+	Mob	2312
+	Type	drop
+	1	160	1	0.07
+	2	240	1	0.07
+	3	1110	1	0.07
+	4	2130	1	0.07
+	5	3140	1	0.07
+	6	5090	1	0.07
+	7	7130	1	0.07
+	8	11280	1	0.07
+	9	11480	1	0.07
+	10	11680	1	0.07
+	11	11880	1	0.07
+	12	17140	1	0.05		// Kolczyki z Bia?ego Z?ota
+	13	17160	1	0.05		// Kryszta?owe Kolczyki
+	14	17180	1	0.05		// Ametystowe Kolczyki
+	15	17200	1	0.05		// Kolczyki z Niebia?skich ?ez
+	16	30197	1	0.3		// Magiczne Nasiona
+}
+Group redlas
+{
+	Mob	2313
+	Type	drop
+	1	160	1	0.07
+	2	240	1	0.07
+	3	1110	1	0.07
+	4	2130	1	0.07
+	5	3140	1	0.07
+	6	5090	1	0.07
+	7	7130	1	0.07
+	8	11280	1	0.07
+	9	11480	1	0.07
+	10	11680	1	0.07
+	11	11880	1	0.07
+	12	17140	1	0.05		// Kolczyki z Bia?ego Z?ota
+	13	17160	1	0.05		// Kryszta?owe Kolczyki
+	14	17180	1	0.05		// Ametystowe Kolczyki
+	15	17200	1	0.05		// Kolczyki z Niebia?skich ?ez
+	16	30197	1	0.3		// Magiczne Nasiona
+}
+Group redlash
+{
+	Mob	2314
+	Type	drop
+	1	50727	1	0.8
+	2	140	1	0.01
+	3	141	1	0.01
+	4	142	1	0.01
+	5	143	1	0.01
+	6	150	1	0.01
+	7	151	1	0.01
+	8	152	1	0.01
+	9	153	1	0.01
+	10	160	1	0.01
+	11	161	1	0.01
+	12	162	1	0.01
+	13	163	1	0.01
+	14	240	1	0.01
+	15	241	1	0.01
+	16	242	1	0.01
+	17	243	1	0.01
+	18	1100	1	0.01
+	19	1101	1	0.01
+	20	1102	1	0.01
+	21	1103	1	0.01
+	22	1110	1	0.01
+	23	1111	1	0.01
+	24	1112	1	0.01
+	25	1113	1	0.01
+	26	2130	1	0.01
+	27	2131	1	0.01
+	28	2132	1	0.01
+	29	2133	1	0.01
+	30	2140	1	0.01
+	31	2141	1	0.01
+	32	2142	1	0.01
+	33	2143	1	0.01
+	34	3130	1	0.01
+	35	3131	1	0.01
+	36	3132	1	0.01
+	37	3133	1	0.01
+	38	3140	1	0.01
+	39	3141	1	0.01
+	40	3142	1	0.01
+	41	3143	1	0.01
+	42	5090	1	0.01
+	43	5091	1	0.01
+	44	5092	1	0.01
+	45	5093	1	0.01
+	46	7130	1	0.01
+	47	7131	1	0.01
+	48	7132	1	0.01
+	49	7133	1	0.01
+	50	7140	1	0.01
+	51	7141	1	0.01
+	52	7142	1	0.01
+	53	7143	1	0.01
+	54	11280	1	0.01
+	55	11480	1	0.01
+	56	11680	1	0.01
+	57	11880	1	0.01
+	58	17140	1	0.03		// Kolczyki z Bia?ego Z?ota
+	59	17160	1	0.03		// Kryszta?owe Kolczyki
+	60	17180	1	0.03		// Ametystowe Kolczyki
+	61	17200	1	0.03		// Kolczyki z Niebia?skich ?ez
+	62	30197	1	0.3		// Magiczne Nasiona
+}
+Group redlash
+{
+	Mob	2315
+	Type	drop
+	1	50727	1	0.8
+	2	140	1	0.01
+	3	141	1	0.01
+	4	142	1	0.01
+	5	143	1	0.01
+	6	150	1	0.01
+	7	151	1	0.01
+	8	152	1	0.01
+	9	153	1	0.01
+	10	160	1	0.01
+	11	161	1	0.01
+	12	162	1	0.01
+	13	163	1	0.01
+	14	240	1	0.01
+	15	241	1	0.01
+	16	242	1	0.01
+	17	243	1	0.01
+	18	1100	1	0.01
+	19	1101	1	0.01
+	20	1102	1	0.01
+	21	1103	1	0.01
+	22	1110	1	0.01
+	23	1111	1	0.01
+	24	1112	1	0.01
+	25	1113	1	0.01
+	26	2130	1	0.01
+	27	2131	1	0.01
+	28	2132	1	0.01
+	29	2133	1	0.01
+	30	2140	1	0.01
+	31	2141	1	0.01
+	32	2142	1	0.01
+	33	2143	1	0.01
+	34	3130	1	0.01
+	35	3131	1	0.01
+	36	3132	1	0.01
+	37	3133	1	0.01
+	38	3140	1	0.01
+	39	3141	1	0.01
+	40	3142	1	0.01
+	41	3143	1	0.01
+	42	5090	1	0.01
+	43	5091	1	0.01
+	44	5092	1	0.01
+	45	5093	1	0.01
+	46	7130	1	0.01
+	47	7131	1	0.01
+	48	7132	1	0.01
+	49	7133	1	0.01
+	50	7140	1	0.01
+	51	7141	1	0.01
+	52	7142	1	0.01
+	53	7143	1	0.01
+	54	11280	1	0.01
+	55	11480	1	0.01
+	56	11680	1	0.01
+	57	11880	1	0.01
+	58	17140	1	0.05		// Kolczyki z Bia?ego Z?ota
+	59	17160	1	0.05		// Kryszta?owe Kolczyki
+	60	17180	1	0.05		// Ametystowe Kolczyki
+	61	17200	1	0.05		// Kolczyki z Niebia?skich ?ez
+	62	30197	1	0.3		// Magiczne Nasiona
+}
+Group Amulet-Orka
+{
+	Mob 651
+	Type drop
+	1	30007	1	1.5
+}
+Group Amulet-Orka
+{
+	Mob 631
+	Type drop
+	1	30007	1	1.5
+}
+Group Amulet-Orka+
+{
+	Mob 655
+	Type drop
+	1	30076	1	1.5
+}
+Group Amulet-Orka+
+{
+	Mob 652
+	Type drop
+	1	30076	1	1.5
+}
+Group Amulet-Orka+
+{
+	Mob 633
+	Type drop
+	1	30076	1	1.5
+}
+Group Amulet-Orka+
+{
+	Mob 632
+	Type drop
+	1	30076	1	1.5
+}
+Group Amulet-Orka+
+{
+	Mob 635
+	Type drop
+	1	30076	1	1.5
+}
+Group Amulet-Orka+
+{
+	Mob 651
+	Type drop
+	1	30076	1	1.5
+}
+Group Amulet-Orka+
+{
+	Mob 631
+	Type drop
+	1	30076	1	1.5
+}
+Group Biala-Wstega
+{
+	Mob 302
+	Type drop
+	1	30034	1	1
+}
+Group Biala-Wstega
+{
+	Mob 301
+	Type drop
+	1	30034	1	1
+}
+Group Biala-Wstega
+{
+	Mob 392
+	Type drop
+	1	30034	1	1
+}
+Group Biala-Wstega
+{
+	Mob 352
+	Type drop
+	1	30034	1	1
+}
+Group Biala-Wstega
+{
+	Mob 393
+	Type drop
+	1	30034	1	1
+}
+Group Biala-Wstega+
+{
+	Mob 394
+	Type drop
+	1	30073	1	1
+}
+Group Biala-Wstega+
+{
+	Mob 398
+	Type drop
+	1	30073	1	1
+}
+Group Biala-Wstega+
+{
+	Mob 304
+	Type drop
+	1	30073	1	1
+}
+Group Biala-Wstega+
+{
+	Mob 303
+	Type drop
+	1	30073	1	1
+}
+Group Biala-Wstega+
+{
+	Mob 392
+	Type drop
+	1	30073	1	1
+}
+Group Czarny-Uniform
+{
+	Mob 401
+	Type drop
+	1	30032	1	2
+}
+Group Czarny-Uniform
+{
+	Mob 402
+	Type drop
+	1	30032	1	2
+}
+Group Czarny-Uniform+
+{
+	Mob 402
+	Type drop
+	1	30074	1	2
+}
+Group Czerwona-Wstega
+{
+	Mob 391
+	Type drop
+	1	30018	1	6
+}
+Group Czerwona-Wstega
+{
+	Mob 395
+	Type drop
+	1	30018	1	6
+}
+Group Czerwona-Wstega
+{
+	Mob 303
+	Type drop
+	1	30018	1	6
+}
+Group Ezoteryczny-Przewodnik
+{
+	Mob 701
+	Type drop
+	1	30008	1	2
+}
+Group Ezoteryczny-Przewodnik
+{
+	Mob 751
+	Type drop
+	1	30008	1	2
+}
+Group Ezoteryczny-Przewodnik+
+{
+	Mob 702
+	Type drop
+	1	30078	1	2
+}
+Group Ezoteryczny-Przewodnik+
+{
+	Mob 707
+	Type drop
+	1	30078	1	2
+}
+Group Flaga
+{
+	Mob 503
+	Type drop
+	1	30052	1	3.5
+}
+Group Flaga
+{
+	Mob 553
+	Type drop
+	1	30052	1	3.5
+}
+Group	FutroBia?egoTygrysa
+{
+	Mob 115
+	Type drop
+	1	30023	1	1
+}
+Group	FutroBia?egoTygrysa
+{
+	Mob 185
+	Type drop
+	1	30023	1	1
+}
+Group	FutroBia?egoTygrysa
+{
+	Mob 144
+	Type drop
+	1	30023	1	1
+}
+Group	Sk?raTygrysa
+{
+	Mob 114
+	Type drop
+	1	30038	1	1
+}
+Group	Sk?raTygrysa
+{
+	Mob 143
+	Type drop
+	1	30038	1	1
+}
+Group Futro-Wilka
+{
+	Mob 102
+	Type drop
+	1	30027	1	1
+}
+Group Futro-Wilka
+{
+	Mob 103
+	Type drop
+	1	30027	1	1
+}
+Group Futro-Wilka
+{
+	Mob 105
+	Type drop
+	1	30027	1	1
+}
+Group Futro-Wilka
+{
+	Mob 175
+	Type drop
+	1	30027	1	1
+}
+Group Futro-Wilka+
+{
+	Mob 106
+	Type drop
+	1	30070	1	1
+}
+Group Futro-Wilka+
+{
+	Mob 176
+	Type drop
+	1	30070	1	1
+}
+Group Futro-Wilka+
+{
+	Mob 191
+	Type drop
+	1	30070	1	1
+}
+Group Futro-Yeti
+{
+	Mob 1104
+	Type drop
+	1	30014	1	2
+}
+Group Futro-Yeti
+{
+	Mob 1134
+	Type drop
+	1	30014	1	2
+}
+Group Futro-Yeti+
+{
+	Mob 1105
+	Type drop
+	1	30089	1	2
+}
+Group Futro-Yeti+
+{
+	Mob 1135
+	Type drop
+	1	30089	1	2
+}
+Group Igla-Skorpiona
+{
+	Mob 2104
+	Type drop
+	1	30045	1	2
+}
+Group Igla-Skorpiona
+{
+	Mob 2131
+	Type drop
+	1	30045	1	2
+}
+Group J?zyk?aby
+{
+	Mob 1301
+	Type drop
+	1	30060	1	2.5
+}
+Group Kawa?ek-Klejnotu
+{
+	Mob 454
+	Type drop
+	1	30021	1	2.5
+}
+Group Kawa?ek-Klejnotu
+{
+	Mob 404
+	Type drop
+	1	30021	1	2.5
+}
+Group Kawa?ek-Klejnotu
+{
+	Mob 456
+	Type drop
+	1	30021	1	2.5
+}
+Group Kawa?ek-Lodu
+{
+	Mob 1101
+	Type drop
+	1	30048	1	2.5
+}
+Group Kawa?ek-Lodu
+{
+	Mob 1171
+	Type drop
+	1	30048	1	2.5
+}
+Group Kawa?ek-Lodu+
+{
+	Mob 1103
+	Type drop
+	1	30088	1	2.5
+}
+Group Kawa?ek-Lodu+
+{
+	Mob 1133
+	Type drop
+	1	30088	1	2.5
+}
+Group Kawa?ekP??tna
+{
+	Mob 904
+	Type drop
+	1	30039	1	3
+}
+Group Kawa?ekP??tna+
+{
+	Mob 905
+	Type drop
+	1	30085	1	3
+}
+Group Kawa?ekZepsutejZbroi
+{
+	Mob 455
+	Type drop
+	1	30005	1	1.5
+}
+Group Kawa?ekZepsutejZbroi
+{
+	Mob 404
+	Type drop
+	1	30005	1	1.5
+}
+Group Kawa?ekZepsutejZbroi
+{
+	Mob 405
+	Type drop
+	1	30005	1	1.5
+}
+Group Kawa?ekZepsutejZbroi
+{
+	Mob 431
+	Type drop
+	1	30005	1	1.5
+}
+Group K??b
+{
+	Mob 351
+	Type drop
+	1	30011	1	1
+}
+Group K??b
+{
+	Mob 3514
+	Type drop
+	1	30011	1	1
+}
+Group K??b
+{
+	Mob 303
+	Type drop
+	1	30011	1	1
+}
+Group KlejnotDemona
+{
+	Mob 1003
+	Type drop
+	1	30016	1	1.5
+}
+Group KlejnotDemona+
+{
+	Mob 1002
+	Type drop
+	1	30087	1	2.5
+}
+Group KremDoTwarzy
+{
+	Mob 397
+	Type drop
+	1	30035	1	1
+}
+Group KremDoTwarzy
+{
+	Mob 393
+	Type drop
+	1	30035	1	1
+}
+Group KremDoTwarzy
+{
+	Mob 394
+	Type drop
+	1	30035	1	1
+}
+Group KsKlatw
+{
+	Mob 706
+	Type drop
+	1	30047	1	1.7
+}
+Group KsKlatw
+{
+	Mob 756
+	Type drop
+	1	30047	1	1.7
+}
+Group KsKlatw
+{
+	Mob 707
+	Type drop
+	1	30047	1	1.7
+}
+Group KsKlatw
+{
+	Mob 757
+	Type drop
+	1	30047	1	1.7
+}
+Group KsKlatw+
+{
+	Mob 773
+	Type drop
+	1	30080	1	1.7
+}
+Group KsKlatw+
+{
+	Mob 775
+	Type drop
+	1	30080	1	1.7
+}
+Group KsKlatw+
+{
+	Mob 735
+	Type drop
+	1	30080	1	1.7
+}
+Group KsKlatw+
+{
+	Mob 736
+	Type drop
+	1	30080	1	1.7
+}
+Group KsKlatw+
+{
+	Mob 776
+	Type drop
+	1	30080	1	1.7
+}
+Group KsKlatw+
+{
+	Mob 777
+	Type drop
+	1	30080	1	1.7
+}
+Group Li??
+{
+	Mob 1301
+	Type drop
+	1	30040	1	2
+}
+Group Li??
+{
+	Mob 1303
+	Type drop
+	1	30040	1	2
+}
+Group LodowaKulka
+{
+	Mob 1107
+	Type drop
+	1	30050	1	2
+}
+Group LodowaKulka+
+{
+	Mob 1106
+	Type drop
+	1	30090	1	2
+}
+Group LodowyR?gWieloryba
+{
+	Mob 1102
+	Type drop
+	1	30049	1	2
+}
+Group Nied?wiedziaSk?ra
+{
+	Mob 110
+	Type drop
+	1	30053	1	1
+}
+Group Nied?wiedziaSk?ra
+{
+	Mob 112
+	Type drop
+	1	30053	1	1
+}
+Group Nied?wiedziaSk?ra
+{
+	Mob 182
+	Type drop
+	1	30053	1	1
+}
+Group Nied?wiedziaSk?ra
+{
+	Mob 141
+	Type drop
+	1	30053	1	1
+}
+Group Nied?wiedziaSk?ra+
+{
+	Mob 113
+	Type drop
+	1	30072	1	1
+}
+Group Nied?wiedziaSk?ra+
+{
+	Mob 183
+	Type drop
+	1	30072	1	1
+}
+Group Nied?wiedziaSk?ra+
+{
+	Mob 142
+	Type drop
+	1	30072	1	1
+}
+Group Nied?wiedziaSk?ra+
+{
+	Mob 193
+	Type drop
+	1	30072	1	1
+}
+Group Nieznane-Lekarstwo
+{
+	Mob 902
+	Type drop
+	1	30009	1	3
+}
+Group Nieznane-Lekarstwo
+{
+	Mob 901
+	Type drop
+	1	30009	1	3
+}
+Group Nieznane-Lekarstwo
+{
+	Mob 931
+	Type drop
+	1	30009	1	3
+}
+Group Nieznane-Lekarstwo+
+{
+	Mob 902
+	Type drop
+	1	30083	1	3
+}
+Group Nieznane-Lekarstwo+
+{
+	Mob 903
+	Type drop
+	1	30083	1	3
+}
+Group Nieznane-Lekarstwo+
+{
+	Mob 933
+	Type drop
+	1	30083	1	3
+}
+Group Nieznany-Talizman
+{
+	Mob 704
+	Type drop
+	1	30051	1	3
+}
+Group Nieznany-Talizman+
+{
+	Mob 755
+	Type drop
+	1	30079	1	2
+}
+Group Nieznany-Talizman+
+{
+	Mob 734
+	Type drop
+	1	30079	1	2
+}
+Group Nieznany-Talizman+
+{
+	Mob 705
+	Type drop
+	1	30079	1	2
+}
+Group Nieznany-Talizman+
+{
+	Mob 774
+	Type drop
+	1	30079	1	2
+}
+Group Nogi-Pajaka
+{
+	Mob 2005
+	Type drop
+	1	30059	1	2
+}
+Group Nogi-Pajaka
+{
+	Mob 2004
+	Type drop
+	1	30059	1	2
+}
+Group Nos-Swini
+{
+	Mob 109
+	Type drop
+	1	30003	1	1
+}
+Group Nos-Swini
+{
+	Mob 179
+	Type drop
+	1	30003	1	1
+}
+Group Nos-Swini
+{
+	Mob 138
+	Type drop
+	1	30003	1	1
+}
+Group Oczy-Paj?ka
+{
+	Mob 2001
+	Type drop
+	1	30057	1	3
+}
+Group Oczy-Paj?ka
+{
+	Mob 2051
+	Type drop
+	1	30057	1	3
+}
+Group OgonSkorpiona
+{
+	Mob 2103
+	Type drop
+	1	30046	1	2
+	2	30081	1	2
+}
+Group OgonWeza
+{
+	Mob 2106
+	Type drop
+	1	30022	1	2
+}
+Group OgonWeza+
+{
+	Mob 2107
+	Type drop
+	1	30082	1	2
+}
+Group Ornament
+{
+	Mob 302
+	Type drop
+	1	30031	1	1
+}
+Group Spinka
+{
+	Mob 392
+	Type drop
+	1	30017	1	1
+}
+Group Spinka
+{
+	Mob 396
+	Type drop
+	1	30017	1	1
+}
+Group Pajecza-Siec
+{
+	Mob 2052
+	Type drop
+	1	30056	1	2
+}
+Group Pajecza-Siec
+{
+	Mob 2002
+	Type drop
+	1	30056	1	2
+}
+Group Skora-Weza
+{
+	Mob 2107
+	Type drop
+	1	30067	1	2
+}
+Group Pami?tka-Po-Demonie
+{
+	Mob 1001
+	Type drop
+	1	30015	1	1.5
+}
+Group Pami?tka-Po-Demonie+
+{
+	Mob 1004
+	Type drop
+	1	30086	1	2
+}
+Group Pazur-Tygrysa
+{
+	Mob 2201
+	Type drop
+	1	30042	1	2
+}
+Group Pazur-Tygrysa
+{
+	Mob 2203
+	Type drop
+	1	30042	1	2
+}
+Group Grzywa
+{
+	Mob 2204
+	Type drop
+	1	30019	1	2
+}
+Group Shuriken
+{
+	Mob 502
+	Type drop
+	1	30041	1	1
+}
+Group Shuriken
+{
+	Mob 501
+	Type drop
+	1	30041	1	1
+}
+Group Shuriken+
+{
+	Mob 531
+	Type drop
+	1	30075	1	5
+}
+Group Shuriken+
+{
+	Mob 532
+	Type drop
+	1	30075	1	5
+}
+Group Shuriken+
+{
+	Mob 533
+	Type drop
+	1	30075	1	5
+}
+Group Shuriken+
+{
+	Mob 534
+	Type drop
+	1	30075	1	5
+}
+Group Symbol-Wojownika
+{
+	Mob 2205
+	Type drop
+	1	30091	1	2
+}
+Group SzponSkorpiona
+{
+	Mob 2105
+	Type drop
+	1	30055	1	2
+}
+Group SzponWilka
+{
+	Mob 102
+	Type drop
+	1	30028	1	1
+}
+Group SzponWilka
+{
+	Mob 172
+	Type drop
+	1	30028	1	1
+}
+Group SzponWilka
+{
+	Mob 103
+	Type drop
+	1	30028	1	1
+}
+Group SzponWilka
+{
+	Mob 106
+	Type drop
+	1	30028	1	1
+}
+Group SzponWilka+
+{
+	Mob 173
+	Type drop
+	1	30069	1	0.70
+}
+Group Worek-Trucizn?
+{
+	Mob 2003
+	Type drop
+	1	30025	1	3
+}
+Group Worek-Trucizn?
+{
+	Mob 2053
+	Type drop
+	1	30025	1	3
+}
+Group Woreczek-Jaj
+{
+	Mob 2054
+	Type drop
+	1	30058	1	3
+}
+Group Zardzewia?e-Ostrze
+{
+	Mob 406
+	Type drop
+	1	30030	1	2
+}
+Group Zardzewia?e-Ostrze
+{
+	Mob 456
+	Type drop
+	1	30030	1	2
+}
+Group Z?b-Orka
+{
+	Mob 601
+	Type drop
+	1	30006	1	1
+}
+Group Z?b-Orka
+{
+	Mob 602
+	Type drop
+	1	30006	1	1
+}
+Group Z?b-Orka
+{
+	Mob 636
+	Type drop
+	1	30006	1	1
+}
+Group Z?b-Orka
+{
+	Mob 656
+	Type drop
+	1	30006	1	1
+}
+Group Z?b-Orka+
+{
+	Mob 657
+	Type drop
+	1	30077	1	2
+}
+Group Z?b-Orka+
+{
+	Mob 637
+	Type drop
+	1	30077	1	2
+}
+Group ?abie-Udka
+{
+	Mob 1302
+	Type drop
+	1	30116	1	2.5
+}
+Group ?abie-Udka
+{
+	Mob 1332
+	Type drop
+	1	30116	1	2.5
+}
+Group ???
+{
+	Mob 110
+	Type drop
+	1	30010	1	1
+}
+Group ???
+{
+	Mob 180
+	Type drop
+	1	30010	1	1
+}
+Group ???
+{
+	Mob 139
+	Type drop
+	1	30010	1	1
+}
+Group ???+
+{
+	Mob 111
+	Type drop
+	1	30071	1	1
+}
+Group ???+
+{
+	Mob 181
+	Type drop
+	1	30071	1	1
+}
+Group ???+
+{
+	Mob 182
+	Type drop
+	1	30071	1	1
+}
+Group ???+
+{
+	Mob 140
+	Type drop
+	1	30071	1	1
+}
+Group Piasek-Kwarcowy
+{
+	Mob 1502
+	Type drop
+	1	30195	1	6
+}
+Group Piasek-Kwarcowy
+{
+	Mob 1503
+	Type drop
+	1	30195	1	6
+}
+Group Piasek-Kwarcowy
+{
+	Mob 1501
+	Type drop
+	1	30195	1	6
+}
+Group Orkowa-Maczuga
+{
+	Mob 1602
+	Type drop
+	1	30194	1	6
+}
+Group Orkowa-Maczuga
+{
+	Mob 1603
+	Type drop
+	1	30194	1	6
+}
+Group Orkowa-Maczuga
+{
+	Mob 1601
+	Type drop
+	1	30194	1	6
+}
+Group Kosc-Palca
+{
+	Mob 1061
+	Type drop
+	1	30193	1	0.5
+}
+Group Kosc-Palca
+{
+	Mob 1062
+	Type drop
+	1	30193	1	0.5
+}
+Group Kosc-Palca
+{
+	Mob 1063
+	Type drop
+	1	30193	1	0.5
+}
+Group Kosc-Palca
+{
+	Mob 1064
+	Type drop
+	1	30193	1	0.5
+}
+Group Wilki
+{
+	Mob 101
+	Type drop
+	1	50723	1	0.5
+	2	10	1	0.2
+	3	20	1	0.2
+	4	30	1	0.2
+	5	3000	1	0.2
+	6	3010	1	0.2
+	7	3020	1	0.2
+	8	1000	1	0.2
+	9	1010	1	0.2
+	10	4000	1	0.2
+	11	2000	1	0.2
+	12	2010	1	0.2
+	13	2020	1	0.2
+	14	5000	1	0.2
+	15	5010	1	0.2
+	16	7000	1	0.2
+	17	7010	1	0.2
+	18	7020	1	0.2
+}
+Group Wilki
+{
+	Mob 102
+	Type drop
+	1	50723	1	0.5
+	2	10	1	0.2
+	3	20	1	0.2
+	4	30	1	0.2
+	5	3000	1	0.2
+	6	3010	1	0.2
+	7	3020	1	0.2
+	8	1000	1	0.2
+	9	1010	1	0.2
+	10	4000	1	0.2
+	11	2000	1	0.2
+	12	2010	1	0.2
+	13	2020	1	0.2
+	14	5000	1	0.2
+	15	5010	1	0.2
+	16	7000	1	0.2
+	17	7010	1	0.2
+	18	7020	1	0.2
+}
+Group Wilki
+{
+	Mob 103
+	Type drop
+	1	50723	1	0.5
+	2	10	1	0.2
+	3	20	1	0.2
+	4	30	1	0.2
+	5	3000	1	0.2
+	6	3010	1	0.2
+	7	3020	1	0.2
+	8	1000	1	0.2
+	9	1010	1	0.2
+	10	4000	1	0.2
+	11	2000	1	0.2
+	12	2010	1	0.2
+	13	2020	1	0.2
+	14	5000	1	0.2
+	15	5010	1	0.2
+	16	7000	1	0.2
+	17	7010	1	0.2
+	18	7020	1	0.2
+}
+Group Wilki
+{
+	Mob 104
+	Type drop
+	1	50723	1	0.5
+	2	10	1	0.2
+	3	20	1	0.2
+	4	30	1	0.2
+	5	3000	1	0.2
+	6	3010	1	0.2
+	7	3020	1	0.2
+	8	1000	1	0.2
+	9	1010	1	0.2
+	10	4000	1	0.2
+	11	2000	1	0.2
+	12	2010	1	0.2
+	13	2020	1	0.2
+	14	5000	1	0.2
+	15	5010	1	0.2
+	16	7000	1	0.2
+	17	7010	1	0.2
+	18	7020	1	0.2
+}
+Group Wilki
+{
+	Mob 105
+	Type drop
+	1	50723	1	0.5
+	2	10	1	0.2
+	3	20	1	0.2
+	4	30	1	0.2
+	5	3000	1	0.2
+	6	3010	1	0.2
+	7	3020	1	0.2
+	8	1000	1	0.2
+	9	1010	1	0.2
+	10	4000	1	0.2
+	11	2000	1	0.2
+	12	2010	1	0.2
+	13	2020	1	0.2
+	14	5000	1	0.2
+	15	5010	1	0.2
+	16	7000	1	0.2
+	17	7010	1	0.2
+	18	7020	1	0.2
+}
+Group Wilki
+{
+	Mob 106
+	Type drop
+	1	50723	1	0.5
+	2	10	1	0.2
+	3	20	1	0.2
+	4	30	1	0.2
+	5	3000	1	0.2
+	6	3010	1	0.2
+	7	3020	1	0.2
+	8	1000	1	0.2
+	9	1010	1	0.2
+	10	4000	1	0.2
+	11	2000	1	0.2
+	12	2010	1	0.2
+	13	2020	1	0.2
+	14	5000	1	0.2
+	15	5010	1	0.2
+	16	7000	1	0.2
+	17	7010	1	0.2
+	18	7020	1	0.2
+}
+Group Wilki
+{
+	Mob 107
+	Type drop
+	1	50723	1	0.5
+	2	10	1	0.2
+	3	20	1	0.2
+	4	30	1	0.2
+	5	3000	1	0.2
+	6	3010	1	0.2
+	7	3020	1	0.2
+	8	1000	1	0.2
+	9	1010	1	0.2
+	10	4000	1	0.2
+	11	2000	1	0.2
+	12	2010	1	0.2
+	13	2020	1	0.2
+	14	5000	1	0.2
+	15	5010	1	0.2
+	16	7000	1	0.2
+	17	7010	1	0.2
+	18	7020	1	0.2
+}
+Group Wilki
+{
+	Mob 171
+	Type drop
+	1	50723	1	0.5
+	2	10	1	0.2
+	3	20	1	0.2
+	4	30	1	0.2
+	5	3000	1	0.2
+	6	3010	1	0.2
+	7	3020	1	0.2
+	8	1000	1	0.2
+	9	1010	1	0.2
+	10	4000	1	0.2
+	11	2000	1	0.2
+	12	2010	1	0.2
+	13	2020	1	0.2
+	14	5000	1	0.2
+	15	5010	1	0.2
+	16	7000	1	0.2
+	17	7010	1	0.2
+	18	7020	1	0.2
+}
+Group Wilki
+{
+	Mob 172
+	Type drop
+	1	50723	1	0.5
+	2	10	1	0.2
+	3	20	1	0.2
+	4	30	1	0.2
+	5	3000	1	0.2
+	6	3010	1	0.2
+	7	3020	1	0.2
+	8	1000	1	0.2
+	9	1010	1	0.2
+	10	4000	1	0.2
+	11	2000	1	0.2
+	12	2010	1	0.2
+	13	2020	1	0.2
+	14	5000	1	0.2
+	15	5010	1	0.2
+	16	7000	1	0.2
+	17	7010	1	0.2
+	18	7020	1	0.2
+}
+Group Wilki
+{
+	Mob 173
+	Type drop
+	1	50723	1	0.5
+	2	10	1	0.2
+	3	20	1	0.2
+	4	30	1	0.2
+	5	3000	1	0.2
+	6	3010	1	0.2
+	7	3020	1	0.2
+	8	1000	1	0.2
+	9	1010	1	0.2
+	10	4000	1	0.2
+	11	2000	1	0.2
+	12	2010	1	0.2
+	13	2020	1	0.2
+	14	5000	1	0.2
+	15	5010	1	0.2
+	16	7000	1	0.2
+	17	7010	1	0.2
+	18	7020	1	0.2
+}
+Group Wilki
+{
+	Mob 174
+	Type drop
+	1	50723	1	0.5
+	2	10	1	0.2
+	3	20	1	0.2
+	4	30	1	0.2
+	5	3000	1	0.2
+	6	3010	1	0.2
+	7	3020	1	0.2
+	8	1000	1	0.2
+	9	1010	1	0.2
+	10	4000	1	0.2
+	11	2000	1	0.2
+	12	2010	1	0.2
+	13	2020	1	0.2
+	14	5000	1	0.2
+	15	5010	1	0.2
+	16	7000	1	0.2
+	17	7010	1	0.2
+	18	7020	1	0.2
+}
+Group Wilki
+{
+	Mob 175
+	Type drop
+	1	50723	1	0.5
+	2	10	1	0.2
+	3	20	1	0.2
+	4	30	1	0.2
+	5	3000	1	0.2
+	6	3010	1	0.2
+	7	3020	1	0.2
+	8	1000	1	0.2
+	9	1010	1	0.2
+	10	4000	1	0.2
+	11	2000	1	0.2
+	12	2010	1	0.2
+	13	2020	1	0.2
+	14	5000	1	0.2
+	15	5010	1	0.2
+	16	7000	1	0.2
+	17	7010	1	0.2
+	18	7020	1	0.2
+}
+Group Wilki
+{
+	Mob 176
+	Type drop
+	1	50723	1	0.5
+	2	10	1	0.2
+	3	20	1	0.2
+	4	30	1	0.2
+	5	3000	1	0.2
+	6	3010	1	0.2
+	7	3020	1	0.2
+	8	1000	1	0.2
+	9	1010	1	0.2
+	10	4000	1	0.2
+	11	2000	1	0.2
+	12	2010	1	0.2
+	13	2020	1	0.2
+	14	5000	1	0.2
+	15	5010	1	0.2
+	16	7000	1	0.2
+	17	7010	1	0.2
+	
+}
+Group Wilki
+{
+	Mob 177
+	Type drop
+	1	50723	1	0.5
+	2	10	1	0.2
+	3	20	1	0.2
+	4	30	1	0.2
+	5	3000	1	0.2
+	6	3010	1	0.2
+	7	3020	1	0.2
+	8	1000	1	0.2
+	9	1010	1	0.2
+	10	4000	1	0.2
+	11	2000	1	0.2
+	12	2010	1	0.2
+	13	2020	1	0.2
+	14	5000	1	0.2
+	15	5010	1	0.2
+	16	7000	1	0.2
+	17	7010	1	0.2
+	18	7020	1	0.2
+}
+Group Niedzwiedzie-Lwy
+{
+	Mob 108
+	Type drop
+	1	50721	1	0.8
+	2	40	1	0.2
+	3	50	1	0.2
+	4	3030	1	0.2
+	5	3040	1	0.2
+	6	4010	1	0.2
+	7	1020	1	0.2
+	8	2030	1	0.2
+	9	2040	1	0.2
+	10	5010	1	0.2
+	11	5020	1	0.2
+	12	7030	1	0.2
+	13	7040	1	0.2
+}
+Group Niedzwiedzie-Lwy
+{
+	Mob 109
+	Type drop
+	1	50721	1	0.8
+	2	40	1	0.2
+	3	50	1	0.2
+	4	3030	1	0.2
+	5	3040	1	0.2
+	6	4010	1	0.2
+	7	1020	1	0.2
+	8	2030	1	0.2
+	9	2040	1	0.2
+	10	5010	1	0.2
+	11	5020	1	0.2
+	12	7030	1	0.2
+	13	7040	1	0.2
+}
+Group Niedzwiedzie-Lwy
+{
+	Mob 110
+	Type drop
+	1	50721	1	0.8
+	2	40	1	0.2
+	3	50	1	0.2
+	4	3030	1	0.2
+	5	3040	1	0.2
+	6	4010	1	0.2
+	7	1020	1	0.2
+	8	2030	1	0.2
+	9	2040	1	0.2
+	10	5010	1	0.2
+	11	5020	1	0.2
+	12	7030	1	0.2
+	13	7040	1	0.2
+}
+Group Niedzwiedzie-Lwy
+{
+	Mob 111
+	Type drop
+	1	50721	1	0.8
+	2	40	1	0.2
+	3	50	1	0.2
+	4	3030	1	0.2
+	5	3040	1	0.2
+	6	4010	1	0.2
+	7	1020	1	0.2
+	8	2030	1	0.2
+	9	2040	1	0.2
+	10	5010	1	0.2
+	11	5020	1	0.2
+	12	7030	1	0.2
+	13	7040	1	0.2
+}
+Group Niedzwiedzie-Lwy
+{
+	Mob 112
+	Type drop
+	1	50721	1	0.8
+	2	40	1	0.2
+	3	50	1	0.2
+	4	3030	1	0.2
+	5	3040	1	0.2
+	6	4010	1	0.2
+	7	1020	1	0.2
+	8	2030	1	0.2
+	9	2040	1	0.2
+	10	5010	1	0.2
+	11	5020	1	0.2
+	12	7030	1	0.2
+	13	7040	1	0.2
+}
+Group Niedzwiedzie-Lwy
+{
+	Mob 113
+	Type drop
+	1	50721	1	0.8
+	2	40	1	0.2
+	3	50	1	0.2
+	4	3030	1	0.2
+	5	3040	1	0.2
+	6	4010	1	0.2
+	7	1020	1	0.2
+	8	2030	1	0.2
+	9	2040	1	0.2
+	10	5010	1	0.2
+	11	5020	1	0.2
+	12	7030	1	0.2
+	13	7040	1	0.2
+}
+Group Niedzwiedzie-Lwy
+{
+	Mob 114
+	Type drop
+	1	50721	1	0.8
+	2	40	1	0.2
+	3	50	1	0.2
+	4	3030	1	0.2
+	5	3040	1	0.2
+	6	4010	1	0.2
+	7	1020	1	0.2
+	8	2030	1	0.2
+	9	2040	1	0.2
+	10	5010	1	0.2
+	11	5020	1	0.2
+	12	7030	1	0.2
+	13	7040	1	0.2
+}
+Group Niedzwiedzie-Lwy
+{
+	Mob 115
+	Type drop
+	1	50721	1	0.8
+	2	40	1	0.2
+	3	50	1	0.2
+	4	3030	1	0.2
+	5	3040	1	0.2
+	6	4010	1	0.2
+	7	1020	1	0.2
+	8	2030	1	0.2
+	9	2040	1	0.2
+	10	5010	1	0.2
+	11	5020	1	0.2
+	12	7030	1	0.2
+	13	7040	1	0.2
+}
+Group Niedzwiedzie-Lwy
+{
+	Mob 178
+	Type drop
+	1	50721	1	0.8
+	2	40	1	0.2
+	3	50	1	0.2
+	4	3030	1	0.2
+	5	3040	1	0.2
+	6	4010	1	0.2
+	7	1020	1	0.2
+	8	2030	1	0.2
+	9	2040	1	0.2
+	10	5010	1	0.2
+	11	5020	1	0.2
+	12	7030	1	0.2
+	13	7040	1	0.2
+}
+Group Niedzwiedzie-Lwy
+{
+	Mob 179
+	Type drop
+	1	50721	1	0.8
+	2	40	1	0.2
+	3	50	1	0.2
+	4	3030	1	0.2
+	5	3040	1	0.2
+	6	4010	1	0.2
+	7	1020	1	0.2
+	8	2030	1	0.2
+	9	2040	1	0.2
+	10	5010	1	0.2
+	11	5020	1	0.2
+	12	7030	1	0.2
+	13	7040	1	0.2
+}
+Group Niedzwiedzie-Lwy
+{
+	Mob 180
+	Type drop
+	1	50721	1	0.8
+	2	40	1	0.2
+	3	50	1	0.2
+	4	3030	1	0.2
+	5	3040	1	0.2
+	6	4010	1	0.2
+	7	1020	1	0.2
+	8	2030	1	0.2
+	9	2040	1	0.2
+	10	5010	1	0.2
+	11	5020	1	0.2
+	12	7030	1	0.2
+	13	7040	1	0.2
+}
+Group Niedzwiedzie-Lwy
+{
+	Mob 181
+	Type drop
+	1	50721	1	0.8
+	2	40	1	0.2
+	3	50	1	0.2
+	4	3030	1	0.2
+	5	3040	1	0.2
+	6	4010	1	0.2
+	7	1020	1	0.2
+	8	2030	1	0.2
+	9	2040	1	0.2
+	10	5010	1	0.2
+	11	5020	1	0.2
+	12	7030	1	0.2
+	13	7040	1	0.2
+}
+Group Niedzwiedzie-Lwy
+{
+	Mob 182
+	Type drop
+	1	50721	1	0.5
+	2	40	1	0.2
+	3	50	1	0.2
+	4	3030	1	0.2
+	5	3040	1	0.2
+	6	4010	1	0.2
+	7	1020	1	0.2
+	8	2030	1	0.2
+	9	2040	1	0.2
+	10	5010	1	0.2
+	11	5020	1	0.2
+	12	7030	1	0.2
+	13	7040	1	0.2
+}
+Group Niedzwiedzie-Lwy
+{
+	Mob 183
+	Type drop
+	1	50721	1	0.5
+	2	40	1	0.2
+	3	50	1	0.2
+	4	3030	1	0.2
+	5	3040	1	0.2
+	6	4010	1	0.2
+	7	1020	1	0.2
+	8	2030	1	0.2
+	9	2040	1	0.2
+	10	5010	1	0.2
+	11	5020	1	0.2
+	12	7030	1	0.2
+	13	7040	1	0.2
+}
+Group Niedzwiedzie-Lwy
+{
+	Mob 184
+	Type drop
+	1	50721	1	0.5
+	2	40	1	0.2
+	3	50	1	0.2
+	4	3030	1	0.2
+	5	3040	1	0.2
+	6	4010	1	0.2
+	7	1020	1	0.2
+	8	2030	1	0.2
+	9	2040	1	0.2
+	10	5010	1	0.2
+	11	5020	1	0.2
+	12	7030	1	0.2
+	13	7040	1	0.2
+}
+Group Niedzwiedzie-Lwy
+{
+	Mob 185
+	Type drop
+	1	50721	1	0.5
+	2	40	1	0.2
+	3	50	1	0.2
+	4	3030	1	0.2
+	5	3040	1	0.2
+	6	4010	1	0.2
+	7	1020	1	0.2
+	8	2030	1	0.2
+	9	2040	1	0.2
+	10	5010	1	0.2
+	11	5020	1	0.2
+	12	7030	1	0.2
+	13	7040	1	0.2
+}
+Group Zaprzysiezone
+{
+	Mob 301
+	Type drop
+	1	50722	1	0.5
+	2	13003	1	0.2
+	3	13020	1	0.2
+	4	12220	1	0.2
+	5	12360	1	0.2
+	6	12500	1	0.2
+	7	12640	1	0.2
+	8	50	1	0.2
+	9	3040	1	0.2
+	10	5020	1	0.2
+	11	7040	1	0.2
+	12	2040	1	0.2
+	13	1020	1	0.2
+}
+Group Zaprzysiezone
+{
+	Mob 302
+	Type drop
+	1	50722	1	0.5
+	2	13003	1	0.2
+	3	13020	1	0.2
+	4	12220	1	0.2
+	5	12360	1	0.2
+	6	12500	1	0.2
+	7	12640	1	0.2
+	8	50	1	0.2
+	9	3040	1	0.2
+	10	5020	1	0.2
+	11	7040	1	0.2
+	12	2040	1	0.2
+	13	1020	1	0.2
+}
+Group Zaprzysiezone
+{
+	Mob 303
+	Type drop
+	1	50722	1	0.5
+	2	13003	1	0.2
+	3	13020	1	0.2
+	4	12220	1	0.2
+	5	12360	1	0.2
+	6	12500	1	0.2
+	7	12640	1	0.2
+	8	50	1	0.2
+	9	3040	1	0.2
+	10	5020	1	0.2
+	11	7040	1	0.2
+	12	2040	1	0.2
+	13	1020	1	0.2
+}
+Group Zaprzysiezone
+{
+	Mob 304
+	Type drop
+	1	50722	1	0.5
+	2	13003	1	0.2
+	3	13020	1	0.2
+	4	12220	1	0.2
+	5	12360	1	0.2
+	6	12500	1	0.2
+	7	12640	1	0.2
+	8	50	1	0.2
+	9	3040	1	0.2
+	10	5020	1	0.2
+	11	7040	1	0.2
+	12	2040	1	0.2
+	13	1020	1	0.2
+}
+Group Zaprzysiezone
+{
+	Mob 351
+	Type drop
+	1	50722	1	0.5
+	2	13003	1	0.2
+	3	13020	1	0.2
+	4	12220	1	0.2
+	5	12360	1	0.2
+	6	12500	1	0.2
+	7	12640	1	0.2
+	8	50	1	0.2
+	9	3040	1	0.2
+	10	5020	1	0.2
+	11	7040	1	0.2
+	12	2040	1	0.2
+	13	1020	1	0.2
+}
+Group Zaprzysiezone
+{
+	Mob 352
+	Type drop
+	1	50722	1	0.5
+	2	13003	1	0.2
+	3	13020	1	0.2
+	4	12220	1	0.2
+	5	12360	1	0.2
+	6	12500	1	0.2
+	7	12640	1	0.2
+	8	50	1	0.2
+	9	3040	1	0.2
+	10	5020	1	0.2
+	11	7040	1	0.2
+	12	2040	1	0.2
+	13	1020	1	0.2
+}
+Group Zaprzysiezone
+{
+	Mob 353
+	Type drop
+	1	50722	1	0.5
+	2	13003	1	0.2
+	3	13020	1	0.2
+	4	12220	1	0.2
+	5	12360	1	0.2
+	6	12500	1	0.2
+	7	12640	1	0.2
+	8	50	1	0.2
+	9	3040	1	0.2
+	10	5020	1	0.2
+	11	7040	1	0.2
+	12	2040	1	0.2
+	13	1020	1	0.2
+}
+Group Zaprzysiezone
+{
+	Mob 354
+	Type drop
+	1	50722	1	0.5
+	2	13003	1	0.2
+	3	13020	1	0.2
+	4	12220	1	0.2
+	5	12360	1	0.2
+	6	12500	1	0.2
+	7	12640	1	0.2
+	8	50	1	0.2
+	9	3040	1	0.2
+	10	5020	1	0.2
+	11	7040	1	0.2
+	12	2040	1	0.2
+	13	1020	1	0.2
+}
+Group Mi-Jung
+{
+  Mob 391
+	Type drop
+	1	27003	15	25
+	2	27006	15	25
+	3	50727	1	3
+	4	17003	1	0.1
+	5	17022	1	0.1
+	6	17040	1	0.1
+}
+Group Eun-Jung
+{
+  Mob 392
+	Type drop
+	1	27003	15	25
+	2	27006	15	25
+	3	50725	1	3
+	4	16003	1	0.1
+	5	16022	1	0.1
+	6	16040	1	0.1
+}
+Group Se-Rang
+{
+  Mob 393
+	Type drop
+	1	27003	25	45
+	2	27006	25	45
+	3	50724	1	3
+	4	27101	1	2.5
+	5	27104	1	2.5
+	6	14003	1	0.1
+	7	14022	1	0.1
+	8	14040	1	0.1
+}
+Group Jin-Hee
+{
+  Mob 394
+	Type drop
+	1	27003	25	45
+	2	27006	25	45
+	3	50726	1	3
+	4	27101	1	2.5
+	5	27104	1	2.5
+	6	15003	1	0.1
+	7	15022	1	0.1
+	8	15040	1	0.1
+}
+Group Scrofa
+{
+	Mob		192
+	Type	drop
+	1	70057	2	100		// Peleryny
+	2	71151	1	100		// Zmianki-Zielone
+	3	71152	1	80		// Wzmocnienie-Zielone
+	4	27101	1	50		// Zielona Mikstura S
+	5	27104	1	50		// Fioletowa Mikstura S
+	6	71044	1	22		// Dlon Krytyka
+	7	71045	1	22		// Dlon Przebicia
+	8	54	1	15		// Szeroki Miecz+4
+	9	3044	1	15		// Gizarma+4
+	10	1024	1	15		// Sztylet No?ycowy+4
+	11	5024	1	15		// Z?oty Dzwon+4
+	12	25040	1	4		// Zwoj Blogoslawienstwa
+}
+Group Bera
+{
+	Mob		193
+	Type	drop
+	1	70057	2	100		// Peleryny
+	2	71151	1	100		// Zmianki-Zielone
+	3	71152	1	80		// Wzmocnienie-Zielone
+	4	27101	1	50		// Zielona Mikstura S
+	5	27104	1	50		// Fioletowa Mikstura S
+	6	71044	1	22		// Dlon Krytyka
+	7	71045	1	22		// Dlon Przebicia
+	8	54	1	15		// Szeroki Miecz+4
+	9	3044	1	15		// Gizarma+4
+	10	1024	1	15		// Sztylet No?ycowy+4
+	11	5024	1	15		// Z?oty Dzwon+4
+	12	25040	1	4		// Zwoj Blogoslawienstwa
+}
+Group Tigris
+{
+	Mob		194
+	Type	drop
+	1	70057	2	100		// Peleryny
+	2	71151	1	100		// Zmianki-Zielone
+	3	71152	1	80		// Wzmocnienie-Zielone
+	4	27101	1	50		// Zielona Mikstura S
+	5	27104	1	50		// Fioletowa Mikstura S
+	6	71044	1	22		// Dlon Krytyka
+	7	71045	1	22		// Dlon Przebicia
+	8	54	1	15		// Szeroki Miecz+4
+	9	3044	1	15		// Gizarma+4
+	10	1024	1	15		// Sztylet No?ycowy+4
+	11	5024	1	15		// Z?oty Dzwon+4
+	12	25040	1	4		// Zwoj Blogoslawienstwa
+}
+Group CungMok
+{
+	Mob		151
+	Type	drop
+	1	70057	1	100		// Peleryny
+	2	71151	1	80		// Zmianki-Zielone
+	3	71152	1	60		// Wzmocnienie-Zielone
+	4	52	1	15		// Szeroki Miecz+2
+	5	3042	1	15		// Gizarma+2
+	6	1022	1	15		// Sztylet No?ycowy+2
+	7	5022	1	15		// Z?oty Dzwon+2
+}
+Group MuRang
+{
+	Mob		152
+	Type	drop
+	1	70057	1	100		// Peleryny
+	2	71151	1	80		// Zmianki-Zielone
+	3	71152	1	60		// Wzmocnienie-Zielone
+	4	52	1	15		// Szeroki Miecz+2
+	5	3042	1	15		// Gizarma+2
+	6	1022	1	15		// Sztylet No?ycowy+2
+	7	5022	1	15		// Z?oty Dzwon+2
+}
+Group JugHyul
+{
+	Mob		153
+	Type	drop
+	1	70057	1	100		// Peleryny
+	2	71151	1	80		// Zmianki-Zielone
+	3	71152	1	60		// Wzmocnienie-Zielone
+	4	52	1	15		// Szeroki Miecz+2
+	5	3042	1	15		// Gizarma+2
+	6	1022	1	15		// Sztylet No?ycowy+2
+	7	5022	1	15		// Z?oty Dzwon+2
+}
+Group YoungJi
+{
+	Mob		154
+	Type	drop
+	1	70057	1	100		// Peleryny
+	2	71151	1	80		// Zmianki-Zielone
+	3	71152	1	60		// Wzmocnienie-Zielone
+	4	52	1	15		// Szeroki Miecz+2
+	5	3042	1	15		// Gizarma+2
+	6	1022	1	15		// Sztylet No?ycowy+2
+	7	5022	1	15		// Z?oty Dzwon+2
+}
+Group LiAn
+{
+	Mob		155
+	Type	drop
+	1	70057	1	100		// Peleryny
+	2	71151	1	80		// Zmianki-Zielone
+	3	71152	1	60		// Wzmocnienie-Zielone
+	4	52	1	15		// Szeroki Miecz+2
+	5	3042	1	15		// Gizarma+2
+	6	1022	1	15		// Sztylet No?ycowy+2
+	7	5022	1	15		// Z?oty Dzwon+2
+}
+Group Niszczyciel
+{
+	Mob	1401
+	Type	drop
+	1	7104	1	1.5
+	2	5064	1	1.5
+	3	1074	1	1.5
+	4	50725	5	1
+}
+Group Ogr-Wojownik
+{
+	Mob	1601
+	Type	drop
+	1	5090	1	1.5
+	2	5091	1	1.5
+	3	5092	1	1.5
+	4	5093	1	1.5
+	5	50721	5	3
+}
+Group Ogr-Rze?nik
+{
+	Mob	1602
+	Type	drop
+	1	7130	1	1.5
+	2	7131	1	1.5
+	3	7132	1	1.5
+	4	7133	1	1.5
+	5	50728	5	1
+}
+Group Ogr-Szaleniec
+{
+	Mob	1603
+	Type	drop
+	1	1110	1	1.5
+	2	1111	1	1.5
+	3	1112	1	1.5
+	4	1113	1	1.5
+	5	50727	5	1
+}
+Group Wojownik-Z-Toporem
+{
+	Mob	1402
+	Type	drop
+	1	1110	1	1.5
+	2	1111	1	1.5
+	3	1112	1	1.5
+	4	1113	1	1.5
+	5	50727	5	1
+}
+Group Tysiecznik
+{
+	Mob	1403
+	Type	drop
+	1	39002	1	1
+	2	1110	1	1.5
+	3	1111	1	1.5
+	4	1112	1	1.5
+	5	1113	1	1.5
+	6	7130	1	1.5
+	7	7131	1	1.5
+	8	7132	1	1.5
+	9	7133	1	1.5
+	10	5090	1	1.5
+	11	5091	1	1.5
+	12	5092	1	1.5
+	13	5093	1	1.5
+	14	50725	5	1
+}
+Group Skalny-Golem
+{
+	Mob	1501
+	Type	drop
+	1	7104	1	2
+	2	50728	1	2
+	3	7103	1	0.33
+	4	7102	1	0.33
+	5	7101	1	0.33
+	6	7100	1	0.33
+}
+Group Kamienny-Golem
+{
+	Mob	1502
+	Type	drop
+	1	50725	1	2
+	2	5064	1	0.33
+	3	5063	1	0.33
+	4	5062	1	0.33
+	5	5061	1	0.33
+	6	5060	1	0.33
+}
+Group Olbrzymi-Skalny-Golem
+{
+	Mob	1503
+	Type	drop
+	1	50721	1	3
+	2	1074	1	0.33
+	3	1073	1	0.33
+	4	1072	1	0.33
+	5	1071	1	0.33
+	6	1070	1	0.33
+}
+Group Slaby-Loch-Malp
+{
+	Mob	5101
+	Type	drop
+	1	50722	2	1		// Pokrzywa
+	2	50050	1	1.1		// Medal Konny
+	3	1050	1	0.7		// Noz Szczescia
+	4	5040	1	0.7		// Dzwon fontanny
+	5	80	1	0.7		// Dzwon fontanny
+	6	2070	1	0.7		// Miecz poltorareczny
+	7	3070	1	0.7		// halabarda
+	8	7070	1	0.7		// wachlarz
+}
+Group Slaby-Loch-Malp
+{
+	Mob	5102
+	Type	drop
+	1	50722	2	1		// Pokrzywa
+	2	50050	1	1.1		// Medal Konny
+	3	1050	1	0.7		// Noz Szczescia
+	4	5040	1	0.7		// Dzwon fontanny
+	5	80	1	0.7		// Dzwon fontanny
+	6	2070	1	0.7		// Miecz poltorareczny
+	7	3070	1	0.7		// halabarda
+	8	7070	1	0.7		// wachlarz
+}
+Group Slaby-Loch-Malp
+{
+	Mob	5103
+	Type	drop
+	1	50722	2	1		// Pokrzywa
+	2	50050	1	1.1		// Medal Konny
+	3	1050	1	0.7		// Noz Szczescia
+	4	5040	1	0.7		// Dzwon fontanny
+	5	80	1	0.7		// Dzwon fontanny
+	6	2070	1	0.7		// Miecz poltorareczny
+	7	3070	1	0.7		// halabarda
+	8	7070	1	0.7		// wachlarz
+}
+Group Slaby-Loch-Malp
+{
+	Mob	5104
+	Type	drop
+	1	50722	2	1		// Pokrzywa
+	2	50050	1	1.1		// Medal Konny
+	3	1050	1	0.9		// Noz Szczescia
+	4	5040	1	0.9		// Dzwon fontanny
+	5	80	1	0.9		// Dzwon fontanny
+	6	2070	1	0.9		// Miecz poltorareczny
+	7	3070	1	0.9		// halabarda
+	8	7070	1	0.9		// wachlarz
+}
+Group	Sredni-Loch-Malp
+{
+	Mob	5111
+	Type	drop
+	1	50723	2	1		// Kwiat Kaki
+	2	50050	1	1.2		// Medal Konny
+	3	1050	1	0.25		// Twarz Diabla
+	4	1051	1	0.25		// Twarz Diabla
+	5	3080	1	0.25		// Olbrzymi Topor
+	6	3080	1	0.25		// Olbrzymi Topor
+}
+Group	Sredni-Loch-Malp
+{
+	Mob	5112
+	Type	drop
+	1	50723	2	1		// Kwiat Kaki
+	2	50050	1	1.2		// Medal Konny
+	3	5050	1	0.25		// Morelowy Dzwon
+	4	5051	1	0.25		// Morelowy Dzwon
+	5	2080	1	0.25		// Czerwonego Oka
+	6	2081	1	0.25		// Czerwonego Oka
+}
+Group	Sredni-Loch-Malp
+{
+	Mob	5113
+	Type	drop
+	1	50723	2	1		// Kwiat Kaki
+	2	50050	1	1.2		// Medal Konny
+	3	2080	1	0.25		// Czerwonego Oka
+	4	2081	1	0.25		// Czerwonego Oka
+	5	2082	1	0.25		// Czerwonego Oka
+	6	2083	1	0.25		// Czerwonego Oka
+}
+Group	Sredni-Loch-Malp
+{
+	Mob	5114
+	Type	drop
+	1	50723	2	1		// Kwiat Kaki
+	2	50050	1	1.2		// Medal Konny
+	3	1050	1	0.25		// Twarz Diabla
+	4	1051	1	0.25		// Twarz Diabla
+	5	1052	1	0.25		// Twarz Diabla
+	6	1053	1	0.25		// Twarz Diabla
+}
+Group	Sredni-Loch-Malp
+{
+	Mob	5115
+	Type	drop
+	1	50723	2	1		// Kwiat Kaki
+	2	50050	1	1.2		// Medal Konny
+	3	90	1	0.25		// Barbarzyncy
+	4	91	1	0.25		// Barbarzyncy
+	5	92	1	0.25		// Barbarzyncy
+	6	93	1	0.25		// Barbarzyncy
+}
+Group	Sredni-Loch-Malp
+{
+	Mob	5116
+	Type	drop
+	1	50723	2	1		// Kwiat Kaki
+	2	50050	1	1.2		// Medal Konny
+	3	5050	1	0.25		// Morelowy Dzwon
+	4	5051	1	0.25		// Morelowy Dzwon
+	5	5052	1	0.25		// Morelowy Dzwon
+	6	5053	1	0.25		// Morelowy Dzwon
+}
+Group	Trudny-Loch-Malp
+{
+	Mob	5121
+	Type	drop
+	1	50725	2	1		// Bez
+	2	50050	1	1.2		// Medal Konny
+	3	5060	1	0.25		// Magiczny Dzwon
+	4	3100	1	0.25		// Dwunastu Duchow
+	5	110	1	0.25		// Wielki Miecz
+	6	2100	1	0.25		// Z rogu Byka
+	7	1070	1	0.25		// krwawy sztylet
+	8	7100	1	0.25		// Wachlarz
+}
+Group	Trudny-Loch-Malp
+{
+	Mob	5122
+	Type	drop
+	1	50725	2	1		// Bez
+	2	50050	1	1.2		// Medal Konny
+	3	5060	1	0.25		// Magiczny Dzwon
+	4	3100	1	0.25		// Dwunastu Duchow
+	5	110	1	0.25		// Wielki Miecz
+	6	2100	1	0.25		// Z rogu Byka
+	7	1070	1	0.25		// krwawy sztylet
+	8	7100	1	0.25		// Wachlarz
+}
+Group	Trudny-Loch-Malp
+{
+	Mob	5123
+	Type	drop
+	1	50725	2	1		// Bez
+	2	50050	1	1.2		// Medal Konny
+	3	5060	1	0.25		// Magiczny Dzwon
+	4	3100	1	0.25		// Dwunastu Duchow
+	5	110	1	0.25		// Wielki Miecz
+	6	2100	1	0.25		// Z rogu Byka
+	7	1070	1	0.25		// krwawy sztylet
+	8	7100	1	0.25		// Wachlarz
+}
+Group	Trudny-Loch-Malp
+{
+	Mob	5124
+	Type	drop
+	1	50725	2	1		// Bez
+	2	50050	1	1.2		// Medal Konny
+	3	5060	1	0.25		// Magiczny Dzwon
+	4	3100	1	0.25		// Dwunastu Duchow
+	5	110	1	0.25		// Wielki Miecz
+	6	2100	1	0.25		// Z rogu Byka
+	7	1070	1	0.25		// krwawy sztylet
+	8	7100	1	0.25		// Wachlarz
+}
+Group	Trudny-Loch-Malp
+{
+	Mob	5122
+	Type	drop
+	1	50725	2	1		// Bez
+	2	50050	1	1.2		// Medal Konny
+	3	5060	1	0.25		// Magiczny Dzwon
+	4	3100	1	0.25		// Dwunastu Duchow
+	5	110	1	0.25		// Wielki Miecz
+	6	2100	1	0.25		// Z rogu Byka
+	7	1070	1	0.25		// krwawy sztylet
+	8	7100	1	0.25		// Wachlarz
+}
+Group	Trudny-Loch-Malp
+{
+	Mob	5126
+	Type	drop
+	1	50725	2	1		// Bez
+	2	50050	1	1.2		// Medal Konny
+	3	5060	1	0.25		// Magiczny Dzwon
+	4	3100	1	0.25		// Dwunastu Duchow
+	5	110	1	0.25		// Wielki Miecz
+	6	2100	1	0.25		// Z rogu Byka
+	7	1070	1	0.25		// krwawy sztylet
+	8	7100	1	0.25		// Wachlarz
+}
+Group	Trudny-Loch-Malp
+{
+	Mob	5127
+	Type	drop
+	1	50725	2	1		// Bez
+	2	50050	1	1.2		// Medal Konny
+	3	5060	1	0.25		// Magiczny Dzwon
+	4	3100	1	0.25		// Dwunastu Duchow
+	5	110	1	0.25		// Wielki Miecz
+	6	2100	1	0.25		// Z rogu Byka
+	7	1070	1	0.25		// krwawy sztylet
+	8	7100	1	0.25		// Wachlarz
+}
+Group	Trudny-Loch-Malp
+{
+	Mob	5151
+	Type	drop
+	1	50725	2	1		// Bez
+	2	50050	1	1.2		// Medal Konny
+	3	5060	1	0.25		// Magiczny Dzwon
+	4	3100	1	0.25		// Dwunastu Duchow
+	5	110	1	0.25		// Wielki Miecz
+	6	2100	1	0.25		// Z rogu Byka
+	7	1070	1	0.25		// krwawy sztylet
+	8	7100	1	0.25		// Wachlarz
+}
+Group	Trudny-Loch-Malp
+{
+	Mob	5152
+	Type	drop
+	1	50725	2	1		// Bez
+	2	50050	1	1.2		// Medal Konny
+	3	5060	1	0.25		// Magiczny Dzwon
+	4	3100	1	0.25		// Dwunastu Duchow
+	5	110	1	0.25		// Wielki Miecz
+	6	2100	1	0.25		// Z rogu Byka
+	7	1070	1	0.25		// krwawy sztylet
+	8	7100	1	0.25		// Wachlarz
+}
+Group	Trudny-Loch-Malp
+{
+	Mob	5153
+	Type	drop
+	1	50725	2	1		// Bez
+	2	50050	1	1.2		// Medal Konny
+	3	5060	1	0.25		// Magiczny Dzwon
+	4	3100	1	0.25		// Dwunastu Duchow
+	5	110	1	0.25		// Wielki Miecz
+	6	2100	1	0.25		// Z rogu Byka
+	7	1070	1	0.25		// krwawy sztylet
+	8	7100	1	0.25		// Wachlarz
+}
+Group	Trudny-Loch-Malp
+{
+	Mob	5154
+	Type	drop
+	1	50725	2	1		// Bez
+	2	50050	1	1.2		// Medal Konny
+	3	5060	1	0.25		// Magiczny Dzwon
+	4	3100	1	0.25		// Dwunastu Duchow
+	5	110	1	0.25		// Wielki Miecz
+	6	2100	1	0.25		// Z rogu Byka
+	7	1070	1	0.25		// krwawy sztylet
+	8	7100	1	0.25		// Wachlarz
+}
+Group	Trudny-Loch-Malp
+{
+	Mob	5155
+	Type	drop
+	1	50725	2	1		// Bez
+	2	50050	1	1.2		// Medal Konny
+	3	5060	1	0.25		// Magiczny Dzwon
+	4	3100	1	0.25		// Dwunastu Duchow
+	5	110	1	0.25		// Wielki Miecz
+	6	2100	1	0.25		// Z rogu Byka
+	7	1070	1	0.25		// krwawy sztylet
+	8	7100	1	0.25		// Wachlarz
+}
+Group	Trudny-Loch-Malp
+{
+	Mob	5156
+	Type	drop
+	1	50725	2	1		// Bez
+	2	50050	1	1.2		// Medal Konny
+	3	5060	1	0.25		// Magiczny Dzwon
+	4	3100	1	0.25		// Dwunastu Duchow
+	5	110	1	0.25		// Wielki Miecz
+	6	2100	1	0.25		// Z rogu Byka
+	7	1070	1	0.25		// krwawy sztylet
+	8	7100	1	0.25		// Wachlarz
+}
+Group	Trudny-Loch-Malp
+{
+	Mob	5157
+	Type	drop
+	1	50725	2	1		// Bez
+	2	50050	1	1.2		// Medal Konny
+	3	5060	1	0.25		// Magiczny Dzwon
+	4	3100	1	0.25		// Dwunastu Duchow
+	5	110	1	0.25		// Wielki Miecz
+	6	2100	1	0.25		// Z rogu Byka
+	7	1070	1	0.25		// krwawy sztylet
+	8	7100	1	0.25		// Wachlarz
+}
+Group	Gnole
+{
+	Mob	3001
+	Type	drop
+	1	143	1	0.1		// Miecz Bojowy
+	2	144	1	0.1		// Miecz Bojowy
+	3	145	1	0.1		// Miecz Bojowy
+	4	50721	3	0.5
+	5	50722	3	0.5
+	6	50725	3	0.5
+	7	50727	3	0.5
+	8	50728	3	0.5
+}
+Group	Gnole
+{
+	Mob	3002
+	Type	drop
+	1	2143	1	0.1		// Olbrz. ?uk ??t. Smoka
+	2	2144	1	0.1		// Olbrz. ?uk ??t. Smoka
+	3	50721	3	0.5
+	4	50722	3	0.5
+	5	50725	3	0.5
+	6	50727	3	0.5
+	7	50728	3	0.5
+	8	1103	1	0.1		// Smoczy N?
+	9	1104	1	0.1		// Smoczy N?
+	10	2145	1	0.1		// Olbrz. ?uk ??t. Smoka
+	11	1105	1	0.1		// Smoczy N?
+}
+Group	Gnole
+{
+	Mob	3003
+	Type	drop
+	1	3133	1	0.1		// Partyzana
+	2	3134	1	0.1		// Partyzana
+	3	3135	1	0.1		// Partyzana
+	4	50721	3	0.5
+	5	50722	3	0.5
+	6	50725	3	0.5
+	7	50727	3	0.5
+	8	50728	3	0.5
+}
+Group	Gnole
+{
+	Mob	3004
+	Type	drop
+	1	7143	1	0.1		// Wachlarz Zbawienia
+	2	7144	1	0.1		// Wachlarz Zbawienia
+	3	7145	1	0.1		// Wachlarz Zbawienia
+	4	50721	3	0.5
+	5	50722	3	0.5
+	6	50725	3	0.5
+	7	50727	3	0.5
+	8	50728	3	0.5
+}
+Group	Gnole
+{
+	Mob	3005
+	Type	drop
+	1	11290	1	0.1		// Zbroja Z Czarnej Stali
+	2	11490	1	0.1		// Ubranie Czarn. Wiatru
+	3	11690	1	0.1		// Zbr. P?yt. Czar. Magii
+	4	11890	1	0.1		// Czarna Szata
+	5	50721	3	0.5
+	6	50722	3	0.5
+	7	50725	3	0.5
+	8	50727	3	0.5
+	9	50728	3	0.5
+}
+Group	Wrozka
+{
+	Level_limit	75
+	Mob	1192						// Wrozka
+	Type	limit
+	1	71084	30	69		// Zaczarowanie Przedmiotu
+	2	71084	30	69		// Zaczarowanie Przedmiotu
+	3	71084	30	69		// Zaczarowanie Przedmiotu
+	4	71084	30	69		// Zaczarowanie Przedmiotu
+	5	71084	30	69		// Zaczarowanie Przedmiotu
+	6	71084	30	69		// Zaczarowanie Przedmiotu
+	7	71084	30	69		// Zaczarowanie Przedmiotu
+	8	71084	30	69		// Zaczarowanie Przedmiotu
+	9	71084	30	69		// Zaczarowanie Przedmiotu
+	10	71084	30	69		// Zaczarowanie Przedmiotu
+	11	71084	30	69		// Zaczarowanie Przedmiotu
+	12	71084	30	69		// Zaczarowanie Przedmiotu
+	13	71084	30	69		// Zaczarowanie Przedmiotu
+	14	71084	30	69		// Zaczarowanie Przedmiotu
+	15	71084	30	69		// Zaczarowanie Przedmiotu
+	16	71084	30	69		// Zaczarowanie Przedmiotu
+	17	71084	30	69		// Zaczarowanie Przedmiotu
+	18	71084	30	69		// Zaczarowanie Przedmiotu
+	19	51508	5	50		// corrzadki
+	20	51508	5	50		// corrzadki
+	21	51508	5	50		// corrzadki
+	22	51508	5	50		// corrzadki
+	23	51508	5	50		// corrzadki
+	24	51508	5	50		// corrzadki
+	25	51508	5	50		// corrzadki
+	26	51508	5	50		// corrzadki
+	27	51508	5	50		// corrzadki
+	28	51508	5	50		// corrzadki
+	29	51508	5	50		// corrzadki
+	30	51508	5	50		// corrzadki
+	31	51508	5	50		// corrzadki
+	32	51508	5	50		// corrzadki
+	33	51508	5	50		// corrzadki
+	34	51508	5	50		// corrzadki
+	35	51508	5	50		// corrzadki
+	36	51508	5	50		// corrzadki
+	37	51507	5	70		// Cor Szlif
+	38	51507	5	70		// Cor Szlif
+	39	51507	5	70		// Cor Szlif
+	40	51507	5	70		// Cor Szlif
+	41	51507	5	70		// Cor Szlif
+	42	51507	5	70		// Cor Szlif
+	43	51507	5	70		// Cor Szlif
+	44	51507	5	70		// Cor Szlif
+	45	51507	5	70		// Cor Szlif
+	46	25041	1	40		// Metal
+	47	25041	1	40		// Metal
+	48	25041	1	40		// Metal
+	49	25041	1	40		// Metal
+	50	25041	1	40		// Metal
+	51	25041	1	40		// Metal
+	52	25041	1	40		// Metal
+	53	25041	1	40		// Metal
+	54	25041	1	40		// Metal
+	55	39022	1	40		// Zwój Boga Smoków
+	56	39022	1	40		// Zwój Boga Smoków
+	57	39022	1	40		// Zwój Boga Smoków
+	58	39022	1	40		// Zwój Boga Smoków
+	59	39022	1	40		// Zwój Boga Smoków
+	60	39022	1	40		// Zwój Boga Smoków
+	61	39022	1	40		// Zwój Boga Smoków
+	62	39022	1	40		// Zwój Boga Smoków
+	63	39022	1	40		// Zwój Boga Smoków
+	64	71035	1	30		// EliksirPoszukiwacza
+	65	71035	1	30		// EliksirPoszukiwacza
+	66	71035	1	30		// EliksirPoszukiwacza
+	67	71035	1	30		// EliksirPoszukiwacza
+	68	71035	1	30		// EliksirPoszukiwacza
+	69	71035	1	30		// EliksirPoszukiwacza
+	70	71035	1	30		// EliksirPoszukiwacza
+	71	71035	1	30		// EliksirPoszukiwacza
+	72	71035	1	30		// EliksirPoszukiwacza
+	73	71158	1	100		// MedalBohatera
+	74	71158	1	100		// MedalBohatera
+	75	71158	1	100		// MedalBohatera
+	76	71158	1	100		// MedalBohatera
+	77	71017	1	50		// MedalSzczescia
+	78	71017	1	50		// MedalSzczescia
+	79	71017	1	50		// MedalSzczescia
+	80	71017	1	50		// MedalSzczescia
+	81	71017	1	50		// MedalSzczescia
+	82	30555	1	40		// Zlota Perla
+	83	30555	1	40		// Zlota Perla
+	84	30555	1	40		// Zlota Perla
+	85	30555	1	40		// Zlota Perla
+	86	30555	1	40		// Zlota Perla
+	87	30555	1	40		// Zlota Perla
+	88	30555	1	40		// Zlota Perla
+	89	30555	1	40		// Zlota Perla
+	90	30555	1	40		// Zlota Perla
+	91	30097	1	75		// SakwaKD+4
+	92	30097	1	75		// SakwaKD+4
+	93	30097	1	75		// SakwaKD+4
+	94	30097	1	75		// SakwaKD+4
+	95	30097	1	75		// SakwaKD+4
+	96	30097	1	75		// SakwaKD+4
+	97	30097	1	75		// SakwaKD+4
+	98	30097	1	75		// SakwaKD+4
+	99	30097	1	75		// SakwaKD+4
+	100	30152	3	40		// EliksirGildii
+	101	30152	3	40		// EliksirGildii
+	102	30152	3	40		// EliksirGildii
+	103	30152	3	40		// EliksirGildii
+	104	30152	3	40		// EliksirGildii
+	105	30152	3	40		// EliksirGildii
+	106	30152	3	40		// EliksirGildii
+	107	30152	3	40		// EliksirGildii
+	108	30152	3	40		// EliksirGildii
+	109	71094	1	40		// RadaPustelnika
+	110	71094	1	40		// RadaPustelnika
+	111	71094	1	40		// RadaPustelnika
+	112	71094	1	40		// RadaPustelnika
+	113	71094	1	40		// RadaPustelnika
+	114	71094	1	40		// RadaPustelnika
+	115	71094	1	40		// RadaPustelnika
+	116	71094	1	40		// RadaPustelnika
+	117	71094	1	40		// RadaPustelnika
+	118	39008	1	40		// Egzo
+	119	39008	1	40		// Egzo
+	120	39008	1	40		// Egzo
+	121	39008	1	40		// Egzo
+	122	39008	1	40		// Egzo
+	123	39008	1	40		// Egzo
+	124	39008	1	40		// Egzo
+	125	39008	1	40		// Egzo
+	126	39008	1	40		// Egzo
+	127	39007	1	35		// Podrecznik Kowala
+	128	39007	1	35		// Podrecznik Kowala
+	129	39007	1	35		// Podrecznik Kowala
+	130	39007	1	35		// Podrecznik Kowala
+	131	39007	1	35		// Podrecznik Kowala
+	132	39007	1	35		// Podrecznik Kowala
+	133	39007	1	35		// Podrecznik Kowala
+	134	39007	1	35		// Podrecznik Kowala
+	135	39007	1	35		// Podrecznik Kowala
+	136	39032	2	40		// OwocZycia
+	137	39032	2	40		// OwocZycia
+	138	39032	2	40		// OwocZycia
+	139	39032	2	40		// OwocZycia
+	140	39032	2	40		// OwocZycia
+	141	39032	2	40		// OwocZycia
+	142	39032	2	40		// OwocZycia
+	143	39032	2	40		// OwocZycia
+	144	39032	2	40		// OwocZycia
+	145	70024	3	90		// piecbon
+	146	70024	3	90		// piecbon
+	147	70024	3	90		// piecbon
+	148	70024	3	90		// piecbon
+	149	70024	3	90		// piecbon
+	150	70024	3	90		// piecbon
+	151	70024	3	90		// piecbon
+	152	70024	3	90		// piecbon
+	153	70024	3	90		// piecbon
+	154	50513	2	30		// KamienDuchowy
+	155	50513	2	30		// KamienDuchowy
+	156	50513	2	30		// KamienDuchowy
+	157	50513	2	30		// KamienDuchowy
+	158	50513	2	30		// KamienDuchowy
+	159	50513	2	30		// KamienDuchowy
+	160	50513	2	30		// KamienDuchowy
+	161	50513	2	30		// KamienDuchowy
+	162	50513	2	30		// KamienDuchowy
+	163	30179	2	50		// krety klucz
+	164	30179	2	50		// krety klucz
+	165	30179	2	50		// krety klucz
+	166	30179	2	20		// krety klucz
+	167	30179	2	20		// krety klucz
+	168	30553	1	50		// Krysztal Groty
+	169	30553	1	25		// Krysztal Groty
+	170	31002	1	3.5		// Specka
+}
+
+Group	Wobba
+{
+	Level_limit	45
+	Mob	3791						// Wobba
+	Type	limit
+	1	71084	40	75		// Zaczarowanie Przedmiotu
+	2	71084	40	75		// Zaczarowanie Przedmiotu
+	3	71084	40	75		// Zaczarowanie Przedmiotu
+	4	71084	40	75		// Zaczarowanie Przedmiotu
+	5	71084	40	75		// Zaczarowanie Przedmiotu
+	6	71084	40	75		// Zaczarowanie Przedmiotu
+	7	71084	40	75		// Zaczarowanie Przedmiotu
+	8	71084	40	75		// Zaczarowanie Przedmiotu
+	9	71084	40	75		// Zaczarowanie Przedmiotu
+	10	51501	20	80		// CorSurowy
+	11	51501	20	80		// CorSurowy
+	12	51501	20	80		// CorSurowy
+	13	51501	20	80		// CorSurowy
+	14	51501	20	80		// CorSurowy
+	15	51501	20	80		// CorSurowy
+	16	51501	20	80		// CorSurowy
+	17	51501	20	80		// CorSurowy
+	18	51501	20	80		// CorSurowy
+	19	51507	10	80		// Cor Szlif
+	20	51507	10	80		// Cor Szlif
+	21	51507	10	80		// Cor Szlif
+	22	51507	10	80		// Cor Szlif
+	23	51507	10	80		// Cor Szlif
+	24	51507	10	80		// Cor Szlif
+	25	51507	10	80		// Cor Szlif
+	26	51507	10	80		// Cor Szlif
+	27	51507	10	80		// Cor Szlif
+	28	51508	5	50		// corrzadki
+	29	51508	5	50		// corrzadki
+	30	51508	5	50		// corrzadki
+	31	51508	5	50		// corrzadki
+	32	51508	5	50		// corrzadki
+	33	51508	5	50		// corrzadki
+	34	51508	5	50		// corrzadki
+	35	51508	5	50		// corrzadki
+	36	51508	5	50		// corrzadki
+	37	25040	5	80		// Bodzio
+	38	25040	5	80		// Bodzio
+	39	25040	5	80		// Bodzio
+	40	25040	5	80		// Bodzio
+	41	25040	5	80		// Bodzio
+	42	25040	5	80		// Bodzio
+	43	25040	5	80		// Bodzio
+	44	25040	5	80		// Bodzio
+	45	25040	5	80		// Bodzio
+	46	39022	1	60		// Zw?j Boga Smok?w
+	47	39022	1	60		// Zw?j Boga Smok?w
+	48	39022	1	60		// Zw?j Boga Smok?w
+	49	39022	1	60		// Zw?j Boga Smok?w
+	50	39022	1	60		// Zw?j Boga Smok?w
+	51	39022	1	60		// Zw?j Boga Smok?w
+	52	39022	1	60		// Zw?j Boga Smok?w
+	53	39022	1	60		// Zw?j Boga Smok?w
+	54	39022	1	60		// Zw?j Boga Smok?w
+	55	39007	1	40		// Podrecznik Kowala
+	56	39007	1	40		// Podrecznik Kowala
+	57	39007	1	40		// Podrecznik Kowala
+	58	39007	1	40		// Podrecznik Kowala
+	59	39007	1	40		// Podrecznik Kowala
+	60	25041	1	60		// Metal
+	61	25041	1	60		// Metal
+	62	25041	1	60		// Metal
+	63	25041	1	60		// Metal
+	64	71035	1	50		// EliksirPoszukiwacza
+	65	71035	1	50		// EliksirPoszukiwacza
+	66	71035	1	50		// EliksirPoszukiwacza
+	67	71035	1	50		// EliksirPoszukiwacza
+	68	71035	1	50		// EliksirPoszukiwacza
+	69	71035	1	50		// EliksirPoszukiwacza
+	70	71035	1	50		// EliksirPoszukiwacza
+	71	71035	1	50		// EliksirPoszukiwacza
+	72	71035	1	50		// EliksirPoszukiwacza
+	73	30152	5	50		// EliksirGildii
+	74	30152	5	50		// EliksirGildii
+	75	30152	5	50		// EliksirGildii
+	76	30152	5	50		// EliksirGildii
+	77	30152	5	50		// EliksirGildii
+	78	30152	5	50		// EliksirGildii
+	79	30152	5	50		// EliksirGildii
+	80	30152	5	50		// EliksirGildii
+	81	30152	5	50		// EliksirGildii
+	82	71107	2	100		// FasolkaZen
+	83	71107	2	100		// FasolkaZen
+	84	71107	2	100		// FasolkaZen
+	85	71107	2	100		// FasolkaZen
+	86	71107	2	100		// FasolkaZen
+	87	71107	2	100		// FasolkaZen
+	88	71107	2	100		// FasolkaZen
+	89	71107	2	100		// FasolkaZen
+	90	71107	2	100		// FasolkaZen
+	91	30097	2	100		// SakwaKD+4
+	92	30097	2	100		// SakwaKD+4
+	93	30097	2	100		// SakwaKD+4
+	94	30097	2	100		// SakwaKD+4
+	95	30097	2	100		// SakwaKD+4
+	96	30097	2	100		// SakwaKD+4
+	97	30097	2	100		// SakwaKD+4
+	98	30097	2	100		// SakwaKD+4
+	99	30097	2	100		// SakwaKD+4
+	100	71158	1	100		// Medal Bohatera
+	101	71158	1	100		// Medal Bohatera
+	102	71158	1	100		// Medal Bohatera
+	103	71158	1	100		// Medal Bohatera
+	104	71158	1	100		// Medal Bohatera
+	105	71017	1	100		// MedalSzczescia
+	106	71017	1	100		// MedalSzczescia
+	107	71017	1	100		// MedalSzczescia
+	108	71017	1	100		// MedalSzczescia
+	109	50513	3	50		// KamienDuchowy
+	110	50513	3	50		// KamienDuchowy
+	111	50513	3	50		// KamienDuchowy
+	112	50513	3	50		// KamienDuchowy
+	113	50513	3	50		// KamienDuchowy
+	114	50513	3	50		// KamienDuchowy
+	115	50513	3	50		// KamienDuchowy
+	116	50513	3	50		// KamienDuchowy
+	117	50513	3	50		// KamienDuchowy
+	118	70024	5	65		// piecbon
+	119	70024	5	65		// piecbon
+	120	70024	5	65		// piecbon
+	121	70024	5	65		// piecbon
+	122	70024	5	65		// piecbon
+	123	70024	5	65		// piecbon
+	124	70024	5	65		// piecbon
+	125	70024	5	65		// piecbon
+	126	70024	5	65		// piecbon
+	127	71094	3	60		// RadaPustelnika
+	128	71094	3	60		// RadaPustelnika
+	129	71094	3	60		// RadaPustelnika
+	130	71094	3	60		// RadaPustelnika
+	131	71094	3	60		// RadaPustelnika
+	132	71094	3	60		// RadaPustelnika
+	133	71094	3	60		// RadaPustelnika
+	134	71094	3	60		// RadaPustelnika
+	135	71094	3	60		// RadaPustelnika
+	136	39008	3	60		// Egzo
+	137	39008	3	60		// Egzo
+	138	39008	3	60		// Egzo
+	139	39008	3	60		// Egzo
+	140	39008	3	60		// Egzo
+	141	39008	3	60		// Egzo
+	142	39008	3	60		// Egzo
+	143	39008	3	60		// Egzo
+	144	39008	3	60		// Egzo
+	145	30196	1	100		// Demoniczne Prochy
+	146	30196	1	100		// Demoniczne Prochy
+	147	30196	1	100		// Demoniczne Prochy
+	148	30196	1	100		// Demoniczne Prochy
+	149	30319	1	100		// Zasuszona Glowa
+	150	30319	1	100		// Zasuszona Glowa
+	151	30319	1	100		// Zasuszona Glowa
+	152	30319	1	100		// Zasuszona Glowa
+	153	30319	1	100		// Zasuszona Glowa
+	154	30319	1	100		// Zasuszona Glowa
+	155	30319	1	100		// Zasuszona Glowa
+	156	30319	1	100		// Zasuszona Glowa
+	157	27994	1	100		// KrwawaPerla
+	158	27994	1	100		// KrwawaPerla
+	159	27994	1	100		// KrwawaPerla
+	160	27994	1	100		// KrwawaPerla
+	161	27994	1	100		// KrwawaPerla
+	162	27994	1	100		// KrwawaPerla
+	163	27993	1	100		// NiebieskaPerla
+	164	27993	1	100		// NiebieskaPerla
+	165	27993	1	100		// NiebieskaPerla
+	166	27993	1	100		// NiebieskaPerla
+	167	27993	1	100		// NiebieskaPerla
+	168	27993	1	100		// NiebieskaPerla
+	169	27992	1	100		// BialaPerla
+	170	27992	1	100		// BialaPerla
+	171	27992	1	100		// BialaPerla
+	172	27992	1	100		// BialaPerla
+	173	27992	1	100		// BialaPerla
+	174	27992	1	100		// BialaPerla
+	175	80017	1	30		// KUPON
+	176	80017	1	30		// KUPON
+	177	80017	1	30		// KUPON
+	178	80017	1	30		// KUPON
+	179	80017	1	30		// KUPON
+}
+Group	Golem
+{
+	Level_limit	90
+	Mob	3792						// Golem
+	Type	limit
+	1	71084	75	50		// Zaczarowanie Przedmiotu
+	2	71084	75	50		// Zaczarowanie Przedmiotu
+	3	71084	75	50		// Zaczarowanie Przedmiotu
+	4	71084	75	50		// Zaczarowanie Przedmiotu
+	5	71084	75	50		// Zaczarowanie Przedmiotu
+	6	71084	75	50		// Zaczarowanie Przedmiotu
+	7	71084	75	50		// Zaczarowanie Przedmiotu
+	8	71084	75	50		// Zaczarowanie Przedmiotu
+	9	71084	75	50		// Zaczarowanie Przedmiotu
+	10	71084	75	50		// Zaczarowanie Przedmiotu
+	11	71084	75	50		// Zaczarowanie Przedmiotu
+	12	71084	75	50		// Zaczarowanie Przedmiotu
+	13	71084	75	50		// Zaczarowanie Przedmiotu
+	14	71084	75	50		// Zaczarowanie Przedmiotu
+	15	71084	75	50		// Zaczarowanie Przedmiotu
+	16	71084	75	50		// Zaczarowanie Przedmiotu
+	17	71084	75	50		// Zaczarowanie Przedmiotu
+	18	71084	75	50		// Zaczarowanie Przedmiotu
+	19	51507	15	49		// Cor Szlif
+	20	51507	15	49		// Cor Szlif
+	21	51507	15	49		// Cor Szlif
+	22	51507	15	49		// Cor Szlif
+	23	51507	15	49		// Cor Szlif
+	24	51507	15	49		// Cor Szlif
+	25	51507	15	49		// Cor Szlif
+	26	51507	15	49		// Cor Szlif
+	27	51507	15	49		// Cor Szlif
+	28	51508	12	49		// corrzadki
+	29	51508	12	49		// corrzadki
+	30	51508	12	49		// corrzadki
+	31	51508	12	49		// corrzadki
+	32	51508	12	49		// corrzadki
+	33	51508	12	49		// corrzadki
+	34	51508	12	49		// corrzadki
+	35	51508	12	49		// corrzadki
+	36	51508	12	49		// corrzadki
+	37	51508	12	49		// corrzadki
+	38	51508	12	49		// corrzadki
+	39	51508	12	49		// corrzadki
+	40	51508	12	49		// corrzadki
+	41	51508	12	49		// corrzadki
+	42	51508	12	49		// corrzadki
+	43	51508	12	49		// corrzadki
+	44	51508	12	49		// corrzadki
+	45	51508	12	49		// corrzadki
+	46	31001	1	20		// Kamien Ksiezycowy
+	47	31001	1	20		// Kamien Ksiezycowy
+	48	31001	1	20		// Kamien Ksiezycowy
+	49	31001	1	20		// Kamien Ksiezycowy
+	50	31001	1	20		// Kamien Ksiezycowy
+	51	31001	1	20		// Kamien Ksiezycowy
+	52	31001	1	20		// Kamien Ksiezycowy
+	53	31001	1	20		// Kamien Ksiezycowy
+	54	31001	1	20		// Kamien Ksiezycowy
+	55	25041	1	50		// Metal
+	56	25041	1	50		// Metal
+	57	25041	1	50		// Metal
+	58	25041	1	50		// Metal
+	59	25041	1	50		// Metal
+	60	25041	1	50		// Metal
+	61	25041	1	50		// Metal
+	62	25041	1	50		// Metal
+	63	25041	1	50		// Metal
+	64	25041	1	50		// Metal
+	65	25041	1	50		// Metal
+	66	25041	1	50		// Metal
+	67	25041	1	50		// Metal
+	68	25041	1	50		// Metal
+	69	25041	1	50		// Metal
+	70	25041	1	50		// Metal
+	71	25041	1	50		// Metal
+	72	25041	1	50		// Metal
+	73	39007	2	100		// Podrecznik Kowala
+	74	39007	2	100		// Podrecznik Kowala
+	75	39007	2	100		// Podrecznik Kowala
+	76	39007	2	100		// Podrecznik Kowala
+	77	39007	2	100		// Podrecznik Kowala
+	78	39007	2	100		// Podrecznik Kowala
+	79	39007	2	100		// Podrecznik Kowala
+	80	39007	2	100		// Podrecznik Kowala
+	81	39007	2	100		// Podrecznik Kowala
+	82	71035	3	75		// EliksirPoszukiwacza
+	83	71035	3	75		// EliksirPoszukiwacza
+	84	71035	3	75		// EliksirPoszukiwacza
+	85	71035	3	75		// EliksirPoszukiwacza
+	86	71035	3	75		// EliksirPoszukiwacza
+	87	71035	3	75		// EliksirPoszukiwacza
+	88	71035	3	75		// EliksirPoszukiwacza
+	89	71035	3	75		// EliksirPoszukiwacza
+	90	71035	3	75		// EliksirPoszukiwacza
+	91	30152	15	70		// EliksirGildii
+	92	30152	15	70		// EliksirGildii
+	93	30152	15	70		// EliksirGildii
+	94	30152	15	70		// EliksirGildii
+	95	30152	15	70		// EliksirGildii
+	96	30152	15	70		// EliksirGildii
+	97	30152	15	70		// EliksirGildii
+	98	30152	15	70		// EliksirGildii
+	99	30152	15	70		// EliksirGildii
+	100	30555	2	60		// Zlota Perla
+	101	30555	2	60		// Zlota Perla
+	102	30555	2	60		// Zlota Perla
+	103	30555	2	60		// Zlota Perla
+	104	30555	2	60		// Zlota Perla
+	105	30555	2	60		// Zlota Perla
+	106	30555	2	60		// Zlota Perla
+	107	30555	2	60		// Zlota Perla
+	108	30555	2	60		// Zlota Perla
+	109	39032	5	65		// OwocZycia
+	110	39032	5	65		// OwocZycia
+	111	39032	5	65		// OwocZycia
+	112	39032	5	65		// OwocZycia
+	113	39032	5	65		// OwocZycia
+	114	39032	5	65		// OwocZycia
+	115	39032	5	65		// OwocZycia
+	116	39032	5	65		// OwocZycia
+	117	39032	5	65		// OwocZycia
+	118	70024	5	100		// piecbon
+	119	70024	5	100		// piecbon
+	120	70024	5	100		// piecbon
+	121	70024	5	100		// piecbon
+	122	70024	5	100		// piecbon
+	123	70024	5	100		// piecbon
+	124	70024	5	100		// piecbon
+	125	70024	5	100		// piecbon
+	126	70024	5	100		// piecbon
+	127	50513	10	55		// KamienDuchowy
+	128	50513	10	55		// KamienDuchowy
+	129	50513	10	55		// KamienDuchowy
+	130	50513	10	55		// KamienDuchowy
+	131	50513	10	55		// KamienDuchowy
+	132	50513	10	55		// KamienDuchowy
+	133	50513	10	55		// KamienDuchowy
+	134	50513	10	55		// KamienDuchowy
+	135	50513	10	55		// KamienDuchowy
+	136	30514	1	75		// Fioletowy Materiał
+	137	30514	1	75		// Fioletowy Materiał
+	138	30514	1	75		// Fioletowy Materiał
+	139	30516	1	50		// Złoty Materiał
+	140	30516	1	50		// Złoty Materiał
+	141	50156	1	100		// Hydra-Przepustka
+	142	50156	1	100		// Hydra-Przepustka
+	143	50156	1	100		// Hydra-Przepustka
+	144	50156	1	100		// Hydra-Przepustka
+	145	50155	1	69		// KluczRazador
+	146	50155	1	69		// KluczRazador
+	147	50155	1	69		// KluczRazador
+	148	50155	1	69		// KluczRazador
+	149	50155	1	69		// KluczRazador
+	150	50155	1	69		// KluczRazador
+	151	50155	1	69		// KluczRazador
+	152	50155	1	69		// KluczRazador
+	153	50155	1	69		// KluczRazador
+	154	30097	5	100		// SakwaKD+4
+	155	30097	5	100		// SakwaKD+4
+	156	30097	5	100		// SakwaKD+4
+	157	30097	5	100		// SakwaKD+4
+	158	30097	5	100		// SakwaKD+4
+	159	30097	5	100		// SakwaKD+4
+	160	30097	5	100		// SakwaKD+4
+	161	30097	5	100		// SakwaKD+4
+	162	30097	5	100		// SakwaKD+4
+	163	80017	1	30		// KUPON
+	164	80017	1	30		// KUPON
+	165	80017	1	30		// KUPON
+	166	80017	1	30		// KUPON
+	167	80017	1	30		// KUPON
+	168	80017	1	30		// KUPON
+	169	80017	1	30		// KUPON
+	170	80017	1	30		// KUPON
+}
+
+
+Group    TurboRozek
+{
+    Level_limit    5
+    Mob    39001
+    Type    limit
+    1    90043    1    1    // Pierscionek Bohatera
+    2    80017    1    5    // Kupon 50 SM
+    3    71084    3    100    // Zaczarowanie Przedmiotu
+    4    71084    6    50    // Zaczarowanie Przedmiotu
+    5    71084    10    33    // Zaczarowanie Przedmiotu
+    6    71085    1    100    // Wzmocnienie Przedmiotu
+    7    71085    2    50    // Wzmocnienie Przedmiotu
+    8    71085    3    33    // Wzmocnienie Przedmiotu
+    9    70024    1    33    // Marmur Blogoslawienstwa
+    10    25040    1    10    // Zwoj Blogoslawienstwa
+    11    25040    1    10    // Zwoj Blogoslawienstwa
+    12    25040    1    10    // Zwoj Blogoslawienstwa
+    13    71107    1    10    // Fasolka Zen
+    14    71107    1    10    // Fasolka Zen
+    15    71107    1    10    // Fasolka Zen
+    16    71094    1    5    // Rada Pustelnika
+    17    39008    1    10    // Zwoj Egzo
+    18    72031    1    100    // Atak Boga Smokow
+    19    72034    1    100    // Obrona Boga Smokow
+    20    72037    1    100    // Zycie Boga Smokow
+    21    27105    2    100    // Fioletowa Mikstura D
+    22    27112    2    100    // Zielona Mikstura D
+    23    71044    1    100    // Dlon Krytyka
+    24    71045    1    100    // Dlon Szycia
+    25    39038    1    50    // Autopota Red
+    26    39041    1    50    // Autopota Blue
+}
+
+Group    SzybkiLodzik
+{
+    Level_limit    20
+    Mob    39000
+    Type    limit
+    1    90043    1    1    // Pierscionek Bohatera
+    2    80017    1    3    // Kupon 50 SM
+    3    80017    1    3    // Kupon 50 SM
+    4    80017    1    3    // Kupon 50 SM
+    5    30152    1    5    // Eliksir Gildii
+    6    27799    1    5    // Rybia Osc
+    7    27987    1    5    // Malz
+    8    100300    1    5    // Zielona Smocza Fasola
+    9    100300    1    5    // Zielona Smocza Fasola
+    10    100300    1    5    // Zielona Smocza Fasola
+    11    25040    1    10    // Zwoj Blogoslawienstwa
+    12    25040    1    10    // Zwoj Blogoslawienstwa
+    13    25040    1    10    // Zwoj Blogoslawienstwa
+    14    51501    2    100    // Cor Draconis Surowy
+    15    51501    3    33    // Cor Draconis Surowy
+    16    51501    5    11    // Cor Draconis Surowy
+    17    71094    1    5    // Rada Pustelnika
+    18    71094    1    5    // Rada Pustelnika
+    19    71094    1    5    // Rada Pustelnika
+    20    39008    1    10    // Zwoj Egzo
+    21    39008    1    10    // Zwoj Egzo
+    22    39008    1    10    // Zwoj Egzo
+    23    39032    1    7    // Owoc Zycia
+    24    39032    1    7    // Owoc Zycia
+    25    39032    1    7    // Owoc Zycia
+    26    90053    1    100    // Skrzynia Ros
+    27    90053    1    15    // Skrzynia Ros
+    28    90053    1    15    // Skrzynia Ros
+    29    27105    2    100    // Fioletowa Mikstura D
+    30    27112    2    100    // Zielona Mikstura D
+}
+Group    Lotne
+{
+	Mob		39030				// 40LVL
+	Type	drop
+	1	71084	4	206		// Zmianki
+	2	71084	4	180		// Zmianki
+	3	71084	4	130		// Zmianki
+	4	71084	4	100		// Zmianki
+	5	71084	4	20		// Zmianki
+	6	70057	5	206		// Peleryny
+	7	70057	5	206		// Peleryny
+	8	70057	5	206		// Peleryny
+	9	70057	5	206		// Peleryny
+	10	27105	1	206		// Fioletowa Pota
+	11	27112	1	206		// ZielonaPota
+	12	39008	1	102		// Egzo
+	13	38050	1	102		// SkrzyniaMocy
+	14	50151	1	206		// KluczOrkowy
+	15	80003	1	206		// 50k
+	16	80003	1	140		// 50k
+	17	80003	1	70		// 50k
+	18	30152	1	30		// Eliksir Gildii
+}
+
+Group    Lotne
+{
+	Mob		39031				// 45LVL
+	Type	drop
+	1	71084	5	206		// Zmianki
+	2	71084	5	180		// Zmianki
+	3	71084	5	130		// Zmianki
+	4	71084	5	100		// Zmianki
+	5	71084	5	20		// Zmianki
+	6	70057	5	206		// Peleryny
+	7	70057	5	206		// Peleryny
+	8	70057	5	206		// Peleryny
+	9	70057	5	206		// Peleryny
+	10	27105	1	206		// Fioletowa Pota
+	11	27112	1	206		// ZielonaPota
+	12	39008	1	122		// Egzo
+	13	38050	1	122		// SkrzyniaMocy
+	14	50151	1	206		// KluczOrkowy
+	15	80003	1	206		// 50k
+	16	80003	1	140		// 50k
+	17	80003	1	70		// 50k
+	18	30152	1	30		// Eliksir Gildii
+}
+
+Group    Lotne
+{
+	Mob		39035				// 65LVL
+	Type	drop
+	1	71084	8	206		// Zmianki
+	2	71084	8	180		// Zmianki
+	3	71084	8	130		// Zmianki
+	4	71084	8	100		// Zmianki
+	5	71084	8	20		// Zmianki
+	6	70057	8	206		// Peleryny
+	7	70057	8	206		// Peleryny
+	8	70057	8	206		// Peleryny
+	9	70057	8	206		// Peleryny
+	10	27105	1	206		// Fioletowa Pota
+	11	27112	1	206		// ZielonaPota
+	12	39008	1	206		// Egzo
+	13	38050	1	206		// SkrzyniaMocy
+	14	30324	1	206		// KluczBaronka
+	15	30324	1	50		// KluczBaronka
+	16	80004	1	206		// 100k
+	17	80004	1	140		// 100k
+	18	80004	1	70		// 100k
+	19	30152	1	30		// Eliksir Gildii
+}
+
+Group    Lotne
+{
+	Mob		39038				// 80LVL
+	Type	drop
+	1	71084	8	206		// Zmianki
+	2	71084	8	180		// Zmianki
+	3	71084	8	130		// Zmianki
+	4	71084	8	100		// Zmianki
+	5	71084	8	20		// Zmianki
+	6	70057	8	206		// Peleryny
+	7	70057	8	206		// Peleryny
+	8	70057	8	206		// Peleryny
+	9	70057	8	206		// Peleryny
+	10	27105	1	206		// Fioletowa Pota
+	11	27112	1	206		// ZielonaPota
+	12	39008	1	206		// Egzo
+	13	38050	1	206		// SkrzyniaMocy
+	14	50152	1	206		// KluczDT
+	15	50152	1	50		// KluczDT
+	16	80004	1	206		// 100k
+	17	80004	1	140		// 100k
+	18	80004	1	70		// 100k
+	19	80005	1	20		// 100k
+	20	30152	1	30		// Eliksir Gildii
+}
+
+Group METINAV1
+{
+    Mob        39042
+    Type    drop
+    1    30198    1    206        // Wodny Krysztal
+    2    30553    1    3        // Krysztal Groty
+    3    30553    1    2        // Krysztal Groty
+    4 30179    1    25        // Krety Klucz
+    5 30179    1    25        // Krety Klucz
+    6    71084    18    206        // Zaczarowanie Przedmiotu
+    7    71084    18    140        // Zaczarowanie Przedmiotu
+    8    71084    18    70        // Zaczarowanie Przedmiotu
+    9    71084    18    30        // Zaczarowanie Przedmiotu
+    10    30152    1    20            // Eliksir Gildii
+    11    30152    1    20            // Eliksir Gildii
+    12    71035    1    10            // El Poszukiwacza
+    13    71035    1    10            // El Poszukiwacza
+    14    80005    1    206            // Sztab. 500k
+    15    80005    1    70            // Sztab. 500k
+    16    80005    1    35            // Sztab. 500k
+}
+
+Group METINAV2
+{
+    Mob        39043
+    Type    drop
+    1    30199    1    206        // Niebieski Krysztal
+    2    30553    1    4        // Krysztal Groty
+    3    30553    1    3        // Krysztal Groty
+    4 30179    1    33        // Krety Klucz
+    5 30179    1    33        // Krety Klucz
+    6    71084    20    206        // Zaczarowanie Przedmiotu
+    7    71084    20    150        // Zaczarowanie Przedmiotu
+    8    71084    20    80        // Zaczarowanie Przedmiotu
+    9    71084    20    40        // Zaczarowanie Przedmiotu
+    10    30152    1    27            // Eliksir Gildii
+    11    30152    1    27            // Eliksir Gildii
+    12    71035    1    14            // El Poszukiwacza
+    13    71035    1    14            // El Poszukiwacza
+    14    80005    1    206            // Sztab. 500k
+    15    80005    1    85            // Sztab. 500k
+    16    80005    1    45            // Sztab. 500k
+}

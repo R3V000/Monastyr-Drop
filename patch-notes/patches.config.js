@@ -17,9 +17,9 @@ window.PATCH_NOTES_CONFIG = {
       title: "Aktualizacja v10",
       releasedAt: "05.06.2026",
       path: "patches/v10/index.html",
-      description: "Testowa archiwalna aktualizacja z przykładową treścią.",
-      backgroundImage: "patches/v11/images/bg.png",
-      panelImage: "patches/v11/images/left-panel.png"
+      description: "Archiwalna aktualizacja z porównaniem zmian dropu, dungeonami, metinami i poprawkami systemowymi.",
+      backgroundImage: "patches/v10/images/bg.png",
+      panelImage: "patches/v10/images/left-panel.png"
     }
   ]
 };

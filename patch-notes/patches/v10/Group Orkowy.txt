@@ -1,0 +1,315 @@
+Group	Orkowy
+{
+	Level_limit	1
+	Mob		693
+	Type	limit
+	1	71084	7	100		// Zmianki
+	2	71084	7	80		// Zmianki
+	3	71084	7	60		// Zmianki
+	4	51501	1	60			// CorSurowy
+	5	51501	1	50			// CorSurowy
+	6	51501	1	50			// CorSurowy
+	7	25040	1	35			// Bodzio
+	8	25040	1	25			// Bodzio
+	9	30152 1 5				// Eliksir Gildii
+	10	71094	1	23		// Rada
+	11	71094	1	18		// Rada
+	12	71107	1	25		// FasolkaZen
+	13	71107	1	20		// FasolkaZen
+	14	71107	1	15		// FasolkaZen
+	15	30266	1	15		// KielWodza
+	16	30266	1	5			// KielWodza
+	17	27987	1	8		// Małż
+	18	27799	1	8		// Ość
+	19	11244	1	7			// Smiertelka
+	20	11444	1	7			// Lwiej Mrowki
+	21	11644	1	7			// Yin-Yang
+	22	11844	1	7			// Zach. Nieba
+	23	13044	1	10		// Okragla
+	24	13045	1	10		// Okragla
+	25	50096	1	5			// SkryniaZBizu
+	26	50096	1	5			// SkryniaZBizu
+	27	30154	1	5			// Potworologia
+}
+
+Group	Baronowna
+{
+	Level_limit	1
+	Mob		2092						// Baronowna
+	Type	limit
+	1	71084	12	100		// Zmianki
+	2	71084	12	80		// Zmianki
+	3	71084	12	60		// Zmianki
+	4	71084	12	40		// Zmianki
+	5	71084 12	20		// Zmianki
+	6	25040	1		50		// Bodzio
+	7	25040	1		50		// Bodzio
+	8	71094	1	35			// Rada
+	9	71094	1	35			// Rada
+	10	51501	1	100		// CorSurowy
+	11	51501	1	100		// CorSurowy
+	12	51501	1	100		// CorSurowy
+	13 51507	1	20		// CorSzlif
+	14 51507	1	10		// CorSzlif
+	15	71107	1	45		// FasolkaZen
+	16	71107	1	30		// FasolkaZen
+	17	71107	1	25		// FasolkaZen
+	18	30152	1	8			// EliksirGildii
+	19	27987	1	15		// Małż
+	20	27799	1	15		// Ość
+	21	30518	1	3			// Ulepa Pas
+	22	30518	1	1			// Ulepa Pas
+	23	12260	1	1			// Maska Strachu
+	24	12390	1	1			// Orkowy Kaptur
+	25	12670	1	1			// Kapelusz Kardynała
+	26	12530	1	1			// Rogowy Hełm
+	27	30154	1	7.5		// Potworologia
+	28	11284	1	1			// Zbroja Boga Smokow+6
+	29	11484	1	1			// Ubranie Fuksyjne+6
+	30	11684	1	1			// Duchowa Zbroja Plyt.+6
+	31	11884	1	1			// Szata Baronow+6
+}
+
+Group	Ripper
+{
+	Level_limit	75
+	Mob		1093						// Ripper
+	Type	limit
+	1	50082	1		100			// SzkataRipa
+	2	71084	15	100		// Zaczarowanie Przedmiotu
+	3	71084	15	80		// Zaczarowanie Przedmiotu
+	4	71084	15	60		// Zaczarowanie Przedmiotu
+	5	71084	15	40		// Zaczarowanie Przedmiotu
+	6	71084	15	20		// Zaczarowanie Przedmiotu
+	7	71084	15	15		// Zaczarowanie Przedmiotu
+	8	71094	1		35			// Rada
+	9	71094	1		35			// Rada
+	10	51501	2	100			// CorSurowe
+	11	51501	2	75			// CorSurowe
+	12	51501	2	75			// CorSurowe
+	13	51507	1	15			// CorSzlif
+	14	51507	1	10			// CorSzlif
+	15	39022	1	25			// Zbs
+	16	39022	1	25			// Zbs
+	17	39032	1	30			// Owoc
+	18	39032	1	30			// Owoc
+	19	100300	1	35		// ZielonaFasolka
+	20	100300	1	25		// ZielonaFasolka
+	21	100300	1	15		// ZielonaFasolka
+	22	30319	1	15			// Zasuszona
+	23	30319	1	5				// Zasuszona
+	24	71158	1	10			// MedalBohatera
+	25	71158	1	6				// MedalBohatera
+	26	30154	1	10			// Potworologia
+	27	30154	1	 3			// Potworologia
+	28	30152	1	10			// EliksirGildii
+	29	30152	1	 5			// EliksirGildii
+}
+
+Group	Azrael
+{
+	Level_limit	75
+	Mob		2598						// Azrael
+	Type	limit
+	1	71084	25	100		// Zaczarowanie Przedmiotu
+	2	71084	25	100		// Zaczarowanie Przedmiotu
+	3	71084	25	80		// Zaczarowanie Przedmiotu
+	4	71084	25	60		// Zaczarowanie Przedmiotu
+	5	71094	1		30			// Rada
+	6	71094	1		30			// Rada
+	7	71094	1		15			// Rada
+	8	71035	1		10			// EliksirPoszukiwacza
+	9	71035	1		10			// EliksirPoszukiwacza
+	10	51507	1	100			// Cor Szlif
+	11	51507	1	90			// Cor Szlif
+	12	51507	1	80			// Cor Szlif
+	13	51507	1	70			// Cor Szlif
+	14	71158	1	10			// MedalBohatera
+	15	71158	1	6				// MedalBohatera
+	16	100300	1	35		// ZielonaFasolka
+	17	100300	1	30		// ZielonaFasolka
+	18	100300	1	25		// ZielonaFasolka
+	19	39032	1	35			// Owoc
+	20	39032	1	30			// Owoc
+	21	39032	1	25			// Owoc
+	22	39022	1	30			// Zbs
+	23	39022	1	30			// Zbs
+	24	71018	1	100			// Seta
+	25	71018	1	100			// Seta
+	26	71018	1	100			// Seta
+	27	39031	1	100			// MiksturaPospiechu
+	28	27994	1	10			// KrwawaPerla
+	29	27993	1	10			// NiebieskaPerla
+	30	27992	1	10			// BialaPerla
+	31	71158	1	14			// MedalBohatera
+	32	71158	1	10			// MedalBohatera
+	33	30152	1	15			// EliksirGildii
+	34	30152	1	15			// EliksirGildii
+	35	30154	1	20			// Potworologia
+	36	25041	1	10			// Metal
+	37	25041	1	 5			// Metal
+	38	71017	1	10			// MedalSzczescia
+	39	30196	1	15			// Demoniczne Prochy
+	40	30196	1	10			// Demoniczne Prochy	
+	41	16220	1	 1			// NasiorEXP
+	42	50186	1	100			// Szkata
+}
+
+
+Group	Baran-Setao
+{
+	Level_limit	75
+	Mob		2493							// Beran-Setao
+	Type	limit
+	1	71084	25	100		// Zaczarowanie Przedmiotu
+	2	71084	25	100		// Zaczarowanie Przedmiotu
+	3	71084	25	80		// Zaczarowanie Przedmiotu
+	4	71084	25	80		// Zaczarowanie Przedmiotu
+	5	71084	25	60		// Zaczarowanie Przedmiotu
+	6	71084	25	60		// Zaczarowanie Przedmiotu
+	7	71084	25	40		// Zaczarowanie Przedmiotu
+	8	71084	25	40		// Zaczarowanie Przedmiotu
+	9	25041	1		27		// Metal
+	10	51507	2	85		// Cor Szlif
+	11	51507	2	85		// Cor Szlif
+	12	51507	2	75		// Cor Szlif
+	13	51507	2	65		// Cor Szlif
+	14	51507	2	55		// Cor Szlif
+	15	71158	1	28		// MedalBohatera
+	16	71158	1	20		// MedalBohatera
+	17	39031	1	98		// MiksturaPospiechu
+	18	25041	1	27		// Metal
+	19	100300	1	40	// ZielonaFasolka
+	20	100300	1	35	// ZielonaFasolka
+	21	100300	1	30	// ZielonaFasolka
+	22	27994	1	22		// KrwawaPerla
+	23	27994	1	22		// KrwawaPerla
+	24	27993	1	22		// NiebieskaPerla
+	25	27993	1	22		// NiebieskaPerla
+	26	27992	1	22		// BialaPerla
+	27	27992	1	22		// BialaPerla
+	28	71018	3	100		// Seta
+	29	71018	3	70		// Seta
+	30	71018	3	50		// Seta
+	31	30154	1	25		// Potworologia
+	32	30154	1	25		// Potworologia
+	33	30152	1	25		// EliksirGildii
+	34	30152	1	25		// EliksirGildii
+	35	71123	1	10		// Luska
+	36	71035	1	20		// EliksirPoszukiwacza
+	37	71035	1	20		// EliksirPoszukiwacza
+	38	39022	1	30		// Zbs
+	39	39022	1	30		// Zbs
+	40	39022	1	15		// Zbs
+	41	39022	1	15		// Zbs
+	42	71017	1	10		// MedalSzczescia
+	43	71017	1	10		// MedalSzczescia
+	44	14220	1	1			// Bransa
+	45	71129	1	10		// Szpon	
+}
+
+Group	Razador
+{
+	Level_limit	85
+	Mob		6091						// Razador
+	Type	limit
+	1	71084	65	100		// Zaczarowanie Przedmiotu
+	2	71084	65	100		// Zaczarowanie Przedmiotu
+	3	71084	65	100		// Zaczarowanie Przedmiotu
+	4	71084	65	100		// Zaczarowanie Przedmiotu
+	5	25041	1	48		// Metal
+	6	25041	1	48		// Metal
+	7	25041	1	48		// Metal
+	8	71035	1	30		// EliksirPoszukiwacza
+	9	71035	1	30		// EliksirPoszukiwacza
+	10	51507	2	100		// Cor Szlif
+	11	51507	2	100		// Cor Szlif
+	12	51507	2	100		// Cor Szlif
+	13	51507	2	100		// Cor Szlif
+	14	51507	2	100		// Cor Szlif
+	15	51508	1	75		// corrzadki
+	16	51508	1	75		// corrzadki
+	17	51508	1	75		// corrzadki
+	18	51508	1	75		// corrzadki
+	19	27994	1	35		// KrwawaPerla
+	20	27994	1	35		// KrwawaPerla
+	21	27994	1	35		// KrwawaPerla
+	22	27993	1	35		// NiebieskaPerla
+	23	27993	1	35		// NiebieskaPerla
+	24	27993	1	35		// NiebieskaPerla
+	25	27992	1	35		// BialaPerla
+	26	27992	1	35		// BialaPerla
+	27	27992	1	35		// BialaPerla
+	28	100300	1	80		// ZielonaFasolka
+	29	100300	1	70		// ZielonaFasolka
+	30	100300	1	60		// ZielonaFasolka
+	31	71018	5	100		// Seta
+	32	71018	5	70		// Seta
+	33	71018	5	50		// Seta
+	34	71158	1	35		// MedalBohatera
+	35	71158	1	35		// MedalBohatera
+	36	30154	1	40		// Potworologia
+	36	30154	1	40		// Potworologia
+	33	30152	2	40		// EliksirGildii
+	34	30152	2	30		// EliksirGildii
+	35	17220	1	1			// Kolce
+	36	30511	1	10		// CzerwonyMaterial
+	37	30511	1	10		// CzerwonyMaterial
+	38	30511	1	10		// CzerwonyMaterial
+}
+
+Group	Hydra
+{
+	Level_limit	95
+	Mob	3960						// Hydra
+	Type	limit
+	1	71084	100	100		// Zaczarowanie Przedmiotu
+	2	71084	100	100		// Zaczarowanie Przedmiotu
+	3	71084	100	85		// Zaczarowanie Przedmiotu
+	4	71084	100	85		// Zaczarowanie Przedmiotu
+	5	71084	50	100		// Zaczarowanie Przedmiotu
+	6	71084	50	100		// Zaczarowanie Przedmiotu
+	7	71084	50	85		// Zaczarowanie Przedmiotu
+	8	71084	50	85		// Zaczarowanie Przedmiotu
+	9	31001	1	20			// Kamien Ksiezycowy
+	10	25041	2	68		// Metal
+	11	25041	2	68		// Metal
+	12	25041	2	68		// Metal
+	13	71035	1	60		// EliksirPoszukiwacza
+	14	71035	1	60		// EliksirPoszukiwacza
+	15	39031	1	100		// MiksturaPospiechu
+	16	39031	1	100		// MiksturaPospiechu
+	17	39031	1	50		// MiksturaPospiechu
+	18	51508	2	100		// corrzadki
+	19	51508	2	100		// corrzadki
+	20	51508	2	100		// corrzadki
+	21	51508	2	100		// corrzadki
+	22	51508	2	100		// corrzadki
+	23	51508	2	100		// corrzadki
+	24	51508	2	100		// corrzadki
+	25	51508	2	85		// corrzadki
+	26	51508	2	65		// corrzadki
+	27	51508	2	45		// corrzadki
+	28	51508	2	35		// corrzadki
+	29	51508	2	25		// corrzadki
+	30	71158	1	50		// MedalBohatera
+	31	71158	1	50		// MedalBohatera
+	32	71017	1	20		// MedalSzczescia
+	33	71017	1	20		// MedalSzczescia
+	34	30154	1	40		// Potworologia
+	35	30154	1	40		// Potworologia
+	36	30152	2	100		// EliksirGildii
+	37	30152	2	100		// EliksirGildii
+	38	27994	1	60		// KrwawaPerla
+	39	27994	1	60		// KrwawaPerla
+	40	27994	1	60		// KrwawaPerla
+	41	27993	1	60		// NiebieskaPerla
+	42	27993	1	60		// NiebieskaPerla
+	43	27993	1	60		// NiebieskaPerla
+	44	27992	1	60		// BialaPerla
+	45	27992	1	60		// BialaPerla
+	46	27992	1	60		// BialaPerla
+	47	71018	5	100		// Seta
+	48	71018	5	100		// Seta
+	49	71018	5	100		// Seta
+}
