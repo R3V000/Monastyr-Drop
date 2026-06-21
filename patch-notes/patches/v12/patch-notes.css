@@ -492,12 +492,15 @@ figure {
 }
 
 .chat-filter-video-frame video {
+  position: relative;
+  left: 50%;
   display: block;
-  width: 100%;
+  width: 125%;
+  max-width: none;
   height: 200%;
   object-fit: cover;
   object-position: center bottom;
-  transform: translateY(-50%);
+  transform: translate(-50%, -50%);
   pointer-events: none;
   user-select: none;
 }
