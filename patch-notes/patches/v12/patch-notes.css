@@ -474,6 +474,34 @@ figure {
   width: 100%;
 }
 
+.chat-filter-video-frame {
+  width: min(760px, 100%);
+  aspect-ratio: 16 / 4.5;
+  overflow: hidden;
+  margin: 18px auto 0;
+  padding: 6px;
+  border: 1px solid rgba(227, 178, 97, 0.46);
+  border-radius: 3px;
+  background:
+    linear-gradient(180deg, rgba(255, 229, 166, 0.08), rgba(73, 31, 15, 0.14)),
+    rgba(4, 3, 2, 0.5);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 238, 188, 0.08),
+    0 16px 24px rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+}
+
+.chat-filter-video-frame video {
+  display: block;
+  width: 100%;
+  height: 200%;
+  object-fit: cover;
+  object-position: center bottom;
+  transform: translateY(-50%);
+  pointer-events: none;
+  user-select: none;
+}
+
 .happy-hour-preview {
   width: fit-content;
   max-width: 100%;
