@@ -1,6 +1,16 @@
 window.PATCH_NOTES_CONFIG = {
-  currentPatchId: "v11",
+  currentPatchId: "v12",
   patches: [
+    {
+      id: "v12",
+      label: "Patch v12",
+      title: "Aktualizacja v12",
+      releasedAt: "21.06.2026",
+      path: "patches/v12/index.html",
+      description: "Przepisana logika PvP, przywrócone wartości klas i poprawki obrażeń po zmianach hitów.",
+      backgroundImage: "patches/v12/images/bg.png",
+      panelImage: "patches/v12/images/left-panel.png"
+    },
     {
       id: "v11",
       label: "Patch v11",
