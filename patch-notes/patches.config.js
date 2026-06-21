@@ -7,7 +7,7 @@ window.PATCH_NOTES_CONFIG = {
       title: "Aktualizacja v12",
       releasedAt: "21.06.2026",
       path: "patches/v12/index.html",
-      description: "Przepisana logika PvP, Loteria Tygodniowa, poprawka bossów, Kukły Treningowe oraz Happy Hour.",
+      description: "Przepisana logika PvP, poprawki PvE i dropu, Loteria Tygodniowa, Kukły Treningowe oraz Happy Hour.",
       backgroundImage: "patches/v12/images/bg.png",
       panelImage: "patches/v12/images/left-panel.png"
     },
