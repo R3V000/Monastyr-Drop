@@ -199,6 +199,55 @@ figure {
   padding-left: 18px;
 }
 
+.training-showcase {
+  display: grid;
+  grid-template-columns: minmax(120px, 0.42fr) minmax(0, 1fr);
+  gap: clamp(16px, 3vw, 28px);
+  align-items: center;
+  margin-top: 18px;
+}
+
+.training-copy {
+  display: grid;
+  gap: 9px;
+}
+
+.training-visual {
+  margin: 0;
+  justify-self: center;
+}
+
+.training-visual img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  filter:
+    drop-shadow(0 18px 20px rgba(0, 0, 0, 0.7))
+    drop-shadow(0 0 16px rgba(227, 178, 97, 0.16));
+}
+
+.training-dummy-visual img {
+  width: min(220px, 100%);
+}
+
+.training-ranking-visual {
+  grid-column: 1 / -1;
+  width: min(720px, 100%);
+  padding: 6px;
+  border: 1px solid rgba(227, 178, 97, 0.46);
+  border-radius: 3px;
+  background:
+    linear-gradient(180deg, rgba(255, 229, 166, 0.08), rgba(73, 31, 15, 0.14)),
+    rgba(4, 3, 2, 0.5);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 238, 188, 0.08),
+    0 16px 24px rgba(0, 0, 0, 0.3);
+}
+
+.training-ranking-visual img {
+  width: 100%;
+}
+
 .summary-panel {
   margin-top: 2px;
   padding: 16px 18px 18px;
@@ -262,5 +311,14 @@ body.embedded-patch .patch-notes {
 
   .patch-notes {
     padding: 22px 16px;
+  }
+
+  .training-showcase {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .training-dummy-visual img {
+    width: min(190px, 58vw);
   }
 }

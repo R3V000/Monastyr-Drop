@@ -7,7 +7,7 @@ window.PATCH_NOTES_CONFIG = {
       title: "Aktualizacja v12",
       releasedAt: "21.06.2026",
       path: "patches/v12/index.html",
-      description: "Przepisana logika PvP, przywrócone wartości klas i poprawki obrażeń po zmianach hitów.",
+      description: "Przepisana logika PvP, poprawki obrażeń oraz Kukły Treningowe z rankingiem klasowym.",
       backgroundImage: "patches/v12/images/bg.png",
       panelImage: "patches/v12/images/left-panel.png"
     },
