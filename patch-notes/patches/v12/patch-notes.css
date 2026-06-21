@@ -226,6 +226,28 @@ figure {
   line-height: 1.15;
 }
 
+.item-highlight-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(58px, 84px);
+  gap: 14px;
+  align-items: center;
+}
+
+.single-item-icon {
+  margin: 0;
+  justify-self: center;
+}
+
+.single-item-icon img {
+  display: block;
+  width: 58px;
+  height: 58px;
+  object-fit: contain;
+  filter:
+    drop-shadow(0 10px 12px rgba(0, 0, 0, 0.7))
+    drop-shadow(0 0 12px rgba(227, 178, 97, 0.18));
+}
+
 .change-stat-list {
   display: grid;
   gap: 8px;
@@ -498,7 +520,8 @@ body.embedded-patch .patch-notes {
   }
 
   .pve-change-grid,
-  .pass-drop-panel {
+  .pass-drop-panel,
+  .item-highlight-panel {
     grid-template-columns: 1fr;
   }
 
@@ -510,6 +533,7 @@ body.embedded-patch .patch-notes {
     text-align: center;
   }
 
+  .single-item-icon,
   .pass-drop-icon {
     order: -1;
   }
