@@ -207,6 +207,44 @@ export const eventPresentation = {
       'Podczas eventu z glownego World Bossa bedziecie mogli zdobyc stale elementy wygladu. Ich liczba jest scisle limitowana, dlatego kazdy zdobyty przedmiot bedzie mial wyjatkowa wartosc kolekcjonerska.',
     summary:
       'Do zdobycia bedzie lacznie tylko 10 kostiumow, 10 fryzur oraz 10 nakladek. Po skompletowaniu calego setu ekwipunku administracja przyzna tym osobom unikalny item: Skrzydla Morskiej Iluzji.',
+    chests: {
+      kicker: 'Skrzynie Morskiej Iluzji',
+      title: 'Unikalne przedmioty w specjalnych skrzyniach',
+      lead:
+        'Przedmioty unikalne bedziecie mogli zdobyc ze specjalnych skrzyn. Trafily one do skrzyn dlatego, ze w momencie otwarcia wybrany element zostaje na stale przypisany do postaci.',
+      warningTitle: 'Wazne',
+      warning:
+        'Odbior Skrzydel Morskiej Iluzji bedzie dostepny wylacznie podczas trwania eventu wakacyjnego. Jezeli gracz nie zdazy skompletowac pelnego setu ekwipunku w czasie wydarzenia, nie otrzyma skrzydel po jego zakonczeniu. Czas odbioru jest limitowany.',
+      items: [
+        {
+          title: 'Szkat. Fryz. Morskiej Iluzji',
+          text:
+            'Zawiera limitowane fryzury z morskiego setu. Po otwarciu zdobyta fryzura zostaje przypisana do postaci na stale.',
+          image: {
+            src: 'assets/skrzynie/skrzynia-fryzur.png',
+            alt: 'Szkatulka Fryzur Morskiej Iluzji'
+          }
+        },
+        {
+          title: 'Szkat. Kost. Morskiej Iluzji',
+          text:
+            'Zawiera stale kostiumy wydarzenia. Po otwarciu kostium zostaje na stale przypisany do postaci, dlatego kazda skrzynia ma bardzo duza wartosc.',
+          image: {
+            src: 'assets/skrzynie/skrzynia-kostiumow.png',
+            alt: 'Szkatulka Kostiumow Morskiej Iluzji'
+          }
+        },
+        {
+          title: 'Szkat. Nakl. Morskiej Iluzji',
+          text:
+            'Po kliknieciu w skrzynie otworzy sie menu, z ktorego mozecie wybrac dowolna nakladke z dostepnej puli. Wybrana nakladka zostanie przypisana do postaci na stale.',
+          image: {
+            src: 'assets/skrzynie/skrzynia-nakladek.png',
+            alt: 'Szkatulka Nakladek Morskiej Iluzji'
+          }
+        }
+      ]
+    },
     counters: [
       {
         value: '10',

@@ -1374,6 +1374,161 @@ select {
     inset 0 1px 0 rgba(255, 255, 255, 0.08);
 }
 
+.illusion-chests {
+  display: grid;
+  gap: 18px;
+}
+
+.illusion-chests__header {
+  width: min(100%, 880px);
+  display: grid;
+  justify-self: center;
+  gap: 12px;
+  text-align: center;
+}
+
+.illusion-chests__header > p {
+  width: fit-content;
+  justify-self: center;
+  margin: 0;
+  padding: 7px 12px;
+  border: 1px solid rgba(156, 246, 255, 0.24);
+  border-radius: 8px;
+  background: rgba(156, 246, 255, 0.1);
+  color: #9cf6ff;
+  font-size: 0.82rem;
+  font-weight: 940;
+  text-transform: uppercase;
+}
+
+.illusion-chests__header h3 {
+  margin: 0;
+  color: #fff4c2;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.75rem;
+  line-height: 1.08;
+  text-shadow:
+    0 3px 0 rgba(11, 43, 49, 0.58),
+    0 0 22px rgba(156, 246, 255, 0.24);
+}
+
+.illusion-chests__header span {
+  color: #c8eeee;
+  font-size: 1.05rem;
+  line-height: 1.72;
+}
+
+.illusion-chests__warning {
+  width: min(100%, 920px);
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 16px;
+  align-items: center;
+  justify-self: center;
+  padding: 16px 18px;
+  border: 1px solid rgba(255, 244, 194, 0.34);
+  border-left: 3px solid rgba(255, 244, 194, 0.92);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(255, 244, 194, 0.14), rgba(156, 246, 255, 0.06)),
+    rgba(2, 13, 17, 0.54);
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.18);
+}
+
+.illusion-chests__warning strong {
+  color: #fff4c2;
+  font-size: 0.9rem;
+  font-weight: 940;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.illusion-chests__warning p {
+  margin: 0;
+  color: #effffd;
+  font-size: 1rem;
+  font-weight: 720;
+  line-height: 1.62;
+}
+
+.illusion-chest-list {
+  display: grid;
+  gap: 14px;
+}
+
+.illusion-chest {
+  display: grid;
+  grid-template-columns: minmax(190px, 0.34fr) minmax(0, 0.66fr);
+  gap: 22px;
+  align-items: center;
+  padding: 18px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(156, 246, 255, 0.24);
+  border-radius: 8px;
+  background:
+    radial-gradient(circle at 14% 48%, rgba(156, 246, 255, 0.12), transparent 32%),
+    rgba(4, 23, 28, 0.64);
+  box-shadow:
+    0 18px 42px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.illusion-chest::after {
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(255, 244, 194, 0.08);
+  border-radius: 8px;
+  content: "";
+  pointer-events: none;
+}
+
+.illusion-chest__image {
+  min-height: 210px;
+  display: grid;
+  place-items: center;
+  padding: 14px;
+  border: 1px solid rgba(156, 246, 255, 0.14);
+  border-radius: 8px;
+  background:
+    radial-gradient(circle at center, rgba(156, 246, 255, 0.16), transparent 58%),
+    rgba(1, 9, 12, 0.44);
+}
+
+.illusion-chest__image img {
+  width: min(100%, 300px);
+  max-height: 250px;
+  display: block;
+  object-fit: contain;
+  filter:
+    drop-shadow(0 20px 24px rgba(0, 0, 0, 0.32))
+    drop-shadow(0 0 18px rgba(156, 246, 255, 0.16));
+}
+
+.illusion-chest__copy {
+  display: grid;
+  gap: 12px;
+  padding-right: clamp(0px, 2vw, 18px);
+}
+
+.illusion-chest__copy h4 {
+  margin: 0;
+  color: #fff4c2;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.1rem;
+  line-height: 1.12;
+  text-shadow:
+    0 3px 0 rgba(11, 43, 49, 0.58),
+    0 0 18px rgba(156, 246, 255, 0.22);
+}
+
+.illusion-chest__copy p {
+  margin: 0;
+  color: #c8eeee;
+  font-size: 1.02rem;
+  line-height: 1.72;
+}
+
 .limited-showcase {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1698,8 +1853,20 @@ select {
   .limited-counter-grid,
   .limited-showcase,
   .limited-featured,
-  .wing-bonus-section {
+  .wing-bonus-section,
+  .illusion-chests__warning,
+  .illusion-chest {
     grid-template-columns: 1fr;
+  }
+
+  .illusion-chest {
+    justify-items: center;
+    text-align: center;
+  }
+
+  .illusion-chest__copy {
+    justify-items: center;
+    padding-right: 0;
   }
 
   .stone-item {
@@ -1746,6 +1913,37 @@ select {
 
   .limited-rewards__intro h2 {
     font-size: 2.45rem;
+  }
+
+  .illusion-chests__header h3 {
+    font-size: 2.2rem;
+  }
+
+  .illusion-chests__header span,
+  .illusion-chests__warning p,
+  .illusion-chest__copy p {
+    font-size: 0.96rem;
+  }
+
+  .illusion-chests__warning {
+    justify-items: start;
+  }
+
+  .illusion-chest {
+    padding: 14px;
+  }
+
+  .illusion-chest__image {
+    width: 100%;
+    min-height: 170px;
+  }
+
+  .illusion-chest__image img {
+    max-height: 210px;
+  }
+
+  .illusion-chest__copy h4 {
+    font-size: 1.72rem;
   }
 
   .limited-rewards__intro p {
