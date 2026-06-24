@@ -103,11 +103,13 @@ function LimitedRewardsSection({ rewards }) {
             {rewards.chests.items.map((chest) => (
               <article className="illusion-chest" key={chest.title}>
                 <div className="illusion-chest__image">
-                  <img src={chest.image.src} alt={chest.image.alt} loading="lazy" decoding="async" />
-                  <span className="chest-corner chest-corner--top-left" aria-hidden="true" />
-                  <span className="chest-corner chest-corner--top-right" aria-hidden="true" />
-                  <span className="chest-corner chest-corner--bottom-left" aria-hidden="true" />
-                  <span className="chest-corner chest-corner--bottom-right" aria-hidden="true" />
+                  <div className="illusion-chest__frame">
+                    <img src={chest.image.src} alt={chest.image.alt} loading="lazy" decoding="async" />
+                    <span className="chest-corner chest-corner--top-left" aria-hidden="true" />
+                    <span className="chest-corner chest-corner--top-right" aria-hidden="true" />
+                    <span className="chest-corner chest-corner--bottom-left" aria-hidden="true" />
+                    <span className="chest-corner chest-corner--bottom-right" aria-hidden="true" />
+                  </div>
                 </div>
                 <div className="illusion-chest__copy">
                   <h4>{chest.title}</h4>
