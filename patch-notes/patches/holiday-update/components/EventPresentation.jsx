@@ -14,6 +14,10 @@ function OrnamentedImage({ src, alt, className = '' }) {
   );
 }
 
+function cssImage(path) {
+  return `url("${path}")`;
+}
+
 export default function EventPresentation() {
   const {
     hero,
@@ -29,10 +33,10 @@ export default function EventPresentation() {
   } = eventPresentation;
 
   return (
-    <main className="event-page" style={{ '--page-bg': `url(${hero.repeatBackground})` }}>
+    <main className="event-page">
       <section
         className="event-hero"
-        style={{ '--hero-bg': `url(${hero.background})` }}
+        style={{ backgroundImage: cssImage(hero.background) }}
         aria-labelledby="hero-title"
       >
         <div className="event-hero__inner">
@@ -58,7 +62,13 @@ export default function EventPresentation() {
         </div>
       </section>
 
-      <div className="event-content" id="details">
+      <div
+        className="event-content"
+        id="details"
+        style={{
+          backgroundImage: `linear-gradient(rgba(240, 242, 222, 0.86), rgba(240, 242, 222, 0.86)), ${cssImage(hero.repeatBackground)}`
+        }}
+      >
         <section className="section-block section-block--overview" aria-labelledby="overview-title">
           <div className="content-shell overview-grid">
             <div className="section-heading">
