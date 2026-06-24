@@ -216,7 +216,7 @@ export const eventPresentation = {
       {
         value: '10',
         label: 'fryzur',
-        note: 'limitowane fryzury do kompletu'
+        note: 'limitowane fryzury'
       },
       {
         value: '10',
@@ -232,7 +232,26 @@ export const eventPresentation = {
       image: {
         src: 'assets/set-ekwipunku/wings2.jpg',
         alt: 'Skrzydla Morskiej Iluzji'
-      }
+      },
+      bonusesTitle: 'Przedmiot unikalny',
+      bonuses: [
+        {
+          label: 'Silny Przeciwko Potworom',
+          value: '+10%'
+        },
+        {
+          label: 'Silny Przeciwko Ludziom',
+          value: '+10%'
+        },
+        {
+          label: 'Max. HP',
+          value: '+1000'
+        },
+        {
+          label: 'Czas',
+          value: 'staly'
+        }
+      ]
     },
     items: [
       {

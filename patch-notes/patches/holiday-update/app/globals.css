@@ -1506,6 +1506,67 @@ select {
   font-size: 1.05rem;
 }
 
+.wing-bonus-panel {
+  display: grid;
+  gap: 12px;
+  margin-top: 4px;
+  padding: 16px;
+  border: 1px solid rgba(156, 246, 255, 0.24);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(156, 246, 255, 0.1), rgba(255, 244, 194, 0.08)),
+    rgba(2, 13, 17, 0.38);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 14px 30px rgba(0, 0, 0, 0.16);
+}
+
+.wing-bonus-panel > p {
+  width: fit-content;
+  margin: 0;
+  padding: 6px 10px;
+  border: 1px solid rgba(156, 246, 255, 0.22);
+  border-radius: 8px;
+  background: rgba(156, 246, 255, 0.1);
+  color: #9cf6ff;
+  font-size: 0.78rem;
+  font-weight: 940;
+  text-transform: uppercase;
+}
+
+.wing-bonus-list {
+  display: grid;
+  gap: 8px;
+}
+
+.wing-bonus-row {
+  min-height: 38px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 14px;
+  align-items: center;
+  padding: 8px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.055);
+}
+
+.wing-bonus-row span {
+  color: #d6fafa;
+  font-size: 0.94rem;
+  font-weight: 760;
+  line-height: 1.28;
+}
+
+.wing-bonus-row strong {
+  color: #fff4c2;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.12rem;
+  line-height: 1;
+  text-shadow: 0 0 14px rgba(217, 169, 53, 0.28);
+  white-space: nowrap;
+}
+
 .limited-rarity-note {
   width: min(100%, 860px);
   justify-self: center;
