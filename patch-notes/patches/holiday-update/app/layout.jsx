@@ -1,7 +1,7 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Event Wakacyjny | Monastyr2',
+  title: 'Event wakacyjny | Monastyr2',
   description: 'Letnie wydarzenie Monastyr2 startuje 01.07.2026 o godzinie 18:00.'
 };
 

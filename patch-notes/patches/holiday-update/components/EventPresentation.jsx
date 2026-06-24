@@ -28,7 +28,7 @@ function LimitedRewardsSection({ rewards }) {
           <p>{rewards.lead}</p>
         </div>
 
-        <div className="limited-counter-grid" aria-label="Limitowana pula nagrod">
+        <div className="limited-counter-grid" aria-label="Limitowana pula nagród">
           {rewards.counters.map((counter) => (
             <article className="limited-counter" key={counter.label}>
               <strong>{counter.value}</strong>
@@ -99,7 +99,7 @@ function LimitedRewardsSection({ rewards }) {
             <p>{rewards.chests.warning}</p>
           </div>
 
-          <div className="illusion-chest-list" aria-label="Lista skrzyn Morskiej Iluzji">
+          <div className="illusion-chest-list" aria-label="Lista skrzyń Morskiej Iluzji">
             {rewards.chests.items.map((chest) => (
               <article className="illusion-chest" key={chest.title}>
                 <div className="illusion-chest__image">
@@ -180,11 +180,11 @@ export default function EventPresentation() {
           <div className="content-shell overview-grid">
             <div className="section-heading">
               <p className="section-kicker">O wydarzeniu</p>
-              <h2 id="overview-title">Letni event w klimacie</h2>
+              <h2 id="overview-title">Letni event w morskim klimacie</h2>
               <p>{overview}</p>
             </div>
 
-            <aside className="facts-panel" aria-label="Najwazniejsze informacje">
+            <aside className="facts-panel" aria-label="Najważniejsze informacje">
               {facts.map((fact) => (
                 <div className="fact-row" key={fact.label}>
                   <span>{fact.label}</span>
@@ -199,7 +199,7 @@ export default function EventPresentation() {
           <div className="content-shell">
             <div className="section-heading section-heading--center">
               <p className="section-kicker">Co czeka graczy?</p>
-              <h2 id="players-title">Aktywnosci przygotowane pod codzienna gre</h2>
+              <h2 id="players-title">Aktywności przygotowane z myślą o codziennej grze</h2>
             </div>
 
             <div className="feature-grid">
@@ -222,7 +222,7 @@ export default function EventPresentation() {
             </div>
 
             <div className="location-showcase">
-              <div className="location-gallery" aria-label="Galeria Morskiej Swiatyni">
+              <div className="location-gallery" aria-label="Galeria Morskiej Świątyni">
                 {location.gallery.map((image, index) => (
                   <figure className="location-frame" key={image.src}>
                     <OrnamentedImage src={image.src} alt={image.alt} />
@@ -231,7 +231,7 @@ export default function EventPresentation() {
                 ))}
               </div>
 
-              <aside className="minimap-panel" aria-label="Minimapa Morskiej Swiatyni">
+              <aside className="minimap-panel" aria-label="Minimapa Morskiej Świątyni">
                 <OrnamentedImage
                   className="minimap-frame location-image-shell--minimap"
                   src={location.minimap.src}
@@ -257,7 +257,7 @@ export default function EventPresentation() {
                 <p>{locationDetails.entryText}</p>
               </div>
 
-              <div className="temple-requirements" aria-label="Wymagania Morskiej Swiatyni">
+              <div className="temple-requirements" aria-label="Wymagania Morskiej Świątyni">
                 {locationDetails.requirements.map((item) => (
                   <p className="temple-requirement" key={item.label}>
                     <span>{item.label}</span>
@@ -348,7 +348,7 @@ export default function EventPresentation() {
                 </div>
               </div>
 
-              <div className="boss-callouts" aria-label="Najwazniejsze mechaniki Krolowej Syren">
+              <div className="boss-callouts" aria-label="Najważniejsze mechaniki Królowej Syren">
                 {worldBoss.boss.callouts.map((callout) => (
                   <p className="boss-callout" key={callout}>
                     {callout}
@@ -368,7 +368,7 @@ export default function EventPresentation() {
                 ))}
               </div>
 
-              <div className="boss-flow" aria-label="Przebieg po smierci w ostatniej komnacie">
+              <div className="boss-flow" aria-label="Przebieg po śmierci w ostatniej komnacie">
                 {worldBoss.boss.flow.map((step) => (
                   <span key={step}>{step}</span>
                 ))}
@@ -382,7 +382,7 @@ export default function EventPresentation() {
         <section className="final-cta" aria-labelledby="final-title">
           <div className="content-shell final-cta__inner">
             <div>
-              <p className="section-kicker">Final</p>
+              <p className="section-kicker">Finał</p>
               <h2 id="final-title">{finalCta.title}</h2>
               <p>{finalCta.text}</p>
             </div>
