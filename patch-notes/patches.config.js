@@ -12,6 +12,16 @@ window.PATCH_NOTES_CONFIG = {
       panelImage: "patches/v12/images/left-panel.png"
     },
     {
+      id: "holiday-update",
+      label: "Holiday Update",
+      title: "Event Wakacyjny",
+      releasedAt: "01.07.2026",
+      path: "patches/holiday-update/index.html",
+      description: "Prezentacja wydarzenia wakacyjnego z Morska Swiatynia, bossami, mechanikami i aktywnosciami eventowymi.",
+      backgroundImage: "patches/holiday-update/assets/summer-main-bg.jpg",
+      panelImage: "patches/v12/images/left-panel.png"
+    },
+    {
       id: "v11",
       label: "Patch v11",
       title: "Aktualizacja v11",

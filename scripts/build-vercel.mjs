@@ -6,6 +6,9 @@ import { spawnSync } from "node:child_process";
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const dist = join(root, "dist");
 const staticOut = join(root, "out");
+const holidayUpdatePrefix = "patch-notes/patches/holiday-update";
+const holidayUpdate = join(root, holidayUpdatePrefix);
+const holidayUpdateOut = join(holidayUpdate, "out");
 const ignoredCopyNames = new Set([
   ".git",
   ".agents",
@@ -60,6 +63,10 @@ function copyDirectory(source, target) {
 
 if (!skipInstall) {
   runNpm(["--prefix", "daily-statistics", "ci"]);
+
+  if (existsSync(holidayUpdate)) {
+    runNpm(["--prefix", holidayUpdatePrefix, "ci"]);
+  }
 }
 
 runNpm(["--prefix", "daily-statistics", "run", "build"], {
@@ -69,6 +76,10 @@ runNpm(["--prefix", "daily-statistics", "run", "build"], {
   }
 });
 
+if (existsSync(holidayUpdate)) {
+  runNpm(["--prefix", holidayUpdatePrefix, "run", "build"]);
+}
+
 rmSync(dist, { recursive: true, force: true });
 rmSync(staticOut, { recursive: true, force: true });
 mkdirSync(dist, { recursive: true });
@@ -76,6 +87,16 @@ mkdirSync(dist, { recursive: true });
 cpSync(join(root, "index.html"), join(dist, "index.html"));
 copyDirectory(join(root, "mob-drop-item-editor"), join(dist, "mob-drop-item-editor"));
 copyDirectory(join(root, "patch-notes"), join(dist, "patch-notes"));
+
+if (existsSync(holidayUpdate)) {
+  if (!existsSync(holidayUpdateOut)) {
+    throw new Error("Missing patch-notes/patches/holiday-update/out after build.");
+  }
+
+  const distHolidayUpdate = join(dist, holidayUpdatePrefix);
+  rmSync(distHolidayUpdate, { recursive: true, force: true });
+  cpSync(holidayUpdateOut, distHolidayUpdate, { recursive: true });
+}
 
 const dailyOut = join(root, "daily-statistics", "out");
 if (!existsSync(dailyOut)) {
