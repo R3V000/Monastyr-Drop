@@ -200,22 +200,63 @@ export const eventPresentation = {
       flow: ['Walczysz', 'Giniesz', 'Wracasz na start', 'Pokonujesz przeszkody', 'Wracasz do bossa']
     }
   },
-  activities:
-    'Event zostal zaprojektowany tak, aby aktywnosc na mapach byla dynamiczna, ale nie meczaca. Gracze beda mogli brac udzial w wydarzeniu podczas codziennej gry, zdobywajac przedmioty i walczac o najlepsze nagrody.',
-  activityCards: [
-    {
-      title: 'Naturalny udzial',
-      text: 'Wydarzenie ma dzialac w rytmie normalnej rozgrywki, bez potrzeby odrywania sie od glownego progresu.'
+  limitedRewards: {
+    kicker: 'Limitowane - unikalne przedmioty',
+    title: 'Set, ktory trafi tylko do nielicznych',
+    lead:
+      'Podczas eventu z glownego World Bossa bedziecie mogli zdobyc stale elementy wygladu. Ich liczba jest scisle limitowana, dlatego kazdy zdobyty przedmiot bedzie mial wyjatkowa wartosc kolekcjonerska.',
+    summary:
+      'Do zdobycia bedzie lacznie tylko 10 kostiumow, 10 fryzur oraz 10 nakladek. Po skompletowaniu calego setu ekwipunku administracja przyzna tym osobom unikalny item: Skrzydla Morskiej Iluzji.',
+    counters: [
+      {
+        value: '10',
+        label: 'kostiumow',
+        note: 'stale kostiumy z eventu'
+      },
+      {
+        value: '10',
+        label: 'fryzur',
+        note: 'limitowane fryzury do kompletu'
+      },
+      {
+        value: '10',
+        label: 'nakladek',
+        note: 'unikalne nakladki na bron'
+      }
+    ],
+    featured: {
+      label: 'Nagroda za pelny set',
+      title: 'Skrzydla Morskiej Iluzji',
+      text:
+        'Ten item nie bedzie zwykla nagroda z puli dropu. Otrzymaja go tylko osoby, ktore skompletuja pelny set wydarzenia, dlatego bedzie to jedna z najbardziej unikatowych pamiatek z eventu.',
+      image: {
+        src: 'assets/set-ekwipunku/wings2.jpg',
+        alt: 'Skrzydla Morskiej Iluzji'
+      }
     },
-    {
-      title: 'Czytelne cele',
-      text: 'Aktywnosci maja byc proste do zrozumienia, z jasnym powodem do wejscia na mapy i grania regularnie.'
-    },
-    {
-      title: 'Letnie tempo',
-      text: 'Lekki klimat eventu ma dawac dodatkowa motywacje, ale nie zamieniac gry w meczacy obowiazek.'
-    }
-  ],
+    items: [
+      {
+        title: 'Stale kostiumy eventowe',
+        eyebrow: 'Limit: 10 kompletow',
+        text: 'Kostiumy z morskiego setu beda dostepne w bardzo malej liczbie i pozostana z graczami na stale.',
+        image: {
+          src: 'assets/set-ekwipunku/costume.webp',
+          alt: 'Limitowane kostiumy eventowe'
+        }
+      },
+      {
+        title: 'Nakladki na bron',
+        eyebrow: 'Limit: 10 sztuk',
+        text: 'Nakladki domykaja wizualny komplet i beda jednym z najbardziej rozpoznawalnych elementow wakacyjnego setu.',
+        image: {
+          src: 'assets/set-ekwipunku/weapons.webp',
+          alt: 'Limitowane nakladki na bron'
+        }
+      }
+    ],
+    rarityNote:
+      'To bedzie bardzo waska pula nagrod. Jesli zalezy Wam na pelnym secie, kazdy drop z glownego World Bossa bedzie mial znaczenie.'
+  },
   finalCta: {
     title: 'Widzimy sie na starcie wydarzenia!',
     text: 'Wakacyjne Wydarzenie rozpoczyna sie 01.07.2026 o godzinie 18:00. Przygotuj postac, zbierz ekipe i wejdz do gry, gdy event wystartuje.',

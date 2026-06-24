@@ -18,6 +18,65 @@ function cssImage(path) {
   return `url("${path}")`;
 }
 
+function LimitedRewardsSection({ rewards }) {
+  return (
+    <section className="section-block limited-rewards-section" aria-labelledby="limited-rewards-title">
+      <div className="content-shell limited-rewards">
+        <div className="limited-rewards__intro">
+          <p className="section-kicker">{rewards.kicker}</p>
+          <h2 id="limited-rewards-title">{rewards.title}</h2>
+          <p>{rewards.lead}</p>
+        </div>
+
+        <div className="limited-counter-grid" aria-label="Limitowana pula nagrod">
+          {rewards.counters.map((counter) => (
+            <article className="limited-counter" key={counter.label}>
+              <strong>{counter.value}</strong>
+              <span>{counter.label}</span>
+              <p>{counter.note}</p>
+            </article>
+          ))}
+        </div>
+
+        <p className="limited-summary">{rewards.summary}</p>
+
+        <div className="limited-showcase">
+          {rewards.items.map((item) => (
+            <article className="limited-item" key={item.title}>
+              <div className="limited-image">
+                <img src={item.image.src} alt={item.image.alt} loading="lazy" decoding="async" />
+              </div>
+              <div className="limited-copy">
+                <p>{item.eyebrow}</p>
+                <h3>{item.title}</h3>
+                <span>{item.text}</span>
+              </div>
+            </article>
+          ))}
+        </div>
+
+        <article className="limited-featured">
+          <div className="limited-featured__image">
+            <img
+              src={rewards.featured.image.src}
+              alt={rewards.featured.image.alt}
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <div className="limited-featured__copy">
+            <p className="limited-featured__label">{rewards.featured.label}</p>
+            <h3>{rewards.featured.title}</h3>
+            <p>{rewards.featured.text}</p>
+          </div>
+        </article>
+
+        <p className="limited-rarity-note">{rewards.rarityNote}</p>
+      </div>
+    </section>
+  );
+}
+
 export default function EventPresentation() {
   const {
     hero,
@@ -27,8 +86,7 @@ export default function EventPresentation() {
     location,
     locationDetails,
     worldBoss,
-    activities,
-    activityCards,
+    limitedRewards,
     finalCta
   } = eventPresentation;
 
@@ -270,24 +328,7 @@ export default function EventPresentation() {
           </div>
         </section>
 
-        <section className="section-block" aria-labelledby="activities-title">
-          <div className="content-shell split-section split-section--reverse">
-            <div className="activity-grid">
-              {activityCards.map((item) => (
-                <article className="activity-card" key={item.title}>
-                  <h3>{item.title}</h3>
-                  <p>{item.text}</p>
-                </article>
-              ))}
-            </div>
-
-            <div className="section-heading">
-              <p className="section-kicker">Specjalne aktywnosci</p>
-              <h2 id="activities-title">Dynamicznie, ale bez przesadnego tempa</h2>
-              <p>{activities}</p>
-            </div>
-          </div>
-        </section>
+        <LimitedRewardsSection rewards={limitedRewards} />
 
         <section className="final-cta" aria-labelledby="final-title">
           <div className="content-shell final-cta__inner">
