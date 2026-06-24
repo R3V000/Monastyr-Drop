@@ -40,33 +40,6 @@ function LimitedRewardsSection({ rewards }) {
 
         <p className="limited-summary">{rewards.summary}</p>
 
-        <div className="illusion-chests" aria-labelledby="illusion-chests-title">
-          <div className="illusion-chests__header">
-            <p>{rewards.chests.kicker}</p>
-            <h3 id="illusion-chests-title">{rewards.chests.title}</h3>
-            <span>{rewards.chests.lead}</span>
-          </div>
-
-          <div className="illusion-chests__warning">
-            <strong>{rewards.chests.warningTitle}</strong>
-            <p>{rewards.chests.warning}</p>
-          </div>
-
-          <div className="illusion-chest-list" aria-label="Lista skrzyn Morskiej Iluzji">
-            {rewards.chests.items.map((chest) => (
-              <article className="illusion-chest" key={chest.title}>
-                <div className="illusion-chest__image">
-                  <img src={chest.image.src} alt={chest.image.alt} loading="lazy" decoding="async" />
-                </div>
-                <div className="illusion-chest__copy">
-                  <h4>{chest.title}</h4>
-                  <p>{chest.text}</p>
-                </div>
-              </article>
-            ))}
-          </div>
-        </div>
-
         <div className="limited-showcase">
           {rewards.items.map((item) => (
             <article className="limited-item" key={item.title}>
@@ -113,6 +86,37 @@ function LimitedRewardsSection({ rewards }) {
             ))}
           </div>
         </article>
+
+        <div className="illusion-chests" aria-labelledby="illusion-chests-title">
+          <div className="illusion-chests__header">
+            <p>{rewards.chests.kicker}</p>
+            <h3 id="illusion-chests-title">{rewards.chests.title}</h3>
+            <span>{rewards.chests.lead}</span>
+          </div>
+
+          <div className="illusion-chests__warning">
+            <strong>{rewards.chests.warningTitle}</strong>
+            <p>{rewards.chests.warning}</p>
+          </div>
+
+          <div className="illusion-chest-list" aria-label="Lista skrzyn Morskiej Iluzji">
+            {rewards.chests.items.map((chest) => (
+              <article className="illusion-chest" key={chest.title}>
+                <div className="illusion-chest__image">
+                  <img src={chest.image.src} alt={chest.image.alt} loading="lazy" decoding="async" />
+                  <span className="chest-corner chest-corner--top-left" aria-hidden="true" />
+                  <span className="chest-corner chest-corner--top-right" aria-hidden="true" />
+                  <span className="chest-corner chest-corner--bottom-left" aria-hidden="true" />
+                  <span className="chest-corner chest-corner--bottom-right" aria-hidden="true" />
+                </div>
+                <div className="illusion-chest__copy">
+                  <h4>{chest.title}</h4>
+                  <p>{chest.text}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
 
         <p className="limited-rarity-note">{rewards.rarityNote}</p>
       </div>
