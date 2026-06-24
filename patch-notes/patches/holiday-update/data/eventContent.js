@@ -234,6 +234,9 @@ export const eventPresentation = {
         alt: 'Skrzydla Morskiej Iluzji'
       },
       bonusesTitle: 'Przedmiot unikalny',
+      bonusesHeading: 'Bonusy Skrzydel Morskiej Iluzji',
+      bonusesText:
+        'Po zalozeniu Skrzydel Morskiej Iluzji postac otrzyma ponizsze stale bonusy. To dodatkowo podkresla ich wyjatkowy, kolekcjonerski charakter.',
       bonuses: [
         {
           label: 'Silny Przeciwko Potworom',

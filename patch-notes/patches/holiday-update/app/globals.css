@@ -1505,22 +1505,28 @@ select {
   font-size: 1.05rem;
 }
 
-.wing-bonus-panel {
+.wing-bonus-section {
   display: grid;
-  gap: 12px;
-  margin-top: 4px;
-  padding: 16px;
+  grid-template-columns: minmax(240px, 0.82fr) minmax(0, 1.18fr);
+  gap: 22px;
+  align-items: center;
+  padding: clamp(20px, 3vw, 28px);
   border: 1px solid rgba(156, 246, 255, 0.24);
   border-radius: 8px;
   background:
-    linear-gradient(135deg, rgba(156, 246, 255, 0.1), rgba(255, 244, 194, 0.08)),
-    rgba(2, 13, 17, 0.38);
+    linear-gradient(135deg, rgba(156, 246, 255, 0.12), rgba(255, 244, 194, 0.08)),
+    rgba(2, 13, 17, 0.46);
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.08),
-    0 14px 30px rgba(0, 0, 0, 0.16);
+    0 18px 42px rgba(0, 0, 0, 0.2);
 }
 
-.wing-bonus-panel > p {
+.wing-bonus-copy {
+  display: grid;
+  gap: 12px;
+}
+
+.wing-bonus-copy > p {
   width: fit-content;
   margin: 0;
   padding: 6px 10px;
@@ -1531,6 +1537,23 @@ select {
   font-size: 0.78rem;
   font-weight: 940;
   text-transform: uppercase;
+}
+
+.wing-bonus-copy h3 {
+  margin: 0;
+  color: #fff4c2;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2rem;
+  line-height: 1.12;
+  text-shadow:
+    0 3px 0 rgba(11, 43, 49, 0.58),
+    0 0 18px rgba(156, 246, 255, 0.22);
+}
+
+.wing-bonus-copy span {
+  color: #c8eeee;
+  font-size: 1rem;
+  line-height: 1.68;
 }
 
 .wing-bonus-list {
@@ -1674,7 +1697,8 @@ select {
   .boss-mechanics,
   .limited-counter-grid,
   .limited-showcase,
-  .limited-featured {
+  .limited-featured,
+  .wing-bonus-section {
     grid-template-columns: 1fr;
   }
 

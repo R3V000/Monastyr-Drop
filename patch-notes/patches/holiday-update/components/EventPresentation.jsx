@@ -68,17 +68,22 @@ function LimitedRewardsSection({ rewards }) {
             <p className="limited-featured__label">{rewards.featured.label}</p>
             <h3>{rewards.featured.title}</h3>
             <p>{rewards.featured.text}</p>
-            <div className="wing-bonus-panel" aria-label={`Bonusy ${rewards.featured.title}`}>
-              <p>{rewards.featured.bonusesTitle}</p>
-              <div className="wing-bonus-list">
-                {rewards.featured.bonuses.map((bonus) => (
-                  <div className="wing-bonus-row" key={bonus.label}>
-                    <span>{bonus.label}</span>
-                    <strong>{bonus.value}</strong>
-                  </div>
-                ))}
+          </div>
+        </article>
+
+        <article className="wing-bonus-section" aria-labelledby="wing-bonus-title">
+          <div className="wing-bonus-copy">
+            <p>{rewards.featured.bonusesTitle}</p>
+            <h3 id="wing-bonus-title">{rewards.featured.bonusesHeading}</h3>
+            <span>{rewards.featured.bonusesText}</span>
+          </div>
+          <div className="wing-bonus-list" aria-label={`Bonusy ${rewards.featured.title}`}>
+            {rewards.featured.bonuses.map((bonus) => (
+              <div className="wing-bonus-row" key={bonus.label}>
+                <span>{bonus.label}</span>
+                <strong>{bonus.value}</strong>
               </div>
-            </div>
+            ))}
           </div>
         </article>
 
