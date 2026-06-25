@@ -402,10 +402,28 @@ figure {
 }
 
 .kingdom-jinno {
-  color: #2f6fcb;
+  display: inline-flex;
+  gap: 5px;
+  align-items: center;
+  color: #1f7fff;
+  font-weight: 900;
+  vertical-align: -2px;
   text-shadow:
     0 2px 8px #000,
-    0 0 12px rgba(47, 111, 203, 0.34);
+    0 0 14px rgba(31, 127, 255, 0.46);
+}
+
+.kingdom-jinno img {
+  width: 20px;
+  height: 14px;
+  object-fit: contain;
+  filter:
+    drop-shadow(0 2px 4px rgba(0, 0, 0, 0.72))
+    drop-shadow(0 0 8px rgba(31, 127, 255, 0.26));
+}
+
+.kingdom-jinno strong {
+  color: inherit;
 }
 
 .valley-preview {
