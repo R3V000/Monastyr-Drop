@@ -7,7 +7,7 @@ window.PATCH_NOTES_CONFIG = {
       title: "Aktualizacja v13",
       releasedAt: "W przygotowaniu",
       path: "patches/v13/index.html",
-      description: "Nowe craftingi alchemii ograniczające losowość przy wytwarzaniu Smoczych Kamieni.",
+      description: "Nowe craftingi alchemii oraz dodatkowe grupy Czarnych Orków w Dolinie Orków.",
       backgroundImage: "patches/v13/images/bg.png",
       panelImage: "patches/v13/images/left-panel.png"
     },

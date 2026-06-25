@@ -401,6 +401,34 @@ figure {
   text-shadow: 0 2px 6px #000;
 }
 
+.kingdom-jinno {
+  color: #2f6fcb;
+  text-shadow:
+    0 2px 8px #000,
+    0 0 12px rgba(47, 111, 203, 0.34);
+}
+
+.valley-preview {
+  width: min(760px, 100%);
+  margin: 18px auto 0;
+  padding: 6px;
+  border: 1px solid rgba(227, 178, 97, 0.46);
+  border-radius: 3px;
+  background:
+    linear-gradient(180deg, rgba(255, 229, 166, 0.08), rgba(73, 31, 15, 0.14)),
+    rgba(4, 3, 2, 0.5);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 238, 188, 0.08),
+    0 16px 24px rgba(0, 0, 0, 0.3);
+}
+
+.valley-preview img {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 8px 14px rgba(0, 0, 0, 0.48));
+}
+
 body.embedded-patch .lobby-shell {
   padding-left: 0;
 }
