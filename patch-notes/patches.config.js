@@ -1,6 +1,16 @@
 window.PATCH_NOTES_CONFIG = {
-  currentPatchId: "v12",
+  currentPatchId: "v13",
   patches: [
+    {
+      id: "v13",
+      label: "Patch v13",
+      title: "Aktualizacja v13",
+      releasedAt: "W przygotowaniu",
+      path: "patches/v13/index.html",
+      description: "Nowe craftingi alchemii ograniczające losowość przy wytwarzaniu Smoczych Kamieni.",
+      backgroundImage: "patches/v13/images/bg.png",
+      panelImage: "patches/v13/images/left-panel.png"
+    },
     {
       id: "v12",
       label: "Patch v12",
