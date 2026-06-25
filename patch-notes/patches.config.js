@@ -7,7 +7,7 @@ window.PATCH_NOTES_CONFIG = {
       title: "Aktualizacja v13",
       releasedAt: "W przygotowaniu",
       path: "patches/v13/index.html",
-      description: "Nowe craftingi alchemii oraz dodatkowe grupy Czarnych Orków w Dolinie Orków.",
+      description: "Nowe craftingi alchemii, dodatkowe grupy Czarnych Orków oraz korekty globalnej dostępności wybranych dropów.",
       backgroundImage: "patches/v13/images/bg.png",
       panelImage: "patches/v13/images/left-panel.png"
     },
