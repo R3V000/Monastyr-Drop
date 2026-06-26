@@ -447,6 +447,42 @@ figure {
   filter: drop-shadow(0 8px 14px rgba(0, 0, 0, 0.48));
 }
 
+.polymorph-section {
+  overflow: visible;
+}
+
+.polymorph-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(150px, 240px);
+  gap: clamp(18px, 4vw, 34px);
+  align-items: center;
+}
+
+.polymorph-copy {
+  display: grid;
+  gap: 9px;
+}
+
+.polymorph-copy h3 {
+  margin-bottom: 1px;
+}
+
+.polymorph-ork {
+  justify-self: end;
+  pointer-events: none;
+}
+
+.polymorph-ork img {
+  display: block;
+  width: clamp(180px, 22vw, 284px);
+  max-width: none;
+  height: auto;
+  transform: translateX(clamp(16px, 3vw, 42px));
+  filter:
+    drop-shadow(0 20px 22px rgba(0, 0, 0, 0.74))
+    drop-shadow(0 0 18px rgba(227, 178, 97, 0.14));
+}
+
 .drop-change-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -653,6 +689,7 @@ body.embedded-patch .patch-notes {
   .alchemy-craft,
   .drop-change-list,
   .drop-change-card,
+  .polymorph-panel,
   .guild-bonus-grid,
   .guild-limit-panel {
     grid-template-columns: 1fr;
@@ -698,6 +735,17 @@ body.embedded-patch .patch-notes {
 
   .drop-change-card {
     justify-items: center;
+  }
+
+  .polymorph-ork {
+    order: -1;
+    justify-self: center;
+  }
+
+  .polymorph-ork img {
+    width: min(180px, 48vw);
+    max-width: 100%;
+    transform: none;
   }
 
   .guild-bonus-grid div {

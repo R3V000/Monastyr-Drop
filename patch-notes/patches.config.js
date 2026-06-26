@@ -7,7 +7,7 @@ window.PATCH_NOTES_CONFIG = {
       title: "Aktualizacja v13",
       releasedAt: "W przygotowaniu",
       path: "patches/v13/index.html",
-      description: "Nowe craftingi alchemii, dodatkowe grupy Czarnych Orków, korekty dropu, zapisywanie filtrów chatu oraz zmiany gildii.",
+      description: "Nowe craftingi alchemii, dodatkowe grupy Czarnych Orków, soft cap na polimorfii, korekty dropu, zapisywanie filtrów chatu oraz zmiany gildii.",
       backgroundImage: "patches/v13/images/bg.png",
       panelImage: "patches/v13/images/left-panel.png"
     },
