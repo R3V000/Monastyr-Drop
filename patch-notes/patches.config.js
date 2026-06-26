@@ -5,7 +5,7 @@ window.PATCH_NOTES_CONFIG = {
       id: "v13",
       label: "Patch v13",
       title: "Aktualizacja v13",
-      releasedAt: "W przygotowaniu",
+      releasedAt: "27.06.2026",
       path: "patches/v13/index.html",
       description: "Nowe craftingi alchemii, dodatkowe grupy Czarnych Orków, soft cap na polimorfii, odświeżona Skrzynia Premium, korekty dropu oraz drobne poprawki.",
       backgroundImage: "patches/v13/images/bg.png",
