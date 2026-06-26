@@ -671,6 +671,18 @@ figure {
     0 0 3px #000;
 }
 
+.other-change-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.other-change-list li {
+  position: relative;
+  padding: 11px 14px 11px 18px;
+  border-left: 3px solid rgba(227, 178, 97, 0.72);
+  background: linear-gradient(90deg, rgba(114, 61, 21, 0.2), rgba(9, 6, 4, 0.08));
+}
+
 body.embedded-patch .lobby-shell {
   padding-left: 0;
 }
