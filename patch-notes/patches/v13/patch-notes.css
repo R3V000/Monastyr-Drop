@@ -572,50 +572,98 @@ figure {
   filter: drop-shadow(0 4px 7px rgba(0, 0, 0, 0.72));
 }
 
-.premium-enhancement-bonuses {
+.premium-item-showcase {
   display: grid;
-  gap: 12px;
-  margin-top: 16px;
+  gap: 18px;
+  margin-top: 18px;
 }
 
-.premium-enhancement-bonuses article {
+.premium-item-entry {
+  display: grid;
+  grid-template-columns: minmax(180px, 300px) minmax(0, 1fr);
+  gap: clamp(14px, 2.8vw, 24px);
+  align-items: center;
+  padding: clamp(10px, 2vw, 16px);
+  border: 1px solid rgba(227, 178, 97, 0.32);
+  border-radius: 3px;
+  background:
+    linear-gradient(135deg, rgba(227, 178, 97, 0.12), rgba(34, 20, 9, 0.36) 45%, rgba(0, 0, 0, 0.16)),
+    rgba(8, 6, 4, 0.56);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 238, 188, 0.06),
+    0 18px 34px rgba(0, 0, 0, 0.28);
+}
+
+.premium-item-entry--wide {
+  grid-template-columns: minmax(240px, 430px) minmax(0, 1fr);
+}
+
+.premium-item-entry figure {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid rgba(255, 222, 156, 0.28);
+  border-radius: 3px;
+  background:
+    radial-gradient(circle at 50% 38%, rgba(255, 205, 108, 0.18), rgba(0, 0, 0, 0) 55%),
+    rgba(4, 3, 2, 0.48);
+}
+
+.premium-item-entry img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-height: 300px;
+  object-fit: contain;
+}
+
+.premium-item-entry--wide img {
+  max-height: 330px;
+}
+
+.premium-item-copy {
   min-width: 0;
-  padding: 14px;
-  border-top: 1px solid rgba(227, 178, 97, 0.34);
-  border-bottom: 1px solid rgba(227, 178, 97, 0.16);
-  background: linear-gradient(180deg, rgba(31, 20, 12, 0.44), rgba(9, 6, 4, 0.12));
 }
 
-.premium-enhancement-bonuses h4 {
-  margin: 0 0 10px;
+.premium-item-copy span {
+  display: inline-flex;
+  margin-bottom: 7px;
+  color: var(--green);
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.premium-item-copy h4 {
+  margin: 0 0 13px;
   color: #ffe4aa;
   font-family: var(--font-display);
-  font-size: clamp(16px, 1.45vw, 20px);
+  font-size: clamp(18px, 1.8vw, 24px);
   line-height: 1.15;
 }
 
-.premium-enhancement-bonuses dl {
+.premium-bonus-list {
   display: grid;
-  gap: 7px;
+  gap: 8px;
   margin: 0;
 }
 
-.premium-enhancement-bonuses dl div {
+.premium-bonus-list div {
   display: flex;
   justify-content: space-between;
   gap: 14px;
   align-items: baseline;
-  padding-bottom: 7px;
+  padding: 8px 0;
+  border-top: 1px solid rgba(227, 178, 97, 0.16);
+}
+
+.premium-bonus-list div:last-child {
   border-bottom: 1px solid rgba(227, 178, 97, 0.16);
 }
 
-.premium-enhancement-bonuses dl div:last-child {
-  padding-bottom: 0;
-  border-bottom: 0;
-}
-
-.premium-enhancement-bonuses dt,
-.premium-enhancement-bonuses dd {
+.premium-bonus-list dt,
+.premium-bonus-list dd {
   margin: 0;
   color: #e8d2b2;
   font-family: var(--font-sans);
@@ -624,57 +672,10 @@ figure {
   line-height: 1.35;
 }
 
-.premium-enhancement-bonuses dd {
+.premium-bonus-list dd {
   flex: 0 0 auto;
   color: var(--green);
   font-weight: 900;
-}
-
-.premium-preview-title {
-  margin: 22px 0 0;
-  color: #ffe4aa;
-  font-family: var(--font-display);
-  font-size: clamp(17px, 1.55vw, 22px);
-  line-height: 1.15;
-}
-
-.premium-preview-list {
-  display: grid;
-  gap: 18px;
-  margin-top: 14px;
-}
-
-.premium-preview-item {
-  width: min(760px, 100%);
-  margin: 0 auto;
-  padding: 6px;
-  border: 1px solid rgba(227, 178, 97, 0.46);
-  border-radius: 3px;
-  background:
-    linear-gradient(180deg, rgba(255, 229, 166, 0.08), rgba(73, 31, 15, 0.14)),
-    rgba(4, 3, 2, 0.5);
-  box-shadow:
-    inset 0 0 0 1px rgba(255, 238, 188, 0.08),
-    0 16px 24px rgba(0, 0, 0, 0.3);
-}
-
-.premium-preview-item img {
-  display: block;
-  width: 100%;
-  max-height: 560px;
-  object-fit: contain;
-  background: rgba(4, 3, 2, 0.22);
-}
-
-.premium-preview-item figcaption {
-  padding: 9px 10px 5px;
-  color: #ffe4aa;
-  font-family: var(--font-sans);
-  font-size: 14px;
-  font-weight: 900;
-  line-height: 1.25;
-  text-align: center;
-  text-shadow: 0 2px 8px #000;
 }
 
 .drop-change-list {
@@ -898,6 +899,8 @@ body.embedded-patch .patch-notes {
   .draw-option-grid,
   .polymorph-panel,
   .premium-box-intro,
+  .premium-item-entry,
+  .premium-item-entry--wide,
   .premium-enhancement-note,
   .guild-bonus-grid,
   .guild-limit-panel {
@@ -965,7 +968,11 @@ body.embedded-patch .patch-notes {
     justify-items: center;
   }
 
-  .premium-enhancement-bonuses dl div {
+  .premium-item-copy span {
+    justify-content: center;
+  }
+
+  .premium-bonus-list div {
     display: grid;
     gap: 3px;
     justify-items: center;
