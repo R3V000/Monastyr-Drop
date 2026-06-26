@@ -543,6 +543,107 @@ figure {
   background: linear-gradient(90deg, rgba(60, 95, 63, 0.24), rgba(40, 22, 10, 0.05));
 }
 
+.guild-bonus-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px 14px;
+  margin: 16px 0 0;
+}
+
+.guild-bonus-grid div {
+  min-width: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  align-items: baseline;
+  padding: 11px 14px;
+  border-left: 3px solid rgba(227, 178, 97, 0.72);
+  background: linear-gradient(90deg, rgba(114, 61, 21, 0.22), rgba(9, 6, 4, 0.08));
+}
+
+.guild-bonus-grid dt,
+.guild-bonus-grid dd {
+  margin: 0;
+  color: #e8d2b2;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+.guild-bonus-grid dd {
+  flex: 0 0 auto;
+  color: var(--green);
+  font-weight: 900;
+}
+
+.guild-limit-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(64px, 96px);
+  gap: clamp(16px, 3vw, 28px);
+  align-items: center;
+  margin-top: 18px;
+  padding: 14px;
+  border-top: 1px solid rgba(227, 178, 97, 0.34);
+  border-bottom: 1px solid rgba(227, 178, 97, 0.16);
+  background: linear-gradient(180deg, rgba(31, 20, 12, 0.44), rgba(9, 6, 4, 0.12));
+}
+
+.guild-limit-panel h4 {
+  margin: 0 0 9px;
+  color: #ffe4aa;
+  font-family: var(--font-display);
+  font-size: clamp(17px, 1.55vw, 22px);
+  line-height: 1.15;
+}
+
+.guild-elixir-icon {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  justify-self: center;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(227, 178, 97, 0.38);
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 42% 34%, rgba(255, 236, 177, 0.18), transparent 34%),
+    radial-gradient(circle at center, rgba(46, 31, 20, 0.96), rgba(5, 4, 3, 0.94) 68%);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 238, 188, 0.08),
+    inset 0 -9px 18px rgba(0, 0, 0, 0.32),
+    0 8px 18px rgba(0, 0, 0, 0.34);
+}
+
+.guild-elixir-icon img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 7px rgba(0, 0, 0, 0.72));
+}
+
+.guild-elixir-icon figcaption {
+  position: absolute;
+  right: -6px;
+  bottom: -5px;
+  min-width: 28px;
+  min-height: 18px;
+  display: grid;
+  place-items: center;
+  padding: 1px 6px 2px;
+  border: 1px solid rgba(227, 178, 97, 0.5);
+  border-radius: 999px;
+  color: #fff7d9;
+  background: rgba(9, 6, 4, 0.94);
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 900;
+  line-height: 1;
+  text-shadow:
+    0 1px 2px #000,
+    0 0 3px #000;
+}
+
 body.embedded-patch .lobby-shell {
   padding-left: 0;
 }
@@ -595,7 +696,9 @@ body.embedded-patch .patch-notes {
   .alchemy-craft,
   .drop-change-list,
   .drop-change-card,
-  .seon-panel {
+  .seon-panel,
+  .guild-bonus-grid,
+  .guild-limit-panel {
     grid-template-columns: 1fr;
     text-align: center;
   }
@@ -647,6 +750,16 @@ body.embedded-patch .patch-notes {
 
   .seon-preview img {
     width: min(142px, 42vw);
+  }
+
+  .guild-bonus-grid div {
+    display: grid;
+    gap: 3px;
+    justify-items: center;
+  }
+
+  .guild-elixir-icon {
+    order: -1;
   }
 }
 
