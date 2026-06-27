@@ -85,6 +85,8 @@ rmSync(staticOut, { recursive: true, force: true });
 mkdirSync(dist, { recursive: true });
 
 cpSync(join(root, "index.html"), join(dist, "index.html"));
+copyDirectory(join(root, "data"), join(dist, "data"));
+copyDirectory(join(root, "assets"), join(dist, "assets"));
 copyDirectory(join(root, "mob-drop-item-editor"), join(dist, "mob-drop-item-editor"));
 copyDirectory(join(root, "chest-editor"), join(dist, "chest-editor"));
 copyDirectory(join(root, "patch-notes"), join(dist, "patch-notes"));
