@@ -8,11 +8,11 @@ window.ITEM_DATABASE_SOURCE = {
   "itemCount": 6097,
   "itemListFile": "data/item_list.txt",
   "itemListEntryCount": 12850,
-  "mappedIconCount": 12781,
+  "mappedIconCount": 12813,
   "convertedIconCount": 0,
   "copiedIconCount": 0,
-  "reusedIconCount": 12781,
-  "missingIconCount": 69,
+  "reusedIconCount": 12813,
+  "missingIconCount": 37,
   "unsupportedIconCount": 0,
   "failedIconCount": 0,
   "blacklistFile": "data/item_blacklist.txt",
@@ -23434,42 +23434,42 @@ window.ITEM_DATABASE = [
   {
     "vnum": "50329",
     "name": "Piecz�� Alistara",
-    "icon": "../assets/item-icons/50329.png"
+    "icon": "../assets/item-icons/item/sum26_pet6.png"
   },
   {
     "vnum": "50330",
     "name": "Le�ny Yeti",
-    "icon": "../assets/item-icons/item/50330.png"
+    "icon": "../assets/item-icons/item/sum26_mount8.png"
   },
   {
     "vnum": "50344",
     "name": "Pieczec Konika Morskiego",
-    "icon": "../assets/item-icons/50344.png"
+    "icon": "../assets/item-icons/item/sum26_pet7.png"
   },
   {
     "vnum": "50345",
     "name": "Pieczec Rumaka Iluzji Oceanu",
-    "icon": "../assets/item-icons/50345.png"
+    "icon": "../assets/item-icons/item/sum26_mount6.png"
   },
   {
     "vnum": "50346",
     "name": "Pieczec Feniksa Slonca",
-    "icon": "../assets/item-icons/50346.png"
+    "icon": "../assets/item-icons/item/sum26_pet3.png"
   },
   {
     "vnum": "50347",
     "name": "Pieczec Lwa Slonca",
-    "icon": "../assets/item-icons/50347.png"
+    "icon": "../assets/item-icons/item/sum26_mount3.png"
   },
   {
     "vnum": "50348",
     "name": "Pieczec Iskry Otchlani",
-    "icon": "../assets/item-icons/50348.png"
+    "icon": "../assets/item-icons/item/sum26_pet2.png"
   },
   {
     "vnum": "50349",
     "name": "Pieczec Lwa Otchlani",
-    "icon": "../assets/item-icons/50349.png"
+    "icon": "../assets/item-icons/item/sum26_mount7.png"
   },
   {
     "vnum": "50401",
@@ -27359,7 +27359,7 @@ window.ITEM_DATABASE = [
   {
     "vnum": "72051",
     "name": "Wzmocnienie ItemShop",
-    "icon": "../assets/item-icons/item/71036.png"
+    "icon": "../assets/item-icons/mon2/wzmocnienie.png"
   },
   {
     "vnum": "72301",
@@ -28849,12 +28849,12 @@ window.ITEM_DATABASE = [
   {
     "vnum": "86064",
     "name": "Skrzydla Nieb. Slonca",
-    "icon": "../assets/item-icons/item/86064.png"
+    "icon": "../assets/item-icons/item/sum26_3_wing.png"
   },
   {
     "vnum": "86065",
     "name": "Skrzydla Iluzji Oceanu",
-    "icon": "../assets/item-icons/86065.png"
+    "icon": "../assets/item-icons/item/sum26_2_wing.png"
   },
   {
     "vnum": "90001",
@@ -29049,17 +29049,17 @@ window.ITEM_DATABASE = [
   {
     "vnum": "90070",
     "name": "Skat. Fryz Morskiej",
-    "icon": "../assets/item-icons/90070.png"
+    "icon": "../assets/item-icons/mon2/szkat-fryz.png"
   },
   {
     "vnum": "90071",
     "name": "Skat. Kost. Morskiego",
-    "icon": "../assets/item-icons/90071.png"
+    "icon": "../assets/item-icons/mon2/szkat-kostium.png"
   },
   {
     "vnum": "90072",
     "name": "Skat. Nak� Morskiej",
-    "icon": "../assets/item-icons/90072.png"
+    "icon": "../assets/item-icons/mon2/szkat-nakladek.png"
   },
   {
     "vnum": "100000",
@@ -29929,12 +29929,12 @@ window.ITEM_DATABASE = [
   {
     "vnum": "243236",
     "name": "Ubranie Iluzji Oceanu",
-    "icon": "../assets/item-icons/243236.png"
+    "icon": "../assets/item-icons/item/sum26_1_costume_m.png"
   },
   {
     "vnum": "243237",
     "name": "Ubranie Nieb. Slonca",
-    "icon": "../assets/item-icons/243237.png"
+    "icon": "../assets/item-icons/item/sum26_3_costume_m.png"
   },
   {
     "vnum": "245221",
@@ -30009,12 +30009,12 @@ window.ITEM_DATABASE = [
   {
     "vnum": "245236",
     "name": "Kapelusz Iluzji Oceanu",
-    "icon": "../assets/item-icons/245236.png"
+    "icon": "../assets/item-icons/item/sum26_1_costume_m_h.png"
   },
   {
     "vnum": "245237",
     "name": "Kapelusz Nieb. Slonca",
-    "icon": "../assets/item-icons/245237.png"
+    "icon": "../assets/item-icons/item/sum26_3_costume_m_h.png"
   },
   {
     "vnum": "247029",
@@ -30089,12 +30089,12 @@ window.ITEM_DATABASE = [
   {
     "vnum": "247044",
     "name": "Miecz Iluzji Oceanu",
-    "icon": "../assets/item-icons/247044.png"
+    "icon": "../assets/item-icons/item/sum26_1_sword.png"
   },
   {
     "vnum": "247045",
     "name": "Miecz Nieb. Slonca",
-    "icon": "../assets/item-icons/247045.png"
+    "icon": "../assets/item-icons/item/sum26_3_sword.png"
   },
   {
     "vnum": "247129",
@@ -30169,12 +30169,12 @@ window.ITEM_DATABASE = [
   {
     "vnum": "247144",
     "name": "Wlocznia Iluzji Oceanu",
-    "icon": "../assets/item-icons/247144.png"
+    "icon": "../assets/item-icons/item/sum26_1_twohand.png"
   },
   {
     "vnum": "247145",
     "name": "Wlocznia Nieb. Slonca",
-    "icon": "../assets/item-icons/247145.png"
+    "icon": "../assets/item-icons/item/sum26_3_twohand.png"
   },
   {
     "vnum": "247229",
@@ -30249,12 +30249,12 @@ window.ITEM_DATABASE = [
   {
     "vnum": "247244",
     "name": "Sztylety Iluzji Oceanu",
-    "icon": "../assets/item-icons/247244.png"
+    "icon": "../assets/item-icons/item/sum26_1_dagger.png"
   },
   {
     "vnum": "247245",
     "name": "Sztylety Nieb. Slonca",
-    "icon": "../assets/item-icons/247245.png"
+    "icon": "../assets/item-icons/item/sum26_3_dagger.png"
   },
   {
     "vnum": "247329",
@@ -30329,12 +30329,12 @@ window.ITEM_DATABASE = [
   {
     "vnum": "247344",
     "name": "Luk Iluzji Oceanu",
-    "icon": "../assets/item-icons/247344.png"
+    "icon": "../assets/item-icons/item/sum26_1_bow.png"
   },
   {
     "vnum": "247345",
     "name": "Luk Nieb. Slonca",
-    "icon": "../assets/item-icons/247345.png"
+    "icon": "../assets/item-icons/item/sum26_3_bow.png"
   },
   {
     "vnum": "247429",
@@ -30409,12 +30409,12 @@ window.ITEM_DATABASE = [
   {
     "vnum": "247444",
     "name": "Dzwon Iluzji Oceanu",
-    "icon": "../assets/item-icons/247444.png"
+    "icon": "../assets/item-icons/item/sum26_1_bell.png"
   },
   {
     "vnum": "247445",
     "name": "Dzwon Nieb. Slonca",
-    "icon": "../assets/item-icons/247445.png"
+    "icon": "../assets/item-icons/item/sum26_3_bell.png"
   },
   {
     "vnum": "247529",
@@ -30489,21 +30489,21 @@ window.ITEM_DATABASE = [
   {
     "vnum": "247544",
     "name": "Wachlarz Iluzji Oceanu",
-    "icon": "../assets/item-icons/247544.png"
+    "icon": "../assets/item-icons/item/sum26_1_fan.png"
   },
   {
     "vnum": "247545",
     "name": "Wachlarz Nieb. Slonca",
-    "icon": "../assets/item-icons/247545.png"
+    "icon": "../assets/item-icons/item/sum26_3_fan.png"
   },
   {
     "vnum": "247644",
     "name": "Ostrze Iluzji Oceanu",
-    "icon": "../assets/item-icons/247644.png"
+    "icon": "../assets/item-icons/item/sum26_1_sura_sword.png"
   },
   {
     "vnum": "247645",
     "name": "Kosa Nieb. Slonca",
-    "icon": "../assets/item-icons/247645.png"
+    "icon": "../assets/item-icons/item/sum26_3_sura_scythe.png"
   }
 ];
