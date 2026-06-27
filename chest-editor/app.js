@@ -87,6 +87,10 @@
     return Number.isInteger(rounded) ? Math.trunc(rounded) : rounded;
   }
 
+  function defaultIconForVnum(vnum) {
+    return "../assets/item-icons/" + encodeURIComponent(String(vnum || "").trim()) + ".png";
+  }
+
   function formatNumber(value, maxDecimals) {
     var number = toNumber(value, 0);
     var factor = Math.pow(10, maxDecimals);
@@ -103,7 +107,7 @@
     return {
       vnum: vnum,
       name: sanitizeInline(item && item.name) || "Item " + vnum,
-      icon: sanitizeInline(item && item.icon) || "https://img.m2icondb.com/" + vnum + ".png"
+      icon: sanitizeInline(item && item.icon) || defaultIconForVnum(vnum)
     };
   }
 
@@ -166,7 +170,7 @@
     }) || {
       vnum: id,
       name: "Item " + id,
-      icon: "https://img.m2icondb.com/" + id + ".png"
+      icon: defaultIconForVnum(id)
     };
   }
 
@@ -183,7 +187,7 @@
     return upsertItem({
       vnum: id,
       name: sanitizeInline(name) || "Item " + id,
-      icon: "https://img.m2icondb.com/" + id + ".png"
+      icon: defaultIconForVnum(id)
     }, false);
   }
 
@@ -908,7 +912,7 @@
       var item = upsertItem({
         vnum: vnum,
         name: sanitizeInline(els.customName.value) || "Item " + vnum,
-        icon: sanitizeInline(els.customIcon.value) || "https://img.m2icondb.com/" + vnum + ".png"
+        icon: sanitizeInline(els.customIcon.value) || defaultIconForVnum(vnum)
       }, true);
       els.customItemForm.reset();
       renderCatalog();

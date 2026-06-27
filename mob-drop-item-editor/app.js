@@ -46,12 +46,16 @@
     toast: document.getElementById("toast")
   };
 
+  function defaultIconForVnum(vnum) {
+    return "../assets/item-icons/" + encodeURIComponent(String(vnum || "").trim()) + ".png";
+  }
+
   function normalizeItem(item) {
     var vnum = String(item.vnum || "").trim();
     return {
       vnum: vnum,
       name: String(item.name || "Item " + vnum).trim(),
-      icon: String(item.icon || ("https://img.m2icondb.com/" + vnum + ".png")).trim()
+      icon: String(item.icon || defaultIconForVnum(vnum)).trim()
     };
   }
 
@@ -163,7 +167,7 @@
     }) || {
       vnum: id,
       name: "Item " + id,
-      icon: "https://img.m2icondb.com/" + id + ".png"
+      icon: defaultIconForVnum(id)
     };
   }
 
@@ -180,7 +184,7 @@
     var item = {
       vnum: id,
       name: sanitizeInline(comment) || "Item " + id,
-      icon: "https://img.m2icondb.com/" + id + ".png"
+      icon: defaultIconForVnum(id)
     };
     return upsertItem(item, true);
   }
@@ -731,7 +735,7 @@
       var item = normalizeItem({
         vnum: vnum,
         name: sanitizeInline(els.customName.value) || "Item " + vnum,
-        icon: sanitizeInline(els.customIcon.value) || "https://img.m2icondb.com/" + vnum + ".png"
+        icon: sanitizeInline(els.customIcon.value) || defaultIconForVnum(vnum)
       });
       item = upsertItem(item, true);
       els.customItemForm.reset();

@@ -69,6 +69,8 @@ if (!skipInstall) {
   }
 }
 
+run(process.execPath, [join("scripts", "generate-items.mjs")]);
+
 runNpm(["--prefix", "daily-statistics", "run", "build"], {
   env: {
     ...process.env,
