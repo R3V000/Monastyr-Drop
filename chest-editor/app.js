@@ -591,11 +591,28 @@
 
     els.chanceBreakdown.innerHTML = rewards.map(function (reward) {
       var item = getItem(reward.vnum);
+      var count = Math.max(1, toInt(reward.count, 1));
+      var countLabel = count > 1 ? '<span class="summary-count">' + escapeHtml(count) + "</span>" : "";
+      var chance = formatNumber(reward.chance, 2);
+      var percent = formatNumber(getActualPercent(reward), 2);
+      var title = item.name + " | VNUM " + item.vnum + " | chance " + chance + " | udział " + percent + "%";
+
       return [
-        '<div class="breakdown-row">',
+        '<article class="summary-slot-card" title="' + escapeHtml(title) + '">',
+        '<span class="summary-slot">',
+        '<span class="slot-fallback">' + escapeHtml(item.vnum) + "</span>",
+        '<img src="' + escapeHtml(item.icon) + '" alt="" loading="lazy" onerror="this.remove()">',
+        countLabel,
+        "</span>",
+        '<div class="summary-slot-copy">',
         '<strong>' + escapeHtml(item.name) + '</strong>',
-        '<span>' + formatNumber(getActualPercent(reward), 2) + '%</span>',
-        '</div>'
+        '<small>VNUM ' + escapeHtml(item.vnum) + '</small>',
+        '<dl>',
+        '<div><dt>Chance</dt><dd>' + escapeHtml(chance) + '</dd></div>',
+        '<div><dt>Udział</dt><dd>' + escapeHtml(percent) + '%</dd></div>',
+        '</dl>',
+        '</div>',
+        '</article>'
       ].join("");
     }).join("");
   }
