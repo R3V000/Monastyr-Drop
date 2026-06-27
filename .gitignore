@@ -14,3 +14,6 @@ dist/
 daily-statistics/node_modules/
 daily-statistics/.next/
 daily-statistics/out/
+
+# Local unpacked client icon source. The site uses generated PNG files in assets/item-icons/.
+assets/icon/
