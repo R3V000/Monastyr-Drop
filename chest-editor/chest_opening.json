@@ -1,0 +1,111 @@
+{
+	"chests": [
+		// Example:
+		// {
+		// 	"box_vnum": 50011,
+		// 	"name": "Skrzynia Wodza Orkow",
+		// 	"target_vnum": 101,
+		// 	"background": "d:/ymir work/ui/wakacyjnaarena.png",
+		// 	"armor_vnum": 243235,
+		// 	"weapon_vnum": 247143,
+		// 	"coin_price": 10,
+		// 	"rewards": [
+		// 		{ "vnum": 27001, "count": 20, "chance": 500 },
+		// 		{ "vnum": 27002, "count": 20, "chance": 500 },
+		// 		{ "vnum": 50513, "count": 1, "chance": 50 }
+		// 	]
+		// }
+	],
+
+  "categories": [
+    {
+      "id": 1,
+      "name" : "PREMIUM",
+      "target_vnum": 691,
+      "background": "d:/ymir work/ui/chest_background.png",
+      "armor_vnum": 243235,
+      "weapon_vnum": 247143,
+      "coin_price": 59,
+      "rewards": [
+        { "vnum": 50346, "count": 1, "chance": 1 },
+        { "vnum": 50347, "count": 1, "chance": 1 },
+        { "vnum": 90060, "count": 1, "chance": 4 },
+        { "vnum": 247045, "count": 1, "chance": 1 },
+        { "vnum": 247145, "count": 1, "chance": 1 },
+        { "vnum": 247245, "count": 1, "chance": 1 },
+        { "vnum": 247345, "count": 1, "chance": 1 },
+        { "vnum": 247445, "count": 1, "chance": 1 },
+        { "vnum": 247545, "count": 1, "chance": 1 },
+        { "vnum": 247645, "count": 1, "chance": 1 },
+        { "vnum": 243237, "count": 1, "chance": 1 },
+        { "vnum": 245237, "count": 1, "chance": 1 },
+        { "vnum": 51508, "count": 5, "chance": 22 },
+        { "vnum": 51508, "count": 10, "chance": 17 },
+        { "vnum": 51508, "count": 15, "chance": 12 },
+        { "vnum": 51501, "count": 10, "chance": 22 },
+        { "vnum": 51501, "count": 20, "chance": 17 },
+        { "vnum": 51501, "count": 30, "chance": 12 },
+        { "vnum": 71084, "count": 10, "chance": 20 },
+        { "vnum": 71084, "count": 15, "chance": 18 },
+        { "vnum": 71035, "count": 1, "chance": 22 }, 
+        { "vnum": 71035, "count": 1, "chance": 22 },
+        { "vnum": 71094, "count": 1, "chance": 22 },
+        { "vnum": 39008, "count": 1, "chance": 22 },
+        { "vnum": 25041, "count": 1, "chance": 20 }, 
+        { "vnum": 39007, "count": 1, "chance": 18 },
+        { "vnum": 25040, "count": 1, "chance": 22 },
+        { "vnum": 72726, "count": 1, "chance": 23 },
+        { "vnum": 72730, "count": 1, "chance": 22 },
+        { "vnum": 71017, "count": 1, "chance": 22 },
+        { "vnum": 80000, "count": 100, "chance": 24 },
+        { "vnum": 50513, "count": 1, "chance": 20 },
+        { "vnum": 39032, "count": 1, "chance": 23 },
+        { "vnum": 39032, "count": 1, "chance": 23 },
+        { "vnum": 100300, "count": 1, "chance": 22 },
+        { "vnum": 100400, "count": 1, "chance": 17 },
+        { "vnum": 100500, "count": 1, "chance": 12 },
+        { "vnum": 90053, "count": 2, "chance": 30 },
+        { "vnum": 90053, "count": 3, "chance": 30 }
+      ]
+    },
+    {
+      "id": 2,
+      "name" : "PREMIUM II",
+      "target_vnum": 691,
+      "background": "d:/ymir work/ui/chest_background.png",
+      "armor_vnum": 243235,
+      "weapon_vnum": 247143,
+      "coin_price": 59,
+      "rewards": [
+        { "vnum": 86064, "count": 1, "chance": 6 },
+        { "vnum": 51508, "count": 5, "chance": 20 },
+        { "vnum": 51508, "count": 10, "chance": 15 },
+        { "vnum": 51508, "count": 15, "chance": 10 },
+        { "vnum": 51501, "count": 10, "chance": 22 },
+        { "vnum": 51501, "count": 20, "chance": 17 },
+        { "vnum": 51501, "count": 30, "chance": 12 },
+        { "vnum": 71084, "count": 10, "chance": 30 },
+        { "vnum": 71084, "count": 15, "chance": 22 },
+        { "vnum": 71035, "count": 1, "chance": 22 }, 
+        { "vnum": 71035, "count": 1, "chance": 22 },
+        { "vnum": 71094, "count": 1, "chance": 22 },
+        { "vnum": 39008, "count": 1, "chance": 22 },
+        { "vnum": 25041, "count": 1, "chance": 14 }, 
+        { "vnum": 39007, "count": 1, "chance": 18 },
+        { "vnum": 25040, "count": 1, "chance": 20 },
+        { "vnum": 72726, "count": 1, "chance": 23 },
+        { "vnum": 72730, "count": 1, "chance": 22 },
+        { "vnum": 71017, "count": 1, "chance": 22 },
+        { "vnum": 80000, "count": 100, "chance": 24 },
+        { "vnum": 50513, "count": 1, "chance": 20 },
+        { "vnum": 39032, "count": 1, "chance": 23 },
+        { "vnum": 39032, "count": 1, "chance": 23 },
+        { "vnum": 100300, "count": 1, "chance": 22 },
+        { "vnum": 100400, "count": 1, "chance": 17 },
+        { "vnum": 100500, "count": 1, "chance": 12 },
+        { "vnum": 90053, "count": 2, "chance": 32 },
+        { "vnum": 90053, "count": 3, "chance": 32 }
+      ]
+    }
+  ]
+}

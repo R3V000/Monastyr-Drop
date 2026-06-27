@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chest Editor</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">CE</span>
+        <div>
+          <h1>Chest Editor</h1>
+          <p>chest_opening.json</p>
+        </div>
+      </div>
+
+      <div class="top-actions">
+        <button id="downloadFile" class="primary-button" type="button">Pobierz chest_opening.json</button>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="panel editor-panel" aria-label="Edytor skrzynek">
+        <div class="section-head">
+          <div>
+            <h2>Skrzynka</h2>
+            <span id="entryMeta">0 pozycji</span>
+          </div>
+          <fieldset class="type-switch" aria-label="Typ wpisu">
+            <label>
+              <input type="radio" name="entryType" value="categories" checked>
+              <span>Kategoria</span>
+            </label>
+            <label>
+              <input type="radio" name="entryType" value="chests">
+              <span>Chest</span>
+            </label>
+          </fieldset>
+        </div>
+
+        <div class="entry-toolbar">
+          <label>
+            <span>Edytowany wpis</span>
+            <select id="entrySelect"></select>
+          </label>
+          <button id="newEntry" class="ghost-button" type="button">Nowy wpis</button>
+          <button id="duplicateEntry" class="ghost-button" type="button">Duplikuj</button>
+          <button id="deleteEntry" class="ghost-button danger" type="button">Usuń</button>
+        </div>
+
+        <div class="meta-grid">
+          <label id="categoryIdField">
+            <span>ID kategorii</span>
+            <input id="categoryId" type="number" min="0" step="1">
+          </label>
+          <label id="boxVnumField" hidden>
+            <span>Box VNUM</span>
+            <input id="boxVnum" type="number" min="0" step="1">
+          </label>
+          <label>
+            <span>Nazwa</span>
+            <input id="entryName" type="text" autocomplete="off">
+          </label>
+          <label>
+            <span>Target VNUM</span>
+            <input id="targetVnum" type="number" min="0" step="1">
+          </label>
+          <label>
+            <span>Cena SM</span>
+            <input id="coinPrice" type="number" min="0" step="1">
+          </label>
+          <label>
+            <span>Armor VNUM</span>
+            <input id="armorVnum" type="number" min="0" step="1">
+          </label>
+          <label>
+            <span>Weapon VNUM</span>
+            <input id="weaponVnum" type="number" min="0" step="1">
+          </label>
+          <label class="wide-field">
+            <span>Background</span>
+            <input id="background" type="text" autocomplete="off">
+          </label>
+        </div>
+
+        <details class="import-box">
+          <summary>Wczytaj chest_opening.json</summary>
+          <div class="import-grid">
+            <textarea id="importText" spellcheck="false" placeholder="Wklej tutaj zawartość chest_opening.json"></textarea>
+            <div class="import-actions">
+              <input id="importFile" type="file" accept=".json,application/json">
+              <button id="loadImport" class="primary-button" type="button">Wczytaj tekst</button>
+              <button id="clearImport" class="ghost-button" type="button">Wyczyść</button>
+            </div>
+          </div>
+        </details>
+
+        <div class="section-head catalog-head">
+          <div>
+            <h2>Baza itemów</h2>
+            <span id="customItemCount">0 lokalnych itemów</span>
+          </div>
+          <input id="itemSearch" class="search-input" type="search" placeholder="Szukaj itemu albo VNUM">
+        </div>
+
+        <div id="itemCatalog" class="item-catalog" aria-live="polite"></div>
+
+        <details class="custom-item">
+          <summary>Item spoza bazy lokalnej</summary>
+          <form id="customItemForm" class="custom-grid">
+            <label>
+              <span>VNUM</span>
+              <input id="customVnum" type="number" min="0" step="1" required>
+            </label>
+            <label>
+              <span>Nazwa</span>
+              <input id="customName" type="text" required autocomplete="off">
+            </label>
+            <label>
+              <span>Ikonka</span>
+              <input id="customIcon" type="url" placeholder="https://img.m2icondb.com/71001.png">
+            </label>
+            <button class="primary-button" type="submit">Dodaj item</button>
+            <button id="clearCustomItems" class="ghost-button danger" type="button">Wyczyść lokalne</button>
+          </form>
+        </details>
+
+        <div class="section-head rewards-head">
+          <div>
+            <h2>Nagrody</h2>
+            <span id="rewardMeta">0 nagród</span>
+          </div>
+          <button id="clearRewards" class="ghost-button" type="button">Wyczyść</button>
+        </div>
+
+        <div class="reward-columns" aria-hidden="true">
+          <span>Item</span>
+          <span>Ilość</span>
+          <span>Chance</span>
+          <span>Udział</span>
+          <span></span>
+        </div>
+        <div id="rewardRows" class="reward-list"></div>
+      </section>
+
+      <aside class="side-stack">
+        <section class="panel summary-panel" aria-label="Podsumowanie">
+          <div class="section-head">
+            <div>
+              <h2>Podsumowanie</h2>
+              <span id="totalChance">Suma chance: 0</span>
+            </div>
+          </div>
+          <div id="chanceBreakdown" class="chance-breakdown"></div>
+        </section>
+
+        <section class="panel output-panel" aria-label="Output">
+          <div class="section-head">
+            <div>
+              <h2>Output</h2>
+              <span id="outputMeta">Aktualny wpis</span>
+            </div>
+          </div>
+          <div class="output-actions">
+            <button id="showEntryOutput" class="ghost-button active" type="button">Aktualny wpis</button>
+            <button id="showFileOutput" class="ghost-button" type="button">Cały plik</button>
+            <button id="copyOutput" class="primary-button" type="button">Kopiuj</button>
+          </div>
+          <textarea id="outputText" spellcheck="false"></textarea>
+        </section>
+      </aside>
+    </main>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="../mob-drop-item-editor/items.config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
