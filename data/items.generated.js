@@ -5,10 +5,10 @@
 */
 window.ITEM_DATABASE_SOURCE = {
   "type": "item_proto",
-  "itemCount": 6117,
+  "itemCount": 6097,
   "blacklistFile": "data/item_blacklist.txt",
-  "blacklistCount": 0,
-  "skippedItemCount": 0,
+  "blacklistCount": 20,
+  "skippedItemCount": 20,
   "iconPath": "../assets/item-icons/{vnum}.png"
 };
 window.ITEM_DATABASE = [
@@ -19748,11 +19748,6 @@ window.ITEM_DATABASE = [
     "icon": "../assets/item-icons/38201.png"
   },
   {
-    "vnum": "39001",
-    "name": "Magiczny Kamie�",
-    "icon": "../assets/item-icons/39001.png"
-  },
-  {
     "vnum": "39002",
     "name": "Pier�cie� Do�wiadczenia",
     "icon": "../assets/item-icons/39002.png"
@@ -19828,26 +19823,6 @@ window.ITEM_DATABASE = [
     "icon": "../assets/item-icons/39016.png"
   },
   {
-    "vnum": "39017",
-    "name": "�ycie Boga Smok�w",
-    "icon": "../assets/item-icons/39017.png"
-  },
-  {
-    "vnum": "39018",
-    "name": "Atak Boga Smok�w",
-    "icon": "../assets/item-icons/39018.png"
-  },
-  {
-    "vnum": "39019",
-    "name": "Inteligencja Boga Smok�w",
-    "icon": "../assets/item-icons/39019.png"
-  },
-  {
-    "vnum": "39020",
-    "name": "Obrona Boga Smok�w",
-    "icon": "../assets/item-icons/39020.png"
-  },
-  {
     "vnum": "39021",
     "name": "Wsparcie Boga Smok�w",
     "icon": "../assets/item-icons/39021.png"
@@ -19891,11 +19866,6 @@ window.ITEM_DATABASE = [
     "vnum": "39029",
     "name": "Wzmocnienie Przedmiotu",
     "icon": "../assets/item-icons/39029.png"
-  },
-  {
-    "vnum": "39030",
-    "name": "Rada Pustelnika",
-    "icon": "../assets/item-icons/39030.png"
   },
   {
     "vnum": "39031",
@@ -26068,11 +26038,6 @@ window.ITEM_DATABASE = [
     "icon": "../assets/item-icons/70101.png"
   },
   {
-    "vnum": "70102",
-    "name": "Fasolka Zen",
-    "icon": "../assets/item-icons/70102.png"
-  },
-  {
     "vnum": "70103",
     "name": "Smocza Fasolka",
     "icon": "../assets/item-icons/70103.png"
@@ -26166,11 +26131,6 @@ window.ITEM_DATABASE = [
     "vnum": "70302",
     "name": "Obr�czka �lubna",
     "icon": "../assets/item-icons/70302.png"
-  },
-  {
-    "vnum": "71001",
-    "name": "Zw�j Egzorcyzmu",
-    "icon": "../assets/item-icons/71001.png"
   },
   {
     "vnum": "71002",
@@ -26296,26 +26256,6 @@ window.ITEM_DATABASE = [
     "vnum": "71026",
     "name": "Magiczny Metal",
     "icon": "../assets/item-icons/71026.png"
-  },
-  {
-    "vnum": "71027",
-    "name": "�ycie Boga Smok�w",
-    "icon": "../assets/item-icons/71027.png"
-  },
-  {
-    "vnum": "71028",
-    "name": "Atak Boga Smok�w",
-    "icon": "../assets/item-icons/71028.png"
-  },
-  {
-    "vnum": "71029",
-    "name": "Inteligencja Boga Smok�w",
-    "icon": "../assets/item-icons/71029.png"
-  },
-  {
-    "vnum": "71030",
-    "name": "Obrona Boga Smok�w",
-    "icon": "../assets/item-icons/71030.png"
   },
   {
     "vnum": "71031",
@@ -27353,29 +27293,9 @@ window.ITEM_DATABASE = [
     "icon": "../assets/item-icons/72031.png"
   },
   {
-    "vnum": "72032",
-    "name": "Atak Boga Smok�w",
-    "icon": "../assets/item-icons/72032.png"
-  },
-  {
-    "vnum": "72033",
-    "name": "Atak Boga Smok�w",
-    "icon": "../assets/item-icons/72033.png"
-  },
-  {
     "vnum": "72034",
     "name": "Obrona Boga Smok�w",
     "icon": "../assets/item-icons/72034.png"
-  },
-  {
-    "vnum": "72035",
-    "name": "Obrona Boga Smok�w",
-    "icon": "../assets/item-icons/72035.png"
-  },
-  {
-    "vnum": "72036",
-    "name": "Obrona Boga Smok�w",
-    "icon": "../assets/item-icons/72036.png"
   },
   {
     "vnum": "72037",
@@ -27383,29 +27303,9 @@ window.ITEM_DATABASE = [
     "icon": "../assets/item-icons/72037.png"
   },
   {
-    "vnum": "72038",
-    "name": "�ycie Boga Smok�w",
-    "icon": "../assets/item-icons/72038.png"
-  },
-  {
-    "vnum": "72039",
-    "name": "�ycie Boga Smok�w",
-    "icon": "../assets/item-icons/72039.png"
-  },
-  {
     "vnum": "72040",
     "name": "Inteligencja Boga Smok�w",
     "icon": "../assets/item-icons/72040.png"
-  },
-  {
-    "vnum": "72041",
-    "name": "Inteligencja Boga Smok�w",
-    "icon": "../assets/item-icons/72041.png"
-  },
-  {
-    "vnum": "72042",
-    "name": "Inteligencja Boga Smok�w",
-    "icon": "../assets/item-icons/72042.png"
   },
   {
     "vnum": "72043",

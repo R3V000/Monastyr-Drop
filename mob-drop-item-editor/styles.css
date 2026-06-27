@@ -273,6 +273,14 @@ textarea:focus {
   align-items: end;
 }
 
+.catalog-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+  min-width: min(100%, 760px);
+}
+
 .search-input {
   max-width: 320px;
 }
@@ -289,13 +297,12 @@ textarea:focus {
 
 .catalog-item {
   display: grid;
-  grid-template-columns: 34px minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr) 36px;
   align-items: center;
-  gap: 9px;
+  gap: 7px;
   min-height: 46px;
-  padding: 6px 8px;
+  padding: 5px 6px;
   color: var(--paper);
-  text-align: left;
   border: 1px solid rgba(255, 221, 135, 0.16);
   border-radius: 6px;
   background: rgba(17, 10, 7, 0.72);
@@ -304,6 +311,62 @@ textarea:focus {
 .catalog-item:hover {
   border-color: rgba(255, 211, 110, 0.58);
   background: rgba(72, 36, 24, 0.76);
+}
+
+.catalog-item.favorite {
+  border-color: rgba(255, 211, 110, 0.48);
+}
+
+.catalog-add {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr);
+  align-items: center;
+  gap: 9px;
+  min-width: 0;
+  min-height: 36px;
+  padding: 0;
+  color: inherit;
+  text-align: left;
+  border: 0;
+  background: transparent;
+}
+
+.favorite-toggle {
+  display: grid;
+  width: 32px;
+  height: 32px;
+  place-items: center;
+  color: rgba(255, 239, 191, 0.58);
+  font-size: 18px;
+  line-height: 1;
+  border: 1px solid rgba(255, 221, 135, 0.2);
+  border-radius: 6px;
+  background: rgba(9, 6, 4, 0.44);
+}
+
+.favorite-toggle[aria-pressed="true"] {
+  color: var(--gold-bright);
+  border-color: rgba(255, 211, 110, 0.54);
+  background: rgba(88, 55, 18, 0.5);
+}
+
+.favorite-toggle:hover,
+.favorite-toggle:focus-visible {
+  border-color: var(--gold-bright);
+}
+
+.import-favorites {
+  position: relative;
+  display: inline-grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.import-favorites input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
 }
 
 .catalog-name,
@@ -807,6 +870,8 @@ textarea:focus {
   }
 
   .search-input,
+  .catalog-actions,
+  .catalog-actions .image-button,
   .sample-control {
     max-width: none;
     width: 100%;

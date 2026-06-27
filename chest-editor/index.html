@@ -102,8 +102,17 @@
           <div>
             <h2>Baza itemów</h2>
             <span id="customItemCount">0 lokalnych itemów</span>
+            <span id="favoriteItemCount">0 ulubionych</span>
           </div>
-          <input id="itemSearch" class="search-input" type="search" placeholder="Szukaj itemu albo VNUM">
+          <div class="catalog-actions">
+            <input id="itemSearch" class="search-input" type="search" placeholder="Szukaj itemu albo VNUM">
+            <button id="exportFavorites" class="ghost-button" type="button">Eksport ulubionych</button>
+            <label class="ghost-button import-favorites">
+              Import ulubionych
+              <input id="importFavoritesFile" type="file" accept=".json,.txt,application/json,text/plain">
+            </label>
+            <button id="clearFavorites" class="ghost-button danger" type="button">Wyczyść ulubione</button>
+          </div>
         </div>
 
         <div id="itemCatalog" class="item-catalog" aria-live="polite"></div>

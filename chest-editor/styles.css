@@ -328,6 +328,14 @@ textarea:focus {
   margin-top: 4px;
 }
 
+.catalog-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+  min-width: min(100%, 820px);
+}
+
 .search-input {
   width: min(320px, 100%);
 }
@@ -344,13 +352,12 @@ textarea:focus {
 
 .catalog-item {
   display: grid;
-  grid-template-columns: 40px minmax(0, 1fr) auto;
-  gap: 9px;
+  grid-template-columns: minmax(0, 1fr) 36px;
+  gap: 7px;
   align-items: center;
   min-height: 54px;
-  padding: 8px;
+  padding: 7px;
   color: var(--text);
-  text-align: left;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: rgba(15, 18, 24, 0.74);
@@ -359,6 +366,62 @@ textarea:focus {
 .catalog-item:hover {
   border-color: var(--gold);
   background: rgba(35, 30, 22, 0.9);
+}
+
+.catalog-item.favorite {
+  border-color: rgba(245, 207, 117, 0.54);
+}
+
+.catalog-add {
+  display: grid;
+  grid-template-columns: 40px minmax(0, 1fr) auto;
+  gap: 9px;
+  align-items: center;
+  min-width: 0;
+  min-height: 40px;
+  padding: 0;
+  color: inherit;
+  text-align: left;
+  border: 0;
+  background: transparent;
+}
+
+.favorite-toggle {
+  display: grid;
+  width: 34px;
+  height: 34px;
+  place-items: center;
+  color: rgba(255, 239, 191, 0.58);
+  font-size: 18px;
+  line-height: 1;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(8, 10, 14, 0.62);
+}
+
+.favorite-toggle[aria-pressed="true"] {
+  color: var(--gold-soft);
+  border-color: rgba(245, 207, 117, 0.62);
+  background: rgba(85, 55, 20, 0.55);
+}
+
+.favorite-toggle:hover,
+.favorite-toggle:focus-visible {
+  border-color: var(--gold-soft);
+}
+
+.import-favorites {
+  position: relative;
+  display: inline-grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.import-favorites input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
 }
 
 .catalog-icon,
@@ -700,6 +763,8 @@ textarea:focus {
   .top-actions,
   .top-actions .primary-button,
   .type-switch,
+  .catalog-actions,
+  .catalog-actions .ghost-button,
   .search-input {
     width: 100%;
   }

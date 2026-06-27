@@ -3,9 +3,11 @@
 
   var DROP_SCALE = 206;
   var CUSTOM_ITEMS_STORAGE_KEY = "monastyr-drop-writer-custom-items-v1";
+  var FAVORITE_ITEMS_STORAGE_KEY = "monastyr-item-favorites-v1";
   var itemDb = Array.isArray(window.ITEM_DATABASE) ? window.ITEM_DATABASE.slice() : [];
   var defaultItemVnums = new Set();
   var customItems = [];
+  var favoriteVnums = new Set();
   var rows = [];
   var draggedRowId = null;
 
@@ -25,6 +27,10 @@
     itemCatalog: document.getElementById("itemCatalog"),
     customItemForm: document.getElementById("customItemForm"),
     customItemCount: document.getElementById("customItemCount"),
+    favoriteItemCount: document.getElementById("favoriteItemCount"),
+    exportFavorites: document.getElementById("exportFavorites"),
+    importFavoritesFile: document.getElementById("importFavoritesFile"),
+    clearFavorites: document.getElementById("clearFavorites"),
     customVnum: document.getElementById("customVnum"),
     customName: document.getElementById("customName"),
     customIcon: document.getElementById("customIcon"),
@@ -85,6 +91,71 @@
     }
   }
 
+  function normalizeFavoriteVnum(value) {
+    var vnum = sanitizeInline(value);
+    return /^\d+$/.test(vnum) ? vnum : "";
+  }
+
+  function parseFavoriteSource(source) {
+    var parsed = null;
+    try {
+      parsed = JSON.parse(source);
+    } catch (error) {
+      parsed = null;
+    }
+
+    var values = [];
+    if (Array.isArray(parsed)) {
+      values = parsed;
+    } else if (parsed && Array.isArray(parsed.vnums)) {
+      values = parsed.vnums;
+    } else if (parsed && Array.isArray(parsed.favorites)) {
+      values = parsed.favorites;
+    } else if (parsed && Array.isArray(parsed.items)) {
+      values = parsed.items.map(function (item) {
+        return typeof item === "object" && item ? item.vnum : item;
+      });
+    } else {
+      values = String(source || "").split(/[\s,;]+/);
+    }
+
+    return values.map(normalizeFavoriteVnum).filter(Boolean);
+  }
+
+  function readFavoriteVnums() {
+    try {
+      return new Set(parseFavoriteSource(window.localStorage.getItem(FAVORITE_ITEMS_STORAGE_KEY) || "[]"));
+    } catch (error) {
+      return new Set();
+    }
+  }
+
+  function writeFavoriteVnums() {
+    try {
+      window.localStorage.setItem(FAVORITE_ITEMS_STORAGE_KEY, JSON.stringify(Array.from(favoriteVnums)));
+    } catch (error) {
+      showToast("Nie udało się zapisać ulubionych itemów");
+    }
+  }
+
+  function sortVnums(values) {
+    return values.slice().sort(function (a, b) {
+      return toNumber(a, 0) - toNumber(b, 0);
+    });
+  }
+
+  function renderFavoriteItemCount() {
+    if (!els.favoriteItemCount) {
+      return;
+    }
+
+    var count = favoriteVnums.size;
+    els.favoriteItemCount.textContent = count === 1 ? "1 ulubiony" : count + " ulubionych";
+    if (els.clearFavorites) {
+      els.clearFavorites.disabled = count === 0;
+    }
+  }
+
   function upsertItem(item, persist) {
     var normalized = normalizeItem(item);
     var existingIndex = itemDb.findIndex(function (entry) {
@@ -134,6 +205,7 @@
   }
 
   loadCustomItems();
+  favoriteVnums = readFavoriteVnums();
 
   function normalizeDropType(type) {
     var normalized = sanitizeInline(type).toLowerCase();
@@ -283,25 +355,47 @@
 
   function renderCatalog() {
     var query = sanitizeInline(els.itemSearch.value).toLowerCase();
-    var visible = itemDb.filter(function (item) {
-      return !query || item.vnum.includes(query) || item.name.toLowerCase().includes(query);
+    var visible = itemDb.map(function (item, index) {
+      return {
+        item: item,
+        index: index
+      };
+    }).filter(function (entry) {
+      return !query || entry.item.vnum.includes(query) || entry.item.name.toLowerCase().includes(query);
+    }).sort(function (a, b) {
+      var favoriteA = favoriteVnums.has(a.item.vnum) ? 1 : 0;
+      var favoriteB = favoriteVnums.has(b.item.vnum) ? 1 : 0;
+      if (favoriteA !== favoriteB) {
+        return favoriteB - favoriteA;
+      }
+      return a.index - b.index;
+    }).map(function (entry) {
+      return entry.item;
     });
 
     els.itemCatalog.innerHTML = visible.map(function (item) {
+      var favorite = favoriteVnums.has(item.vnum);
       return [
-        '<button class="catalog-item" type="button" data-vnum="' + escapeHtml(item.vnum) + '">',
+        '<article class="catalog-item' + (favorite ? " favorite" : "") + '">',
+        '<button class="catalog-add" type="button" data-vnum="' + escapeHtml(item.vnum) + '">',
         renderIcon(item),
         '<span class="catalog-name">',
         "<strong>" + escapeHtml(item.name) + "</strong>",
         "<small>" + escapeHtml(item.vnum) + "</small>",
         "</span>",
-        "</button>"
+        "</button>",
+        '<button class="favorite-toggle" type="button" data-favorite-vnum="' + escapeHtml(item.vnum) + '" aria-pressed="' + (favorite ? "true" : "false") + '" title="' + (favorite ? "Usuń z ulubionych" : "Dodaj do ulubionych") + '">',
+        favorite ? "&#9733;" : "&#9734;",
+        "</button>",
+        "</article>"
       ].join("");
     }).join("");
 
     if (!visible.length) {
       els.itemCatalog.innerHTML = '<div class="empty-state">Brak itemów</div>';
     }
+
+    renderFavoriteItemCount();
   }
 
   function renderRows() {
@@ -625,6 +719,69 @@
     renderAll();
   }
 
+  function toggleFavorite(vnum) {
+    var normalized = normalizeFavoriteVnum(vnum);
+    if (!normalized) {
+      return;
+    }
+
+    if (favoriteVnums.has(normalized)) {
+      favoriteVnums.delete(normalized);
+      showToast("Usunięto z ulubionych");
+    } else {
+      favoriteVnums.add(normalized);
+      showToast("Dodano do ulubionych");
+    }
+
+    writeFavoriteVnums();
+    renderCatalog();
+  }
+
+  function exportFavorites() {
+    var payload = {
+      version: 1,
+      exportedAt: new Date().toISOString(),
+      vnums: sortVnums(Array.from(favoriteVnums))
+    };
+    var blob = new Blob([JSON.stringify(payload, null, 2) + "\n"], {
+      type: "application/json;charset=utf-8"
+    });
+    var url = URL.createObjectURL(blob);
+    var link = document.createElement("a");
+    link.href = url;
+    link.download = "monastyr-item-favorites.json";
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    URL.revokeObjectURL(url);
+    showToast("Wyeksportowano ulubione");
+  }
+
+  function importFavoritesFromFile(file) {
+    if (!file) {
+      return;
+    }
+
+    var reader = new FileReader();
+    reader.onload = function () {
+      var values = parseFavoriteSource(String(reader.result || ""));
+      var before = favoriteVnums.size;
+      values.forEach(function (vnum) {
+        favoriteVnums.add(vnum);
+      });
+      writeFavoriteVnums();
+      renderCatalog();
+      showToast("Zaimportowano " + (favoriteVnums.size - before) + " nowych ulubionych");
+      if (els.importFavoritesFile) {
+        els.importFavoritesFile.value = "";
+      }
+    };
+    reader.onerror = function () {
+      showToast("Nie udało się wczytać ulubionych");
+    };
+    reader.readAsText(file, "utf-8");
+  }
+
   function showToast(message) {
     els.toast.textContent = message;
     els.toast.classList.add("visible");
@@ -712,6 +869,16 @@
 
     els.sampleSize.addEventListener("input", renderStats);
     els.itemSearch.addEventListener("input", renderCatalog);
+    els.exportFavorites.addEventListener("click", exportFavorites);
+    els.importFavoritesFile.addEventListener("change", function () {
+      importFavoritesFromFile(els.importFavoritesFile.files && els.importFavoritesFile.files[0]);
+    });
+    els.clearFavorites.addEventListener("click", function () {
+      favoriteVnums = new Set();
+      writeFavoriteVnums();
+      renderCatalog();
+      showToast("Wyczyszczono ulubione");
+    });
 
     els.importDrop.addEventListener("click", importDropBlock);
     els.clearImportDrop.addEventListener("click", function () {
@@ -719,6 +886,12 @@
     });
 
     els.itemCatalog.addEventListener("click", function (event) {
+      var favoriteButton = event.target.closest("[data-favorite-vnum]");
+      if (favoriteButton) {
+        toggleFavorite(favoriteButton.dataset.favoriteVnum);
+        return;
+      }
+
       var button = event.target.closest("[data-vnum]");
       if (!button) {
         return;
