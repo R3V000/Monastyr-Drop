@@ -512,6 +512,16 @@ textarea:focus {
   object-fit: contain;
 }
 
+.slot-fallback {
+  position: absolute;
+  inset: 4px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  text-align: center;
+  word-break: break-all;
+}
+
 .average-main {
   display: grid;
   gap: 5px;
