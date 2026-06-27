@@ -23,6 +23,22 @@ const pngSignature = Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a
 const supportedImageExtensions = new Set([".png", ".jpg", ".jpeg", ".webp"]);
 const convertibleImageExtensions = new Set([".tga"]);
 
+function readTextFileWithEncoding(path) {
+  const buffer = readFileSync(path);
+
+  try {
+    return {
+      text: new TextDecoder("utf-8", { fatal: true }).decode(buffer),
+      encoding: "utf-8"
+    };
+  } catch {
+    return {
+      text: new TextDecoder("windows-1250").decode(buffer),
+      encoding: "windows-1250"
+    };
+  }
+}
+
 function cleanText(value) {
   return String(value ?? "")
     .replace(/\s+/g, " ")
@@ -445,7 +461,8 @@ function readBlacklist() {
   return values;
 }
 
-const source = JSON.parse(readFileSync(sourcePath, "utf8"));
+const sourceFile = readTextFileWithEncoding(sourcePath);
+const source = JSON.parse(sourceFile.text);
 if (!Array.isArray(source)) {
   throw new Error("data/item_proto.json must contain an array.");
 }
@@ -486,6 +503,7 @@ writeFileSync(
     "*/",
     `window.ITEM_DATABASE_SOURCE = ${JSON.stringify({
       type: "item_proto",
+      sourceEncoding: sourceFile.encoding,
       itemCount: items.length,
       itemListFile: existsSync(itemListPath) ? "data/item_list.txt" : null,
       itemListEntryCount: iconStats.itemListEntryCount,

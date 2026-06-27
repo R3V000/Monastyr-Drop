@@ -5,6 +5,7 @@
 */
 window.ITEM_DATABASE_SOURCE = {
   "type": "item_proto",
+  "sourceEncoding": "windows-1250",
   "itemCount": 6097,
   "itemListFile": "data/item_list.txt",
   "itemListEntryCount": 12850,
@@ -83,52 +84,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "20",
-    "name": "D�ugi Miecz+0",
+    "name": "Długi Miecz+0",
     "icon": "../assets/item-icons/item/00020.png"
   },
   {
     "vnum": "21",
-    "name": "D�ugi Miecz+1",
+    "name": "Długi Miecz+1",
     "icon": "../assets/item-icons/item/00020.png"
   },
   {
     "vnum": "22",
-    "name": "D�ugi Miecz+2",
+    "name": "Długi Miecz+2",
     "icon": "../assets/item-icons/item/00020.png"
   },
   {
     "vnum": "23",
-    "name": "D�ugi Miecz+3",
+    "name": "Długi Miecz+3",
     "icon": "../assets/item-icons/item/00020.png"
   },
   {
     "vnum": "24",
-    "name": "D�ugi Miecz+4",
+    "name": "Długi Miecz+4",
     "icon": "../assets/item-icons/item/00020.png"
   },
   {
     "vnum": "25",
-    "name": "D�ugi Miecz+5",
+    "name": "Długi Miecz+5",
     "icon": "../assets/item-icons/item/00020.png"
   },
   {
     "vnum": "26",
-    "name": "D�ugi Miecz+6",
+    "name": "Długi Miecz+6",
     "icon": "../assets/item-icons/item/00020.png"
   },
   {
     "vnum": "27",
-    "name": "D�ugi Miecz+7",
+    "name": "Długi Miecz+7",
     "icon": "../assets/item-icons/item/00020.png"
   },
   {
     "vnum": "28",
-    "name": "D�ugi Miecz+8",
+    "name": "Długi Miecz+8",
     "icon": "../assets/item-icons/item/00020.png"
   },
   {
     "vnum": "29",
-    "name": "D�ugi Miecz+9",
+    "name": "Długi Miecz+9",
     "icon": "../assets/item-icons/item/00020.png"
   },
   {
@@ -183,52 +184,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "40",
-    "name": "Sto�kowy Miecz+0",
+    "name": "Stożkowy Miecz+0",
     "icon": "../assets/item-icons/item/00040.png"
   },
   {
     "vnum": "41",
-    "name": "Sto�kowy Miecz+1",
+    "name": "Stożkowy Miecz+1",
     "icon": "../assets/item-icons/item/00040.png"
   },
   {
     "vnum": "42",
-    "name": "Sto�kowy Miecz+2",
+    "name": "Stożkowy Miecz+2",
     "icon": "../assets/item-icons/item/00040.png"
   },
   {
     "vnum": "43",
-    "name": "Sto�kowy Miecz+3",
+    "name": "Stożkowy Miecz+3",
     "icon": "../assets/item-icons/item/00040.png"
   },
   {
     "vnum": "44",
-    "name": "Sto�kowy Miecz+4",
+    "name": "Stożkowy Miecz+4",
     "icon": "../assets/item-icons/item/00040.png"
   },
   {
     "vnum": "45",
-    "name": "Sto�kowy Miecz+5",
+    "name": "Stożkowy Miecz+5",
     "icon": "../assets/item-icons/item/00040.png"
   },
   {
     "vnum": "46",
-    "name": "Sto�kowy Miecz+6",
+    "name": "Stożkowy Miecz+6",
     "icon": "../assets/item-icons/item/00040.png"
   },
   {
     "vnum": "47",
-    "name": "Sto�kowy Miecz+7",
+    "name": "Stożkowy Miecz+7",
     "icon": "../assets/item-icons/item/00040.png"
   },
   {
     "vnum": "48",
-    "name": "Sto�kowy Miecz+8",
+    "name": "Stożkowy Miecz+8",
     "icon": "../assets/item-icons/item/00040.png"
   },
   {
     "vnum": "49",
-    "name": "Sto�kowy Miecz+9",
+    "name": "Stożkowy Miecz+9",
     "icon": "../assets/item-icons/item/00040.png"
   },
   {
@@ -383,102 +384,102 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "80",
-    "name": "Miecz P�torar�czny+0",
+    "name": "Miecz Półtoraręczny+0",
     "icon": "../assets/item-icons/item/00080.png"
   },
   {
     "vnum": "81",
-    "name": "Miecz P�torar�czny+1",
+    "name": "Miecz Półtoraręczny+1",
     "icon": "../assets/item-icons/item/00080.png"
   },
   {
     "vnum": "82",
-    "name": "Miecz P�torar�czny+2",
+    "name": "Miecz Półtoraręczny+2",
     "icon": "../assets/item-icons/item/00080.png"
   },
   {
     "vnum": "83",
-    "name": "Miecz P�torar�czny+3",
+    "name": "Miecz Półtoraręczny+3",
     "icon": "../assets/item-icons/item/00080.png"
   },
   {
     "vnum": "84",
-    "name": "Miecz P�torar�czny+4",
+    "name": "Miecz Półtoraręczny+4",
     "icon": "../assets/item-icons/item/00080.png"
   },
   {
     "vnum": "85",
-    "name": "Miecz P�torar�czny+5",
+    "name": "Miecz Półtoraręczny+5",
     "icon": "../assets/item-icons/item/00080.png"
   },
   {
     "vnum": "86",
-    "name": "Miecz P�torar�czny+6",
+    "name": "Miecz Półtoraręczny+6",
     "icon": "../assets/item-icons/item/00080.png"
   },
   {
     "vnum": "87",
-    "name": "Miecz P�torar�czny+7",
+    "name": "Miecz Półtoraręczny+7",
     "icon": "../assets/item-icons/item/00080.png"
   },
   {
     "vnum": "88",
-    "name": "Miecz P�torar�czny+8",
+    "name": "Miecz Półtoraręczny+8",
     "icon": "../assets/item-icons/item/00080.png"
   },
   {
     "vnum": "89",
-    "name": "Miecz P�torar�czny+9",
+    "name": "Miecz Półtoraręczny+9",
     "icon": "../assets/item-icons/item/00080.png"
   },
   {
     "vnum": "90",
-    "name": "Miecz Barbarzy�cy+0",
+    "name": "Miecz Barbarzyńcy+0",
     "icon": "../assets/item-icons/item/00090.png"
   },
   {
     "vnum": "91",
-    "name": "Miecz Barbarzy�cy+1",
+    "name": "Miecz Barbarzyńcy+1",
     "icon": "../assets/item-icons/item/00090.png"
   },
   {
     "vnum": "92",
-    "name": "Miecz Barbarzy�cy+2",
+    "name": "Miecz Barbarzyńcy+2",
     "icon": "../assets/item-icons/item/00090.png"
   },
   {
     "vnum": "93",
-    "name": "Miecz Barbarzy�cy+3",
+    "name": "Miecz Barbarzyńcy+3",
     "icon": "../assets/item-icons/item/00090.png"
   },
   {
     "vnum": "94",
-    "name": "Miecz Barbarzy�cy+4",
+    "name": "Miecz Barbarzyńcy+4",
     "icon": "../assets/item-icons/item/00090.png"
   },
   {
     "vnum": "95",
-    "name": "Miecz Barbarzy�cy+5",
+    "name": "Miecz Barbarzyńcy+5",
     "icon": "../assets/item-icons/item/00090.png"
   },
   {
     "vnum": "96",
-    "name": "Miecz Barbarzy�cy+6",
+    "name": "Miecz Barbarzyńcy+6",
     "icon": "../assets/item-icons/item/00090.png"
   },
   {
     "vnum": "97",
-    "name": "Miecz Barbarzy�cy+7",
+    "name": "Miecz Barbarzyńcy+7",
     "icon": "../assets/item-icons/item/00090.png"
   },
   {
     "vnum": "98",
-    "name": "Miecz Barbarzy�cy+8",
+    "name": "Miecz Barbarzyńcy+8",
     "icon": "../assets/item-icons/item/00090.png"
   },
   {
     "vnum": "99",
-    "name": "Miecz Barbarzy�cy+9",
+    "name": "Miecz Barbarzyńcy+9",
     "icon": "../assets/item-icons/item/00090.png"
   },
   {
@@ -633,52 +634,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "130",
-    "name": "P�-ksi�ycowy Miecz+0",
+    "name": "Pół-księżycowy Miecz+0",
     "icon": "../assets/item-icons/item/00130.png"
   },
   {
     "vnum": "131",
-    "name": "P�-ksi�ycowy Miecz+1",
+    "name": "Pół-księżycowy Miecz+1",
     "icon": "../assets/item-icons/item/00130.png"
   },
   {
     "vnum": "132",
-    "name": "P�-ksi�ycowy Miecz+2",
+    "name": "Pół-księżycowy Miecz+2",
     "icon": "../assets/item-icons/item/00130.png"
   },
   {
     "vnum": "133",
-    "name": "P�-ksi�ycowy Miecz+3",
+    "name": "Pół-księżycowy Miecz+3",
     "icon": "../assets/item-icons/item/00130.png"
   },
   {
     "vnum": "134",
-    "name": "P�-ksi�ycowy Miecz+4",
+    "name": "Pół-księżycowy Miecz+4",
     "icon": "../assets/item-icons/item/00130.png"
   },
   {
     "vnum": "135",
-    "name": "P�-ksi�ycowy Miecz+5",
+    "name": "Pół-księżycowy Miecz+5",
     "icon": "../assets/item-icons/item/00130.png"
   },
   {
     "vnum": "136",
-    "name": "P�-ksi�ycowy Miecz+6",
+    "name": "Pół-księżycowy Miecz+6",
     "icon": "../assets/item-icons/item/00130.png"
   },
   {
     "vnum": "137",
-    "name": "P�-ksi�ycowy Miecz+7",
+    "name": "Pół-księżycowy Miecz+7",
     "icon": "../assets/item-icons/item/00130.png"
   },
   {
     "vnum": "138",
-    "name": "P�-ksi�ycowy Miecz+8",
+    "name": "Pół-księżycowy Miecz+8",
     "icon": "../assets/item-icons/item/00130.png"
   },
   {
     "vnum": "139",
-    "name": "P�-ksi�ycowy Miecz+9",
+    "name": "Pół-księżycowy Miecz+9",
     "icon": "../assets/item-icons/item/00130.png"
   },
   {
@@ -833,52 +834,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "170",
-    "name": "Miecz ��d�o+0",
+    "name": "Miecz Żądło+0",
     "icon": "../assets/item-icons/item/00170.png"
   },
   {
     "vnum": "171",
-    "name": "Miecz ��d�o+1",
+    "name": "Miecz Żądło+1",
     "icon": "../assets/item-icons/item/00170.png"
   },
   {
     "vnum": "172",
-    "name": "Miecz ��d�o+2",
+    "name": "Miecz Żądło+2",
     "icon": "../assets/item-icons/item/00170.png"
   },
   {
     "vnum": "173",
-    "name": "Miecz ��d�o+3",
+    "name": "Miecz Żądło+3",
     "icon": "../assets/item-icons/item/00170.png"
   },
   {
     "vnum": "174",
-    "name": "Miecz ��d�o+4",
+    "name": "Miecz Żądło+4",
     "icon": "../assets/item-icons/item/00170.png"
   },
   {
     "vnum": "175",
-    "name": "Miecz ��d�o+5",
+    "name": "Miecz Żądło+5",
     "icon": "../assets/item-icons/item/00170.png"
   },
   {
     "vnum": "176",
-    "name": "Miecz ��d�o+6",
+    "name": "Miecz Żądło+6",
     "icon": "../assets/item-icons/item/00170.png"
   },
   {
     "vnum": "177",
-    "name": "Miecz ��d�o+7",
+    "name": "Miecz Żądło+7",
     "icon": "../assets/item-icons/item/00170.png"
   },
   {
     "vnum": "178",
-    "name": "Miecz ��d�o+8",
+    "name": "Miecz Żądło+8",
     "icon": "../assets/item-icons/item/00170.png"
   },
   {
     "vnum": "179",
-    "name": "Miecz ��d�o+9",
+    "name": "Miecz Żądło+9",
     "icon": "../assets/item-icons/item/00170.png"
   },
   {
@@ -1033,152 +1034,152 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "210",
-    "name": "�mierciono�ne Ostrze+0",
+    "name": "Śmiercionośne Ostrze+0",
     "icon": "../assets/item-icons/item/00210.png"
   },
   {
     "vnum": "211",
-    "name": "�mierciono�ne Ostrze+1",
+    "name": "Śmiercionośne Ostrze+1",
     "icon": "../assets/item-icons/item/00210.png"
   },
   {
     "vnum": "212",
-    "name": "�mierciono�ne Ostrze+2",
+    "name": "Śmiercionośne Ostrze+2",
     "icon": "../assets/item-icons/item/00210.png"
   },
   {
     "vnum": "213",
-    "name": "�mierciono�ne Ostrze+3",
+    "name": "Śmiercionośne Ostrze+3",
     "icon": "../assets/item-icons/item/00210.png"
   },
   {
     "vnum": "214",
-    "name": "�mierciono�ne Ostrze+4",
+    "name": "Śmiercionośne Ostrze+4",
     "icon": "../assets/item-icons/item/00210.png"
   },
   {
     "vnum": "215",
-    "name": "�mierciono�ne Ostrze+5",
+    "name": "Śmiercionośne Ostrze+5",
     "icon": "../assets/item-icons/item/00210.png"
   },
   {
     "vnum": "216",
-    "name": "�mierciono�ne Ostrze+6",
+    "name": "Śmiercionośne Ostrze+6",
     "icon": "../assets/item-icons/item/00210.png"
   },
   {
     "vnum": "217",
-    "name": "�mierciono�ne Ostrze+7",
+    "name": "Śmiercionośne Ostrze+7",
     "icon": "../assets/item-icons/item/00210.png"
   },
   {
     "vnum": "218",
-    "name": "�mierciono�ne Ostrze+8",
+    "name": "Śmiercionośne Ostrze+8",
     "icon": "../assets/item-icons/item/00210.png"
   },
   {
     "vnum": "219",
-    "name": "�mierciono�ne Ostrze+9",
+    "name": "Śmiercionośne Ostrze+9",
     "icon": "../assets/item-icons/item/00210.png"
   },
   {
     "vnum": "220",
-    "name": "Ksi�ycowy Miecz+0",
+    "name": "Księżycowy Miecz+0",
     "icon": "../assets/item-icons/item/00220.png"
   },
   {
     "vnum": "221",
-    "name": "Ksi�ycowy Miecz+1",
+    "name": "Księżycowy Miecz+1",
     "icon": "../assets/item-icons/item/00220.png"
   },
   {
     "vnum": "222",
-    "name": "Ksi�ycowy Miecz+2",
+    "name": "Księżycowy Miecz+2",
     "icon": "../assets/item-icons/item/00220.png"
   },
   {
     "vnum": "223",
-    "name": "Ksi�ycowy Miecz+3",
+    "name": "Księżycowy Miecz+3",
     "icon": "../assets/item-icons/item/00220.png"
   },
   {
     "vnum": "224",
-    "name": "Ksi�ycowy Miecz+4",
+    "name": "Księżycowy Miecz+4",
     "icon": "../assets/item-icons/item/00220.png"
   },
   {
     "vnum": "225",
-    "name": "Ksi�ycowy Miecz+5",
+    "name": "Księżycowy Miecz+5",
     "icon": "../assets/item-icons/item/00220.png"
   },
   {
     "vnum": "226",
-    "name": "Ksi�ycowy Miecz+6",
+    "name": "Księżycowy Miecz+6",
     "icon": "../assets/item-icons/item/00220.png"
   },
   {
     "vnum": "227",
-    "name": "Ksi�ycowy Miecz+7",
+    "name": "Księżycowy Miecz+7",
     "icon": "../assets/item-icons/item/00220.png"
   },
   {
     "vnum": "228",
-    "name": "Ksi�ycowy Miecz+8",
+    "name": "Księżycowy Miecz+8",
     "icon": "../assets/item-icons/item/00220.png"
   },
   {
     "vnum": "229",
-    "name": "Ksi�ycowy Miecz+9",
+    "name": "Księżycowy Miecz+9",
     "icon": "../assets/item-icons/item/00220.png"
   },
   {
     "vnum": "230",
-    "name": "Niebia�ski Miecz+0",
+    "name": "Niebiański Miecz+0",
     "icon": "../assets/item-icons/item/00230.png"
   },
   {
     "vnum": "231",
-    "name": "Niebia�ski Miecz+1",
+    "name": "Niebiański Miecz+1",
     "icon": "../assets/item-icons/item/00230.png"
   },
   {
     "vnum": "232",
-    "name": "Niebia�ski Miecz+2",
+    "name": "Niebiański Miecz+2",
     "icon": "../assets/item-icons/item/00230.png"
   },
   {
     "vnum": "233",
-    "name": "Niebia�ski Miecz+3",
+    "name": "Niebiański Miecz+3",
     "icon": "../assets/item-icons/item/00230.png"
   },
   {
     "vnum": "234",
-    "name": "Niebia�ski Miecz+4",
+    "name": "Niebiański Miecz+4",
     "icon": "../assets/item-icons/item/00230.png"
   },
   {
     "vnum": "235",
-    "name": "Niebia�ski Miecz+5",
+    "name": "Niebiański Miecz+5",
     "icon": "../assets/item-icons/item/00230.png"
   },
   {
     "vnum": "236",
-    "name": "Niebia�ski Miecz+6",
+    "name": "Niebiański Miecz+6",
     "icon": "../assets/item-icons/item/00230.png"
   },
   {
     "vnum": "237",
-    "name": "Niebia�ski Miecz+7",
+    "name": "Niebiański Miecz+7",
     "icon": "../assets/item-icons/item/00230.png"
   },
   {
     "vnum": "238",
-    "name": "Niebia�ski Miecz+8",
+    "name": "Niebiański Miecz+8",
     "icon": "../assets/item-icons/item/00230.png"
   },
   {
     "vnum": "239",
-    "name": "Niebia�ski Miecz+9",
+    "name": "Niebiański Miecz+9",
     "icon": "../assets/item-icons/item/00230.png"
   },
   {
@@ -1383,102 +1384,102 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "280",
-    "name": "�wi�ty Miecz+0",
+    "name": "Święty Miecz+0",
     "icon": "../assets/item-icons/item/00280.png"
   },
   {
     "vnum": "281",
-    "name": "�wi�ty Miecz+1",
+    "name": "Święty Miecz+1",
     "icon": "../assets/item-icons/item/00280.png"
   },
   {
     "vnum": "282",
-    "name": "�wi�ty Miecz+2",
+    "name": "Święty Miecz+2",
     "icon": "../assets/item-icons/item/00280.png"
   },
   {
     "vnum": "283",
-    "name": "�wi�ty Miecz+3",
+    "name": "Święty Miecz+3",
     "icon": "../assets/item-icons/item/00280.png"
   },
   {
     "vnum": "284",
-    "name": "�wi�ty Miecz+4",
+    "name": "Święty Miecz+4",
     "icon": "../assets/item-icons/item/00280.png"
   },
   {
     "vnum": "285",
-    "name": "�wi�ty Miecz+5",
+    "name": "Święty Miecz+5",
     "icon": "../assets/item-icons/item/00280.png"
   },
   {
     "vnum": "286",
-    "name": "�wi�ty Miecz+6",
+    "name": "Święty Miecz+6",
     "icon": "../assets/item-icons/item/00280.png"
   },
   {
     "vnum": "287",
-    "name": "�wi�ty Miecz+7",
+    "name": "Święty Miecz+7",
     "icon": "../assets/item-icons/item/00280.png"
   },
   {
     "vnum": "288",
-    "name": "�wi�ty Miecz+8",
+    "name": "Święty Miecz+8",
     "icon": "../assets/item-icons/item/00280.png"
   },
   {
     "vnum": "289",
-    "name": "�wi�ty Miecz+9",
+    "name": "Święty Miecz+9",
     "icon": "../assets/item-icons/item/00280.png"
   },
   {
     "vnum": "290",
-    "name": "Miecz Pe�ni Ksi�yca+0",
+    "name": "Miecz Pełni Księżyca+0",
     "icon": "../assets/item-icons/item/00290.png"
   },
   {
     "vnum": "291",
-    "name": "Miecz Pe�ni Ksi�yca+1",
+    "name": "Miecz Pełni Księżyca+1",
     "icon": "../assets/item-icons/item/00290.png"
   },
   {
     "vnum": "292",
-    "name": "Miecz Pe�ni Ksi�yca+2",
+    "name": "Miecz Pełni Księżyca+2",
     "icon": "../assets/item-icons/item/00290.png"
   },
   {
     "vnum": "293",
-    "name": "Miecz Pe�ni Ksi�yca+3",
+    "name": "Miecz Pełni Księżyca+3",
     "icon": "../assets/item-icons/item/00290.png"
   },
   {
     "vnum": "294",
-    "name": "Miecz Pe�ni Ksi�yca+4",
+    "name": "Miecz Pełni Księżyca+4",
     "icon": "../assets/item-icons/item/00290.png"
   },
   {
     "vnum": "295",
-    "name": "Miecz Pe�ni Ksi�yca+5",
+    "name": "Miecz Pełni Księżyca+5",
     "icon": "../assets/item-icons/item/00290.png"
   },
   {
     "vnum": "296",
-    "name": "Miecz Pe�ni Ksi�yca+6",
+    "name": "Miecz Pełni Księżyca+6",
     "icon": "../assets/item-icons/item/00290.png"
   },
   {
     "vnum": "297",
-    "name": "Miecz Pe�ni Ksi�yca+7",
+    "name": "Miecz Pełni Księżyca+7",
     "icon": "../assets/item-icons/item/00290.png"
   },
   {
     "vnum": "298",
-    "name": "Miecz Pe�ni Ksi�yca+8",
+    "name": "Miecz Pełni Księżyca+8",
     "icon": "../assets/item-icons/item/00290.png"
   },
   {
     "vnum": "299",
-    "name": "Miecz Pe�ni Ksi�yca+9",
+    "name": "Miecz Pełni Księżyca+9",
     "icon": "../assets/item-icons/item/00290.png"
   },
   {
@@ -1533,52 +1534,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "470",
-    "name": "Klinga Smoczego K�a+0",
+    "name": "Klinga Smoczego Kła+0",
     "icon": "../assets/item-icons/item/00470.png"
   },
   {
     "vnum": "471",
-    "name": "Klinga Smoczego K�a+1",
+    "name": "Klinga Smoczego Kła+1",
     "icon": "../assets/item-icons/item/00470.png"
   },
   {
     "vnum": "472",
-    "name": "Klinga Smoczego K�a+2",
+    "name": "Klinga Smoczego Kła+2",
     "icon": "../assets/item-icons/item/00470.png"
   },
   {
     "vnum": "473",
-    "name": "Klinga Smoczego K�a+3",
+    "name": "Klinga Smoczego Kła+3",
     "icon": "../assets/item-icons/item/00470.png"
   },
   {
     "vnum": "474",
-    "name": "Klinga Smoczego K�a+4",
+    "name": "Klinga Smoczego Kła+4",
     "icon": "../assets/item-icons/item/00470.png"
   },
   {
     "vnum": "475",
-    "name": "Klinga Smoczego K�a+5",
+    "name": "Klinga Smoczego Kła+5",
     "icon": "../assets/item-icons/item/00470.png"
   },
   {
     "vnum": "476",
-    "name": "Klinga Smoczego K�a+6",
+    "name": "Klinga Smoczego Kła+6",
     "icon": "../assets/item-icons/item/00470.png"
   },
   {
     "vnum": "477",
-    "name": "Klinga Smoczego K�a+7",
+    "name": "Klinga Smoczego Kła+7",
     "icon": "../assets/item-icons/item/00470.png"
   },
   {
     "vnum": "478",
-    "name": "Klinga Smoczego K�a+8",
+    "name": "Klinga Smoczego Kła+8",
     "icon": "../assets/item-icons/item/00470.png"
   },
   {
     "vnum": "479",
-    "name": "Klinga Smoczego K�a+9",
+    "name": "Klinga Smoczego Kła+9",
     "icon": "../assets/item-icons/item/00470.png"
   },
   {
@@ -1683,252 +1684,252 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "1020",
-    "name": "Sztylet No�ycowy+0",
+    "name": "Sztylet Nożycowy+0",
     "icon": "../assets/item-icons/item/01020.png"
   },
   {
     "vnum": "1021",
-    "name": "Sztylet No�ycowy+1",
+    "name": "Sztylet Nożycowy+1",
     "icon": "../assets/item-icons/item/01020.png"
   },
   {
     "vnum": "1022",
-    "name": "Sztylet No�ycowy+2",
+    "name": "Sztylet Nożycowy+2",
     "icon": "../assets/item-icons/item/01020.png"
   },
   {
     "vnum": "1023",
-    "name": "Sztylet No�ycowy+3",
+    "name": "Sztylet Nożycowy+3",
     "icon": "../assets/item-icons/item/01020.png"
   },
   {
     "vnum": "1024",
-    "name": "Sztylet No�ycowy+4",
+    "name": "Sztylet Nożycowy+4",
     "icon": "../assets/item-icons/item/01020.png"
   },
   {
     "vnum": "1025",
-    "name": "Sztylet No�ycowy+5",
+    "name": "Sztylet Nożycowy+5",
     "icon": "../assets/item-icons/item/01020.png"
   },
   {
     "vnum": "1026",
-    "name": "Sztylet No�ycowy+6",
+    "name": "Sztylet Nożycowy+6",
     "icon": "../assets/item-icons/item/01020.png"
   },
   {
     "vnum": "1027",
-    "name": "Sztylet No�ycowy+7",
+    "name": "Sztylet Nożycowy+7",
     "icon": "../assets/item-icons/item/01020.png"
   },
   {
     "vnum": "1028",
-    "name": "Sztylet No�ycowy+8",
+    "name": "Sztylet Nożycowy+8",
     "icon": "../assets/item-icons/item/01020.png"
   },
   {
     "vnum": "1029",
-    "name": "Sztylet No�ycowy+9",
+    "name": "Sztylet Nożycowy+9",
     "icon": "../assets/item-icons/item/01020.png"
   },
   {
     "vnum": "1030",
-    "name": "N� Szcz�cia+0",
+    "name": "Nóż Szczęścia+0",
     "icon": "../assets/item-icons/item/01030.png"
   },
   {
     "vnum": "1031",
-    "name": "N� Szcz�cia+1",
+    "name": "Nóż Szczęścia+1",
     "icon": "../assets/item-icons/item/01030.png"
   },
   {
     "vnum": "1032",
-    "name": "N� Szcz�cia+2",
+    "name": "Nóż Szczęścia+2",
     "icon": "../assets/item-icons/item/01030.png"
   },
   {
     "vnum": "1033",
-    "name": "N� Szcz�cia+3",
+    "name": "Nóż Szczęścia+3",
     "icon": "../assets/item-icons/item/01030.png"
   },
   {
     "vnum": "1034",
-    "name": "N� Szcz�cia+4",
+    "name": "Nóż Szczęścia+4",
     "icon": "../assets/item-icons/item/01030.png"
   },
   {
     "vnum": "1035",
-    "name": "N� Szcz�cia+5",
+    "name": "Nóż Szczęścia+5",
     "icon": "../assets/item-icons/item/01030.png"
   },
   {
     "vnum": "1036",
-    "name": "N� Szcz�cia+6",
+    "name": "Nóż Szczęścia+6",
     "icon": "../assets/item-icons/item/01030.png"
   },
   {
     "vnum": "1037",
-    "name": "N� Szcz�cia+7",
+    "name": "Nóż Szczęścia+7",
     "icon": "../assets/item-icons/item/01030.png"
   },
   {
     "vnum": "1038",
-    "name": "N� Szcz�cia+8",
+    "name": "Nóż Szczęścia+8",
     "icon": "../assets/item-icons/item/01030.png"
   },
   {
     "vnum": "1039",
-    "name": "N� Szcz�cia+9",
+    "name": "Nóż Szczęścia+9",
     "icon": "../assets/item-icons/item/01030.png"
   },
   {
     "vnum": "1040",
-    "name": "Uk�szenie Kota+0",
+    "name": "Ukąszenie Kota+0",
     "icon": "../assets/item-icons/item/01040.png"
   },
   {
     "vnum": "1041",
-    "name": "Uk�szenie Kota+1",
+    "name": "Ukąszenie Kota+1",
     "icon": "../assets/item-icons/item/01040.png"
   },
   {
     "vnum": "1042",
-    "name": "Uk�szenie Kota+2",
+    "name": "Ukąszenie Kota+2",
     "icon": "../assets/item-icons/item/01040.png"
   },
   {
     "vnum": "1043",
-    "name": "Uk�szenie Kota+3",
+    "name": "Ukąszenie Kota+3",
     "icon": "../assets/item-icons/item/01040.png"
   },
   {
     "vnum": "1044",
-    "name": "Uk�szenie Kota+4",
+    "name": "Ukąszenie Kota+4",
     "icon": "../assets/item-icons/item/01040.png"
   },
   {
     "vnum": "1045",
-    "name": "Uk�szenie Kota+5",
+    "name": "Ukąszenie Kota+5",
     "icon": "../assets/item-icons/item/01040.png"
   },
   {
     "vnum": "1046",
-    "name": "Uk�szenie Kota+6",
+    "name": "Ukąszenie Kota+6",
     "icon": "../assets/item-icons/item/01040.png"
   },
   {
     "vnum": "1047",
-    "name": "Uk�szenie Kota+7",
+    "name": "Ukąszenie Kota+7",
     "icon": "../assets/item-icons/item/01040.png"
   },
   {
     "vnum": "1048",
-    "name": "Uk�szenie Kota+8",
+    "name": "Ukąszenie Kota+8",
     "icon": "../assets/item-icons/item/01040.png"
   },
   {
     "vnum": "1049",
-    "name": "Uk�szenie Kota+9",
+    "name": "Ukąszenie Kota+9",
     "icon": "../assets/item-icons/item/01040.png"
   },
   {
     "vnum": "1050",
-    "name": "Twarz Diab�a+0",
+    "name": "Twarz Diabła+0",
     "icon": "../assets/item-icons/item/01050.png"
   },
   {
     "vnum": "1051",
-    "name": "Twarz Diab�a+1",
+    "name": "Twarz Diabła+1",
     "icon": "../assets/item-icons/item/01050.png"
   },
   {
     "vnum": "1052",
-    "name": "Twarz Diab�a+2",
+    "name": "Twarz Diabła+2",
     "icon": "../assets/item-icons/item/01050.png"
   },
   {
     "vnum": "1053",
-    "name": "Twarz Diab�a+3",
+    "name": "Twarz Diabła+3",
     "icon": "../assets/item-icons/item/01050.png"
   },
   {
     "vnum": "1054",
-    "name": "Twarz Diab�a+4",
+    "name": "Twarz Diabła+4",
     "icon": "../assets/item-icons/item/01050.png"
   },
   {
     "vnum": "1055",
-    "name": "Twarz Diab�a+5",
+    "name": "Twarz Diabła+5",
     "icon": "../assets/item-icons/item/01050.png"
   },
   {
     "vnum": "1056",
-    "name": "Twarz Diab�a+6",
+    "name": "Twarz Diabła+6",
     "icon": "../assets/item-icons/item/01050.png"
   },
   {
     "vnum": "1057",
-    "name": "Twarz Diab�a+7",
+    "name": "Twarz Diabła+7",
     "icon": "../assets/item-icons/item/01050.png"
   },
   {
     "vnum": "1058",
-    "name": "Twarz Diab�a+8",
+    "name": "Twarz Diabła+8",
     "icon": "../assets/item-icons/item/01050.png"
   },
   {
     "vnum": "1059",
-    "name": "Twarz Diab�a+9",
+    "name": "Twarz Diabła+9",
     "icon": "../assets/item-icons/item/01050.png"
   },
   {
     "vnum": "1060",
-    "name": "Sztylet Pi�ci Diab.+0",
+    "name": "Sztylet Pięści Diab.+0",
     "icon": "../assets/item-icons/item/01060.png"
   },
   {
     "vnum": "1061",
-    "name": "Sztylet Pi�ci Diab.+1",
+    "name": "Sztylet Pięści Diab.+1",
     "icon": "../assets/item-icons/item/01060.png"
   },
   {
     "vnum": "1062",
-    "name": "Sztylet Pi�ci Diab.+2",
+    "name": "Sztylet Pięści Diab.+2",
     "icon": "../assets/item-icons/item/01060.png"
   },
   {
     "vnum": "1063",
-    "name": "Sztylet Pi�ci Diab.+3",
+    "name": "Sztylet Pięści Diab.+3",
     "icon": "../assets/item-icons/item/01060.png"
   },
   {
     "vnum": "1064",
-    "name": "Sztylet Pi�ci Diab.+4",
+    "name": "Sztylet Pięści Diab.+4",
     "icon": "../assets/item-icons/item/01060.png"
   },
   {
     "vnum": "1065",
-    "name": "Sztylet Pi�ci Diab.+5",
+    "name": "Sztylet Pięści Diab.+5",
     "icon": "../assets/item-icons/item/01060.png"
   },
   {
     "vnum": "1066",
-    "name": "Sztylet Pi�ci Diab.+6",
+    "name": "Sztylet Pięści Diab.+6",
     "icon": "../assets/item-icons/item/01060.png"
   },
   {
     "vnum": "1067",
-    "name": "Sztylet Pi�ci Diab.+7",
+    "name": "Sztylet Pięści Diab.+7",
     "icon": "../assets/item-icons/item/01060.png"
   },
   {
     "vnum": "1068",
-    "name": "Sztylet Pi�ci Diab.+8",
+    "name": "Sztylet Pięści Diab.+8",
     "icon": "../assets/item-icons/item/01060.png"
   },
   {
     "vnum": "1069",
-    "name": "Sztylet Pi�ci Diab.+9",
+    "name": "Sztylet Pięści Diab.+9",
     "icon": "../assets/item-icons/item/01060.png"
   },
   {
@@ -1983,52 +1984,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "1080",
-    "name": "�ebrowy N�+0",
+    "name": "Żebrowy Nóż+0",
     "icon": "../assets/item-icons/item/01080.png"
   },
   {
     "vnum": "1081",
-    "name": "�ebrowy N�+1",
+    "name": "Żebrowy Nóż+1",
     "icon": "../assets/item-icons/item/01080.png"
   },
   {
     "vnum": "1082",
-    "name": "�ebrowy N�+2",
+    "name": "Żebrowy Nóż+2",
     "icon": "../assets/item-icons/item/01080.png"
   },
   {
     "vnum": "1083",
-    "name": "�ebrowy N�+3",
+    "name": "Żebrowy Nóż+3",
     "icon": "../assets/item-icons/item/01080.png"
   },
   {
     "vnum": "1084",
-    "name": "�ebrowy N�+4",
+    "name": "Żebrowy Nóż+4",
     "icon": "../assets/item-icons/item/01080.png"
   },
   {
     "vnum": "1085",
-    "name": "�ebrowy N�+5",
+    "name": "Żebrowy Nóż+5",
     "icon": "../assets/item-icons/item/01080.png"
   },
   {
     "vnum": "1086",
-    "name": "�ebrowy N�+6",
+    "name": "Żebrowy Nóż+6",
     "icon": "../assets/item-icons/item/01080.png"
   },
   {
     "vnum": "1087",
-    "name": "�ebrowy N�+7",
+    "name": "Żebrowy Nóż+7",
     "icon": "../assets/item-icons/item/01080.png"
   },
   {
     "vnum": "1088",
-    "name": "�ebrowy N�+8",
+    "name": "Żebrowy Nóż+8",
     "icon": "../assets/item-icons/item/01080.png"
   },
   {
     "vnum": "1089",
-    "name": "�ebrowy N�+9",
+    "name": "Żebrowy Nóż+9",
     "icon": "../assets/item-icons/item/01080.png"
   },
   {
@@ -2083,1402 +2084,1402 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "1100",
-    "name": "Smoczy N�+0",
+    "name": "Smoczy Nóż+0",
     "icon": "../assets/item-icons/item/01100.png"
   },
   {
     "vnum": "1101",
-    "name": "Smoczy N�+1",
+    "name": "Smoczy Nóż+1",
     "icon": "../assets/item-icons/item/01100.png"
   },
   {
     "vnum": "1102",
-    "name": "Smoczy N�+2",
+    "name": "Smoczy Nóż+2",
     "icon": "../assets/item-icons/item/01100.png"
   },
   {
     "vnum": "1103",
-    "name": "Smoczy N�+3",
+    "name": "Smoczy Nóż+3",
     "icon": "../assets/item-icons/item/01100.png"
   },
   {
     "vnum": "1104",
-    "name": "Smoczy N�+4",
+    "name": "Smoczy Nóż+4",
     "icon": "../assets/item-icons/item/01100.png"
   },
   {
     "vnum": "1105",
-    "name": "Smoczy N�+5",
+    "name": "Smoczy Nóż+5",
     "icon": "../assets/item-icons/item/01100.png"
   },
   {
     "vnum": "1106",
-    "name": "Smoczy N�+6",
+    "name": "Smoczy Nóż+6",
     "icon": "../assets/item-icons/item/01100.png"
   },
   {
     "vnum": "1107",
-    "name": "Smoczy N�+7",
+    "name": "Smoczy Nóż+7",
     "icon": "../assets/item-icons/item/01100.png"
   },
   {
     "vnum": "1108",
-    "name": "Smoczy N�+8",
+    "name": "Smoczy Nóż+8",
     "icon": "../assets/item-icons/item/01100.png"
   },
   {
     "vnum": "1109",
-    "name": "Smoczy N�+9",
+    "name": "Smoczy Nóż+9",
     "icon": "../assets/item-icons/item/01100.png"
   },
   {
     "vnum": "1110",
-    "name": "N� B�yskawicy+0",
+    "name": "Nóż Błyskawicy+0",
     "icon": "../assets/item-icons/item/01110.png"
   },
   {
     "vnum": "1111",
-    "name": "N� B�yskawicy+1",
+    "name": "Nóż Błyskawicy+1",
     "icon": "../assets/item-icons/item/01110.png"
   },
   {
     "vnum": "1112",
-    "name": "N� B�yskawicy+2",
+    "name": "Nóż Błyskawicy+2",
     "icon": "../assets/item-icons/item/01110.png"
   },
   {
     "vnum": "1113",
-    "name": "N� B�yskawicy+3",
+    "name": "Nóż Błyskawicy+3",
     "icon": "../assets/item-icons/item/01110.png"
   },
   {
     "vnum": "1114",
-    "name": "N� B�yskawicy+4",
+    "name": "Nóż Błyskawicy+4",
     "icon": "../assets/item-icons/item/01110.png"
   },
   {
     "vnum": "1115",
-    "name": "N� B�yskawicy+5",
+    "name": "Nóż Błyskawicy+5",
     "icon": "../assets/item-icons/item/01110.png"
   },
   {
     "vnum": "1116",
-    "name": "N� B�yskawicy+6",
+    "name": "Nóż Błyskawicy+6",
     "icon": "../assets/item-icons/item/01110.png"
   },
   {
     "vnum": "1117",
-    "name": "N� B�yskawicy+7",
+    "name": "Nóż Błyskawicy+7",
     "icon": "../assets/item-icons/item/01110.png"
   },
   {
     "vnum": "1118",
-    "name": "N� B�yskawicy+8",
+    "name": "Nóż Błyskawicy+8",
     "icon": "../assets/item-icons/item/01110.png"
   },
   {
     "vnum": "1119",
-    "name": "N� B�yskawicy+9",
+    "name": "Nóż Błyskawicy+9",
     "icon": "../assets/item-icons/item/01110.png"
   },
   {
     "vnum": "1120",
-    "name": "N� Siamese+0",
+    "name": "Nóż Siamese+0",
     "icon": "../assets/item-icons/item/01120.png"
   },
   {
     "vnum": "1121",
-    "name": "N� Siamese+1",
+    "name": "Nóż Siamese+1",
     "icon": "../assets/item-icons/item/01120.png"
   },
   {
     "vnum": "1122",
-    "name": "N� Siamese+2",
+    "name": "Nóż Siamese+2",
     "icon": "../assets/item-icons/item/01120.png"
   },
   {
     "vnum": "1123",
-    "name": "N� Siamese+3",
+    "name": "Nóż Siamese+3",
     "icon": "../assets/item-icons/item/01120.png"
   },
   {
     "vnum": "1124",
-    "name": "N� Siamese+4",
+    "name": "Nóż Siamese+4",
     "icon": "../assets/item-icons/item/01120.png"
   },
   {
     "vnum": "1125",
-    "name": "N� Siamese+5",
+    "name": "Nóż Siamese+5",
     "icon": "../assets/item-icons/item/01120.png"
   },
   {
     "vnum": "1126",
-    "name": "N� Siamese+6",
+    "name": "Nóż Siamese+6",
     "icon": "../assets/item-icons/item/01120.png"
   },
   {
     "vnum": "1127",
-    "name": "N� Siamese+7",
+    "name": "Nóż Siamese+7",
     "icon": "../assets/item-icons/item/01120.png"
   },
   {
     "vnum": "1128",
-    "name": "N� Siamese+8",
+    "name": "Nóż Siamese+8",
     "icon": "../assets/item-icons/item/01120.png"
   },
   {
     "vnum": "1129",
-    "name": "N� Siamese+9",
+    "name": "Nóż Siamese+9",
     "icon": "../assets/item-icons/item/01120.png"
   },
   {
     "vnum": "1130",
-    "name": "Skrzyd�a Demona Chakr.+0",
+    "name": "Skrzydła Demona Chakr.+0",
     "icon": "../assets/item-icons/item/01130.png"
   },
   {
     "vnum": "1131",
-    "name": "Skrzyd�a Demona Chakr.+1",
+    "name": "Skrzydła Demona Chakr.+1",
     "icon": "../assets/item-icons/item/01130.png"
   },
   {
     "vnum": "1132",
-    "name": "Skrzyd�a Demona Chakr.+2",
+    "name": "Skrzydła Demona Chakr.+2",
     "icon": "../assets/item-icons/item/01130.png"
   },
   {
     "vnum": "1133",
-    "name": "Skrzyd�a Demona Chakr.+3",
+    "name": "Skrzydła Demona Chakr.+3",
     "icon": "../assets/item-icons/item/01130.png"
   },
   {
     "vnum": "1134",
-    "name": "Skrzyd�a Demona Chakr.+4",
+    "name": "Skrzydła Demona Chakr.+4",
     "icon": "../assets/item-icons/item/01130.png"
   },
   {
     "vnum": "1135",
-    "name": "Skrzyd�a Demona Chakr.+5",
+    "name": "Skrzydła Demona Chakr.+5",
     "icon": "../assets/item-icons/item/01130.png"
   },
   {
     "vnum": "1136",
-    "name": "Skrzyd�a Demona Chakr.+6",
+    "name": "Skrzydła Demona Chakr.+6",
     "icon": "../assets/item-icons/item/01130.png"
   },
   {
     "vnum": "1137",
-    "name": "Skrzyd�a Demona Chakr.+7",
+    "name": "Skrzydła Demona Chakr.+7",
     "icon": "../assets/item-icons/item/01130.png"
   },
   {
     "vnum": "1138",
-    "name": "Skrzyd�a Demona Chakr.+8",
+    "name": "Skrzydła Demona Chakr.+8",
     "icon": "../assets/item-icons/item/01130.png"
   },
   {
     "vnum": "1139",
-    "name": "Skrzyd�a Demona Chakr.+9",
+    "name": "Skrzydła Demona Chakr.+9",
     "icon": "../assets/item-icons/item/01130.png"
   },
   {
     "vnum": "1140",
-    "name": "Z�bkowany N�+0",
+    "name": "Ząbkowany Nóż+0",
     "icon": "../assets/item-icons/item/01140.png"
   },
   {
     "vnum": "1141",
-    "name": "Z�bkowany N�+1",
+    "name": "Ząbkowany Nóż+1",
     "icon": "../assets/item-icons/item/01140.png"
   },
   {
     "vnum": "1142",
-    "name": "Z�bkowany N�+2",
+    "name": "Ząbkowany Nóż+2",
     "icon": "../assets/item-icons/item/01140.png"
   },
   {
     "vnum": "1143",
-    "name": "Z�bkowany N�+3",
+    "name": "Ząbkowany Nóż+3",
     "icon": "../assets/item-icons/item/01140.png"
   },
   {
     "vnum": "1144",
-    "name": "Z�bkowany N�+4",
+    "name": "Ząbkowany Nóż+4",
     "icon": "../assets/item-icons/item/01140.png"
   },
   {
     "vnum": "1145",
-    "name": "Z�bkowany N�+5",
+    "name": "Ząbkowany Nóż+5",
     "icon": "../assets/item-icons/item/01140.png"
   },
   {
     "vnum": "1146",
-    "name": "Z�bkowany N�+6",
+    "name": "Ząbkowany Nóż+6",
     "icon": "../assets/item-icons/item/01140.png"
   },
   {
     "vnum": "1147",
-    "name": "Z�bkowany N�+7",
+    "name": "Ząbkowany Nóż+7",
     "icon": "../assets/item-icons/item/01140.png"
   },
   {
     "vnum": "1148",
-    "name": "Z�bkowany N�+8",
+    "name": "Ząbkowany Nóż+8",
     "icon": "../assets/item-icons/item/01140.png"
   },
   {
     "vnum": "1149",
-    "name": "Z�bkowany N�+9",
+    "name": "Ząbkowany Nóż+9",
     "icon": "../assets/item-icons/item/01140.png"
   },
   {
     "vnum": "1150",
-    "name": "�wietlisty N�+0",
+    "name": "Świetlisty Nóż+0",
     "icon": "../assets/item-icons/item/01150.png"
   },
   {
     "vnum": "1151",
-    "name": "�wietlisty N�+1",
+    "name": "Świetlisty Nóż+1",
     "icon": "../assets/item-icons/item/01150.png"
   },
   {
     "vnum": "1152",
-    "name": "�wietlisty N�+2",
+    "name": "Świetlisty Nóż+2",
     "icon": "../assets/item-icons/item/01150.png"
   },
   {
     "vnum": "1153",
-    "name": "�wietlisty N�+3",
+    "name": "Świetlisty Nóż+3",
     "icon": "../assets/item-icons/item/01150.png"
   },
   {
     "vnum": "1154",
-    "name": "�wietlisty N�+4",
+    "name": "Świetlisty Nóż+4",
     "icon": "../assets/item-icons/item/01150.png"
   },
   {
     "vnum": "1155",
-    "name": "�wietlisty N�+5",
+    "name": "Świetlisty Nóż+5",
     "icon": "../assets/item-icons/item/01150.png"
   },
   {
     "vnum": "1156",
-    "name": "�wietlisty N�+6",
+    "name": "Świetlisty Nóż+6",
     "icon": "../assets/item-icons/item/01150.png"
   },
   {
     "vnum": "1157",
-    "name": "�wietlisty N�+7",
+    "name": "Świetlisty Nóż+7",
     "icon": "../assets/item-icons/item/01150.png"
   },
   {
     "vnum": "1158",
-    "name": "�wietlisty N�+8",
+    "name": "Świetlisty Nóż+8",
     "icon": "../assets/item-icons/item/01150.png"
   },
   {
     "vnum": "1159",
-    "name": "�wietlisty N�+9",
+    "name": "Świetlisty Nóż+9",
     "icon": "../assets/item-icons/item/01150.png"
   },
   {
     "vnum": "1160",
-    "name": "N� Strumienia+0",
+    "name": "Nóż Strumienia+0",
     "icon": "../assets/item-icons/item/01160.png"
   },
   {
     "vnum": "1161",
-    "name": "N� Strumienia+1",
+    "name": "Nóż Strumienia+1",
     "icon": "../assets/item-icons/item/01160.png"
   },
   {
     "vnum": "1162",
-    "name": "N� Strumienia+2",
+    "name": "Nóż Strumienia+2",
     "icon": "../assets/item-icons/item/01160.png"
   },
   {
     "vnum": "1163",
-    "name": "N� Strumienia+3",
+    "name": "Nóż Strumienia+3",
     "icon": "../assets/item-icons/item/01160.png"
   },
   {
     "vnum": "1164",
-    "name": "N� Strumienia+4",
+    "name": "Nóż Strumienia+4",
     "icon": "../assets/item-icons/item/01160.png"
   },
   {
     "vnum": "1165",
-    "name": "N� Strumienia+5",
+    "name": "Nóż Strumienia+5",
     "icon": "../assets/item-icons/item/01160.png"
   },
   {
     "vnum": "1166",
-    "name": "N� Strumienia+6",
+    "name": "Nóż Strumienia+6",
     "icon": "../assets/item-icons/item/01160.png"
   },
   {
     "vnum": "1167",
-    "name": "N� Strumienia+7",
+    "name": "Nóż Strumienia+7",
     "icon": "../assets/item-icons/item/01160.png"
   },
   {
     "vnum": "1168",
-    "name": "N� Strumienia+8",
+    "name": "Nóż Strumienia+8",
     "icon": "../assets/item-icons/item/01160.png"
   },
   {
     "vnum": "1169",
-    "name": "N� Strumienia+9",
+    "name": "Nóż Strumienia+9",
     "icon": "../assets/item-icons/item/01160.png"
   },
   {
     "vnum": "1170",
-    "name": "Kozik Czar. Li�.+0",
+    "name": "Kozik Czar. Liś.+0",
     "icon": "../assets/item-icons/item/01170.png"
   },
   {
     "vnum": "1171",
-    "name": "Kozik Czar. Li�.+1",
+    "name": "Kozik Czar. Liś.+1",
     "icon": "../assets/item-icons/item/01170.png"
   },
   {
     "vnum": "1172",
-    "name": "Kozik Czar. Li�.+2",
+    "name": "Kozik Czar. Liś.+2",
     "icon": "../assets/item-icons/item/01170.png"
   },
   {
     "vnum": "1173",
-    "name": "Kozik Czar. Li�.+3",
+    "name": "Kozik Czar. Liś.+3",
     "icon": "../assets/item-icons/item/01170.png"
   },
   {
     "vnum": "1174",
-    "name": "Kozik Czar. Li�.+4",
+    "name": "Kozik Czar. Liś.+4",
     "icon": "../assets/item-icons/item/01170.png"
   },
   {
     "vnum": "1175",
-    "name": "Kozik Czar. Li�.+5",
+    "name": "Kozik Czar. Liś.+5",
     "icon": "../assets/item-icons/item/01170.png"
   },
   {
     "vnum": "1176",
-    "name": "Kozik Czar. Li�.+6",
+    "name": "Kozik Czar. Liś.+6",
     "icon": "../assets/item-icons/item/01170.png"
   },
   {
     "vnum": "1177",
-    "name": "Kozik Czar. Li�.+7",
+    "name": "Kozik Czar. Liś.+7",
     "icon": "../assets/item-icons/item/01170.png"
   },
   {
     "vnum": "1178",
-    "name": "Kozik Czar. Li�.+8",
+    "name": "Kozik Czar. Liś.+8",
     "icon": "../assets/item-icons/item/01170.png"
   },
   {
     "vnum": "1179",
-    "name": "Kozik Czar. Li�.+9",
+    "name": "Kozik Czar. Liś.+9",
     "icon": "../assets/item-icons/item/01170.png"
   },
   {
     "vnum": "1340",
-    "name": "Kolec Pi�ciu Element�w+0",
+    "name": "Kolec Pięciu Elementów+0",
     "icon": "../assets/item-icons/item/01340.png"
   },
   {
     "vnum": "1341",
-    "name": "Kolec Pi�ciu Element�w+1",
+    "name": "Kolec Pięciu Elementów+1",
     "icon": "../assets/item-icons/item/01340.png"
   },
   {
     "vnum": "1342",
-    "name": "Kolec Pi�ciu Element�w+2",
+    "name": "Kolec Pięciu Elementów+2",
     "icon": "../assets/item-icons/item/01340.png"
   },
   {
     "vnum": "1343",
-    "name": "Kolec Pi�ciu Element�w+3",
+    "name": "Kolec Pięciu Elementów+3",
     "icon": "../assets/item-icons/item/01340.png"
   },
   {
     "vnum": "1344",
-    "name": "Kolec Pi�ciu Element�w+4",
+    "name": "Kolec Pięciu Elementów+4",
     "icon": "../assets/item-icons/item/01340.png"
   },
   {
     "vnum": "1345",
-    "name": "Kolec Pi�ciu Element�w+5",
+    "name": "Kolec Pięciu Elementów+5",
     "icon": "../assets/item-icons/item/01340.png"
   },
   {
     "vnum": "1346",
-    "name": "Kolec Pi�ciu Element�w+6",
+    "name": "Kolec Pięciu Elementów+6",
     "icon": "../assets/item-icons/item/01340.png"
   },
   {
     "vnum": "1347",
-    "name": "Kolec Pi�ciu Element�w+7",
+    "name": "Kolec Pięciu Elementów+7",
     "icon": "../assets/item-icons/item/01340.png"
   },
   {
     "vnum": "1348",
-    "name": "Kolec Pi�ciu Element�w+8",
+    "name": "Kolec Pięciu Elementów+8",
     "icon": "../assets/item-icons/item/01340.png"
   },
   {
     "vnum": "1349",
-    "name": "Kolec Pi�ciu Element�w+9",
+    "name": "Kolec Pięciu Elementów+9",
     "icon": "../assets/item-icons/item/01340.png"
   },
   {
     "vnum": "2000",
-    "name": "�uk+0",
+    "name": "Łuk+0",
     "icon": "../assets/item-icons/item/02000.png"
   },
   {
     "vnum": "2001",
-    "name": "�uk+1",
+    "name": "Łuk+1",
     "icon": "../assets/item-icons/item/02000.png"
   },
   {
     "vnum": "2002",
-    "name": "�uk+2",
+    "name": "Łuk+2",
     "icon": "../assets/item-icons/item/02000.png"
   },
   {
     "vnum": "2003",
-    "name": "�uk+3",
+    "name": "Łuk+3",
     "icon": "../assets/item-icons/item/02000.png"
   },
   {
     "vnum": "2004",
-    "name": "�uk+4",
+    "name": "Łuk+4",
     "icon": "../assets/item-icons/item/02000.png"
   },
   {
     "vnum": "2005",
-    "name": "�uk+5",
+    "name": "Łuk+5",
     "icon": "../assets/item-icons/item/02000.png"
   },
   {
     "vnum": "2006",
-    "name": "�uk+6",
+    "name": "Łuk+6",
     "icon": "../assets/item-icons/item/02000.png"
   },
   {
     "vnum": "2007",
-    "name": "�uk+7",
+    "name": "Łuk+7",
     "icon": "../assets/item-icons/item/02000.png"
   },
   {
     "vnum": "2008",
-    "name": "�uk+8",
+    "name": "Łuk+8",
     "icon": "../assets/item-icons/item/02000.png"
   },
   {
     "vnum": "2009",
-    "name": "�uk+9",
+    "name": "Łuk+9",
     "icon": "../assets/item-icons/item/02000.png"
   },
   {
     "vnum": "2010",
-    "name": "D�ugi �uk+0",
+    "name": "Długi Łuk+0",
     "icon": "../assets/item-icons/item/02010.png"
   },
   {
     "vnum": "2011",
-    "name": "D�ugi �uk+1",
+    "name": "Długi Łuk+1",
     "icon": "../assets/item-icons/item/02010.png"
   },
   {
     "vnum": "2012",
-    "name": "D�ugi �uk+2",
+    "name": "Długi Łuk+2",
     "icon": "../assets/item-icons/item/02010.png"
   },
   {
     "vnum": "2013",
-    "name": "D�ugi �uk+3",
+    "name": "Długi Łuk+3",
     "icon": "../assets/item-icons/item/02010.png"
   },
   {
     "vnum": "2014",
-    "name": "D�ugi �uk+4",
+    "name": "Długi Łuk+4",
     "icon": "../assets/item-icons/item/02010.png"
   },
   {
     "vnum": "2015",
-    "name": "D�ugi �uk+5",
+    "name": "Długi Łuk+5",
     "icon": "../assets/item-icons/item/02010.png"
   },
   {
     "vnum": "2016",
-    "name": "D�ugi �uk+6",
+    "name": "Długi Łuk+6",
     "icon": "../assets/item-icons/item/02010.png"
   },
   {
     "vnum": "2017",
-    "name": "D�ugi �uk+7",
+    "name": "Długi Łuk+7",
     "icon": "../assets/item-icons/item/02010.png"
   },
   {
     "vnum": "2018",
-    "name": "D�ugi �uk+8",
+    "name": "Długi Łuk+8",
     "icon": "../assets/item-icons/item/02010.png"
   },
   {
     "vnum": "2019",
-    "name": "D�ugi �uk+9",
+    "name": "Długi Łuk+9",
     "icon": "../assets/item-icons/item/02010.png"
   },
   {
     "vnum": "2020",
-    "name": "Kompozytowy �uk+0",
+    "name": "Kompozytowy Łuk+0",
     "icon": "../assets/item-icons/item/02020.png"
   },
   {
     "vnum": "2021",
-    "name": "Kompozytowy �uk+1",
+    "name": "Kompozytowy Łuk+1",
     "icon": "../assets/item-icons/item/02020.png"
   },
   {
     "vnum": "2022",
-    "name": "Kompozytowy �uk+2",
+    "name": "Kompozytowy Łuk+2",
     "icon": "../assets/item-icons/item/02020.png"
   },
   {
     "vnum": "2023",
-    "name": "Kompozytowy �uk+3",
+    "name": "Kompozytowy Łuk+3",
     "icon": "../assets/item-icons/item/02020.png"
   },
   {
     "vnum": "2024",
-    "name": "Kompozytowy �uk+4",
+    "name": "Kompozytowy Łuk+4",
     "icon": "../assets/item-icons/item/02020.png"
   },
   {
     "vnum": "2025",
-    "name": "Kompozytowy �uk+5",
+    "name": "Kompozytowy Łuk+5",
     "icon": "../assets/item-icons/item/02020.png"
   },
   {
     "vnum": "2026",
-    "name": "Kompozytowy �uk+6",
+    "name": "Kompozytowy Łuk+6",
     "icon": "../assets/item-icons/item/02020.png"
   },
   {
     "vnum": "2027",
-    "name": "Kompozytowy �uk+7",
+    "name": "Kompozytowy Łuk+7",
     "icon": "../assets/item-icons/item/02020.png"
   },
   {
     "vnum": "2028",
-    "name": "Kompozytowy �uk+8",
+    "name": "Kompozytowy Łuk+8",
     "icon": "../assets/item-icons/item/02020.png"
   },
   {
     "vnum": "2029",
-    "name": "Kompozytowy �uk+9",
+    "name": "Kompozytowy Łuk+9",
     "icon": "../assets/item-icons/item/02020.png"
   },
   {
     "vnum": "2030",
-    "name": "Bojowy �uk+0",
+    "name": "Bojowy Łuk+0",
     "icon": "../assets/item-icons/item/02030.png"
   },
   {
     "vnum": "2031",
-    "name": "Bojowy �uk+1",
+    "name": "Bojowy Łuk+1",
     "icon": "../assets/item-icons/item/02030.png"
   },
   {
     "vnum": "2032",
-    "name": "Bojowy �uk+2",
+    "name": "Bojowy Łuk+2",
     "icon": "../assets/item-icons/item/02030.png"
   },
   {
     "vnum": "2033",
-    "name": "Bojowy �uk+3",
+    "name": "Bojowy Łuk+3",
     "icon": "../assets/item-icons/item/02030.png"
   },
   {
     "vnum": "2034",
-    "name": "Bojowy �uk+4",
+    "name": "Bojowy Łuk+4",
     "icon": "../assets/item-icons/item/02030.png"
   },
   {
     "vnum": "2035",
-    "name": "Bojowy �uk+5",
+    "name": "Bojowy Łuk+5",
     "icon": "../assets/item-icons/item/02030.png"
   },
   {
     "vnum": "2036",
-    "name": "Bojowy �uk+6",
+    "name": "Bojowy Łuk+6",
     "icon": "../assets/item-icons/item/02030.png"
   },
   {
     "vnum": "2037",
-    "name": "Bojowy �uk+7",
+    "name": "Bojowy Łuk+7",
     "icon": "../assets/item-icons/item/02030.png"
   },
   {
     "vnum": "2038",
-    "name": "Bojowy �uk+8",
+    "name": "Bojowy Łuk+8",
     "icon": "../assets/item-icons/item/02030.png"
   },
   {
     "vnum": "2039",
-    "name": "Bojowy �uk+9",
+    "name": "Bojowy Łuk+9",
     "icon": "../assets/item-icons/item/02030.png"
   },
   {
     "vnum": "2040",
-    "name": "D�ugi �uk Je�d�cy+0",
+    "name": "Długi Łuk Jeźdźcy+0",
     "icon": "../assets/item-icons/item/02040.png"
   },
   {
     "vnum": "2041",
-    "name": "D�ugi �uk Je�d�cy+1",
+    "name": "Długi Łuk Jeźdźcy+1",
     "icon": "../assets/item-icons/item/02040.png"
   },
   {
     "vnum": "2042",
-    "name": "D�ugi �uk Je�d�cy+2",
+    "name": "Długi Łuk Jeźdźcy+2",
     "icon": "../assets/item-icons/item/02040.png"
   },
   {
     "vnum": "2043",
-    "name": "D�ugi �uk Je�d�cy+3",
+    "name": "Długi Łuk Jeźdźcy+3",
     "icon": "../assets/item-icons/item/02040.png"
   },
   {
     "vnum": "2044",
-    "name": "D�ugi �uk Je�d�cy+4",
+    "name": "Długi Łuk Jeźdźcy+4",
     "icon": "../assets/item-icons/item/02040.png"
   },
   {
     "vnum": "2045",
-    "name": "D�ugi �uk Je�d�cy+5",
+    "name": "Długi Łuk Jeźdźcy+5",
     "icon": "../assets/item-icons/item/02040.png"
   },
   {
     "vnum": "2046",
-    "name": "D�ugi �uk Je�d�cy+6",
+    "name": "Długi Łuk Jeźdźcy+6",
     "icon": "../assets/item-icons/item/02040.png"
   },
   {
     "vnum": "2047",
-    "name": "D�ugi �uk Je�d�cy+7",
+    "name": "Długi Łuk Jeźdźcy+7",
     "icon": "../assets/item-icons/item/02040.png"
   },
   {
     "vnum": "2048",
-    "name": "D�ugi �uk Je�d�cy+8",
+    "name": "Długi Łuk Jeźdźcy+8",
     "icon": "../assets/item-icons/item/02040.png"
   },
   {
     "vnum": "2049",
-    "name": "D�ugi �uk Je�d�cy+9",
+    "name": "Długi Łuk Jeźdźcy+9",
     "icon": "../assets/item-icons/item/02040.png"
   },
   {
     "vnum": "2050",
-    "name": "Bojowy �uk Je�d�cy+0",
+    "name": "Bojowy Łuk Jeźdźcy+0",
     "icon": "../assets/item-icons/item/02050.png"
   },
   {
     "vnum": "2051",
-    "name": "Bojowy �uk Je�d�cy+1",
+    "name": "Bojowy Łuk Jeźdźcy+1",
     "icon": "../assets/item-icons/item/02050.png"
   },
   {
     "vnum": "2052",
-    "name": "Bojowy �uk Je�d�cy+2",
+    "name": "Bojowy Łuk Jeźdźcy+2",
     "icon": "../assets/item-icons/item/02050.png"
   },
   {
     "vnum": "2053",
-    "name": "Bojowy �uk Je�d�cy+3",
+    "name": "Bojowy Łuk Jeźdźcy+3",
     "icon": "../assets/item-icons/item/02050.png"
   },
   {
     "vnum": "2054",
-    "name": "Bojowy �uk Je�d�cy+4",
+    "name": "Bojowy Łuk Jeźdźcy+4",
     "icon": "../assets/item-icons/item/02050.png"
   },
   {
     "vnum": "2055",
-    "name": "Bojowy �uk Je�d�cy+5",
+    "name": "Bojowy Łuk Jeźdźcy+5",
     "icon": "../assets/item-icons/item/02050.png"
   },
   {
     "vnum": "2056",
-    "name": "Bojowy �uk Je�d�cy+6",
+    "name": "Bojowy Łuk Jeźdźcy+6",
     "icon": "../assets/item-icons/item/02050.png"
   },
   {
     "vnum": "2057",
-    "name": "Bojowy �uk Je�d�cy+7",
+    "name": "Bojowy Łuk Jeźdźcy+7",
     "icon": "../assets/item-icons/item/02050.png"
   },
   {
     "vnum": "2058",
-    "name": "Bojowy �uk Je�d�cy+8",
+    "name": "Bojowy Łuk Jeźdźcy+8",
     "icon": "../assets/item-icons/item/02050.png"
   },
   {
     "vnum": "2059",
-    "name": "Bojowy �uk Je�d�cy+9",
+    "name": "Bojowy Łuk Jeźdźcy+9",
     "icon": "../assets/item-icons/item/02050.png"
   },
   {
     "vnum": "2060",
-    "name": "Miedziany �uk+0",
+    "name": "Miedziany Łuk+0",
     "icon": "../assets/item-icons/item/02060.png"
   },
   {
     "vnum": "2061",
-    "name": "Miedziany �uk+1",
+    "name": "Miedziany Łuk+1",
     "icon": "../assets/item-icons/item/02060.png"
   },
   {
     "vnum": "2062",
-    "name": "Miedziany �uk+2",
+    "name": "Miedziany Łuk+2",
     "icon": "../assets/item-icons/item/02060.png"
   },
   {
     "vnum": "2063",
-    "name": "Miedziany �uk+3",
+    "name": "Miedziany Łuk+3",
     "icon": "../assets/item-icons/item/02060.png"
   },
   {
     "vnum": "2064",
-    "name": "Miedziany �uk+4",
+    "name": "Miedziany Łuk+4",
     "icon": "../assets/item-icons/item/02060.png"
   },
   {
     "vnum": "2065",
-    "name": "Miedziany �uk+5",
+    "name": "Miedziany Łuk+5",
     "icon": "../assets/item-icons/item/02060.png"
   },
   {
     "vnum": "2066",
-    "name": "Miedziany �uk+6",
+    "name": "Miedziany Łuk+6",
     "icon": "../assets/item-icons/item/02060.png"
   },
   {
     "vnum": "2067",
-    "name": "Miedziany �uk+7",
+    "name": "Miedziany Łuk+7",
     "icon": "../assets/item-icons/item/02060.png"
   },
   {
     "vnum": "2068",
-    "name": "Miedziany �uk+8",
+    "name": "Miedziany Łuk+8",
     "icon": "../assets/item-icons/item/02060.png"
   },
   {
     "vnum": "2069",
-    "name": "Miedziany �uk+9",
+    "name": "Miedziany Łuk+9",
     "icon": "../assets/item-icons/item/02060.png"
   },
   {
     "vnum": "2070",
-    "name": "�uk Czarnych Ruin+0",
+    "name": "Łuk Czarnych Ruin+0",
     "icon": "../assets/item-icons/item/02070.png"
   },
   {
     "vnum": "2071",
-    "name": "�uk Czarnych Ruin+1",
+    "name": "Łuk Czarnych Ruin+1",
     "icon": "../assets/item-icons/item/02070.png"
   },
   {
     "vnum": "2072",
-    "name": "�uk Czarnych Ruin+2",
+    "name": "Łuk Czarnych Ruin+2",
     "icon": "../assets/item-icons/item/02070.png"
   },
   {
     "vnum": "2073",
-    "name": "�uk Czarnych Ruin+3",
+    "name": "Łuk Czarnych Ruin+3",
     "icon": "../assets/item-icons/item/02070.png"
   },
   {
     "vnum": "2074",
-    "name": "�uk Czarnych Ruin+4",
+    "name": "Łuk Czarnych Ruin+4",
     "icon": "../assets/item-icons/item/02070.png"
   },
   {
     "vnum": "2075",
-    "name": "�uk Czarnych Ruin+5",
+    "name": "Łuk Czarnych Ruin+5",
     "icon": "../assets/item-icons/item/02070.png"
   },
   {
     "vnum": "2076",
-    "name": "�uk Czarnych Ruin+6",
+    "name": "Łuk Czarnych Ruin+6",
     "icon": "../assets/item-icons/item/02070.png"
   },
   {
     "vnum": "2077",
-    "name": "�uk Czarnych Ruin+7",
+    "name": "Łuk Czarnych Ruin+7",
     "icon": "../assets/item-icons/item/02070.png"
   },
   {
     "vnum": "2078",
-    "name": "�uk Czarnych Ruin+8",
+    "name": "Łuk Czarnych Ruin+8",
     "icon": "../assets/item-icons/item/02070.png"
   },
   {
     "vnum": "2079",
-    "name": "�uk Czarnych Ruin+9",
+    "name": "Łuk Czarnych Ruin+9",
     "icon": "../assets/item-icons/item/02070.png"
   },
   {
     "vnum": "2080",
-    "name": "�uk Czerwonego Oka+0",
+    "name": "Łuk Czerwonego Oka+0",
     "icon": "../assets/item-icons/item/02080.png"
   },
   {
     "vnum": "2081",
-    "name": "�uk Czerwonego Oka+1",
+    "name": "Łuk Czerwonego Oka+1",
     "icon": "../assets/item-icons/item/02080.png"
   },
   {
     "vnum": "2082",
-    "name": "�uk Czerwonego Oka+2",
+    "name": "Łuk Czerwonego Oka+2",
     "icon": "../assets/item-icons/item/02080.png"
   },
   {
     "vnum": "2083",
-    "name": "�uk Czerwonego Oka+3",
+    "name": "Łuk Czerwonego Oka+3",
     "icon": "../assets/item-icons/item/02080.png"
   },
   {
     "vnum": "2084",
-    "name": "�uk Czerwonego Oka+4",
+    "name": "Łuk Czerwonego Oka+4",
     "icon": "../assets/item-icons/item/02080.png"
   },
   {
     "vnum": "2085",
-    "name": "�uk Czerwonego Oka+5",
+    "name": "Łuk Czerwonego Oka+5",
     "icon": "../assets/item-icons/item/02080.png"
   },
   {
     "vnum": "2086",
-    "name": "�uk Czerwonego Oka+6",
+    "name": "Łuk Czerwonego Oka+6",
     "icon": "../assets/item-icons/item/02080.png"
   },
   {
     "vnum": "2087",
-    "name": "�uk Czerwonego Oka+7",
+    "name": "Łuk Czerwonego Oka+7",
     "icon": "../assets/item-icons/item/02080.png"
   },
   {
     "vnum": "2088",
-    "name": "�uk Czerwonego Oka+8",
+    "name": "Łuk Czerwonego Oka+8",
     "icon": "../assets/item-icons/item/02080.png"
   },
   {
     "vnum": "2089",
-    "name": "�uk Czerwonego Oka+9",
+    "name": "Łuk Czerwonego Oka+9",
     "icon": "../assets/item-icons/item/02080.png"
   },
   {
     "vnum": "2090",
-    "name": "�uk Kolczastego Li�.+0",
+    "name": "Łuk Kolczastego Liś.+0",
     "icon": "../assets/item-icons/item/02090.png"
   },
   {
     "vnum": "2091",
-    "name": "�uk Kolczastego Li�.+1",
+    "name": "Łuk Kolczastego Liś.+1",
     "icon": "../assets/item-icons/item/02090.png"
   },
   {
     "vnum": "2092",
-    "name": "�uk Kolczastego Li�.+2",
+    "name": "Łuk Kolczastego Liś.+2",
     "icon": "../assets/item-icons/item/02090.png"
   },
   {
     "vnum": "2093",
-    "name": "�uk Kolczastego Li�.+3",
+    "name": "Łuk Kolczastego Liś.+3",
     "icon": "../assets/item-icons/item/02090.png"
   },
   {
     "vnum": "2094",
-    "name": "�uk Kolczastego Li�.+4",
+    "name": "Łuk Kolczastego Liś.+4",
     "icon": "../assets/item-icons/item/02090.png"
   },
   {
     "vnum": "2095",
-    "name": "�uk Kolczastego Li�.+5",
+    "name": "Łuk Kolczastego Liś.+5",
     "icon": "../assets/item-icons/item/02090.png"
   },
   {
     "vnum": "2096",
-    "name": "�uk Kolczastego Li�.+6",
+    "name": "Łuk Kolczastego Liś.+6",
     "icon": "../assets/item-icons/item/02090.png"
   },
   {
     "vnum": "2097",
-    "name": "�uk Kolczastego Li�.+7",
+    "name": "Łuk Kolczastego Liś.+7",
     "icon": "../assets/item-icons/item/02090.png"
   },
   {
     "vnum": "2098",
-    "name": "�uk Kolczastego Li�.+8",
+    "name": "Łuk Kolczastego Liś.+8",
     "icon": "../assets/item-icons/item/02090.png"
   },
   {
     "vnum": "2099",
-    "name": "�uk Kolczastego Li�.+9",
+    "name": "Łuk Kolczastego Liś.+9",
     "icon": "../assets/item-icons/item/02090.png"
   },
   {
     "vnum": "2100",
-    "name": "�uk z rogu byka+0",
+    "name": "Łuk z rogu byka+0",
     "icon": "../assets/item-icons/item/02100.png"
   },
   {
     "vnum": "2101",
-    "name": "�uk z rogu byka+1",
+    "name": "Łuk z rogu byka+1",
     "icon": "../assets/item-icons/item/02100.png"
   },
   {
     "vnum": "2102",
-    "name": "�uk z rogu byka+2",
+    "name": "Łuk z rogu byka+2",
     "icon": "../assets/item-icons/item/02100.png"
   },
   {
     "vnum": "2103",
-    "name": "�uk z rogu byka+3",
+    "name": "Łuk z rogu byka+3",
     "icon": "../assets/item-icons/item/02100.png"
   },
   {
     "vnum": "2104",
-    "name": "�uk z rogu byka+4",
+    "name": "Łuk z rogu byka+4",
     "icon": "../assets/item-icons/item/02100.png"
   },
   {
     "vnum": "2105",
-    "name": "�uk z rogu byka+5",
+    "name": "Łuk z rogu byka+5",
     "icon": "../assets/item-icons/item/02100.png"
   },
   {
     "vnum": "2106",
-    "name": "�uk z rogu byka+6",
+    "name": "Łuk z rogu byka+6",
     "icon": "../assets/item-icons/item/02100.png"
   },
   {
     "vnum": "2107",
-    "name": "�uk z rogu byka+7",
+    "name": "Łuk z rogu byka+7",
     "icon": "../assets/item-icons/item/02100.png"
   },
   {
     "vnum": "2108",
-    "name": "�uk z rogu byka+8",
+    "name": "Łuk z rogu byka+8",
     "icon": "../assets/item-icons/item/02100.png"
   },
   {
     "vnum": "2109",
-    "name": "�uk z rogu byka+9",
+    "name": "Łuk z rogu byka+9",
     "icon": "../assets/item-icons/item/02100.png"
   },
   {
     "vnum": "2110",
-    "name": "�uk Jednoro�ca+0",
+    "name": "Łuk Jednorożca+0",
     "icon": "../assets/item-icons/item/02110.png"
   },
   {
     "vnum": "2111",
-    "name": "�uk Jednoro�ca+1",
+    "name": "Łuk Jednorożca+1",
     "icon": "../assets/item-icons/item/02110.png"
   },
   {
     "vnum": "2112",
-    "name": "�uk Jednoro�ca+2",
+    "name": "Łuk Jednorożca+2",
     "icon": "../assets/item-icons/item/02110.png"
   },
   {
     "vnum": "2113",
-    "name": "�uk Jednoro�ca+3",
+    "name": "Łuk Jednorożca+3",
     "icon": "../assets/item-icons/item/02110.png"
   },
   {
     "vnum": "2114",
-    "name": "�uk Jednoro�ca+4",
+    "name": "Łuk Jednorożca+4",
     "icon": "../assets/item-icons/item/02110.png"
   },
   {
     "vnum": "2115",
-    "name": "�uk Jednoro�ca+5",
+    "name": "Łuk Jednorożca+5",
     "icon": "../assets/item-icons/item/02110.png"
   },
   {
     "vnum": "2116",
-    "name": "�uk Jednoro�ca+6",
+    "name": "Łuk Jednorożca+6",
     "icon": "../assets/item-icons/item/02110.png"
   },
   {
     "vnum": "2117",
-    "name": "�uk Jednoro�ca+7",
+    "name": "Łuk Jednorożca+7",
     "icon": "../assets/item-icons/item/02110.png"
   },
   {
     "vnum": "2118",
-    "name": "�uk Jednoro�ca+8",
+    "name": "Łuk Jednorożca+8",
     "icon": "../assets/item-icons/item/02110.png"
   },
   {
     "vnum": "2119",
-    "name": "�uk Jednoro�ca+9",
+    "name": "Łuk Jednorożca+9",
     "icon": "../assets/item-icons/item/02110.png"
   },
   {
     "vnum": "2120",
-    "name": "Olbrz. Skrzydl. �uk+0",
+    "name": "Olbrz. Skrzydl. Łuk+0",
     "icon": "../assets/item-icons/item/02120.png"
   },
   {
     "vnum": "2121",
-    "name": "Olbrz. Skrzydl. �uk+1",
+    "name": "Olbrz. Skrzydl. Łuk+1",
     "icon": "../assets/item-icons/item/02120.png"
   },
   {
     "vnum": "2122",
-    "name": "Olbrz. Skrzydl. �uk+2",
+    "name": "Olbrz. Skrzydl. Łuk+2",
     "icon": "../assets/item-icons/item/02120.png"
   },
   {
     "vnum": "2123",
-    "name": "Olbrz. Skrzydl. �uk+3",
+    "name": "Olbrz. Skrzydl. Łuk+3",
     "icon": "../assets/item-icons/item/02120.png"
   },
   {
     "vnum": "2124",
-    "name": "Olbrz. Skrzydl. �uk+4",
+    "name": "Olbrz. Skrzydl. Łuk+4",
     "icon": "../assets/item-icons/item/02120.png"
   },
   {
     "vnum": "2125",
-    "name": "Olbrz. Skrzydl. �uk+5",
+    "name": "Olbrz. Skrzydl. Łuk+5",
     "icon": "../assets/item-icons/item/02120.png"
   },
   {
     "vnum": "2126",
-    "name": "Olbrz. Skrzydl. �uk+6",
+    "name": "Olbrz. Skrzydl. Łuk+6",
     "icon": "../assets/item-icons/item/02120.png"
   },
   {
     "vnum": "2127",
-    "name": "Olbrz. Skrzydl. �uk+7",
+    "name": "Olbrz. Skrzydl. Łuk+7",
     "icon": "../assets/item-icons/item/02120.png"
   },
   {
     "vnum": "2128",
-    "name": "Olbrz. Skrzydl. �uk+8",
+    "name": "Olbrz. Skrzydl. Łuk+8",
     "icon": "../assets/item-icons/item/02120.png"
   },
   {
     "vnum": "2129",
-    "name": "Olbrz. Skrzydl. �uk+9",
+    "name": "Olbrz. Skrzydl. Łuk+9",
     "icon": "../assets/item-icons/item/02120.png"
   },
   {
     "vnum": "2130",
-    "name": "Boski �uk Moreli+0",
+    "name": "Boski Łuk Moreli+0",
     "icon": "../assets/item-icons/item/02130.png"
   },
   {
     "vnum": "2131",
-    "name": "Boski �uk Moreli+1",
+    "name": "Boski Łuk Moreli+1",
     "icon": "../assets/item-icons/item/02130.png"
   },
   {
     "vnum": "2132",
-    "name": "Boski �uk Moreli+2",
+    "name": "Boski Łuk Moreli+2",
     "icon": "../assets/item-icons/item/02130.png"
   },
   {
     "vnum": "2133",
-    "name": "Boski �uk Moreli+3",
+    "name": "Boski Łuk Moreli+3",
     "icon": "../assets/item-icons/item/02130.png"
   },
   {
     "vnum": "2134",
-    "name": "Boski �uk Moreli+4",
+    "name": "Boski Łuk Moreli+4",
     "icon": "../assets/item-icons/item/02130.png"
   },
   {
     "vnum": "2135",
-    "name": "Boski �uk Moreli+5",
+    "name": "Boski Łuk Moreli+5",
     "icon": "../assets/item-icons/item/02130.png"
   },
   {
     "vnum": "2136",
-    "name": "Boski �uk Moreli+6",
+    "name": "Boski Łuk Moreli+6",
     "icon": "../assets/item-icons/item/02130.png"
   },
   {
     "vnum": "2137",
-    "name": "Boski �uk Moreli+7",
+    "name": "Boski Łuk Moreli+7",
     "icon": "../assets/item-icons/item/02130.png"
   },
   {
     "vnum": "2138",
-    "name": "Boski �uk Moreli+8",
+    "name": "Boski Łuk Moreli+8",
     "icon": "../assets/item-icons/item/02130.png"
   },
   {
     "vnum": "2139",
-    "name": "Boski �uk Moreli+9",
+    "name": "Boski Łuk Moreli+9",
     "icon": "../assets/item-icons/item/02130.png"
   },
   {
     "vnum": "2140",
-    "name": "Olbrz. �uk ��t. Smoka+0",
+    "name": "Olbrz. Łuk Żółt. Smoka+0",
     "icon": "../assets/item-icons/item/02140.png"
   },
   {
     "vnum": "2141",
-    "name": "Olbrz. �uk ��t. Smoka+1",
+    "name": "Olbrz. Łuk Żółt. Smoka+1",
     "icon": "../assets/item-icons/item/02140.png"
   },
   {
     "vnum": "2142",
-    "name": "Olbrz. �uk ��t. Smoka+2",
+    "name": "Olbrz. Łuk Żółt. Smoka+2",
     "icon": "../assets/item-icons/item/02140.png"
   },
   {
     "vnum": "2143",
-    "name": "Olbrz. �uk ��t. Smoka+3",
+    "name": "Olbrz. Łuk Żółt. Smoka+3",
     "icon": "../assets/item-icons/item/02140.png"
   },
   {
     "vnum": "2144",
-    "name": "Olbrz. �uk ��t. Smoka+4",
+    "name": "Olbrz. Łuk Żółt. Smoka+4",
     "icon": "../assets/item-icons/item/02140.png"
   },
   {
     "vnum": "2145",
-    "name": "Olbrz. �uk ��t. Smoka+5",
+    "name": "Olbrz. Łuk Żółt. Smoka+5",
     "icon": "../assets/item-icons/item/02140.png"
   },
   {
     "vnum": "2146",
-    "name": "Olbrz. �uk ��t. Smoka+6",
+    "name": "Olbrz. Łuk Żółt. Smoka+6",
     "icon": "../assets/item-icons/item/02140.png"
   },
   {
     "vnum": "2147",
-    "name": "Olbrz. �uk ��t. Smoka+7",
+    "name": "Olbrz. Łuk Żółt. Smoka+7",
     "icon": "../assets/item-icons/item/02140.png"
   },
   {
     "vnum": "2148",
-    "name": "Olbrz. �uk ��t. Smoka+8",
+    "name": "Olbrz. Łuk Żółt. Smoka+8",
     "icon": "../assets/item-icons/item/02140.png"
   },
   {
     "vnum": "2149",
-    "name": "Olbrz. �uk ��t. Smoka+9",
+    "name": "Olbrz. Łuk Żółt. Smoka+9",
     "icon": "../assets/item-icons/item/02140.png"
   },
   {
     "vnum": "2150",
-    "name": "�uk Z Rogu Jelenia+0",
+    "name": "Łuk Z Rogu Jelenia+0",
     "icon": "../assets/item-icons/item/02150.png"
   },
   {
     "vnum": "2151",
-    "name": "�uk Z Rogu Jelenia+1",
+    "name": "Łuk Z Rogu Jelenia+1",
     "icon": "../assets/item-icons/item/02150.png"
   },
   {
     "vnum": "2152",
-    "name": "�uk Z Rogu Jelenia+2",
+    "name": "Łuk Z Rogu Jelenia+2",
     "icon": "../assets/item-icons/item/02150.png"
   },
   {
     "vnum": "2153",
-    "name": "�uk Z Rogu Jelenia+3",
+    "name": "Łuk Z Rogu Jelenia+3",
     "icon": "../assets/item-icons/item/02150.png"
   },
   {
     "vnum": "2154",
-    "name": "�uk Z Rogu Jelenia+4",
+    "name": "Łuk Z Rogu Jelenia+4",
     "icon": "../assets/item-icons/item/02150.png"
   },
   {
     "vnum": "2155",
-    "name": "�uk Z Rogu Jelenia+5",
+    "name": "Łuk Z Rogu Jelenia+5",
     "icon": "../assets/item-icons/item/02150.png"
   },
   {
     "vnum": "2156",
-    "name": "�uk Z Rogu Jelenia+6",
+    "name": "Łuk Z Rogu Jelenia+6",
     "icon": "../assets/item-icons/item/02150.png"
   },
   {
     "vnum": "2157",
-    "name": "�uk Z Rogu Jelenia+7",
+    "name": "Łuk Z Rogu Jelenia+7",
     "icon": "../assets/item-icons/item/02150.png"
   },
   {
     "vnum": "2158",
-    "name": "�uk Z Rogu Jelenia+8",
+    "name": "Łuk Z Rogu Jelenia+8",
     "icon": "../assets/item-icons/item/02150.png"
   },
   {
     "vnum": "2159",
-    "name": "�uk Z Rogu Jelenia+9",
+    "name": "Łuk Z Rogu Jelenia+9",
     "icon": "../assets/item-icons/item/02150.png"
   },
   {
     "vnum": "2160",
-    "name": "Olbrz. �uk Diab�a+0",
+    "name": "Olbrz. Łuk Diabła+0",
     "icon": "../assets/item-icons/item/02160.png"
   },
   {
     "vnum": "2161",
-    "name": "Olbrz. �uk Diab�a+1",
+    "name": "Olbrz. Łuk Diabła+1",
     "icon": "../assets/item-icons/item/02160.png"
   },
   {
     "vnum": "2162",
-    "name": "Olbrz. �uk Diab�a+2",
+    "name": "Olbrz. Łuk Diabła+2",
     "icon": "../assets/item-icons/item/02160.png"
   },
   {
     "vnum": "2163",
-    "name": "Olbrz. �uk Diab�a+3",
+    "name": "Olbrz. Łuk Diabła+3",
     "icon": "../assets/item-icons/item/02160.png"
   },
   {
     "vnum": "2164",
-    "name": "Olbrz. �uk Diab�a+4",
+    "name": "Olbrz. Łuk Diabła+4",
     "icon": "../assets/item-icons/item/02160.png"
   },
   {
     "vnum": "2165",
-    "name": "Olbrz. �uk Diab�a+5",
+    "name": "Olbrz. Łuk Diabła+5",
     "icon": "../assets/item-icons/item/02160.png"
   },
   {
     "vnum": "2166",
-    "name": "Olbrz. �uk Diab�a+6",
+    "name": "Olbrz. Łuk Diabła+6",
     "icon": "../assets/item-icons/item/02160.png"
   },
   {
     "vnum": "2167",
-    "name": "Olbrz. �uk Diab�a+7",
+    "name": "Olbrz. Łuk Diabła+7",
     "icon": "../assets/item-icons/item/02160.png"
   },
   {
     "vnum": "2168",
-    "name": "Olbrz. �uk Diab�a+8",
+    "name": "Olbrz. Łuk Diabła+8",
     "icon": "../assets/item-icons/item/02160.png"
   },
   {
     "vnum": "2169",
-    "name": "Olbrz. �uk Diab�a+9",
+    "name": "Olbrz. Łuk Diabła+9",
     "icon": "../assets/item-icons/item/02160.png"
   },
   {
     "vnum": "2170",
-    "name": "Stalowy �uk Kruka+0",
+    "name": "Stalowy Łuk Kruka+0",
     "icon": "../assets/item-icons/item/02170.png"
   },
   {
     "vnum": "2171",
-    "name": "Stalowy �uk Kruka+1",
+    "name": "Stalowy Łuk Kruka+1",
     "icon": "../assets/item-icons/item/02170.png"
   },
   {
     "vnum": "2172",
-    "name": "Stalowy �uk Kruka+2",
+    "name": "Stalowy Łuk Kruka+2",
     "icon": "../assets/item-icons/item/02170.png"
   },
   {
     "vnum": "2173",
-    "name": "Stalowy �uk Kruka+3",
+    "name": "Stalowy Łuk Kruka+3",
     "icon": "../assets/item-icons/item/02170.png"
   },
   {
     "vnum": "2174",
-    "name": "Stalowy �uk Kruka+4",
+    "name": "Stalowy Łuk Kruka+4",
     "icon": "../assets/item-icons/item/02170.png"
   },
   {
     "vnum": "2175",
-    "name": "Stalowy �uk Kruka+5",
+    "name": "Stalowy Łuk Kruka+5",
     "icon": "../assets/item-icons/item/02170.png"
   },
   {
     "vnum": "2176",
-    "name": "Stalowy �uk Kruka+6",
+    "name": "Stalowy Łuk Kruka+6",
     "icon": "../assets/item-icons/item/02170.png"
   },
   {
     "vnum": "2177",
-    "name": "Stalowy �uk Kruka+7",
+    "name": "Stalowy Łuk Kruka+7",
     "icon": "../assets/item-icons/item/02170.png"
   },
   {
     "vnum": "2178",
-    "name": "Stalowy �uk Kruka+8",
+    "name": "Stalowy Łuk Kruka+8",
     "icon": "../assets/item-icons/item/02170.png"
   },
   {
     "vnum": "2179",
-    "name": "Stalowy �uk Kruka+9",
+    "name": "Stalowy Łuk Kruka+9",
     "icon": "../assets/item-icons/item/02170.png"
   },
   {
     "vnum": "2180",
-    "name": "�uk Niebieskiego Smoka+0",
+    "name": "Łuk Niebieskiego Smoka+0",
     "icon": "../assets/item-icons/item/02180.png"
   },
   {
     "vnum": "2181",
-    "name": "�uk Niebieskiego Smoka+1",
+    "name": "Łuk Niebieskiego Smoka+1",
     "icon": "../assets/item-icons/item/02180.png"
   },
   {
     "vnum": "2182",
-    "name": "�uk Niebieskiego Smoka+2",
+    "name": "Łuk Niebieskiego Smoka+2",
     "icon": "../assets/item-icons/item/02180.png"
   },
   {
     "vnum": "2183",
-    "name": "�uk Niebieskiego Smoka+3",
+    "name": "Łuk Niebieskiego Smoka+3",
     "icon": "../assets/item-icons/item/02180.png"
   },
   {
     "vnum": "2184",
-    "name": "�uk Niebieskiego Smoka+4",
+    "name": "Łuk Niebieskiego Smoka+4",
     "icon": "../assets/item-icons/item/02180.png"
   },
   {
     "vnum": "2185",
-    "name": "�uk Niebieskiego Smoka+5",
+    "name": "Łuk Niebieskiego Smoka+5",
     "icon": "../assets/item-icons/item/02180.png"
   },
   {
     "vnum": "2186",
-    "name": "�uk Niebieskiego Smoka+6",
+    "name": "Łuk Niebieskiego Smoka+6",
     "icon": "../assets/item-icons/item/02180.png"
   },
   {
     "vnum": "2187",
-    "name": "�uk Niebieskiego Smoka+7",
+    "name": "Łuk Niebieskiego Smoka+7",
     "icon": "../assets/item-icons/item/02180.png"
   },
   {
     "vnum": "2188",
-    "name": "�uk Niebieskiego Smoka+8",
+    "name": "Łuk Niebieskiego Smoka+8",
     "icon": "../assets/item-icons/item/02180.png"
   },
   {
     "vnum": "2189",
-    "name": "�uk Niebieskiego Smoka+9",
+    "name": "Łuk Niebieskiego Smoka+9",
     "icon": "../assets/item-icons/item/02180.png"
   },
   {
@@ -3533,52 +3534,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "2370",
-    "name": "�uk Feniksa+0",
+    "name": "Łuk Feniksa+0",
     "icon": "../assets/item-icons/item/02370.png"
   },
   {
     "vnum": "2371",
-    "name": "�uk Feniksa+1",
+    "name": "Łuk Feniksa+1",
     "icon": "../assets/item-icons/item/02370.png"
   },
   {
     "vnum": "2372",
-    "name": "�uk Feniksa+2",
+    "name": "Łuk Feniksa+2",
     "icon": "../assets/item-icons/item/02370.png"
   },
   {
     "vnum": "2373",
-    "name": "�uk Feniksa+3",
+    "name": "Łuk Feniksa+3",
     "icon": "../assets/item-icons/item/02370.png"
   },
   {
     "vnum": "2374",
-    "name": "�uk Feniksa+4",
+    "name": "Łuk Feniksa+4",
     "icon": "../assets/item-icons/item/02370.png"
   },
   {
     "vnum": "2375",
-    "name": "�uk Feniksa+5",
+    "name": "Łuk Feniksa+5",
     "icon": "../assets/item-icons/item/02370.png"
   },
   {
     "vnum": "2376",
-    "name": "�uk Feniksa+6",
+    "name": "Łuk Feniksa+6",
     "icon": "../assets/item-icons/item/02370.png"
   },
   {
     "vnum": "2377",
-    "name": "�uk Feniksa+7",
+    "name": "Łuk Feniksa+7",
     "icon": "../assets/item-icons/item/02370.png"
   },
   {
     "vnum": "2378",
-    "name": "�uk Feniksa+8",
+    "name": "Łuk Feniksa+8",
     "icon": "../assets/item-icons/item/02370.png"
   },
   {
     "vnum": "2379",
-    "name": "�uk Feniksa+9",
+    "name": "Łuk Feniksa+9",
     "icon": "../assets/item-icons/item/02370.png"
   },
   {
@@ -3633,52 +3634,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "3010",
-    "name": "W��cznia+0",
+    "name": "Włócznia+0",
     "icon": "../assets/item-icons/item/03010.png"
   },
   {
     "vnum": "3011",
-    "name": "W��cznia+1",
+    "name": "Włócznia+1",
     "icon": "../assets/item-icons/item/03010.png"
   },
   {
     "vnum": "3012",
-    "name": "W��cznia+2",
+    "name": "Włócznia+2",
     "icon": "../assets/item-icons/item/03010.png"
   },
   {
     "vnum": "3013",
-    "name": "W��cznia+3",
+    "name": "Włócznia+3",
     "icon": "../assets/item-icons/item/03010.png"
   },
   {
     "vnum": "3014",
-    "name": "W��cznia+4",
+    "name": "Włócznia+4",
     "icon": "../assets/item-icons/item/03010.png"
   },
   {
     "vnum": "3015",
-    "name": "W��cznia+5",
+    "name": "Włócznia+5",
     "icon": "../assets/item-icons/item/03010.png"
   },
   {
     "vnum": "3016",
-    "name": "W��cznia+6",
+    "name": "Włócznia+6",
     "icon": "../assets/item-icons/item/03010.png"
   },
   {
     "vnum": "3017",
-    "name": "W��cznia+7",
+    "name": "Włócznia+7",
     "icon": "../assets/item-icons/item/03010.png"
   },
   {
     "vnum": "3018",
-    "name": "W��cznia+8",
+    "name": "Włócznia+8",
     "icon": "../assets/item-icons/item/03010.png"
   },
   {
     "vnum": "3019",
-    "name": "W��cznia+9",
+    "name": "Włócznia+9",
     "icon": "../assets/item-icons/item/03010.png"
   },
   {
@@ -3733,52 +3734,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "3030",
-    "name": "Paj�cza W��cznia+0",
+    "name": "Pajęcza Włócznia+0",
     "icon": "../assets/item-icons/item/03030.png"
   },
   {
     "vnum": "3031",
-    "name": "Paj�cza W��cznia+1",
+    "name": "Pajęcza Włócznia+1",
     "icon": "../assets/item-icons/item/03030.png"
   },
   {
     "vnum": "3032",
-    "name": "Paj�cza W��cznia+2",
+    "name": "Pajęcza Włócznia+2",
     "icon": "../assets/item-icons/item/03030.png"
   },
   {
     "vnum": "3033",
-    "name": "Paj�cza W��cznia+3",
+    "name": "Pajęcza Włócznia+3",
     "icon": "../assets/item-icons/item/03030.png"
   },
   {
     "vnum": "3034",
-    "name": "Paj�cza W��cznia+4",
+    "name": "Pajęcza Włócznia+4",
     "icon": "../assets/item-icons/item/03030.png"
   },
   {
     "vnum": "3035",
-    "name": "Paj�cza W��cznia+5",
+    "name": "Pajęcza Włócznia+5",
     "icon": "../assets/item-icons/item/03030.png"
   },
   {
     "vnum": "3036",
-    "name": "Paj�cza W��cznia+6",
+    "name": "Pajęcza Włócznia+6",
     "icon": "../assets/item-icons/item/03030.png"
   },
   {
     "vnum": "3037",
-    "name": "Paj�cza W��cznia+7",
+    "name": "Pajęcza Włócznia+7",
     "icon": "../assets/item-icons/item/03030.png"
   },
   {
     "vnum": "3038",
-    "name": "Paj�cza W��cznia+8",
+    "name": "Pajęcza Włócznia+8",
     "icon": "../assets/item-icons/item/03030.png"
   },
   {
     "vnum": "3039",
-    "name": "Paj�cza W��cznia+9",
+    "name": "Pajęcza Włócznia+9",
     "icon": "../assets/item-icons/item/03030.png"
   },
   {
@@ -3883,52 +3884,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "3060",
-    "name": "Tr�jz�b+0",
+    "name": "Trójząb+0",
     "icon": "../assets/item-icons/item/03060.png"
   },
   {
     "vnum": "3061",
-    "name": "Tr�jz�b+1",
+    "name": "Trójząb+1",
     "icon": "../assets/item-icons/item/03060.png"
   },
   {
     "vnum": "3062",
-    "name": "Tr�jz�b+2",
+    "name": "Trójząb+2",
     "icon": "../assets/item-icons/item/03060.png"
   },
   {
     "vnum": "3063",
-    "name": "Tr�jz�b+3",
+    "name": "Trójząb+3",
     "icon": "../assets/item-icons/item/03060.png"
   },
   {
     "vnum": "3064",
-    "name": "Tr�jz�b+4",
+    "name": "Trójząb+4",
     "icon": "../assets/item-icons/item/03060.png"
   },
   {
     "vnum": "3065",
-    "name": "Tr�jz�b+5",
+    "name": "Trójząb+5",
     "icon": "../assets/item-icons/item/03060.png"
   },
   {
     "vnum": "3066",
-    "name": "Tr�jz�b+6",
+    "name": "Trójząb+6",
     "icon": "../assets/item-icons/item/03060.png"
   },
   {
     "vnum": "3067",
-    "name": "Tr�jz�b+7",
+    "name": "Trójząb+7",
     "icon": "../assets/item-icons/item/03060.png"
   },
   {
     "vnum": "3068",
-    "name": "Tr�jz�b+8",
+    "name": "Trójząb+8",
     "icon": "../assets/item-icons/item/03060.png"
   },
   {
     "vnum": "3069",
-    "name": "Tr�jz�b+9",
+    "name": "Trójząb+9",
     "icon": "../assets/item-icons/item/03060.png"
   },
   {
@@ -3983,52 +3984,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "3080",
-    "name": "Olbrz. Top�r+0",
+    "name": "Olbrz. Topór+0",
     "icon": "../assets/item-icons/item/03080.png"
   },
   {
     "vnum": "3081",
-    "name": "Olbrz. Top�r+1",
+    "name": "Olbrz. Topór+1",
     "icon": "../assets/item-icons/item/03080.png"
   },
   {
     "vnum": "3082",
-    "name": "Olbrz. Top�r+2",
+    "name": "Olbrz. Topór+2",
     "icon": "../assets/item-icons/item/03080.png"
   },
   {
     "vnum": "3083",
-    "name": "Olbrz. Top�r+3",
+    "name": "Olbrz. Topór+3",
     "icon": "../assets/item-icons/item/03080.png"
   },
   {
     "vnum": "3084",
-    "name": "Olbrz. Top�r+4",
+    "name": "Olbrz. Topór+4",
     "icon": "../assets/item-icons/item/03080.png"
   },
   {
     "vnum": "3085",
-    "name": "Olbrz. Top�r+5",
+    "name": "Olbrz. Topór+5",
     "icon": "../assets/item-icons/item/03080.png"
   },
   {
     "vnum": "3086",
-    "name": "Olbrz. Top�r+6",
+    "name": "Olbrz. Topór+6",
     "icon": "../assets/item-icons/item/03080.png"
   },
   {
     "vnum": "3087",
-    "name": "Olbrz. Top�r+7",
+    "name": "Olbrz. Topór+7",
     "icon": "../assets/item-icons/item/03080.png"
   },
   {
     "vnum": "3088",
-    "name": "Olbrz. Top�r+8",
+    "name": "Olbrz. Topór+8",
     "icon": "../assets/item-icons/item/03080.png"
   },
   {
     "vnum": "3089",
-    "name": "Olbrz. Top�r+9",
+    "name": "Olbrz. Topór+9",
     "icon": "../assets/item-icons/item/03080.png"
   },
   {
@@ -4083,52 +4084,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "3100",
-    "name": "Miecz Dwunastu Duch�w+0",
+    "name": "Miecz Dwunastu Duchów+0",
     "icon": "../assets/item-icons/item/03100.png"
   },
   {
     "vnum": "3101",
-    "name": "Miecz Dwunastu Duch�w+1",
+    "name": "Miecz Dwunastu Duchów+1",
     "icon": "../assets/item-icons/item/03100.png"
   },
   {
     "vnum": "3102",
-    "name": "Miecz Dwunastu Duch�w+2",
+    "name": "Miecz Dwunastu Duchów+2",
     "icon": "../assets/item-icons/item/03100.png"
   },
   {
     "vnum": "3103",
-    "name": "Miecz Dwunastu Duch�w+3",
+    "name": "Miecz Dwunastu Duchów+3",
     "icon": "../assets/item-icons/item/03100.png"
   },
   {
     "vnum": "3104",
-    "name": "Miecz Dwunastu Duch�w+4",
+    "name": "Miecz Dwunastu Duchów+4",
     "icon": "../assets/item-icons/item/03100.png"
   },
   {
     "vnum": "3105",
-    "name": "Miecz Dwunastu Duch�w+5",
+    "name": "Miecz Dwunastu Duchów+5",
     "icon": "../assets/item-icons/item/03100.png"
   },
   {
     "vnum": "3106",
-    "name": "Miecz Dwunastu Duch�w+6",
+    "name": "Miecz Dwunastu Duchów+6",
     "icon": "../assets/item-icons/item/03100.png"
   },
   {
     "vnum": "3107",
-    "name": "Miecz Dwunastu Duch�w+7",
+    "name": "Miecz Dwunastu Duchów+7",
     "icon": "../assets/item-icons/item/03100.png"
   },
   {
     "vnum": "3108",
-    "name": "Miecz Dwunastu Duch�w+8",
+    "name": "Miecz Dwunastu Duchów+8",
     "icon": "../assets/item-icons/item/03100.png"
   },
   {
     "vnum": "3109",
-    "name": "Miecz Dwunastu Duch�w+9",
+    "name": "Miecz Dwunastu Duchów+9",
     "icon": "../assets/item-icons/item/03100.png"
   },
   {
@@ -4183,52 +4184,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "3120",
-    "name": "Zab�jca Lw�w+0",
+    "name": "Zabójca Lwów+0",
     "icon": "../assets/item-icons/item/03120.png"
   },
   {
     "vnum": "3121",
-    "name": "Zab�jca Lw�w+1",
+    "name": "Zabójca Lwów+1",
     "icon": "../assets/item-icons/item/03120.png"
   },
   {
     "vnum": "3122",
-    "name": "Zab�jca Lw�w+2",
+    "name": "Zabójca Lwów+2",
     "icon": "../assets/item-icons/item/03120.png"
   },
   {
     "vnum": "3123",
-    "name": "Zab�jca Lw�w+3",
+    "name": "Zabójca Lwów+3",
     "icon": "../assets/item-icons/item/03120.png"
   },
   {
     "vnum": "3124",
-    "name": "Zab�jca Lw�w+4",
+    "name": "Zabójca Lwów+4",
     "icon": "../assets/item-icons/item/03120.png"
   },
   {
     "vnum": "3125",
-    "name": "Zab�jca Lw�w+5",
+    "name": "Zabójca Lwów+5",
     "icon": "../assets/item-icons/item/03120.png"
   },
   {
     "vnum": "3126",
-    "name": "Zab�jca Lw�w+6",
+    "name": "Zabójca Lwów+6",
     "icon": "../assets/item-icons/item/03120.png"
   },
   {
     "vnum": "3127",
-    "name": "Zab�jca Lw�w+7",
+    "name": "Zabójca Lwów+7",
     "icon": "../assets/item-icons/item/03120.png"
   },
   {
     "vnum": "3128",
-    "name": "Zab�jca Lw�w+8",
+    "name": "Zabójca Lwów+8",
     "icon": "../assets/item-icons/item/03120.png"
   },
   {
     "vnum": "3129",
-    "name": "Zab�jca Lw�w+9",
+    "name": "Zabójca Lwów+9",
     "icon": "../assets/item-icons/item/03120.png"
   },
   {
@@ -4333,152 +4334,152 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "3150",
-    "name": "Z�odziej Dusz+0",
+    "name": "Złodziej Dusz+0",
     "icon": "../assets/item-icons/item/03150.png"
   },
   {
     "vnum": "3151",
-    "name": "Z�odziej Dusz+1",
+    "name": "Złodziej Dusz+1",
     "icon": "../assets/item-icons/item/03150.png"
   },
   {
     "vnum": "3152",
-    "name": "Z�odziej Dusz+2",
+    "name": "Złodziej Dusz+2",
     "icon": "../assets/item-icons/item/03150.png"
   },
   {
     "vnum": "3153",
-    "name": "Z�odziej Dusz+3",
+    "name": "Złodziej Dusz+3",
     "icon": "../assets/item-icons/item/03150.png"
   },
   {
     "vnum": "3154",
-    "name": "Z�odziej Dusz+4",
+    "name": "Złodziej Dusz+4",
     "icon": "../assets/item-icons/item/03150.png"
   },
   {
     "vnum": "3155",
-    "name": "Z�odziej Dusz+5",
+    "name": "Złodziej Dusz+5",
     "icon": "../assets/item-icons/item/03150.png"
   },
   {
     "vnum": "3156",
-    "name": "Z�odziej Dusz+6",
+    "name": "Złodziej Dusz+6",
     "icon": "../assets/item-icons/item/03150.png"
   },
   {
     "vnum": "3157",
-    "name": "Z�odziej Dusz+7",
+    "name": "Złodziej Dusz+7",
     "icon": "../assets/item-icons/item/03150.png"
   },
   {
     "vnum": "3158",
-    "name": "Z�odziej Dusz+8",
+    "name": "Złodziej Dusz+8",
     "icon": "../assets/item-icons/item/03150.png"
   },
   {
     "vnum": "3159",
-    "name": "Z�odziej Dusz+9",
+    "name": "Złodziej Dusz+9",
     "icon": "../assets/item-icons/item/03150.png"
   },
   {
     "vnum": "3160",
-    "name": "Miecz �alu+0",
+    "name": "Miecz Żalu+0",
     "icon": "../assets/item-icons/item/03160.png"
   },
   {
     "vnum": "3161",
-    "name": "Miecz �alu+1",
+    "name": "Miecz Żalu+1",
     "icon": "../assets/item-icons/item/03160.png"
   },
   {
     "vnum": "3162",
-    "name": "Miecz �alu+2",
+    "name": "Miecz Żalu+2",
     "icon": "../assets/item-icons/item/03160.png"
   },
   {
     "vnum": "3163",
-    "name": "Miecz �alu+3",
+    "name": "Miecz Żalu+3",
     "icon": "../assets/item-icons/item/03160.png"
   },
   {
     "vnum": "3164",
-    "name": "Miecz �alu+4",
+    "name": "Miecz Żalu+4",
     "icon": "../assets/item-icons/item/03160.png"
   },
   {
     "vnum": "3165",
-    "name": "Miecz �alu+5",
+    "name": "Miecz Żalu+5",
     "icon": "../assets/item-icons/item/03160.png"
   },
   {
     "vnum": "3166",
-    "name": "Miecz �alu+6",
+    "name": "Miecz Żalu+6",
     "icon": "../assets/item-icons/item/03160.png"
   },
   {
     "vnum": "3167",
-    "name": "Miecz �alu+7",
+    "name": "Miecz Żalu+7",
     "icon": "../assets/item-icons/item/03160.png"
   },
   {
     "vnum": "3168",
-    "name": "Miecz �alu+8",
+    "name": "Miecz Żalu+8",
     "icon": "../assets/item-icons/item/03160.png"
   },
   {
     "vnum": "3169",
-    "name": "Miecz �alu+9",
+    "name": "Miecz Żalu+9",
     "icon": "../assets/item-icons/item/03160.png"
   },
   {
     "vnum": "3170",
-    "name": "Zab�jca ��t. Smoka+0",
+    "name": "Zabójca Żółt. Smoka+0",
     "icon": "../assets/item-icons/item/03170.png"
   },
   {
     "vnum": "3171",
-    "name": "Zab�jca ��t. Smoka+1",
+    "name": "Zabójca Żółt. Smoka+1",
     "icon": "../assets/item-icons/item/03170.png"
   },
   {
     "vnum": "3172",
-    "name": "Zab�jca ��t. Smoka+2",
+    "name": "Zabójca Żółt. Smoka+2",
     "icon": "../assets/item-icons/item/03170.png"
   },
   {
     "vnum": "3173",
-    "name": "Zab�jca ��t. Smoka+3",
+    "name": "Zabójca Żółt. Smoka+3",
     "icon": "../assets/item-icons/item/03170.png"
   },
   {
     "vnum": "3174",
-    "name": "Zab�jca ��t. Smoka+4",
+    "name": "Zabójca Żółt. Smoka+4",
     "icon": "../assets/item-icons/item/03170.png"
   },
   {
     "vnum": "3175",
-    "name": "Zab�jca ��t. Smoka+5",
+    "name": "Zabójca Żółt. Smoka+5",
     "icon": "../assets/item-icons/item/03170.png"
   },
   {
     "vnum": "3176",
-    "name": "Zab�jca ��t. Smoka+6",
+    "name": "Zabójca Żółt. Smoka+6",
     "icon": "../assets/item-icons/item/03170.png"
   },
   {
     "vnum": "3177",
-    "name": "Zab�jca ��t. Smoka+7",
+    "name": "Zabójca Żółt. Smoka+7",
     "icon": "../assets/item-icons/item/03170.png"
   },
   {
     "vnum": "3178",
-    "name": "Zab�jca ��t. Smoka+8",
+    "name": "Zabójca Żółt. Smoka+8",
     "icon": "../assets/item-icons/item/03170.png"
   },
   {
     "vnum": "3179",
-    "name": "Zab�jca ��t. Smoka+9",
+    "name": "Zabójca Żółt. Smoka+9",
     "icon": "../assets/item-icons/item/03170.png"
   },
   {
@@ -4533,102 +4534,102 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "3190",
-    "name": "Ostrze S�o�ca+0",
+    "name": "Ostrze Słońca+0",
     "icon": "../assets/item-icons/item/03190.png"
   },
   {
     "vnum": "3191",
-    "name": "Ostrze S�o�ca+1",
+    "name": "Ostrze Słońca+1",
     "icon": "../assets/item-icons/item/03190.png"
   },
   {
     "vnum": "3192",
-    "name": "Ostrze S�o�ca+2",
+    "name": "Ostrze Słońca+2",
     "icon": "../assets/item-icons/item/03190.png"
   },
   {
     "vnum": "3193",
-    "name": "Ostrze S�o�ca+3",
+    "name": "Ostrze Słońca+3",
     "icon": "../assets/item-icons/item/03190.png"
   },
   {
     "vnum": "3194",
-    "name": "Ostrze S�o�ca+4",
+    "name": "Ostrze Słońca+4",
     "icon": "../assets/item-icons/item/03190.png"
   },
   {
     "vnum": "3195",
-    "name": "Ostrze S�o�ca+5",
+    "name": "Ostrze Słońca+5",
     "icon": "../assets/item-icons/item/03190.png"
   },
   {
     "vnum": "3196",
-    "name": "Ostrze S�o�ca+6",
+    "name": "Ostrze Słońca+6",
     "icon": "../assets/item-icons/item/03190.png"
   },
   {
     "vnum": "3197",
-    "name": "Ostrze S�o�ca+7",
+    "name": "Ostrze Słońca+7",
     "icon": "../assets/item-icons/item/03190.png"
   },
   {
     "vnum": "3198",
-    "name": "Ostrze S�o�ca+8",
+    "name": "Ostrze Słońca+8",
     "icon": "../assets/item-icons/item/03190.png"
   },
   {
     "vnum": "3199",
-    "name": "Ostrze S�o�ca+9",
+    "name": "Ostrze Słońca+9",
     "icon": "../assets/item-icons/item/03190.png"
   },
   {
     "vnum": "3200",
-    "name": "Ostrze Boga Smok�w+0",
+    "name": "Ostrze Boga Smoków+0",
     "icon": "../assets/item-icons/item/03200.png"
   },
   {
     "vnum": "3201",
-    "name": "Ostrze Boga Smok�w+1",
+    "name": "Ostrze Boga Smoków+1",
     "icon": "../assets/item-icons/item/03200.png"
   },
   {
     "vnum": "3202",
-    "name": "Ostrze Boga Smok�w+2",
+    "name": "Ostrze Boga Smoków+2",
     "icon": "../assets/item-icons/item/03200.png"
   },
   {
     "vnum": "3203",
-    "name": "Ostrze Boga Smok�w+3",
+    "name": "Ostrze Boga Smoków+3",
     "icon": "../assets/item-icons/item/03200.png"
   },
   {
     "vnum": "3204",
-    "name": "Ostrze Boga Smok�w+4",
+    "name": "Ostrze Boga Smoków+4",
     "icon": "../assets/item-icons/item/03200.png"
   },
   {
     "vnum": "3205",
-    "name": "Ostrze Boga Smok�w+5",
+    "name": "Ostrze Boga Smoków+5",
     "icon": "../assets/item-icons/item/03200.png"
   },
   {
     "vnum": "3206",
-    "name": "Ostrze Boga Smok�w+6",
+    "name": "Ostrze Boga Smoków+6",
     "icon": "../assets/item-icons/item/03200.png"
   },
   {
     "vnum": "3207",
-    "name": "Ostrze Boga Smok�w+7",
+    "name": "Ostrze Boga Smoków+7",
     "icon": "../assets/item-icons/item/03200.png"
   },
   {
     "vnum": "3208",
-    "name": "Ostrze Boga Smok�w+8",
+    "name": "Ostrze Boga Smoków+8",
     "icon": "../assets/item-icons/item/03200.png"
   },
   {
     "vnum": "3209",
-    "name": "Ostrze Boga Smok�w+9",
+    "name": "Ostrze Boga Smoków+9",
     "icon": "../assets/item-icons/item/03200.png"
   },
   {
@@ -4733,202 +4734,202 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "4010",
-    "name": "Dziewi�� Ostrzy+0",
+    "name": "Dziewięć Ostrzy+0",
     "icon": "../assets/item-icons/item/04010.png"
   },
   {
     "vnum": "4011",
-    "name": "Dziewi�� Ostrzy+1",
+    "name": "Dziewięć Ostrzy+1",
     "icon": "../assets/item-icons/item/04010.png"
   },
   {
     "vnum": "4012",
-    "name": "Dziewi�� Ostrzy+2",
+    "name": "Dziewięć Ostrzy+2",
     "icon": "../assets/item-icons/item/04010.png"
   },
   {
     "vnum": "4013",
-    "name": "Dziewi�� Ostrzy+3",
+    "name": "Dziewięć Ostrzy+3",
     "icon": "../assets/item-icons/item/04010.png"
   },
   {
     "vnum": "4014",
-    "name": "Dziewi�� Ostrzy+4",
+    "name": "Dziewięć Ostrzy+4",
     "icon": "../assets/item-icons/item/04010.png"
   },
   {
     "vnum": "4015",
-    "name": "Dziewi�� Ostrzy+5",
+    "name": "Dziewięć Ostrzy+5",
     "icon": "../assets/item-icons/item/04010.png"
   },
   {
     "vnum": "4016",
-    "name": "Dziewi�� Ostrzy+6",
+    "name": "Dziewięć Ostrzy+6",
     "icon": "../assets/item-icons/item/04010.png"
   },
   {
     "vnum": "4017",
-    "name": "Dziewi�� Ostrzy+7",
+    "name": "Dziewięć Ostrzy+7",
     "icon": "../assets/item-icons/item/04010.png"
   },
   {
     "vnum": "4018",
-    "name": "Dziewi�� Ostrzy+8",
+    "name": "Dziewięć Ostrzy+8",
     "icon": "../assets/item-icons/item/04010.png"
   },
   {
     "vnum": "4019",
-    "name": "Dziewi�� Ostrzy+9",
+    "name": "Dziewięć Ostrzy+9",
     "icon": "../assets/item-icons/item/04010.png"
   },
   {
     "vnum": "4020",
-    "name": "Kr�tki N�+0",
+    "name": "Krótki Nóż+0",
     "icon": "../assets/item-icons/item/04020.png"
   },
   {
     "vnum": "4021",
-    "name": "Kr�tki N�+1",
+    "name": "Krótki Nóż+1",
     "icon": "../assets/item-icons/item/04020.png"
   },
   {
     "vnum": "4022",
-    "name": "Kr�tki N�+2",
+    "name": "Krótki Nóż+2",
     "icon": "../assets/item-icons/item/04020.png"
   },
   {
     "vnum": "4023",
-    "name": "Kr�tki N�+3",
+    "name": "Krótki Nóż+3",
     "icon": "../assets/item-icons/item/04020.png"
   },
   {
     "vnum": "4024",
-    "name": "Kr�tki N�+4",
+    "name": "Krótki Nóż+4",
     "icon": "../assets/item-icons/item/04020.png"
   },
   {
     "vnum": "4025",
-    "name": "Kr�tki N�+5",
+    "name": "Krótki Nóż+5",
     "icon": "../assets/item-icons/item/04020.png"
   },
   {
     "vnum": "4026",
-    "name": "Kr�tki N�+6",
+    "name": "Krótki Nóż+6",
     "icon": "../assets/item-icons/item/04020.png"
   },
   {
     "vnum": "4027",
-    "name": "Kr�tki N�+7",
+    "name": "Krótki Nóż+7",
     "icon": "../assets/item-icons/item/04020.png"
   },
   {
     "vnum": "4028",
-    "name": "Kr�tki N�+8",
+    "name": "Krótki Nóż+8",
     "icon": "../assets/item-icons/item/04020.png"
   },
   {
     "vnum": "4029",
-    "name": "Kr�tki N�+9",
+    "name": "Krótki Nóż+9",
     "icon": "../assets/item-icons/item/04020.png"
   },
   {
     "vnum": "4030",
-    "name": "Ksi�ycowy Podw. N�+0",
+    "name": "Księżycowy Podw. Nóż+0",
     "icon": "../assets/item-icons/item/04030.png"
   },
   {
     "vnum": "4031",
-    "name": "Ksi�ycowy Podw. N�+1",
+    "name": "Księżycowy Podw. Nóż+1",
     "icon": "../assets/item-icons/item/04030.png"
   },
   {
     "vnum": "4032",
-    "name": "Ksi�ycowy Podw. N�+2",
+    "name": "Księżycowy Podw. Nóż+2",
     "icon": "../assets/item-icons/item/04030.png"
   },
   {
     "vnum": "4033",
-    "name": "Ksi�ycowy Podw. N�+3",
+    "name": "Księżycowy Podw. Nóż+3",
     "icon": "../assets/item-icons/item/04030.png"
   },
   {
     "vnum": "4034",
-    "name": "Ksi�ycowy Podw. N�+4",
+    "name": "Księżycowy Podw. Nóż+4",
     "icon": "../assets/item-icons/item/04030.png"
   },
   {
     "vnum": "4035",
-    "name": "Ksi�ycowy Podw. N�+5",
+    "name": "Księżycowy Podw. Nóż+5",
     "icon": "../assets/item-icons/item/04030.png"
   },
   {
     "vnum": "4036",
-    "name": "Ksi�ycowy Podw. N�+6",
+    "name": "Księżycowy Podw. Nóż+6",
     "icon": "../assets/item-icons/item/04030.png"
   },
   {
     "vnum": "4037",
-    "name": "Ksi�ycowy Podw. N�+7",
+    "name": "Księżycowy Podw. Nóż+7",
     "icon": "../assets/item-icons/item/04030.png"
   },
   {
     "vnum": "4038",
-    "name": "Ksi�ycowy Podw. N�+8",
+    "name": "Księżycowy Podw. Nóż+8",
     "icon": "../assets/item-icons/item/04030.png"
   },
   {
     "vnum": "4039",
-    "name": "Ksi�ycowy Podw. N�+9",
+    "name": "Księżycowy Podw. Nóż+9",
     "icon": "../assets/item-icons/item/04030.png"
   },
   {
     "vnum": "4040",
-    "name": "Bezduszny N�+0",
+    "name": "Bezduszny Nóż+0",
     "icon": "../assets/item-icons/item/04040.png"
   },
   {
     "vnum": "4041",
-    "name": "Bezduszny N�+1",
+    "name": "Bezduszny Nóż+1",
     "icon": "../assets/item-icons/item/04040.png"
   },
   {
     "vnum": "4042",
-    "name": "Bezduszny N�+2",
+    "name": "Bezduszny Nóż+2",
     "icon": "../assets/item-icons/item/04040.png"
   },
   {
     "vnum": "4043",
-    "name": "Bezduszny N�+3",
+    "name": "Bezduszny Nóż+3",
     "icon": "../assets/item-icons/item/04040.png"
   },
   {
     "vnum": "4044",
-    "name": "Bezduszny N�+4",
+    "name": "Bezduszny Nóż+4",
     "icon": "../assets/item-icons/item/04040.png"
   },
   {
     "vnum": "4045",
-    "name": "Bezduszny N�+5",
+    "name": "Bezduszny Nóż+5",
     "icon": "../assets/item-icons/item/04040.png"
   },
   {
     "vnum": "4046",
-    "name": "Bezduszny N�+6",
+    "name": "Bezduszny Nóż+6",
     "icon": "../assets/item-icons/item/04040.png"
   },
   {
     "vnum": "4047",
-    "name": "Bezduszny N�+7",
+    "name": "Bezduszny Nóż+7",
     "icon": "../assets/item-icons/item/04040.png"
   },
   {
     "vnum": "4048",
-    "name": "Bezduszny N�+8",
+    "name": "Bezduszny Nóż+8",
     "icon": "../assets/item-icons/item/04040.png"
   },
   {
     "vnum": "4049",
-    "name": "Bezduszny N�+9",
+    "name": "Bezduszny Nóż+9",
     "icon": "../assets/item-icons/item/04040.png"
   },
   {
@@ -5033,52 +5034,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "5020",
-    "name": "Z�oty Dzwon+0",
+    "name": "Złoty Dzwon+0",
     "icon": "../assets/item-icons/item/05020.png"
   },
   {
     "vnum": "5021",
-    "name": "Z�oty Dzwon+1",
+    "name": "Złoty Dzwon+1",
     "icon": "../assets/item-icons/item/05020.png"
   },
   {
     "vnum": "5022",
-    "name": "Z�oty Dzwon+2",
+    "name": "Złoty Dzwon+2",
     "icon": "../assets/item-icons/item/05020.png"
   },
   {
     "vnum": "5023",
-    "name": "Z�oty Dzwon+3",
+    "name": "Złoty Dzwon+3",
     "icon": "../assets/item-icons/item/05020.png"
   },
   {
     "vnum": "5024",
-    "name": "Z�oty Dzwon+4",
+    "name": "Złoty Dzwon+4",
     "icon": "../assets/item-icons/item/05020.png"
   },
   {
     "vnum": "5025",
-    "name": "Z�oty Dzwon+5",
+    "name": "Złoty Dzwon+5",
     "icon": "../assets/item-icons/item/05020.png"
   },
   {
     "vnum": "5026",
-    "name": "Z�oty Dzwon+6",
+    "name": "Złoty Dzwon+6",
     "icon": "../assets/item-icons/item/05020.png"
   },
   {
     "vnum": "5027",
-    "name": "Z�oty Dzwon+7",
+    "name": "Złoty Dzwon+7",
     "icon": "../assets/item-icons/item/05020.png"
   },
   {
     "vnum": "5028",
-    "name": "Z�oty Dzwon+8",
+    "name": "Złoty Dzwon+8",
     "icon": "../assets/item-icons/item/05020.png"
   },
   {
     "vnum": "5029",
-    "name": "Z�oty Dzwon+9",
+    "name": "Złoty Dzwon+9",
     "icon": "../assets/item-icons/item/05020.png"
   },
   {
@@ -5283,52 +5284,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "5070",
-    "name": "Z�oty Robaczy Dzwon+0",
+    "name": "Złoty Robaczy Dzwon+0",
     "icon": "../assets/item-icons/item/05070.png"
   },
   {
     "vnum": "5071",
-    "name": "Z�oty Robaczy Dzwon+1",
+    "name": "Złoty Robaczy Dzwon+1",
     "icon": "../assets/item-icons/item/05070.png"
   },
   {
     "vnum": "5072",
-    "name": "Z�oty Robaczy Dzwon+2",
+    "name": "Złoty Robaczy Dzwon+2",
     "icon": "../assets/item-icons/item/05070.png"
   },
   {
     "vnum": "5073",
-    "name": "Z�oty Robaczy Dzwon+3",
+    "name": "Złoty Robaczy Dzwon+3",
     "icon": "../assets/item-icons/item/05070.png"
   },
   {
     "vnum": "5074",
-    "name": "Z�oty Robaczy Dzwon+4",
+    "name": "Złoty Robaczy Dzwon+4",
     "icon": "../assets/item-icons/item/05070.png"
   },
   {
     "vnum": "5075",
-    "name": "Z�oty Robaczy Dzwon+5",
+    "name": "Złoty Robaczy Dzwon+5",
     "icon": "../assets/item-icons/item/05070.png"
   },
   {
     "vnum": "5076",
-    "name": "Z�oty Robaczy Dzwon+6",
+    "name": "Złoty Robaczy Dzwon+6",
     "icon": "../assets/item-icons/item/05070.png"
   },
   {
     "vnum": "5077",
-    "name": "Z�oty Robaczy Dzwon+7",
+    "name": "Złoty Robaczy Dzwon+7",
     "icon": "../assets/item-icons/item/05070.png"
   },
   {
     "vnum": "5078",
-    "name": "Z�oty Robaczy Dzwon+8",
+    "name": "Złoty Robaczy Dzwon+8",
     "icon": "../assets/item-icons/item/05070.png"
   },
   {
     "vnum": "5079",
-    "name": "Z�oty Robaczy Dzwon+9",
+    "name": "Złoty Robaczy Dzwon+9",
     "icon": "../assets/item-icons/item/05070.png"
   },
   {
@@ -5583,52 +5584,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "5130",
-    "name": "Dzwon �mierci+0",
+    "name": "Dzwon Śmierci+0",
     "icon": "../assets/item-icons/item/05130.png"
   },
   {
     "vnum": "5131",
-    "name": "Dzwon �mierci+1",
+    "name": "Dzwon Śmierci+1",
     "icon": "../assets/item-icons/item/05130.png"
   },
   {
     "vnum": "5132",
-    "name": "Dzwon �mierci+2",
+    "name": "Dzwon Śmierci+2",
     "icon": "../assets/item-icons/item/05130.png"
   },
   {
     "vnum": "5133",
-    "name": "Dzwon �mierci+3",
+    "name": "Dzwon Śmierci+3",
     "icon": "../assets/item-icons/item/05130.png"
   },
   {
     "vnum": "5134",
-    "name": "Dzwon �mierci+4",
+    "name": "Dzwon Śmierci+4",
     "icon": "../assets/item-icons/item/05130.png"
   },
   {
     "vnum": "5135",
-    "name": "Dzwon �mierci+5",
+    "name": "Dzwon Śmierci+5",
     "icon": "../assets/item-icons/item/05130.png"
   },
   {
     "vnum": "5136",
-    "name": "Dzwon �mierci+6",
+    "name": "Dzwon Śmierci+6",
     "icon": "../assets/item-icons/item/05130.png"
   },
   {
     "vnum": "5137",
-    "name": "Dzwon �mierci+7",
+    "name": "Dzwon Śmierci+7",
     "icon": "../assets/item-icons/item/05130.png"
   },
   {
     "vnum": "5138",
-    "name": "Dzwon �mierci+8",
+    "name": "Dzwon Śmierci+8",
     "icon": "../assets/item-icons/item/05130.png"
   },
   {
     "vnum": "5139",
-    "name": "Dzwon �mierci+9",
+    "name": "Dzwon Śmierci+9",
     "icon": "../assets/item-icons/item/05130.png"
   },
   {
@@ -5733,52 +5734,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "5330",
-    "name": "Dzwon Szcz�ki Smoka+0",
+    "name": "Dzwon Szczęki Smoka+0",
     "icon": "../assets/item-icons/item/05330.png"
   },
   {
     "vnum": "5331",
-    "name": "Dzwon Szcz�ki Smoka+1",
+    "name": "Dzwon Szczęki Smoka+1",
     "icon": "../assets/item-icons/item/05330.png"
   },
   {
     "vnum": "5332",
-    "name": "Dzwon Szcz�ki Smoka+2",
+    "name": "Dzwon Szczęki Smoka+2",
     "icon": "../assets/item-icons/item/05330.png"
   },
   {
     "vnum": "5333",
-    "name": "Dzwon Szcz�ki Smoka+3",
+    "name": "Dzwon Szczęki Smoka+3",
     "icon": "../assets/item-icons/item/05330.png"
   },
   {
     "vnum": "5334",
-    "name": "Dzwon Szcz�ki Smoka+4",
+    "name": "Dzwon Szczęki Smoka+4",
     "icon": "../assets/item-icons/item/05330.png"
   },
   {
     "vnum": "5335",
-    "name": "Dzwon Szcz�ki Smoka+5",
+    "name": "Dzwon Szczęki Smoka+5",
     "icon": "../assets/item-icons/item/05330.png"
   },
   {
     "vnum": "5336",
-    "name": "Dzwon Szcz�ki Smoka+6",
+    "name": "Dzwon Szczęki Smoka+6",
     "icon": "../assets/item-icons/item/05330.png"
   },
   {
     "vnum": "5337",
-    "name": "Dzwon Szcz�ki Smoka+7",
+    "name": "Dzwon Szczęki Smoka+7",
     "icon": "../assets/item-icons/item/05330.png"
   },
   {
     "vnum": "5338",
-    "name": "Dzwon Szcz�ki Smoka+8",
+    "name": "Dzwon Szczęki Smoka+8",
     "icon": "../assets/item-icons/item/05330.png"
   },
   {
     "vnum": "5339",
-    "name": "Dzwon Szcz�ki Smoka+9",
+    "name": "Dzwon Szczęki Smoka+9",
     "icon": "../assets/item-icons/item/05330.png"
   },
   {
@@ -5883,52 +5884,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "7010",
-    "name": "�elazny Wachlarz+0",
+    "name": "Żelazny Wachlarz+0",
     "icon": "../assets/item-icons/item/07010.png"
   },
   {
     "vnum": "7011",
-    "name": "�elazny Wachlarz+1",
+    "name": "Żelazny Wachlarz+1",
     "icon": "../assets/item-icons/item/07010.png"
   },
   {
     "vnum": "7012",
-    "name": "�elazny Wachlarz+2",
+    "name": "Żelazny Wachlarz+2",
     "icon": "../assets/item-icons/item/07010.png"
   },
   {
     "vnum": "7013",
-    "name": "�elazny Wachlarz+3",
+    "name": "Żelazny Wachlarz+3",
     "icon": "../assets/item-icons/item/07010.png"
   },
   {
     "vnum": "7014",
-    "name": "�elazny Wachlarz+4",
+    "name": "Żelazny Wachlarz+4",
     "icon": "../assets/item-icons/item/07010.png"
   },
   {
     "vnum": "7015",
-    "name": "�elazny Wachlarz+5",
+    "name": "Żelazny Wachlarz+5",
     "icon": "../assets/item-icons/item/07010.png"
   },
   {
     "vnum": "7016",
-    "name": "�elazny Wachlarz+6",
+    "name": "Żelazny Wachlarz+6",
     "icon": "../assets/item-icons/item/07010.png"
   },
   {
     "vnum": "7017",
-    "name": "�elazny Wachlarz+7",
+    "name": "Żelazny Wachlarz+7",
     "icon": "../assets/item-icons/item/07010.png"
   },
   {
     "vnum": "7018",
-    "name": "�elazny Wachlarz+8",
+    "name": "Żelazny Wachlarz+8",
     "icon": "../assets/item-icons/item/07010.png"
   },
   {
     "vnum": "7019",
-    "name": "�elazny Wachlarz+9",
+    "name": "Żelazny Wachlarz+9",
     "icon": "../assets/item-icons/item/07010.png"
   },
   {
@@ -5983,52 +5984,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "7030",
-    "name": "�urawi Wachlarz+0",
+    "name": "Żurawi Wachlarz+0",
     "icon": "../assets/item-icons/item/07030.png"
   },
   {
     "vnum": "7031",
-    "name": "�urawi Wachlarz+1",
+    "name": "Żurawi Wachlarz+1",
     "icon": "../assets/item-icons/item/07030.png"
   },
   {
     "vnum": "7032",
-    "name": "�urawi Wachlarz+2",
+    "name": "Żurawi Wachlarz+2",
     "icon": "../assets/item-icons/item/07030.png"
   },
   {
     "vnum": "7033",
-    "name": "�urawi Wachlarz+3",
+    "name": "Żurawi Wachlarz+3",
     "icon": "../assets/item-icons/item/07030.png"
   },
   {
     "vnum": "7034",
-    "name": "�urawi Wachlarz+4",
+    "name": "Żurawi Wachlarz+4",
     "icon": "../assets/item-icons/item/07030.png"
   },
   {
     "vnum": "7035",
-    "name": "�urawi Wachlarz+5",
+    "name": "Żurawi Wachlarz+5",
     "icon": "../assets/item-icons/item/07030.png"
   },
   {
     "vnum": "7036",
-    "name": "�urawi Wachlarz+6",
+    "name": "Żurawi Wachlarz+6",
     "icon": "../assets/item-icons/item/07030.png"
   },
   {
     "vnum": "7037",
-    "name": "�urawi Wachlarz+7",
+    "name": "Żurawi Wachlarz+7",
     "icon": "../assets/item-icons/item/07030.png"
   },
   {
     "vnum": "7038",
-    "name": "�urawi Wachlarz+8",
+    "name": "Żurawi Wachlarz+8",
     "icon": "../assets/item-icons/item/07030.png"
   },
   {
     "vnum": "7039",
-    "name": "�urawi Wachlarz+9",
+    "name": "Żurawi Wachlarz+9",
     "icon": "../assets/item-icons/item/07030.png"
   },
   {
@@ -6233,52 +6234,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "7080",
-    "name": "��d�owy Wachlarz+0",
+    "name": "Żądłowy Wachlarz+0",
     "icon": "../assets/item-icons/item/07080.png"
   },
   {
     "vnum": "7081",
-    "name": "��d�owy Wachlarz+1",
+    "name": "Żądłowy Wachlarz+1",
     "icon": "../assets/item-icons/item/07080.png"
   },
   {
     "vnum": "7082",
-    "name": "��d�owy Wachlarz+2",
+    "name": "Żądłowy Wachlarz+2",
     "icon": "../assets/item-icons/item/07080.png"
   },
   {
     "vnum": "7083",
-    "name": "��d�owy Wachlarz+3",
+    "name": "Żądłowy Wachlarz+3",
     "icon": "../assets/item-icons/item/07080.png"
   },
   {
     "vnum": "7084",
-    "name": "��d�owy Wachlarz+4",
+    "name": "Żądłowy Wachlarz+4",
     "icon": "../assets/item-icons/item/07080.png"
   },
   {
     "vnum": "7085",
-    "name": "��d�owy Wachlarz+5",
+    "name": "Żądłowy Wachlarz+5",
     "icon": "../assets/item-icons/item/07080.png"
   },
   {
     "vnum": "7086",
-    "name": "��d�owy Wachlarz+6",
+    "name": "Żądłowy Wachlarz+6",
     "icon": "../assets/item-icons/item/07080.png"
   },
   {
     "vnum": "7087",
-    "name": "��d�owy Wachlarz+7",
+    "name": "Żądłowy Wachlarz+7",
     "icon": "../assets/item-icons/item/07080.png"
   },
   {
     "vnum": "7088",
-    "name": "��d�owy Wachlarz+8",
+    "name": "Żądłowy Wachlarz+8",
     "icon": "../assets/item-icons/item/07080.png"
   },
   {
     "vnum": "7089",
-    "name": "��d�owy Wachlarz+9",
+    "name": "Żądłowy Wachlarz+9",
     "icon": "../assets/item-icons/item/07080.png"
   },
   {
@@ -6333,52 +6334,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "7100",
-    "name": "Potr�jny Wachlarz+0",
+    "name": "Potrójny Wachlarz+0",
     "icon": "../assets/item-icons/item/07100.png"
   },
   {
     "vnum": "7101",
-    "name": "Potr�jny Wachlarz+1",
+    "name": "Potrójny Wachlarz+1",
     "icon": "../assets/item-icons/item/07100.png"
   },
   {
     "vnum": "7102",
-    "name": "Potr�jny Wachlarz+2",
+    "name": "Potrójny Wachlarz+2",
     "icon": "../assets/item-icons/item/07100.png"
   },
   {
     "vnum": "7103",
-    "name": "Potr�jny Wachlarz+3",
+    "name": "Potrójny Wachlarz+3",
     "icon": "../assets/item-icons/item/07100.png"
   },
   {
     "vnum": "7104",
-    "name": "Potr�jny Wachlarz+4",
+    "name": "Potrójny Wachlarz+4",
     "icon": "../assets/item-icons/item/07100.png"
   },
   {
     "vnum": "7105",
-    "name": "Potr�jny Wachlarz+5",
+    "name": "Potrójny Wachlarz+5",
     "icon": "../assets/item-icons/item/07100.png"
   },
   {
     "vnum": "7106",
-    "name": "Potr�jny Wachlarz+6",
+    "name": "Potrójny Wachlarz+6",
     "icon": "../assets/item-icons/item/07100.png"
   },
   {
     "vnum": "7107",
-    "name": "Potr�jny Wachlarz+7",
+    "name": "Potrójny Wachlarz+7",
     "icon": "../assets/item-icons/item/07100.png"
   },
   {
     "vnum": "7108",
-    "name": "Potr�jny Wachlarz+8",
+    "name": "Potrójny Wachlarz+8",
     "icon": "../assets/item-icons/item/07100.png"
   },
   {
     "vnum": "7109",
-    "name": "Potr�jny Wachlarz+9",
+    "name": "Potrójny Wachlarz+9",
     "icon": "../assets/item-icons/item/07100.png"
   },
   {
@@ -6433,102 +6434,102 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "7120",
-    "name": "Czarny S�on. Wachlarz+0",
+    "name": "Czarny Słon. Wachlarz+0",
     "icon": "../assets/item-icons/item/07120.png"
   },
   {
     "vnum": "7121",
-    "name": "Czarny S�on. Wachlarz+1",
+    "name": "Czarny Słon. Wachlarz+1",
     "icon": "../assets/item-icons/item/07120.png"
   },
   {
     "vnum": "7122",
-    "name": "Czarny S�on. Wachlarz+2",
+    "name": "Czarny Słon. Wachlarz+2",
     "icon": "../assets/item-icons/item/07120.png"
   },
   {
     "vnum": "7123",
-    "name": "Czarny S�on. Wachlarz+3",
+    "name": "Czarny Słon. Wachlarz+3",
     "icon": "../assets/item-icons/item/07120.png"
   },
   {
     "vnum": "7124",
-    "name": "Czarny S�on. Wachlarz+4",
+    "name": "Czarny Słon. Wachlarz+4",
     "icon": "../assets/item-icons/item/07120.png"
   },
   {
     "vnum": "7125",
-    "name": "Czarny S�on. Wachlarz+5",
+    "name": "Czarny Słon. Wachlarz+5",
     "icon": "../assets/item-icons/item/07120.png"
   },
   {
     "vnum": "7126",
-    "name": "Czarny S�on. Wachlarz+6",
+    "name": "Czarny Słon. Wachlarz+6",
     "icon": "../assets/item-icons/item/07120.png"
   },
   {
     "vnum": "7127",
-    "name": "Czarny S�on. Wachlarz+7",
+    "name": "Czarny Słon. Wachlarz+7",
     "icon": "../assets/item-icons/item/07120.png"
   },
   {
     "vnum": "7128",
-    "name": "Czarny S�on. Wachlarz+8",
+    "name": "Czarny Słon. Wachlarz+8",
     "icon": "../assets/item-icons/item/07120.png"
   },
   {
     "vnum": "7129",
-    "name": "Czarny S�on. Wachlarz+9",
+    "name": "Czarny Słon. Wachlarz+9",
     "icon": "../assets/item-icons/item/07120.png"
   },
   {
     "vnum": "7130",
-    "name": "Niebia�. Ptasi Wachl.+0",
+    "name": "Niebiań. Ptasi Wachl.+0",
     "icon": "../assets/item-icons/item/07130.png"
   },
   {
     "vnum": "7131",
-    "name": "Niebia�. Ptasi Wachl.+1",
+    "name": "Niebiań. Ptasi Wachl.+1",
     "icon": "../assets/item-icons/item/07130.png"
   },
   {
     "vnum": "7132",
-    "name": "Niebia�. Ptasi Wachl.+2",
+    "name": "Niebiań. Ptasi Wachl.+2",
     "icon": "../assets/item-icons/item/07130.png"
   },
   {
     "vnum": "7133",
-    "name": "Niebia�. Ptasi Wachl.+3",
+    "name": "Niebiań. Ptasi Wachl.+3",
     "icon": "../assets/item-icons/item/07130.png"
   },
   {
     "vnum": "7134",
-    "name": "Niebia�. Ptasi Wachl.+4",
+    "name": "Niebiań. Ptasi Wachl.+4",
     "icon": "../assets/item-icons/item/07130.png"
   },
   {
     "vnum": "7135",
-    "name": "Niebia�. Ptasi Wachl.+5",
+    "name": "Niebiań. Ptasi Wachl.+5",
     "icon": "../assets/item-icons/item/07130.png"
   },
   {
     "vnum": "7136",
-    "name": "Niebia�. Ptasi Wachl.+6",
+    "name": "Niebiań. Ptasi Wachl.+6",
     "icon": "../assets/item-icons/item/07130.png"
   },
   {
     "vnum": "7137",
-    "name": "Niebia�. Ptasi Wachl.+7",
+    "name": "Niebiań. Ptasi Wachl.+7",
     "icon": "../assets/item-icons/item/07130.png"
   },
   {
     "vnum": "7138",
-    "name": "Niebia�. Ptasi Wachl.+8",
+    "name": "Niebiań. Ptasi Wachl.+8",
     "icon": "../assets/item-icons/item/07130.png"
   },
   {
     "vnum": "7139",
-    "name": "Niebia�. Ptasi Wachl.+9",
+    "name": "Niebiań. Ptasi Wachl.+9",
     "icon": "../assets/item-icons/item/07130.png"
   },
   {
@@ -6683,102 +6684,102 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "7170",
-    "name": "Wachlarz 8 Trigram�w+0",
+    "name": "Wachlarz 8 Trigramów+0",
     "icon": "../assets/item-icons/item/07170.png"
   },
   {
     "vnum": "7171",
-    "name": "Wachlarz 8 Trigram�w+1",
+    "name": "Wachlarz 8 Trigramów+1",
     "icon": "../assets/item-icons/item/07170.png"
   },
   {
     "vnum": "7172",
-    "name": "Wachlarz 8 Trigram�w+2",
+    "name": "Wachlarz 8 Trigramów+2",
     "icon": "../assets/item-icons/item/07170.png"
   },
   {
     "vnum": "7173",
-    "name": "Wachlarz 8 Trigram�w+3",
+    "name": "Wachlarz 8 Trigramów+3",
     "icon": "../assets/item-icons/item/07170.png"
   },
   {
     "vnum": "7174",
-    "name": "Wachlarz 8 Trigram�w+4",
+    "name": "Wachlarz 8 Trigramów+4",
     "icon": "../assets/item-icons/item/07170.png"
   },
   {
     "vnum": "7175",
-    "name": "Wachlarz 8 Trigram�w+5",
+    "name": "Wachlarz 8 Trigramów+5",
     "icon": "../assets/item-icons/item/07170.png"
   },
   {
     "vnum": "7176",
-    "name": "Wachlarz 8 Trigram�w+6",
+    "name": "Wachlarz 8 Trigramów+6",
     "icon": "../assets/item-icons/item/07170.png"
   },
   {
     "vnum": "7177",
-    "name": "Wachlarz 8 Trigram�w+7",
+    "name": "Wachlarz 8 Trigramów+7",
     "icon": "../assets/item-icons/item/07170.png"
   },
   {
     "vnum": "7178",
-    "name": "Wachlarz 8 Trigram�w+8",
+    "name": "Wachlarz 8 Trigramów+8",
     "icon": "../assets/item-icons/item/07170.png"
   },
   {
     "vnum": "7179",
-    "name": "Wachlarz 8 Trigram�w+9",
+    "name": "Wachlarz 8 Trigramów+9",
     "icon": "../assets/item-icons/item/07170.png"
   },
   {
     "vnum": "7180",
-    "name": "Wachlarz Le��c. Smoka+0",
+    "name": "Wachlarz Leżąc. Smoka+0",
     "icon": "../assets/item-icons/item/07180.png"
   },
   {
     "vnum": "7181",
-    "name": "Wachlarz Le��c. Smoka+1",
+    "name": "Wachlarz Leżąc. Smoka+1",
     "icon": "../assets/item-icons/item/07180.png"
   },
   {
     "vnum": "7182",
-    "name": "Wachlarz Le��c. Smoka+2",
+    "name": "Wachlarz Leżąc. Smoka+2",
     "icon": "../assets/item-icons/item/07180.png"
   },
   {
     "vnum": "7183",
-    "name": "Wachlarz Le��c. Smoka+3",
+    "name": "Wachlarz Leżąc. Smoka+3",
     "icon": "../assets/item-icons/item/07180.png"
   },
   {
     "vnum": "7184",
-    "name": "Wachlarz Le��c. Smoka+4",
+    "name": "Wachlarz Leżąc. Smoka+4",
     "icon": "../assets/item-icons/item/07180.png"
   },
   {
     "vnum": "7185",
-    "name": "Wachlarz Le��c. Smoka+5",
+    "name": "Wachlarz Leżąc. Smoka+5",
     "icon": "../assets/item-icons/item/07180.png"
   },
   {
     "vnum": "7186",
-    "name": "Wachlarz Le��c. Smoka+6",
+    "name": "Wachlarz Leżąc. Smoka+6",
     "icon": "../assets/item-icons/item/07180.png"
   },
   {
     "vnum": "7187",
-    "name": "Wachlarz Le��c. Smoka+7",
+    "name": "Wachlarz Leżąc. Smoka+7",
     "icon": "../assets/item-icons/item/07180.png"
   },
   {
     "vnum": "7188",
-    "name": "Wachlarz Le��c. Smoka+8",
+    "name": "Wachlarz Leżąc. Smoka+8",
     "icon": "../assets/item-icons/item/07180.png"
   },
   {
     "vnum": "7189",
-    "name": "Wachlarz Le��c. Smoka+9",
+    "name": "Wachlarz Leżąc. Smoka+9",
     "icon": "../assets/item-icons/item/07180.png"
   },
   {
@@ -6883,102 +6884,102 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "7370",
-    "name": "Wachlarz Le��c. Smoka+0",
+    "name": "Wachlarz Leżąc. Smoka+0",
     "icon": "../assets/item-icons/item/07370.png"
   },
   {
     "vnum": "7371",
-    "name": "Wachlarz Le��c. Smoka+1",
+    "name": "Wachlarz Leżąc. Smoka+1",
     "icon": "../assets/item-icons/item/07370.png"
   },
   {
     "vnum": "7372",
-    "name": "Wachlarz Le��c. Smoka+2",
+    "name": "Wachlarz Leżąc. Smoka+2",
     "icon": "../assets/item-icons/item/07370.png"
   },
   {
     "vnum": "7373",
-    "name": "Wachlarz Le��c. Smoka+3",
+    "name": "Wachlarz Leżąc. Smoka+3",
     "icon": "../assets/item-icons/item/07370.png"
   },
   {
     "vnum": "7374",
-    "name": "Wachlarz Le��c. Smoka+4",
+    "name": "Wachlarz Leżąc. Smoka+4",
     "icon": "../assets/item-icons/item/07370.png"
   },
   {
     "vnum": "7375",
-    "name": "Wachlarz Le��c. Smoka+5",
+    "name": "Wachlarz Leżąc. Smoka+5",
     "icon": "../assets/item-icons/item/07370.png"
   },
   {
     "vnum": "7376",
-    "name": "Wachlarz Le��c. Smoka+6",
+    "name": "Wachlarz Leżąc. Smoka+6",
     "icon": "../assets/item-icons/item/07370.png"
   },
   {
     "vnum": "7377",
-    "name": "Wachlarz Le��c. Smoka+7",
+    "name": "Wachlarz Leżąc. Smoka+7",
     "icon": "../assets/item-icons/item/07370.png"
   },
   {
     "vnum": "7378",
-    "name": "Wachlarz Le��c. Smoka+8",
+    "name": "Wachlarz Leżąc. Smoka+8",
     "icon": "../assets/item-icons/item/07370.png"
   },
   {
     "vnum": "7379",
-    "name": "Wachlarz Le��c. Smoka+9",
+    "name": "Wachlarz Leżąc. Smoka+9",
     "icon": "../assets/item-icons/item/07370.png"
   },
   {
     "vnum": "8000",
-    "name": "Drewniana Strza�a",
+    "name": "Drewniana Strzała",
     "icon": "../assets/item-icons/item/08000.png"
   },
   {
     "vnum": "8001",
-    "name": "Bambusowa Strza�a",
+    "name": "Bambusowa Strzała",
     "icon": "../assets/item-icons/item/08001.png"
   },
   {
     "vnum": "8002",
-    "name": "Kamienna Strza�a",
+    "name": "Kamienna Strzała",
     "icon": "../assets/item-icons/item/08001.png"
   },
   {
     "vnum": "8003",
-    "name": "�elazna Strza�a",
+    "name": "Żelazna Strzała",
     "icon": "../assets/item-icons/item/08003.png"
   },
   {
     "vnum": "8004",
-    "name": "Stalowa Strza�a",
+    "name": "Stalowa Strzała",
     "icon": "../assets/item-icons/item/08004.png"
   },
   {
     "vnum": "8005",
-    "name": "Srebrna Strza�a",
+    "name": "Srebrna Strzała",
     "icon": "../assets/item-icons/item/08005.png"
   },
   {
     "vnum": "8006",
-    "name": "Ognista Strza�a",
+    "name": "Ognista Strzała",
     "icon": "../assets/item-icons/item/08006.png"
   },
   {
     "vnum": "8007",
-    "name": "Truj�ca Strza�a",
+    "name": "Trująca Strzała",
     "icon": "../assets/item-icons/item/08007.png"
   },
   {
     "vnum": "8008",
-    "name": "Lodowa Strza�a",
+    "name": "Lodowa Strzała",
     "icon": "../assets/item-icons/item/08008.png"
   },
   {
     "vnum": "8009",
-    "name": "Przekl�ta Strza�a",
+    "name": "Przeklęta Strzała",
     "icon": "../assets/item-icons/item/08009.png"
   },
   {
@@ -7008,22 +7009,22 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "9502",
-    "name": "Kr�tki Miecz+5",
+    "name": "Krótki Miecz+5",
     "icon": "../assets/item-icons/item/01000.png"
   },
   {
     "vnum": "9503",
-    "name": "Kr�tka Strza�a+5",
+    "name": "Krótka Strzała+5",
     "icon": "../assets/item-icons/item/02000.png"
   },
   {
     "vnum": "9504",
-    "name": "D�ugi Miecz+5",
+    "name": "Długi Miecz+5",
     "icon": "../assets/item-icons/item/03000.png"
   },
   {
     "vnum": "9505",
-    "name": "Du�y Wachlarz+5",
+    "name": "Duży Wachlarz+5",
     "icon": "../assets/item-icons/item/07000.png"
   },
   {
@@ -7133,42 +7134,42 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "9551",
-    "name": "Miecz �alu+1",
+    "name": "Miecz Żalu+1",
     "icon": "../assets/item-icons/item/set90/zalv1.png"
   },
   {
     "vnum": "9552",
-    "name": "Miecz �alu+2",
+    "name": "Miecz Żalu+2",
     "icon": "../assets/item-icons/item/set90/zalv1.png"
   },
   {
     "vnum": "9553",
-    "name": "Miecz �alu+3",
+    "name": "Miecz Żalu+3",
     "icon": "../assets/item-icons/item/set90/zalv1.png"
   },
   {
     "vnum": "9554",
-    "name": "Miecz �alu+4",
+    "name": "Miecz Żalu+4",
     "icon": "../assets/item-icons/item/set90/zalv1.png"
   },
   {
     "vnum": "9555",
-    "name": "Miecz �alu+5",
+    "name": "Miecz Żalu+5",
     "icon": "../assets/item-icons/item/set90/zalv1.png"
   },
   {
     "vnum": "9556",
-    "name": "Miecz �alu+6",
+    "name": "Miecz Żalu+6",
     "icon": "../assets/item-icons/item/set90/zalv1.png"
   },
   {
     "vnum": "9557",
-    "name": "Miecz �alu+7",
+    "name": "Miecz Żalu+7",
     "icon": "../assets/item-icons/item/set90/zalv1.png"
   },
   {
     "vnum": "9558",
-    "name": "Miecz �alu+8",
+    "name": "Miecz Żalu+8",
     "icon": "../assets/item-icons/item/set90/zalv1.png"
   },
   {
@@ -7178,52 +7179,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "9560",
-    "name": "�uk Tytana",
+    "name": "Łuk Tytana",
     "icon": "../assets/item-icons/item/set90/krukv1.png"
   },
   {
     "vnum": "9561",
-    "name": "Stalowy �uk Kruka+1",
+    "name": "Stalowy Łuk Kruka+1",
     "icon": "../assets/item-icons/item/set90/krukv1.png"
   },
   {
     "vnum": "9562",
-    "name": "Stalowy �uk Kruka+2",
+    "name": "Stalowy Łuk Kruka+2",
     "icon": "../assets/item-icons/item/set90/krukv1.png"
   },
   {
     "vnum": "9563",
-    "name": "Stalowy �uk Kruka+3",
+    "name": "Stalowy Łuk Kruka+3",
     "icon": "../assets/item-icons/item/set90/krukv1.png"
   },
   {
     "vnum": "9564",
-    "name": "Stalowy �uk Kruka+4",
+    "name": "Stalowy Łuk Kruka+4",
     "icon": "../assets/item-icons/item/set90/krukv1.png"
   },
   {
     "vnum": "9565",
-    "name": "Stalowy �uk Kruka+5",
+    "name": "Stalowy Łuk Kruka+5",
     "icon": "../assets/item-icons/item/set90/krukv1.png"
   },
   {
     "vnum": "9566",
-    "name": "Stalowy �uk Kruka+6",
+    "name": "Stalowy Łuk Kruka+6",
     "icon": "../assets/item-icons/item/set90/krukv1.png"
   },
   {
     "vnum": "9567",
-    "name": "Stalowy �uk Kruka+7",
+    "name": "Stalowy Łuk Kruka+7",
     "icon": "../assets/item-icons/item/set90/krukv1.png"
   },
   {
     "vnum": "9568",
-    "name": "Stalowy �uk Kruka+8",
+    "name": "Stalowy Łuk Kruka+8",
     "icon": "../assets/item-icons/item/set90/krukv1.png"
   },
   {
     "vnum": "9569",
-    "name": "�uk Tytana+9",
+    "name": "Łuk Tytana+9",
     "icon": "../assets/item-icons/item/set90/krukv1.png"
   },
   {
@@ -7233,42 +7234,42 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "9571",
-    "name": "Skrzyd�a Demona Chakr.+1",
+    "name": "Skrzydła Demona Chakr.+1",
     "icon": "../assets/item-icons/item/set90/chakryv1.png"
   },
   {
     "vnum": "9572",
-    "name": "Skrzyd�a Demona Chakr.+2",
+    "name": "Skrzydła Demona Chakr.+2",
     "icon": "../assets/item-icons/item/set90/chakryv1.png"
   },
   {
     "vnum": "9573",
-    "name": "Skrzyd�a Demona Chakr.+3",
+    "name": "Skrzydła Demona Chakr.+3",
     "icon": "../assets/item-icons/item/set90/chakryv1.png"
   },
   {
     "vnum": "9574",
-    "name": "Skrzyd�a Demona Chakr.+4",
+    "name": "Skrzydła Demona Chakr.+4",
     "icon": "../assets/item-icons/item/set90/chakryv1.png"
   },
   {
     "vnum": "9575",
-    "name": "Skrzyd�a Demona Chakr.+5",
+    "name": "Skrzydła Demona Chakr.+5",
     "icon": "../assets/item-icons/item/set90/chakryv1.png"
   },
   {
     "vnum": "9576",
-    "name": "Skrzyd�a Demona Chakr.+6",
+    "name": "Skrzydła Demona Chakr.+6",
     "icon": "../assets/item-icons/item/set90/chakryv1.png"
   },
   {
     "vnum": "9577",
-    "name": "Skrzyd�a Demona Chakr.+7",
+    "name": "Skrzydła Demona Chakr.+7",
     "icon": "../assets/item-icons/item/set90/chakryv1.png"
   },
   {
     "vnum": "9578",
-    "name": "Skrzyd�a Demona Chakr.+8",
+    "name": "Skrzydła Demona Chakr.+8",
     "icon": "../assets/item-icons/item/set90/chakryv1.png"
   },
   {
@@ -7338,7 +7339,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "11020",
-    "name": "Zbroja Nied�wiedzia",
+    "name": "Zbroja Niedźwiedzia",
     "icon": "../assets/item-icons/11020.png"
   },
   {
@@ -7348,452 +7349,452 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "11200",
-    "name": "Mnisia Zbr. P�yt.+0",
+    "name": "Mnisia Zbr. Płyt.+0",
     "icon": "../assets/item-icons/item/11200.png"
   },
   {
     "vnum": "11201",
-    "name": "Mnisia Zbr. P�yt.+1",
+    "name": "Mnisia Zbr. Płyt.+1",
     "icon": "../assets/item-icons/item/11200.png"
   },
   {
     "vnum": "11202",
-    "name": "Mnisia Zbr. P�yt.+2",
+    "name": "Mnisia Zbr. Płyt.+2",
     "icon": "../assets/item-icons/item/11200.png"
   },
   {
     "vnum": "11203",
-    "name": "Mnisia Zbr. P�yt.+3",
+    "name": "Mnisia Zbr. Płyt.+3",
     "icon": "../assets/item-icons/item/11200.png"
   },
   {
     "vnum": "11204",
-    "name": "Mnisia Zbr. P�yt.+4",
+    "name": "Mnisia Zbr. Płyt.+4",
     "icon": "../assets/item-icons/item/11200.png"
   },
   {
     "vnum": "11205",
-    "name": "Mnisia Zbr. P�yt.+5",
+    "name": "Mnisia Zbr. Płyt.+5",
     "icon": "../assets/item-icons/item/11200.png"
   },
   {
     "vnum": "11206",
-    "name": "Mnisia Zbr. P�yt.+6",
+    "name": "Mnisia Zbr. Płyt.+6",
     "icon": "../assets/item-icons/item/11200.png"
   },
   {
     "vnum": "11207",
-    "name": "Mnisia Zbr. P�yt.+7",
+    "name": "Mnisia Zbr. Płyt.+7",
     "icon": "../assets/item-icons/item/11200.png"
   },
   {
     "vnum": "11208",
-    "name": "Mnisia Zbr. P�yt.+8",
+    "name": "Mnisia Zbr. Płyt.+8",
     "icon": "../assets/item-icons/item/11200.png"
   },
   {
     "vnum": "11209",
-    "name": "Mnisia Zbr. P�yt.+9",
+    "name": "Mnisia Zbr. Płyt.+9",
     "icon": "../assets/item-icons/item/11200.png"
   },
   {
     "vnum": "11210",
-    "name": "�elazna Zbr. P�yt.+0",
+    "name": "Żelazna Zbr. Płyt.+0",
     "icon": "../assets/item-icons/item/11210.png"
   },
   {
     "vnum": "11211",
-    "name": "�elazna Zbr. P�yt.+1",
+    "name": "Żelazna Zbr. Płyt.+1",
     "icon": "../assets/item-icons/item/11210.png"
   },
   {
     "vnum": "11212",
-    "name": "�elazna Zbr. P�yt.+2",
+    "name": "Żelazna Zbr. Płyt.+2",
     "icon": "../assets/item-icons/item/11210.png"
   },
   {
     "vnum": "11213",
-    "name": "�elazna Zbr. P�yt.+3",
+    "name": "Żelazna Zbr. Płyt.+3",
     "icon": "../assets/item-icons/item/11210.png"
   },
   {
     "vnum": "11214",
-    "name": "�elazna Zbr. P�yt.+4",
+    "name": "Żelazna Zbr. Płyt.+4",
     "icon": "../assets/item-icons/item/11210.png"
   },
   {
     "vnum": "11215",
-    "name": "�elazna Zbr. P�yt.+5",
+    "name": "Żelazna Zbr. Płyt.+5",
     "icon": "../assets/item-icons/item/11210.png"
   },
   {
     "vnum": "11216",
-    "name": "�elazna Zbr. P�yt.+6",
+    "name": "Żelazna Zbr. Płyt.+6",
     "icon": "../assets/item-icons/item/11210.png"
   },
   {
     "vnum": "11217",
-    "name": "�elazna Zbr. P�yt.+7",
+    "name": "Żelazna Zbr. Płyt.+7",
     "icon": "../assets/item-icons/item/11210.png"
   },
   {
     "vnum": "11218",
-    "name": "�elazna Zbr. P�yt.+8",
+    "name": "Żelazna Zbr. Płyt.+8",
     "icon": "../assets/item-icons/item/11210.png"
   },
   {
     "vnum": "11219",
-    "name": "�elazna Zbr. P�yt.+9",
+    "name": "Żelazna Zbr. Płyt.+9",
     "icon": "../assets/item-icons/item/11210.png"
   },
   {
     "vnum": "11220",
-    "name": "Zbr. P�yt. Tygrysa+0",
+    "name": "Zbr. Płyt. Tygrysa+0",
     "icon": "../assets/item-icons/item/11220.png"
   },
   {
     "vnum": "11221",
-    "name": "Zbr. P�yt. Tygrysa+1",
+    "name": "Zbr. Płyt. Tygrysa+1",
     "icon": "../assets/item-icons/item/11220.png"
   },
   {
     "vnum": "11222",
-    "name": "Zbr. P�yt. Tygrysa+2",
+    "name": "Zbr. Płyt. Tygrysa+2",
     "icon": "../assets/item-icons/item/11220.png"
   },
   {
     "vnum": "11223",
-    "name": "Zbr. P�yt. Tygrysa+3",
+    "name": "Zbr. Płyt. Tygrysa+3",
     "icon": "../assets/item-icons/item/11220.png"
   },
   {
     "vnum": "11224",
-    "name": "Zbr. P�yt. Tygrysa+4",
+    "name": "Zbr. Płyt. Tygrysa+4",
     "icon": "../assets/item-icons/item/11220.png"
   },
   {
     "vnum": "11225",
-    "name": "Zbr. P�yt. Tygrysa+5",
+    "name": "Zbr. Płyt. Tygrysa+5",
     "icon": "../assets/item-icons/item/11220.png"
   },
   {
     "vnum": "11226",
-    "name": "Zbr. P�yt. Tygrysa+6",
+    "name": "Zbr. Płyt. Tygrysa+6",
     "icon": "../assets/item-icons/item/11220.png"
   },
   {
     "vnum": "11227",
-    "name": "Zbr. P�yt. Tygrysa+7",
+    "name": "Zbr. Płyt. Tygrysa+7",
     "icon": "../assets/item-icons/item/11220.png"
   },
   {
     "vnum": "11228",
-    "name": "Zbr. P�yt. Tygrysa+8",
+    "name": "Zbr. Płyt. Tygrysa+8",
     "icon": "../assets/item-icons/item/11220.png"
   },
   {
     "vnum": "11229",
-    "name": "Zbr. P�yt. Tygrysa+9",
+    "name": "Zbr. Płyt. Tygrysa+9",
     "icon": "../assets/item-icons/item/11220.png"
   },
   {
     "vnum": "11230",
-    "name": "Lwia Zbroja P�ytowa+0",
+    "name": "Lwia Zbroja Płytowa+0",
     "icon": "../assets/item-icons/item/11230.png"
   },
   {
     "vnum": "11231",
-    "name": "Lwia Zbroja P�ytowa+1",
+    "name": "Lwia Zbroja Płytowa+1",
     "icon": "../assets/item-icons/item/11230.png"
   },
   {
     "vnum": "11232",
-    "name": "Lwia Zbroja P�ytowa+2",
+    "name": "Lwia Zbroja Płytowa+2",
     "icon": "../assets/item-icons/item/11230.png"
   },
   {
     "vnum": "11233",
-    "name": "Lwia Zbroja P�ytowa+3",
+    "name": "Lwia Zbroja Płytowa+3",
     "icon": "../assets/item-icons/item/11230.png"
   },
   {
     "vnum": "11234",
-    "name": "Lwia Zbroja P�ytowa+4",
+    "name": "Lwia Zbroja Płytowa+4",
     "icon": "../assets/item-icons/item/11230.png"
   },
   {
     "vnum": "11235",
-    "name": "Lwia Zbroja P�ytowa+5",
+    "name": "Lwia Zbroja Płytowa+5",
     "icon": "../assets/item-icons/item/11230.png"
   },
   {
     "vnum": "11236",
-    "name": "Lwia Zbroja P�ytowa+6",
+    "name": "Lwia Zbroja Płytowa+6",
     "icon": "../assets/item-icons/item/11230.png"
   },
   {
     "vnum": "11237",
-    "name": "Lwia Zbroja P�ytowa+7",
+    "name": "Lwia Zbroja Płytowa+7",
     "icon": "../assets/item-icons/item/11230.png"
   },
   {
     "vnum": "11238",
-    "name": "Lwia Zbroja P�ytowa+8",
+    "name": "Lwia Zbroja Płytowa+8",
     "icon": "../assets/item-icons/item/11230.png"
   },
   {
     "vnum": "11239",
-    "name": "Lwia Zbroja P�ytowa+9",
+    "name": "Lwia Zbroja Płytowa+9",
     "icon": "../assets/item-icons/item/11230.png"
   },
   {
     "vnum": "11240",
-    "name": "�miert. Zbroja P�ytowa+0",
+    "name": "Śmiert. Zbroja Płytowa+0",
     "icon": "../assets/item-icons/item/11240.png"
   },
   {
     "vnum": "11241",
-    "name": "�miert. Zbroja P�ytowa+1",
+    "name": "Śmiert. Zbroja Płytowa+1",
     "icon": "../assets/item-icons/item/11240.png"
   },
   {
     "vnum": "11242",
-    "name": "�miert. Zbroja P�ytowa+2",
+    "name": "Śmiert. Zbroja Płytowa+2",
     "icon": "../assets/item-icons/item/11240.png"
   },
   {
     "vnum": "11243",
-    "name": "�miert. Zbroja P�ytowa+3",
+    "name": "Śmiert. Zbroja Płytowa+3",
     "icon": "../assets/item-icons/item/11240.png"
   },
   {
     "vnum": "11244",
-    "name": "�miert. Zbroja P�ytowa+4",
+    "name": "Śmiert. Zbroja Płytowa+4",
     "icon": "../assets/item-icons/item/11240.png"
   },
   {
     "vnum": "11245",
-    "name": "�miert. Zbroja P�ytowa+5",
+    "name": "Śmiert. Zbroja Płytowa+5",
     "icon": "../assets/item-icons/item/11240.png"
   },
   {
     "vnum": "11246",
-    "name": "�miert. Zbroja P�ytowa+6",
+    "name": "Śmiert. Zbroja Płytowa+6",
     "icon": "../assets/item-icons/item/11240.png"
   },
   {
     "vnum": "11247",
-    "name": "�miert. Zbroja P�ytowa+7",
+    "name": "Śmiert. Zbroja Płytowa+7",
     "icon": "../assets/item-icons/item/11240.png"
   },
   {
     "vnum": "11248",
-    "name": "�miert. Zbroja P�ytowa+8",
+    "name": "Śmiert. Zbroja Płytowa+8",
     "icon": "../assets/item-icons/item/11240.png"
   },
   {
     "vnum": "11249",
-    "name": "�miert. Zbroja P�ytowa+9",
+    "name": "Śmiert. Zbroja Płytowa+9",
     "icon": "../assets/item-icons/item/11240.png"
   },
   {
     "vnum": "11250",
-    "name": "Smocza Zbroja P�ytowa+0",
+    "name": "Smocza Zbroja Płytowa+0",
     "icon": "../assets/item-icons/item/11250.png"
   },
   {
     "vnum": "11251",
-    "name": "Smocza Zbroja P�ytowa+1",
+    "name": "Smocza Zbroja Płytowa+1",
     "icon": "../assets/item-icons/item/11250.png"
   },
   {
     "vnum": "11252",
-    "name": "Smocza Zbroja P�ytowa+2",
+    "name": "Smocza Zbroja Płytowa+2",
     "icon": "../assets/item-icons/item/11250.png"
   },
   {
     "vnum": "11253",
-    "name": "Smocza Zbroja P�ytowa+3",
+    "name": "Smocza Zbroja Płytowa+3",
     "icon": "../assets/item-icons/item/11250.png"
   },
   {
     "vnum": "11254",
-    "name": "Smocza Zbroja P�ytowa+4",
+    "name": "Smocza Zbroja Płytowa+4",
     "icon": "../assets/item-icons/item/11250.png"
   },
   {
     "vnum": "11255",
-    "name": "Smocza Zbroja P�ytowa+5",
+    "name": "Smocza Zbroja Płytowa+5",
     "icon": "../assets/item-icons/item/11250.png"
   },
   {
     "vnum": "11256",
-    "name": "Smocza Zbroja P�ytowa+6",
+    "name": "Smocza Zbroja Płytowa+6",
     "icon": "../assets/item-icons/item/11250.png"
   },
   {
     "vnum": "11257",
-    "name": "Smocza Zbroja P�ytowa+7",
+    "name": "Smocza Zbroja Płytowa+7",
     "icon": "../assets/item-icons/item/11250.png"
   },
   {
     "vnum": "11258",
-    "name": "Smocza Zbroja P�ytowa+8",
+    "name": "Smocza Zbroja Płytowa+8",
     "icon": "../assets/item-icons/item/11250.png"
   },
   {
     "vnum": "11259",
-    "name": "Smocza Zbroja P�ytowa+9",
+    "name": "Smocza Zbroja Płytowa+9",
     "icon": "../assets/item-icons/item/11250.png"
   },
   {
     "vnum": "11260",
-    "name": "Zbroja P�ytowa Z �usek+0",
+    "name": "Zbroja Płytowa Z Łusek+0",
     "icon": "../assets/item-icons/item/11260.png"
   },
   {
     "vnum": "11261",
-    "name": "Zbroja P�ytowa Z �usek+1",
+    "name": "Zbroja Płytowa Z Łusek+1",
     "icon": "../assets/item-icons/item/11260.png"
   },
   {
     "vnum": "11262",
-    "name": "Zbroja P�ytowa Z �usek+2",
+    "name": "Zbroja Płytowa Z Łusek+2",
     "icon": "../assets/item-icons/item/11260.png"
   },
   {
     "vnum": "11263",
-    "name": "Zbroja P�ytowa Z �usek+3",
+    "name": "Zbroja Płytowa Z Łusek+3",
     "icon": "../assets/item-icons/item/11260.png"
   },
   {
     "vnum": "11264",
-    "name": "Zbroja P�ytowa Z �usek+4",
+    "name": "Zbroja Płytowa Z Łusek+4",
     "icon": "../assets/item-icons/item/11260.png"
   },
   {
     "vnum": "11265",
-    "name": "Zbroja P�ytowa Z �usek+5",
+    "name": "Zbroja Płytowa Z Łusek+5",
     "icon": "../assets/item-icons/item/11260.png"
   },
   {
     "vnum": "11266",
-    "name": "Zbroja P�ytowa Z �usek+6",
+    "name": "Zbroja Płytowa Z Łusek+6",
     "icon": "../assets/item-icons/item/11260.png"
   },
   {
     "vnum": "11267",
-    "name": "Zbroja P�ytowa Z �usek+7",
+    "name": "Zbroja Płytowa Z Łusek+7",
     "icon": "../assets/item-icons/item/11260.png"
   },
   {
     "vnum": "11268",
-    "name": "Zbroja P�ytowa Z �usek+8",
+    "name": "Zbroja Płytowa Z Łusek+8",
     "icon": "../assets/item-icons/item/11260.png"
   },
   {
     "vnum": "11269",
-    "name": "Zbroja P�ytowa Z �usek+9",
+    "name": "Zbroja Płytowa Z Łusek+9",
     "icon": "../assets/item-icons/item/11260.png"
   },
   {
     "vnum": "11270",
-    "name": "Z�ota Zbroja P�ytowa+0",
+    "name": "Złota Zbroja Płytowa+0",
     "icon": "../assets/item-icons/item/11270.png"
   },
   {
     "vnum": "11271",
-    "name": "Z�ota Zbroja P�ytowa+1",
+    "name": "Złota Zbroja Płytowa+1",
     "icon": "../assets/item-icons/item/11270.png"
   },
   {
     "vnum": "11272",
-    "name": "Z�ota Zbroja P�ytowa+2",
+    "name": "Złota Zbroja Płytowa+2",
     "icon": "../assets/item-icons/item/11270.png"
   },
   {
     "vnum": "11273",
-    "name": "Z�ota Zbroja P�ytowa+3",
+    "name": "Złota Zbroja Płytowa+3",
     "icon": "../assets/item-icons/item/11270.png"
   },
   {
     "vnum": "11274",
-    "name": "Z�ota Zbroja P�ytowa+4",
+    "name": "Złota Zbroja Płytowa+4",
     "icon": "../assets/item-icons/item/11270.png"
   },
   {
     "vnum": "11275",
-    "name": "Z�ota Zbroja P�ytowa+5",
+    "name": "Złota Zbroja Płytowa+5",
     "icon": "../assets/item-icons/item/11270.png"
   },
   {
     "vnum": "11276",
-    "name": "Z�ota Zbroja P�ytowa+6",
+    "name": "Złota Zbroja Płytowa+6",
     "icon": "../assets/item-icons/item/11270.png"
   },
   {
     "vnum": "11277",
-    "name": "Z�ota Zbroja P�ytowa+7",
+    "name": "Złota Zbroja Płytowa+7",
     "icon": "../assets/item-icons/item/11270.png"
   },
   {
     "vnum": "11278",
-    "name": "Z�ota Zbroja P�ytowa+8",
+    "name": "Złota Zbroja Płytowa+8",
     "icon": "../assets/item-icons/item/11270.png"
   },
   {
     "vnum": "11279",
-    "name": "Z�ota Zbroja P�ytowa+9",
+    "name": "Złota Zbroja Płytowa+9",
     "icon": "../assets/item-icons/item/11270.png"
   },
   {
     "vnum": "11280",
-    "name": "Zbroja Boga Smok�w+0",
+    "name": "Zbroja Boga Smoków+0",
     "icon": "../assets/item-icons/item/11280.png"
   },
   {
     "vnum": "11281",
-    "name": "Zbroja Boga Smok�w+1",
+    "name": "Zbroja Boga Smoków+1",
     "icon": "../assets/item-icons/item/11280.png"
   },
   {
     "vnum": "11282",
-    "name": "Zbroja Boga Smok�w+2",
+    "name": "Zbroja Boga Smoków+2",
     "icon": "../assets/item-icons/item/11280.png"
   },
   {
     "vnum": "11283",
-    "name": "Zbroja Boga Smok�w+3",
+    "name": "Zbroja Boga Smoków+3",
     "icon": "../assets/item-icons/item/11280.png"
   },
   {
     "vnum": "11284",
-    "name": "Zbroja Boga Smok�w+4",
+    "name": "Zbroja Boga Smoków+4",
     "icon": "../assets/item-icons/item/11280.png"
   },
   {
     "vnum": "11285",
-    "name": "Zbroja Boga Smok�w+5",
+    "name": "Zbroja Boga Smoków+5",
     "icon": "../assets/item-icons/item/11280.png"
   },
   {
     "vnum": "11286",
-    "name": "Zbroja Boga Smok�w+6",
+    "name": "Zbroja Boga Smoków+6",
     "icon": "../assets/item-icons/item/11280.png"
   },
   {
     "vnum": "11287",
-    "name": "Zbroja Boga Smok�w+7",
+    "name": "Zbroja Boga Smoków+7",
     "icon": "../assets/item-icons/item/11280.png"
   },
   {
     "vnum": "11288",
-    "name": "Zbroja Boga Smok�w+8",
+    "name": "Zbroja Boga Smoków+8",
     "icon": "../assets/item-icons/item/11280.png"
   },
   {
     "vnum": "11289",
-    "name": "Zbroja Boga Smok�w+9",
+    "name": "Zbroja Boga Smoków+9",
     "icon": "../assets/item-icons/item/11280.png"
   },
   {
@@ -7848,22 +7849,22 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "11300",
-    "name": "Ci�gliwo��",
+    "name": "Ciągliwość",
     "icon": "../assets/item-icons/11300.png"
   },
   {
     "vnum": "11301",
-    "name": "Ci�gliwo��",
+    "name": "Ciągliwość",
     "icon": "../assets/item-icons/11301.png"
   },
   {
     "vnum": "11302",
-    "name": "Dobra Wytrzyma�o��",
+    "name": "Dobra Wytrzymałość",
     "icon": "../assets/item-icons/11302.png"
   },
   {
     "vnum": "11303",
-    "name": "S�aba Zbroja",
+    "name": "Słaba Zbroja",
     "icon": "../assets/item-icons/11303.png"
   },
   {
@@ -7878,72 +7879,72 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "11306",
-    "name": "�o�nierze",
+    "name": "Żołnierze",
     "icon": "../assets/item-icons/11306.png"
   },
   {
     "vnum": "11307",
-    "name": "Pierwszorz�dne Buty",
+    "name": "Pierwszorzędne Buty",
     "icon": "../assets/item-icons/11307.png"
   },
   {
     "vnum": "11308",
-    "name": "Wytrzyma�o�� Wroga",
+    "name": "Wytrzymałość Wroga",
     "icon": "../assets/item-icons/11308.png"
   },
   {
     "vnum": "11309",
-    "name": "Inna Wroga Wytrzyma�o��",
+    "name": "Inna Wroga Wytrzymałość",
     "icon": "../assets/item-icons/11309.png"
   },
   {
     "vnum": "11400",
-    "name": "B��kitne Ubranie+0",
+    "name": "Błękitne Ubranie+0",
     "icon": "../assets/item-icons/item/11400.png"
   },
   {
     "vnum": "11401",
-    "name": "B��kitne Ubranie+1",
+    "name": "Błękitne Ubranie+1",
     "icon": "../assets/item-icons/item/11400.png"
   },
   {
     "vnum": "11402",
-    "name": "B��kitne Ubranie+2",
+    "name": "Błękitne Ubranie+2",
     "icon": "../assets/item-icons/item/11400.png"
   },
   {
     "vnum": "11403",
-    "name": "B��kitne Ubranie+3",
+    "name": "Błękitne Ubranie+3",
     "icon": "../assets/item-icons/item/11400.png"
   },
   {
     "vnum": "11404",
-    "name": "B��kitne Ubranie+4",
+    "name": "Błękitne Ubranie+4",
     "icon": "../assets/item-icons/item/11400.png"
   },
   {
     "vnum": "11405",
-    "name": "B��kitne Ubranie+5",
+    "name": "Błękitne Ubranie+5",
     "icon": "../assets/item-icons/item/11400.png"
   },
   {
     "vnum": "11406",
-    "name": "B��kitne Ubranie+6",
+    "name": "Błękitne Ubranie+6",
     "icon": "../assets/item-icons/item/11400.png"
   },
   {
     "vnum": "11407",
-    "name": "B��kitne Ubranie+7",
+    "name": "Błękitne Ubranie+7",
     "icon": "../assets/item-icons/item/11400.png"
   },
   {
     "vnum": "11408",
-    "name": "B��kitne Ubranie+8",
+    "name": "Błękitne Ubranie+8",
     "icon": "../assets/item-icons/item/11400.png"
   },
   {
     "vnum": "11409",
-    "name": "B��kitne Ubranie+9",
+    "name": "Błękitne Ubranie+9",
     "icon": "../assets/item-icons/item/11400.png"
   },
   {
@@ -8048,252 +8049,252 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "11430",
-    "name": "Czer. Ubranie Mr�wki+0",
+    "name": "Czer. Ubranie Mrówki+0",
     "icon": "../assets/item-icons/item/11430.png"
   },
   {
     "vnum": "11431",
-    "name": "Czer. Ubranie Mr�wki+1",
+    "name": "Czer. Ubranie Mrówki+1",
     "icon": "../assets/item-icons/item/11430.png"
   },
   {
     "vnum": "11432",
-    "name": "Czer. Ubranie Mr�wki+2",
+    "name": "Czer. Ubranie Mrówki+2",
     "icon": "../assets/item-icons/item/11430.png"
   },
   {
     "vnum": "11433",
-    "name": "Czer. Ubranie Mr�wki+3",
+    "name": "Czer. Ubranie Mrówki+3",
     "icon": "../assets/item-icons/item/11430.png"
   },
   {
     "vnum": "11434",
-    "name": "Czer. Ubranie Mr�wki+4",
+    "name": "Czer. Ubranie Mrówki+4",
     "icon": "../assets/item-icons/item/11430.png"
   },
   {
     "vnum": "11435",
-    "name": "Czer. Ubranie Mr�wki+5",
+    "name": "Czer. Ubranie Mrówki+5",
     "icon": "../assets/item-icons/item/11430.png"
   },
   {
     "vnum": "11436",
-    "name": "Czer. Ubranie Mr�wki+6",
+    "name": "Czer. Ubranie Mrówki+6",
     "icon": "../assets/item-icons/item/11430.png"
   },
   {
     "vnum": "11437",
-    "name": "Czer. Ubranie Mr�wki+7",
+    "name": "Czer. Ubranie Mrówki+7",
     "icon": "../assets/item-icons/item/11430.png"
   },
   {
     "vnum": "11438",
-    "name": "Czer. Ubranie Mr�wki+8",
+    "name": "Czer. Ubranie Mrówki+8",
     "icon": "../assets/item-icons/item/11430.png"
   },
   {
     "vnum": "11439",
-    "name": "Czer. Ubranie Mr�wki+9",
+    "name": "Czer. Ubranie Mrówki+9",
     "icon": "../assets/item-icons/item/11430.png"
   },
   {
     "vnum": "11440",
-    "name": "Ubranie Lwiej Mr�wki+0",
+    "name": "Ubranie Lwiej Mrówki+0",
     "icon": "../assets/item-icons/item/11440.png"
   },
   {
     "vnum": "11441",
-    "name": "Ubranie Lwiej Mr�wki+1",
+    "name": "Ubranie Lwiej Mrówki+1",
     "icon": "../assets/item-icons/item/11440.png"
   },
   {
     "vnum": "11442",
-    "name": "Ubranie Lwiej Mr�wki+2",
+    "name": "Ubranie Lwiej Mrówki+2",
     "icon": "../assets/item-icons/item/11440.png"
   },
   {
     "vnum": "11443",
-    "name": "Ubranie Lwiej Mr�wki+3",
+    "name": "Ubranie Lwiej Mrówki+3",
     "icon": "../assets/item-icons/item/11440.png"
   },
   {
     "vnum": "11444",
-    "name": "Ubranie Lwiej Mr�wki+4",
+    "name": "Ubranie Lwiej Mrówki+4",
     "icon": "../assets/item-icons/item/11440.png"
   },
   {
     "vnum": "11445",
-    "name": "Ubranie Lwiej Mr�wki+5",
+    "name": "Ubranie Lwiej Mrówki+5",
     "icon": "../assets/item-icons/item/11440.png"
   },
   {
     "vnum": "11446",
-    "name": "Ubranie Lwiej Mr�wki+6",
+    "name": "Ubranie Lwiej Mrówki+6",
     "icon": "../assets/item-icons/item/11440.png"
   },
   {
     "vnum": "11447",
-    "name": "Ubranie Lwiej Mr�wki+7",
+    "name": "Ubranie Lwiej Mrówki+7",
     "icon": "../assets/item-icons/item/11440.png"
   },
   {
     "vnum": "11448",
-    "name": "Ubranie Lwiej Mr�wki+8",
+    "name": "Ubranie Lwiej Mrówki+8",
     "icon": "../assets/item-icons/item/11440.png"
   },
   {
     "vnum": "11449",
-    "name": "Ubranie Lwiej Mr�wki+9",
+    "name": "Ubranie Lwiej Mrówki+9",
     "icon": "../assets/item-icons/item/11440.png"
   },
   {
     "vnum": "11450",
-    "name": "Ubranie Zab�jcy+0",
+    "name": "Ubranie Zabójcy+0",
     "icon": "../assets/item-icons/item/11450.png"
   },
   {
     "vnum": "11451",
-    "name": "Ubranie Zab�jcy+1",
+    "name": "Ubranie Zabójcy+1",
     "icon": "../assets/item-icons/item/11450.png"
   },
   {
     "vnum": "11452",
-    "name": "Ubranie Zab�jcy+2",
+    "name": "Ubranie Zabójcy+2",
     "icon": "../assets/item-icons/item/11450.png"
   },
   {
     "vnum": "11453",
-    "name": "Ubranie Zab�jcy+3",
+    "name": "Ubranie Zabójcy+3",
     "icon": "../assets/item-icons/item/11450.png"
   },
   {
     "vnum": "11454",
-    "name": "Ubranie Zab�jcy+4",
+    "name": "Ubranie Zabójcy+4",
     "icon": "../assets/item-icons/item/11450.png"
   },
   {
     "vnum": "11455",
-    "name": "Ubranie Zab�jcy+5",
+    "name": "Ubranie Zabójcy+5",
     "icon": "../assets/item-icons/item/11450.png"
   },
   {
     "vnum": "11456",
-    "name": "Ubranie Zab�jcy+6",
+    "name": "Ubranie Zabójcy+6",
     "icon": "../assets/item-icons/item/11450.png"
   },
   {
     "vnum": "11457",
-    "name": "Ubranie Zab�jcy+7",
+    "name": "Ubranie Zabójcy+7",
     "icon": "../assets/item-icons/item/11450.png"
   },
   {
     "vnum": "11458",
-    "name": "Ubranie Zab�jcy+8",
+    "name": "Ubranie Zabójcy+8",
     "icon": "../assets/item-icons/item/11450.png"
   },
   {
     "vnum": "11459",
-    "name": "Ubranie Zab�jcy+9",
+    "name": "Ubranie Zabójcy+9",
     "icon": "../assets/item-icons/item/11450.png"
   },
   {
     "vnum": "11460",
-    "name": "Ubranie M�odego Smoka+0",
+    "name": "Ubranie Młodego Smoka+0",
     "icon": "../assets/item-icons/item/11460.png"
   },
   {
     "vnum": "11461",
-    "name": "Ubranie M�odego Smoka+1",
+    "name": "Ubranie Młodego Smoka+1",
     "icon": "../assets/item-icons/item/11460.png"
   },
   {
     "vnum": "11462",
-    "name": "Ubranie M�odego Smoka+2",
+    "name": "Ubranie Młodego Smoka+2",
     "icon": "../assets/item-icons/item/11460.png"
   },
   {
     "vnum": "11463",
-    "name": "Ubranie M�odego Smoka+3",
+    "name": "Ubranie Młodego Smoka+3",
     "icon": "../assets/item-icons/item/11460.png"
   },
   {
     "vnum": "11464",
-    "name": "Ubranie M�odego Smoka+4",
+    "name": "Ubranie Młodego Smoka+4",
     "icon": "../assets/item-icons/item/11460.png"
   },
   {
     "vnum": "11465",
-    "name": "Ubranie M�odego Smoka+5",
+    "name": "Ubranie Młodego Smoka+5",
     "icon": "../assets/item-icons/item/11460.png"
   },
   {
     "vnum": "11466",
-    "name": "Ubranie M�odego Smoka+6",
+    "name": "Ubranie Młodego Smoka+6",
     "icon": "../assets/item-icons/item/11460.png"
   },
   {
     "vnum": "11467",
-    "name": "Ubranie M�odego Smoka+7",
+    "name": "Ubranie Młodego Smoka+7",
     "icon": "../assets/item-icons/item/11460.png"
   },
   {
     "vnum": "11468",
-    "name": "Ubranie M�odego Smoka+8",
+    "name": "Ubranie Młodego Smoka+8",
     "icon": "../assets/item-icons/item/11460.png"
   },
   {
     "vnum": "11469",
-    "name": "Ubranie M�odego Smoka+9",
+    "name": "Ubranie Młodego Smoka+9",
     "icon": "../assets/item-icons/item/11460.png"
   },
   {
     "vnum": "11470",
-    "name": "Ubranie Zab�j. Wiatru+0",
+    "name": "Ubranie Zabój. Wiatru+0",
     "icon": "../assets/item-icons/item/11470.png"
   },
   {
     "vnum": "11471",
-    "name": "Ubranie Zab�j. Wiatru+1",
+    "name": "Ubranie Zabój. Wiatru+1",
     "icon": "../assets/item-icons/item/11470.png"
   },
   {
     "vnum": "11472",
-    "name": "Ubranie Zab�j. Wiatru+2",
+    "name": "Ubranie Zabój. Wiatru+2",
     "icon": "../assets/item-icons/item/11470.png"
   },
   {
     "vnum": "11473",
-    "name": "Ubranie Zab�j. Wiatru+3",
+    "name": "Ubranie Zabój. Wiatru+3",
     "icon": "../assets/item-icons/item/11470.png"
   },
   {
     "vnum": "11474",
-    "name": "Ubranie Zab�j. Wiatru+4",
+    "name": "Ubranie Zabój. Wiatru+4",
     "icon": "../assets/item-icons/item/11470.png"
   },
   {
     "vnum": "11475",
-    "name": "Ubranie Zab�j. Wiatru+5",
+    "name": "Ubranie Zabój. Wiatru+5",
     "icon": "../assets/item-icons/item/11470.png"
   },
   {
     "vnum": "11476",
-    "name": "Ubranie Zab�j. Wiatru+6",
+    "name": "Ubranie Zabój. Wiatru+6",
     "icon": "../assets/item-icons/item/11470.png"
   },
   {
     "vnum": "11477",
-    "name": "Ubranie Zab�j. Wiatru+7",
+    "name": "Ubranie Zabój. Wiatru+7",
     "icon": "../assets/item-icons/item/11470.png"
   },
   {
     "vnum": "11478",
-    "name": "Ubranie Zab�j. Wiatru+8",
+    "name": "Ubranie Zabój. Wiatru+8",
     "icon": "../assets/item-icons/item/11470.png"
   },
   {
     "vnum": "11479",
-    "name": "Ubranie Zab�j. Wiatru+9",
+    "name": "Ubranie Zabój. Wiatru+9",
     "icon": "../assets/item-icons/item/11470.png"
   },
   {
@@ -8448,352 +8449,352 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "11600",
-    "name": "�a�obna Zbr. P�yt.+0",
+    "name": "Żałobna Zbr. Płyt.+0",
     "icon": "../assets/item-icons/item/11600.png"
   },
   {
     "vnum": "11601",
-    "name": "�a�obna Zbr. P�yt.+1",
+    "name": "Żałobna Zbr. Płyt.+1",
     "icon": "../assets/item-icons/item/11600.png"
   },
   {
     "vnum": "11602",
-    "name": "�a�obna Zbr. P�yt.+2",
+    "name": "Żałobna Zbr. Płyt.+2",
     "icon": "../assets/item-icons/item/11600.png"
   },
   {
     "vnum": "11603",
-    "name": "�a�obna Zbr. P�yt.+3",
+    "name": "Żałobna Zbr. Płyt.+3",
     "icon": "../assets/item-icons/item/11600.png"
   },
   {
     "vnum": "11604",
-    "name": "�a�obna Zbr. P�yt.+4",
+    "name": "Żałobna Zbr. Płyt.+4",
     "icon": "../assets/item-icons/item/11600.png"
   },
   {
     "vnum": "11605",
-    "name": "�a�obna Zbr. P�yt.+5",
+    "name": "Żałobna Zbr. Płyt.+5",
     "icon": "../assets/item-icons/item/11600.png"
   },
   {
     "vnum": "11606",
-    "name": "�a�obna Zbr. P�yt.+6",
+    "name": "Żałobna Zbr. Płyt.+6",
     "icon": "../assets/item-icons/item/11600.png"
   },
   {
     "vnum": "11607",
-    "name": "�a�obna Zbr. P�yt.+7",
+    "name": "Żałobna Zbr. Płyt.+7",
     "icon": "../assets/item-icons/item/11600.png"
   },
   {
     "vnum": "11608",
-    "name": "�a�obna Zbr. P�yt.+8",
+    "name": "Żałobna Zbr. Płyt.+8",
     "icon": "../assets/item-icons/item/11600.png"
   },
   {
     "vnum": "11609",
-    "name": "�a�obna Zbr. P�yt.+9",
+    "name": "Żałobna Zbr. Płyt.+9",
     "icon": "../assets/item-icons/item/11600.png"
   },
   {
     "vnum": "11610",
-    "name": "Burzowa Zbroj. P�yt.+0",
+    "name": "Burzowa Zbroj. Płyt.+0",
     "icon": "../assets/item-icons/item/11610.png"
   },
   {
     "vnum": "11611",
-    "name": "Burzowa Zbroj. P�yt.+1",
+    "name": "Burzowa Zbroj. Płyt.+1",
     "icon": "../assets/item-icons/item/11610.png"
   },
   {
     "vnum": "11612",
-    "name": "Burzowa Zbroj. P�yt.+2",
+    "name": "Burzowa Zbroj. Płyt.+2",
     "icon": "../assets/item-icons/item/11610.png"
   },
   {
     "vnum": "11613",
-    "name": "Burzowa Zbroj. P�yt.+3",
+    "name": "Burzowa Zbroj. Płyt.+3",
     "icon": "../assets/item-icons/item/11610.png"
   },
   {
     "vnum": "11614",
-    "name": "Burzowa Zbroj. P�yt.+4",
+    "name": "Burzowa Zbroj. Płyt.+4",
     "icon": "../assets/item-icons/item/11610.png"
   },
   {
     "vnum": "11615",
-    "name": "Burzowa Zbroj. P�yt.+5",
+    "name": "Burzowa Zbroj. Płyt.+5",
     "icon": "../assets/item-icons/item/11610.png"
   },
   {
     "vnum": "11616",
-    "name": "Burzowa Zbroj. P�yt.+6",
+    "name": "Burzowa Zbroj. Płyt.+6",
     "icon": "../assets/item-icons/item/11610.png"
   },
   {
     "vnum": "11617",
-    "name": "Burzowa Zbroj. P�yt.+7",
+    "name": "Burzowa Zbroj. Płyt.+7",
     "icon": "../assets/item-icons/item/11610.png"
   },
   {
     "vnum": "11618",
-    "name": "Burzowa Zbroj. P�yt.+8",
+    "name": "Burzowa Zbroj. Płyt.+8",
     "icon": "../assets/item-icons/item/11610.png"
   },
   {
     "vnum": "11619",
-    "name": "Burzowa Zbroj. P�yt.+9",
+    "name": "Burzowa Zbroj. Płyt.+9",
     "icon": "../assets/item-icons/item/11610.png"
   },
   {
     "vnum": "11620",
-    "name": "Nieszcz�sna Zbr. P�yt.+0",
+    "name": "Nieszczęsna Zbr. Płyt.+0",
     "icon": "../assets/item-icons/item/11620.png"
   },
   {
     "vnum": "11621",
-    "name": "Nieszcz�sna Zbr. P�yt.+1",
+    "name": "Nieszczęsna Zbr. Płyt.+1",
     "icon": "../assets/item-icons/item/11620.png"
   },
   {
     "vnum": "11622",
-    "name": "Nieszcz�sna Zbr. P�yt.+2",
+    "name": "Nieszczęsna Zbr. Płyt.+2",
     "icon": "../assets/item-icons/item/11620.png"
   },
   {
     "vnum": "11623",
-    "name": "Nieszcz�sna Zbr. P�yt.+3",
+    "name": "Nieszczęsna Zbr. Płyt.+3",
     "icon": "../assets/item-icons/item/11620.png"
   },
   {
     "vnum": "11624",
-    "name": "Nieszcz�sna Zbr. P�yt.+4",
+    "name": "Nieszczęsna Zbr. Płyt.+4",
     "icon": "../assets/item-icons/item/11620.png"
   },
   {
     "vnum": "11625",
-    "name": "Nieszcz�sna Zbr. P�yt.+5",
+    "name": "Nieszczęsna Zbr. Płyt.+5",
     "icon": "../assets/item-icons/item/11620.png"
   },
   {
     "vnum": "11626",
-    "name": "Nieszcz�sna Zbr. P�yt.+6",
+    "name": "Nieszczęsna Zbr. Płyt.+6",
     "icon": "../assets/item-icons/item/11620.png"
   },
   {
     "vnum": "11627",
-    "name": "Nieszcz�sna Zbr. P�yt.+7",
+    "name": "Nieszczęsna Zbr. Płyt.+7",
     "icon": "../assets/item-icons/item/11620.png"
   },
   {
     "vnum": "11628",
-    "name": "Nieszcz�sna Zbr. P�yt.+8",
+    "name": "Nieszczęsna Zbr. Płyt.+8",
     "icon": "../assets/item-icons/item/11620.png"
   },
   {
     "vnum": "11629",
-    "name": "Nieszcz�sna Zbr. P�yt.+9",
+    "name": "Nieszczęsna Zbr. Płyt.+9",
     "icon": "../assets/item-icons/item/11620.png"
   },
   {
     "vnum": "11630",
-    "name": "Upiorna Zbroja P�yt.+0",
+    "name": "Upiorna Zbroja Płyt.+0",
     "icon": "../assets/item-icons/item/11630.png"
   },
   {
     "vnum": "11631",
-    "name": "Upiorna Zbroja P�yt.+1",
+    "name": "Upiorna Zbroja Płyt.+1",
     "icon": "../assets/item-icons/item/11630.png"
   },
   {
     "vnum": "11632",
-    "name": "Upiorna Zbroja P�yt.+2",
+    "name": "Upiorna Zbroja Płyt.+2",
     "icon": "../assets/item-icons/item/11630.png"
   },
   {
     "vnum": "11633",
-    "name": "Upiorna Zbroja P�yt.+3",
+    "name": "Upiorna Zbroja Płyt.+3",
     "icon": "../assets/item-icons/item/11630.png"
   },
   {
     "vnum": "11634",
-    "name": "Upiorna Zbroja P�yt.+4",
+    "name": "Upiorna Zbroja Płyt.+4",
     "icon": "../assets/item-icons/item/11630.png"
   },
   {
     "vnum": "11635",
-    "name": "Upiorna Zbroja P�yt.+5",
+    "name": "Upiorna Zbroja Płyt.+5",
     "icon": "../assets/item-icons/item/11630.png"
   },
   {
     "vnum": "11636",
-    "name": "Upiorna Zbroja P�yt.+6",
+    "name": "Upiorna Zbroja Płyt.+6",
     "icon": "../assets/item-icons/item/11630.png"
   },
   {
     "vnum": "11637",
-    "name": "Upiorna Zbroja P�yt.+7",
+    "name": "Upiorna Zbroja Płyt.+7",
     "icon": "../assets/item-icons/item/11630.png"
   },
   {
     "vnum": "11638",
-    "name": "Upiorna Zbroja P�yt.+8",
+    "name": "Upiorna Zbroja Płyt.+8",
     "icon": "../assets/item-icons/item/11630.png"
   },
   {
     "vnum": "11639",
-    "name": "Upiorna Zbroja P�yt.+9",
+    "name": "Upiorna Zbroja Płyt.+9",
     "icon": "../assets/item-icons/item/11630.png"
   },
   {
     "vnum": "11640",
-    "name": "Zbroja P�yt. Yin-Yang+0",
+    "name": "Zbroja Płyt. Yin-Yang+0",
     "icon": "../assets/item-icons/item/11640.png"
   },
   {
     "vnum": "11641",
-    "name": "Zbroja P�yt. Yin-Yang+1",
+    "name": "Zbroja Płyt. Yin-Yang+1",
     "icon": "../assets/item-icons/item/11640.png"
   },
   {
     "vnum": "11642",
-    "name": "Zbroja P�yt. Yin-Yang+2",
+    "name": "Zbroja Płyt. Yin-Yang+2",
     "icon": "../assets/item-icons/item/11640.png"
   },
   {
     "vnum": "11643",
-    "name": "Zbroja P�yt. Yin-Yang+3",
+    "name": "Zbroja Płyt. Yin-Yang+3",
     "icon": "../assets/item-icons/item/11640.png"
   },
   {
     "vnum": "11644",
-    "name": "Zbroja P�yt. Yin-Yang+4",
+    "name": "Zbroja Płyt. Yin-Yang+4",
     "icon": "../assets/item-icons/item/11640.png"
   },
   {
     "vnum": "11645",
-    "name": "Zbroja P�yt. Yin-Yang+5",
+    "name": "Zbroja Płyt. Yin-Yang+5",
     "icon": "../assets/item-icons/item/11640.png"
   },
   {
     "vnum": "11646",
-    "name": "Zbroja P�yt. Yin-Yang+6",
+    "name": "Zbroja Płyt. Yin-Yang+6",
     "icon": "../assets/item-icons/item/11640.png"
   },
   {
     "vnum": "11647",
-    "name": "Zbroja P�yt. Yin-Yang+7",
+    "name": "Zbroja Płyt. Yin-Yang+7",
     "icon": "../assets/item-icons/item/11640.png"
   },
   {
     "vnum": "11648",
-    "name": "Zbroja P�yt. Yin-Yang+8",
+    "name": "Zbroja Płyt. Yin-Yang+8",
     "icon": "../assets/item-icons/item/11640.png"
   },
   {
     "vnum": "11649",
-    "name": "Zbroja P�yt. Yin-Yang+9",
+    "name": "Zbroja Płyt. Yin-Yang+9",
     "icon": "../assets/item-icons/item/11640.png"
   },
   {
     "vnum": "11650",
-    "name": "Mistyczna Zbroja P�yt.+0",
+    "name": "Mistyczna Zbroja Płyt.+0",
     "icon": "../assets/item-icons/item/11650.png"
   },
   {
     "vnum": "11651",
-    "name": "Mistyczna Zbroja P�yt.+1",
+    "name": "Mistyczna Zbroja Płyt.+1",
     "icon": "../assets/item-icons/item/11650.png"
   },
   {
     "vnum": "11652",
-    "name": "Mistyczna Zbroja P�yt.+2",
+    "name": "Mistyczna Zbroja Płyt.+2",
     "icon": "../assets/item-icons/item/11650.png"
   },
   {
     "vnum": "11653",
-    "name": "Mistyczna Zbroja P�yt.+3",
+    "name": "Mistyczna Zbroja Płyt.+3",
     "icon": "../assets/item-icons/item/11650.png"
   },
   {
     "vnum": "11654",
-    "name": "Mistyczna Zbroja P�yt.+4",
+    "name": "Mistyczna Zbroja Płyt.+4",
     "icon": "../assets/item-icons/item/11650.png"
   },
   {
     "vnum": "11655",
-    "name": "Mistyczna Zbroja P�yt.+5",
+    "name": "Mistyczna Zbroja Płyt.+5",
     "icon": "../assets/item-icons/item/11650.png"
   },
   {
     "vnum": "11656",
-    "name": "Mistyczna Zbroja P�yt.+6",
+    "name": "Mistyczna Zbroja Płyt.+6",
     "icon": "../assets/item-icons/item/11650.png"
   },
   {
     "vnum": "11657",
-    "name": "Mistyczna Zbroja P�yt.+7",
+    "name": "Mistyczna Zbroja Płyt.+7",
     "icon": "../assets/item-icons/item/11650.png"
   },
   {
     "vnum": "11658",
-    "name": "Mistyczna Zbroja P�yt.+8",
+    "name": "Mistyczna Zbroja Płyt.+8",
     "icon": "../assets/item-icons/item/11650.png"
   },
   {
     "vnum": "11659",
-    "name": "Mistyczna Zbroja P�yt.+9",
+    "name": "Mistyczna Zbroja Płyt.+9",
     "icon": "../assets/item-icons/item/11650.png"
   },
   {
     "vnum": "11660",
-    "name": "Mglista Zbroja P�yt.+0",
+    "name": "Mglista Zbroja Płyt.+0",
     "icon": "../assets/item-icons/item/11660.png"
   },
   {
     "vnum": "11661",
-    "name": "Mglista Zbroja P�yt.+1",
+    "name": "Mglista Zbroja Płyt.+1",
     "icon": "../assets/item-icons/item/11660.png"
   },
   {
     "vnum": "11662",
-    "name": "Mglista Zbroja P�yt.+2",
+    "name": "Mglista Zbroja Płyt.+2",
     "icon": "../assets/item-icons/item/11660.png"
   },
   {
     "vnum": "11663",
-    "name": "Mglista Zbroja P�yt.+3",
+    "name": "Mglista Zbroja Płyt.+3",
     "icon": "../assets/item-icons/item/11660.png"
   },
   {
     "vnum": "11664",
-    "name": "Mglista Zbroja P�yt.+4",
+    "name": "Mglista Zbroja Płyt.+4",
     "icon": "../assets/item-icons/item/11660.png"
   },
   {
     "vnum": "11665",
-    "name": "Mglista Zbroja P�yt.+5",
+    "name": "Mglista Zbroja Płyt.+5",
     "icon": "../assets/item-icons/item/11660.png"
   },
   {
     "vnum": "11666",
-    "name": "Mglista Zbroja P�yt.+6",
+    "name": "Mglista Zbroja Płyt.+6",
     "icon": "../assets/item-icons/item/11660.png"
   },
   {
     "vnum": "11667",
-    "name": "Mglista Zbroja P�yt.+7",
+    "name": "Mglista Zbroja Płyt.+7",
     "icon": "../assets/item-icons/item/11660.png"
   },
   {
     "vnum": "11668",
-    "name": "Mglista Zbroja P�yt.+8",
+    "name": "Mglista Zbroja Płyt.+8",
     "icon": "../assets/item-icons/item/11660.png"
   },
   {
     "vnum": "11669",
-    "name": "Mglista Zbroja P�yt.+9",
+    "name": "Mglista Zbroja Płyt.+9",
     "icon": "../assets/item-icons/item/11660.png"
   },
   {
@@ -8848,102 +8849,102 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "11680",
-    "name": "Duchowa Zbroja P�yt.+0",
+    "name": "Duchowa Zbroja Płyt.+0",
     "icon": "../assets/item-icons/item/11680.png"
   },
   {
     "vnum": "11681",
-    "name": "Duchowa Zbroja P�yt.+1",
+    "name": "Duchowa Zbroja Płyt.+1",
     "icon": "../assets/item-icons/item/11680.png"
   },
   {
     "vnum": "11682",
-    "name": "Duchowa Zbroja P�yt.+2",
+    "name": "Duchowa Zbroja Płyt.+2",
     "icon": "../assets/item-icons/item/11680.png"
   },
   {
     "vnum": "11683",
-    "name": "Duchowa Zbroja P�yt.+3",
+    "name": "Duchowa Zbroja Płyt.+3",
     "icon": "../assets/item-icons/item/11680.png"
   },
   {
     "vnum": "11684",
-    "name": "Duchowa Zbroja P�yt.+4",
+    "name": "Duchowa Zbroja Płyt.+4",
     "icon": "../assets/item-icons/item/11680.png"
   },
   {
     "vnum": "11685",
-    "name": "Duchowa Zbroja P�yt.+5",
+    "name": "Duchowa Zbroja Płyt.+5",
     "icon": "../assets/item-icons/item/11680.png"
   },
   {
     "vnum": "11686",
-    "name": "Duchowa Zbroja P�yt.+6",
+    "name": "Duchowa Zbroja Płyt.+6",
     "icon": "../assets/item-icons/item/11680.png"
   },
   {
     "vnum": "11687",
-    "name": "Duchowa Zbroja P�yt.+7",
+    "name": "Duchowa Zbroja Płyt.+7",
     "icon": "../assets/item-icons/item/11680.png"
   },
   {
     "vnum": "11688",
-    "name": "Duchowa Zbroja P�yt.+8",
+    "name": "Duchowa Zbroja Płyt.+8",
     "icon": "../assets/item-icons/item/11680.png"
   },
   {
     "vnum": "11689",
-    "name": "Duchowa Zbroja P�yt.+9",
+    "name": "Duchowa Zbroja Płyt.+9",
     "icon": "../assets/item-icons/item/11680.png"
   },
   {
     "vnum": "11690",
-    "name": "Zbr. P�yt. Czar. Magii+0",
+    "name": "Zbr. Płyt. Czar. Magii+0",
     "icon": "../assets/item-icons/item/11690.png"
   },
   {
     "vnum": "11691",
-    "name": "Zbr. P�yt. Czar. Magii+1",
+    "name": "Zbr. Płyt. Czar. Magii+1",
     "icon": "../assets/item-icons/item/11690.png"
   },
   {
     "vnum": "11692",
-    "name": "Zbr. P�yt. Czar. Magii+2",
+    "name": "Zbr. Płyt. Czar. Magii+2",
     "icon": "../assets/item-icons/item/11690.png"
   },
   {
     "vnum": "11693",
-    "name": "Zbr. P�yt. Czar. Magii+3",
+    "name": "Zbr. Płyt. Czar. Magii+3",
     "icon": "../assets/item-icons/item/11690.png"
   },
   {
     "vnum": "11694",
-    "name": "Zbr. P�yt. Czar. Magii+4",
+    "name": "Zbr. Płyt. Czar. Magii+4",
     "icon": "../assets/item-icons/item/11690.png"
   },
   {
     "vnum": "11695",
-    "name": "Zbr. P�yt. Czar. Magii+5",
+    "name": "Zbr. Płyt. Czar. Magii+5",
     "icon": "../assets/item-icons/item/11690.png"
   },
   {
     "vnum": "11696",
-    "name": "Zbr. P�yt. Czar. Magii+6",
+    "name": "Zbr. Płyt. Czar. Magii+6",
     "icon": "../assets/item-icons/item/11690.png"
   },
   {
     "vnum": "11697",
-    "name": "Zbr. P�yt. Czar. Magii+7",
+    "name": "Zbr. Płyt. Czar. Magii+7",
     "icon": "../assets/item-icons/item/11690.png"
   },
   {
     "vnum": "11698",
-    "name": "Zbr. P�yt. Czar. Magii+8",
+    "name": "Zbr. Płyt. Czar. Magii+8",
     "icon": "../assets/item-icons/item/11690.png"
   },
   {
     "vnum": "11699",
-    "name": "Zbr. P�yt. Czar. Magii+9",
+    "name": "Zbr. Płyt. Czar. Magii+9",
     "icon": "../assets/item-icons/item/11690.png"
   },
   {
@@ -8998,52 +8999,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "11800",
-    "name": "B��kitna Szata+0",
+    "name": "Błękitna Szata+0",
     "icon": "../assets/item-icons/item/11800.png"
   },
   {
     "vnum": "11801",
-    "name": "B��kitna Szata+1",
+    "name": "Błękitna Szata+1",
     "icon": "../assets/item-icons/item/11800.png"
   },
   {
     "vnum": "11802",
-    "name": "B��kitna Szata+2",
+    "name": "Błękitna Szata+2",
     "icon": "../assets/item-icons/item/11800.png"
   },
   {
     "vnum": "11803",
-    "name": "B��kitna Szata+3",
+    "name": "Błękitna Szata+3",
     "icon": "../assets/item-icons/item/11800.png"
   },
   {
     "vnum": "11804",
-    "name": "B��kitna Szata+4",
+    "name": "Błękitna Szata+4",
     "icon": "../assets/item-icons/item/11800.png"
   },
   {
     "vnum": "11805",
-    "name": "B��kitna Szata+5",
+    "name": "Błękitna Szata+5",
     "icon": "../assets/item-icons/item/11800.png"
   },
   {
     "vnum": "11806",
-    "name": "B��kitna Szata+6",
+    "name": "Błękitna Szata+6",
     "icon": "../assets/item-icons/item/11800.png"
   },
   {
     "vnum": "11807",
-    "name": "B��kitna Szata+7",
+    "name": "Błękitna Szata+7",
     "icon": "../assets/item-icons/item/11800.png"
   },
   {
     "vnum": "11808",
-    "name": "B��kitna Szata+8",
+    "name": "Błękitna Szata+8",
     "icon": "../assets/item-icons/item/11800.png"
   },
   {
     "vnum": "11809",
-    "name": "B��kitna Szata+9",
+    "name": "Błękitna Szata+9",
     "icon": "../assets/item-icons/item/11800.png"
   },
   {
@@ -9098,102 +9099,102 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "11820",
-    "name": "R�owa Szata+0",
+    "name": "Różowa Szata+0",
     "icon": "../assets/item-icons/item/11820.png"
   },
   {
     "vnum": "11821",
-    "name": "R�owa Szata+1",
+    "name": "Różowa Szata+1",
     "icon": "../assets/item-icons/item/11820.png"
   },
   {
     "vnum": "11822",
-    "name": "R�owa Szata+2",
+    "name": "Różowa Szata+2",
     "icon": "../assets/item-icons/item/11820.png"
   },
   {
     "vnum": "11823",
-    "name": "R�owa Szata+3",
+    "name": "Różowa Szata+3",
     "icon": "../assets/item-icons/item/11820.png"
   },
   {
     "vnum": "11824",
-    "name": "R�owa Szata+4",
+    "name": "Różowa Szata+4",
     "icon": "../assets/item-icons/item/11820.png"
   },
   {
     "vnum": "11825",
-    "name": "R�owa Szata+5",
+    "name": "Różowa Szata+5",
     "icon": "../assets/item-icons/item/11820.png"
   },
   {
     "vnum": "11826",
-    "name": "R�owa Szata+6",
+    "name": "Różowa Szata+6",
     "icon": "../assets/item-icons/item/11820.png"
   },
   {
     "vnum": "11827",
-    "name": "R�owa Szata+7",
+    "name": "Różowa Szata+7",
     "icon": "../assets/item-icons/item/11820.png"
   },
   {
     "vnum": "11828",
-    "name": "R�owa Szata+8",
+    "name": "Różowa Szata+8",
     "icon": "../assets/item-icons/item/11820.png"
   },
   {
     "vnum": "11829",
-    "name": "R�owa Szata+9",
+    "name": "Różowa Szata+9",
     "icon": "../assets/item-icons/item/11820.png"
   },
   {
     "vnum": "11830",
-    "name": "Mi�osna Szata+0",
+    "name": "Miłosna Szata+0",
     "icon": "../assets/item-icons/item/11830.png"
   },
   {
     "vnum": "11831",
-    "name": "Mi�osna Szata+1",
+    "name": "Miłosna Szata+1",
     "icon": "../assets/item-icons/item/11830.png"
   },
   {
     "vnum": "11832",
-    "name": "Mi�osna Szata+2",
+    "name": "Miłosna Szata+2",
     "icon": "../assets/item-icons/item/11830.png"
   },
   {
     "vnum": "11833",
-    "name": "Mi�osna Szata+3",
+    "name": "Miłosna Szata+3",
     "icon": "../assets/item-icons/item/11830.png"
   },
   {
     "vnum": "11834",
-    "name": "Mi�osna Szata+4",
+    "name": "Miłosna Szata+4",
     "icon": "../assets/item-icons/item/11830.png"
   },
   {
     "vnum": "11835",
-    "name": "Mi�osna Szata+5",
+    "name": "Miłosna Szata+5",
     "icon": "../assets/item-icons/item/11830.png"
   },
   {
     "vnum": "11836",
-    "name": "Mi�osna Szata+6",
+    "name": "Miłosna Szata+6",
     "icon": "../assets/item-icons/item/11830.png"
   },
   {
     "vnum": "11837",
-    "name": "Mi�osna Szata+7",
+    "name": "Miłosna Szata+7",
     "icon": "../assets/item-icons/item/11830.png"
   },
   {
     "vnum": "11838",
-    "name": "Mi�osna Szata+8",
+    "name": "Miłosna Szata+8",
     "icon": "../assets/item-icons/item/11830.png"
   },
   {
     "vnum": "11839",
-    "name": "Mi�osna Szata+9",
+    "name": "Miłosna Szata+9",
     "icon": "../assets/item-icons/item/11830.png"
   },
   {
@@ -9248,202 +9249,202 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "11850",
-    "name": "Szata S�o�ca+0",
+    "name": "Szata Słońca+0",
     "icon": "../assets/item-icons/item/11850.png"
   },
   {
     "vnum": "11851",
-    "name": "Szata S�o�ca+1",
+    "name": "Szata Słońca+1",
     "icon": "../assets/item-icons/item/11850.png"
   },
   {
     "vnum": "11852",
-    "name": "Szata S�o�ca+2",
+    "name": "Szata Słońca+2",
     "icon": "../assets/item-icons/item/11850.png"
   },
   {
     "vnum": "11853",
-    "name": "Szata S�o�ca+3",
+    "name": "Szata Słońca+3",
     "icon": "../assets/item-icons/item/11850.png"
   },
   {
     "vnum": "11854",
-    "name": "Szata S�o�ca+4",
+    "name": "Szata Słońca+4",
     "icon": "../assets/item-icons/item/11850.png"
   },
   {
     "vnum": "11855",
-    "name": "Szata S�o�ca+5",
+    "name": "Szata Słońca+5",
     "icon": "../assets/item-icons/item/11850.png"
   },
   {
     "vnum": "11856",
-    "name": "Szata S�o�ca+6",
+    "name": "Szata Słońca+6",
     "icon": "../assets/item-icons/item/11850.png"
   },
   {
     "vnum": "11857",
-    "name": "Szata S�o�ca+7",
+    "name": "Szata Słońca+7",
     "icon": "../assets/item-icons/item/11850.png"
   },
   {
     "vnum": "11858",
-    "name": "Szata S�o�ca+8",
+    "name": "Szata Słońca+8",
     "icon": "../assets/item-icons/item/11850.png"
   },
   {
     "vnum": "11859",
-    "name": "Szata S�o�ca+9",
+    "name": "Szata Słońca+9",
     "icon": "../assets/item-icons/item/11850.png"
   },
   {
     "vnum": "11860",
-    "name": "Szata Moralno�ci+0",
+    "name": "Szata Moralności+0",
     "icon": "../assets/item-icons/item/11860.png"
   },
   {
     "vnum": "11861",
-    "name": "Szata Moralno�ci+1",
+    "name": "Szata Moralności+1",
     "icon": "../assets/item-icons/item/11860.png"
   },
   {
     "vnum": "11862",
-    "name": "Szata Moralno�ci+2",
+    "name": "Szata Moralności+2",
     "icon": "../assets/item-icons/item/11860.png"
   },
   {
     "vnum": "11863",
-    "name": "Szata Moralno�ci+3",
+    "name": "Szata Moralności+3",
     "icon": "../assets/item-icons/item/11860.png"
   },
   {
     "vnum": "11864",
-    "name": "Szata Moralno�ci+4",
+    "name": "Szata Moralności+4",
     "icon": "../assets/item-icons/item/11860.png"
   },
   {
     "vnum": "11865",
-    "name": "Szata Moralno�ci+5",
+    "name": "Szata Moralności+5",
     "icon": "../assets/item-icons/item/11860.png"
   },
   {
     "vnum": "11866",
-    "name": "Szata Moralno�ci+6",
+    "name": "Szata Moralności+6",
     "icon": "../assets/item-icons/item/11860.png"
   },
   {
     "vnum": "11867",
-    "name": "Szata Moralno�ci+7",
+    "name": "Szata Moralności+7",
     "icon": "../assets/item-icons/item/11860.png"
   },
   {
     "vnum": "11868",
-    "name": "Szata Moralno�ci+8",
+    "name": "Szata Moralności+8",
     "icon": "../assets/item-icons/item/11860.png"
   },
   {
     "vnum": "11869",
-    "name": "Szata Moralno�ci+9",
+    "name": "Szata Moralności+9",
     "icon": "../assets/item-icons/item/11860.png"
   },
   {
     "vnum": "11870",
-    "name": "Szata Pomara�. Kota+0",
+    "name": "Szata Pomarań. Kota+0",
     "icon": "../assets/item-icons/item/11870.png"
   },
   {
     "vnum": "11871",
-    "name": "Szata Pomara�. Kota+1",
+    "name": "Szata Pomarań. Kota+1",
     "icon": "../assets/item-icons/item/11870.png"
   },
   {
     "vnum": "11872",
-    "name": "Szata Pomara�. Kota+2",
+    "name": "Szata Pomarań. Kota+2",
     "icon": "../assets/item-icons/item/11870.png"
   },
   {
     "vnum": "11873",
-    "name": "Szata Pomara�. Kota+3",
+    "name": "Szata Pomarań. Kota+3",
     "icon": "../assets/item-icons/item/11870.png"
   },
   {
     "vnum": "11874",
-    "name": "Szata Pomara�. Kota+4",
+    "name": "Szata Pomarań. Kota+4",
     "icon": "../assets/item-icons/item/11870.png"
   },
   {
     "vnum": "11875",
-    "name": "Szata Pomara�. Kota+5",
+    "name": "Szata Pomarań. Kota+5",
     "icon": "../assets/item-icons/item/11870.png"
   },
   {
     "vnum": "11876",
-    "name": "Szata Pomara�. Kota+6",
+    "name": "Szata Pomarań. Kota+6",
     "icon": "../assets/item-icons/item/11870.png"
   },
   {
     "vnum": "11877",
-    "name": "Szata Pomara�. Kota+7",
+    "name": "Szata Pomarań. Kota+7",
     "icon": "../assets/item-icons/item/11870.png"
   },
   {
     "vnum": "11878",
-    "name": "Szata Pomara�. Kota+8",
+    "name": "Szata Pomarań. Kota+8",
     "icon": "../assets/item-icons/item/11870.png"
   },
   {
     "vnum": "11879",
-    "name": "Szata Pomara�. Kota+9",
+    "name": "Szata Pomarań. Kota+9",
     "icon": "../assets/item-icons/item/11870.png"
   },
   {
     "vnum": "11880",
-    "name": "Szata Baron�w+0",
+    "name": "Szata Baronów+0",
     "icon": "../assets/item-icons/item/11880.png"
   },
   {
     "vnum": "11881",
-    "name": "Szata Baron�w+1",
+    "name": "Szata Baronów+1",
     "icon": "../assets/item-icons/item/11880.png"
   },
   {
     "vnum": "11882",
-    "name": "Szata Baron�w+2",
+    "name": "Szata Baronów+2",
     "icon": "../assets/item-icons/item/11880.png"
   },
   {
     "vnum": "11883",
-    "name": "Szata Baron�w+3",
+    "name": "Szata Baronów+3",
     "icon": "../assets/item-icons/item/11880.png"
   },
   {
     "vnum": "11884",
-    "name": "Szata Baron�w+4",
+    "name": "Szata Baronów+4",
     "icon": "../assets/item-icons/item/11880.png"
   },
   {
     "vnum": "11885",
-    "name": "Szata Baron�w+5",
+    "name": "Szata Baronów+5",
     "icon": "../assets/item-icons/item/11880.png"
   },
   {
     "vnum": "11886",
-    "name": "Szata Baron�w+6",
+    "name": "Szata Baronów+6",
     "icon": "../assets/item-icons/item/11880.png"
   },
   {
     "vnum": "11887",
-    "name": "Szata Baron�w+7",
+    "name": "Szata Baronów+7",
     "icon": "../assets/item-icons/item/11880.png"
   },
   {
     "vnum": "11888",
-    "name": "Szata Baron�w+8",
+    "name": "Szata Baronów+8",
     "icon": "../assets/item-icons/item/11880.png"
   },
   {
     "vnum": "11889",
-    "name": "Szata Baron�w+9",
+    "name": "Szata Baronów+9",
     "icon": "../assets/item-icons/item/11880.png"
   },
   {
@@ -9508,12 +9509,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "11903",
-    "name": "Suknia �lubna",
+    "name": "Suknia Ślubna",
     "icon": "../assets/item-icons/item/11903.png"
   },
   {
     "vnum": "11904",
-    "name": "Suknia �lubna",
+    "name": "Suknia Ślubna",
     "icon": "../assets/item-icons/item/11903.png"
   },
   {
@@ -9528,32 +9529,32 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "11913",
-    "name": "Suknia �lubna",
+    "name": "Suknia Ślubna",
     "icon": "../assets/item-icons/item/11903.png"
   },
   {
     "vnum": "11914",
-    "name": "Suknia �lubna",
+    "name": "Suknia Ślubna",
     "icon": "../assets/item-icons/item/11903.png"
   },
   {
     "vnum": "11951",
-    "name": "Mnisia Zbr. P�ytowa",
+    "name": "Mnisia Zbr. Płytowa",
     "icon": "../assets/item-icons/item/11200.png"
   },
   {
     "vnum": "11952",
-    "name": "B��kitne Ubranie",
+    "name": "Błękitne Ubranie",
     "icon": "../assets/item-icons/item/11400.png"
   },
   {
     "vnum": "11953",
-    "name": "�a�obna Zbr. P�yt.",
+    "name": "Żałobna Zbr. Płyt.",
     "icon": "../assets/item-icons/item/11600.png"
   },
   {
     "vnum": "11954",
-    "name": "B��kitna Szata",
+    "name": "Błękitna Szata",
     "icon": "../assets/item-icons/item/11800.png"
   },
   {
@@ -9728,52 +9729,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "12030",
-    "name": "Zbroja P�ytowa Aury+0",
+    "name": "Zbroja Płytowa Aury+0",
     "icon": "../assets/item-icons/item/12010.png"
   },
   {
     "vnum": "12031",
-    "name": "Zbroja P�ytowa Aury+1",
+    "name": "Zbroja Płytowa Aury+1",
     "icon": "../assets/item-icons/item/12010.png"
   },
   {
     "vnum": "12032",
-    "name": "Zbroja P�ytowa Aury+2",
+    "name": "Zbroja Płytowa Aury+2",
     "icon": "../assets/item-icons/item/12010.png"
   },
   {
     "vnum": "12033",
-    "name": "Zbroja P�ytowa Aury+3",
+    "name": "Zbroja Płytowa Aury+3",
     "icon": "../assets/item-icons/item/12010.png"
   },
   {
     "vnum": "12034",
-    "name": "Zbroja P�ytowa Aury+4",
+    "name": "Zbroja Płytowa Aury+4",
     "icon": "../assets/item-icons/item/12010.png"
   },
   {
     "vnum": "12035",
-    "name": "Zbroja P�ytowa Aury+5",
+    "name": "Zbroja Płytowa Aury+5",
     "icon": "../assets/item-icons/item/12010.png"
   },
   {
     "vnum": "12036",
-    "name": "Zbroja P�ytowa Aury+6",
+    "name": "Zbroja Płytowa Aury+6",
     "icon": "../assets/item-icons/item/12010.png"
   },
   {
     "vnum": "12037",
-    "name": "Zbroja P�ytowa Aury+7",
+    "name": "Zbroja Płytowa Aury+7",
     "icon": "../assets/item-icons/item/12010.png"
   },
   {
     "vnum": "12038",
-    "name": "Zbroja P�ytowa Aury+8",
+    "name": "Zbroja Płytowa Aury+8",
     "icon": "../assets/item-icons/item/12010.png"
   },
   {
     "vnum": "12039",
-    "name": "Zbroja P�ytowa Aury+9",
+    "name": "Zbroja Płytowa Aury+9",
     "icon": "../assets/item-icons/item/12010.png"
   },
   {
@@ -9828,102 +9829,102 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "12200",
-    "name": "Tradycyjny He�m+0",
+    "name": "Tradycyjny Hełm+0",
     "icon": "../assets/item-icons/item/12200.png"
   },
   {
     "vnum": "12201",
-    "name": "Tradycyjny He�m+1",
+    "name": "Tradycyjny Hełm+1",
     "icon": "../assets/item-icons/item/12200.png"
   },
   {
     "vnum": "12202",
-    "name": "Tradycyjny He�m+2",
+    "name": "Tradycyjny Hełm+2",
     "icon": "../assets/item-icons/item/12200.png"
   },
   {
     "vnum": "12203",
-    "name": "Tradycyjny He�m+3",
+    "name": "Tradycyjny Hełm+3",
     "icon": "../assets/item-icons/item/12200.png"
   },
   {
     "vnum": "12204",
-    "name": "Tradycyjny He�m+4",
+    "name": "Tradycyjny Hełm+4",
     "icon": "../assets/item-icons/item/12200.png"
   },
   {
     "vnum": "12205",
-    "name": "Tradycyjny He�m+5",
+    "name": "Tradycyjny Hełm+5",
     "icon": "../assets/item-icons/item/12200.png"
   },
   {
     "vnum": "12206",
-    "name": "Tradycyjny He�m+6",
+    "name": "Tradycyjny Hełm+6",
     "icon": "../assets/item-icons/item/12200.png"
   },
   {
     "vnum": "12207",
-    "name": "Tradycyjny He�m+7",
+    "name": "Tradycyjny Hełm+7",
     "icon": "../assets/item-icons/item/12200.png"
   },
   {
     "vnum": "12208",
-    "name": "Tradycyjny He�m+8",
+    "name": "Tradycyjny Hełm+8",
     "icon": "../assets/item-icons/item/12200.png"
   },
   {
     "vnum": "12209",
-    "name": "Tradycyjny He�m+9",
+    "name": "Tradycyjny Hełm+9",
     "icon": "../assets/item-icons/item/12200.png"
   },
   {
     "vnum": "12220",
-    "name": "�elazny He�m+0",
+    "name": "Żelazny Hełm+0",
     "icon": "../assets/item-icons/item/12220.png"
   },
   {
     "vnum": "12221",
-    "name": "�elazny He�m+1",
+    "name": "Żelazny Hełm+1",
     "icon": "../assets/item-icons/item/12220.png"
   },
   {
     "vnum": "12222",
-    "name": "�elazny He�m+2",
+    "name": "Żelazny Hełm+2",
     "icon": "../assets/item-icons/item/12220.png"
   },
   {
     "vnum": "12223",
-    "name": "�elazny He�m+3",
+    "name": "Żelazny Hełm+3",
     "icon": "../assets/item-icons/item/12220.png"
   },
   {
     "vnum": "12224",
-    "name": "�elazny He�m+4",
+    "name": "Żelazny Hełm+4",
     "icon": "../assets/item-icons/item/12220.png"
   },
   {
     "vnum": "12225",
-    "name": "�elazny He�m+5",
+    "name": "Żelazny Hełm+5",
     "icon": "../assets/item-icons/item/12220.png"
   },
   {
     "vnum": "12226",
-    "name": "�elazny He�m+6",
+    "name": "Żelazny Hełm+6",
     "icon": "../assets/item-icons/item/12220.png"
   },
   {
     "vnum": "12227",
-    "name": "�elazny He�m+7",
+    "name": "Żelazny Hełm+7",
     "icon": "../assets/item-icons/item/12220.png"
   },
   {
     "vnum": "12228",
-    "name": "�elazny He�m+8",
+    "name": "Żelazny Hełm+8",
     "icon": "../assets/item-icons/item/12220.png"
   },
   {
     "vnum": "12229",
-    "name": "�elazny He�m+9",
+    "name": "Żelazny Hełm+9",
     "icon": "../assets/item-icons/item/12220.png"
   },
   {
@@ -10028,102 +10029,102 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "12280",
-    "name": "He�m Mistrza Wojny+0",
+    "name": "Hełm Mistrza Wojny+0",
     "icon": "../assets/item-icons/item/12280.png"
   },
   {
     "vnum": "12281",
-    "name": "He�m Mistrza Wojny+1",
+    "name": "Hełm Mistrza Wojny+1",
     "icon": "../assets/item-icons/item/12280.png"
   },
   {
     "vnum": "12282",
-    "name": "He�m Mistrza Wojny+2",
+    "name": "Hełm Mistrza Wojny+2",
     "icon": "../assets/item-icons/item/12280.png"
   },
   {
     "vnum": "12283",
-    "name": "He�m Mistrza Wojny+3",
+    "name": "Hełm Mistrza Wojny+3",
     "icon": "../assets/item-icons/item/12280.png"
   },
   {
     "vnum": "12284",
-    "name": "He�m Mistrza Wojny+4",
+    "name": "Hełm Mistrza Wojny+4",
     "icon": "../assets/item-icons/item/12280.png"
   },
   {
     "vnum": "12285",
-    "name": "He�m Mistrza Wojny+5",
+    "name": "Hełm Mistrza Wojny+5",
     "icon": "../assets/item-icons/item/12280.png"
   },
   {
     "vnum": "12286",
-    "name": "He�m Mistrza Wojny+6",
+    "name": "Hełm Mistrza Wojny+6",
     "icon": "../assets/item-icons/item/12280.png"
   },
   {
     "vnum": "12287",
-    "name": "He�m Mistrza Wojny+7",
+    "name": "Hełm Mistrza Wojny+7",
     "icon": "../assets/item-icons/item/12280.png"
   },
   {
     "vnum": "12288",
-    "name": "He�m Mistrza Wojny+8",
+    "name": "Hełm Mistrza Wojny+8",
     "icon": "../assets/item-icons/item/12280.png"
   },
   {
     "vnum": "12289",
-    "name": "He�m Mistrza Wojny+9",
+    "name": "Hełm Mistrza Wojny+9",
     "icon": "../assets/item-icons/item/12280.png"
   },
   {
     "vnum": "12340",
-    "name": "Sk�rzana Maska+0",
+    "name": "Skórzana Maska+0",
     "icon": "../assets/item-icons/item/12340.png"
   },
   {
     "vnum": "12341",
-    "name": "Sk�rzana Maska+1",
+    "name": "Skórzana Maska+1",
     "icon": "../assets/item-icons/item/12340.png"
   },
   {
     "vnum": "12342",
-    "name": "Sk�rzana Maska+2",
+    "name": "Skórzana Maska+2",
     "icon": "../assets/item-icons/item/12340.png"
   },
   {
     "vnum": "12343",
-    "name": "Sk�rzana Maska+3",
+    "name": "Skórzana Maska+3",
     "icon": "../assets/item-icons/item/12340.png"
   },
   {
     "vnum": "12344",
-    "name": "Sk�rzana Maska+4",
+    "name": "Skórzana Maska+4",
     "icon": "../assets/item-icons/item/12340.png"
   },
   {
     "vnum": "12345",
-    "name": "Sk�rzana Maska+5",
+    "name": "Skórzana Maska+5",
     "icon": "../assets/item-icons/item/12340.png"
   },
   {
     "vnum": "12346",
-    "name": "Sk�rzana Maska+6",
+    "name": "Skórzana Maska+6",
     "icon": "../assets/item-icons/item/12340.png"
   },
   {
     "vnum": "12347",
-    "name": "Sk�rzana Maska+7",
+    "name": "Skórzana Maska+7",
     "icon": "../assets/item-icons/item/12340.png"
   },
   {
     "vnum": "12348",
-    "name": "Sk�rzana Maska+8",
+    "name": "Skórzana Maska+8",
     "icon": "../assets/item-icons/item/12340.png"
   },
   {
     "vnum": "12349",
-    "name": "Sk�rzana Maska+9",
+    "name": "Skórzana Maska+9",
     "icon": "../assets/item-icons/item/12340.png"
   },
   {
@@ -10278,302 +10279,302 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "12400",
-    "name": "Paj�czy Kaptur+0",
+    "name": "Pajęczy Kaptur+0",
     "icon": "../assets/item-icons/item/12540.png"
   },
   {
     "vnum": "12401",
-    "name": "Paj�czy Kaptur+1",
+    "name": "Pajęczy Kaptur+1",
     "icon": "../assets/item-icons/item/12540.png"
   },
   {
     "vnum": "12402",
-    "name": "Paj�czy Kaptur+2",
+    "name": "Pajęczy Kaptur+2",
     "icon": "../assets/item-icons/item/12540.png"
   },
   {
     "vnum": "12403",
-    "name": "Paj�czy Kaptur+3",
+    "name": "Pajęczy Kaptur+3",
     "icon": "../assets/item-icons/item/12540.png"
   },
   {
     "vnum": "12404",
-    "name": "Paj�czy Kaptur+4",
+    "name": "Pajęczy Kaptur+4",
     "icon": "../assets/item-icons/item/12540.png"
   },
   {
     "vnum": "12405",
-    "name": "Paj�czy Kaptur+5",
+    "name": "Pajęczy Kaptur+5",
     "icon": "../assets/item-icons/item/12540.png"
   },
   {
     "vnum": "12406",
-    "name": "Paj�czy Kaptur+6",
+    "name": "Pajęczy Kaptur+6",
     "icon": "../assets/item-icons/item/12540.png"
   },
   {
     "vnum": "12407",
-    "name": "Paj�czy Kaptur+7",
+    "name": "Pajęczy Kaptur+7",
     "icon": "../assets/item-icons/item/12540.png"
   },
   {
     "vnum": "12408",
-    "name": "Paj�czy Kaptur+8",
+    "name": "Pajęczy Kaptur+8",
     "icon": "../assets/item-icons/item/12540.png"
   },
   {
     "vnum": "12409",
-    "name": "Paj�czy Kaptur+9",
+    "name": "Pajęczy Kaptur+9",
     "icon": "../assets/item-icons/item/12540.png"
   },
   {
     "vnum": "12480",
-    "name": "Krwawy He�m+0",
+    "name": "Krwawy Hełm+0",
     "icon": "../assets/item-icons/item/12480.png"
   },
   {
     "vnum": "12481",
-    "name": "Krwawy He�m+1",
+    "name": "Krwawy Hełm+1",
     "icon": "../assets/item-icons/item/12480.png"
   },
   {
     "vnum": "12482",
-    "name": "Krwawy He�m+2",
+    "name": "Krwawy Hełm+2",
     "icon": "../assets/item-icons/item/12480.png"
   },
   {
     "vnum": "12483",
-    "name": "Krwawy He�m+3",
+    "name": "Krwawy Hełm+3",
     "icon": "../assets/item-icons/item/12480.png"
   },
   {
     "vnum": "12484",
-    "name": "Krwawy He�m+4",
+    "name": "Krwawy Hełm+4",
     "icon": "../assets/item-icons/item/12480.png"
   },
   {
     "vnum": "12485",
-    "name": "Krwawy He�m+5",
+    "name": "Krwawy Hełm+5",
     "icon": "../assets/item-icons/item/12480.png"
   },
   {
     "vnum": "12486",
-    "name": "Krwawy He�m+6",
+    "name": "Krwawy Hełm+6",
     "icon": "../assets/item-icons/item/12480.png"
   },
   {
     "vnum": "12487",
-    "name": "Krwawy He�m+7",
+    "name": "Krwawy Hełm+7",
     "icon": "../assets/item-icons/item/12480.png"
   },
   {
     "vnum": "12488",
-    "name": "Krwawy He�m+8",
+    "name": "Krwawy Hełm+8",
     "icon": "../assets/item-icons/item/12480.png"
   },
   {
     "vnum": "12489",
-    "name": "Krwawy He�m+9",
+    "name": "Krwawy Hełm+9",
     "icon": "../assets/item-icons/item/12480.png"
   },
   {
     "vnum": "12500",
-    "name": "Wyzywaj�cy He�m+0",
+    "name": "Wyzywający Hełm+0",
     "icon": "../assets/item-icons/item/12500.png"
   },
   {
     "vnum": "12501",
-    "name": "Wyzywaj�cy He�m+1",
+    "name": "Wyzywający Hełm+1",
     "icon": "../assets/item-icons/item/12500.png"
   },
   {
     "vnum": "12502",
-    "name": "Wyzywaj�cy He�m+2",
+    "name": "Wyzywający Hełm+2",
     "icon": "../assets/item-icons/item/12500.png"
   },
   {
     "vnum": "12503",
-    "name": "Wyzywaj�cy He�m+3",
+    "name": "Wyzywający Hełm+3",
     "icon": "../assets/item-icons/item/12500.png"
   },
   {
     "vnum": "12504",
-    "name": "Wyzywaj�cy He�m+4",
+    "name": "Wyzywający Hełm+4",
     "icon": "../assets/item-icons/item/12500.png"
   },
   {
     "vnum": "12505",
-    "name": "Wyzywaj�cy He�m+5",
+    "name": "Wyzywający Hełm+5",
     "icon": "../assets/item-icons/item/12500.png"
   },
   {
     "vnum": "12506",
-    "name": "Wyzywaj�cy He�m+6",
+    "name": "Wyzywający Hełm+6",
     "icon": "../assets/item-icons/item/12500.png"
   },
   {
     "vnum": "12507",
-    "name": "Wyzywaj�cy He�m+7",
+    "name": "Wyzywający Hełm+7",
     "icon": "../assets/item-icons/item/12500.png"
   },
   {
     "vnum": "12508",
-    "name": "Wyzywaj�cy He�m+8",
+    "name": "Wyzywający Hełm+8",
     "icon": "../assets/item-icons/item/12500.png"
   },
   {
     "vnum": "12509",
-    "name": "Wyzywaj�cy He�m+9",
+    "name": "Wyzywający Hełm+9",
     "icon": "../assets/item-icons/item/12500.png"
   },
   {
     "vnum": "12520",
-    "name": "Zamkowy He�m+0",
+    "name": "Zamkowy Hełm+0",
     "icon": "../assets/item-icons/item/12520.png"
   },
   {
     "vnum": "12521",
-    "name": "Zamkowy He�m+1",
+    "name": "Zamkowy Hełm+1",
     "icon": "../assets/item-icons/item/12520.png"
   },
   {
     "vnum": "12522",
-    "name": "Zamkowy He�m+2",
+    "name": "Zamkowy Hełm+2",
     "icon": "../assets/item-icons/item/12520.png"
   },
   {
     "vnum": "12523",
-    "name": "Zamkowy He�m+3",
+    "name": "Zamkowy Hełm+3",
     "icon": "../assets/item-icons/item/12520.png"
   },
   {
     "vnum": "12524",
-    "name": "Zamkowy He�m+4",
+    "name": "Zamkowy Hełm+4",
     "icon": "../assets/item-icons/item/12520.png"
   },
   {
     "vnum": "12525",
-    "name": "Zamkowy He�m+5",
+    "name": "Zamkowy Hełm+5",
     "icon": "../assets/item-icons/item/12520.png"
   },
   {
     "vnum": "12526",
-    "name": "Zamkowy He�m+6",
+    "name": "Zamkowy Hełm+6",
     "icon": "../assets/item-icons/item/12520.png"
   },
   {
     "vnum": "12527",
-    "name": "Zamkowy He�m+7",
+    "name": "Zamkowy Hełm+7",
     "icon": "../assets/item-icons/item/12520.png"
   },
   {
     "vnum": "12528",
-    "name": "Zamkowy He�m+8",
+    "name": "Zamkowy Hełm+8",
     "icon": "../assets/item-icons/item/12520.png"
   },
   {
     "vnum": "12529",
-    "name": "Zamkowy He�m+9",
+    "name": "Zamkowy Hełm+9",
     "icon": "../assets/item-icons/item/12520.png"
   },
   {
     "vnum": "12530",
-    "name": "Rogowy He�m+0",
+    "name": "Rogowy Hełm+0",
     "icon": "../assets/item-icons/item/12530.png"
   },
   {
     "vnum": "12531",
-    "name": "Rogowy He�m+1",
+    "name": "Rogowy Hełm+1",
     "icon": "../assets/item-icons/item/12530.png"
   },
   {
     "vnum": "12532",
-    "name": "Rogowy He�m+2",
+    "name": "Rogowy Hełm+2",
     "icon": "../assets/item-icons/item/12530.png"
   },
   {
     "vnum": "12533",
-    "name": "Rogowy He�m+3",
+    "name": "Rogowy Hełm+3",
     "icon": "../assets/item-icons/item/12530.png"
   },
   {
     "vnum": "12534",
-    "name": "Rogowy He�m+4",
+    "name": "Rogowy Hełm+4",
     "icon": "../assets/item-icons/item/12530.png"
   },
   {
     "vnum": "12535",
-    "name": "Rogowy He�m+5",
+    "name": "Rogowy Hełm+5",
     "icon": "../assets/item-icons/item/12530.png"
   },
   {
     "vnum": "12536",
-    "name": "Rogowy He�m+6",
+    "name": "Rogowy Hełm+6",
     "icon": "../assets/item-icons/item/12530.png"
   },
   {
     "vnum": "12537",
-    "name": "Rogowy He�m+7",
+    "name": "Rogowy Hełm+7",
     "icon": "../assets/item-icons/item/12530.png"
   },
   {
     "vnum": "12538",
-    "name": "Rogowy He�m+8",
+    "name": "Rogowy Hełm+8",
     "icon": "../assets/item-icons/item/12530.png"
   },
   {
     "vnum": "12539",
-    "name": "Rogowy He�m+9",
+    "name": "Rogowy Hełm+9",
     "icon": "../assets/item-icons/item/12530.png"
   },
   {
     "vnum": "12540",
-    "name": "Magiczny He�m+0",
+    "name": "Magiczny Hełm+0",
     "icon": "../assets/item-icons/item/12400.png"
   },
   {
     "vnum": "12541",
-    "name": "Magiczny He�m+1",
+    "name": "Magiczny Hełm+1",
     "icon": "../assets/item-icons/item/12400.png"
   },
   {
     "vnum": "12542",
-    "name": "Magiczny He�m+2",
+    "name": "Magiczny Hełm+2",
     "icon": "../assets/item-icons/item/12400.png"
   },
   {
     "vnum": "12543",
-    "name": "Magiczny He�m+3",
+    "name": "Magiczny Hełm+3",
     "icon": "../assets/item-icons/item/12400.png"
   },
   {
     "vnum": "12544",
-    "name": "Magiczny He�m+4",
+    "name": "Magiczny Hełm+4",
     "icon": "../assets/item-icons/item/12400.png"
   },
   {
     "vnum": "12545",
-    "name": "Magiczny He�m+5",
+    "name": "Magiczny Hełm+5",
     "icon": "../assets/item-icons/item/12400.png"
   },
   {
     "vnum": "12546",
-    "name": "Magiczny He�m+6",
+    "name": "Magiczny Hełm+6",
     "icon": "../assets/item-icons/item/12400.png"
   },
   {
     "vnum": "12547",
-    "name": "Magiczny He�m+7",
+    "name": "Magiczny Hełm+7",
     "icon": "../assets/item-icons/item/12400.png"
   },
   {
     "vnum": "12548",
-    "name": "Magiczny He�m+8",
+    "name": "Magiczny Hełm+8",
     "icon": "../assets/item-icons/item/12400.png"
   },
   {
     "vnum": "12549",
-    "name": "Magiczny He�m+9",
+    "name": "Magiczny Hełm+9",
     "icon": "../assets/item-icons/item/12400.png"
   },
   {
@@ -10678,102 +10679,102 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "12660",
-    "name": "�wietlista Czapka+0",
+    "name": "Świetlista Czapka+0",
     "icon": "../assets/item-icons/item/12660.png"
   },
   {
     "vnum": "12661",
-    "name": "�wietlista Czapka+1",
+    "name": "Świetlista Czapka+1",
     "icon": "../assets/item-icons/item/12660.png"
   },
   {
     "vnum": "12662",
-    "name": "�wietlista Czapka+2",
+    "name": "Świetlista Czapka+2",
     "icon": "../assets/item-icons/item/12660.png"
   },
   {
     "vnum": "12663",
-    "name": "�wietlista Czapka+3",
+    "name": "Świetlista Czapka+3",
     "icon": "../assets/item-icons/item/12660.png"
   },
   {
     "vnum": "12664",
-    "name": "�wietlista Czapka+4",
+    "name": "Świetlista Czapka+4",
     "icon": "../assets/item-icons/item/12660.png"
   },
   {
     "vnum": "12665",
-    "name": "�wietlista Czapka+5",
+    "name": "Świetlista Czapka+5",
     "icon": "../assets/item-icons/item/12660.png"
   },
   {
     "vnum": "12666",
-    "name": "�wietlista Czapka+6",
+    "name": "Świetlista Czapka+6",
     "icon": "../assets/item-icons/item/12660.png"
   },
   {
     "vnum": "12667",
-    "name": "�wietlista Czapka+7",
+    "name": "Świetlista Czapka+7",
     "icon": "../assets/item-icons/item/12660.png"
   },
   {
     "vnum": "12668",
-    "name": "�wietlista Czapka+8",
+    "name": "Świetlista Czapka+8",
     "icon": "../assets/item-icons/item/12660.png"
   },
   {
     "vnum": "12669",
-    "name": "�wietlista Czapka+9",
+    "name": "Świetlista Czapka+9",
     "icon": "../assets/item-icons/item/12660.png"
   },
   {
     "vnum": "12670",
-    "name": "Kapelusz Kardyna�a+0",
+    "name": "Kapelusz Kardynała+0",
     "icon": "../assets/item-icons/item/12670.png"
   },
   {
     "vnum": "12671",
-    "name": "Kapelusz Kardyna�a+1",
+    "name": "Kapelusz Kardynała+1",
     "icon": "../assets/item-icons/item/12670.png"
   },
   {
     "vnum": "12672",
-    "name": "Kapelusz Kardyna�a+2",
+    "name": "Kapelusz Kardynała+2",
     "icon": "../assets/item-icons/item/12670.png"
   },
   {
     "vnum": "12673",
-    "name": "Kapelusz Kardyna�a+3",
+    "name": "Kapelusz Kardynała+3",
     "icon": "../assets/item-icons/item/12670.png"
   },
   {
     "vnum": "12674",
-    "name": "Kapelusz Kardyna�a+4",
+    "name": "Kapelusz Kardynała+4",
     "icon": "../assets/item-icons/item/12670.png"
   },
   {
     "vnum": "12675",
-    "name": "Kapelusz Kardyna�a+5",
+    "name": "Kapelusz Kardynała+5",
     "icon": "../assets/item-icons/item/12670.png"
   },
   {
     "vnum": "12676",
-    "name": "Kapelusz Kardyna�a+6",
+    "name": "Kapelusz Kardynała+6",
     "icon": "../assets/item-icons/item/12670.png"
   },
   {
     "vnum": "12677",
-    "name": "Kapelusz Kardyna�a+7",
+    "name": "Kapelusz Kardynała+7",
     "icon": "../assets/item-icons/item/12670.png"
   },
   {
     "vnum": "12678",
-    "name": "Kapelusz Kardyna�a+8",
+    "name": "Kapelusz Kardynała+8",
     "icon": "../assets/item-icons/item/12670.png"
   },
   {
     "vnum": "12679",
-    "name": "Kapelusz Kardyna�a+9",
+    "name": "Kapelusz Kardynała+9",
     "icon": "../assets/item-icons/item/12670.png"
   },
   {
@@ -10878,102 +10879,102 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "13020",
-    "name": "Pi�ciok�tna Tarcza+0",
+    "name": "Pięciokątna Tarcza+0",
     "icon": "../assets/item-icons/item/13020.png"
   },
   {
     "vnum": "13021",
-    "name": "Pi�ciok�tna Tarcza+1",
+    "name": "Pięciokątna Tarcza+1",
     "icon": "../assets/item-icons/item/13020.png"
   },
   {
     "vnum": "13022",
-    "name": "Pi�ciok�tna Tarcza+2",
+    "name": "Pięciokątna Tarcza+2",
     "icon": "../assets/item-icons/item/13020.png"
   },
   {
     "vnum": "13023",
-    "name": "Pi�ciok�tna Tarcza+3",
+    "name": "Pięciokątna Tarcza+3",
     "icon": "../assets/item-icons/item/13020.png"
   },
   {
     "vnum": "13024",
-    "name": "Pi�ciok�tna Tarcza+4",
+    "name": "Pięciokątna Tarcza+4",
     "icon": "../assets/item-icons/item/13020.png"
   },
   {
     "vnum": "13025",
-    "name": "Pi�ciok�tna Tarcza+5",
+    "name": "Pięciokątna Tarcza+5",
     "icon": "../assets/item-icons/item/13020.png"
   },
   {
     "vnum": "13026",
-    "name": "Pi�ciok�tna Tarcza+6",
+    "name": "Pięciokątna Tarcza+6",
     "icon": "../assets/item-icons/item/13020.png"
   },
   {
     "vnum": "13027",
-    "name": "Pi�ciok�tna Tarcza+7",
+    "name": "Pięciokątna Tarcza+7",
     "icon": "../assets/item-icons/item/13020.png"
   },
   {
     "vnum": "13028",
-    "name": "Pi�ciok�tna Tarcza+8",
+    "name": "Pięciokątna Tarcza+8",
     "icon": "../assets/item-icons/item/13020.png"
   },
   {
     "vnum": "13029",
-    "name": "Pi�ciok�tna Tarcza+9",
+    "name": "Pięciokątna Tarcza+9",
     "icon": "../assets/item-icons/item/13020.png"
   },
   {
     "vnum": "13040",
-    "name": "Czarna Okr�g�a Tarcza+0",
+    "name": "Czarna Okrągła Tarcza+0",
     "icon": "../assets/item-icons/item/13040.png"
   },
   {
     "vnum": "13041",
-    "name": "Czarna Okr�g�a Tarcza+1",
+    "name": "Czarna Okrągła Tarcza+1",
     "icon": "../assets/item-icons/item/13040.png"
   },
   {
     "vnum": "13042",
-    "name": "Czarna Okr�g�a Tarcza+2",
+    "name": "Czarna Okrągła Tarcza+2",
     "icon": "../assets/item-icons/item/13040.png"
   },
   {
     "vnum": "13043",
-    "name": "Czarna Okr�g�a Tarcza+3",
+    "name": "Czarna Okrągła Tarcza+3",
     "icon": "../assets/item-icons/item/13040.png"
   },
   {
     "vnum": "13044",
-    "name": "Czarna Okr�g�a Tarcza+4",
+    "name": "Czarna Okrągła Tarcza+4",
     "icon": "../assets/item-icons/item/13040.png"
   },
   {
     "vnum": "13045",
-    "name": "Czarna Okr�g�a Tarcza+5",
+    "name": "Czarna Okrągła Tarcza+5",
     "icon": "../assets/item-icons/item/13040.png"
   },
   {
     "vnum": "13046",
-    "name": "Czarna Okr�g�a Tarcza+6",
+    "name": "Czarna Okrągła Tarcza+6",
     "icon": "../assets/item-icons/item/13040.png"
   },
   {
     "vnum": "13047",
-    "name": "Czarna Okr�g�a Tarcza+7",
+    "name": "Czarna Okrągła Tarcza+7",
     "icon": "../assets/item-icons/item/13040.png"
   },
   {
     "vnum": "13048",
-    "name": "Czarna Okr�g�a Tarcza+8",
+    "name": "Czarna Okrągła Tarcza+8",
     "icon": "../assets/item-icons/item/13040.png"
   },
   {
     "vnum": "13049",
-    "name": "Czarna Okr�g�a Tarcza+9",
+    "name": "Czarna Okrągła Tarcza+9",
     "icon": "../assets/item-icons/item/13040.png"
   },
   {
@@ -11178,102 +11179,102 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "13140",
-    "name": "Tarcza Tytan�w+0",
+    "name": "Tarcza Tytanów+0",
     "icon": "../assets/item-icons/item/13140.png"
   },
   {
     "vnum": "13141",
-    "name": "Tarcza Tytan�w+1",
+    "name": "Tarcza Tytanów+1",
     "icon": "../assets/item-icons/item/13140.png"
   },
   {
     "vnum": "13142",
-    "name": "Tarcza Tytan�w+2",
+    "name": "Tarcza Tytanów+2",
     "icon": "../assets/item-icons/item/13140.png"
   },
   {
     "vnum": "13143",
-    "name": "Tarcza Tytan�w+3",
+    "name": "Tarcza Tytanów+3",
     "icon": "../assets/item-icons/item/13140.png"
   },
   {
     "vnum": "13144",
-    "name": "Tarcza Tytan�w+4",
+    "name": "Tarcza Tytanów+4",
     "icon": "../assets/item-icons/item/13140.png"
   },
   {
     "vnum": "13145",
-    "name": "Tarcza Tytan�w+5",
+    "name": "Tarcza Tytanów+5",
     "icon": "../assets/item-icons/item/13140.png"
   },
   {
     "vnum": "13146",
-    "name": "Tarcza Tytan�w+6",
+    "name": "Tarcza Tytanów+6",
     "icon": "../assets/item-icons/item/13140.png"
   },
   {
     "vnum": "13147",
-    "name": "Tarcza Tytan�w+7",
+    "name": "Tarcza Tytanów+7",
     "icon": "../assets/item-icons/item/13140.png"
   },
   {
     "vnum": "13148",
-    "name": "Tarcza Tytan�w+8",
+    "name": "Tarcza Tytanów+8",
     "icon": "../assets/item-icons/item/13140.png"
   },
   {
     "vnum": "13149",
-    "name": "Tarcza Tytan�w+9",
+    "name": "Tarcza Tytanów+9",
     "icon": "../assets/item-icons/item/13140.png"
   },
   {
     "vnum": "13160",
-    "name": "Kr�lewska Tarcza+0",
+    "name": "Królewska Tarcza+0",
     "icon": "../assets/item-icons/item/13160.png"
   },
   {
     "vnum": "13161",
-    "name": "Kr�lewska Tarcza+1",
+    "name": "Królewska Tarcza+1",
     "icon": "../assets/item-icons/item/13160.png"
   },
   {
     "vnum": "13162",
-    "name": "Kr�lewska Tarcza+2",
+    "name": "Królewska Tarcza+2",
     "icon": "../assets/item-icons/item/13160.png"
   },
   {
     "vnum": "13163",
-    "name": "Kr�lewska Tarcza+3",
+    "name": "Królewska Tarcza+3",
     "icon": "../assets/item-icons/item/13160.png"
   },
   {
     "vnum": "13164",
-    "name": "Kr�lewska Tarcza+4",
+    "name": "Królewska Tarcza+4",
     "icon": "../assets/item-icons/item/13160.png"
   },
   {
     "vnum": "13165",
-    "name": "Kr�lewska Tarcza+5",
+    "name": "Królewska Tarcza+5",
     "icon": "../assets/item-icons/item/13160.png"
   },
   {
     "vnum": "13166",
-    "name": "Kr�lewska Tarcza+6",
+    "name": "Królewska Tarcza+6",
     "icon": "../assets/item-icons/item/13160.png"
   },
   {
     "vnum": "13167",
-    "name": "Kr�lewska Tarcza+7",
+    "name": "Królewska Tarcza+7",
     "icon": "../assets/item-icons/item/13160.png"
   },
   {
     "vnum": "13168",
-    "name": "Kr�lewska Tarcza+8",
+    "name": "Królewska Tarcza+8",
     "icon": "../assets/item-icons/item/13160.png"
   },
   {
     "vnum": "13169",
-    "name": "Kr�lewska Tarcza+9",
+    "name": "Królewska Tarcza+9",
     "icon": "../assets/item-icons/item/13160.png"
   },
   {
@@ -11328,102 +11329,102 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "13190",
-    "name": "Pi�ciok�tna Tarcza+0",
+    "name": "Pięciokątna Tarcza+0",
     "icon": "../assets/item-icons/item/13020.png"
   },
   {
     "vnum": "13191",
-    "name": "Pi�ciok�tna Tarcza+1",
+    "name": "Pięciokątna Tarcza+1",
     "icon": "../assets/item-icons/item/13020.png"
   },
   {
     "vnum": "13192",
-    "name": "Pi�ciok�tna Tarcza+2",
+    "name": "Pięciokątna Tarcza+2",
     "icon": "../assets/item-icons/item/13020.png"
   },
   {
     "vnum": "13193",
-    "name": "Pi�ciok�tna Tarcza+3",
+    "name": "Pięciokątna Tarcza+3",
     "icon": "../assets/item-icons/item/13020.png"
   },
   {
     "vnum": "13194",
-    "name": "Pi�ciok�tna Tarcza+4",
+    "name": "Pięciokątna Tarcza+4",
     "icon": "../assets/item-icons/item/13020.png"
   },
   {
     "vnum": "13195",
-    "name": "Pi�ciok�tna Tarcza+5",
+    "name": "Pięciokątna Tarcza+5",
     "icon": "../assets/item-icons/item/13020.png"
   },
   {
     "vnum": "13196",
-    "name": "Pi�ciok�tna Tarcza+6",
+    "name": "Pięciokątna Tarcza+6",
     "icon": "../assets/item-icons/item/13020.png"
   },
   {
     "vnum": "13197",
-    "name": "Pi�ciok�tna Tarcza+7",
+    "name": "Pięciokątna Tarcza+7",
     "icon": "../assets/item-icons/item/13020.png"
   },
   {
     "vnum": "13198",
-    "name": "Pi�ciok�tna Tarcza+8",
+    "name": "Pięciokątna Tarcza+8",
     "icon": "../assets/item-icons/item/13020.png"
   },
   {
     "vnum": "13199",
-    "name": "Pi�ciok�tna Tarcza+9",
+    "name": "Pięciokątna Tarcza+9",
     "icon": "../assets/item-icons/item/13020.png"
   },
   {
     "vnum": "13200",
-    "name": "Czarna Okr�g�a Tarcza+0",
+    "name": "Czarna Okrągła Tarcza+0",
     "icon": "../assets/item-icons/item/13040.png"
   },
   {
     "vnum": "13201",
-    "name": "Czarna Okr�g�a Tarcza+1",
+    "name": "Czarna Okrągła Tarcza+1",
     "icon": "../assets/item-icons/item/13040.png"
   },
   {
     "vnum": "13202",
-    "name": "Czarna Okr�g�a Tarcza+2",
+    "name": "Czarna Okrągła Tarcza+2",
     "icon": "../assets/item-icons/item/13040.png"
   },
   {
     "vnum": "13203",
-    "name": "Czarna Okr�g�a Tarcza+3",
+    "name": "Czarna Okrągła Tarcza+3",
     "icon": "../assets/item-icons/item/13040.png"
   },
   {
     "vnum": "13204",
-    "name": "Czarna Okr�g�a Tarcza+4",
+    "name": "Czarna Okrągła Tarcza+4",
     "icon": "../assets/item-icons/item/13040.png"
   },
   {
     "vnum": "13205",
-    "name": "Czarna Okr�g�a Tarcza+5",
+    "name": "Czarna Okrągła Tarcza+5",
     "icon": "../assets/item-icons/item/13040.png"
   },
   {
     "vnum": "13206",
-    "name": "Czarna Okr�g�a Tarcza+6",
+    "name": "Czarna Okrągła Tarcza+6",
     "icon": "../assets/item-icons/item/13040.png"
   },
   {
     "vnum": "13207",
-    "name": "Czarna Okr�g�a Tarcza+7",
+    "name": "Czarna Okrągła Tarcza+7",
     "icon": "../assets/item-icons/item/13040.png"
   },
   {
     "vnum": "13208",
-    "name": "Czarna Okr�g�a Tarcza+8",
+    "name": "Czarna Okrągła Tarcza+8",
     "icon": "../assets/item-icons/item/13040.png"
   },
   {
     "vnum": "13209",
-    "name": "Czarna Okr�g�a Tarcza+9",
+    "name": "Czarna Okrągła Tarcza+9",
     "icon": "../assets/item-icons/item/13040.png"
   },
   {
@@ -11578,52 +11579,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "14060",
-    "name": "Z�ota Bransoleta+0",
+    "name": "Złota Bransoleta+0",
     "icon": "../assets/item-icons/item/14060.png"
   },
   {
     "vnum": "14061",
-    "name": "Z�ota Bransoleta+1",
+    "name": "Złota Bransoleta+1",
     "icon": "../assets/item-icons/item/14060.png"
   },
   {
     "vnum": "14062",
-    "name": "Z�ota Bransoleta+2",
+    "name": "Złota Bransoleta+2",
     "icon": "../assets/item-icons/item/14060.png"
   },
   {
     "vnum": "14063",
-    "name": "Z�ota Bransoleta+3",
+    "name": "Złota Bransoleta+3",
     "icon": "../assets/item-icons/item/14060.png"
   },
   {
     "vnum": "14064",
-    "name": "Z�ota Bransoleta+4",
+    "name": "Złota Bransoleta+4",
     "icon": "../assets/item-icons/item/14060.png"
   },
   {
     "vnum": "14065",
-    "name": "Z�ota Bransoleta+5",
+    "name": "Złota Bransoleta+5",
     "icon": "../assets/item-icons/item/14060.png"
   },
   {
     "vnum": "14066",
-    "name": "Z�ota Bransoleta+6",
+    "name": "Złota Bransoleta+6",
     "icon": "../assets/item-icons/item/14060.png"
   },
   {
     "vnum": "14067",
-    "name": "Z�ota Bransoleta+7",
+    "name": "Złota Bransoleta+7",
     "icon": "../assets/item-icons/item/14060.png"
   },
   {
     "vnum": "14068",
-    "name": "Z�ota Bransoleta+8",
+    "name": "Złota Bransoleta+8",
     "icon": "../assets/item-icons/item/14060.png"
   },
   {
     "vnum": "14069",
-    "name": "Z�ota Bransoleta+9",
+    "name": "Złota Bransoleta+9",
     "icon": "../assets/item-icons/item/14060.png"
   },
   {
@@ -11728,152 +11729,152 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "14120",
-    "name": "Per�owa Bransoleta+0",
+    "name": "Perłowa Bransoleta+0",
     "icon": "../assets/item-icons/item/14120.png"
   },
   {
     "vnum": "14121",
-    "name": "Per�owa Bransoleta+1",
+    "name": "Perłowa Bransoleta+1",
     "icon": "../assets/item-icons/item/14120.png"
   },
   {
     "vnum": "14122",
-    "name": "Per�owa Bransoleta+2",
+    "name": "Perłowa Bransoleta+2",
     "icon": "../assets/item-icons/item/14120.png"
   },
   {
     "vnum": "14123",
-    "name": "Per�owa Bransoleta+3",
+    "name": "Perłowa Bransoleta+3",
     "icon": "../assets/item-icons/item/14120.png"
   },
   {
     "vnum": "14124",
-    "name": "Per�owa Bransoleta+4",
+    "name": "Perłowa Bransoleta+4",
     "icon": "../assets/item-icons/item/14120.png"
   },
   {
     "vnum": "14125",
-    "name": "Per�owa Bransoleta+5",
+    "name": "Perłowa Bransoleta+5",
     "icon": "../assets/item-icons/item/14120.png"
   },
   {
     "vnum": "14126",
-    "name": "Per�owa Bransoleta+6",
+    "name": "Perłowa Bransoleta+6",
     "icon": "../assets/item-icons/item/14120.png"
   },
   {
     "vnum": "14127",
-    "name": "Per�owa Bransoleta+7",
+    "name": "Perłowa Bransoleta+7",
     "icon": "../assets/item-icons/item/14120.png"
   },
   {
     "vnum": "14128",
-    "name": "Per�owa Bransoleta+8",
+    "name": "Perłowa Bransoleta+8",
     "icon": "../assets/item-icons/item/14120.png"
   },
   {
     "vnum": "14129",
-    "name": "Per�owa Bransoleta+9",
+    "name": "Perłowa Bransoleta+9",
     "icon": "../assets/item-icons/item/14120.png"
   },
   {
     "vnum": "14140",
-    "name": "Bransol. Z Bia�. Z�ota+0",
+    "name": "Bransol. Z Biał. Złota+0",
     "icon": "../assets/item-icons/item/14140.png"
   },
   {
     "vnum": "14141",
-    "name": "Bransol. Z Bia�. Z�ota+1",
+    "name": "Bransol. Z Biał. Złota+1",
     "icon": "../assets/item-icons/item/14140.png"
   },
   {
     "vnum": "14142",
-    "name": "Bransol. Z Bia�. Z�ota+2",
+    "name": "Bransol. Z Biał. Złota+2",
     "icon": "../assets/item-icons/item/14140.png"
   },
   {
     "vnum": "14143",
-    "name": "Bransol. Z Bia�. Z�ota+3",
+    "name": "Bransol. Z Biał. Złota+3",
     "icon": "../assets/item-icons/item/14140.png"
   },
   {
     "vnum": "14144",
-    "name": "Bransol. Z Bia�. Z�ota+4",
+    "name": "Bransol. Z Biał. Złota+4",
     "icon": "../assets/item-icons/item/14140.png"
   },
   {
     "vnum": "14145",
-    "name": "Bransol. Z Bia�. Z�ota+5",
+    "name": "Bransol. Z Biał. Złota+5",
     "icon": "../assets/item-icons/item/14140.png"
   },
   {
     "vnum": "14146",
-    "name": "Bransol. Z Bia�. Z�ota+6",
+    "name": "Bransol. Z Biał. Złota+6",
     "icon": "../assets/item-icons/item/14140.png"
   },
   {
     "vnum": "14147",
-    "name": "Bransol. Z Bia�. Z�ota+7",
+    "name": "Bransol. Z Biał. Złota+7",
     "icon": "../assets/item-icons/item/14140.png"
   },
   {
     "vnum": "14148",
-    "name": "Bransol. Z Bia�. Z�ota+8",
+    "name": "Bransol. Z Biał. Złota+8",
     "icon": "../assets/item-icons/item/14140.png"
   },
   {
     "vnum": "14149",
-    "name": "Bransol. Z Bia�. Z�ota+9",
+    "name": "Bransol. Z Biał. Złota+9",
     "icon": "../assets/item-icons/item/14140.png"
   },
   {
     "vnum": "14160",
-    "name": "Kryszta�owa Bransoleta+0",
+    "name": "Kryształowa Bransoleta+0",
     "icon": "../assets/item-icons/item/14160.png"
   },
   {
     "vnum": "14161",
-    "name": "Kryszta�owa Bransoleta+1",
+    "name": "Kryształowa Bransoleta+1",
     "icon": "../assets/item-icons/item/14160.png"
   },
   {
     "vnum": "14162",
-    "name": "Kryszta�owa Bransoleta+2",
+    "name": "Kryształowa Bransoleta+2",
     "icon": "../assets/item-icons/item/14160.png"
   },
   {
     "vnum": "14163",
-    "name": "Kryszta�owa Bransoleta+3",
+    "name": "Kryształowa Bransoleta+3",
     "icon": "../assets/item-icons/item/14160.png"
   },
   {
     "vnum": "14164",
-    "name": "Kryszta�owa Bransoleta+4",
+    "name": "Kryształowa Bransoleta+4",
     "icon": "../assets/item-icons/item/14160.png"
   },
   {
     "vnum": "14165",
-    "name": "Kryszta�owa Bransoleta+5",
+    "name": "Kryształowa Bransoleta+5",
     "icon": "../assets/item-icons/item/14160.png"
   },
   {
     "vnum": "14166",
-    "name": "Kryszta�owa Bransoleta+6",
+    "name": "Kryształowa Bransoleta+6",
     "icon": "../assets/item-icons/item/14160.png"
   },
   {
     "vnum": "14167",
-    "name": "Kryszta�owa Bransoleta+7",
+    "name": "Kryształowa Bransoleta+7",
     "icon": "../assets/item-icons/item/14160.png"
   },
   {
     "vnum": "14168",
-    "name": "Kryszta�owa Bransoleta+8",
+    "name": "Kryształowa Bransoleta+8",
     "icon": "../assets/item-icons/item/14160.png"
   },
   {
     "vnum": "14169",
-    "name": "Kryszta�owa Bransoleta+9",
+    "name": "Kryształowa Bransoleta+9",
     "icon": "../assets/item-icons/item/14160.png"
   },
   {
@@ -11928,102 +11929,102 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "14200",
-    "name": "Bransol. Z Niebia�.�ez+0",
+    "name": "Bransol. Z Niebiań.Łez+0",
     "icon": "../assets/item-icons/item/14200.png"
   },
   {
     "vnum": "14201",
-    "name": "Bransol. Z Niebia�.�ez+1",
+    "name": "Bransol. Z Niebiań.Łez+1",
     "icon": "../assets/item-icons/item/14200.png"
   },
   {
     "vnum": "14202",
-    "name": "Bransol. Z Niebia�.�ez+2",
+    "name": "Bransol. Z Niebiań.Łez+2",
     "icon": "../assets/item-icons/item/14200.png"
   },
   {
     "vnum": "14203",
-    "name": "Bransol. Z Niebia�.�ez+3",
+    "name": "Bransol. Z Niebiań.Łez+3",
     "icon": "../assets/item-icons/item/14200.png"
   },
   {
     "vnum": "14204",
-    "name": "Bransol. Z Niebia�.�ez+4",
+    "name": "Bransol. Z Niebiań.Łez+4",
     "icon": "../assets/item-icons/item/14200.png"
   },
   {
     "vnum": "14205",
-    "name": "Bransol. Z Niebia�.�ez+5",
+    "name": "Bransol. Z Niebiań.Łez+5",
     "icon": "../assets/item-icons/item/14200.png"
   },
   {
     "vnum": "14206",
-    "name": "Bransol. Z Niebia�.�ez+6",
+    "name": "Bransol. Z Niebiań.Łez+6",
     "icon": "../assets/item-icons/item/14200.png"
   },
   {
     "vnum": "14207",
-    "name": "Bransol. Z Niebia�.�ez+7",
+    "name": "Bransol. Z Niebiań.Łez+7",
     "icon": "../assets/item-icons/item/14200.png"
   },
   {
     "vnum": "14208",
-    "name": "Bransol. Z Niebia�.�ez+8",
+    "name": "Bransol. Z Niebiań.Łez+8",
     "icon": "../assets/item-icons/item/14200.png"
   },
   {
     "vnum": "14209",
-    "name": "Bransol. Z Niebia�.�ez+9",
+    "name": "Bransol. Z Niebiań.Łez+9",
     "icon": "../assets/item-icons/item/14200.png"
   },
   {
     "vnum": "14220",
-    "name": "Opaska Kryszta�u Duszy+0",
+    "name": "Opaska Kryształu Duszy+0",
     "icon": "../assets/item-icons/item/14220.png"
   },
   {
     "vnum": "14221",
-    "name": "Opaska Kryszta�u Duszy+1",
+    "name": "Opaska Kryształu Duszy+1",
     "icon": "../assets/item-icons/item/14220.png"
   },
   {
     "vnum": "14222",
-    "name": "Opaska Kryszta�u Duszy+2",
+    "name": "Opaska Kryształu Duszy+2",
     "icon": "../assets/item-icons/item/14220.png"
   },
   {
     "vnum": "14223",
-    "name": "Opaska Kryszta�u Duszy+3",
+    "name": "Opaska Kryształu Duszy+3",
     "icon": "../assets/item-icons/item/14220.png"
   },
   {
     "vnum": "14224",
-    "name": "Opaska Kryszta�u Duszy+4",
+    "name": "Opaska Kryształu Duszy+4",
     "icon": "../assets/item-icons/item/14220.png"
   },
   {
     "vnum": "14225",
-    "name": "Opaska Kryszta�u Duszy+5",
+    "name": "Opaska Kryształu Duszy+5",
     "icon": "../assets/item-icons/item/14220.png"
   },
   {
     "vnum": "14226",
-    "name": "Opaska Kryszta�u Duszy+6",
+    "name": "Opaska Kryształu Duszy+6",
     "icon": "../assets/item-icons/item/14220.png"
   },
   {
     "vnum": "14227",
-    "name": "Opaska Kryszta�u Duszy+7",
+    "name": "Opaska Kryształu Duszy+7",
     "icon": "../assets/item-icons/item/14220.png"
   },
   {
     "vnum": "14228",
-    "name": "Opaska Kryszta�u Duszy+8",
+    "name": "Opaska Kryształu Duszy+8",
     "icon": "../assets/item-icons/item/14220.png"
   },
   {
     "vnum": "14229",
-    "name": "Opaska Kryszta�u Duszy+9",
+    "name": "Opaska Kryształu Duszy+9",
     "icon": "../assets/item-icons/item/14220.png"
   },
   {
@@ -12228,52 +12229,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "15000",
-    "name": "Sk�rzane Buty+0",
+    "name": "Skórzane Buty+0",
     "icon": "../assets/item-icons/item/15000.png"
   },
   {
     "vnum": "15001",
-    "name": "Sk�rzane Buty+1",
+    "name": "Skórzane Buty+1",
     "icon": "../assets/item-icons/item/15000.png"
   },
   {
     "vnum": "15002",
-    "name": "Sk�rzane Buty+2",
+    "name": "Skórzane Buty+2",
     "icon": "../assets/item-icons/item/15000.png"
   },
   {
     "vnum": "15003",
-    "name": "Sk�rzane Buty+3",
+    "name": "Skórzane Buty+3",
     "icon": "../assets/item-icons/item/15000.png"
   },
   {
     "vnum": "15004",
-    "name": "Sk�rzane Buty+4",
+    "name": "Skórzane Buty+4",
     "icon": "../assets/item-icons/item/15000.png"
   },
   {
     "vnum": "15005",
-    "name": "Sk�rzane Buty+5",
+    "name": "Skórzane Buty+5",
     "icon": "../assets/item-icons/item/15000.png"
   },
   {
     "vnum": "15006",
-    "name": "Sk�rzane Buty+6",
+    "name": "Skórzane Buty+6",
     "icon": "../assets/item-icons/item/15000.png"
   },
   {
     "vnum": "15007",
-    "name": "Sk�rzane Buty+7",
+    "name": "Skórzane Buty+7",
     "icon": "../assets/item-icons/item/15000.png"
   },
   {
     "vnum": "15008",
-    "name": "Sk�rzane Buty+8",
+    "name": "Skórzane Buty+8",
     "icon": "../assets/item-icons/item/15000.png"
   },
   {
     "vnum": "15009",
-    "name": "Sk�rzane Buty+9",
+    "name": "Skórzane Buty+9",
     "icon": "../assets/item-icons/item/15000.png"
   },
   {
@@ -12378,202 +12379,202 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "15060",
-    "name": "Buty Wyszywane Z�otem+0",
+    "name": "Buty Wyszywane Złotem+0",
     "icon": "../assets/item-icons/item/15060.png"
   },
   {
     "vnum": "15061",
-    "name": "Buty Wyszywane Z�otem+1",
+    "name": "Buty Wyszywane Złotem+1",
     "icon": "../assets/item-icons/item/15060.png"
   },
   {
     "vnum": "15062",
-    "name": "Buty Wyszywane Z�otem+2",
+    "name": "Buty Wyszywane Złotem+2",
     "icon": "../assets/item-icons/item/15060.png"
   },
   {
     "vnum": "15063",
-    "name": "Buty Wyszywane Z�otem+3",
+    "name": "Buty Wyszywane Złotem+3",
     "icon": "../assets/item-icons/item/15060.png"
   },
   {
     "vnum": "15064",
-    "name": "Buty Wyszywane Z�otem+4",
+    "name": "Buty Wyszywane Złotem+4",
     "icon": "../assets/item-icons/item/15060.png"
   },
   {
     "vnum": "15065",
-    "name": "Buty Wyszywane Z�otem+5",
+    "name": "Buty Wyszywane Złotem+5",
     "icon": "../assets/item-icons/item/15060.png"
   },
   {
     "vnum": "15066",
-    "name": "Buty Wyszywane Z�otem+6",
+    "name": "Buty Wyszywane Złotem+6",
     "icon": "../assets/item-icons/item/15060.png"
   },
   {
     "vnum": "15067",
-    "name": "Buty Wyszywane Z�otem+7",
+    "name": "Buty Wyszywane Złotem+7",
     "icon": "../assets/item-icons/item/15060.png"
   },
   {
     "vnum": "15068",
-    "name": "Buty Wyszywane Z�otem+8",
+    "name": "Buty Wyszywane Złotem+8",
     "icon": "../assets/item-icons/item/15060.png"
   },
   {
     "vnum": "15069",
-    "name": "Buty Wyszywane Z�otem+9",
+    "name": "Buty Wyszywane Złotem+9",
     "icon": "../assets/item-icons/item/15060.png"
   },
   {
     "vnum": "15080",
-    "name": "Sk�rzane Kozaki+0",
+    "name": "Skórzane Kozaki+0",
     "icon": "../assets/item-icons/item/15080.png"
   },
   {
     "vnum": "15081",
-    "name": "Sk�rzane Kozaki+1",
+    "name": "Skórzane Kozaki+1",
     "icon": "../assets/item-icons/item/15080.png"
   },
   {
     "vnum": "15082",
-    "name": "Sk�rzane Kozaki+2",
+    "name": "Skórzane Kozaki+2",
     "icon": "../assets/item-icons/item/15080.png"
   },
   {
     "vnum": "15083",
-    "name": "Sk�rzane Kozaki+3",
+    "name": "Skórzane Kozaki+3",
     "icon": "../assets/item-icons/item/15080.png"
   },
   {
     "vnum": "15084",
-    "name": "Sk�rzane Kozaki+4",
+    "name": "Skórzane Kozaki+4",
     "icon": "../assets/item-icons/item/15080.png"
   },
   {
     "vnum": "15085",
-    "name": "Sk�rzane Kozaki+5",
+    "name": "Skórzane Kozaki+5",
     "icon": "../assets/item-icons/item/15080.png"
   },
   {
     "vnum": "15086",
-    "name": "Sk�rzane Kozaki+6",
+    "name": "Skórzane Kozaki+6",
     "icon": "../assets/item-icons/item/15080.png"
   },
   {
     "vnum": "15087",
-    "name": "Sk�rzane Kozaki+7",
+    "name": "Skórzane Kozaki+7",
     "icon": "../assets/item-icons/item/15080.png"
   },
   {
     "vnum": "15088",
-    "name": "Sk�rzane Kozaki+8",
+    "name": "Skórzane Kozaki+8",
     "icon": "../assets/item-icons/item/15080.png"
   },
   {
     "vnum": "15089",
-    "name": "Sk�rzane Kozaki+9",
+    "name": "Skórzane Kozaki+9",
     "icon": "../assets/item-icons/item/15080.png"
   },
   {
     "vnum": "15100",
-    "name": "Z�ote Buty+0",
+    "name": "Złote Buty+0",
     "icon": "../assets/item-icons/item/15100.png"
   },
   {
     "vnum": "15101",
-    "name": "Z�ote Buty+1",
+    "name": "Złote Buty+1",
     "icon": "../assets/item-icons/item/15100.png"
   },
   {
     "vnum": "15102",
-    "name": "Z�ote Buty+2",
+    "name": "Złote Buty+2",
     "icon": "../assets/item-icons/item/15100.png"
   },
   {
     "vnum": "15103",
-    "name": "Z�ote Buty+3",
+    "name": "Złote Buty+3",
     "icon": "../assets/item-icons/item/15100.png"
   },
   {
     "vnum": "15104",
-    "name": "Z�ote Buty+4",
+    "name": "Złote Buty+4",
     "icon": "../assets/item-icons/item/15100.png"
   },
   {
     "vnum": "15105",
-    "name": "Z�ote Buty+5",
+    "name": "Złote Buty+5",
     "icon": "../assets/item-icons/item/15100.png"
   },
   {
     "vnum": "15106",
-    "name": "Z�ote Buty+6",
+    "name": "Złote Buty+6",
     "icon": "../assets/item-icons/item/15100.png"
   },
   {
     "vnum": "15107",
-    "name": "Z�ote Buty+7",
+    "name": "Złote Buty+7",
     "icon": "../assets/item-icons/item/15100.png"
   },
   {
     "vnum": "15108",
-    "name": "Z�ote Buty+8",
+    "name": "Złote Buty+8",
     "icon": "../assets/item-icons/item/15100.png"
   },
   {
     "vnum": "15109",
-    "name": "Z�ote Buty+9",
+    "name": "Złote Buty+9",
     "icon": "../assets/item-icons/item/15100.png"
   },
   {
     "vnum": "15120",
-    "name": "Buty Z Br�zu+0",
+    "name": "Buty Z Brązu+0",
     "icon": "../assets/item-icons/item/15120.png"
   },
   {
     "vnum": "15121",
-    "name": "Buty Z Br�zu+1",
+    "name": "Buty Z Brązu+1",
     "icon": "../assets/item-icons/item/15120.png"
   },
   {
     "vnum": "15122",
-    "name": "Buty Z Br�zu+2",
+    "name": "Buty Z Brązu+2",
     "icon": "../assets/item-icons/item/15120.png"
   },
   {
     "vnum": "15123",
-    "name": "Buty Z Br�zu+3",
+    "name": "Buty Z Brązu+3",
     "icon": "../assets/item-icons/item/15120.png"
   },
   {
     "vnum": "15124",
-    "name": "Buty Z Br�zu+4",
+    "name": "Buty Z Brązu+4",
     "icon": "../assets/item-icons/item/15120.png"
   },
   {
     "vnum": "15125",
-    "name": "Buty Z Br�zu+5",
+    "name": "Buty Z Brązu+5",
     "icon": "../assets/item-icons/item/15120.png"
   },
   {
     "vnum": "15126",
-    "name": "Buty Z Br�zu+6",
+    "name": "Buty Z Brązu+6",
     "icon": "../assets/item-icons/item/15120.png"
   },
   {
     "vnum": "15127",
-    "name": "Buty Z Br�zu+7",
+    "name": "Buty Z Brązu+7",
     "icon": "../assets/item-icons/item/15120.png"
   },
   {
     "vnum": "15128",
-    "name": "Buty Z Br�zu+8",
+    "name": "Buty Z Brązu+8",
     "icon": "../assets/item-icons/item/15120.png"
   },
   {
     "vnum": "15129",
-    "name": "Buty Z Br�zu+9",
+    "name": "Buty Z Brązu+9",
     "icon": "../assets/item-icons/item/15120.png"
   },
   {
@@ -12828,52 +12829,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "15240",
-    "name": "Buty Ze Sk�ry Smoka+0",
+    "name": "Buty Ze Skóry Smoka+0",
     "icon": "../assets/item-icons/item/15240.png"
   },
   {
     "vnum": "15241",
-    "name": "Buty Ze Sk�ry Smoka+1",
+    "name": "Buty Ze Skóry Smoka+1",
     "icon": "../assets/item-icons/item/15240.png"
   },
   {
     "vnum": "15242",
-    "name": "Buty Ze Sk�ry Smoka+2",
+    "name": "Buty Ze Skóry Smoka+2",
     "icon": "../assets/item-icons/item/15240.png"
   },
   {
     "vnum": "15243",
-    "name": "Buty Ze Sk�ry Smoka+3",
+    "name": "Buty Ze Skóry Smoka+3",
     "icon": "../assets/item-icons/item/15240.png"
   },
   {
     "vnum": "15244",
-    "name": "Buty Ze Sk�ry Smoka+4",
+    "name": "Buty Ze Skóry Smoka+4",
     "icon": "../assets/item-icons/item/15240.png"
   },
   {
     "vnum": "15245",
-    "name": "Buty Ze Sk�ry Smoka+5",
+    "name": "Buty Ze Skóry Smoka+5",
     "icon": "../assets/item-icons/item/15240.png"
   },
   {
     "vnum": "15246",
-    "name": "Buty Ze Sk�ry Smoka+6",
+    "name": "Buty Ze Skóry Smoka+6",
     "icon": "../assets/item-icons/item/15240.png"
   },
   {
     "vnum": "15247",
-    "name": "Buty Ze Sk�ry Smoka+7",
+    "name": "Buty Ze Skóry Smoka+7",
     "icon": "../assets/item-icons/item/15240.png"
   },
   {
     "vnum": "15248",
-    "name": "Buty Ze Sk�ry Smoka+8",
+    "name": "Buty Ze Skóry Smoka+8",
     "icon": "../assets/item-icons/item/15240.png"
   },
   {
     "vnum": "15249",
-    "name": "Buty Ze Sk�ry Smoka+9",
+    "name": "Buty Ze Skóry Smoka+9",
     "icon": "../assets/item-icons/item/15240.png"
   },
   {
@@ -13228,52 +13229,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "16060",
-    "name": "Z�oty Naszyjnik+0",
+    "name": "Złoty Naszyjnik+0",
     "icon": "../assets/item-icons/item/16060.png"
   },
   {
     "vnum": "16061",
-    "name": "Z�oty Naszyjnik+1",
+    "name": "Złoty Naszyjnik+1",
     "icon": "../assets/item-icons/item/16060.png"
   },
   {
     "vnum": "16062",
-    "name": "Z�oty Naszyjnik+2",
+    "name": "Złoty Naszyjnik+2",
     "icon": "../assets/item-icons/item/16060.png"
   },
   {
     "vnum": "16063",
-    "name": "Z�oty Naszyjnik+3",
+    "name": "Złoty Naszyjnik+3",
     "icon": "../assets/item-icons/item/16060.png"
   },
   {
     "vnum": "16064",
-    "name": "Z�oty Naszyjnik+4",
+    "name": "Złoty Naszyjnik+4",
     "icon": "../assets/item-icons/item/16060.png"
   },
   {
     "vnum": "16065",
-    "name": "Z�oty Naszyjnik+5",
+    "name": "Złoty Naszyjnik+5",
     "icon": "../assets/item-icons/item/16060.png"
   },
   {
     "vnum": "16066",
-    "name": "Z�oty Naszyjnik+6",
+    "name": "Złoty Naszyjnik+6",
     "icon": "../assets/item-icons/item/16060.png"
   },
   {
     "vnum": "16067",
-    "name": "Z�oty Naszyjnik+7",
+    "name": "Złoty Naszyjnik+7",
     "icon": "../assets/item-icons/item/16060.png"
   },
   {
     "vnum": "16068",
-    "name": "Z�oty Naszyjnik+8",
+    "name": "Złoty Naszyjnik+8",
     "icon": "../assets/item-icons/item/16060.png"
   },
   {
     "vnum": "16069",
-    "name": "Z�oty Naszyjnik+9",
+    "name": "Złoty Naszyjnik+9",
     "icon": "../assets/item-icons/item/16060.png"
   },
   {
@@ -13378,152 +13379,152 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "16120",
-    "name": "Per�owy Naszyjnik+0",
+    "name": "Perłowy Naszyjnik+0",
     "icon": "../assets/item-icons/item/16120.png"
   },
   {
     "vnum": "16121",
-    "name": "Per�owy Naszyjnik+1",
+    "name": "Perłowy Naszyjnik+1",
     "icon": "../assets/item-icons/item/16120.png"
   },
   {
     "vnum": "16122",
-    "name": "Per�owy Naszyjnik+2",
+    "name": "Perłowy Naszyjnik+2",
     "icon": "../assets/item-icons/item/16120.png"
   },
   {
     "vnum": "16123",
-    "name": "Per�owy Naszyjnik+3",
+    "name": "Perłowy Naszyjnik+3",
     "icon": "../assets/item-icons/item/16120.png"
   },
   {
     "vnum": "16124",
-    "name": "Per�owy Naszyjnik+4",
+    "name": "Perłowy Naszyjnik+4",
     "icon": "../assets/item-icons/item/16120.png"
   },
   {
     "vnum": "16125",
-    "name": "Per�owy Naszyjnik+5",
+    "name": "Perłowy Naszyjnik+5",
     "icon": "../assets/item-icons/item/16120.png"
   },
   {
     "vnum": "16126",
-    "name": "Per�owy Naszyjnik+6",
+    "name": "Perłowy Naszyjnik+6",
     "icon": "../assets/item-icons/item/16120.png"
   },
   {
     "vnum": "16127",
-    "name": "Per�owy Naszyjnik+7",
+    "name": "Perłowy Naszyjnik+7",
     "icon": "../assets/item-icons/item/16120.png"
   },
   {
     "vnum": "16128",
-    "name": "Per�owy Naszyjnik+8",
+    "name": "Perłowy Naszyjnik+8",
     "icon": "../assets/item-icons/item/16120.png"
   },
   {
     "vnum": "16129",
-    "name": "Per�owy Naszyjnik+9",
+    "name": "Perłowy Naszyjnik+9",
     "icon": "../assets/item-icons/item/16120.png"
   },
   {
     "vnum": "16140",
-    "name": "Naszyj. Z Bia�. Z�ota+0",
+    "name": "Naszyj. Z Biał. Złota+0",
     "icon": "../assets/item-icons/item/16140.png"
   },
   {
     "vnum": "16141",
-    "name": "Naszyj. Z Bia�. Z�ota+1",
+    "name": "Naszyj. Z Biał. Złota+1",
     "icon": "../assets/item-icons/item/16140.png"
   },
   {
     "vnum": "16142",
-    "name": "Naszyj. Z Bia�. Z�ota+2",
+    "name": "Naszyj. Z Biał. Złota+2",
     "icon": "../assets/item-icons/item/16140.png"
   },
   {
     "vnum": "16143",
-    "name": "Naszyj. Z Bia�. Z�ota+3",
+    "name": "Naszyj. Z Biał. Złota+3",
     "icon": "../assets/item-icons/item/16140.png"
   },
   {
     "vnum": "16144",
-    "name": "Naszyj. Z Bia�. Z�ota+4",
+    "name": "Naszyj. Z Biał. Złota+4",
     "icon": "../assets/item-icons/item/16140.png"
   },
   {
     "vnum": "16145",
-    "name": "Naszyj. Z Bia�. Z�ota+5",
+    "name": "Naszyj. Z Biał. Złota+5",
     "icon": "../assets/item-icons/item/16140.png"
   },
   {
     "vnum": "16146",
-    "name": "Naszyj. Z Bia�. Z�ota+6",
+    "name": "Naszyj. Z Biał. Złota+6",
     "icon": "../assets/item-icons/item/16140.png"
   },
   {
     "vnum": "16147",
-    "name": "Naszyj. Z Bia�. Z�ota+7",
+    "name": "Naszyj. Z Biał. Złota+7",
     "icon": "../assets/item-icons/item/16140.png"
   },
   {
     "vnum": "16148",
-    "name": "Naszyj. Z Bia�. Z�ota+8",
+    "name": "Naszyj. Z Biał. Złota+8",
     "icon": "../assets/item-icons/item/16140.png"
   },
   {
     "vnum": "16149",
-    "name": "Naszyj. Z Bia�. Z�ota+9",
+    "name": "Naszyj. Z Biał. Złota+9",
     "icon": "../assets/item-icons/item/16140.png"
   },
   {
     "vnum": "16160",
-    "name": "Kryszta�owy Naszyjnik+0",
+    "name": "Kryształowy Naszyjnik+0",
     "icon": "../assets/item-icons/item/16160.png"
   },
   {
     "vnum": "16161",
-    "name": "Kryszta�owy Naszyjnik+1",
+    "name": "Kryształowy Naszyjnik+1",
     "icon": "../assets/item-icons/item/16160.png"
   },
   {
     "vnum": "16162",
-    "name": "Kryszta�owy Naszyjnik+2",
+    "name": "Kryształowy Naszyjnik+2",
     "icon": "../assets/item-icons/item/16160.png"
   },
   {
     "vnum": "16163",
-    "name": "Kryszta�owy Naszyjnik+3",
+    "name": "Kryształowy Naszyjnik+3",
     "icon": "../assets/item-icons/item/16160.png"
   },
   {
     "vnum": "16164",
-    "name": "Kryszta�owy Naszyjnik+4",
+    "name": "Kryształowy Naszyjnik+4",
     "icon": "../assets/item-icons/item/16160.png"
   },
   {
     "vnum": "16165",
-    "name": "Kryszta�owy Naszyjnik+5",
+    "name": "Kryształowy Naszyjnik+5",
     "icon": "../assets/item-icons/item/16160.png"
   },
   {
     "vnum": "16166",
-    "name": "Kryszta�owy Naszyjnik+6",
+    "name": "Kryształowy Naszyjnik+6",
     "icon": "../assets/item-icons/item/16160.png"
   },
   {
     "vnum": "16167",
-    "name": "Kryszta�owy Naszyjnik+7",
+    "name": "Kryształowy Naszyjnik+7",
     "icon": "../assets/item-icons/item/16160.png"
   },
   {
     "vnum": "16168",
-    "name": "Kryszta�owy Naszyjnik+8",
+    "name": "Kryształowy Naszyjnik+8",
     "icon": "../assets/item-icons/item/16160.png"
   },
   {
     "vnum": "16169",
-    "name": "Kryszta�owy Naszyjnik+9",
+    "name": "Kryształowy Naszyjnik+9",
     "icon": "../assets/item-icons/item/16160.png"
   },
   {
@@ -13578,52 +13579,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "16200",
-    "name": "Naszyj. Z Niebia�.�ez+0",
+    "name": "Naszyj. Z Niebiań.Łez+0",
     "icon": "../assets/item-icons/item/16200.png"
   },
   {
     "vnum": "16201",
-    "name": "Naszyj. Z Niebia�.�ez+1",
+    "name": "Naszyj. Z Niebiań.Łez+1",
     "icon": "../assets/item-icons/item/16200.png"
   },
   {
     "vnum": "16202",
-    "name": "Naszyj. Z Niebia�.�ez+2",
+    "name": "Naszyj. Z Niebiań.Łez+2",
     "icon": "../assets/item-icons/item/16200.png"
   },
   {
     "vnum": "16203",
-    "name": "Naszyj. Z Niebia�.�ez+3",
+    "name": "Naszyj. Z Niebiań.Łez+3",
     "icon": "../assets/item-icons/item/16200.png"
   },
   {
     "vnum": "16204",
-    "name": "Naszyj. Z Niebia�.�ez+4",
+    "name": "Naszyj. Z Niebiań.Łez+4",
     "icon": "../assets/item-icons/item/16200.png"
   },
   {
     "vnum": "16205",
-    "name": "Naszyj. Z Niebia�.�ez+5",
+    "name": "Naszyj. Z Niebiań.Łez+5",
     "icon": "../assets/item-icons/item/16200.png"
   },
   {
     "vnum": "16206",
-    "name": "Naszyj. Z Niebia�.�ez+6",
+    "name": "Naszyj. Z Niebiań.Łez+6",
     "icon": "../assets/item-icons/item/16200.png"
   },
   {
     "vnum": "16207",
-    "name": "Naszyj. Z Niebia�.�ez+7",
+    "name": "Naszyj. Z Niebiań.Łez+7",
     "icon": "../assets/item-icons/item/16200.png"
   },
   {
     "vnum": "16208",
-    "name": "Naszyj. Z Niebia�.�ez+8",
+    "name": "Naszyj. Z Niebiań.Łez+8",
     "icon": "../assets/item-icons/item/16200.png"
   },
   {
     "vnum": "16209",
-    "name": "Naszyj. Z Niebia�.�ez+9",
+    "name": "Naszyj. Z Niebiań.Łez+9",
     "icon": "../assets/item-icons/item/16200.png"
   },
   {
@@ -14028,52 +14029,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "17060",
-    "name": "Z�ote Kolczyki+0",
+    "name": "Złote Kolczyki+0",
     "icon": "../assets/item-icons/item/17060.png"
   },
   {
     "vnum": "17061",
-    "name": "Z�ote Kolczyki+1",
+    "name": "Złote Kolczyki+1",
     "icon": "../assets/item-icons/item/17060.png"
   },
   {
     "vnum": "17062",
-    "name": "Z�ote Kolczyki+2",
+    "name": "Złote Kolczyki+2",
     "icon": "../assets/item-icons/item/17060.png"
   },
   {
     "vnum": "17063",
-    "name": "Z�ote Kolczyki+3",
+    "name": "Złote Kolczyki+3",
     "icon": "../assets/item-icons/item/17060.png"
   },
   {
     "vnum": "17064",
-    "name": "Z�ote Kolczyki+4",
+    "name": "Złote Kolczyki+4",
     "icon": "../assets/item-icons/item/17060.png"
   },
   {
     "vnum": "17065",
-    "name": "Z�ote Kolczyki+5",
+    "name": "Złote Kolczyki+5",
     "icon": "../assets/item-icons/item/17060.png"
   },
   {
     "vnum": "17066",
-    "name": "Z�ote Kolczyki+6",
+    "name": "Złote Kolczyki+6",
     "icon": "../assets/item-icons/item/17060.png"
   },
   {
     "vnum": "17067",
-    "name": "Z�ote Kolczyki+7",
+    "name": "Złote Kolczyki+7",
     "icon": "../assets/item-icons/item/17060.png"
   },
   {
     "vnum": "17068",
-    "name": "Z�ote Kolczyki+8",
+    "name": "Złote Kolczyki+8",
     "icon": "../assets/item-icons/item/17060.png"
   },
   {
     "vnum": "17069",
-    "name": "Z�ote Kolczyki+9",
+    "name": "Złote Kolczyki+9",
     "icon": "../assets/item-icons/item/17060.png"
   },
   {
@@ -14178,152 +14179,152 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "17120",
-    "name": "Per�owe Kolczyki+0",
+    "name": "Perłowe Kolczyki+0",
     "icon": "../assets/item-icons/item/17120.png"
   },
   {
     "vnum": "17121",
-    "name": "Per�owe Kolczyki+1",
+    "name": "Perłowe Kolczyki+1",
     "icon": "../assets/item-icons/item/17120.png"
   },
   {
     "vnum": "17122",
-    "name": "Per�owe Kolczyki+2",
+    "name": "Perłowe Kolczyki+2",
     "icon": "../assets/item-icons/item/17120.png"
   },
   {
     "vnum": "17123",
-    "name": "Per�owe Kolczyki+3",
+    "name": "Perłowe Kolczyki+3",
     "icon": "../assets/item-icons/item/17120.png"
   },
   {
     "vnum": "17124",
-    "name": "Per�owe Kolczyki+4",
+    "name": "Perłowe Kolczyki+4",
     "icon": "../assets/item-icons/item/17120.png"
   },
   {
     "vnum": "17125",
-    "name": "Per�owe Kolczyki+5",
+    "name": "Perłowe Kolczyki+5",
     "icon": "../assets/item-icons/item/17120.png"
   },
   {
     "vnum": "17126",
-    "name": "Per�owe Kolczyki+6",
+    "name": "Perłowe Kolczyki+6",
     "icon": "../assets/item-icons/item/17120.png"
   },
   {
     "vnum": "17127",
-    "name": "Per�owe Kolczyki+7",
+    "name": "Perłowe Kolczyki+7",
     "icon": "../assets/item-icons/item/17120.png"
   },
   {
     "vnum": "17128",
-    "name": "Per�owe Kolczyki+8",
+    "name": "Perłowe Kolczyki+8",
     "icon": "../assets/item-icons/item/17120.png"
   },
   {
     "vnum": "17129",
-    "name": "Per�owe Kolczyki+9",
+    "name": "Perłowe Kolczyki+9",
     "icon": "../assets/item-icons/item/17120.png"
   },
   {
     "vnum": "17140",
-    "name": "Kolczyki Z Bia�. Z�ota+0",
+    "name": "Kolczyki Z Biał. Złota+0",
     "icon": "../assets/item-icons/item/17140.png"
   },
   {
     "vnum": "17141",
-    "name": "Kolczyki Z Bia�. Z�ota+1",
+    "name": "Kolczyki Z Biał. Złota+1",
     "icon": "../assets/item-icons/item/17140.png"
   },
   {
     "vnum": "17142",
-    "name": "Kolczyki Z Bia�. Z�ota+2",
+    "name": "Kolczyki Z Biał. Złota+2",
     "icon": "../assets/item-icons/item/17140.png"
   },
   {
     "vnum": "17143",
-    "name": "Kolczyki Z Bia�. Z�ota+3",
+    "name": "Kolczyki Z Biał. Złota+3",
     "icon": "../assets/item-icons/item/17140.png"
   },
   {
     "vnum": "17144",
-    "name": "Kolczyki Z Bia�. Z�ota+4",
+    "name": "Kolczyki Z Biał. Złota+4",
     "icon": "../assets/item-icons/item/17140.png"
   },
   {
     "vnum": "17145",
-    "name": "Kolczyki Z Bia�. Z�ota+5",
+    "name": "Kolczyki Z Biał. Złota+5",
     "icon": "../assets/item-icons/item/17140.png"
   },
   {
     "vnum": "17146",
-    "name": "Kolczyki Z Bia�. Z�ota+6",
+    "name": "Kolczyki Z Biał. Złota+6",
     "icon": "../assets/item-icons/item/17140.png"
   },
   {
     "vnum": "17147",
-    "name": "Kolczyki Z Bia�. Z�ota+7",
+    "name": "Kolczyki Z Biał. Złota+7",
     "icon": "../assets/item-icons/item/17140.png"
   },
   {
     "vnum": "17148",
-    "name": "Kolczyki Z Bia�. Z�ota+8",
+    "name": "Kolczyki Z Biał. Złota+8",
     "icon": "../assets/item-icons/item/17140.png"
   },
   {
     "vnum": "17149",
-    "name": "Kolczyki Z Bia�. Z�ota+9",
+    "name": "Kolczyki Z Biał. Złota+9",
     "icon": "../assets/item-icons/item/17140.png"
   },
   {
     "vnum": "17160",
-    "name": "Kryszta�owe Kolczyki+0",
+    "name": "Kryształowe Kolczyki+0",
     "icon": "../assets/item-icons/item/17160.png"
   },
   {
     "vnum": "17161",
-    "name": "Kryszta�owe Kolczyki+1",
+    "name": "Kryształowe Kolczyki+1",
     "icon": "../assets/item-icons/item/17160.png"
   },
   {
     "vnum": "17162",
-    "name": "Kryszta�owe Kolczyki+2",
+    "name": "Kryształowe Kolczyki+2",
     "icon": "../assets/item-icons/item/17160.png"
   },
   {
     "vnum": "17163",
-    "name": "Kryszta�owe Kolczyki+3",
+    "name": "Kryształowe Kolczyki+3",
     "icon": "../assets/item-icons/item/17160.png"
   },
   {
     "vnum": "17164",
-    "name": "Kryszta�owe Kolczyki+4",
+    "name": "Kryształowe Kolczyki+4",
     "icon": "../assets/item-icons/item/17160.png"
   },
   {
     "vnum": "17165",
-    "name": "Kryszta�owe Kolczyki+5",
+    "name": "Kryształowe Kolczyki+5",
     "icon": "../assets/item-icons/item/17160.png"
   },
   {
     "vnum": "17166",
-    "name": "Kryszta�owe Kolczyki+6",
+    "name": "Kryształowe Kolczyki+6",
     "icon": "../assets/item-icons/item/17160.png"
   },
   {
     "vnum": "17167",
-    "name": "Kryszta�owe Kolczyki+7",
+    "name": "Kryształowe Kolczyki+7",
     "icon": "../assets/item-icons/item/17160.png"
   },
   {
     "vnum": "17168",
-    "name": "Kryszta�owe Kolczyki+8",
+    "name": "Kryształowe Kolczyki+8",
     "icon": "../assets/item-icons/item/17160.png"
   },
   {
     "vnum": "17169",
-    "name": "Kryszta�owe Kolczyki+9",
+    "name": "Kryształowe Kolczyki+9",
     "icon": "../assets/item-icons/item/17160.png"
   },
   {
@@ -14378,52 +14379,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "17200",
-    "name": "Kolczyki Z Niebia�.�ez+0",
+    "name": "Kolczyki Z Niebiań.Łez+0",
     "icon": "../assets/item-icons/item/17200.png"
   },
   {
     "vnum": "17201",
-    "name": "Kolczyki Z Niebia�.�ez+1",
+    "name": "Kolczyki Z Niebiań.Łez+1",
     "icon": "../assets/item-icons/item/17200.png"
   },
   {
     "vnum": "17202",
-    "name": "Kolczyki Z Niebia�.�ez+2",
+    "name": "Kolczyki Z Niebiań.Łez+2",
     "icon": "../assets/item-icons/item/17200.png"
   },
   {
     "vnum": "17203",
-    "name": "Kolczyki Z Niebia�.�ez+3",
+    "name": "Kolczyki Z Niebiań.Łez+3",
     "icon": "../assets/item-icons/item/17200.png"
   },
   {
     "vnum": "17204",
-    "name": "Kolczyki Z Niebia�.�ez+4",
+    "name": "Kolczyki Z Niebiań.Łez+4",
     "icon": "../assets/item-icons/item/17200.png"
   },
   {
     "vnum": "17205",
-    "name": "Kolczyki Z Niebia�.�ez+5",
+    "name": "Kolczyki Z Niebiań.Łez+5",
     "icon": "../assets/item-icons/item/17200.png"
   },
   {
     "vnum": "17206",
-    "name": "Kolczyki Z Niebia�.�ez+6",
+    "name": "Kolczyki Z Niebiań.Łez+6",
     "icon": "../assets/item-icons/item/17200.png"
   },
   {
     "vnum": "17207",
-    "name": "Kolczyki Z Niebia�.�ez+7",
+    "name": "Kolczyki Z Niebiań.Łez+7",
     "icon": "../assets/item-icons/item/17200.png"
   },
   {
     "vnum": "17208",
-    "name": "Kolczyki Z Niebia�.�ez+8",
+    "name": "Kolczyki Z Niebiań.Łez+8",
     "icon": "../assets/item-icons/item/17200.png"
   },
   {
     "vnum": "17209",
-    "name": "Kolczyki Z Niebia�.�ez+9",
+    "name": "Kolczyki Z Niebiań.Łez+9",
     "icon": "../assets/item-icons/item/17200.png"
   },
   {
@@ -14728,52 +14729,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "18010",
-    "name": "Pas Sk�rzany+0",
+    "name": "Pas Skórzany+0",
     "icon": "../assets/item-icons/item/18010.png"
   },
   {
     "vnum": "18011",
-    "name": "Pas Sk�rzany+1",
+    "name": "Pas Skórzany+1",
     "icon": "../assets/item-icons/item/18010.png"
   },
   {
     "vnum": "18012",
-    "name": "Pas Sk�rzany+2",
+    "name": "Pas Skórzany+2",
     "icon": "../assets/item-icons/item/18010.png"
   },
   {
     "vnum": "18013",
-    "name": "Pas Sk�rzany+3",
+    "name": "Pas Skórzany+3",
     "icon": "../assets/item-icons/item/18010.png"
   },
   {
     "vnum": "18014",
-    "name": "Pas Sk�rzany+4",
+    "name": "Pas Skórzany+4",
     "icon": "../assets/item-icons/item/18010.png"
   },
   {
     "vnum": "18015",
-    "name": "Pas Sk�rzany+5",
+    "name": "Pas Skórzany+5",
     "icon": "../assets/item-icons/item/18010.png"
   },
   {
     "vnum": "18016",
-    "name": "Pas Sk�rzany+6",
+    "name": "Pas Skórzany+6",
     "icon": "../assets/item-icons/item/18010.png"
   },
   {
     "vnum": "18017",
-    "name": "Pas Sk�rzany+7",
+    "name": "Pas Skórzany+7",
     "icon": "../assets/item-icons/item/18010.png"
   },
   {
     "vnum": "18018",
-    "name": "Pas Sk�rzany+8",
+    "name": "Pas Skórzany+8",
     "icon": "../assets/item-icons/item/18010.png"
   },
   {
     "vnum": "18019",
-    "name": "Pas Sk�rzany+9",
+    "name": "Pas Skórzany+9",
     "icon": "../assets/item-icons/item/18010.png"
   },
   {
@@ -14828,102 +14829,102 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "18030",
-    "name": "Pas M�dro�ci+0",
+    "name": "Pas Mądrości+0",
     "icon": "../assets/item-icons/item/18030.png"
   },
   {
     "vnum": "18031",
-    "name": "Pas M�dro�ci+1",
+    "name": "Pas Mądrości+1",
     "icon": "../assets/item-icons/item/18030.png"
   },
   {
     "vnum": "18032",
-    "name": "Pas M�dro�ci+2",
+    "name": "Pas Mądrości+2",
     "icon": "../assets/item-icons/item/18030.png"
   },
   {
     "vnum": "18033",
-    "name": "Pas M�dro�ci+3",
+    "name": "Pas Mądrości+3",
     "icon": "../assets/item-icons/item/18030.png"
   },
   {
     "vnum": "18034",
-    "name": "Pas M�dro�ci+4",
+    "name": "Pas Mądrości+4",
     "icon": "../assets/item-icons/item/18030.png"
   },
   {
     "vnum": "18035",
-    "name": "Pas M�dro�ci+5",
+    "name": "Pas Mądrości+5",
     "icon": "../assets/item-icons/item/18030.png"
   },
   {
     "vnum": "18036",
-    "name": "Pas M�dro�ci+6",
+    "name": "Pas Mądrości+6",
     "icon": "../assets/item-icons/item/18030.png"
   },
   {
     "vnum": "18037",
-    "name": "Pas M�dro�ci+7",
+    "name": "Pas Mądrości+7",
     "icon": "../assets/item-icons/item/18030.png"
   },
   {
     "vnum": "18038",
-    "name": "Pas M�dro�ci+8",
+    "name": "Pas Mądrości+8",
     "icon": "../assets/item-icons/item/18030.png"
   },
   {
     "vnum": "18039",
-    "name": "Pas M�dro�ci+9",
+    "name": "Pas Mądrości+9",
     "icon": "../assets/item-icons/item/18030.png"
   },
   {
     "vnum": "18040",
-    "name": "Pas Kr�la+0",
+    "name": "Pas Króla+0",
     "icon": "../assets/item-icons/item/18040.png"
   },
   {
     "vnum": "18041",
-    "name": "Pas Kr�la+1",
+    "name": "Pas Króla+1",
     "icon": "../assets/item-icons/item/18040.png"
   },
   {
     "vnum": "18042",
-    "name": "Pas Kr�la+2",
+    "name": "Pas Króla+2",
     "icon": "../assets/item-icons/item/18040.png"
   },
   {
     "vnum": "18043",
-    "name": "Pas Kr�la+3",
+    "name": "Pas Króla+3",
     "icon": "../assets/item-icons/item/18040.png"
   },
   {
     "vnum": "18044",
-    "name": "Pas Kr�la+4",
+    "name": "Pas Króla+4",
     "icon": "../assets/item-icons/item/18040.png"
   },
   {
     "vnum": "18045",
-    "name": "Pas Kr�la+5",
+    "name": "Pas Króla+5",
     "icon": "../assets/item-icons/item/18040.png"
   },
   {
     "vnum": "18046",
-    "name": "Pas Kr�la+6",
+    "name": "Pas Króla+6",
     "icon": "../assets/item-icons/item/18040.png"
   },
   {
     "vnum": "18047",
-    "name": "Pas Kr�la+7",
+    "name": "Pas Króla+7",
     "icon": "../assets/item-icons/item/18040.png"
   },
   {
     "vnum": "18048",
-    "name": "Pas Kr�la+8",
+    "name": "Pas Króla+8",
     "icon": "../assets/item-icons/item/18040.png"
   },
   {
     "vnum": "18049",
-    "name": "Pas Kr�la+9",
+    "name": "Pas Króla+9",
     "icon": "../assets/item-icons/item/18040.png"
   },
   {
@@ -15028,52 +15029,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "18070",
-    "name": "Pas Nied�wiedzi+0",
+    "name": "Pas Niedźwiedzi+0",
     "icon": "../assets/item-icons/item/18070.png"
   },
   {
     "vnum": "18071",
-    "name": "Pas Nied�wiedzi+1",
+    "name": "Pas Niedźwiedzi+1",
     "icon": "../assets/item-icons/item/18070.png"
   },
   {
     "vnum": "18072",
-    "name": "Pas Nied�wiedzi+2",
+    "name": "Pas Niedźwiedzi+2",
     "icon": "../assets/item-icons/item/18070.png"
   },
   {
     "vnum": "18073",
-    "name": "Pas Nied�wiedzi+3",
+    "name": "Pas Niedźwiedzi+3",
     "icon": "../assets/item-icons/item/18070.png"
   },
   {
     "vnum": "18074",
-    "name": "Pas Nied�wiedzi+4",
+    "name": "Pas Niedźwiedzi+4",
     "icon": "../assets/item-icons/item/18070.png"
   },
   {
     "vnum": "18075",
-    "name": "Pas Nied�wiedzi+5",
+    "name": "Pas Niedźwiedzi+5",
     "icon": "../assets/item-icons/item/18070.png"
   },
   {
     "vnum": "18076",
-    "name": "Pas Nied�wiedzi+6",
+    "name": "Pas Niedźwiedzi+6",
     "icon": "../assets/item-icons/item/18070.png"
   },
   {
     "vnum": "18077",
-    "name": "Pas Nied�wiedzi+7",
+    "name": "Pas Niedźwiedzi+7",
     "icon": "../assets/item-icons/item/18070.png"
   },
   {
     "vnum": "18078",
-    "name": "Pas Nied�wiedzi+8",
+    "name": "Pas Niedźwiedzi+8",
     "icon": "../assets/item-icons/item/18070.png"
   },
   {
     "vnum": "18079",
-    "name": "Pas Nied�wiedzi+9",
+    "name": "Pas Niedźwiedzi+9",
     "icon": "../assets/item-icons/item/18070.png"
   },
   {
@@ -15128,7 +15129,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "18900",
-    "name": "Kamie� Czerw. P�omienia",
+    "name": "Kamień Czerw. Płomienia",
     "icon": "../assets/item-icons/item/18900.png"
   },
   {
@@ -15183,152 +15184,152 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "20250",
-    "name": "Szata Smoczego Je�d�ca+0",
+    "name": "Szata Smoczego Jeźdźca+0",
     "icon": "../assets/item-icons/item/20250.png"
   },
   {
     "vnum": "20251",
-    "name": "Szata Smoczego Je�d�ca+1",
+    "name": "Szata Smoczego Jeźdźca+1",
     "icon": "../assets/item-icons/item/20250.png"
   },
   {
     "vnum": "20252",
-    "name": "Szata Smoczego Je�d�ca+2",
+    "name": "Szata Smoczego Jeźdźca+2",
     "icon": "../assets/item-icons/item/20250.png"
   },
   {
     "vnum": "20253",
-    "name": "Szata Smoczego Je�d�ca+3",
+    "name": "Szata Smoczego Jeźdźca+3",
     "icon": "../assets/item-icons/item/20250.png"
   },
   {
     "vnum": "20254",
-    "name": "Szata Smoczego Je�d�ca+4",
+    "name": "Szata Smoczego Jeźdźca+4",
     "icon": "../assets/item-icons/item/20250.png"
   },
   {
     "vnum": "20255",
-    "name": "Szata Smoczego Je�d�ca+5",
+    "name": "Szata Smoczego Jeźdźca+5",
     "icon": "../assets/item-icons/item/20250.png"
   },
   {
     "vnum": "20256",
-    "name": "Szata Smoczego Je�d�ca+6",
+    "name": "Szata Smoczego Jeźdźca+6",
     "icon": "../assets/item-icons/item/20250.png"
   },
   {
     "vnum": "20257",
-    "name": "Szata Smoczego Je�d�ca+7",
+    "name": "Szata Smoczego Jeźdźca+7",
     "icon": "../assets/item-icons/item/20250.png"
   },
   {
     "vnum": "20258",
-    "name": "Szata Smoczego Je�d�ca+8",
+    "name": "Szata Smoczego Jeźdźca+8",
     "icon": "../assets/item-icons/item/20250.png"
   },
   {
     "vnum": "20259",
-    "name": "Szata Smoczego Je�d�ca+9",
+    "name": "Szata Smoczego Jeźdźca+9",
     "icon": "../assets/item-icons/item/20250.png"
   },
   {
     "vnum": "20500",
-    "name": "Pancerz Ko�ciop�ytowy+0",
+    "name": "Pancerz Kościopłytowy+0",
     "icon": "../assets/item-icons/item/20500.png"
   },
   {
     "vnum": "20501",
-    "name": "Pancerz Ko�ciop�ytowy+1",
+    "name": "Pancerz Kościopłytowy+1",
     "icon": "../assets/item-icons/item/20500.png"
   },
   {
     "vnum": "20502",
-    "name": "Pancerz Ko�ciop�ytowy+2",
+    "name": "Pancerz Kościopłytowy+2",
     "icon": "../assets/item-icons/item/20500.png"
   },
   {
     "vnum": "20503",
-    "name": "Pancerz Ko�ciop�ytowy+3",
+    "name": "Pancerz Kościopłytowy+3",
     "icon": "../assets/item-icons/item/20500.png"
   },
   {
     "vnum": "20504",
-    "name": "Pancerz Ko�ciop�ytowy+4",
+    "name": "Pancerz Kościopłytowy+4",
     "icon": "../assets/item-icons/item/20500.png"
   },
   {
     "vnum": "20505",
-    "name": "Pancerz Ko�ciop�ytowy+5",
+    "name": "Pancerz Kościopłytowy+5",
     "icon": "../assets/item-icons/item/20500.png"
   },
   {
     "vnum": "20506",
-    "name": "Pancerz Ko�ciop�ytowy+6",
+    "name": "Pancerz Kościopłytowy+6",
     "icon": "../assets/item-icons/item/20500.png"
   },
   {
     "vnum": "20507",
-    "name": "Pancerz Ko�ciop�ytowy+7",
+    "name": "Pancerz Kościopłytowy+7",
     "icon": "../assets/item-icons/item/20500.png"
   },
   {
     "vnum": "20508",
-    "name": "Pancerz Ko�ciop�ytowy+8",
+    "name": "Pancerz Kościopłytowy+8",
     "icon": "../assets/item-icons/item/20500.png"
   },
   {
     "vnum": "20509",
-    "name": "Pancerz Ko�ciop�ytowy+9",
+    "name": "Pancerz Kościopłytowy+9",
     "icon": "../assets/item-icons/item/20500.png"
   },
   {
     "vnum": "20750",
-    "name": "Z�ote Ubranie+0",
+    "name": "Złote Ubranie+0",
     "icon": "../assets/item-icons/item/20750.png"
   },
   {
     "vnum": "20751",
-    "name": "Z�ote Ubranie+1",
+    "name": "Złote Ubranie+1",
     "icon": "../assets/item-icons/item/20750.png"
   },
   {
     "vnum": "20752",
-    "name": "Z�ote Ubranie+2",
+    "name": "Złote Ubranie+2",
     "icon": "../assets/item-icons/item/20750.png"
   },
   {
     "vnum": "20753",
-    "name": "Z�ote Ubranie+3",
+    "name": "Złote Ubranie+3",
     "icon": "../assets/item-icons/item/20750.png"
   },
   {
     "vnum": "20754",
-    "name": "Z�ote Ubranie+4",
+    "name": "Złote Ubranie+4",
     "icon": "../assets/item-icons/item/20750.png"
   },
   {
     "vnum": "20755",
-    "name": "Z�ote Ubranie+5",
+    "name": "Złote Ubranie+5",
     "icon": "../assets/item-icons/item/20750.png"
   },
   {
     "vnum": "20756",
-    "name": "Z�ote Ubranie+6",
+    "name": "Złote Ubranie+6",
     "icon": "../assets/item-icons/item/20750.png"
   },
   {
     "vnum": "20757",
-    "name": "Z�ote Ubranie+7",
+    "name": "Złote Ubranie+7",
     "icon": "../assets/item-icons/item/20750.png"
   },
   {
     "vnum": "20758",
-    "name": "Z�ote Ubranie+8",
+    "name": "Złote Ubranie+8",
     "icon": "../assets/item-icons/item/20750.png"
   },
   {
     "vnum": "20759",
-    "name": "Z�ote Ubranie+9",
+    "name": "Złote Ubranie+9",
     "icon": "../assets/item-icons/item/20750.png"
   },
   {
@@ -15533,57 +15534,57 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "22000",
-    "name": "Zw�j Powrotu Do Miasta",
+    "name": "Zwój Powrotu Do Miasta",
     "icon": "../assets/item-icons/item/22000.png"
   },
   {
     "vnum": "22001",
-    "name": "Zw�j Powrotu Do Miasta",
+    "name": "Zwój Powrotu Do Miasta",
     "icon": "../assets/item-icons/22001.png"
   },
   {
     "vnum": "22010",
-    "name": "Zw�j Powrotu",
+    "name": "Zwój Powrotu",
     "icon": "../assets/item-icons/item/22000.png"
   },
   {
     "vnum": "22011",
-    "name": "Zw�j Powrotu",
+    "name": "Zwój Powrotu",
     "icon": "../assets/item-icons/item/22000.png"
   },
   {
     "vnum": "22020",
-    "name": "Zw�j Teleportacji",
+    "name": "Zwój Teleportacji",
     "icon": "../assets/item-icons/item/dummy.png"
   },
   {
     "vnum": "22030",
-    "name": "Zw�j Teleporu",
+    "name": "Zwój Teleporu",
     "icon": "../assets/item-icons/item/dummy.png"
   },
   {
     "vnum": "22040",
-    "name": "Zw�j �ycia",
+    "name": "Zwój Życia",
     "icon": "../assets/item-icons/22040.png"
   },
   {
     "vnum": "22050",
-    "name": "Zw�j Inkarnacji",
+    "name": "Zwój Inkarnacji",
     "icon": "../assets/item-icons/22050.png"
   },
   {
     "vnum": "25040",
-    "name": "Zw�j B�ogos�awie�stwa",
+    "name": "Zwój Błogosławieństwa",
     "icon": "../assets/item-icons/item/25040.png"
   },
   {
     "vnum": "25041",
-    "name": "Magiczny Kamie�",
+    "name": "Magiczny Kamień",
     "icon": "../assets/item-icons/item/30064.png"
   },
   {
     "vnum": "25100",
-    "name": "Zw�j Kamienia Duszy",
+    "name": "Zwój Kamienia Duszy",
     "icon": "../assets/item-icons/item/25000.png"
   },
   {
@@ -15593,7 +15594,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "27002",
-    "name": "Czerwona Mikstura(�)",
+    "name": "Czerwona Mikstura(Ś)",
     "icon": "../assets/item-icons/item/27002.png"
   },
   {
@@ -15608,7 +15609,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "27005",
-    "name": "Niebieska Mikstura(�)",
+    "name": "Niebieska Mikstura(Ś)",
     "icon": "../assets/item-icons/item/27005.png"
   },
   {
@@ -15643,7 +15644,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "27101",
-    "name": "Zielona Mikstura(�)",
+    "name": "Zielona Mikstura(Ś)",
     "icon": "../assets/item-icons/item/27101.png"
   },
   {
@@ -15658,7 +15659,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "27104",
-    "name": "Fioletowa Mikstura(�)",
+    "name": "Fioletowa Mikstura(Ś)",
     "icon": "../assets/item-icons/item/27104.png"
   },
   {
@@ -15673,7 +15674,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "27111",
-    "name": "Zielona Mikstura(�)",
+    "name": "Zielona Mikstura(Ś)",
     "icon": "../assets/item-icons/item/27101.png"
   },
   {
@@ -15688,7 +15689,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "27114",
-    "name": "Fioletowa Mikstura(�)",
+    "name": "Fioletowa Mikstura(Ś)",
     "icon": "../assets/item-icons/item/27104.png"
   },
   {
@@ -15698,132 +15699,132 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "27116",
-    "name": "R�owa Mikstura(M)",
+    "name": "Różowa Mikstura(M)",
     "icon": "../assets/item-icons/item/27116.png"
   },
   {
     "vnum": "27117",
-    "name": "R�owa Mikstura(�)",
+    "name": "Różowa Mikstura(Ś)",
     "icon": "../assets/item-icons/item/27117.png"
   },
   {
     "vnum": "27118",
-    "name": "R�owa Mikstura(D)",
+    "name": "Różowa Mikstura(D)",
     "icon": "../assets/item-icons/item/27118.png"
   },
   {
     "vnum": "27119",
-    "name": "B��kitna Mikstura(M)",
+    "name": "Błękitna Mikstura(M)",
     "icon": "../assets/item-icons/item/27119.png"
   },
   {
     "vnum": "27120",
-    "name": "B��kitna Mikstura(�)",
+    "name": "Błękitna Mikstura(Ś)",
     "icon": "../assets/item-icons/item/27120.png"
   },
   {
     "vnum": "27121",
-    "name": "B��kitna Mikstura(D)",
+    "name": "Błękitna Mikstura(D)",
     "icon": "../assets/item-icons/item/27121.png"
   },
   {
     "vnum": "27400",
-    "name": "W�dka+1",
+    "name": "Wędka+1",
     "icon": "../assets/item-icons/item/27400.png"
   },
   {
     "vnum": "27410",
-    "name": "W�dka+2",
+    "name": "Wędka+2",
     "icon": "../assets/item-icons/item/27400.png"
   },
   {
     "vnum": "27420",
-    "name": "W�dka+3",
+    "name": "Wędka+3",
     "icon": "../assets/item-icons/item/27400.png"
   },
   {
     "vnum": "27430",
-    "name": "W�dka+4",
+    "name": "Wędka+4",
     "icon": "../assets/item-icons/item/27400.png"
   },
   {
     "vnum": "27440",
-    "name": "W�dka+5",
+    "name": "Wędka+5",
     "icon": "../assets/item-icons/item/27400.png"
   },
   {
     "vnum": "27450",
-    "name": "W�dka+6",
+    "name": "Wędka+6",
     "icon": "../assets/item-icons/item/27400.png"
   },
   {
     "vnum": "27460",
-    "name": "W�dka+7",
+    "name": "Wędka+7",
     "icon": "../assets/item-icons/item/27400.png"
   },
   {
     "vnum": "27470",
-    "name": "W�dka+8",
+    "name": "Wędka+8",
     "icon": "../assets/item-icons/item/27400.png"
   },
   {
     "vnum": "27480",
-    "name": "W�dka+9",
+    "name": "Wędka+9",
     "icon": "../assets/item-icons/item/27400.png"
   },
   {
     "vnum": "27490",
-    "name": "W�dka+10",
+    "name": "Wędka+10",
     "icon": "../assets/item-icons/item/27400.png"
   },
   {
     "vnum": "27500",
-    "name": "W�dka+11",
+    "name": "Wędka+11",
     "icon": "../assets/item-icons/item/27400.png"
   },
   {
     "vnum": "27510",
-    "name": "W�dka+12",
+    "name": "Wędka+12",
     "icon": "../assets/item-icons/item/27400.png"
   },
   {
     "vnum": "27520",
-    "name": "W�dka+13",
+    "name": "Wędka+13",
     "icon": "../assets/item-icons/item/27400.png"
   },
   {
     "vnum": "27530",
-    "name": "W�dka+14",
+    "name": "Wędka+14",
     "icon": "../assets/item-icons/item/27400.png"
   },
   {
     "vnum": "27540",
-    "name": "W�dka+15",
+    "name": "Wędka+15",
     "icon": "../assets/item-icons/item/27400.png"
   },
   {
     "vnum": "27550",
-    "name": "W�dka+16",
+    "name": "Wędka+16",
     "icon": "../assets/item-icons/item/27400.png"
   },
   {
     "vnum": "27560",
-    "name": "W�dka+17",
+    "name": "Wędka+17",
     "icon": "../assets/item-icons/item/27400.png"
   },
   {
     "vnum": "27570",
-    "name": "W�dka+18",
+    "name": "Wędka+18",
     "icon": "../assets/item-icons/item/27400.png"
   },
   {
     "vnum": "27580",
-    "name": "W�dka+19",
+    "name": "Wędka+19",
     "icon": "../assets/item-icons/item/27400.png"
   },
   {
     "vnum": "27590",
-    "name": "W�dka+20",
+    "name": "Wędka+20",
     "icon": "../assets/item-icons/item/27400.png"
   },
   {
@@ -15838,12 +15839,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "27620",
-    "name": "Rybie Wn�trzno�ci",
+    "name": "Rybie Wnętrzności",
     "icon": "../assets/item-icons/item/27620.png"
   },
   {
     "vnum": "27799",
-    "name": "Rybia O��",
+    "name": "Rybia Ość",
     "icon": "../assets/item-icons/item/27799.png"
   },
   {
@@ -15863,7 +15864,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "27803",
-    "name": "Kara�",
+    "name": "Karaś",
     "icon": "../assets/item-icons/item/27803.png"
   },
   {
@@ -15873,7 +15874,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "27805",
-    "name": "Du�y Kara�",
+    "name": "Duży Karaś",
     "icon": "../assets/item-icons/item/27805.png"
   },
   {
@@ -15883,7 +15884,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "27807",
-    "name": "�oso�",
+    "name": "Łosoś",
     "icon": "../assets/item-icons/item/27807.png"
   },
   {
@@ -15893,32 +15894,32 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "27809",
-    "name": "Pstr�g",
+    "name": "Pstrąg",
     "icon": "../assets/item-icons/item/27809.png"
   },
   {
     "vnum": "27810",
-    "name": "W�gorz",
+    "name": "Węgorz",
     "icon": "../assets/item-icons/item/27810.png"
   },
   {
     "vnum": "27811",
-    "name": "T�czowy Pstr�g",
+    "name": "Tęczowy Pstrąg",
     "icon": "../assets/item-icons/item/27811.png"
   },
   {
     "vnum": "27812",
-    "name": "Rzeczny Pstr�g",
+    "name": "Rzeczny Pstrąg",
     "icon": "../assets/item-icons/item/27812.png"
   },
   {
     "vnum": "27813",
-    "name": "Krasnopi�rka",
+    "name": "Krasnopiórka",
     "icon": "../assets/item-icons/item/27813.png"
   },
   {
     "vnum": "27814",
-    "name": "Oko�",
+    "name": "Okoń",
     "icon": "../assets/item-icons/item/27814.png"
   },
   {
@@ -15943,7 +15944,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "27819",
-    "name": "S�odka Ryba",
+    "name": "Słodka Ryba",
     "icon": "../assets/item-icons/item/27819.png"
   },
   {
@@ -15963,12 +15964,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "27823",
-    "name": "Z�oty Kara�",
+    "name": "Złoty Karaś",
     "icon": "../assets/item-icons/item/27823.png"
   },
   {
     "vnum": "27833",
-    "name": "Martwy Kara�",
+    "name": "Martwy Karaś",
     "icon": "../assets/item-icons/item/27833.png"
   },
   {
@@ -15978,7 +15979,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "27835",
-    "name": "Martwy Du�y Kara�",
+    "name": "Martwy Duży Karaś",
     "icon": "../assets/item-icons/item/27835.png"
   },
   {
@@ -15988,7 +15989,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "27837",
-    "name": "Martwy �oso�",
+    "name": "Martwy Łosoś",
     "icon": "../assets/item-icons/item/27837.png"
   },
   {
@@ -15998,32 +15999,32 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "27839",
-    "name": "Martwy Pstr�g",
+    "name": "Martwy Pstrąg",
     "icon": "../assets/item-icons/item/27839.png"
   },
   {
     "vnum": "27840",
-    "name": "Martwy W�gorz",
+    "name": "Martwy Węgorz",
     "icon": "../assets/item-icons/item/27840.png"
   },
   {
     "vnum": "27841",
-    "name": "Martwy T�czowy Pstr�g",
+    "name": "Martwy Tęczowy Pstrąg",
     "icon": "../assets/item-icons/item/27841.png"
   },
   {
     "vnum": "27842",
-    "name": "Martwy Rzeczny Pstr�g",
+    "name": "Martwy Rzeczny Pstrąg",
     "icon": "../assets/item-icons/item/27842.png"
   },
   {
     "vnum": "27843",
-    "name": "Martwa Krasnopi�rka",
+    "name": "Martwa Krasnopiórka",
     "icon": "../assets/item-icons/item/27843.png"
   },
   {
     "vnum": "27844",
-    "name": "Martwy Oko�",
+    "name": "Martwy Okoń",
     "icon": "../assets/item-icons/item/27844.png"
   },
   {
@@ -16048,7 +16049,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "27849",
-    "name": "Martwa S�odka Ryba",
+    "name": "Martwa Słodka Ryba",
     "icon": "../assets/item-icons/item/27849.png"
   },
   {
@@ -16068,12 +16069,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "27853",
-    "name": "Martwy Z�oty Kara�",
+    "name": "Martwy Złoty Karaś",
     "icon": "../assets/item-icons/item/27853.png"
   },
   {
     "vnum": "27863",
-    "name": "Pieczony Kara�",
+    "name": "Pieczony Karaś",
     "icon": "../assets/item-icons/item/27863.png"
   },
   {
@@ -16083,7 +16084,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "27865",
-    "name": "Pieczony Du�y Kara�",
+    "name": "Pieczony Duży Karaś",
     "icon": "../assets/item-icons/item/27865.png"
   },
   {
@@ -16093,7 +16094,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "27867",
-    "name": "Pieczony �oso�",
+    "name": "Pieczony Łosoś",
     "icon": "../assets/item-icons/item/27867.png"
   },
   {
@@ -16103,32 +16104,32 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "27869",
-    "name": "Pieczony Pstr�g",
+    "name": "Pieczony Pstrąg",
     "icon": "../assets/item-icons/item/27869.png"
   },
   {
     "vnum": "27870",
-    "name": "Pieczony W�gorz",
+    "name": "Pieczony Węgorz",
     "icon": "../assets/item-icons/item/27870.png"
   },
   {
     "vnum": "27871",
-    "name": "Pieczony T�czowy Pstr�g",
+    "name": "Pieczony Tęczowy Pstrąg",
     "icon": "../assets/item-icons/item/27871.png"
   },
   {
     "vnum": "27872",
-    "name": "Pieczony Rzeczny Pstr�g",
+    "name": "Pieczony Rzeczny Pstrąg",
     "icon": "../assets/item-icons/item/27872.png"
   },
   {
     "vnum": "27873",
-    "name": "Pieczona Krasnopi�rka",
+    "name": "Pieczona Krasnopiórka",
     "icon": "../assets/item-icons/item/27873.png"
   },
   {
     "vnum": "27874",
-    "name": "Pieczony Oko�",
+    "name": "Pieczony Okoń",
     "icon": "../assets/item-icons/item/27874.png"
   },
   {
@@ -16153,7 +16154,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "27879",
-    "name": "Pieczona S�odka Ryba",
+    "name": "Pieczona Słodka Ryba",
     "icon": "../assets/item-icons/item/27879.png"
   },
   {
@@ -16173,17 +16174,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "27883",
-    "name": "Pieczony Z�oty Kara�",
+    "name": "Pieczony Złoty Karaś",
     "icon": "../assets/item-icons/item/27883.png"
   },
   {
     "vnum": "27987",
-    "name": "Ma��",
+    "name": "Małż",
     "icon": "../assets/item-icons/item/27987.png"
   },
   {
     "vnum": "27988",
-    "name": "Mapa Skarb�w",
+    "name": "Mapa Skarbów",
     "icon": "../assets/item-icons/item/27988.png"
   },
   {
@@ -16193,27 +16194,27 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "27990",
-    "name": "Kawa�ek Kamienia",
+    "name": "Kawałek Kamienia",
     "icon": "../assets/item-icons/item/27990.png"
   },
   {
     "vnum": "27991",
-    "name": "Kamie� Wodny",
+    "name": "Kamień Wodny",
     "icon": "../assets/item-icons/item/27991.png"
   },
   {
     "vnum": "27992",
-    "name": "Bia�a Per�a",
+    "name": "Biała Perła",
     "icon": "../assets/item-icons/item/27992.png"
   },
   {
     "vnum": "27993",
-    "name": "Niebieska Per�a",
+    "name": "Niebieska Perła",
     "icon": "../assets/item-icons/item/27993.png"
   },
   {
     "vnum": "27994",
-    "name": "Krwawa Per�a",
+    "name": "Krwawa Perła",
     "icon": "../assets/item-icons/item/27994.png"
   },
   {
@@ -16223,12 +16224,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "27996",
-    "name": "Butelka Z Trucizn�",
+    "name": "Butelka Z Trucizną",
     "icon": "../assets/item-icons/item/27996.png"
   },
   {
     "vnum": "27997",
-    "name": "Marmur Witalno�ci",
+    "name": "Marmur Witalności",
     "icon": "../assets/item-icons/item/27997.png"
   },
   {
@@ -16243,1107 +16244,1107 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "28000",
-    "name": "Kamie� Duszy Masakry+0",
+    "name": "Kamień Duszy Masakry+0",
     "icon": "../assets/item-icons/item/28004.png"
   },
   {
     "vnum": "28004",
-    "name": "Kamie� Duszy Paranoi+0",
+    "name": "Kamień Duszy Paranoi+0",
     "icon": "../assets/item-icons/item/28005.png"
   },
   {
     "vnum": "28008",
-    "name": "Kamie� Duszy Traumy+0",
+    "name": "Kamień Duszy Traumy+0",
     "icon": "../assets/item-icons/item/28006.png"
   },
   {
     "vnum": "28012",
-    "name": "Kamie� Duszy Likan�w+0",
+    "name": "Kamień Duszy Likanów+0",
     "icon": "../assets/item-icons/item/28112.png"
   },
   {
     "vnum": "28030",
-    "name": "Kamie� Duszy Penetr.+0",
+    "name": "Kamień Duszy Penetr.+0",
     "icon": "../assets/item-icons/item/28000.png"
   },
   {
     "vnum": "28031",
-    "name": "Kamie� Duszy �mierci+0",
+    "name": "Kamień Duszy Śmierci+0",
     "icon": "../assets/item-icons/item/28001.png"
   },
   {
     "vnum": "28032",
-    "name": "Kamie� Duszy Powt�rki+0",
+    "name": "Kamień Duszy Powtórki+0",
     "icon": "../assets/item-icons/item/28002.png"
   },
   {
     "vnum": "28033",
-    "name": "Kamie� Duszy Wojownika+0",
+    "name": "Kamień Duszy Wojownika+0",
     "icon": "../assets/item-icons/item/28003.png"
   },
   {
     "vnum": "28034",
-    "name": "Kamie� Duszy Ninja+0",
+    "name": "Kamień Duszy Ninja+0",
     "icon": "../assets/item-icons/item/28004.png"
   },
   {
     "vnum": "28035",
-    "name": "Kamie� Duszy Sury+0",
+    "name": "Kamień Duszy Sury+0",
     "icon": "../assets/item-icons/item/28005.png"
   },
   {
     "vnum": "28036",
-    "name": "Kamie� Duszy Szamana+0",
+    "name": "Kamień Duszy Szamana+0",
     "icon": "../assets/item-icons/item/28006.png"
   },
   {
     "vnum": "28037",
-    "name": "Kamie� Duszy Potwora+0",
+    "name": "Kamień Duszy Potwora+0",
     "icon": "../assets/item-icons/item/28007.png"
   },
   {
     "vnum": "28038",
-    "name": "Kamie� Duszy Uchylenia+0",
+    "name": "Kamień Duszy Uchylenia+0",
     "icon": "../assets/item-icons/item/28008.png"
   },
   {
     "vnum": "28039",
-    "name": "Kamie� Duszy Uniku+0",
+    "name": "Kamień Duszy Uniku+0",
     "icon": "../assets/item-icons/item/28009.png"
   },
   {
     "vnum": "28040",
-    "name": "Kamie� Duszy Magii+0",
+    "name": "Kamień Duszy Magii+0",
     "icon": "../assets/item-icons/item/28010.png"
   },
   {
     "vnum": "28041",
-    "name": "Kamie� Witalno�ci+0",
+    "name": "Kamień Witalności+0",
     "icon": "../assets/item-icons/item/28011.png"
   },
   {
     "vnum": "28042",
-    "name": "Kamie� Duszy Obrony+0",
+    "name": "Kamień Duszy Obrony+0",
     "icon": "../assets/item-icons/item/28012.png"
   },
   {
     "vnum": "28043",
-    "name": "Kamie� Duszy Przysp.+0",
+    "name": "Kamień Duszy Przysp.+0",
     "icon": "../assets/item-icons/item/28013.png"
   },
   {
     "vnum": "28100",
-    "name": "Kamie� Duszy Masakry+1",
+    "name": "Kamień Duszy Masakry+1",
     "icon": "../assets/item-icons/item/28004.png"
   },
   {
     "vnum": "28104",
-    "name": "Kamie� Duszy Paranoi+1",
+    "name": "Kamień Duszy Paranoi+1",
     "icon": "../assets/item-icons/item/28005.png"
   },
   {
     "vnum": "28108",
-    "name": "Kamie� Duszy Traumy+1",
+    "name": "Kamień Duszy Traumy+1",
     "icon": "../assets/item-icons/item/28006.png"
   },
   {
     "vnum": "28112",
-    "name": "Kamie� Duszy Likan�w+1",
+    "name": "Kamień Duszy Likanów+1",
     "icon": "../assets/item-icons/item/28112.png"
   },
   {
     "vnum": "28130",
-    "name": "Kamie� Duszy Penetr.+1",
+    "name": "Kamień Duszy Penetr.+1",
     "icon": "../assets/item-icons/item/28000.png"
   },
   {
     "vnum": "28131",
-    "name": "Kamie� Duszy �mierci+1",
+    "name": "Kamień Duszy Śmierci+1",
     "icon": "../assets/item-icons/item/28001.png"
   },
   {
     "vnum": "28132",
-    "name": "Kamie� Duszy Powt�rki+1",
+    "name": "Kamień Duszy Powtórki+1",
     "icon": "../assets/item-icons/item/28002.png"
   },
   {
     "vnum": "28133",
-    "name": "Kamie� Duszy Wojownika+1",
+    "name": "Kamień Duszy Wojownika+1",
     "icon": "../assets/item-icons/item/28003.png"
   },
   {
     "vnum": "28134",
-    "name": "Kamie� Duszy Ninja+1",
+    "name": "Kamień Duszy Ninja+1",
     "icon": "../assets/item-icons/item/28004.png"
   },
   {
     "vnum": "28135",
-    "name": "Kamie� Duszy Sury+1",
+    "name": "Kamień Duszy Sury+1",
     "icon": "../assets/item-icons/item/28005.png"
   },
   {
     "vnum": "28136",
-    "name": "Kamie� Duszy Szamana+1",
+    "name": "Kamień Duszy Szamana+1",
     "icon": "../assets/item-icons/item/28006.png"
   },
   {
     "vnum": "28137",
-    "name": "Kamie� Duszy Potwora+1",
+    "name": "Kamień Duszy Potwora+1",
     "icon": "../assets/item-icons/item/28007.png"
   },
   {
     "vnum": "28138",
-    "name": "Kamie� Duszy Uchylenia+1",
+    "name": "Kamień Duszy Uchylenia+1",
     "icon": "../assets/item-icons/item/28008.png"
   },
   {
     "vnum": "28139",
-    "name": "Kamie� Duszy Uniku+1",
+    "name": "Kamień Duszy Uniku+1",
     "icon": "../assets/item-icons/item/28009.png"
   },
   {
     "vnum": "28140",
-    "name": "Kamie� Duszy Magii+1",
+    "name": "Kamień Duszy Magii+1",
     "icon": "../assets/item-icons/item/28010.png"
   },
   {
     "vnum": "28141",
-    "name": "Kamie� Witalno�ci+1",
+    "name": "Kamień Witalności+1",
     "icon": "../assets/item-icons/item/28011.png"
   },
   {
     "vnum": "28142",
-    "name": "Kamie� Duszy Obrony+1",
+    "name": "Kamień Duszy Obrony+1",
     "icon": "../assets/item-icons/item/28012.png"
   },
   {
     "vnum": "28143",
-    "name": "Kamie� Duszy Przysp.+1",
+    "name": "Kamień Duszy Przysp.+1",
     "icon": "../assets/item-icons/item/28013.png"
   },
   {
     "vnum": "28200",
-    "name": "Kamie� Duszy Masakry+2",
+    "name": "Kamień Duszy Masakry+2",
     "icon": "../assets/item-icons/item/28004.png"
   },
   {
     "vnum": "28204",
-    "name": "Kamie� Duszy Paranoi+2",
+    "name": "Kamień Duszy Paranoi+2",
     "icon": "../assets/item-icons/item/28005.png"
   },
   {
     "vnum": "28208",
-    "name": "Kamie� Duszy Traumy+2",
+    "name": "Kamień Duszy Traumy+2",
     "icon": "../assets/item-icons/item/28006.png"
   },
   {
     "vnum": "28212",
-    "name": "Kamie� Duszy Likan�w+2",
+    "name": "Kamień Duszy Likanów+2",
     "icon": "../assets/item-icons/item/28112.png"
   },
   {
     "vnum": "28230",
-    "name": "Kamie� Duszy Penetr.+2",
+    "name": "Kamień Duszy Penetr.+2",
     "icon": "../assets/item-icons/item/28000.png"
   },
   {
     "vnum": "28231",
-    "name": "Kamie� Duszy �mierci+2",
+    "name": "Kamień Duszy Śmierci+2",
     "icon": "../assets/item-icons/item/28001.png"
   },
   {
     "vnum": "28232",
-    "name": "Kamie� Duszy Powt�rki+2",
+    "name": "Kamień Duszy Powtórki+2",
     "icon": "../assets/item-icons/item/28002.png"
   },
   {
     "vnum": "28233",
-    "name": "Kamie� Duszy Wojownika+2",
+    "name": "Kamień Duszy Wojownika+2",
     "icon": "../assets/item-icons/item/28003.png"
   },
   {
     "vnum": "28234",
-    "name": "Kamie� Duszy Ninja+2",
+    "name": "Kamień Duszy Ninja+2",
     "icon": "../assets/item-icons/item/28004.png"
   },
   {
     "vnum": "28235",
-    "name": "Kamie� Duszy Sury+2",
+    "name": "Kamień Duszy Sury+2",
     "icon": "../assets/item-icons/item/28005.png"
   },
   {
     "vnum": "28236",
-    "name": "Kamie� Duszy Szamana+2",
+    "name": "Kamień Duszy Szamana+2",
     "icon": "../assets/item-icons/item/28006.png"
   },
   {
     "vnum": "28237",
-    "name": "Kamie� Duszy Potwora+2",
+    "name": "Kamień Duszy Potwora+2",
     "icon": "../assets/item-icons/item/28007.png"
   },
   {
     "vnum": "28238",
-    "name": "Kamie� Duszy Uchylenia+2",
+    "name": "Kamień Duszy Uchylenia+2",
     "icon": "../assets/item-icons/item/28008.png"
   },
   {
     "vnum": "28239",
-    "name": "Kamie� Duszy Uniku+2",
+    "name": "Kamień Duszy Uniku+2",
     "icon": "../assets/item-icons/item/28009.png"
   },
   {
     "vnum": "28240",
-    "name": "Kamie� Duszy Magii+2",
+    "name": "Kamień Duszy Magii+2",
     "icon": "../assets/item-icons/item/28010.png"
   },
   {
     "vnum": "28241",
-    "name": "Kamie� Witalno�ci+2",
+    "name": "Kamień Witalności+2",
     "icon": "../assets/item-icons/item/28011.png"
   },
   {
     "vnum": "28242",
-    "name": "Kamie� Duszy Obrony+2",
+    "name": "Kamień Duszy Obrony+2",
     "icon": "../assets/item-icons/item/28012.png"
   },
   {
     "vnum": "28243",
-    "name": "Kamie� Duszy Przysp.+2",
+    "name": "Kamień Duszy Przysp.+2",
     "icon": "../assets/item-icons/item/28013.png"
   },
   {
     "vnum": "28300",
-    "name": "Kamie� Duszy Masakry+3",
+    "name": "Kamień Duszy Masakry+3",
     "icon": "../assets/item-icons/item/28004.png"
   },
   {
     "vnum": "28304",
-    "name": "Kamie� Duszy Paranoi+3",
+    "name": "Kamień Duszy Paranoi+3",
     "icon": "../assets/item-icons/item/28005.png"
   },
   {
     "vnum": "28308",
-    "name": "Kamie� Duszy Traumy+3",
+    "name": "Kamień Duszy Traumy+3",
     "icon": "../assets/item-icons/item/28006.png"
   },
   {
     "vnum": "28312",
-    "name": "Kamie� Duszy Likan�w+3",
+    "name": "Kamień Duszy Likanów+3",
     "icon": "../assets/item-icons/item/28112.png"
   },
   {
     "vnum": "28330",
-    "name": "Kamie� Duszy Penetr.+3",
+    "name": "Kamień Duszy Penetr.+3",
     "icon": "../assets/item-icons/item/28000.png"
   },
   {
     "vnum": "28331",
-    "name": "Kamie� Duszy �mierci+3",
+    "name": "Kamień Duszy Śmierci+3",
     "icon": "../assets/item-icons/item/28001.png"
   },
   {
     "vnum": "28332",
-    "name": "Kamie� Duszy Powt�rki+3",
+    "name": "Kamień Duszy Powtórki+3",
     "icon": "../assets/item-icons/item/28002.png"
   },
   {
     "vnum": "28333",
-    "name": "Kamie� Duszy Wojownika+3",
+    "name": "Kamień Duszy Wojownika+3",
     "icon": "../assets/item-icons/item/28003.png"
   },
   {
     "vnum": "28334",
-    "name": "Kamie� Duszy Ninja+3",
+    "name": "Kamień Duszy Ninja+3",
     "icon": "../assets/item-icons/item/28004.png"
   },
   {
     "vnum": "28335",
-    "name": "Kamie� Duszy Sury+3",
+    "name": "Kamień Duszy Sury+3",
     "icon": "../assets/item-icons/item/28005.png"
   },
   {
     "vnum": "28336",
-    "name": "Kamie� Duszy Szamana+3",
+    "name": "Kamień Duszy Szamana+3",
     "icon": "../assets/item-icons/item/28006.png"
   },
   {
     "vnum": "28337",
-    "name": "Kamie� Duszy Potwora+3",
+    "name": "Kamień Duszy Potwora+3",
     "icon": "../assets/item-icons/item/28007.png"
   },
   {
     "vnum": "28338",
-    "name": "Kamie� Duszy Uchylenia+3",
+    "name": "Kamień Duszy Uchylenia+3",
     "icon": "../assets/item-icons/item/28008.png"
   },
   {
     "vnum": "28339",
-    "name": "Kamie� Duszy Uniku+3",
+    "name": "Kamień Duszy Uniku+3",
     "icon": "../assets/item-icons/item/28009.png"
   },
   {
     "vnum": "28340",
-    "name": "Kamie� Duszy Magii+3",
+    "name": "Kamień Duszy Magii+3",
     "icon": "../assets/item-icons/item/28010.png"
   },
   {
     "vnum": "28341",
-    "name": "Kamie� Witalno�ci+3",
+    "name": "Kamień Witalności+3",
     "icon": "../assets/item-icons/item/28011.png"
   },
   {
     "vnum": "28342",
-    "name": "Kamie� Duszy Obrony+3",
+    "name": "Kamień Duszy Obrony+3",
     "icon": "../assets/item-icons/item/28012.png"
   },
   {
     "vnum": "28343",
-    "name": "Kamie� Duszy Przysp.+3",
+    "name": "Kamień Duszy Przysp.+3",
     "icon": "../assets/item-icons/item/28013.png"
   },
   {
     "vnum": "28400",
-    "name": "Kamie� Duszy Masakry+4",
+    "name": "Kamień Duszy Masakry+4",
     "icon": "../assets/item-icons/item/28004.png"
   },
   {
     "vnum": "28404",
-    "name": "Kamie� Duszy Paranoi+4",
+    "name": "Kamień Duszy Paranoi+4",
     "icon": "../assets/item-icons/item/28005.png"
   },
   {
     "vnum": "28408",
-    "name": "Kamie� Duszy Traumy+4",
+    "name": "Kamień Duszy Traumy+4",
     "icon": "../assets/item-icons/item/28006.png"
   },
   {
     "vnum": "28412",
-    "name": "Kamie� Duszy Likan�w+4",
+    "name": "Kamień Duszy Likanów+4",
     "icon": "../assets/item-icons/item/28112.png"
   },
   {
     "vnum": "28430",
-    "name": "Kamie� Duszy Penetr.+4",
+    "name": "Kamień Duszy Penetr.+4",
     "icon": "../assets/item-icons/item/28000.png"
   },
   {
     "vnum": "28431",
-    "name": "Kamie� Duszy �mierci+4",
+    "name": "Kamień Duszy Śmierci+4",
     "icon": "../assets/item-icons/item/28001.png"
   },
   {
     "vnum": "28432",
-    "name": "Kamie� Duszy Powt�rki+4",
+    "name": "Kamień Duszy Powtórki+4",
     "icon": "../assets/item-icons/item/28002.png"
   },
   {
     "vnum": "28433",
-    "name": "Kamie� Duszy Wojownika+4",
+    "name": "Kamień Duszy Wojownika+4",
     "icon": "../assets/item-icons/item/28003.png"
   },
   {
     "vnum": "28434",
-    "name": "Kamie� Duszy Ninja+4",
+    "name": "Kamień Duszy Ninja+4",
     "icon": "../assets/item-icons/item/28004.png"
   },
   {
     "vnum": "28435",
-    "name": "Kamie� Duszy Sury+4",
+    "name": "Kamień Duszy Sury+4",
     "icon": "../assets/item-icons/item/28005.png"
   },
   {
     "vnum": "28436",
-    "name": "Kamie� Duszy Szamana+4",
+    "name": "Kamień Duszy Szamana+4",
     "icon": "../assets/item-icons/item/28006.png"
   },
   {
     "vnum": "28437",
-    "name": "Kamie� Duszy Potwora+4",
+    "name": "Kamień Duszy Potwora+4",
     "icon": "../assets/item-icons/item/28007.png"
   },
   {
     "vnum": "28438",
-    "name": "Kamie� Duszy Uchylenia+4",
+    "name": "Kamień Duszy Uchylenia+4",
     "icon": "../assets/item-icons/item/28008.png"
   },
   {
     "vnum": "28439",
-    "name": "Kamie� Duszy Uniku+4",
+    "name": "Kamień Duszy Uniku+4",
     "icon": "../assets/item-icons/item/28009.png"
   },
   {
     "vnum": "28440",
-    "name": "Kamie� Duszy Magii+4",
+    "name": "Kamień Duszy Magii+4",
     "icon": "../assets/item-icons/item/28010.png"
   },
   {
     "vnum": "28441",
-    "name": "Kamie� Witalno�ci+4",
+    "name": "Kamień Witalności+4",
     "icon": "../assets/item-icons/item/28011.png"
   },
   {
     "vnum": "28442",
-    "name": "Kamie� Duszy Obrony+4",
+    "name": "Kamień Duszy Obrony+4",
     "icon": "../assets/item-icons/item/28012.png"
   },
   {
     "vnum": "28443",
-    "name": "Kamie� Duszy Przysp.+4",
+    "name": "Kamień Duszy Przysp.+4",
     "icon": "../assets/item-icons/item/28013.png"
   },
   {
     "vnum": "28500",
-    "name": "Kamie� Duszy Masakry+5",
+    "name": "Kamień Duszy Masakry+5",
     "icon": "../assets/item-icons/item/28000.png"
   },
   {
     "vnum": "28504",
-    "name": "Kamie� Duszy Paranoi+5",
+    "name": "Kamień Duszy Paranoi+5",
     "icon": "../assets/item-icons/item/28004.png"
   },
   {
     "vnum": "28508",
-    "name": "Kamie� Duszy Traumy+5",
+    "name": "Kamień Duszy Traumy+5",
     "icon": "../assets/item-icons/item/28008.png"
   },
   {
     "vnum": "28512",
-    "name": "Kamie� Duszy G�upoty+5",
+    "name": "Kamień Duszy Głupoty+5",
     "icon": "../assets/item-icons/item/28012.png"
   },
   {
     "vnum": "28530",
-    "name": "Kamie� Duszy Penetr.+5",
+    "name": "Kamień Duszy Penetr.+5",
     "icon": "../assets/item-icons/item/28000.png"
   },
   {
     "vnum": "28531",
-    "name": "Kamie� Duszy �mierci+5",
+    "name": "Kamień Duszy Śmierci+5",
     "icon": "../assets/item-icons/item/28001.png"
   },
   {
     "vnum": "28532",
-    "name": "Kamie� Duszy Powt�rki+5",
+    "name": "Kamień Duszy Powtórki+5",
     "icon": "../assets/item-icons/item/28002.png"
   },
   {
     "vnum": "28533",
-    "name": "Kamie� Duszy Wojownika+5",
+    "name": "Kamień Duszy Wojownika+5",
     "icon": "../assets/item-icons/item/28003.png"
   },
   {
     "vnum": "28534",
-    "name": "Kamie� Duszy Ninja+5",
+    "name": "Kamień Duszy Ninja+5",
     "icon": "../assets/item-icons/item/28004.png"
   },
   {
     "vnum": "28535",
-    "name": "Kamie� Duszy Sury+5",
+    "name": "Kamień Duszy Sury+5",
     "icon": "../assets/item-icons/item/28005.png"
   },
   {
     "vnum": "28536",
-    "name": "Kamie� Duszy Szamana+5",
+    "name": "Kamień Duszy Szamana+5",
     "icon": "../assets/item-icons/item/28006.png"
   },
   {
     "vnum": "28537",
-    "name": "Kamie� Duszy Potwora+5",
+    "name": "Kamień Duszy Potwora+5",
     "icon": "../assets/item-icons/item/28007.png"
   },
   {
     "vnum": "28538",
-    "name": "Kamie� Duszy Uchylenia+5",
+    "name": "Kamień Duszy Uchylenia+5",
     "icon": "../assets/item-icons/item/28008.png"
   },
   {
     "vnum": "28539",
-    "name": "Kamie� Duszy Uniku+5",
+    "name": "Kamień Duszy Uniku+5",
     "icon": "../assets/item-icons/item/28009.png"
   },
   {
     "vnum": "28540",
-    "name": "Kamie� Duszy Magii+5",
+    "name": "Kamień Duszy Magii+5",
     "icon": "../assets/item-icons/item/28010.png"
   },
   {
     "vnum": "28541",
-    "name": "Kamie� Witalno�ci+5",
+    "name": "Kamień Witalności+5",
     "icon": "../assets/item-icons/item/28011.png"
   },
   {
     "vnum": "28542",
-    "name": "Kamie� Duszy Obrony+5",
+    "name": "Kamień Duszy Obrony+5",
     "icon": "../assets/item-icons/item/28012.png"
   },
   {
     "vnum": "28543",
-    "name": "Kamie� Duszy Przysp.+5",
+    "name": "Kamień Duszy Przysp.+5",
     "icon": "../assets/item-icons/item/28013.png"
   },
   {
     "vnum": "28600",
-    "name": "Kamie� Duszy Penetr.+6",
+    "name": "Kamień Duszy Penetr.+6",
     "icon": "../assets/item-icons/item/28000.png"
   },
   {
     "vnum": "28601",
-    "name": "Kamie� Duszy �mierci+6",
+    "name": "Kamień Duszy Śmierci+6",
     "icon": "../assets/item-icons/item/28001.png"
   },
   {
     "vnum": "28602",
-    "name": "Kamie� Duszy Powt�rki+6",
+    "name": "Kamień Duszy Powtórki+6",
     "icon": "../assets/item-icons/item/28002.png"
   },
   {
     "vnum": "28603",
-    "name": "Kamie� Duszy Wojownika+6",
+    "name": "Kamień Duszy Wojownika+6",
     "icon": "../assets/item-icons/item/28003.png"
   },
   {
     "vnum": "28604",
-    "name": "Kamie� Duszy Ninja+6",
+    "name": "Kamień Duszy Ninja+6",
     "icon": "../assets/item-icons/item/28004.png"
   },
   {
     "vnum": "28605",
-    "name": "Kamie� Duszy Sury+6",
+    "name": "Kamień Duszy Sury+6",
     "icon": "../assets/item-icons/item/28005.png"
   },
   {
     "vnum": "28606",
-    "name": "Kamie� Duszy Szamana+6",
+    "name": "Kamień Duszy Szamana+6",
     "icon": "../assets/item-icons/item/28006.png"
   },
   {
     "vnum": "28607",
-    "name": "Kamie� Duszy Potwora+6",
+    "name": "Kamień Duszy Potwora+6",
     "icon": "../assets/item-icons/item/28007.png"
   },
   {
     "vnum": "28608",
-    "name": "Kamie� Duszy Uchylenia+6",
+    "name": "Kamień Duszy Uchylenia+6",
     "icon": "../assets/item-icons/item/28008.png"
   },
   {
     "vnum": "28609",
-    "name": "Kamie� Duszy Uniku+6",
+    "name": "Kamień Duszy Uniku+6",
     "icon": "../assets/item-icons/item/28009.png"
   },
   {
     "vnum": "28610",
-    "name": "Kamie� Duszy Magii+6",
+    "name": "Kamień Duszy Magii+6",
     "icon": "../assets/item-icons/item/28010.png"
   },
   {
     "vnum": "28611",
-    "name": "Kamie� Witalno�ci+6",
+    "name": "Kamień Witalności+6",
     "icon": "../assets/item-icons/item/28011.png"
   },
   {
     "vnum": "28612",
-    "name": "Kamie� Duszy Obrony+6",
+    "name": "Kamień Duszy Obrony+6",
     "icon": "../assets/item-icons/item/28012.png"
   },
   {
     "vnum": "28613",
-    "name": "Kamie� Duszy Przysp.+6",
+    "name": "Kamień Duszy Przysp.+6",
     "icon": "../assets/item-icons/item/28013.png"
   },
   {
     "vnum": "28630",
-    "name": "Wodny Kamie� Penetr.+5",
+    "name": "Wodny Kamień Penetr.+5",
     "icon": "../assets/item-icons/item/28000.png"
   },
   {
     "vnum": "28631",
-    "name": "Wodny Kamie� �mierci+5",
+    "name": "Wodny Kamień Śmierci+5",
     "icon": "../assets/item-icons/item/28001.png"
   },
   {
     "vnum": "28632",
-    "name": "Wodny Kamie� Powt�rki+5",
+    "name": "Wodny Kamień Powtórki+5",
     "icon": "../assets/item-icons/item/28002.png"
   },
   {
     "vnum": "28633",
-    "name": "Wodny Kamie� Ninja+5",
+    "name": "Wodny Kamień Ninja+5",
     "icon": "../assets/item-icons/item/28003.png"
   },
   {
     "vnum": "28634",
-    "name": "Wodny Kamie� Ninja+5",
+    "name": "Wodny Kamień Ninja+5",
     "icon": "../assets/item-icons/item/28004.png"
   },
   {
     "vnum": "28635",
-    "name": "Wodny Kamie� Sury+5",
+    "name": "Wodny Kamień Sury+5",
     "icon": "../assets/item-icons/item/28005.png"
   },
   {
     "vnum": "28636",
-    "name": "Wodny Kamie� Szamana+5",
+    "name": "Wodny Kamień Szamana+5",
     "icon": "../assets/item-icons/item/28006.png"
   },
   {
     "vnum": "28637",
-    "name": "Wodny Kamie� Potwora+5",
+    "name": "Wodny Kamień Potwora+5",
     "icon": "../assets/item-icons/item/28007.png"
   },
   {
     "vnum": "28638",
-    "name": "Wodny Kamie� Uchylenia+5",
+    "name": "Wodny Kamień Uchylenia+5",
     "icon": "../assets/item-icons/item/28008.png"
   },
   {
     "vnum": "28639",
-    "name": "Wodny Kamie� Uniku+5",
+    "name": "Wodny Kamień Uniku+5",
     "icon": "../assets/item-icons/item/28009.png"
   },
   {
     "vnum": "28640",
-    "name": "Wodny Kamie� Magii+5",
+    "name": "Wodny Kamień Magii+5",
     "icon": "../assets/item-icons/item/28010.png"
   },
   {
     "vnum": "28641",
-    "name": "Wodny Kamie� Wital.+5",
+    "name": "Wodny Kamień Wital.+5",
     "icon": "../assets/item-icons/item/28011.png"
   },
   {
     "vnum": "28642",
-    "name": "Wodny Kamie� Obrony+5",
+    "name": "Wodny Kamień Obrony+5",
     "icon": "../assets/item-icons/item/28012.png"
   },
   {
     "vnum": "28643",
-    "name": "Wodny Kamie� Przysp.+5",
+    "name": "Wodny Kamień Przysp.+5",
     "icon": "../assets/item-icons/item/28013.png"
   },
   {
     "vnum": "28700",
-    "name": "Kamie� Duszy Penetr.+7",
+    "name": "Kamień Duszy Penetr.+7",
     "icon": "../assets/item-icons/item/28000.png"
   },
   {
     "vnum": "28701",
-    "name": "Kamie� Duszy �mierci+7",
+    "name": "Kamień Duszy Śmierci+7",
     "icon": "../assets/item-icons/item/28001.png"
   },
   {
     "vnum": "28702",
-    "name": "Kamie� Duszy Powt�rki+7",
+    "name": "Kamień Duszy Powtórki+7",
     "icon": "../assets/item-icons/item/28002.png"
   },
   {
     "vnum": "28703",
-    "name": "Kamie� Duszy Wojownika+7",
+    "name": "Kamień Duszy Wojownika+7",
     "icon": "../assets/item-icons/item/28003.png"
   },
   {
     "vnum": "28704",
-    "name": "Kamie� Duszy Ninja+7",
+    "name": "Kamień Duszy Ninja+7",
     "icon": "../assets/item-icons/item/28004.png"
   },
   {
     "vnum": "28705",
-    "name": "Kamie� Duszy Sury+7",
+    "name": "Kamień Duszy Sury+7",
     "icon": "../assets/item-icons/item/28005.png"
   },
   {
     "vnum": "28706",
-    "name": "Kamie� Duszy Szamana+7",
+    "name": "Kamień Duszy Szamana+7",
     "icon": "../assets/item-icons/item/28006.png"
   },
   {
     "vnum": "28707",
-    "name": "Kamie� Duszy Potwora+7",
+    "name": "Kamień Duszy Potwora+7",
     "icon": "../assets/item-icons/item/28007.png"
   },
   {
     "vnum": "28708",
-    "name": "Kamie� Duszy Uchylenia+7",
+    "name": "Kamień Duszy Uchylenia+7",
     "icon": "../assets/item-icons/item/28008.png"
   },
   {
     "vnum": "28709",
-    "name": "Kamie� Duszy Uniku+7",
+    "name": "Kamień Duszy Uniku+7",
     "icon": "../assets/item-icons/item/28009.png"
   },
   {
     "vnum": "28710",
-    "name": "Kamie� Duszy Magii+7",
+    "name": "Kamień Duszy Magii+7",
     "icon": "../assets/item-icons/item/28010.png"
   },
   {
     "vnum": "28711",
-    "name": "Kamie� Witalno�ci+7",
+    "name": "Kamień Witalności+7",
     "icon": "../assets/item-icons/item/28011.png"
   },
   {
     "vnum": "28712",
-    "name": "Kamie� Duszy Obrony+7",
+    "name": "Kamień Duszy Obrony+7",
     "icon": "../assets/item-icons/item/28012.png"
   },
   {
     "vnum": "28713",
-    "name": "Kamie� Duszy Przysp.+7",
+    "name": "Kamień Duszy Przysp.+7",
     "icon": "../assets/item-icons/item/28013.png"
   },
   {
     "vnum": "28730",
-    "name": "Wodny Kamie� Penetr.+7",
+    "name": "Wodny Kamień Penetr.+7",
     "icon": "../assets/item-icons/item/28000.png"
   },
   {
     "vnum": "28731",
-    "name": "Wodny Kamie� �mierci+7",
+    "name": "Wodny Kamień Śmierci+7",
     "icon": "../assets/item-icons/item/28001.png"
   },
   {
     "vnum": "28732",
-    "name": "Wodny Kamie� Powt�rki+7",
+    "name": "Wodny Kamień Powtórki+7",
     "icon": "../assets/item-icons/item/28002.png"
   },
   {
     "vnum": "28733",
-    "name": "Wodny Kamie� Ninja+7",
+    "name": "Wodny Kamień Ninja+7",
     "icon": "../assets/item-icons/item/28003.png"
   },
   {
     "vnum": "28734",
-    "name": "Wodny Kamie� Ninja+7",
+    "name": "Wodny Kamień Ninja+7",
     "icon": "../assets/item-icons/item/28004.png"
   },
   {
     "vnum": "28735",
-    "name": "Wodny Kamie� Sury+7",
+    "name": "Wodny Kamień Sury+7",
     "icon": "../assets/item-icons/item/28005.png"
   },
   {
     "vnum": "28736",
-    "name": "Wodny Kamie� Szamana+7",
+    "name": "Wodny Kamień Szamana+7",
     "icon": "../assets/item-icons/item/28006.png"
   },
   {
     "vnum": "28737",
-    "name": "Wodny Kamie� Potwora+7",
+    "name": "Wodny Kamień Potwora+7",
     "icon": "../assets/item-icons/item/28007.png"
   },
   {
     "vnum": "28738",
-    "name": "Wodny Kamie� Uchylenia+7",
+    "name": "Wodny Kamień Uchylenia+7",
     "icon": "../assets/item-icons/item/28008.png"
   },
   {
     "vnum": "28739",
-    "name": "Wodny Kamie� Uniku+7",
+    "name": "Wodny Kamień Uniku+7",
     "icon": "../assets/item-icons/item/28009.png"
   },
   {
     "vnum": "28740",
-    "name": "Wodny Kamie� Magii+7",
+    "name": "Wodny Kamień Magii+7",
     "icon": "../assets/item-icons/item/28010.png"
   },
   {
     "vnum": "28741",
-    "name": "Wodny Kamie� Wital.+7",
+    "name": "Wodny Kamień Wital.+7",
     "icon": "../assets/item-icons/item/28011.png"
   },
   {
     "vnum": "28742",
-    "name": "Wodny Kamie� Obrony+7",
+    "name": "Wodny Kamień Obrony+7",
     "icon": "../assets/item-icons/item/28012.png"
   },
   {
     "vnum": "28743",
-    "name": "Wodny Kamie� Przysp.+7",
+    "name": "Wodny Kamień Przysp.+7",
     "icon": "../assets/item-icons/item/28013.png"
   },
   {
     "vnum": "28800",
-    "name": "Kamie� Duszy Penetr.+8",
+    "name": "Kamień Duszy Penetr.+8",
     "icon": "../assets/item-icons/item/28000.png"
   },
   {
     "vnum": "28801",
-    "name": "Kamie� Duszy �mierci+8",
+    "name": "Kamień Duszy Śmierci+8",
     "icon": "../assets/item-icons/item/28001.png"
   },
   {
     "vnum": "28802",
-    "name": "Kamie� Duszy Powt�rki+8",
+    "name": "Kamień Duszy Powtórki+8",
     "icon": "../assets/item-icons/item/28002.png"
   },
   {
     "vnum": "28803",
-    "name": "Kamie� Duszy Wojownika+8",
+    "name": "Kamień Duszy Wojownika+8",
     "icon": "../assets/item-icons/item/28003.png"
   },
   {
     "vnum": "28804",
-    "name": "Kamie� Duszy Ninja+8",
+    "name": "Kamień Duszy Ninja+8",
     "icon": "../assets/item-icons/item/28004.png"
   },
   {
     "vnum": "28805",
-    "name": "Kamie� Duszy Sury+8",
+    "name": "Kamień Duszy Sury+8",
     "icon": "../assets/item-icons/item/28005.png"
   },
   {
     "vnum": "28806",
-    "name": "Kamie� Duszy Szamana+8",
+    "name": "Kamień Duszy Szamana+8",
     "icon": "../assets/item-icons/item/28006.png"
   },
   {
     "vnum": "28807",
-    "name": "Kamie� Duszy Potwora+8",
+    "name": "Kamień Duszy Potwora+8",
     "icon": "../assets/item-icons/item/28007.png"
   },
   {
     "vnum": "28808",
-    "name": "Kamie� Duszy Uchylenia+8",
+    "name": "Kamień Duszy Uchylenia+8",
     "icon": "../assets/item-icons/item/28008.png"
   },
   {
     "vnum": "28809",
-    "name": "Kamie� Duszy Uniku+8",
+    "name": "Kamień Duszy Uniku+8",
     "icon": "../assets/item-icons/item/28009.png"
   },
   {
     "vnum": "28810",
-    "name": "Kamie� Duszy Magii+8",
+    "name": "Kamień Duszy Magii+8",
     "icon": "../assets/item-icons/item/28010.png"
   },
   {
     "vnum": "28811",
-    "name": "Kamie� Witalno�ci+8",
+    "name": "Kamień Witalności+8",
     "icon": "../assets/item-icons/item/28011.png"
   },
   {
     "vnum": "28812",
-    "name": "Kamie� Duszy Obrony+8",
+    "name": "Kamień Duszy Obrony+8",
     "icon": "../assets/item-icons/item/28012.png"
   },
   {
     "vnum": "28813",
-    "name": "Kamie� Duszy Przysp.+8",
+    "name": "Kamień Duszy Przysp.+8",
     "icon": "../assets/item-icons/item/28013.png"
   },
   {
     "vnum": "28830",
-    "name": "Wodny Kamie� Penetr.+8",
+    "name": "Wodny Kamień Penetr.+8",
     "icon": "../assets/item-icons/item/28000.png"
   },
   {
     "vnum": "28831",
-    "name": "Wodny Kamie� �mierci+8",
+    "name": "Wodny Kamień Śmierci+8",
     "icon": "../assets/item-icons/item/28001.png"
   },
   {
     "vnum": "28832",
-    "name": "Wodny Kamie� Powt�rki+8",
+    "name": "Wodny Kamień Powtórki+8",
     "icon": "../assets/item-icons/item/28002.png"
   },
   {
     "vnum": "28833",
-    "name": "Wodny Kamie� Ninja+8",
+    "name": "Wodny Kamień Ninja+8",
     "icon": "../assets/item-icons/item/28003.png"
   },
   {
     "vnum": "28834",
-    "name": "Wodny Kamie� Ninja+8",
+    "name": "Wodny Kamień Ninja+8",
     "icon": "../assets/item-icons/item/28004.png"
   },
   {
     "vnum": "28835",
-    "name": "Wodny Kamie� Sury+8",
+    "name": "Wodny Kamień Sury+8",
     "icon": "../assets/item-icons/item/28005.png"
   },
   {
     "vnum": "28836",
-    "name": "Wodny Kamie� Szamana+8",
+    "name": "Wodny Kamień Szamana+8",
     "icon": "../assets/item-icons/item/28006.png"
   },
   {
     "vnum": "28837",
-    "name": "Wodny Kamie� Potwora+8",
+    "name": "Wodny Kamień Potwora+8",
     "icon": "../assets/item-icons/item/28007.png"
   },
   {
     "vnum": "28838",
-    "name": "Wodny Kamie� Uchylenia+8",
+    "name": "Wodny Kamień Uchylenia+8",
     "icon": "../assets/item-icons/item/28008.png"
   },
   {
     "vnum": "28839",
-    "name": "Wodny Kamie� Uniku+8",
+    "name": "Wodny Kamień Uniku+8",
     "icon": "../assets/item-icons/item/28009.png"
   },
   {
     "vnum": "28840",
-    "name": "Wodny Kamie� Magii+8",
+    "name": "Wodny Kamień Magii+8",
     "icon": "../assets/item-icons/item/28010.png"
   },
   {
     "vnum": "28841",
-    "name": "Wodny Kamie� Wital.+8",
+    "name": "Wodny Kamień Wital.+8",
     "icon": "../assets/item-icons/item/28011.png"
   },
   {
     "vnum": "28842",
-    "name": "Wodny Kamie� Obrony+8",
+    "name": "Wodny Kamień Obrony+8",
     "icon": "../assets/item-icons/item/28012.png"
   },
   {
     "vnum": "28843",
-    "name": "Wodny Kamie� Przysp.+8",
+    "name": "Wodny Kamień Przysp.+8",
     "icon": "../assets/item-icons/item/28013.png"
   },
   {
     "vnum": "28900",
-    "name": "Kamie� Duszy Penetr.+9",
+    "name": "Kamień Duszy Penetr.+9",
     "icon": "../assets/item-icons/item/28000.png"
   },
   {
     "vnum": "28901",
-    "name": "Kamie� Duszy �mierci+9",
+    "name": "Kamień Duszy Śmierci+9",
     "icon": "../assets/item-icons/item/28001.png"
   },
   {
     "vnum": "28902",
-    "name": "Kamie� Duszy Powt�rki+9",
+    "name": "Kamień Duszy Powtórki+9",
     "icon": "../assets/item-icons/item/28002.png"
   },
   {
     "vnum": "28903",
-    "name": "Kamie� Duszy Wojownika+9",
+    "name": "Kamień Duszy Wojownika+9",
     "icon": "../assets/item-icons/item/28003.png"
   },
   {
     "vnum": "28904",
-    "name": "Kamie� Duszy Ninja+9",
+    "name": "Kamień Duszy Ninja+9",
     "icon": "../assets/item-icons/item/28004.png"
   },
   {
     "vnum": "28905",
-    "name": "Kamie� Duszy Sury+9",
+    "name": "Kamień Duszy Sury+9",
     "icon": "../assets/item-icons/item/28005.png"
   },
   {
     "vnum": "28906",
-    "name": "Kamie� Duszy Szamana+9",
+    "name": "Kamień Duszy Szamana+9",
     "icon": "../assets/item-icons/item/28006.png"
   },
   {
     "vnum": "28907",
-    "name": "Kamie� Duszy Potwora+9",
+    "name": "Kamień Duszy Potwora+9",
     "icon": "../assets/item-icons/item/28007.png"
   },
   {
     "vnum": "28908",
-    "name": "Kamie� Duszy Uchylenia+9",
+    "name": "Kamień Duszy Uchylenia+9",
     "icon": "../assets/item-icons/item/28008.png"
   },
   {
     "vnum": "28909",
-    "name": "Kamie� Duszy Uniku+9",
+    "name": "Kamień Duszy Uniku+9",
     "icon": "../assets/item-icons/item/28009.png"
   },
   {
     "vnum": "28910",
-    "name": "Kamie� Duszy Magii+9",
+    "name": "Kamień Duszy Magii+9",
     "icon": "../assets/item-icons/item/28010.png"
   },
   {
     "vnum": "28911",
-    "name": "Kamie� Witalno�ci+9",
+    "name": "Kamień Witalności+9",
     "icon": "../assets/item-icons/item/28011.png"
   },
   {
     "vnum": "28912",
-    "name": "Kamie� Duszy Obrony+9",
+    "name": "Kamień Duszy Obrony+9",
     "icon": "../assets/item-icons/item/28012.png"
   },
   {
     "vnum": "28913",
-    "name": "Kamie� Duszy Przysp.+9",
+    "name": "Kamień Duszy Przysp.+9",
     "icon": "../assets/item-icons/item/28013.png"
   },
   {
     "vnum": "28930",
-    "name": "Wodny Kamie� Penetr.+9",
+    "name": "Wodny Kamień Penetr.+9",
     "icon": "../assets/item-icons/item/28000.png"
   },
   {
     "vnum": "28931",
-    "name": "Wodny Kamie� �mierci+9",
+    "name": "Wodny Kamień Śmierci+9",
     "icon": "../assets/item-icons/item/28001.png"
   },
   {
     "vnum": "28932",
-    "name": "Wodny Kamie� Powt�rki+9",
+    "name": "Wodny Kamień Powtórki+9",
     "icon": "../assets/item-icons/item/28002.png"
   },
   {
     "vnum": "28933",
-    "name": "Wodny Kamie� Ninja+9",
+    "name": "Wodny Kamień Ninja+9",
     "icon": "../assets/item-icons/item/28003.png"
   },
   {
     "vnum": "28934",
-    "name": "Wodny Kamie� Ninja+9",
+    "name": "Wodny Kamień Ninja+9",
     "icon": "../assets/item-icons/item/28004.png"
   },
   {
     "vnum": "28935",
-    "name": "Wodny Kamie� Sury+9",
+    "name": "Wodny Kamień Sury+9",
     "icon": "../assets/item-icons/item/28005.png"
   },
   {
     "vnum": "28936",
-    "name": "Wodny Kamie� Szamana+9",
+    "name": "Wodny Kamień Szamana+9",
     "icon": "../assets/item-icons/item/28006.png"
   },
   {
     "vnum": "28937",
-    "name": "Wodny Kamie� Potwora+9",
+    "name": "Wodny Kamień Potwora+9",
     "icon": "../assets/item-icons/item/28007.png"
   },
   {
     "vnum": "28938",
-    "name": "Wodny Kamie� Uchylenia+9",
+    "name": "Wodny Kamień Uchylenia+9",
     "icon": "../assets/item-icons/item/28008.png"
   },
   {
     "vnum": "28939",
-    "name": "Wodny Kamie� Uniku+9",
+    "name": "Wodny Kamień Uniku+9",
     "icon": "../assets/item-icons/item/28009.png"
   },
   {
     "vnum": "28940",
-    "name": "Wodny Kamie� Magii+9",
+    "name": "Wodny Kamień Magii+9",
     "icon": "../assets/item-icons/item/28010.png"
   },
   {
     "vnum": "28941",
-    "name": "Wodny Kamie� Wital.+9",
+    "name": "Wodny Kamień Wital.+9",
     "icon": "../assets/item-icons/item/28011.png"
   },
   {
     "vnum": "28942",
-    "name": "Wodny Kamie� Obrony+9",
+    "name": "Wodny Kamień Obrony+9",
     "icon": "../assets/item-icons/item/28012.png"
   },
   {
     "vnum": "28943",
-    "name": "Wodny Kamie� Przysp.+9",
+    "name": "Wodny Kamień Przysp.+9",
     "icon": "../assets/item-icons/item/28013.png"
   },
   {
     "vnum": "28960",
-    "name": "Kawa�ek P�kni�t. Kam.",
+    "name": "Kawałek Pęknięt. Kam.",
     "icon": "../assets/item-icons/item/28960.png"
   },
   {
@@ -17358,7 +17359,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "29003",
-    "name": "��ta Muszla",
+    "name": "Żółta Muszla",
     "icon": "../assets/item-icons/29003.png"
   },
   {
@@ -17373,52 +17374,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "29006",
-    "name": "��ty Kamie� Winny",
+    "name": "Żółty Kamień Winny",
     "icon": "../assets/item-icons/29006.png"
   },
   {
     "vnum": "29007",
-    "name": "Niebieski Kamie� Winny",
+    "name": "Niebieski Kamień Winny",
     "icon": "../assets/item-icons/29007.png"
   },
   {
     "vnum": "29008",
-    "name": "Niebieska �wi�ta Woda",
+    "name": "Niebieska Święta Woda",
     "icon": "../assets/item-icons/29008.png"
   },
   {
     "vnum": "29009",
-    "name": "��ta �wi�ta Woda",
+    "name": "Żółta Święta Woda",
     "icon": "../assets/item-icons/29009.png"
   },
   {
     "vnum": "29010",
-    "name": "Czerwona �wi�ta Woda",
+    "name": "Czerwona Święta Woda",
     "icon": "../assets/item-icons/29010.png"
   },
   {
     "vnum": "29011",
-    "name": "Zielona �wi�ta Woda",
+    "name": "Zielona Święta Woda",
     "icon": "../assets/item-icons/29011.png"
   },
   {
     "vnum": "29012",
-    "name": "Ciemno-Nieb. R�ka Boga",
+    "name": "Ciemno-Nieb. Ręka Boga",
     "icon": "../assets/item-icons/29012.png"
   },
   {
     "vnum": "29013",
-    "name": "Jasno-��ta �wi�ta Woda",
+    "name": "Jasno-Żółta Święta Woda",
     "icon": "../assets/item-icons/29013.png"
   },
   {
     "vnum": "29014",
-    "name": "Jasno-Czerw. �wi�ta Woda",
+    "name": "Jasno-Czerw. Święta Woda",
     "icon": "../assets/item-icons/29014.png"
   },
   {
     "vnum": "29015",
-    "name": "Ciemno-Ziel. R�ka Boga",
+    "name": "Ciemno-Ziel. Ręka Boga",
     "icon": "../assets/item-icons/29015.png"
   },
   {
@@ -17473,7 +17474,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30000",
-    "name": "J�czmie�",
+    "name": "Jęczmień",
     "icon": "../assets/item-icons/item/30000.png"
   },
   {
@@ -17483,27 +17484,27 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30002",
-    "name": "Pieczona Kie�basa",
+    "name": "Pieczona Kiełbasa",
     "icon": "../assets/item-icons/item/30002.png"
   },
   {
     "vnum": "30003",
-    "name": "Nos �wini",
+    "name": "Nos Świni",
     "icon": "../assets/item-icons/item/30003.png"
   },
   {
     "vnum": "30004",
-    "name": "Z�b Dzika",
+    "name": "Ząb Dzika",
     "icon": "../assets/item-icons/item/30004.png"
   },
   {
     "vnum": "30005",
-    "name": "Kawa�ek Zepsutej Zbroi",
+    "name": "Kawałek Zepsutej Zbroi",
     "icon": "../assets/item-icons/item/30005.png"
   },
   {
     "vnum": "30006",
-    "name": "Z�b Orka",
+    "name": "Ząb Orka",
     "icon": "../assets/item-icons/item/30006.png"
   },
   {
@@ -17523,12 +17524,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30010",
-    "name": "��� Nied�wiedzia",
+    "name": "Żółć Niedźwiedzia",
     "icon": "../assets/item-icons/item/30010.png"
   },
   {
     "vnum": "30011",
-    "name": "K��b",
+    "name": "Kłąb",
     "icon": "../assets/item-icons/item/30011.png"
   },
   {
@@ -17548,7 +17549,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30015",
-    "name": "Pami�tka Po Demonie",
+    "name": "Pamiątka Po Demonie",
     "icon": "../assets/item-icons/item/30015.png"
   },
   {
@@ -17558,17 +17559,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30017",
-    "name": "Ozdobna Spinka Do W�os�w",
+    "name": "Ozdobna Spinka Do Włosów",
     "icon": "../assets/item-icons/item/30017.png"
   },
   {
     "vnum": "30018",
-    "name": "Czerwona Wst�ga",
+    "name": "Czerwona Wstęga",
     "icon": "../assets/item-icons/item/30018.png"
   },
   {
     "vnum": "30019",
-    "name": "P�on�ca Grzywa",
+    "name": "Płonąca Grzywa",
     "icon": "../assets/item-icons/item/30019.png"
   },
   {
@@ -17578,17 +17579,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30021",
-    "name": "Kawa�ek Klejnotu",
+    "name": "Kawałek Klejnotu",
     "icon": "../assets/item-icons/item/30021.png"
   },
   {
     "vnum": "30022",
-    "name": "Ogon W�a",
+    "name": "Ogon Węża",
     "icon": "../assets/item-icons/item/30022.png"
   },
   {
     "vnum": "30023",
-    "name": "Futro Bia�ego Tygrysa",
+    "name": "Futro Białego Tygrysa",
     "icon": "../assets/item-icons/item/30023.png"
   },
   {
@@ -17598,7 +17599,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30025",
-    "name": "Worek z Paj�cz� Trucizn�",
+    "name": "Worek z Pajęczą Trucizną",
     "icon": "../assets/item-icons/item/30025.png"
   },
   {
@@ -17618,12 +17619,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30029",
-    "name": "W�troba Wilka",
+    "name": "Wątroba Wilka",
     "icon": "../assets/item-icons/item/30029.png"
   },
   {
     "vnum": "30030",
-    "name": "Zardzewia�e Ostrze",
+    "name": "Zardzewiałe Ostrze",
     "icon": "../assets/item-icons/item/30030.png"
   },
   {
@@ -17638,12 +17639,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30033",
-    "name": "St�uczona Porcelana",
+    "name": "Stłuczona Porcelana",
     "icon": "../assets/item-icons/item/30033.png"
   },
   {
     "vnum": "30034",
-    "name": "Bia�a Wst�ga",
+    "name": "Biała Wstęga",
     "icon": "../assets/item-icons/item/30034.png"
   },
   {
@@ -17653,7 +17654,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30036",
-    "name": "Mistyczne Zio�o",
+    "name": "Mistyczne Zioło",
     "icon": "../assets/item-icons/item/30036.png"
   },
   {
@@ -17663,17 +17664,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30038",
-    "name": "Sk�ra Tygrysa",
+    "name": "Skóra Tygrysa",
     "icon": "../assets/item-icons/item/30038.png"
   },
   {
     "vnum": "30039",
-    "name": "Kawa�ek P��tna",
+    "name": "Kawałek Płótna",
     "icon": "../assets/item-icons/item/30039.png"
   },
   {
     "vnum": "30040",
-    "name": "Li��",
+    "name": "Liść",
     "icon": "../assets/item-icons/item/30040.png"
   },
   {
@@ -17698,7 +17699,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30045",
-    "name": "Ig�a Skorpiona",
+    "name": "Igła Skorpiona",
     "icon": "../assets/item-icons/item/30045.png"
   },
   {
@@ -17708,22 +17709,22 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30047",
-    "name": "Ksi�ga Kl�tw",
+    "name": "Księga Klątw",
     "icon": "../assets/item-icons/item/30047.png"
   },
   {
     "vnum": "30048",
-    "name": "Kawa�ek Lodu",
+    "name": "Kawałek Lodu",
     "icon": "../assets/item-icons/item/30048.png"
   },
   {
     "vnum": "30049",
-    "name": "Lodowy R�g Wieloryba",
+    "name": "Lodowy Róg Wieloryba",
     "icon": "../assets/item-icons/item/30049.png"
   },
   {
     "vnum": "30050",
-    "name": "Matowy L�d",
+    "name": "Matowy Lód",
     "icon": "../assets/item-icons/item/30050.png"
   },
   {
@@ -17738,12 +17739,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30053",
-    "name": "Nied�wiedzia Sk�ra",
+    "name": "Niedźwiedzia Skóra",
     "icon": "../assets/item-icons/item/30053.png"
   },
   {
     "vnum": "30054",
-    "name": "Obr�czka �lubna",
+    "name": "Obrączka Ślubna",
     "icon": "../assets/item-icons/item/30054.png"
   },
   {
@@ -17753,32 +17754,32 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30056",
-    "name": "Paj�cza Sie�",
+    "name": "Pajęcza Sieć",
     "icon": "../assets/item-icons/item/30056.png"
   },
   {
     "vnum": "30057",
-    "name": "Oczy Paj�ka",
+    "name": "Oczy Pająka",
     "icon": "../assets/item-icons/item/30057.png"
   },
   {
     "vnum": "30058",
-    "name": "Worek Z Paj�cz. Jajami",
+    "name": "Worek Z Pajęcz. Jajami",
     "icon": "../assets/item-icons/item/30058.png"
   },
   {
     "vnum": "30059",
-    "name": "Nogi Paj�ka",
+    "name": "Nogi Pająka",
     "icon": "../assets/item-icons/item/30059.png"
   },
   {
     "vnum": "30060",
-    "name": "J�zyk �aby",
+    "name": "Język Żaby",
     "icon": "../assets/item-icons/item/30060.png"
   },
   {
     "vnum": "30061",
-    "name": "�abie Udka",
+    "name": "Żabie Udka",
     "icon": "../assets/item-icons/item/30061.png"
   },
   {
@@ -17788,12 +17789,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30063",
-    "name": "Lekarstwo Na Sk�r�",
+    "name": "Lekarstwo Na Skórę",
     "icon": "../assets/item-icons/item/30063.png"
   },
   {
     "vnum": "30064",
-    "name": "Ostry Kamie�",
+    "name": "Ostry Kamień",
     "icon": "../assets/item-icons/item/30064.png"
   },
   {
@@ -17808,7 +17809,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30067",
-    "name": "Sk�ra W�a",
+    "name": "Skóra Węża",
     "icon": "../assets/item-icons/item/30067.png"
   },
   {
@@ -17828,17 +17829,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30071",
-    "name": "��� Nied�wiedzia+",
+    "name": "Żółć Niedźwiedzia+",
     "icon": "../assets/item-icons/item/30010.png"
   },
   {
     "vnum": "30072",
-    "name": "Nied�wiedzia Sk�ra+",
+    "name": "Niedźwiedzia Skóra+",
     "icon": "../assets/item-icons/item/30053.png"
   },
   {
     "vnum": "30073",
-    "name": "Bia�a Wst�ga+",
+    "name": "Biała Wstęga+",
     "icon": "../assets/item-icons/item/30034.png"
   },
   {
@@ -17858,7 +17859,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30077",
-    "name": "Z�b Orka+",
+    "name": "Ząb Orka+",
     "icon": "../assets/item-icons/item/30006.png"
   },
   {
@@ -17873,7 +17874,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30080",
-    "name": "Ksi�ga Kl�tw+",
+    "name": "Księga Klątw+",
     "icon": "../assets/item-icons/item/30047.png"
   },
   {
@@ -17883,7 +17884,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30082",
-    "name": "Ogon W�a+",
+    "name": "Ogon Węża+",
     "icon": "../assets/item-icons/item/30022.png"
   },
   {
@@ -17898,12 +17899,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30085",
-    "name": "Kawa�ek P��tna+",
+    "name": "Kawałek Płótna+",
     "icon": "../assets/item-icons/item/30039.png"
   },
   {
     "vnum": "30086",
-    "name": "Pami�tka Po Demonie+",
+    "name": "Pamiątka Po Demonie+",
     "icon": "../assets/item-icons/item/30015.png"
   },
   {
@@ -17913,7 +17914,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30088",
-    "name": "Kawa�ek Lodu+",
+    "name": "Kawałek Lodu+",
     "icon": "../assets/item-icons/item/30048.png"
   },
   {
@@ -17923,7 +17924,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30090",
-    "name": "Matowy L�d+",
+    "name": "Matowy Lód+",
     "icon": "../assets/item-icons/item/30050.png"
   },
   {
@@ -17938,62 +17939,62 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30093",
-    "name": "Skrzynia Ksi�g",
+    "name": "Skrzynia Ksiąg",
     "icon": "../assets/item-icons/item/30093.png"
   },
   {
     "vnum": "30094",
-    "name": "Torba Szcz�cia",
+    "name": "Torba Szczęścia",
     "icon": "../assets/item-icons/item/30094.png"
   },
   {
     "vnum": "30095",
-    "name": "Torba Szcz�cia",
+    "name": "Torba Szczęścia",
     "icon": "../assets/item-icons/item/30095.png"
   },
   {
     "vnum": "30096",
-    "name": "Torba Szcz�cia",
+    "name": "Torba Szczęścia",
     "icon": "../assets/item-icons/item/30096.png"
   },
   {
     "vnum": "30097",
-    "name": "Sakwa Szcz�cia",
+    "name": "Sakwa Szczęścia",
     "icon": "../assets/item-icons/item/30096.png"
   },
   {
     "vnum": "30098",
-    "name": "Torba Szcz�cia",
+    "name": "Torba Szczęścia",
     "icon": "../assets/item-icons/item/30096.png"
   },
   {
     "vnum": "30099",
-    "name": "Torba Szcz�cia",
+    "name": "Torba Szczęścia",
     "icon": "../assets/item-icons/item/30096.png"
   },
   {
     "vnum": "30100",
-    "name": "Torba Szcz�cia",
+    "name": "Torba Szczęścia",
     "icon": "../assets/item-icons/item/30096.png"
   },
   {
     "vnum": "30101",
-    "name": "Obr�czka Ariyoung",
+    "name": "Obrączka Ariyoung",
     "icon": "../assets/item-icons/item/30101.png"
   },
   {
     "vnum": "30102",
-    "name": "Z�oty Top�r",
+    "name": "Złoty Topór",
     "icon": "../assets/item-icons/item/30102.png"
   },
   {
     "vnum": "30103",
-    "name": "Z�oty Z�b Orka",
+    "name": "Złoty Ząb Orka",
     "icon": "../assets/item-icons/item/dummy.png"
   },
   {
     "vnum": "30104",
-    "name": "Sie� Paj�ka Pustynnego",
+    "name": "Sieć Pająka Pustynnego",
     "icon": "../assets/item-icons/item/dummy.png"
   },
   {
@@ -18018,7 +18019,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30109",
-    "name": "Sie� Paj�ka Pustynnego",
+    "name": "Sieć Pająka Pustynnego",
     "icon": "../assets/item-icons/item/dummy.png"
   },
   {
@@ -18028,12 +18029,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30111",
-    "name": "Sk�py Ogon Skorpiona",
+    "name": "Skąpy Ogon Skorpiona",
     "icon": "../assets/item-icons/item/dummy.png"
   },
   {
     "vnum": "30112",
-    "name": "W�gorz",
+    "name": "Węgorz",
     "icon": "../assets/item-icons/item/dummy.png"
   },
   {
@@ -18048,12 +18049,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30115",
-    "name": "Lek Na Plag�",
+    "name": "Lek Na Plagę",
     "icon": "../assets/item-icons/item/dummy.png"
   },
   {
     "vnum": "30116",
-    "name": "�abie Udka",
+    "name": "Żabie Udka",
     "icon": "../assets/item-icons/item/30116.png"
   },
   {
@@ -18063,7 +18064,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30118",
-    "name": "Szkatu�a Klejnot. Demona",
+    "name": "Szkatuła Klejnot. Demona",
     "icon": "../assets/item-icons/item/dummy.png"
   },
   {
@@ -18073,52 +18074,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30120",
-    "name": "Kawa�ek Mapy",
+    "name": "Kawałek Mapy",
     "icon": "../assets/item-icons/item/30120.png"
   },
   {
     "vnum": "30121",
-    "name": "Kawa�ek Mapy",
+    "name": "Kawałek Mapy",
     "icon": "../assets/item-icons/item/30121.png"
   },
   {
     "vnum": "30122",
-    "name": "Kawa�ek Mapy",
+    "name": "Kawałek Mapy",
     "icon": "../assets/item-icons/item/30122.png"
   },
   {
     "vnum": "30123",
-    "name": "Kawa�ek Mapy",
+    "name": "Kawałek Mapy",
     "icon": "../assets/item-icons/item/30123.png"
   },
   {
     "vnum": "30124",
-    "name": "Kawa�ek Mapy",
+    "name": "Kawałek Mapy",
     "icon": "../assets/item-icons/item/30124.png"
   },
   {
     "vnum": "30125",
-    "name": "Kawa�ek Mapy",
+    "name": "Kawałek Mapy",
     "icon": "../assets/item-icons/item/30125.png"
   },
   {
     "vnum": "30126",
-    "name": "Kawa�ek Mapy",
+    "name": "Kawałek Mapy",
     "icon": "../assets/item-icons/item/30126.png"
   },
   {
     "vnum": "30127",
-    "name": "Kawa�ek Mapy",
+    "name": "Kawałek Mapy",
     "icon": "../assets/item-icons/item/30127.png"
   },
   {
     "vnum": "30128",
-    "name": "Kawa�ek Mapy",
+    "name": "Kawałek Mapy",
     "icon": "../assets/item-icons/item/30128.png"
   },
   {
     "vnum": "30129",
-    "name": "Rozkaz Je�d�cy",
+    "name": "Rozkaz Jeźdźcy",
     "icon": "../assets/item-icons/item/30129.png"
   },
   {
@@ -18133,7 +18134,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30132",
-    "name": "Ksi�ga Uriela",
+    "name": "Księga Uriela",
     "icon": "../assets/item-icons/item/30132.png"
   },
   {
@@ -18143,7 +18144,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30134",
-    "name": "Przesy�ka Uriela",
+    "name": "Przesyłka Uriela",
     "icon": "../assets/item-icons/item/30134.png"
   },
   {
@@ -18153,12 +18154,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30136",
-    "name": "Rozrzutnie Ozdobiony �uk",
+    "name": "Rozrzutnie Ozdobiony Łuk",
     "icon": "../assets/item-icons/item/30136.png"
   },
   {
     "vnum": "30137",
-    "name": "Krew Ma�py",
+    "name": "Krew Małpy",
     "icon": "../assets/item-icons/item/30137.png"
   },
   {
@@ -18168,7 +18169,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30139",
-    "name": "Kie� Orka",
+    "name": "Kieł Orka",
     "icon": "../assets/item-icons/item/30139.png"
   },
   {
@@ -18188,12 +18189,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30143",
-    "name": "Zio�a Lecznicze",
+    "name": "Zioła Lecznicze",
     "icon": "../assets/item-icons/item/30143.png"
   },
   {
     "vnum": "30144",
-    "name": "W�troba Tygrysa",
+    "name": "Wątroba Tygrysa",
     "icon": "../assets/item-icons/item/30144.png"
   },
   {
@@ -18203,17 +18204,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30146",
-    "name": "Kawa� Lodu",
+    "name": "Kawał Lodu",
     "icon": "../assets/item-icons/item/30146.png"
   },
   {
     "vnum": "30147",
-    "name": "�wi�tynna Doktryna",
+    "name": "Świątynna Doktryna",
     "icon": "../assets/item-icons/item/30147.png"
   },
   {
     "vnum": "30148",
-    "name": "�wi�tynny Szal",
+    "name": "Świątynny Szal",
     "icon": "../assets/item-icons/item/30148.png"
   },
   {
@@ -18223,12 +18224,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30150",
-    "name": "Strona Pami�tnika",
+    "name": "Strona Pamiętnika",
     "icon": "../assets/item-icons/item/30150.png"
   },
   {
     "vnum": "30151",
-    "name": "Sk�ra Wilka",
+    "name": "Skóra Wilka",
     "icon": "../assets/item-icons/item/30151.png"
   },
   {
@@ -18258,12 +18259,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30157",
-    "name": "Grot Strza�y",
+    "name": "Grot Strzały",
     "icon": "../assets/item-icons/item/30157.png"
   },
   {
     "vnum": "30158",
-    "name": "Ciastka Ry�owe",
+    "name": "Ciastka Ryżowe",
     "icon": "../assets/item-icons/item/30158.png"
   },
   {
@@ -18273,17 +18274,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30160",
-    "name": "Wiadomo�ci",
+    "name": "Wiadomości",
     "icon": "../assets/item-icons/item/30160.png"
   },
   {
     "vnum": "30161",
-    "name": "Oszczep M�a",
+    "name": "Oszczep Męża",
     "icon": "../assets/item-icons/item/30041.png"
   },
   {
     "vnum": "30162",
-    "name": "Oko Paj�ka",
+    "name": "Oko Pająka",
     "icon": "../assets/item-icons/item/30057.png"
   },
   {
@@ -18293,7 +18294,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30164",
-    "name": "T�umaczenie Ksi�gi Kl�tw",
+    "name": "Tłumaczenie Księgi Klątw",
     "icon": "../assets/item-icons/item/30047.png"
   },
   {
@@ -18313,7 +18314,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30168",
-    "name": "Notatka Przyw�dcy",
+    "name": "Notatka Przywódcy",
     "icon": "../assets/item-icons/item/30168.png"
   },
   {
@@ -18323,17 +18324,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30170",
-    "name": "Pomara�czowy Kwiat",
+    "name": "Pomarańczowy Kwiat",
     "icon": "../assets/item-icons/item/30170.png"
   },
   {
     "vnum": "30171",
-    "name": "��ty Kwiat",
+    "name": "Żółty Kwiat",
     "icon": "../assets/item-icons/item/30171.png"
   },
   {
     "vnum": "30172",
-    "name": "Bukiet z Kwiat�w",
+    "name": "Bukiet z Kwiatów",
     "icon": "../assets/item-icons/item/30172.png"
   },
   {
@@ -18343,7 +18344,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30174",
-    "name": "�apa Nied�wiedzia",
+    "name": "Łapa Niedźwiedzia",
     "icon": "../assets/item-icons/item/30174.png"
   },
   {
@@ -18353,27 +18354,27 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30176",
-    "name": "L�ni�ce Futro Tygrysa",
+    "name": "Lśniące Futro Tygrysa",
     "icon": "../assets/item-icons/item/30176.png"
   },
   {
     "vnum": "30177",
-    "name": "Olejek Pi�mowy",
+    "name": "Olejek Piżmowy",
     "icon": "../assets/item-icons/item/30177.png"
   },
   {
     "vnum": "30178",
-    "name": "Kamie� Glyph",
+    "name": "Kamień Glyph",
     "icon": "../assets/item-icons/item/30178.png"
   },
   {
     "vnum": "30179",
-    "name": "Kr�ty Klucz",
+    "name": "Kręty Klucz",
     "icon": "../assets/item-icons/item/30179.png"
   },
   {
     "vnum": "30180",
-    "name": "Amulet Boga Smok�w",
+    "name": "Amulet Boga Smoków",
     "icon": "../assets/item-icons/item/30180.png"
   },
   {
@@ -18383,27 +18384,27 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30182",
-    "name": "Legendarny Pami�tnik",
+    "name": "Legendarny Pamiętnik",
     "icon": "../assets/item-icons/item/30182.png"
   },
   {
     "vnum": "30183",
-    "name": "Pos�pna Drewniana Maska",
+    "name": "Posępna Drewniana Maska",
     "icon": "../assets/item-icons/item/30183.png"
   },
   {
     "vnum": "30184",
-    "name": "Zaczarowany Popi�",
+    "name": "Zaczarowany Popiół",
     "icon": "../assets/item-icons/item/30184.png"
   },
   {
     "vnum": "30185",
-    "name": "Czarny L�d",
+    "name": "Czarny Lód",
     "icon": "../assets/item-icons/item/30185.png"
   },
   {
     "vnum": "30186",
-    "name": "Skamienia�a �za",
+    "name": "Skamieniała Łza",
     "icon": "../assets/item-icons/item/30186.png"
   },
   {
@@ -18418,17 +18419,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30189",
-    "name": "�zy Baljit-Elvedin",
+    "name": "Łzy Baljit-Elvedin",
     "icon": "../assets/item-icons/item/30189.png"
   },
   {
     "vnum": "30190",
-    "name": "Krwisty Kamie�",
+    "name": "Krwisty Kamień",
     "icon": "../assets/item-icons/item/30190.png"
   },
   {
     "vnum": "30191",
-    "name": "Krwisty Kamie�",
+    "name": "Krwisty Kamień",
     "icon": "../assets/item-icons/item/30190.png"
   },
   {
@@ -18438,7 +18439,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30193",
-    "name": "Ko�� Palca",
+    "name": "Kość Palca",
     "icon": "../assets/item-icons/item/30193.png"
   },
   {
@@ -18463,17 +18464,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30198",
-    "name": "Wodny Kryszta�",
+    "name": "Wodny Kryształ",
     "icon": "../assets/item-icons/item/30198.png"
   },
   {
     "vnum": "30199",
-    "name": "Niebieski Kryszta�",
+    "name": "Niebieski Kryształ",
     "icon": "../assets/item-icons/item/30199.png"
   },
   {
     "vnum": "30201",
-    "name": "Pier�cionek Zemsty",
+    "name": "Pierścionek Zemsty",
     "icon": "../assets/item-icons/item/30201.png"
   },
   {
@@ -18483,17 +18484,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30203",
-    "name": "Kryszta�",
+    "name": "Kryształ",
     "icon": "../assets/item-icons/item/30203.png"
   },
   {
     "vnum": "30204",
-    "name": "Kawa�ek Kryszta�u",
+    "name": "Kawałek Kryształu",
     "icon": "../assets/item-icons/item/30204.png"
   },
   {
     "vnum": "30205",
-    "name": "Materia� Produkcyjny",
+    "name": "Materiał Produkcyjny",
     "icon": "../assets/item-icons/item/30205.png"
   },
   {
@@ -18548,62 +18549,62 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30220",
-    "name": "Kamie� Duszy Jinunggyi",
+    "name": "Kamień Duszy Jinunggyi",
     "icon": "../assets/item-icons/item/30220.png"
   },
   {
     "vnum": "30221",
-    "name": "�wi�tynny Kamie� Duszy",
+    "name": "Świątynny Kamień Duszy",
     "icon": "../assets/item-icons/item/30221.png"
   },
   {
     "vnum": "30222",
-    "name": "Kamie� Duszy Sagyi",
+    "name": "Kamień Duszy Sagyi",
     "icon": "../assets/item-icons/item/30222.png"
   },
   {
     "vnum": "30223",
-    "name": "Kamie� Duszy Aurtumryu",
+    "name": "Kamień Duszy Aurtumryu",
     "icon": "../assets/item-icons/item/30223.png"
   },
   {
     "vnum": "30224",
-    "name": "Kamie� Duszy Gyimok",
+    "name": "Kamień Duszy Gyimok",
     "icon": "../assets/item-icons/item/30224.png"
   },
   {
     "vnum": "30225",
-    "name": "Kamie� Duszy Tugyi",
+    "name": "Kamień Duszy Tugyi",
     "icon": "../assets/item-icons/item/30225.png"
   },
   {
     "vnum": "30226",
-    "name": "Kamie� Duszy Lasu",
+    "name": "Kamień Duszy Lasu",
     "icon": "../assets/item-icons/item/30226.png"
   },
   {
     "vnum": "30227",
-    "name": "Kamie� Lider�w",
+    "name": "Kamień Liderów",
     "icon": "../assets/item-icons/item/30227.png"
   },
   {
     "vnum": "30228",
-    "name": "Kamie� Dusz Beran-Setaou",
+    "name": "Kamień Dusz Beran-Setaou",
     "icon": "../assets/item-icons/item/30228.png"
   },
   {
     "vnum": "30251",
-    "name": "Klejnot Zawi�ci",
+    "name": "Klejnot Zawiści",
     "icon": "../assets/item-icons/item/30251.png"
   },
   {
     "vnum": "30252",
-    "name": "Klejnot M�dro�ci",
+    "name": "Klejnot Mądrości",
     "icon": "../assets/item-icons/item/30252.png"
   },
   {
     "vnum": "30253",
-    "name": "Klejnot Wierno�ci",
+    "name": "Klejnot Wierności",
     "icon": "../assets/item-icons/30253.png"
   },
   {
@@ -18613,32 +18614,32 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30265",
-    "name": "Cz�� Medalu (1)",
+    "name": "Część Medalu (1)",
     "icon": "../assets/item-icons/item/30265.png"
   },
   {
     "vnum": "30266",
-    "name": "Kie� Wodza",
+    "name": "Kieł Wodza",
     "icon": "../assets/item-icons/item/30266.png"
   },
   {
     "vnum": "30267",
-    "name": "Cz�� Medalu (3)",
+    "name": "Część Medalu (3)",
     "icon": "../assets/item-icons/item/30267.png"
   },
   {
     "vnum": "30268",
-    "name": "Cz�� Medalu (4)",
+    "name": "Część Medalu (4)",
     "icon": "../assets/item-icons/item/30268.png"
   },
   {
     "vnum": "30269",
-    "name": "Cz�� Medalu (5)",
+    "name": "Część Medalu (5)",
     "icon": "../assets/item-icons/item/30269.png"
   },
   {
     "vnum": "30270",
-    "name": "Od�amek Smocz. Kamienia",
+    "name": "Odłamek Smocz. Kamienia",
     "icon": "../assets/item-icons/item/30270.png"
   },
   {
@@ -18648,12 +18649,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30301",
-    "name": "Mapa Wie�y Sa-Gui",
+    "name": "Mapa Wieży Sa-Gui",
     "icon": "../assets/item-icons/item/30301.png"
   },
   {
     "vnum": "30302",
-    "name": "Mapa Wie�y Zin-Sa-Gui",
+    "name": "Mapa Wieży Zin-Sa-Gui",
     "icon": "../assets/item-icons/item/30302.png"
   },
   {
@@ -18668,7 +18669,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30311",
-    "name": "Klucz Kryszta�u Duszy",
+    "name": "Klucz Kryształu Duszy",
     "icon": "../assets/item-icons/item/30311.png"
   },
   {
@@ -18683,7 +18684,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30316",
-    "name": "Talerz Dobroczynno�ci",
+    "name": "Talerz Dobroczynności",
     "icon": "../assets/item-icons/item/30316.png"
   },
   {
@@ -18693,17 +18694,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30318",
-    "name": "Owoc B�ogos�awie�stwa",
+    "name": "Owoc Błogosławieństwa",
     "icon": "../assets/item-icons/item/30318.png"
   },
   {
     "vnum": "30319",
-    "name": "Zasuszona G�owa",
+    "name": "Zasuszona Głowa",
     "icon": "../assets/item-icons/item/30319.png"
   },
   {
     "vnum": "30320",
-    "name": "Zasuszona G�owa",
+    "name": "Zasuszona Głowa",
     "icon": "../assets/item-icons/item/30320.png"
   },
   {
@@ -18713,7 +18714,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30322",
-    "name": "Czarodziejska R�d�ka",
+    "name": "Czarodziejska Różdżka",
     "icon": "../assets/item-icons/item/30322.png"
   },
   {
@@ -18723,42 +18724,42 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30324",
-    "name": "Paj�czy Klucz",
+    "name": "Pajęczy Klucz",
     "icon": "../assets/item-icons/item/30324.png"
   },
   {
     "vnum": "30325",
-    "name": "Paj�czy Klucz",
+    "name": "Pajęczy Klucz",
     "icon": "../assets/item-icons/item/30324.png"
   },
   {
     "vnum": "30326",
-    "name": "Jad Kr�lowej Paj�k�w",
+    "name": "Jad Królowej Pająków",
     "icon": "../assets/item-icons/item/30326.png"
   },
   {
     "vnum": "30327",
-    "name": "Paj�czy Flet",
+    "name": "Pajęczy Flet",
     "icon": "../assets/item-icons/item/30327.png"
   },
   {
     "vnum": "30329",
-    "name": "Z�ota Z�batka",
+    "name": "Złota Zębatka",
     "icon": "../assets/item-icons/item/30329.png"
   },
   {
     "vnum": "30330",
-    "name": "Kamie� Maat",
+    "name": "Kamień Maat",
     "icon": "../assets/item-icons/item/50084.png"
   },
   {
     "vnum": "30500",
-    "name": "Rubinowy Ozdobny N�",
+    "name": "Rubinowy Ozdobny Nóż",
     "icon": "../assets/item-icons/item/30500.png"
   },
   {
     "vnum": "30501",
-    "name": "Z�ota Sprz�czka",
+    "name": "Złota Sprzączka",
     "icon": "../assets/item-icons/item/30501.png"
   },
   {
@@ -18768,7 +18769,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30503",
-    "name": "Ametystowy Ozdobny N�",
+    "name": "Ametystowy Ozdobny Nóż",
     "icon": "../assets/item-icons/item/30503.png"
   },
   {
@@ -18783,12 +18784,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30506",
-    "name": "Szafirowy Ozdobny N�",
+    "name": "Szafirowy Ozdobny Nóż",
     "icon": "../assets/item-icons/item/30506.png"
   },
   {
     "vnum": "30507",
-    "name": "Br�zowy Zacisk",
+    "name": "Brązowy Zacisk",
     "icon": "../assets/item-icons/item/30507.png"
   },
   {
@@ -18808,7 +18809,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30511",
-    "name": "Czerwony Materia�",
+    "name": "Czerwony Materiał",
     "icon": "../assets/item-icons/item/30511.png"
   },
   {
@@ -18823,7 +18824,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30514",
-    "name": "Fioletowy Materia�",
+    "name": "Fioletowy Materiał",
     "icon": "../assets/item-icons/item/30514.png"
   },
   {
@@ -18833,37 +18834,37 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30516",
-    "name": "Z�oty Materia�",
+    "name": "Złoty Materiał",
     "icon": "../assets/item-icons/item/30516.png"
   },
   {
     "vnum": "30517",
-    "name": "Z�oty Materia�",
+    "name": "Złoty Materiał",
     "icon": "../assets/item-icons/item/30517.png"
   },
   {
     "vnum": "30518",
-    "name": "Z�ota Prz�dza",
+    "name": "Złota Przędza",
     "icon": "../assets/item-icons/item/30518.png"
   },
   {
     "vnum": "30519",
-    "name": "Z�oty Hak",
+    "name": "Złoty Hak",
     "icon": "../assets/item-icons/item/30519.png"
   },
   {
     "vnum": "30520",
-    "name": "Z�ota Spinka",
+    "name": "Złota Spinka",
     "icon": "../assets/item-icons/item/30520.png"
   },
   {
     "vnum": "30521",
-    "name": "Element Pier�cienia",
+    "name": "Element Pierścienia",
     "icon": "../assets/item-icons/item/30521.png"
   },
   {
     "vnum": "30522",
-    "name": "Ogniwa �a�cucha",
+    "name": "Ogniwa Łańcucha",
     "icon": "../assets/item-icons/item/30522.png"
   },
   {
@@ -18873,12 +18874,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30524",
-    "name": "Kamie� P�omienia",
+    "name": "Kamień Płomienia",
     "icon": "../assets/item-icons/item/31006.png"
   },
   {
     "vnum": "30525",
-    "name": "Kamie� Lodowe. P�omienia",
+    "name": "Kamień Lodowe. Płomienia",
     "icon": "../assets/item-icons/item/31005.png"
   },
   {
@@ -18893,17 +18894,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30528",
-    "name": "Ose�ka do broni 55",
+    "name": "Osełka do broni 55",
     "icon": "../assets/item-icons/item/30528.png"
   },
   {
     "vnum": "30529",
-    "name": "Ose�ka do broni 75",
+    "name": "Osełka do broni 75",
     "icon": "../assets/item-icons/item/30529.png"
   },
   {
     "vnum": "30530",
-    "name": "Ose�ka do broni 95",
+    "name": "Osełka do broni 95",
     "icon": "../assets/item-icons/item/30530.png"
   },
   {
@@ -19018,7 +19019,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30553",
-    "name": "Kryszta� Groty",
+    "name": "Kryształ Groty",
     "icon": "../assets/item-icons/item/30553.png"
   },
   {
@@ -19028,7 +19029,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30555",
-    "name": "Z�ota Per�a",
+    "name": "Złota Perła",
     "icon": "../assets/item-icons/item/30555.png"
   },
   {
@@ -19038,7 +19039,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "30557",
-    "name": "Od�amek Kamienia",
+    "name": "Odłamek Kamienia",
     "icon": "../assets/item-icons/item/30557.png"
   },
   {
@@ -19188,7 +19189,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "31001",
-    "name": "Kamie� Ksi�ycowy",
+    "name": "Kamień Księżycowy",
     "icon": "../assets/item-icons/item/31001.png"
   },
   {
@@ -19203,17 +19204,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "31004",
-    "name": "�wi�cona �ywica",
+    "name": "Święcona Żywica",
     "icon": "../assets/item-icons/item/31004.png"
   },
   {
     "vnum": "31005",
-    "name": "Nieb. Esencja Kryszta�u",
+    "name": "Nieb. Esencja Kryształu",
     "icon": "../assets/item-icons/item/31005.png"
   },
   {
     "vnum": "31006",
-    "name": "Czerw. Kwarc Piekie�",
+    "name": "Czerw. Kwarc Piekieł",
     "icon": "../assets/item-icons/item/31006.png"
   },
   {
@@ -19223,7 +19224,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "31008",
-    "name": "�za Niebios",
+    "name": "Łza Niebios",
     "icon": "../assets/item-icons/item/31008.png"
   },
   {
@@ -19268,7 +19269,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "31017",
-    "name": "Zapiecz�towany List",
+    "name": "Zapieczętowany List",
     "icon": "../assets/item-icons/item/31012.png"
   },
   {
@@ -19293,7 +19294,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "31022",
-    "name": "�uska Oin",
+    "name": "Łuska Oin",
     "icon": "../assets/item-icons/item/31022.png"
   },
   {
@@ -19303,7 +19304,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "31024",
-    "name": "Sk�ra Mantykory",
+    "name": "Skóra Mantykory",
     "icon": "../assets/item-icons/item/31024.png"
   },
   {
@@ -19323,17 +19324,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "31028",
-    "name": "Ceg�a",
+    "name": "Cegła",
     "icon": "../assets/item-icons/item/31028.png"
   },
   {
     "vnum": "31029",
-    "name": "Wewn�trzne �wiat�o",
+    "name": "Wewnętrzne Światło",
     "icon": "../assets/item-icons/item/31029.png"
   },
   {
     "vnum": "31030",
-    "name": "Wewn�trzne �wiat�o",
+    "name": "Wewnętrzne Światło",
     "icon": "../assets/item-icons/item/31030.png"
   },
   {
@@ -19343,7 +19344,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "31032",
-    "name": "Per�y Syriusza",
+    "name": "Perły Syriusza",
     "icon": "../assets/item-icons/item/50022.png"
   },
   {
@@ -19353,27 +19354,27 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "31034",
-    "name": "Totem Gigant�w",
+    "name": "Totem Gigantów",
     "icon": "../assets/item-icons/item/31034.png"
   },
   {
     "vnum": "31035",
-    "name": "Czarny Kamie�",
+    "name": "Czarny Kamień",
     "icon": "../assets/item-icons/item/31035.png"
   },
   {
     "vnum": "31036",
-    "name": "Czarne Z�oto",
+    "name": "Czarne Złoto",
     "icon": "../assets/item-icons/item/31035.png"
   },
   {
     "vnum": "31037",
-    "name": "Sk�rzana Sakiewka",
+    "name": "Skórzana Sakiewka",
     "icon": "../assets/item-icons/item/31037.png"
   },
   {
     "vnum": "31038",
-    "name": "Po�wi�cona Ziemia",
+    "name": "Poświęcona Ziemia",
     "icon": "../assets/item-icons/item/31038.png"
   },
   {
@@ -19383,22 +19384,22 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "31040",
-    "name": "Z�oty Order",
+    "name": "Złoty Order",
     "icon": "../assets/item-icons/item/31040.png"
   },
   {
     "vnum": "31041",
-    "name": "Skamienia�a Ziemia",
+    "name": "Skamieniała Ziemia",
     "icon": "../assets/item-icons/item/30020.png"
   },
   {
     "vnum": "31042",
-    "name": "W��cznia Trytona",
+    "name": "Włócznia Trytona",
     "icon": "../assets/item-icons/item/31042.png"
   },
   {
     "vnum": "31043",
-    "name": "Tablica Lemur�w",
+    "name": "Tablica Lemurów",
     "icon": "../assets/item-icons/item/31043.png"
   },
   {
@@ -19438,7 +19439,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "31051",
-    "name": "�elazo",
+    "name": "Żelazo",
     "icon": "../assets/item-icons/item/30185.png"
   },
   {
@@ -19548,7 +19549,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "31073",
-    "name": "Opaska Posz. Z�ota",
+    "name": "Opaska Posz. Złota",
     "icon": "../assets/item-icons/item/50015.png"
   },
   {
@@ -19563,12 +19564,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "31076",
-    "name": "S�oneczne Zio�a",
+    "name": "Słoneczne Zioła",
     "icon": "../assets/item-icons/item/31076.png"
   },
   {
     "vnum": "31077",
-    "name": "Proszek z Kam.W�gielnego",
+    "name": "Proszek z Kam.Węgielnego",
     "icon": "../assets/item-icons/item/31077.png"
   },
   {
@@ -19583,7 +19584,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "31080",
-    "name": "Krew Ognistego Kr�la",
+    "name": "Krew Ognistego Króla",
     "icon": "../assets/item-icons/item/31080.png"
   },
   {
@@ -19593,12 +19594,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "31082",
-    "name": "Pier�cie� Magmy",
+    "name": "Pierścień Magmy",
     "icon": "../assets/item-icons/item/31082.png"
   },
   {
     "vnum": "31083",
-    "name": "Pier�cie� Samaela",
+    "name": "Pierścień Samaela",
     "icon": "../assets/item-icons/item/31083.png"
   },
   {
@@ -19638,7 +19639,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "31091",
-    "name": "Krew Ognistego Kr�la",
+    "name": "Krew Ognistego Króla",
     "icon": "../assets/item-icons/item/31091.png"
   },
   {
@@ -19648,12 +19649,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "35000",
-    "name": "Zio�a Lecznicze+",
+    "name": "Zioła Lecznicze+",
     "icon": "../assets/item-icons/item/30143.png"
   },
   {
     "vnum": "35001",
-    "name": "W�troba Tygrysa+",
+    "name": "Wątroba Tygrysa+",
     "icon": "../assets/item-icons/item/30144.png"
   },
   {
@@ -19698,7 +19699,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "38051",
-    "name": "Kryszta� Tygr. Bengalsk.",
+    "name": "Kryształ Tygr. Bengalsk.",
     "icon": "../assets/item-icons/item/38051.png"
   },
   {
@@ -19723,42 +19724,42 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "38056",
-    "name": "Skrzynia �wi�t",
+    "name": "Skrzynia Świąt",
     "icon": "../assets/item-icons/item/50133.png"
   },
   {
     "vnum": "38057",
-    "name": "Skrzynia P�nocy",
+    "name": "Skrzynia Północy",
     "icon": "../assets/item-icons/item/50128.png"
   },
   {
     "vnum": "38100",
-    "name": "Mega Przek�ska (7 dni)",
+    "name": "Mega Przekąska (7 dni)",
     "icon": "../assets/item-icons/item/50709.png"
   },
   {
     "vnum": "38101",
-    "name": "Mega Przek�ska (15 dni)",
+    "name": "Mega Przekąska (15 dni)",
     "icon": "../assets/item-icons/item/50709.png"
   },
   {
     "vnum": "38102",
-    "name": "Mega Przek�ska (30 dni)",
+    "name": "Mega Przekąska (30 dni)",
     "icon": "../assets/item-icons/item/50709.png"
   },
   {
     "vnum": "38200",
-    "name": "Piecz�� Rufusa",
+    "name": "Pieczęć Rufusa",
     "icon": "../assets/item-icons/item/53001.png"
   },
   {
     "vnum": "38201",
-    "name": "Piecz�� Rufusa",
+    "name": "Pieczęć Rufusa",
     "icon": "../assets/item-icons/item/53001.png"
   },
   {
     "vnum": "39002",
-    "name": "Pier�cie� Do�wiadczenia",
+    "name": "Pierścień Doświadczenia",
     "icon": "../assets/item-icons/item/70005.png"
   },
   {
@@ -19768,7 +19769,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "39004",
-    "name": "Marmur B�ogos�awie�stwa",
+    "name": "Marmur Błogosławieństwa",
     "icon": "../assets/item-icons/item/70024.png"
   },
   {
@@ -19778,22 +19779,22 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "39006",
-    "name": "Peleryna M�stwa",
+    "name": "Peleryna Męstwa",
     "icon": "../assets/item-icons/item/70038.png"
   },
   {
     "vnum": "39007",
-    "name": "Podr�cznik Kowala",
+    "name": "Podręcznik Kowala",
     "icon": "../assets/item-icons/item/70039.png"
   },
   {
     "vnum": "39008",
-    "name": "Zw�j Egzorcyzmu",
+    "name": "Zwój Egzorcyzmu",
     "icon": "../assets/item-icons/item/71001.png"
   },
   {
     "vnum": "39009",
-    "name": "Zw�j Powrotu Umiej�tn.",
+    "name": "Zwój Powrotu Umiejętn.",
     "icon": "../assets/item-icons/item/71003.png"
   },
   {
@@ -19803,27 +19804,27 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "39011",
-    "name": "B�ogos�awie�stwo �ycia",
+    "name": "Błogosławieństwo Życia",
     "icon": "../assets/item-icons/item/71018.png"
   },
   {
     "vnum": "39012",
-    "name": "B�ogos�awie�stwo Magii",
+    "name": "Błogosławieństwo Magii",
     "icon": "../assets/item-icons/item/71019.png"
   },
   {
     "vnum": "39013",
-    "name": "B�ogos�awie�stwo Smoka",
+    "name": "Błogosławieństwo Smoka",
     "icon": "../assets/item-icons/item/71020.png"
   },
   {
     "vnum": "39014",
-    "name": "Zw�j Wojny",
+    "name": "Zwój Wojny",
     "icon": "../assets/item-icons/item/71003.png"
   },
   {
     "vnum": "39015",
-    "name": "Kamie� Kowala",
+    "name": "Kamień Kowala",
     "icon": "../assets/item-icons/item/71025.png"
   },
   {
@@ -19833,12 +19834,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "39021",
-    "name": "Wsparcie Boga Smok�w",
+    "name": "Wsparcie Boga Smoków",
     "icon": "../assets/item-icons/item/71030.png"
   },
   {
     "vnum": "39022",
-    "name": "Zw�j Boga Smok�w",
+    "name": "Zwój Boga Smoków",
     "icon": "../assets/item-icons/item/71032.png"
   },
   {
@@ -19848,22 +19849,22 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "39024",
-    "name": "D�o� Krytyka",
+    "name": "Dłoń Krytyka",
     "icon": "../assets/item-icons/item/71044.png"
   },
   {
     "vnum": "39025",
-    "name": "D�o� Przebicia",
+    "name": "Dłoń Przebicia",
     "icon": "../assets/item-icons/item/71045.png"
   },
   {
     "vnum": "39026",
-    "name": "Mikstura Szybko�ci",
+    "name": "Mikstura Szybkości",
     "icon": "../assets/item-icons/item/27103.png"
   },
   {
     "vnum": "39027",
-    "name": "Ksi�ga Obr�bki Kamienia",
+    "name": "Księga Obróbki Kamienia",
     "icon": "../assets/item-icons/item/71083.png"
   },
   {
@@ -19878,17 +19879,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "39031",
-    "name": "Mikstura Po�piechu",
+    "name": "Mikstura Pośpiechu",
     "icon": "../assets/item-icons/item/71101.png"
   },
   {
     "vnum": "39032",
-    "name": "Owoc �ycia",
+    "name": "Owoc Życia",
     "icon": "../assets/item-icons/item/39032.png"
   },
   {
     "vnum": "39033",
-    "name": "Zw�j Korekcji",
+    "name": "Zwój Korekcji",
     "icon": "../assets/item-icons/item/71109.png"
   },
   {
@@ -19898,7 +19899,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "39035",
-    "name": "Szk�o Intuicji",
+    "name": "Szkło Intuicji",
     "icon": "../assets/item-icons/item/71113.png"
   },
   {
@@ -19908,82 +19909,82 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "39037",
-    "name": "Eliksir S�o�ca (M)",
+    "name": "Eliksir Słońca (M)",
     "icon": "../assets/item-icons/item/72723.png"
   },
   {
     "vnum": "39038",
-    "name": "Eliksir S�o�ca (�)",
+    "name": "Eliksir Słońca (Ś)",
     "icon": "../assets/item-icons/item/72724.png"
   },
   {
     "vnum": "39039",
-    "name": "Eliksir S�o�ca (D)",
+    "name": "Eliksir Słońca (D)",
     "icon": "../assets/item-icons/item/72725.png"
   },
   {
     "vnum": "39040",
-    "name": "Eliksir Ksi�yca (M)",
+    "name": "Eliksir Księżyca (M)",
     "icon": "../assets/item-icons/item/72727.png"
   },
   {
     "vnum": "39041",
-    "name": "Eliksir Ksi�yca (�)",
+    "name": "Eliksir Księżyca (Ś)",
     "icon": "../assets/item-icons/item/72728.png"
   },
   {
     "vnum": "39042",
-    "name": "Eliksir Ksi�yca (D)",
+    "name": "Eliksir Księżyca (D)",
     "icon": "../assets/item-icons/item/72729.png"
   },
   {
     "vnum": "39043",
-    "name": "Zw�j Powrotu",
+    "name": "Zwój Powrotu",
     "icon": "../assets/item-icons/item/22000.png"
   },
   {
     "vnum": "40001",
-    "name": "Nieznany Z�oty Pier�cie�",
+    "name": "Nieznany Złoty Pierścień",
     "icon": "../assets/item-icons/item/40001.png"
   },
   {
     "vnum": "40002",
-    "name": "Pier�cie� Levi",
+    "name": "Pierścień Levi",
     "icon": "../assets/item-icons/item/40002.png"
   },
   {
     "vnum": "40003",
-    "name": "Pier�cie� Thora",
+    "name": "Pierścień Thora",
     "icon": "../assets/item-icons/item/40003.png"
   },
   {
     "vnum": "40004",
-    "name": "Pier�cie� Eeka",
+    "name": "Pierścień Eeka",
     "icon": "../assets/item-icons/item/40004.png"
   },
   {
     "vnum": "40005",
-    "name": "D�wi�kowy Dzwon",
+    "name": "Dźwiękowy Dzwon",
     "icon": "../assets/item-icons/item/dummy.png"
   },
   {
     "vnum": "40006",
-    "name": "Przesy�ka Barbarzy�ska",
+    "name": "Przesyłka Barbarzyńska",
     "icon": "../assets/item-icons/item/dummy.png"
   },
   {
     "vnum": "40007",
-    "name": "List Od Barbarz. W�adcy",
+    "name": "List Od Barbarz. Władcy",
     "icon": "../assets/item-icons/item/dummy.png"
   },
   {
     "vnum": "41001",
-    "name": "Kostium Zaj�ca (br�z.)",
+    "name": "Kostium Zająca (brąz.)",
     "icon": "../assets/item-icons/item/41002.png"
   },
   {
     "vnum": "41002",
-    "name": "Kostium Zaj�czka (br�z.)",
+    "name": "Kostium Zajączka (brąz.)",
     "icon": "../assets/item-icons/item/41001.png"
   },
   {
@@ -19998,42 +19999,42 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "41005",
-    "name": "Str�j Szermi.Olympia (m)",
+    "name": "Strój Szermi.Olympia (m)",
     "icon": "../assets/item-icons/item/41005.png"
   },
   {
     "vnum": "41006",
-    "name": "Str�j Szermi.Olympia (k)",
+    "name": "Strój Szermi.Olympia (k)",
     "icon": "../assets/item-icons/item/41006.png"
   },
   {
     "vnum": "41007",
-    "name": "Str�j Szermi. GER (m)",
+    "name": "Strój Szermi. GER (m)",
     "icon": "../assets/item-icons/item/41007.png"
   },
   {
     "vnum": "41008",
-    "name": "Str�j Szermi. GER (k)",
+    "name": "Strój Szermi. GER (k)",
     "icon": "../assets/item-icons/item/41008.png"
   },
   {
     "vnum": "41009",
-    "name": "Str�j Szermi. TUR (m)",
+    "name": "Strój Szermi. TUR (m)",
     "icon": "../assets/item-icons/item/41009.png"
   },
   {
     "vnum": "41010",
-    "name": "Str�j Szermi. TUR (k)",
+    "name": "Strój Szermi. TUR (k)",
     "icon": "../assets/item-icons/item/41010.png"
   },
   {
     "vnum": "41011",
-    "name": "Str�j Szermi. BRA (m)",
+    "name": "Strój Szermi. BRA (m)",
     "icon": "../assets/item-icons/item/41011.png"
   },
   {
     "vnum": "41012",
-    "name": "Str�j Szermi. BRA (k)",
+    "name": "Strój Szermi. BRA (k)",
     "icon": "../assets/item-icons/item/41012.png"
   },
   {
@@ -20078,42 +20079,42 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "41021",
-    "name": "Str�j Boksera Olympia(m)",
+    "name": "Strój Boksera Olympia(m)",
     "icon": "../assets/item-icons/item/41021.png"
   },
   {
     "vnum": "41022",
-    "name": "Str�j Boksera Olympia(k)",
+    "name": "Strój Boksera Olympia(k)",
     "icon": "../assets/item-icons/item/41022.png"
   },
   {
     "vnum": "41023",
-    "name": "Str�j Boksera GER (m)",
+    "name": "Strój Boksera GER (m)",
     "icon": "../assets/item-icons/item/41023.png"
   },
   {
     "vnum": "41024",
-    "name": "Str�j Bokera GER (k)",
+    "name": "Strój Bokera GER (k)",
     "icon": "../assets/item-icons/item/41024.png"
   },
   {
     "vnum": "41025",
-    "name": "Str�j Boksera TUR (m)",
+    "name": "Strój Boksera TUR (m)",
     "icon": "../assets/item-icons/item/41025.png"
   },
   {
     "vnum": "41026",
-    "name": "Str�j Boksera TUR (k)",
+    "name": "Strój Boksera TUR (k)",
     "icon": "../assets/item-icons/item/41026.png"
   },
   {
     "vnum": "41027",
-    "name": "Str�j Boksera BRA (m)",
+    "name": "Strój Boksera BRA (m)",
     "icon": "../assets/item-icons/item/41027.png"
   },
   {
     "vnum": "41028",
-    "name": "Str�j Boksera BRA (k)",
+    "name": "Strój Boksera BRA (k)",
     "icon": "../assets/item-icons/item/41028.png"
   },
   {
@@ -20128,42 +20129,42 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "41031",
-    "name": "Str�j Szermi. Olympia(m)",
+    "name": "Strój Szermi. Olympia(m)",
     "icon": "../assets/item-icons/item/41005.png"
   },
   {
     "vnum": "41032",
-    "name": "Str�j Szermi. Olympia(k)",
+    "name": "Strój Szermi. Olympia(k)",
     "icon": "../assets/item-icons/item/41006.png"
   },
   {
     "vnum": "41033",
-    "name": "Str�j Szermi. GER (m)",
+    "name": "Strój Szermi. GER (m)",
     "icon": "../assets/item-icons/item/41007.png"
   },
   {
     "vnum": "41034",
-    "name": "Str�j Szermi. GER (k)",
+    "name": "Strój Szermi. GER (k)",
     "icon": "../assets/item-icons/item/41008.png"
   },
   {
     "vnum": "41035",
-    "name": "Str�j Szermierza TUR (m)",
+    "name": "Strój Szermierza TUR (m)",
     "icon": "../assets/item-icons/item/41009.png"
   },
   {
     "vnum": "41036",
-    "name": "Str�j Szermi. TUR (k)",
+    "name": "Strój Szermi. TUR (k)",
     "icon": "../assets/item-icons/item/41010.png"
   },
   {
     "vnum": "41037",
-    "name": "Str�j Szermi. BRA (m)",
+    "name": "Strój Szermi. BRA (m)",
     "icon": "../assets/item-icons/item/41011.png"
   },
   {
     "vnum": "41038",
-    "name": "Str�j Szermi. BRA (k)",
+    "name": "Strój Szermi. BRA (k)",
     "icon": "../assets/item-icons/item/41012.png"
   },
   {
@@ -20208,92 +20209,92 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "41047",
-    "name": "Str�j Boksera Olympia(m)",
+    "name": "Strój Boksera Olympia(m)",
     "icon": "../assets/item-icons/item/41021.png"
   },
   {
     "vnum": "41048",
-    "name": "Str�j Boksera Olympia(k)",
+    "name": "Strój Boksera Olympia(k)",
     "icon": "../assets/item-icons/item/41022.png"
   },
   {
     "vnum": "41049",
-    "name": "Str�j Boksera GER (m)",
+    "name": "Strój Boksera GER (m)",
     "icon": "../assets/item-icons/item/41023.png"
   },
   {
     "vnum": "41050",
-    "name": "Str�j Boksera GER (k)",
+    "name": "Strój Boksera GER (k)",
     "icon": "../assets/item-icons/item/41024.png"
   },
   {
     "vnum": "41051",
-    "name": "Str�j Boksera TUR (m)",
+    "name": "Strój Boksera TUR (m)",
     "icon": "../assets/item-icons/item/41025.png"
   },
   {
     "vnum": "41052",
-    "name": "Str�j Boksera TUR (k)",
+    "name": "Strój Boksera TUR (k)",
     "icon": "../assets/item-icons/item/41026.png"
   },
   {
     "vnum": "41053",
-    "name": "Str�j Boksera BRA (m)",
+    "name": "Strój Boksera BRA (m)",
     "icon": "../assets/item-icons/item/41027.png"
   },
   {
     "vnum": "41054",
-    "name": "Str�j Boksera BRA (k)",
+    "name": "Strój Boksera BRA (k)",
     "icon": "../assets/item-icons/item/41028.png"
   },
   {
     "vnum": "41055",
-    "name": "Str�j Szermierza FRA (m)",
+    "name": "Strój Szermierza FRA (m)",
     "icon": "../assets/item-icons/item/41055.png"
   },
   {
     "vnum": "41056",
-    "name": "Str�j Szermierza FRA (k)",
+    "name": "Strój Szermierza FRA (k)",
     "icon": "../assets/item-icons/item/41056.png"
   },
   {
     "vnum": "41057",
-    "name": "Str�j Szermierza ITA (m)",
+    "name": "Strój Szermierza ITA (m)",
     "icon": "../assets/item-icons/item/41057.png"
   },
   {
     "vnum": "41058",
-    "name": "Str�j Szermierza ITA (k)",
+    "name": "Strój Szermierza ITA (k)",
     "icon": "../assets/item-icons/item/41058.png"
   },
   {
     "vnum": "41059",
-    "name": "Str�j Szermierza POL (m)",
+    "name": "Strój Szermierza POL (m)",
     "icon": "../assets/item-icons/item/41059.png"
   },
   {
     "vnum": "41060",
-    "name": "Str�j Szermierza POL (k)",
+    "name": "Strój Szermierza POL (k)",
     "icon": "../assets/item-icons/item/41060.png"
   },
   {
     "vnum": "41061",
-    "name": "Str�j Szermierza ROU (m)",
+    "name": "Strój Szermierza ROU (m)",
     "icon": "../assets/item-icons/item/41061.png"
   },
   {
     "vnum": "41062",
-    "name": "Str�j Szermierza ROU (k)",
+    "name": "Strój Szermierza ROU (k)",
     "icon": "../assets/item-icons/item/41062.png"
   },
   {
     "vnum": "41063",
-    "name": "Str�j Szermierza ESP (m)",
+    "name": "Strój Szermierza ESP (m)",
     "icon": "../assets/item-icons/item/41063.png"
   },
   {
     "vnum": "41064",
-    "name": "Str�j Szermierza ESP (k)",
+    "name": "Strój Szermierza ESP (k)",
     "icon": "../assets/item-icons/item/41064.png"
   },
   {
@@ -20348,102 +20349,102 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "41075",
-    "name": "Str�j Boksera FRA (m)",
+    "name": "Strój Boksera FRA (m)",
     "icon": "../assets/item-icons/item/41075.png"
   },
   {
     "vnum": "41076",
-    "name": "Str�j Boksera FRA (k)",
+    "name": "Strój Boksera FRA (k)",
     "icon": "../assets/item-icons/item/41076.png"
   },
   {
     "vnum": "41077",
-    "name": "Str�j Boksera ITA (m)",
+    "name": "Strój Boksera ITA (m)",
     "icon": "../assets/item-icons/item/41077.png"
   },
   {
     "vnum": "41078",
-    "name": "Str�j Boksera ITA (k)",
+    "name": "Strój Boksera ITA (k)",
     "icon": "../assets/item-icons/item/41078.png"
   },
   {
     "vnum": "41079",
-    "name": "Str�j Boksera POL (m)",
+    "name": "Strój Boksera POL (m)",
     "icon": "../assets/item-icons/item/41079.png"
   },
   {
     "vnum": "41080",
-    "name": "Str�j Boksera POL (k)",
+    "name": "Strój Boksera POL (k)",
     "icon": "../assets/item-icons/item/41080.png"
   },
   {
     "vnum": "41081",
-    "name": "Str�j Boksera ROU (m)",
+    "name": "Strój Boksera ROU (m)",
     "icon": "../assets/item-icons/item/41081.png"
   },
   {
     "vnum": "41082",
-    "name": "Str�j Boksera ROU (k)",
+    "name": "Strój Boksera ROU (k)",
     "icon": "../assets/item-icons/item/41082.png"
   },
   {
     "vnum": "41083",
-    "name": "Str�j Boksera ESP (m)",
+    "name": "Strój Boksera ESP (m)",
     "icon": "../assets/item-icons/item/41083.png"
   },
   {
     "vnum": "41084",
-    "name": "Str�j Boksera ESP (k)",
+    "name": "Strój Boksera ESP (k)",
     "icon": "../assets/item-icons/item/41084.png"
   },
   {
     "vnum": "41085",
-    "name": "Str�j Szermierza FRA (m)",
+    "name": "Strój Szermierza FRA (m)",
     "icon": "../assets/item-icons/item/41055.png"
   },
   {
     "vnum": "41086",
-    "name": "Str�j Szermierza FRA (k)",
+    "name": "Strój Szermierza FRA (k)",
     "icon": "../assets/item-icons/item/41056.png"
   },
   {
     "vnum": "41087",
-    "name": "Str�j Szermierza ITA (m)",
+    "name": "Strój Szermierza ITA (m)",
     "icon": "../assets/item-icons/item/41057.png"
   },
   {
     "vnum": "41088",
-    "name": "Str�j Szermierza ITA (k)",
+    "name": "Strój Szermierza ITA (k)",
     "icon": "../assets/item-icons/item/41058.png"
   },
   {
     "vnum": "41089",
-    "name": "Str�j Szermierza POL (m)",
+    "name": "Strój Szermierza POL (m)",
     "icon": "../assets/item-icons/item/41059.png"
   },
   {
     "vnum": "41090",
-    "name": "Str�j Szermierza POL (k)",
+    "name": "Strój Szermierza POL (k)",
     "icon": "../assets/item-icons/item/41060.png"
   },
   {
     "vnum": "41091",
-    "name": "Str�j Szermierza ROU (m)",
+    "name": "Strój Szermierza ROU (m)",
     "icon": "../assets/item-icons/item/41061.png"
   },
   {
     "vnum": "41092",
-    "name": "Str�j Szermierza ROU (k)",
+    "name": "Strój Szermierza ROU (k)",
     "icon": "../assets/item-icons/item/41062.png"
   },
   {
     "vnum": "41093",
-    "name": "Str�j Szermierza ESP (m)",
+    "name": "Strój Szermierza ESP (m)",
     "icon": "../assets/item-icons/item/41063.png"
   },
   {
     "vnum": "41094",
-    "name": "Str�j Szermierza ESP (k)",
+    "name": "Strój Szermierza ESP (k)",
     "icon": "../assets/item-icons/item/41064.png"
   },
   {
@@ -20498,52 +20499,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "41105",
-    "name": "Str�j Boksera FRA (m)",
+    "name": "Strój Boksera FRA (m)",
     "icon": "../assets/item-icons/item/41075.png"
   },
   {
     "vnum": "41106",
-    "name": "Str�j Boksera FRA (k)",
+    "name": "Strój Boksera FRA (k)",
     "icon": "../assets/item-icons/item/41076.png"
   },
   {
     "vnum": "41107",
-    "name": "Str�j Boksera ITA (m)",
+    "name": "Strój Boksera ITA (m)",
     "icon": "../assets/item-icons/item/41077.png"
   },
   {
     "vnum": "41108",
-    "name": "Str�j Boksera ITA (k)",
+    "name": "Strój Boksera ITA (k)",
     "icon": "../assets/item-icons/item/41078.png"
   },
   {
     "vnum": "41109",
-    "name": "Str�j Boksera POL (m)",
+    "name": "Strój Boksera POL (m)",
     "icon": "../assets/item-icons/item/41079.png"
   },
   {
     "vnum": "41110",
-    "name": "Str�j Boksera POL (k)",
+    "name": "Strój Boksera POL (k)",
     "icon": "../assets/item-icons/item/41080.png"
   },
   {
     "vnum": "41111",
-    "name": "Str�j Boksera ROU (m)",
+    "name": "Strój Boksera ROU (m)",
     "icon": "../assets/item-icons/item/41081.png"
   },
   {
     "vnum": "41112",
-    "name": "Str�j Boksera ROU (k)",
+    "name": "Strój Boksera ROU (k)",
     "icon": "../assets/item-icons/item/41082.png"
   },
   {
     "vnum": "41113",
-    "name": "Str�j Boksera ESP (m)",
+    "name": "Strój Boksera ESP (m)",
     "icon": "../assets/item-icons/item/41083.png"
   },
   {
     "vnum": "41114",
-    "name": "Str�j Boksera ESP (k)",
+    "name": "Strój Boksera ESP (k)",
     "icon": "../assets/item-icons/item/41084.png"
   },
   {
@@ -20553,12 +20554,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "41118",
-    "name": "Kostium Pokoj�wki",
+    "name": "Kostium Pokojówki",
     "icon": "../assets/item-icons/item/41118.png"
   },
   {
     "vnum": "41119",
-    "name": "Str�j Salsa",
+    "name": "Strój Salsa",
     "icon": "../assets/item-icons/item/41119.png"
   },
   {
@@ -20568,7 +20569,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "41121",
-    "name": "Str�j D�entelmena",
+    "name": "Strój Dżentelmena",
     "icon": "../assets/item-icons/item/41121.png"
   },
   {
@@ -20593,12 +20594,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "41130",
-    "name": "Kostium Pokoj�wki+",
+    "name": "Kostium Pokojówki+",
     "icon": "../assets/item-icons/item/41118.png"
   },
   {
     "vnum": "41131",
-    "name": "Str�j Salsa+",
+    "name": "Strój Salsa+",
     "icon": "../assets/item-icons/item/41119.png"
   },
   {
@@ -20608,7 +20609,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "41133",
-    "name": "Str�j D�entelmena+",
+    "name": "Strój Dżentelmena+",
     "icon": "../assets/item-icons/item/41121.png"
   },
   {
@@ -20628,32 +20629,32 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "41137",
-    "name": "�wi�t. Kostium (czerw.)",
+    "name": "Świąt. Kostium (czerw.)",
     "icon": "../assets/item-icons/item/41137.png"
   },
   {
     "vnum": "41138",
-    "name": "�wi�t. Suknia (czerw.)",
+    "name": "Świąt. Suknia (czerw.)",
     "icon": "../assets/item-icons/item/41138.png"
   },
   {
     "vnum": "41139",
-    "name": "�wi�t. Kostium (ziel.)",
+    "name": "Świąt. Kostium (ziel.)",
     "icon": "../assets/item-icons/item/41139.png"
   },
   {
     "vnum": "41140",
-    "name": "�wi�t. Suknia (ziel.)",
+    "name": "Świąt. Suknia (ziel.)",
     "icon": "../assets/item-icons/item/41140.png"
   },
   {
     "vnum": "41141",
-    "name": "�wi�t. Kostium (czarny)",
+    "name": "Świąt. Kostium (czarny)",
     "icon": "../assets/item-icons/item/41141.png"
   },
   {
     "vnum": "41142",
-    "name": "�wi�t. Suknia (czarna)",
+    "name": "Świąt. Suknia (czarna)",
     "icon": "../assets/item-icons/item/41142.png"
   },
   {
@@ -20668,32 +20669,32 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "41145",
-    "name": "�wi�t. Kostium+ (czerw.)",
+    "name": "Świąt. Kostium+ (czerw.)",
     "icon": "../assets/item-icons/item/41137.png"
   },
   {
     "vnum": "41146",
-    "name": "�wi�t. Suknia+ (czerw.)",
+    "name": "Świąt. Suknia+ (czerw.)",
     "icon": "../assets/item-icons/item/41138.png"
   },
   {
     "vnum": "41147",
-    "name": "�wi�t. Kostium+ (ziel.)",
+    "name": "Świąt. Kostium+ (ziel.)",
     "icon": "../assets/item-icons/item/41139.png"
   },
   {
     "vnum": "41148",
-    "name": "�wi�t. Suknia+ (ziel.)",
+    "name": "Świąt. Suknia+ (ziel.)",
     "icon": "../assets/item-icons/item/41140.png"
   },
   {
     "vnum": "41149",
-    "name": "�wi�t. Kostium+ (czarny)",
+    "name": "Świąt. Kostium+ (czarny)",
     "icon": "../assets/item-icons/item/41141.png"
   },
   {
     "vnum": "41150",
-    "name": "�wi�t. Suknia+ (czarna)",
+    "name": "Świąt. Suknia+ (czarna)",
     "icon": "../assets/item-icons/item/41142.png"
   },
   {
@@ -20728,12 +20729,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "41157",
-    "name": "RSC W�owe Pole (m)",
+    "name": "RSC Wężowe Pole (m)",
     "icon": "../assets/item-icons/item/41157.png"
   },
   {
     "vnum": "41158",
-    "name": "RSC W�owe Pole (k)",
+    "name": "RSC Wężowe Pole (k)",
     "icon": "../assets/item-icons/item/41158.png"
   },
   {
@@ -20808,12 +20809,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "41173",
-    "name": "CFR Smoczy Ogie� 07 (m)",
+    "name": "CFR Smoczy Ogień 07 (m)",
     "icon": "../assets/item-icons/item/41173.png"
   },
   {
     "vnum": "41174",
-    "name": "CFR Smoczy Ogie� 07 (k)",
+    "name": "CFR Smoczy Ogień 07 (k)",
     "icon": "../assets/item-icons/item/41174.png"
   },
   {
@@ -20938,12 +20939,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "41199",
-    "name": "Gromista G�ra FC (m)",
+    "name": "Gromista Góra FC (m)",
     "icon": "../assets/item-icons/item/41199.png"
   },
   {
     "vnum": "41200",
-    "name": "Gromista G�ra FC (k)",
+    "name": "Gromista Góra FC (k)",
     "icon": "../assets/item-icons/item/41200.png"
   },
   {
@@ -21048,12 +21049,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "41221",
-    "name": "RSC W�owe Pole+ (m)",
+    "name": "RSC Wężowe Pole+ (m)",
     "icon": "../assets/item-icons/item/41157.png"
   },
   {
     "vnum": "41222",
-    "name": "RSC W�owe Pole+ (k)",
+    "name": "RSC Wężowe Pole+ (k)",
     "icon": "../assets/item-icons/item/41158.png"
   },
   {
@@ -21128,12 +21129,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "41237",
-    "name": "CFR Smoczy Ogie� 07+ (m)",
+    "name": "CFR Smoczy Ogień 07+ (m)",
     "icon": "../assets/item-icons/item/41173.png"
   },
   {
     "vnum": "41238",
-    "name": "CFR Smoczy Ogie� 07+ (k)",
+    "name": "CFR Smoczy Ogień 07+ (k)",
     "icon": "../assets/item-icons/item/41174.png"
   },
   {
@@ -21258,12 +21259,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "41263",
-    "name": "Gromista G�ra FC+ (m)",
+    "name": "Gromista Góra FC+ (m)",
     "icon": "../assets/item-icons/item/41199.png"
   },
   {
     "vnum": "41264",
-    "name": "Gromista G�ra FC+ (k)",
+    "name": "Gromista Góra FC+ (k)",
     "icon": "../assets/item-icons/item/41200.png"
   },
   {
@@ -21348,82 +21349,82 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "41291",
-    "name": "Kostium Zaj�ca (czarny)",
+    "name": "Kostium Zająca (czarny)",
     "icon": "../assets/item-icons/item/41291.png"
   },
   {
     "vnum": "41292",
-    "name": "Kostium Zaj�ca (nieb.)",
+    "name": "Kostium Zająca (nieb.)",
     "icon": "../assets/item-icons/item/41292.png"
   },
   {
     "vnum": "41293",
-    "name": "Kostium Zaj�ca (zielony)",
+    "name": "Kostium Zająca (zielony)",
     "icon": "../assets/item-icons/item/41293.png"
   },
   {
     "vnum": "41294",
-    "name": "Kostium Zaj�ca (r�owy)",
+    "name": "Kostium Zająca (różowy)",
     "icon": "../assets/item-icons/item/41294.png"
   },
   {
     "vnum": "41295",
-    "name": "Kostium Zaj�czka (czar.)",
+    "name": "Kostium Zajączka (czar.)",
     "icon": "../assets/item-icons/item/41295.png"
   },
   {
     "vnum": "41296",
-    "name": "Kostium Zaj�czka (nieb.)",
+    "name": "Kostium Zajączka (nieb.)",
     "icon": "../assets/item-icons/item/41296.png"
   },
   {
     "vnum": "41297",
-    "name": "Kostium Zaj�czka (ziel.)",
+    "name": "Kostium Zajączka (ziel.)",
     "icon": "../assets/item-icons/item/41297.png"
   },
   {
     "vnum": "41298",
-    "name": "Kostium Zaj�czka (r�.)",
+    "name": "Kostium Zajączka (róż.)",
     "icon": "../assets/item-icons/item/41298.png"
   },
   {
     "vnum": "41299",
-    "name": "Kostium Zaj�ca+ (czarny)",
+    "name": "Kostium Zająca+ (czarny)",
     "icon": "../assets/item-icons/item/41291.png"
   },
   {
     "vnum": "41300",
-    "name": "Kostium Zaj�ca+ (nieb.)",
+    "name": "Kostium Zająca+ (nieb.)",
     "icon": "../assets/item-icons/item/41292.png"
   },
   {
     "vnum": "41301",
-    "name": "Kostium Zaj�ca+ (ziel.)",
+    "name": "Kostium Zająca+ (ziel.)",
     "icon": "../assets/item-icons/item/41293.png"
   },
   {
     "vnum": "41302",
-    "name": "Kostium Zaj�ca+ (r�owy)",
+    "name": "Kostium Zająca+ (różowy)",
     "icon": "../assets/item-icons/item/41294.png"
   },
   {
     "vnum": "41303",
-    "name": "Kostium Zaj�czka+(czar.)",
+    "name": "Kostium Zajączka+(czar.)",
     "icon": "../assets/item-icons/item/41295.png"
   },
   {
     "vnum": "41304",
-    "name": "Kostium Zaj�czka+(nieb.)",
+    "name": "Kostium Zajączka+(nieb.)",
     "icon": "../assets/item-icons/item/41296.png"
   },
   {
     "vnum": "41305",
-    "name": "Kostium Zaj�czka+(ziel.)",
+    "name": "Kostium Zajączka+(ziel.)",
     "icon": "../assets/item-icons/item/41297.png"
   },
   {
     "vnum": "41306",
-    "name": "Kostium Zaj�czka+ (r�.)",
+    "name": "Kostium Zajączka+ (róż.)",
     "icon": "../assets/item-icons/item/41298.png"
   },
   {
@@ -21488,12 +21489,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "41319",
-    "name": "��簩",
+    "name": "Čć»ç°©",
     "icon": "../assets/item-icons/item/41308.png"
   },
   {
     "vnum": "41320",
-    "name": "Str�j Jacka Pumpkina (m)",
+    "name": "Strój Jacka Pumpkina (m)",
     "icon": "../assets/item-icons/item/41320.png"
   },
   {
@@ -21503,7 +21504,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "41322",
-    "name": "Str�j Jacka Pumpkina+ (m",
+    "name": "Strój Jacka Pumpkina+ (m",
     "icon": "../assets/item-icons/item/41320.png"
   },
   {
@@ -21513,47 +21514,47 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "42155",
-    "name": "Dzwon Mro�. Smoka",
+    "name": "Dzwon Mroź. Smoka",
     "icon": "../assets/item-icons/mehok/8.png"
   },
   {
     "vnum": "42156",
-    "name": "Luk Mro�. Smoka",
+    "name": "Luk Mroź. Smoka",
     "icon": "../assets/item-icons/mehok/6.png"
   },
   {
     "vnum": "42157",
-    "name": "Sztylety Mro�. Smoka",
+    "name": "Sztylety Mroź. Smoka",
     "icon": "../assets/item-icons/mehok/5.png"
   },
   {
     "vnum": "42158",
-    "name": "Wachlarz Mro�. Smoka",
+    "name": "Wachlarz Mroź. Smoka",
     "icon": "../assets/item-icons/mehok/9.png"
   },
   {
     "vnum": "42159",
-    "name": "Miecz Mro�. Smoka",
+    "name": "Miecz Mroź. Smoka",
     "icon": "../assets/item-icons/mehok/3.png"
   },
   {
     "vnum": "42160",
-    "name": "Ostrze Mro�. Smoka",
+    "name": "Ostrze Mroź. Smoka",
     "icon": "../assets/item-icons/mehok/4.png"
   },
   {
     "vnum": "42161",
-    "name": "Wlocznia Mro�. Smoka",
+    "name": "Wlocznia Mroź. Smoka",
     "icon": "../assets/item-icons/mehok/7.png"
   },
   {
     "vnum": "45001",
-    "name": "Uszy Zaj�czka (br�zowe)",
+    "name": "Uszy Zajączka (brązowe)",
     "icon": "../assets/item-icons/item/45001.png"
   },
   {
     "vnum": "45002",
-    "name": "Uszy Zaj�ca (br�z.)",
+    "name": "Uszy Zająca (brąz.)",
     "icon": "../assets/item-icons/item/45002.png"
   },
   {
@@ -21568,7 +21569,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "45005",
-    "name": "Przybokr�t (m)",
+    "name": "Przybokrót (m)",
     "icon": "../assets/item-icons/item/45005.png"
   },
   {
@@ -21583,7 +21584,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "45008",
-    "name": "Fryzura Pi�karza GER (k)",
+    "name": "Fryzura Piłkarza GER (k)",
     "icon": "../assets/item-icons/item/45008.png"
   },
   {
@@ -21608,7 +21609,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "45013",
-    "name": "Przybokr�t (m)",
+    "name": "Przybokrót (m)",
     "icon": "../assets/item-icons/item/45005.png"
   },
   {
@@ -21623,7 +21624,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "45016",
-    "name": "Fryzura Pi�karza GER (k)",
+    "name": "Fryzura Piłkarza GER (k)",
     "icon": "../assets/item-icons/item/45016.png"
   },
   {
@@ -21678,42 +21679,42 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "45027",
-    "name": "Fryzura Pi�karza TUR (k)",
+    "name": "Fryzura Piłkarza TUR (k)",
     "icon": "../assets/item-icons/item/45027.png"
   },
   {
     "vnum": "45028",
-    "name": "Fryzura Pi�karza BRA (k)",
+    "name": "Fryzura Piłkarza BRA (k)",
     "icon": "../assets/item-icons/item/45028.png"
   },
   {
     "vnum": "45029",
-    "name": "Fryz. Pi�k. Olympia (k)",
+    "name": "Fryz. Piłk. Olympia (k)",
     "icon": "../assets/item-icons/item/45029.png"
   },
   {
     "vnum": "45030",
-    "name": "Fryzura Pi�karza FRA (k)",
+    "name": "Fryzura Piłkarza FRA (k)",
     "icon": "../assets/item-icons/item/45030.png"
   },
   {
     "vnum": "45031",
-    "name": "Fryzura Pi�karza ITA (k)",
+    "name": "Fryzura Piłkarza ITA (k)",
     "icon": "../assets/item-icons/item/45031.png"
   },
   {
     "vnum": "45032",
-    "name": "Fryzura Pi�karza POL (k)",
+    "name": "Fryzura Piłkarza POL (k)",
     "icon": "../assets/item-icons/item/45032.png"
   },
   {
     "vnum": "45033",
-    "name": "Fryzura Pi�karza ROU (k)",
+    "name": "Fryzura Piłkarza ROU (k)",
     "icon": "../assets/item-icons/item/45033.png"
   },
   {
     "vnum": "45034",
-    "name": "Fryzura Pi�karza ESP (k)",
+    "name": "Fryzura Piłkarza ESP (k)",
     "icon": "../assets/item-icons/item/45034.png"
   },
   {
@@ -21758,42 +21759,42 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "45043",
-    "name": "Fryzura Pi�karza TUR (k)",
+    "name": "Fryzura Piłkarza TUR (k)",
     "icon": "../assets/item-icons/item/45043.png"
   },
   {
     "vnum": "45044",
-    "name": "Fryzura Pi�karza BRA (k)",
+    "name": "Fryzura Piłkarza BRA (k)",
     "icon": "../assets/item-icons/item/45044.png"
   },
   {
     "vnum": "45045",
-    "name": "Fryz. Pi�k. Olympia (k)",
+    "name": "Fryz. Piłk. Olympia (k)",
     "icon": "../assets/item-icons/item/45045.png"
   },
   {
     "vnum": "45046",
-    "name": "Fryzura Pi�karza FRA (k)",
+    "name": "Fryzura Piłkarza FRA (k)",
     "icon": "../assets/item-icons/item/45046.png"
   },
   {
     "vnum": "45047",
-    "name": "Fryzura Pi�karza ITA (k)",
+    "name": "Fryzura Piłkarza ITA (k)",
     "icon": "../assets/item-icons/item/45047.png"
   },
   {
     "vnum": "45048",
-    "name": "Fryzura Pi�karza POL (k)",
+    "name": "Fryzura Piłkarza POL (k)",
     "icon": "../assets/item-icons/item/45048.png"
   },
   {
     "vnum": "45049",
-    "name": "Fryzura Pi�karza ROU (k)",
+    "name": "Fryzura Piłkarza ROU (k)",
     "icon": "../assets/item-icons/item/45049.png"
   },
   {
     "vnum": "45050",
-    "name": "Fryzura Pi�karza ESP (k)",
+    "name": "Fryzura Piłkarza ESP (k)",
     "icon": "../assets/item-icons/item/45050.png"
   },
   {
@@ -21803,7 +21804,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "45054",
-    "name": "Czepek Pokoj�wki",
+    "name": "Czepek Pokojówki",
     "icon": "../assets/item-icons/item/45054.png"
   },
   {
@@ -21843,7 +21844,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "45066",
-    "name": "Czepek Pokoj�wki+",
+    "name": "Czepek Pokojówki+",
     "icon": "../assets/item-icons/item/45054.png"
   },
   {
@@ -21878,17 +21879,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "45075",
-    "name": "�wi�t. Czapa (czerw.)",
+    "name": "Świąt. Czapa (czerw.)",
     "icon": "../assets/item-icons/item/45075.png"
   },
   {
     "vnum": "45076",
-    "name": "�wi�t. Czapa (ziel.)",
+    "name": "Świąt. Czapa (ziel.)",
     "icon": "../assets/item-icons/item/45076.png"
   },
   {
     "vnum": "45077",
-    "name": "�wi�t. Czapa (czarna)",
+    "name": "Świąt. Czapa (czarna)",
     "icon": "../assets/item-icons/item/45077.png"
   },
   {
@@ -21908,17 +21909,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "45081",
-    "name": "�wi�t. Czapa+ (czerw.)",
+    "name": "Świąt. Czapa+ (czerw.)",
     "icon": "../assets/item-icons/item/45075.png"
   },
   {
     "vnum": "45082",
-    "name": "�wi�t. Czapa+ (ziel.)",
+    "name": "Świąt. Czapa+ (ziel.)",
     "icon": "../assets/item-icons/item/45076.png"
   },
   {
     "vnum": "45083",
-    "name": "�wi�t. Czapa+ (czarna)",
+    "name": "Świąt. Czapa+ (czarna)",
     "icon": "../assets/item-icons/item/45077.png"
   },
   {
@@ -21938,12 +21939,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "45087",
-    "name": "Bandana (bia�a)",
+    "name": "Bandana (biała)",
     "icon": "../assets/item-icons/item/45087.png"
   },
   {
     "vnum": "45088",
-    "name": "Bandana (bia�a)",
+    "name": "Bandana (biała)",
     "icon": "../assets/item-icons/item/45088.png"
   },
   {
@@ -21958,22 +21959,22 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "45091",
-    "name": "Bandana (��ta)",
+    "name": "Bandana (żółta)",
     "icon": "../assets/item-icons/item/45091.png"
   },
   {
     "vnum": "45092",
-    "name": "Bandana (��ta)",
+    "name": "Bandana (żółta)",
     "icon": "../assets/item-icons/item/45092.png"
   },
   {
     "vnum": "45093",
-    "name": "Bandana (pomara�czowa)",
+    "name": "Bandana (pomarańczowa)",
     "icon": "../assets/item-icons/item/45093.png"
   },
   {
     "vnum": "45094",
-    "name": "Bandana (pomara�czowa)",
+    "name": "Bandana (pomarańczowa)",
     "icon": "../assets/item-icons/item/45094.png"
   },
   {
@@ -21988,12 +21989,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "45097",
-    "name": "Bandana+ (bia�a)",
+    "name": "Bandana+ (biała)",
     "icon": "../assets/item-icons/item/45087.png"
   },
   {
     "vnum": "45098",
-    "name": "Bandana+ (bia�a)",
+    "name": "Bandana+ (biała)",
     "icon": "../assets/item-icons/item/45088.png"
   },
   {
@@ -22008,22 +22009,22 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "45101",
-    "name": "Bandana+ (��ta)",
+    "name": "Bandana+ (żółta)",
     "icon": "../assets/item-icons/item/45091.png"
   },
   {
     "vnum": "45102",
-    "name": "Bandana+ (��ta)",
+    "name": "Bandana+ (żółta)",
     "icon": "../assets/item-icons/item/45092.png"
   },
   {
     "vnum": "45103",
-    "name": "Bandana+ (pomara�czowa)",
+    "name": "Bandana+ (pomarańczowa)",
     "icon": "../assets/item-icons/item/45093.png"
   },
   {
     "vnum": "45104",
-    "name": "Bandana+ (pomara�czowa)",
+    "name": "Bandana+ (pomarańczowa)",
     "icon": "../assets/item-icons/item/45094.png"
   },
   {
@@ -22038,82 +22039,82 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "45119",
-    "name": "Uszy Zaj�ca (czar.)",
+    "name": "Uszy Zająca (czar.)",
     "icon": "../assets/item-icons/item/45119.png"
   },
   {
     "vnum": "45120",
-    "name": "Uszy Zaj�ca (nieb.)",
+    "name": "Uszy Zająca (nieb.)",
     "icon": "../assets/item-icons/item/45120.png"
   },
   {
     "vnum": "45121",
-    "name": "Uszy Zaj�ca (ziel.)",
+    "name": "Uszy Zająca (ziel.)",
     "icon": "../assets/item-icons/item/45121.png"
   },
   {
     "vnum": "45122",
-    "name": "Uszy Zaj�ca (r�.)",
+    "name": "Uszy Zająca (róż.)",
     "icon": "../assets/item-icons/item/45122.png"
   },
   {
     "vnum": "45123",
-    "name": "Uszy Zaj�czka (czar.)",
+    "name": "Uszy Zajączka (czar.)",
     "icon": "../assets/item-icons/item/45123.png"
   },
   {
     "vnum": "45124",
-    "name": "Uszy Zaj�czka (nieb.)",
+    "name": "Uszy Zajączka (nieb.)",
     "icon": "../assets/item-icons/item/45124.png"
   },
   {
     "vnum": "45125",
-    "name": "Uszy Zaj�czka (ziel.)",
+    "name": "Uszy Zajączka (ziel.)",
     "icon": "../assets/item-icons/item/45125.png"
   },
   {
     "vnum": "45126",
-    "name": "Uszy Zaj�czka (r�.)",
+    "name": "Uszy Zajączka (róż.)",
     "icon": "../assets/item-icons/item/45126.png"
   },
   {
     "vnum": "45127",
-    "name": "Uszy Zaj�ca+ (czar.)",
+    "name": "Uszy Zająca+ (czar.)",
     "icon": "../assets/item-icons/item/45119.png"
   },
   {
     "vnum": "45128",
-    "name": "Uszy Zaj�ca+ (nieb.)",
+    "name": "Uszy Zająca+ (nieb.)",
     "icon": "../assets/item-icons/item/45120.png"
   },
   {
     "vnum": "45129",
-    "name": "Uszy Zaj�ca+ (ziel.)",
+    "name": "Uszy Zająca+ (ziel.)",
     "icon": "../assets/item-icons/item/45121.png"
   },
   {
     "vnum": "45130",
-    "name": "Uszy Zaj�ca+ (r�.)",
+    "name": "Uszy Zająca+ (róż.)",
     "icon": "../assets/item-icons/item/45122.png"
   },
   {
     "vnum": "45131",
-    "name": "Uszy Zaj�czka+ (czar.)",
+    "name": "Uszy Zajączka+ (czar.)",
     "icon": "../assets/item-icons/item/45123.png"
   },
   {
     "vnum": "45132",
-    "name": "Uszy Zaj�czka+ (nieb.)",
+    "name": "Uszy Zajączka+ (nieb.)",
     "icon": "../assets/item-icons/item/45124.png"
   },
   {
     "vnum": "45133",
-    "name": "Uszy Zaj�czka+ (ziel.)",
+    "name": "Uszy Zajączka+ (ziel.)",
     "icon": "../assets/item-icons/item/45125.png"
   },
   {
     "vnum": "45134",
-    "name": "Uszy Zaj�ca+ (r�.)",
+    "name": "Uszy Zająca+ (róż.)",
     "icon": "../assets/item-icons/item/45126.png"
   },
   {
@@ -22153,7 +22154,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "45142",
-    "name": "Maska Maj�w",
+    "name": "Maska Majów",
     "icon": "../assets/item-icons/item/45142.png"
   },
   {
@@ -22173,7 +22174,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "45146",
-    "name": "Maska Maj�w+",
+    "name": "Maska Majów+",
     "icon": "../assets/item-icons/item/45142.png"
   },
   {
@@ -22198,27 +22199,27 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "45151",
-    "name": "He�m Azraela (m)",
+    "name": "Hełm Azraela (m)",
     "icon": "../assets/item-icons/item/45147.png"
   },
   {
     "vnum": "45152",
-    "name": "He�m Azraela (k)",
+    "name": "Hełm Azraela (k)",
     "icon": "../assets/item-icons/item/45148.png"
   },
   {
     "vnum": "45153",
-    "name": "He�m Azraela+ (m)",
+    "name": "Hełm Azraela+ (m)",
     "icon": "../assets/item-icons/item/45147.png"
   },
   {
     "vnum": "45154",
-    "name": "He�m Azraela+ (k)",
+    "name": "Hełm Azraela+ (k)",
     "icon": "../assets/item-icons/item/45148.png"
   },
   {
     "vnum": "45155",
-    "name": "�������",
+    "name": "Čć»çĹő±¸",
     "icon": "../assets/item-icons/item/45135.png"
   },
   {
@@ -22273,32 +22274,32 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "46921",
-    "name": "Miecz W�a",
+    "name": "Miecz Węża",
     "icon": "../assets/item-icons/item/nm_sword.png"
   },
   {
     "vnum": "46922",
-    "name": "Sztylety W�a",
+    "name": "Sztylety Węża",
     "icon": "../assets/item-icons/item/nm_dagger.png"
   },
   {
     "vnum": "46923",
-    "name": "Luk W�a",
+    "name": "Luk Węża",
     "icon": "../assets/item-icons/item/nm_bow.png"
   },
   {
     "vnum": "46924",
-    "name": "Wlocznia W�a",
+    "name": "Wlocznia Węża",
     "icon": "../assets/item-icons/item/nm_twohand.png"
   },
   {
     "vnum": "46925",
-    "name": "Dzwon W�a",
+    "name": "Dzwon Węża",
     "icon": "../assets/item-icons/item/nm_bell.png"
   },
   {
     "vnum": "46926",
-    "name": "Wachlarz W�a",
+    "name": "Wachlarz Węża",
     "icon": "../assets/item-icons/item/nm_fan.png"
   },
   {
@@ -22338,7 +22339,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "47052",
-    "name": "Ubranie W�a",
+    "name": "Ubranie Węża",
     "icon": "../assets/item-icons/item/nm_costume_m.png"
   },
   {
@@ -22353,7 +22354,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "48052",
-    "name": "Kapel. W�a",
+    "name": "Kapel. Węża",
     "icon": "../assets/item-icons/item/nm_costume_m_h.png"
   },
   {
@@ -22363,57 +22364,57 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "49539",
-    "name": "Wied�ma [PET]",
+    "name": "Wiedźma [PET]",
     "icon": "../assets/item-icons/49539.png"
   },
   {
     "vnum": "49540",
-    "name": "W�� [PET]",
+    "name": "Wąż [PET]",
     "icon": "../assets/item-icons/item/nm_pet.png"
   },
   {
     "vnum": "49550",
-    "name": "Wiewi�r [PET]",
+    "name": "Wiewiór [PET]",
     "icon": "../assets/item-icons/item/53001.png"
   },
   {
     "vnum": "50001",
-    "name": "Ksi�ga Szcz�cia",
+    "name": "Księga Szczęścia",
     "icon": "../assets/item-icons/item/50001.png"
   },
   {
     "vnum": "50002",
-    "name": "Z�oty Pier�cie�",
+    "name": "Złoty Pierścień",
     "icon": "../assets/item-icons/item/50002.png"
   },
   {
     "vnum": "50003",
-    "name": "Zw�j Cofania Umiej�tn.",
+    "name": "Zwój Cofania Umiejętn.",
     "icon": "../assets/item-icons/item/50003.png"
   },
   {
     "vnum": "50004",
-    "name": "Wykrywacz Zdarze�",
+    "name": "Wykrywacz Zdarzeń",
     "icon": "../assets/item-icons/item/27989.png"
   },
   {
     "vnum": "50005",
-    "name": "Bilet Na Jazd� Konn�",
+    "name": "Bilet Na Jazdę Konną",
     "icon": "../assets/item-icons/item/70027.png"
   },
   {
     "vnum": "50006",
-    "name": "Z�ota Szkatu�ka",
+    "name": "Złota Szkatułka",
     "icon": "../assets/item-icons/item/50006.png"
   },
   {
     "vnum": "50007",
-    "name": "Srebrna Szkatu�ka",
+    "name": "Srebrna Szkatułka",
     "icon": "../assets/item-icons/item/50007.png"
   },
   {
     "vnum": "50008",
-    "name": "Z�oty Klucz",
+    "name": "Złoty Klucz",
     "icon": "../assets/item-icons/item/50008.png"
   },
   {
@@ -22428,22 +22429,22 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50011",
-    "name": "Szkat. Blasku Ksi�yca",
+    "name": "Szkat. Blasku Księżyca",
     "icon": "../assets/item-icons/item/50011.png"
   },
   {
     "vnum": "50012",
-    "name": "Z�ota Szkatu�ka+",
+    "name": "Złota Szkatułka+",
     "icon": "../assets/item-icons/item/50006.png"
   },
   {
     "vnum": "50013",
-    "name": "Srebrna Szkatu�ka+",
+    "name": "Srebrna Szkatułka+",
     "icon": "../assets/item-icons/item/50007.png"
   },
   {
     "vnum": "50014",
-    "name": "Z�oty Klucz+",
+    "name": "Złoty Klucz+",
     "icon": "../assets/item-icons/item/50008.png"
   },
   {
@@ -22468,7 +22469,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50019",
-    "name": "S�odki Ry�",
+    "name": "Słodki Ryż",
     "icon": "../assets/item-icons/item/50019.png"
   },
   {
@@ -22488,12 +22489,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50023",
-    "name": "Sakiewka Pieni�dzy",
+    "name": "Sakiewka Pieniędzy",
     "icon": "../assets/item-icons/item/50023.png"
   },
   {
     "vnum": "50024",
-    "name": "R�a",
+    "name": "Róża",
     "icon": "../assets/item-icons/item/50024.png"
   },
   {
@@ -22508,27 +22509,27 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50027",
-    "name": "Bilet Na Loteri�",
+    "name": "Bilet Na Loterię",
     "icon": "../assets/item-icons/item/50027.png"
   },
   {
     "vnum": "50028",
-    "name": "24k Z�oty Pier�cie�",
+    "name": "24k Złoty Pierścień",
     "icon": "../assets/item-icons/item/50002.png"
   },
   {
     "vnum": "50029",
-    "name": "18k Z�oty Pier�cie�",
+    "name": "18k Złoty Pierścień",
     "icon": "../assets/item-icons/item/50002.png"
   },
   {
     "vnum": "50030",
-    "name": "14k Z�oty Pier�cie�",
+    "name": "14k Złoty Pierścień",
     "icon": "../assets/item-icons/item/50002.png"
   },
   {
     "vnum": "50031",
-    "name": "R�a",
+    "name": "Róża",
     "icon": "../assets/item-icons/item/50031.png"
   },
   {
@@ -22538,17 +22539,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50033",
-    "name": "Zagadkowa Szkatu�ka",
+    "name": "Zagadkowa Szkatułka",
     "icon": "../assets/item-icons/item/50033.png"
   },
   {
     "vnum": "50034",
-    "name": "Szkatu�ka Z Zagadk�",
+    "name": "Szkatułka Z Zagadką",
     "icon": "../assets/item-icons/item/50034.png"
   },
   {
     "vnum": "50035",
-    "name": "Prezent (��ty)",
+    "name": "Prezent (żółty)",
     "icon": "../assets/item-icons/item/50035.png"
   },
   {
@@ -22558,12 +22559,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50037",
-    "name": "Heksagonalna Szkatu�ka",
+    "name": "Heksagonalna Szkatułka",
     "icon": "../assets/item-icons/item/50037.png"
   },
   {
     "vnum": "50038",
-    "name": "Br�zowy Certyfikat",
+    "name": "Brązowy Certyfikat",
     "icon": "../assets/item-icons/item/50038.png"
   },
   {
@@ -22573,7 +22574,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50040",
-    "name": "Z�oty Certyfikat",
+    "name": "Złoty Certyfikat",
     "icon": "../assets/item-icons/item/50040.png"
   },
   {
@@ -22583,7 +22584,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50042",
-    "name": "Z�oty medal Bohatera",
+    "name": "Złoty medal Bohatera",
     "icon": "../assets/item-icons/item/50042.png"
   },
   {
@@ -22593,17 +22594,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50051",
-    "name": "Zdj�cie Konia",
+    "name": "Zdjęcie Konia",
     "icon": "../assets/item-icons/item/50051.png"
   },
   {
     "vnum": "50052",
-    "name": "Ksi�ga Opanc. Konia",
+    "name": "Księga Opanc. Konia",
     "icon": "../assets/item-icons/item/50052.png"
   },
   {
     "vnum": "50053",
-    "name": "Ksi�ga Wojskowego Konia",
+    "name": "Księga Wojskowego Konia",
     "icon": "../assets/item-icons/item/50053.png"
   },
   {
@@ -22618,22 +22619,22 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50056",
-    "name": "Czerwony �e�-sze�",
+    "name": "Czerwony Żeń-szeń",
     "icon": "../assets/item-icons/item/50056.png"
   },
   {
     "vnum": "50057",
-    "name": "Zio�o Z �atwych Ma�p",
+    "name": "Zioło Z Łatwych Małp",
     "icon": "../assets/item-icons/item/30036.png"
   },
   {
     "vnum": "50058",
-    "name": "Zio�o Z Normalnych Ma�p",
+    "name": "Zioło Z Normalnych Małp",
     "icon": "../assets/item-icons/item/50058.png"
   },
   {
     "vnum": "50059",
-    "name": "Zio�o Z Trudnych Ma�p",
+    "name": "Zioło Z Trudnych Małp",
     "icon": "../assets/item-icons/item/50059.png"
   },
   {
@@ -22648,92 +22649,92 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50062",
-    "name": "Instr. Powo�enia",
+    "name": "Instr. Powożenia",
     "icon": "../assets/item-icons/50062.png"
   },
   {
     "vnum": "50067",
-    "name": "Zw�j Ewolucji",
+    "name": "Zwój Ewolucji",
     "icon": "../assets/item-icons/item/50067.png"
   },
   {
     "vnum": "50068",
-    "name": "Zw�j Mutacji",
+    "name": "Zwój Mutacji",
     "icon": "../assets/item-icons/item/50068.png"
   },
   {
     "vnum": "50070",
-    "name": "Szkatu�ka Wodza Ork�w",
+    "name": "Szkatułka Wodza Orków",
     "icon": "../assets/item-icons/item/boss_box.png"
   },
   {
     "vnum": "50071",
-    "name": "Szkatu�ka Ezot. W�adcy",
+    "name": "Szkatułka Ezot. Władcy",
     "icon": "../assets/item-icons/item/boss_box.png"
   },
   {
     "vnum": "50072",
-    "name": "Szkat. W�adc�w W�wozu",
+    "name": "Szkat. Władców Wąwozu",
     "icon": "../assets/item-icons/item/boss_box.png"
   },
   {
     "vnum": "50073",
-    "name": "Szkat. Kr�lowej Paj�k�w",
+    "name": "Szkat. Królowej Pająków",
     "icon": "../assets/item-icons/item/boss_box.png"
   },
   {
     "vnum": "50074",
-    "name": "Sz. W�drownych W�adc�w",
+    "name": "Sz. Wędrownych Władców",
     "icon": "../assets/item-icons/item/boss_box.png"
   },
   {
     "vnum": "50075",
-    "name": "Sz. Pomniejszego W�adcy",
+    "name": "Sz. Pomniejszego Władcy",
     "icon": "../assets/item-icons/item/boss_box.png"
   },
   {
     "vnum": "50076",
-    "name": "Szkat. Pustynnego ��wia",
+    "name": "Szkat. Pustynnego Żółwia",
     "icon": "../assets/item-icons/item/boss_box.png"
   },
   {
     "vnum": "50077",
-    "name": "Szkat.Dziewi�ciu Ogon�w",
+    "name": "Szkat.Dziewięciu Ogonów",
     "icon": "../assets/item-icons/item/boss_box.png"
   },
   {
     "vnum": "50078",
-    "name": "Szkat. ��tego Tygrysa",
+    "name": "Szkat. Żółtego Tygrysa",
     "icon": "../assets/item-icons/item/boss_box.png"
   },
   {
     "vnum": "50079",
-    "name": "Szkat. Ognistego Kr�la",
+    "name": "Szkat. Ognistego Króla",
     "icon": "../assets/item-icons/item/boss_box.png"
   },
   {
     "vnum": "50080",
-    "name": "Szkat. Elit. W�adc�w",
+    "name": "Szkat. Elit. Władców",
     "icon": "../assets/item-icons/item/boss_box.png"
   },
   {
     "vnum": "50081",
-    "name": "Szkat. Kr�la Demon�w",
+    "name": "Szkat. Króla Demonów",
     "icon": "../assets/item-icons/item/boss_box.png"
   },
   {
     "vnum": "50082",
-    "name": "Szkat. Umar�ego Rozpruw.",
+    "name": "Szkat. Umarłego Rozpruw.",
     "icon": "../assets/item-icons/item/boss_box.png"
   },
   {
     "vnum": "50083",
-    "name": "Bilet Na Jazd� Konn�",
+    "name": "Bilet Na Jazdę Konną",
     "icon": "../assets/item-icons/item/boss_box.png"
   },
   {
     "vnum": "50084",
-    "name": "Kamie� Otwarcia",
+    "name": "Kamień Otwarcia",
     "icon": "../assets/item-icons/item/50084.png"
   },
   {
@@ -22743,22 +22744,22 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50086",
-    "name": "Ksi�ycowy Torcik",
+    "name": "Księżycowy Torcik",
     "icon": "../assets/item-icons/item/50086.png"
   },
   {
     "vnum": "50087",
-    "name": "Fasolowe Ciastko Ry�owe",
+    "name": "Fasolowe Ciastko Ryżowe",
     "icon": "../assets/item-icons/item/50087.png"
   },
   {
     "vnum": "50088",
-    "name": "Kminkowe Ciastko Ry�owe",
+    "name": "Kminkowe Ciastko Ryżowe",
     "icon": "../assets/item-icons/item/50088.png"
   },
   {
     "vnum": "50089",
-    "name": "Kamie� Otwarcia",
+    "name": "Kamień Otwarcia",
     "icon": "../assets/item-icons/item/dummy.png"
   },
   {
@@ -22778,7 +22779,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50093",
-    "name": "Sushi Z �ososia",
+    "name": "Sushi Z Łososia",
     "icon": "../assets/item-icons/item/50093.png"
   },
   {
@@ -22793,7 +22794,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50096",
-    "name": "Skrzynia Bi�uterii 33lvl",
+    "name": "Skrzynia Biżuterii 33lvl",
     "icon": "../assets/item-icons/item/50096.png"
   },
   {
@@ -22828,12 +22829,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50106",
-    "name": "�wi�t. Ogniste Petardy",
+    "name": "Świąt. Ogniste Petardy",
     "icon": "../assets/item-icons/item/50102.png"
   },
   {
     "vnum": "50107",
-    "name": "Chi�ska Ognista Petarda",
+    "name": "Chińska Ognista Petarda",
     "icon": "../assets/item-icons/item/50107.png"
   },
   {
@@ -22843,17 +22844,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50109",
-    "name": "Czerw. Ebonit. Szkatu�a",
+    "name": "Czerw. Ebonit. Szkatuła",
     "icon": "../assets/item-icons/item/50109.png"
   },
   {
     "vnum": "50110",
-    "name": "Drog. Ebonit. Szkatu�ka",
+    "name": "Drog. Ebonit. Szkatułka",
     "icon": "../assets/item-icons/item/50110.png"
   },
   {
     "vnum": "50111",
-    "name": "��ta Ebonit. Szkatu�ka",
+    "name": "Żółta Ebonit. Szkatułka",
     "icon": "../assets/item-icons/item/50111.png"
   },
   {
@@ -22863,27 +22864,27 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50113",
-    "name": "Ziel. Ebonit. Szkatu�ka",
+    "name": "Ziel. Ebonit. Szkatułka",
     "icon": "../assets/item-icons/item/50113.png"
   },
   {
     "vnum": "50114",
-    "name": "Nieb. Ebon. Szkatu�ka",
+    "name": "Nieb. Ebon. Szkatułka",
     "icon": "../assets/item-icons/item/50114.png"
   },
   {
     "vnum": "50115",
-    "name": "Fiol. Ebonit. Szkatu�ka",
+    "name": "Fiol. Ebonit. Szkatułka",
     "icon": "../assets/item-icons/item/50115.png"
   },
   {
     "vnum": "50116",
-    "name": "Bon Na Wymian� Broni",
+    "name": "Bon Na Wymianę Broni",
     "icon": "../assets/item-icons/item/50116.png"
   },
   {
     "vnum": "50117",
-    "name": "Pude�ko klejnot�w",
+    "name": "Pudełko klejnotów",
     "icon": "../assets/item-icons/item/boss_box.png"
   },
   {
@@ -22898,17 +22899,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50120",
-    "name": "�elazna Szkatu�ka",
+    "name": "Żelazna Szkatułka",
     "icon": "../assets/item-icons/item/30300.png"
   },
   {
     "vnum": "50121",
-    "name": "�elazne Pude�ko",
+    "name": "Żelazne Pudełko",
     "icon": "../assets/item-icons/item/30300.png"
   },
   {
     "vnum": "50122",
-    "name": "�elazna Skrzynia",
+    "name": "Żelazna Skrzynia",
     "icon": "../assets/item-icons/item/30300.png"
   },
   {
@@ -22918,7 +22919,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50124",
-    "name": "Spr�chnia�a Skrzynia",
+    "name": "Spróchniała Skrzynia",
     "icon": "../assets/item-icons/item/50124.png"
   },
   {
@@ -22993,7 +22994,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50151",
-    "name": "Piecz�� Ork�w",
+    "name": "Pieczęć Orków",
     "icon": "../assets/item-icons/item/50151.png"
   },
   {
@@ -23008,12 +23009,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50154",
-    "name": "Przepustka Pot�pionych",
+    "name": "Przepustka Potępionych",
     "icon": "../assets/item-icons/item/50154.png"
   },
   {
     "vnum": "50155",
-    "name": "Ognista Piecz��",
+    "name": "Ognista Pieczęć",
     "icon": "../assets/item-icons/item/50155.png"
   },
   {
@@ -23133,12 +23134,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50182",
-    "name": "Skrzynia B�ogos�awie�stw",
+    "name": "Skrzynia Błogosławieństw",
     "icon": "../assets/item-icons/item/50182.png"
   },
   {
     "vnum": "50183",
-    "name": "S�odycze",
+    "name": "Słodycze",
     "icon": "../assets/item-icons/item/50183.png"
   },
   {
@@ -23223,7 +23224,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50200",
-    "name": "Tob�",
+    "name": "Tobół",
     "icon": "../assets/item-icons/item/50200.png"
   },
   {
@@ -23308,7 +23309,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50300",
-    "name": "Ksi�ga Umiej�tno�ci",
+    "name": "Księga Umiejętności",
     "icon": "../assets/item-icons/item/book_01.png"
   },
   {
@@ -23343,42 +23344,42 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50307",
-    "name": "Ksi�ga Misji (�atwa)",
+    "name": "Księga Misji (Łatwa)",
     "icon": "../assets/item-icons/item/50307.png"
   },
   {
     "vnum": "50308",
-    "name": "Ksi�ga Misji (Normalna)",
+    "name": "Księga Misji (Normalna)",
     "icon": "../assets/item-icons/item/50308.png"
   },
   {
     "vnum": "50309",
-    "name": "Ksi�ga Misji (Trudna)",
+    "name": "Księga Misji (Trudna)",
     "icon": "../assets/item-icons/item/50309.png"
   },
   {
     "vnum": "50310",
-    "name": "Ksi�ga Misji (ekspert)",
+    "name": "Księga Misji (ekspert)",
     "icon": "../assets/item-icons/item/50310.png"
   },
   {
     "vnum": "50311",
-    "name": "J�zyk Shinsoo",
+    "name": "Język Shinsoo",
     "icon": "../assets/item-icons/item/book_03.png"
   },
   {
     "vnum": "50312",
-    "name": "J�zyk Chunjo",
+    "name": "Język Chunjo",
     "icon": "../assets/item-icons/item/book_02.png"
   },
   {
     "vnum": "50313",
-    "name": "J�zyk Jinno",
+    "name": "Język Jinno",
     "icon": "../assets/item-icons/item/book_06.png"
   },
   {
     "vnum": "50314",
-    "name": "Ksi�ga Polimorfii",
+    "name": "Księga Polimorfii",
     "icon": "../assets/item-icons/item/book_07.png"
   },
   {
@@ -23393,27 +23394,27 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50317",
-    "name": "Ksi�ga Misji (test)",
+    "name": "Księga Misji (test)",
     "icon": "../assets/item-icons/item/50307.png"
   },
   {
     "vnum": "50318",
-    "name": "Ksi�ga Misji (�atwa)",
+    "name": "Księga Misji (łatwa)",
     "icon": "../assets/item-icons/item/50307.png"
   },
   {
     "vnum": "50319",
-    "name": "Ksi�ga Misji (normalna)",
+    "name": "Księga Misji (normalna)",
     "icon": "../assets/item-icons/item/50308.png"
   },
   {
     "vnum": "50320",
-    "name": "Ksi�ga Misji (trudna)",
+    "name": "Księga Misji (trudna)",
     "icon": "../assets/item-icons/item/50309.png"
   },
   {
     "vnum": "50321",
-    "name": "Ksi�ga Misji (ekspert)",
+    "name": "Księga Misji (ekspert)",
     "icon": "../assets/item-icons/item/50310.png"
   },
   {
@@ -23433,12 +23434,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50329",
-    "name": "Piecz�� Alistara",
+    "name": "Pieczęć Alistara",
     "icon": "../assets/item-icons/item/sum26_pet6.png"
   },
   {
     "vnum": "50330",
-    "name": "Le�ny Yeti",
+    "name": "Leśny Yeti",
     "icon": "../assets/item-icons/item/sum26_mount8.png"
   },
   {
@@ -23473,7 +23474,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50401",
-    "name": "Instr. Trzystr. Ci�cie",
+    "name": "Instr. Trzystr. Cięcie",
     "icon": "../assets/item-icons/item/book_11.png"
   },
   {
@@ -23493,7 +23494,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50405",
-    "name": "Instr. Szar�a",
+    "name": "Instr. Szarża",
     "icon": "../assets/item-icons/item/book_11.png"
   },
   {
@@ -23503,17 +23504,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50417",
-    "name": "Instr. Walni�cie",
+    "name": "Instr. Walnięcie",
     "icon": "../assets/item-icons/item/book_12.png"
   },
   {
     "vnum": "50418",
-    "name": "Instr. T�pni�cie",
+    "name": "Instr. Tąpnięcie",
     "icon": "../assets/item-icons/item/book_12.png"
   },
   {
     "vnum": "50419",
-    "name": "Instr. Silne Cia�o",
+    "name": "Instr. Silne Ciało",
     "icon": "../assets/item-icons/item/book_12.png"
   },
   {
@@ -23533,42 +23534,42 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50433",
-    "name": "Instr. Wiruj�cy Sztylet",
+    "name": "Instr. Wirujący Sztylet",
     "icon": "../assets/item-icons/item/book_13.png"
   },
   {
     "vnum": "50434",
-    "name": "Instr. Krycie Si�",
+    "name": "Instr. Krycie Się",
     "icon": "../assets/item-icons/item/book_13.png"
   },
   {
     "vnum": "50435",
-    "name": "Instr. Truj�ca Chmura",
+    "name": "Instr. Trująca Chmura",
     "icon": "../assets/item-icons/item/book_13.png"
   },
   {
     "vnum": "50446",
-    "name": "Instr. Powtarz. Strza�",
+    "name": "Instr. Powtarz. Strzał",
     "icon": "../assets/item-icons/item/book_14.png"
   },
   {
     "vnum": "50447",
-    "name": "Instr. Deszcz Strza�",
+    "name": "Instr. Deszcz Strzał",
     "icon": "../assets/item-icons/item/book_14.png"
   },
   {
     "vnum": "50448",
-    "name": "Instr. Ognista Strza�a",
+    "name": "Instr. Ognista Strzała",
     "icon": "../assets/item-icons/item/book_14.png"
   },
   {
     "vnum": "50449",
-    "name": "Instr. Bezszelest. Ch�d",
+    "name": "Instr. Bezszelest. Chód",
     "icon": "../assets/item-icons/item/book_14.png"
   },
   {
     "vnum": "50450",
-    "name": "Instr. Truj�ca Strza�a",
+    "name": "Instr. Trująca Strzała",
     "icon": "../assets/item-icons/item/book_14.png"
   },
   {
@@ -23633,12 +23634,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50491",
-    "name": "Instr. Lataj�cy Talizman",
+    "name": "Instr. Latający Talizman",
     "icon": "../assets/item-icons/item/book_17.png"
   },
   {
     "vnum": "50492",
-    "name": "Instr. Strzelaj�cy Smok",
+    "name": "Instr. Strzelający Smok",
     "icon": "../assets/item-icons/item/book_17.png"
   },
   {
@@ -23648,7 +23649,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50494",
-    "name": "Instr. B�ogos�awie�stwo",
+    "name": "Instr. Błogosławieństwo",
     "icon": "../assets/item-icons/item/book_17.png"
   },
   {
@@ -23663,12 +23664,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50506",
-    "name": "Instr. B�yskawiczny Rzut",
+    "name": "Instr. Błyskawiczny Rzut",
     "icon": "../assets/item-icons/item/book_18.png"
   },
   {
     "vnum": "50507",
-    "name": "Instr. Przywo�. B�ysk.",
+    "name": "Instr. Przywoł. Błysk.",
     "icon": "../assets/item-icons/item/book_18.png"
   },
   {
@@ -23683,42 +23684,42 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50510",
-    "name": "Instr. Zwinno��",
+    "name": "Instr. Zwinność",
     "icon": "../assets/item-icons/item/book_18.png"
   },
   {
     "vnum": "50511",
-    "name": "Instr. Podwy�. Ataku",
+    "name": "Instr. Podwyż. Ataku",
     "icon": "../assets/item-icons/item/book_18.png"
   },
   {
     "vnum": "50512",
-    "name": "T�czowy Kamie�",
+    "name": "Tęczowy Kamień",
     "icon": "../assets/item-icons/item/50512.png"
   },
   {
     "vnum": "50513",
-    "name": "Kamie� Duchowy",
+    "name": "Kamień Duchowy",
     "icon": "../assets/item-icons/item/50513.png"
   },
   {
     "vnum": "50600",
-    "name": "Przewodnik Do G�rnictwa",
+    "name": "Przewodnik Do Górnictwa",
     "icon": "../assets/item-icons/item/book_45.png"
   },
   {
     "vnum": "50601",
-    "name": "Diamentowy Kamie�",
+    "name": "Diamentowy Kamień",
     "icon": "../assets/item-icons/item/50601.png"
   },
   {
     "vnum": "50602",
-    "name": "Kawa�ek Bursztynu",
+    "name": "Kawałek Bursztynu",
     "icon": "../assets/item-icons/item/50602.png"
   },
   {
     "vnum": "50603",
-    "name": "Skamienia�y Pie�",
+    "name": "Skamieniały Pień",
     "icon": "../assets/item-icons/item/50603.png"
   },
   {
@@ -23733,7 +23734,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50606",
-    "name": "Ruda Z�ota",
+    "name": "Ruda Złota",
     "icon": "../assets/item-icons/item/50606.png"
   },
   {
@@ -23748,17 +23749,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50609",
-    "name": "Kawa�ek Per�y",
+    "name": "Kawałek Perły",
     "icon": "../assets/item-icons/item/50609.png"
   },
   {
     "vnum": "50610",
-    "name": "Ruda Bia�. Z�ota",
+    "name": "Ruda Biał. Złota",
     "icon": "../assets/item-icons/item/50610.png"
   },
   {
     "vnum": "50611",
-    "name": "Ruda Kryszta�u",
+    "name": "Ruda Kryształu",
     "icon": "../assets/item-icons/item/50611.png"
   },
   {
@@ -23768,12 +23769,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50613",
-    "name": "Ruda Niebia�. �ez",
+    "name": "Ruda Niebiań. Łez",
     "icon": "../assets/item-icons/item/50613.png"
   },
   {
     "vnum": "50614",
-    "name": "Dusza Rudy Kryszta�u",
+    "name": "Dusza Rudy Kryształu",
     "icon": "../assets/item-icons/50614.png"
   },
   {
@@ -23808,12 +23809,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50623",
-    "name": "Skamienia�e Drewno",
+    "name": "Skamieniałe Drewno",
     "icon": "../assets/item-icons/item/50623.png"
   },
   {
     "vnum": "50624",
-    "name": "Mied�",
+    "name": "Miedź",
     "icon": "../assets/item-icons/item/50624.png"
   },
   {
@@ -23823,7 +23824,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50626",
-    "name": "Z�oto",
+    "name": "Złoto",
     "icon": "../assets/item-icons/item/50626.png"
   },
   {
@@ -23838,17 +23839,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50629",
-    "name": "Per�a",
+    "name": "Perła",
     "icon": "../assets/item-icons/item/50629.png"
   },
   {
     "vnum": "50630",
-    "name": "Bia�e Z�oto",
+    "name": "Białe Złoto",
     "icon": "../assets/item-icons/item/50630.png"
   },
   {
     "vnum": "50631",
-    "name": "Kryszta�",
+    "name": "Kryształ",
     "icon": "../assets/item-icons/item/50631.png"
   },
   {
@@ -23858,12 +23859,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50633",
-    "name": "Niebia�skie �zy",
+    "name": "Niebiańskie Łzy",
     "icon": "../assets/item-icons/item/50633.png"
   },
   {
     "vnum": "50634",
-    "name": "Kryszta� Duszy",
+    "name": "Kryształ Duszy",
     "icon": "../assets/item-icons/50634.png"
   },
   {
@@ -23903,7 +23904,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50704",
-    "name": "Korze� Gango",
+    "name": "Korzeń Gango",
     "icon": "../assets/item-icons/item/50704.png"
   },
   {
@@ -23918,7 +23919,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50707",
-    "name": "R�a Alpejska",
+    "name": "Róża Alpejska",
     "icon": "../assets/item-icons/item/50707.png"
   },
   {
@@ -23943,7 +23944,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50712",
-    "name": "Ro�lina Sam-Zi",
+    "name": "Roślina Sam-Zi",
     "icon": "../assets/item-icons/item/50712.png"
   },
   {
@@ -23963,7 +23964,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50724",
-    "name": "Korze� Gango",
+    "name": "Korzeń Gango",
     "icon": "../assets/item-icons/item/50704.png"
   },
   {
@@ -23978,7 +23979,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50727",
-    "name": "R�a Alpejska",
+    "name": "Róża Alpejska",
     "icon": "../assets/item-icons/item/50707.png"
   },
   {
@@ -24003,7 +24004,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50732",
-    "name": "Ro�lina Sam-Zi",
+    "name": "Roślina Sam-Zi",
     "icon": "../assets/item-icons/item/50712.png"
   },
   {
@@ -24038,7 +24039,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50807",
-    "name": "Sok Z R�y Alpejskiej",
+    "name": "Sok Z Róży Alpejskiej",
     "icon": "../assets/item-icons/50807.png"
   },
   {
@@ -24063,7 +24064,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50812",
-    "name": "Sok Z Ro�liny Sam-Zi",
+    "name": "Sok Z Rośliny Sam-Zi",
     "icon": "../assets/item-icons/50812.png"
   },
   {
@@ -24113,12 +24114,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50822",
-    "name": "Pomara�czowa Rosa",
+    "name": "Pomarańczowa Rosa",
     "icon": "../assets/item-icons/50822.png"
   },
   {
     "vnum": "50823",
-    "name": "��ta Rosa",
+    "name": "Żółta Rosa",
     "icon": "../assets/item-icons/50823.png"
   },
   {
@@ -24133,7 +24134,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50826",
-    "name": "Bia�a Rosa",
+    "name": "Biała Rosa",
     "icon": "../assets/item-icons/50826.png"
   },
   {
@@ -24143,7 +24144,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50902",
-    "name": "Przepis Dla Pocz�tkuj�c.",
+    "name": "Przepis Dla Początkując.",
     "icon": "../assets/item-icons/item/50902.png"
   },
   {
@@ -24158,42 +24159,42 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "50905",
-    "name": "Przepis Na Wod� Sim",
+    "name": "Przepis Na Wodę Sim",
     "icon": "../assets/item-icons/50905.png"
   },
   {
     "vnum": "50906",
-    "name": "Przepis Na Wod� Dok",
+    "name": "Przepis Na Wodę Dok",
     "icon": "../assets/item-icons/50906.png"
   },
   {
     "vnum": "50907",
-    "name": "Przepis Na Wod� Bo",
+    "name": "Przepis Na Wodę Bo",
     "icon": "../assets/item-icons/50907.png"
   },
   {
     "vnum": "50908",
-    "name": "Przepis Na Wod� Young",
+    "name": "Przepis Na Wodę Young",
     "icon": "../assets/item-icons/50908.png"
   },
   {
     "vnum": "50909",
-    "name": "Przepis Na Wod� Zin",
+    "name": "Przepis Na Wodę Zin",
     "icon": "../assets/item-icons/50909.png"
   },
   {
     "vnum": "50910",
-    "name": "Przepis Na Wod� Hwal",
+    "name": "Przepis Na Wodę Hwal",
     "icon": "../assets/item-icons/50910.png"
   },
   {
     "vnum": "51001",
-    "name": "Od�amek Energii",
+    "name": "Odłamek Energii",
     "icon": "../assets/item-icons/item/51001.png"
   },
   {
     "vnum": "51002",
-    "name": "Kryszta� Energii",
+    "name": "Kryształ Energii",
     "icon": "../assets/item-icons/item/51002.png"
   },
   {
@@ -24398,37 +24399,37 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "51541",
-    "name": "Cor Draconis (roz�arzone",
+    "name": "Cor Draconis (rozżarzone",
     "icon": "../assets/item-icons/item/51549.png"
   },
   {
     "vnum": "51542",
-    "name": "Cor Diamas (roz�arzone)",
+    "name": "Cor Diamas (rozżarzone)",
     "icon": "../assets/item-icons/item/51550.png"
   },
   {
     "vnum": "51543",
-    "name": "Cor Rubinum (roz�arzone)",
+    "name": "Cor Rubinum (rozżarzone)",
     "icon": "../assets/item-icons/item/51551.png"
   },
   {
     "vnum": "51544",
-    "name": "Cor Jadeit (roz�arzone)",
+    "name": "Cor Jadeit (rozżarzone)",
     "icon": "../assets/item-icons/item/51552.png"
   },
   {
     "vnum": "51545",
-    "name": "Cor Saphirum (roz�arzone",
+    "name": "Cor Saphirum (rozżarzone",
     "icon": "../assets/item-icons/item/51553.png"
   },
   {
     "vnum": "51546",
-    "name": "Cor Granatum (roz�arzone",
+    "name": "Cor Granatum (rozżarzone",
     "icon": "../assets/item-icons/item/51554.png"
   },
   {
     "vnum": "51547",
-    "name": "Cor Atrum (roz�arzone)",
+    "name": "Cor Atrum (rozżarzone)",
     "icon": "../assets/item-icons/item/51555.png"
   },
   {
@@ -24713,37 +24714,37 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "51604",
-    "name": "Cor Draconis+ (roz�arz.)",
+    "name": "Cor Draconis+ (rozżarz.)",
     "icon": "../assets/item-icons/item/51569.png"
   },
   {
     "vnum": "51605",
-    "name": "Cor Diamas+ (roz�arzone)",
+    "name": "Cor Diamas+ (rozżarzone)",
     "icon": "../assets/item-icons/item/51550.png"
   },
   {
     "vnum": "51606",
-    "name": "Cor Rubinum+ (roz�arzone",
+    "name": "Cor Rubinum+ (rozżarzone",
     "icon": "../assets/item-icons/item/51551.png"
   },
   {
     "vnum": "51607",
-    "name": "Cor Jadeit+ (roz�arzone)",
+    "name": "Cor Jadeit+ (rozżarzone)",
     "icon": "../assets/item-icons/item/51552.png"
   },
   {
     "vnum": "51608",
-    "name": "Cor Saphirum+ (roz�arz.)",
+    "name": "Cor Saphirum+ (rozżarz.)",
     "icon": "../assets/item-icons/item/51553.png"
   },
   {
     "vnum": "51609",
-    "name": "Cor Granatum+ (roz�arz.)",
+    "name": "Cor Granatum+ (rozżarz.)",
     "icon": "../assets/item-icons/item/51554.png"
   },
   {
     "vnum": "51610",
-    "name": "Cor Atrum+ (roz�arzone)",
+    "name": "Cor Atrum+ (rozżarzone)",
     "icon": "../assets/item-icons/item/51555.png"
   },
   {
@@ -24943,327 +24944,327 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "52001",
-    "name": "M�ody Dzik (Piecz��)",
+    "name": "Młody Dzik (Pieczęć)",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52002",
-    "name": "M�ody Dzik (Piecz��)",
+    "name": "Młody Dzik (Pieczęć)",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52003",
-    "name": "M�ody Dzik (Piecz��)",
+    "name": "Młody Dzik (Pieczęć)",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52004",
-    "name": "M�ody Dzik (Piecz��)",
+    "name": "Młody Dzik (Pieczęć)",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52005",
-    "name": "M�ody Dzik (Piecz��)",
+    "name": "Młody Dzik (Pieczęć)",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52006",
-    "name": "Dziki Dzik (Piecz��)",
+    "name": "Dziki Dzik (Pieczęć)",
     "icon": "../assets/item-icons/item/50064.png"
   },
   {
     "vnum": "52007",
-    "name": "Dziki Dzik (Piecz��)",
+    "name": "Dziki Dzik (Pieczęć)",
     "icon": "../assets/item-icons/item/50064.png"
   },
   {
     "vnum": "52008",
-    "name": "Dziki Dzik (Piecz��)",
+    "name": "Dziki Dzik (Pieczęć)",
     "icon": "../assets/item-icons/item/50064.png"
   },
   {
     "vnum": "52009",
-    "name": "Dziki Dzik (Piecz��)",
+    "name": "Dziki Dzik (Pieczęć)",
     "icon": "../assets/item-icons/item/50064.png"
   },
   {
     "vnum": "52010",
-    "name": "Dziki Dzik (Piecz��)",
+    "name": "Dziki Dzik (Pieczęć)",
     "icon": "../assets/item-icons/item/50064.png"
   },
   {
     "vnum": "52011",
-    "name": "Dzielny Dzik (Piecz��)",
+    "name": "Dzielny Dzik (Pieczęć)",
     "icon": "../assets/item-icons/item/50065.png"
   },
   {
     "vnum": "52012",
-    "name": "Dzielny Dzik (Piecz��)",
+    "name": "Dzielny Dzik (Pieczęć)",
     "icon": "../assets/item-icons/item/50065.png"
   },
   {
     "vnum": "52013",
-    "name": "Dzielny Dzik (Piecz��)",
+    "name": "Dzielny Dzik (Pieczęć)",
     "icon": "../assets/item-icons/item/50065.png"
   },
   {
     "vnum": "52014",
-    "name": "Dzielny Dzik (Piecz��)",
+    "name": "Dzielny Dzik (Pieczęć)",
     "icon": "../assets/item-icons/item/50065.png"
   },
   {
     "vnum": "52015",
-    "name": "Dzielny Dzik (Piecz��)",
+    "name": "Dzielny Dzik (Pieczęć)",
     "icon": "../assets/item-icons/item/50065.png"
   },
   {
     "vnum": "52016",
-    "name": "M�ody Wilk (Piecz��)",
+    "name": "Młody Wilk (Pieczęć)",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52017",
-    "name": "M�ody Wilk (Piecz��)",
+    "name": "Młody Wilk (Pieczęć)",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52018",
-    "name": "M�ody Wilk (Piecz��)",
+    "name": "Młody Wilk (Pieczęć)",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52019",
-    "name": "M�ody Wilk (Piecz��)",
+    "name": "Młody Wilk (Pieczęć)",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52020",
-    "name": "M�ody Wilk (Piecz��)",
+    "name": "Młody Wilk (Pieczęć)",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52021",
-    "name": "Dziki Wilk (Piecz��)",
+    "name": "Dziki Wilk (Pieczęć)",
     "icon": "../assets/item-icons/item/50064.png"
   },
   {
     "vnum": "52022",
-    "name": "Dziki Wilk (Piecz��)",
+    "name": "Dziki Wilk (Pieczęć)",
     "icon": "../assets/item-icons/item/50064.png"
   },
   {
     "vnum": "52023",
-    "name": "Dziki Wilk (Piecz��)",
+    "name": "Dziki Wilk (Pieczęć)",
     "icon": "../assets/item-icons/item/50064.png"
   },
   {
     "vnum": "52024",
-    "name": "Dziki Wilk (Piecz��)",
+    "name": "Dziki Wilk (Pieczęć)",
     "icon": "../assets/item-icons/item/50064.png"
   },
   {
     "vnum": "52025",
-    "name": "Dziki Wilk (Piecz��)",
+    "name": "Dziki Wilk (Pieczęć)",
     "icon": "../assets/item-icons/item/50064.png"
   },
   {
     "vnum": "52026",
-    "name": "Dzielny Wilk (Piecz��)",
+    "name": "Dzielny Wilk (Pieczęć)",
     "icon": "../assets/item-icons/item/50065.png"
   },
   {
     "vnum": "52027",
-    "name": "Dzielny Wilk (Piecz��)",
+    "name": "Dzielny Wilk (Pieczęć)",
     "icon": "../assets/item-icons/item/50065.png"
   },
   {
     "vnum": "52028",
-    "name": "Dzielny Wilk (Piecz��)",
+    "name": "Dzielny Wilk (Pieczęć)",
     "icon": "../assets/item-icons/item/50065.png"
   },
   {
     "vnum": "52029",
-    "name": "Dzielny Wilk (Piecz��)",
+    "name": "Dzielny Wilk (Pieczęć)",
     "icon": "../assets/item-icons/item/50065.png"
   },
   {
     "vnum": "52030",
-    "name": "Dzielny Wilk (Piecz��)",
+    "name": "Dzielny Wilk (Pieczęć)",
     "icon": "../assets/item-icons/item/50065.png"
   },
   {
     "vnum": "52031",
-    "name": "M�ody Lew (Piecz��)",
+    "name": "Młody Lew (Pieczęć)",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52032",
-    "name": "M�ody Lew (Piecz��)",
+    "name": "Młody Lew (Pieczęć)",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52033",
-    "name": "M�ody Lew (Piecz��)",
+    "name": "Młody Lew (Pieczęć)",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52034",
-    "name": "M�ody Lew (Piecz��)",
+    "name": "Młody Lew (Pieczęć)",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52035",
-    "name": "M�ody Lew (Piecz��)",
+    "name": "Młody Lew (Pieczęć)",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52036",
-    "name": "Dziki Lew (Piecz��)",
+    "name": "Dziki Lew (Pieczęć)",
     "icon": "../assets/item-icons/item/50064.png"
   },
   {
     "vnum": "52037",
-    "name": "Dziki Lew (Piecz��)",
+    "name": "Dziki Lew (Pieczęć)",
     "icon": "../assets/item-icons/item/50064.png"
   },
   {
     "vnum": "52038",
-    "name": "Dziki Lew (Piecz��)",
+    "name": "Dziki Lew (Pieczęć)",
     "icon": "../assets/item-icons/item/50064.png"
   },
   {
     "vnum": "52039",
-    "name": "Dziki Lew (Piecz��)",
+    "name": "Dziki Lew (Pieczęć)",
     "icon": "../assets/item-icons/item/50064.png"
   },
   {
     "vnum": "52040",
-    "name": "Dziki Lew (Piecz��)",
+    "name": "Dziki Lew (Pieczęć)",
     "icon": "../assets/item-icons/item/50064.png"
   },
   {
     "vnum": "52041",
-    "name": "Dzielny Lew (Piecz��)",
+    "name": "Dzielny Lew (Pieczęć)",
     "icon": "../assets/item-icons/item/50065.png"
   },
   {
     "vnum": "52042",
-    "name": "Dzielny Lew (Piecz��)",
+    "name": "Dzielny Lew (Pieczęć)",
     "icon": "../assets/item-icons/item/50065.png"
   },
   {
     "vnum": "52043",
-    "name": "Dzielny Lew (Piecz��)",
+    "name": "Dzielny Lew (Pieczęć)",
     "icon": "../assets/item-icons/item/50065.png"
   },
   {
     "vnum": "52044",
-    "name": "Dzielny Lew (Piecz��)",
+    "name": "Dzielny Lew (Pieczęć)",
     "icon": "../assets/item-icons/item/50065.png"
   },
   {
     "vnum": "52045",
-    "name": "Dzielny Lew (Piecz��)",
+    "name": "Dzielny Lew (Pieczęć)",
     "icon": "../assets/item-icons/item/50065.png"
   },
   {
     "vnum": "52046",
-    "name": "M�ody Tygrys (Piecz��)",
+    "name": "Młody Tygrys (Pieczęć)",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52047",
-    "name": "M�ody Tygrys (Piecz��)",
+    "name": "Młody Tygrys (Pieczęć)",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52048",
-    "name": "M�ody Tygrys (Piecz��)",
+    "name": "Młody Tygrys (Pieczęć)",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52049",
-    "name": "M�ody Tygrys (Piecz��)",
+    "name": "Młody Tygrys (Pieczęć)",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52050",
-    "name": "M�ody Tygrys (Piecz��)",
+    "name": "Młody Tygrys (Pieczęć)",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52051",
-    "name": "Dziki Tygrys (Piecz��)",
+    "name": "Dziki Tygrys (Pieczęć)",
     "icon": "../assets/item-icons/item/50064.png"
   },
   {
     "vnum": "52052",
-    "name": "Dziki Tygrys (Piecz��)",
+    "name": "Dziki Tygrys (Pieczęć)",
     "icon": "../assets/item-icons/item/50064.png"
   },
   {
     "vnum": "52053",
-    "name": "Dziki Tygrys (Piecz��)",
+    "name": "Dziki Tygrys (Pieczęć)",
     "icon": "../assets/item-icons/item/50064.png"
   },
   {
     "vnum": "52054",
-    "name": "Dziki Tygrys (Piecz��)",
+    "name": "Dziki Tygrys (Pieczęć)",
     "icon": "../assets/item-icons/item/50064.png"
   },
   {
     "vnum": "52055",
-    "name": "Dziki Tygrys (Piecz��)",
+    "name": "Dziki Tygrys (Pieczęć)",
     "icon": "../assets/item-icons/item/50064.png"
   },
   {
     "vnum": "52056",
-    "name": "Dzielny Tygrys (Piecz��)",
+    "name": "Dzielny Tygrys (Pieczęć)",
     "icon": "../assets/item-icons/item/50065.png"
   },
   {
     "vnum": "52057",
-    "name": "Dzielny Tygrys (Piecz��)",
+    "name": "Dzielny Tygrys (Pieczęć)",
     "icon": "../assets/item-icons/item/50065.png"
   },
   {
     "vnum": "52058",
-    "name": "Dzielny Tygrys (Piecz��)",
+    "name": "Dzielny Tygrys (Pieczęć)",
     "icon": "../assets/item-icons/item/50065.png"
   },
   {
     "vnum": "52059",
-    "name": "Dzielny Tygrys (Piecz��)",
+    "name": "Dzielny Tygrys (Pieczęć)",
     "icon": "../assets/item-icons/item/50065.png"
   },
   {
     "vnum": "52060",
-    "name": "Dzielny Tygrys (Piecz��)",
+    "name": "Dzielny Tygrys (Pieczęć)",
     "icon": "../assets/item-icons/item/50065.png"
   },
   {
     "vnum": "52061",
-    "name": "Piecz�� M�odego Renifera",
+    "name": "Pieczęć Młodego Renifera",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52062",
-    "name": "Piecz�� M�odego Renifera",
+    "name": "Pieczęć Młodego Renifera",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52063",
-    "name": "Piecz�� M�odego Renifera",
+    "name": "Pieczęć Młodego Renifera",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52064",
-    "name": "Piecz�� M�odego Renifera",
+    "name": "Pieczęć Młodego Renifera",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52065",
-    "name": "Piecz�� M�odego Renifera",
+    "name": "Pieczęć Młodego Renifera",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
@@ -25318,27 +25319,27 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "52076",
-    "name": "Piecz�� M�odego Renifera",
+    "name": "Pieczęć Młodego Renifera",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52077",
-    "name": "Piecz�� M�odego Renifera",
+    "name": "Pieczęć Młodego Renifera",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52078",
-    "name": "Piecz�� M�odego Renifera",
+    "name": "Pieczęć Młodego Renifera",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52079",
-    "name": "Piecz�� M�odego Renifera",
+    "name": "Pieczęć Młodego Renifera",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52080",
-    "name": "Piecz�� M�odego Renifera",
+    "name": "Pieczęć Młodego Renifera",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
@@ -25393,107 +25394,107 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "52091",
-    "name": "Piecz�� M�odego Dragora",
+    "name": "Pieczęć Młodego Dragora",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52092",
-    "name": "Piecz�� M�odego Dragora",
+    "name": "Pieczęć Młodego Dragora",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52093",
-    "name": "Piecz�� M�odego Dragora",
+    "name": "Pieczęć Młodego Dragora",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52094",
-    "name": "Piecz�� M�odego Dragora",
+    "name": "Pieczęć Młodego Dragora",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52095",
-    "name": "Piecz�� M�odego Dragora",
+    "name": "Pieczęć Młodego Dragora",
     "icon": "../assets/item-icons/item/50063.png"
   },
   {
     "vnum": "52096",
-    "name": "Piecz�� Dzikiego Dragora",
+    "name": "Pieczęć Dzikiego Dragora",
     "icon": "../assets/item-icons/item/50064.png"
   },
   {
     "vnum": "52097",
-    "name": "Piecz�� Dzikiego Dragora",
+    "name": "Pieczęć Dzikiego Dragora",
     "icon": "../assets/item-icons/item/50064.png"
   },
   {
     "vnum": "52098",
-    "name": "Piecz�� Dzikiego Dragora",
+    "name": "Pieczęć Dzikiego Dragora",
     "icon": "../assets/item-icons/item/50064.png"
   },
   {
     "vnum": "52099",
-    "name": "Piecz�� Dzikiego Dragora",
+    "name": "Pieczęć Dzikiego Dragora",
     "icon": "../assets/item-icons/item/50064.png"
   },
   {
     "vnum": "52100",
-    "name": "Piecz�� Dzikiego Dragora",
+    "name": "Pieczęć Dzikiego Dragora",
     "icon": "../assets/item-icons/item/50064.png"
   },
   {
     "vnum": "52101",
-    "name": "Piecz�� �mia�ego Dragora",
+    "name": "Pieczęć Śmiałego Dragora",
     "icon": "../assets/item-icons/item/50065.png"
   },
   {
     "vnum": "52102",
-    "name": "Piecz�� �mia�ego Dragora",
+    "name": "Pieczęć Śmiałego Dragora",
     "icon": "../assets/item-icons/item/50065.png"
   },
   {
     "vnum": "52103",
-    "name": "Piecz�� �mia�ego Dragora",
+    "name": "Pieczęć Śmiałego Dragora",
     "icon": "../assets/item-icons/item/50065.png"
   },
   {
     "vnum": "52104",
-    "name": "Piecz�� �mia�ego Dragora",
+    "name": "Pieczęć Śmiałego Dragora",
     "icon": "../assets/item-icons/item/50065.png"
   },
   {
     "vnum": "52105",
-    "name": "Piecz�� �mia�ego Dragora",
+    "name": "Pieczęć Śmiałego Dragora",
     "icon": "../assets/item-icons/item/50065.png"
   },
   {
     "vnum": "52701",
-    "name": "�wiadectwo Lwa",
+    "name": "Świadectwo Lwa",
     "icon": "../assets/item-icons/item/52701.png"
   },
   {
     "vnum": "52702",
-    "name": "�wiadectwo Tygrysa",
+    "name": "Świadectwo Tygrysa",
     "icon": "../assets/item-icons/item/52701.png"
   },
   {
     "vnum": "52703",
-    "name": "�wiadectwo Dzika",
+    "name": "Świadectwo Dzika",
     "icon": "../assets/item-icons/item/52701.png"
   },
   {
     "vnum": "52704",
-    "name": "�wiadectwo Wilka",
+    "name": "Świadectwo Wilka",
     "icon": "../assets/item-icons/item/52701.png"
   },
   {
     "vnum": "52705",
-    "name": "�wiadectwo Renifera (m)",
+    "name": "Świadectwo Renifera (m)",
     "icon": "../assets/item-icons/item/52701.png"
   },
   {
     "vnum": "52706",
-    "name": "�wiadectwo Renifera (�)",
+    "name": "Świadectwo Renifera (ż)",
     "icon": "../assets/item-icons/item/52701.png"
   },
   {
@@ -25508,27 +25509,27 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "53002",
-    "name": "Piecz�� Reniferka",
+    "name": "Pieczęć Reniferka",
     "icon": "../assets/item-icons/item/53002.png"
   },
   {
     "vnum": "53003",
-    "name": "Piecz�� Lodowego Feniksa",
+    "name": "Pieczęć Lodowego Feniksa",
     "icon": "../assets/item-icons/item/53003.png"
   },
   {
     "vnum": "53005",
-    "name": "Azraelu� [PET]",
+    "name": "Azraeluś [PET]",
     "icon": "../assets/item-icons/item/53005.png"
   },
   {
     "vnum": "53007",
-    "name": "Piecz�� Bambi",
+    "name": "Pieczęć Bambi",
     "icon": "../assets/item-icons/item/53002.png"
   },
   {
     "vnum": "53008",
-    "name": "Knuud (Piecz��)",
+    "name": "Knuud (Pieczęć)",
     "icon": "../assets/item-icons/item/53008.png"
   },
   {
@@ -25538,42 +25539,42 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "53010",
-    "name": "Piecz�� Leonidasa",
+    "name": "Pieczęć Leonidasa",
     "icon": "../assets/item-icons/item/53008.png"
   },
   {
     "vnum": "53011",
-    "name": "Piecz�� Khana",
+    "name": "Pieczęć Khana",
     "icon": "../assets/item-icons/item/53008.png"
   },
   {
     "vnum": "53012",
-    "name": "Piecz�� Boczusia",
+    "name": "Pieczęć Boczusia",
     "icon": "../assets/item-icons/item/53008.png"
   },
   {
     "vnum": "53013",
-    "name": "Piecz�� Rufusa",
+    "name": "Pieczęć Rufusa",
     "icon": "../assets/item-icons/item/53008.png"
   },
   {
     "vnum": "53014",
-    "name": "Piecz�� Kata",
+    "name": "Pieczęć Kata",
     "icon": "../assets/item-icons/item/53008.png"
   },
   {
     "vnum": "53015",
-    "name": "Piecz�� Kata (z�ota)",
+    "name": "Pieczęć Kata (złota)",
     "icon": "../assets/item-icons/item/53008.png"
   },
   {
     "vnum": "53016",
-    "name": "Piecz�� Kostka",
+    "name": "Pieczęć Kostka",
     "icon": "../assets/item-icons/item/53016.png"
   },
   {
     "vnum": "53017",
-    "name": "Piecz�� Feniksa Jadeitu",
+    "name": "Pieczęć Feniksa Jadeitu",
     "icon": "../assets/item-icons/item/53017.png"
   },
   {
@@ -25603,7 +25604,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "53506",
-    "name": "Skrz. Azraelusia (z�ota)",
+    "name": "Skrz. Azraelusia (złota)",
     "icon": "../assets/item-icons/item/53501.png"
   },
   {
@@ -25648,7 +25649,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "53515",
-    "name": "Skrzynia Kata (z�ota)",
+    "name": "Skrzynia Kata (złota)",
     "icon": "../assets/item-icons/item/53501.png"
   },
   {
@@ -25663,7 +25664,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "60001",
-    "name": "���",
+    "name": "Żółć",
     "icon": "../assets/item-icons/item/60001.png"
   },
   {
@@ -25678,7 +25679,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "69000",
-    "name": "Sekret Walni�cia",
+    "name": "Sekret Walnięcia",
     "icon": "../assets/item-icons/item/book_21.png"
   },
   {
@@ -25703,7 +25704,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "69050",
-    "name": "Sekret Strza�y",
+    "name": "Sekret Strzały",
     "icon": "../assets/item-icons/item/book_26.png"
   },
   {
@@ -25738,7 +25739,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "69120",
-    "name": "Sekret Lataj�cego Taliz.",
+    "name": "Sekret Latającego Taliz.",
     "icon": "../assets/item-icons/item/book_41.png"
   },
   {
@@ -25753,7 +25754,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "69150",
-    "name": "Sekret B�ogos�awie�stwa",
+    "name": "Sekret Błogosławieństwa",
     "icon": "../assets/item-icons/item/book_44.png"
   },
   {
@@ -25763,42 +25764,42 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "70002",
-    "name": "Trzecia R�ka",
+    "name": "Trzecia Ręka",
     "icon": "../assets/item-icons/item/70002.png"
   },
   {
     "vnum": "70003",
-    "name": "Ksi��ka Lidera",
+    "name": "Książka Lidera",
     "icon": "../assets/item-icons/item/70003.png"
   },
   {
     "vnum": "70004",
-    "name": "Medal Za Pracowito��",
+    "name": "Medal Za Pracowitość",
     "icon": "../assets/item-icons/item/70004.png"
   },
   {
     "vnum": "70005",
-    "name": "Pier�cie� Do�wiadczenia",
+    "name": "Pierścień Doświadczenia",
     "icon": "../assets/item-icons/item/70005.png"
   },
   {
     "vnum": "70006",
-    "name": "Pier�cie� J�zyka",
+    "name": "Pierścień Języka",
     "icon": "../assets/item-icons/item/70006.png"
   },
   {
     "vnum": "70007",
-    "name": "Pier�cie� Przeniesienia",
+    "name": "Pierścień Przeniesienia",
     "icon": "../assets/item-icons/item/70007.png"
   },
   {
     "vnum": "70008",
-    "name": "Bia�a Flaga",
+    "name": "Biała Flaga",
     "icon": "../assets/item-icons/item/70008.png"
   },
   {
     "vnum": "70009",
-    "name": "Szkatu�ka",
+    "name": "Szkatułka",
     "icon": "../assets/item-icons/item/70009.png"
   },
   {
@@ -25813,17 +25814,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "70012",
-    "name": "�za Bogini",
+    "name": "Łza Bogini",
     "icon": "../assets/item-icons/item/70012.png"
   },
   {
     "vnum": "70013",
-    "name": "Olbrz. �za Bogini",
+    "name": "Olbrz. Łza Bogini",
     "icon": "../assets/item-icons/item/70013.png"
   },
   {
     "vnum": "70014",
-    "name": "Pigu�ka Krwi",
+    "name": "Pigułka Krwi",
     "icon": "../assets/item-icons/item/70014.png"
   },
   {
@@ -25833,12 +25834,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "70016",
-    "name": "India�ska Lalka",
+    "name": "Indiańska Lalka",
     "icon": "../assets/item-icons/item/70017.png"
   },
   {
     "vnum": "70017",
-    "name": "India�ska Bransoleta",
+    "name": "Indiańska Bransoleta",
     "icon": "../assets/item-icons/item/70017.png"
   },
   {
@@ -25858,7 +25859,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "70021",
-    "name": "B�ogos�awie�stwo Anio�a",
+    "name": "Błogosławieństwo Anioła",
     "icon": "../assets/item-icons/item/70021.png"
   },
   {
@@ -25868,22 +25869,22 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "70023",
-    "name": "Laska M�drca",
+    "name": "Laska Mędrca",
     "icon": "../assets/item-icons/item/70023.png"
   },
   {
     "vnum": "70024",
-    "name": "Marmur B�ogos�awie�stwa",
+    "name": "Marmur Błogosławieństwa",
     "icon": "../assets/item-icons/item/70024.png"
   },
   {
     "vnum": "70025",
-    "name": "Pier�cie� Godno�ci",
+    "name": "Pierścień Godności",
     "icon": "../assets/item-icons/item/70025.png"
   },
   {
     "vnum": "70026",
-    "name": "Gin�ce Lustro",
+    "name": "Ginące Lustro",
     "icon": "../assets/item-icons/item/70026.png"
   },
   {
@@ -25893,12 +25894,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "70028",
-    "name": "Notatka M�drca",
+    "name": "Notatka Mędrca",
     "icon": "../assets/item-icons/item/70028.png"
   },
   {
     "vnum": "70029",
-    "name": "Czerwone Pi�ro",
+    "name": "Czerwone Pióro",
     "icon": "../assets/item-icons/item/70029.png"
   },
   {
@@ -25913,12 +25914,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "70032",
-    "name": "Instr. Dwur�cz. Miecza",
+    "name": "Instr. Dwuręcz. Miecza",
     "icon": "../assets/item-icons/item/70032.png"
   },
   {
     "vnum": "70033",
-    "name": "Instr. Jednor�cz. Miecza",
+    "name": "Instr. Jednoręcz. Miecza",
     "icon": "../assets/item-icons/item/70033.png"
   },
   {
@@ -25938,42 +25939,42 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "70037",
-    "name": "Ksi�ga Zapomnienia",
+    "name": "Księga Zapomnienia",
     "icon": "../assets/item-icons/item/70037.png"
   },
   {
     "vnum": "70038",
-    "name": "Peleryna M�stwa",
+    "name": "Peleryna Męstwa",
     "icon": "../assets/item-icons/item/70038.png"
   },
   {
     "vnum": "70039",
-    "name": "Podr�cznik Kowala",
+    "name": "Podręcznik Kowala",
     "icon": "../assets/item-icons/item/70039.png"
   },
   {
     "vnum": "70040",
-    "name": "Uparto�� Ork�w",
+    "name": "Upartość Orków",
     "icon": "../assets/item-icons/item/70040.png"
   },
   {
     "vnum": "70041",
-    "name": "Pi�� Wyznawcy",
+    "name": "Pięść Wyznawcy",
     "icon": "../assets/item-icons/item/70041.png"
   },
   {
     "vnum": "70042",
-    "name": "Od�amek Diab�a",
+    "name": "Odłamek Diabła",
     "icon": "../assets/item-icons/item/70042.png"
   },
   {
     "vnum": "70043",
-    "name": "R�kawica Z�odzieja",
+    "name": "Rękawica Złodzieja",
     "icon": "../assets/item-icons/item/70043.png"
   },
   {
     "vnum": "70044",
-    "name": "Paznokie� Mroczn. Lorda",
+    "name": "Paznokieć Mroczn. Lorda",
     "icon": "../assets/item-icons/item/70044.png"
   },
   {
@@ -25983,32 +25984,32 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "70046",
-    "name": "Graal Boga Smok�w",
+    "name": "Graal Boga Smoków",
     "icon": "../assets/item-icons/70046.png"
   },
   {
     "vnum": "70047",
-    "name": "Pier�cie� J�z.(Przyk�ad)",
+    "name": "Pierścień Jęz.(Przykład)",
     "icon": "../assets/item-icons/item/70006.png"
   },
   {
     "vnum": "70048",
-    "name": "P�aszcz Uciekiniera",
+    "name": "Płaszcz Uciekiniera",
     "icon": "../assets/item-icons/item/70048.png"
   },
   {
     "vnum": "70049",
-    "name": "Pier�cie� Lucy",
+    "name": "Pierścień Lucy",
     "icon": "../assets/item-icons/item/70049.png"
   },
   {
     "vnum": "70050",
-    "name": "Symb. Kr�la Przepowiedni",
+    "name": "Symb. Króla Przepowiedni",
     "icon": "../assets/item-icons/item/70050.png"
   },
   {
     "vnum": "70051",
-    "name": "R�kawica Kr�la Przepow.",
+    "name": "Rękawica Króla Przepow.",
     "icon": "../assets/item-icons/item/70051.png"
   },
   {
@@ -26033,12 +26034,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "70057",
-    "name": "Peleryna M�stwa",
+    "name": "Peleryna Męstwa",
     "icon": "../assets/item-icons/item/70038.png"
   },
   {
     "vnum": "70058",
-    "name": "Pier�cie� Teleportacji",
+    "name": "Pierścień Teleportacji",
     "icon": "../assets/item-icons/item/70058.png"
   },
   {
@@ -26078,27 +26079,27 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "70202",
-    "name": "Bia�a Farba Do W�os�w",
+    "name": "Biała Farba Do Włosów",
     "icon": "../assets/item-icons/item/70202.png"
   },
   {
     "vnum": "70203",
-    "name": "Blond Farba Do W�os�w",
+    "name": "Blond Farba Do Włosów",
     "icon": "../assets/item-icons/item/70203.png"
   },
   {
     "vnum": "70204",
-    "name": "Czerw. Farba Do W�os�w",
+    "name": "Czerw. Farba Do Włosów",
     "icon": "../assets/item-icons/item/70204.png"
   },
   {
     "vnum": "70205",
-    "name": "Br�zowa Farba Do W�os�w",
+    "name": "Brązowa Farba Do Włosów",
     "icon": "../assets/item-icons/item/70205.png"
   },
   {
     "vnum": "70206",
-    "name": "Czarna Farba Do W�os�w",
+    "name": "Czarna Farba Do Włosów",
     "icon": "../assets/item-icons/item/70206.png"
   },
   {
@@ -26108,47 +26109,47 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "70208",
-    "name": "Br�zowa Farba",
+    "name": "Brązowa Farba",
     "icon": "../assets/item-icons/70208.png"
   },
   {
     "vnum": "70251",
-    "name": "Czerwone Zio�o",
+    "name": "Czerwone Zioło",
     "icon": "../assets/item-icons/70251.png"
   },
   {
     "vnum": "70252",
-    "name": "Niebieskie Zio�o",
+    "name": "Niebieskie Zioło",
     "icon": "../assets/item-icons/70252.png"
   },
   {
     "vnum": "70253",
-    "name": "Zielone Zio�o",
+    "name": "Zielone Zioło",
     "icon": "../assets/item-icons/70253.png"
   },
   {
     "vnum": "70254",
-    "name": "Fioletowe Zio�o",
+    "name": "Fioletowe Zioło",
     "icon": "../assets/item-icons/70254.png"
   },
   {
     "vnum": "70301",
-    "name": "Pier�cionek Zar�czynowy",
+    "name": "Pierścionek Zaręczynowy",
     "icon": "../assets/item-icons/item/70301.png"
   },
   {
     "vnum": "70302",
-    "name": "Obr�czka �lubna",
+    "name": "Obrączka Ślubna",
     "icon": "../assets/item-icons/item/70302.png"
   },
   {
     "vnum": "71002",
-    "name": "Zw�j Powrotu Statusu",
+    "name": "Zwój Powrotu Statusu",
     "icon": "../assets/item-icons/item/71002.png"
   },
   {
     "vnum": "71003",
-    "name": "Zw�j Powrotu Umiej�tn.",
+    "name": "Zwój Powrotu Umiejętn.",
     "icon": "../assets/item-icons/item/71003.png"
   },
   {
@@ -26158,42 +26159,42 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71005",
-    "name": "Pier�cie� J�zyka",
+    "name": "Pierścień Języka",
     "icon": "../assets/item-icons/item/70006.png"
   },
   {
     "vnum": "71006",
-    "name": "Pier�cie� J�zyka",
+    "name": "Pierścień Języka",
     "icon": "../assets/item-icons/item/70006.png"
   },
   {
     "vnum": "71007",
-    "name": "Pier�cie� J�zyka",
+    "name": "Pierścień Języka",
     "icon": "../assets/item-icons/item/70006.png"
   },
   {
     "vnum": "71008",
-    "name": "Rybie Wn�trzno�ci",
+    "name": "Rybie Wnętrzności",
     "icon": "../assets/item-icons/item/71008.png"
   },
   {
     "vnum": "71009",
-    "name": "Powi�kszony Sk�ad",
+    "name": "Powiększony Skład",
     "icon": "../assets/item-icons/item/71009.png"
   },
   {
     "vnum": "71010",
-    "name": "Trzecia R�ka",
+    "name": "Trzecia Ręka",
     "icon": "../assets/item-icons/item/70002.png"
   },
   {
     "vnum": "71011",
-    "name": "Maska Uczu�",
+    "name": "Maska Uczuć",
     "icon": "../assets/item-icons/item/71011.png"
   },
   {
     "vnum": "71012",
-    "name": "Ksi��ka Lidera",
+    "name": "Książka Lidera",
     "icon": "../assets/item-icons/item/70003.png"
   },
   {
@@ -26208,57 +26209,57 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71015",
-    "name": "Pier�cie� Do�wiadczenia",
+    "name": "Pierścień Doświadczenia",
     "icon": "../assets/item-icons/item/70005.png"
   },
   {
     "vnum": "71016",
-    "name": "R�kawica Z�odzieja",
+    "name": "Rękawica Złodzieja",
     "icon": "../assets/item-icons/item/70043.png"
   },
   {
     "vnum": "71017",
-    "name": "Medal Szcz�cia",
+    "name": "Medal Szczęścia",
     "icon": "../assets/item-icons/item/71017.png"
   },
   {
     "vnum": "71018",
-    "name": "B�ogos�awie�stwo �ycia",
+    "name": "Błogosławieństwo Życia",
     "icon": "../assets/item-icons/item/71018.png"
   },
   {
     "vnum": "71019",
-    "name": "B�ogos�awie�stwo Magii",
+    "name": "Błogosławieństwo Magii",
     "icon": "../assets/item-icons/item/71019.png"
   },
   {
     "vnum": "71020",
-    "name": "B�ogos�awie�stwo Smoka",
+    "name": "Błogosławieństwo Smoka",
     "icon": "../assets/item-icons/item/71020.png"
   },
   {
     "vnum": "71021",
-    "name": "Zw�j Wojny",
+    "name": "Zwój Wojny",
     "icon": "../assets/item-icons/item/71003.png"
   },
   {
     "vnum": "71022",
-    "name": "Powr�t - Inteligencja",
+    "name": "Powrót - Inteligencja",
     "icon": "../assets/item-icons/71022.png"
   },
   {
     "vnum": "71023",
-    "name": "Powr�t - Witalno��",
+    "name": "Powrót - Witalność",
     "icon": "../assets/item-icons/71023.png"
   },
   {
     "vnum": "71024",
-    "name": "Powr�t - Si�a",
+    "name": "Powrót - Siła",
     "icon": "../assets/item-icons/71024.png"
   },
   {
     "vnum": "71025",
-    "name": "Kamie� Kowala",
+    "name": "Kamień Kowala",
     "icon": "../assets/item-icons/71025.png"
   },
   {
@@ -26268,17 +26269,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71031",
-    "name": "Wsparcie Boga Smok�w",
+    "name": "Wsparcie Boga Smoków",
     "icon": "../assets/item-icons/item/71030.png"
   },
   {
     "vnum": "71032",
-    "name": "Zw�j Boga Smok�w",
+    "name": "Zwój Boga Smoków",
     "icon": "../assets/item-icons/item/71032.png"
   },
   {
     "vnum": "71033",
-    "name": "Maska Uczu�",
+    "name": "Maska Uczuć",
     "icon": "../assets/item-icons/item/71011.png"
   },
   {
@@ -26293,52 +26294,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71036",
-    "name": "Zw�j Przyw. - W�dz Ork�w",
+    "name": "Zwój Przyw. - Wódz Orków",
     "icon": "../assets/item-icons/item/71036.png"
   },
   {
     "vnum": "71037",
-    "name": "Zw�j Przyw. - Ezot. W�.",
+    "name": "Zwój Przyw. - Ezot. Wł.",
     "icon": "../assets/item-icons/item/71036.png"
   },
   {
     "vnum": "71038",
-    "name": "Zw�j Przyw. - Kr�l. Paj.",
+    "name": "Zwój Przyw. - Król. Paj.",
     "icon": "../assets/item-icons/item/71036.png"
   },
   {
     "vnum": "71039",
-    "name": "Zw�j Przyw. - Pust. ��w",
+    "name": "Zwój Przyw. - Pust. Żółw",
     "icon": "../assets/item-icons/item/71036.png"
   },
   {
     "vnum": "71040",
-    "name": "Zw�j Przyw. - Ogn. Kr�l",
+    "name": "Zwój Przyw. - Ogn. Król",
     "icon": "../assets/item-icons/item/71036.png"
   },
   {
     "vnum": "71041",
-    "name": "Zw�j Przyw. - 9 Ogon�w",
+    "name": "Zwój Przyw. - 9 Ogonów",
     "icon": "../assets/item-icons/item/71036.png"
   },
   {
     "vnum": "71042",
-    "name": "Zw�j Przyw. - Kr�l Dem.",
+    "name": "Zwój Przyw. - Król Dem.",
     "icon": "../assets/item-icons/item/71036.png"
   },
   {
     "vnum": "71043",
-    "name": "Zw�j Przyw. - Duch Tygr.",
+    "name": "Zwój Przyw. - Duch Tygr.",
     "icon": "../assets/item-icons/item/71036.png"
   },
   {
     "vnum": "71044",
-    "name": "D�o� Krytyka",
+    "name": "Dłoń Krytyka",
     "icon": "../assets/item-icons/item/71044.png"
   },
   {
     "vnum": "71045",
-    "name": "D�o� Przebicia",
+    "name": "Dłoń Przebicia",
     "icon": "../assets/item-icons/item/71045.png"
   },
   {
@@ -26348,7 +26349,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71048",
-    "name": "Zakl�cie Modyfikacji",
+    "name": "Zaklęcie Modyfikacji",
     "icon": "../assets/item-icons/item/71048.png"
   },
   {
@@ -26358,7 +26359,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71050",
-    "name": "Mikstura Szybko�ci",
+    "name": "Mikstura Szybkości",
     "icon": "../assets/item-icons/item/27103.png"
   },
   {
@@ -26368,7 +26369,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71052",
-    "name": "B�ogos�aw. Przedmiotu",
+    "name": "Błogosław. Przedmiotu",
     "icon": "../assets/item-icons/item/71052.png"
   },
   {
@@ -26388,62 +26389,62 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71057",
-    "name": "Zw�j Przyw. - �.S. Drew.",
+    "name": "Zwój Przyw. - Ż.S. Drew.",
     "icon": "../assets/item-icons/item/71057.png"
   },
   {
     "vnum": "71058",
-    "name": "Zw�j Przyw. - �. Miedzi",
+    "name": "Zwój Przyw. - Ż. Miedzi",
     "icon": "../assets/item-icons/item/71057.png"
   },
   {
     "vnum": "71059",
-    "name": "Zw�j Przyw. - �. Srebra",
+    "name": "Zwój Przyw. - Ż. Srebra",
     "icon": "../assets/item-icons/item/71057.png"
   },
   {
     "vnum": "71060",
-    "name": "Zw�j Przyw. - �y�a Z�ota",
+    "name": "Zwój Przyw. - Żyła Złota",
     "icon": "../assets/item-icons/item/71057.png"
   },
   {
     "vnum": "71061",
-    "name": "Zw�j Przyw. - �. Jadeitu",
+    "name": "Zwój Przyw. - Ż. Jadeitu",
     "icon": "../assets/item-icons/item/71057.png"
   },
   {
     "vnum": "71062",
-    "name": "Zw�j Przyw. - �. Ebonitu",
+    "name": "Zwój Przyw. - Ż. Ebonitu",
     "icon": "../assets/item-icons/item/71057.png"
   },
   {
     "vnum": "71063",
-    "name": "Zw�j Przyw. - S. Muszli",
+    "name": "Zwój Przyw. - S. Muszli",
     "icon": "../assets/item-icons/item/71057.png"
   },
   {
     "vnum": "71064",
-    "name": "Zw�j Przyw. - �.B. Z�ota",
+    "name": "Zwój Przyw. - Ż.B. Złota",
     "icon": "../assets/item-icons/item/71057.png"
   },
   {
     "vnum": "71065",
-    "name": "Zw�j Przyw. - �. Kryszt.",
+    "name": "Zwój Przyw. - Ż. Kryszt.",
     "icon": "../assets/item-icons/item/71057.png"
   },
   {
     "vnum": "71066",
-    "name": "Zw�j Przyw. - �. Amet.",
+    "name": "Zwój Przyw. - Ż. Amet.",
     "icon": "../assets/item-icons/item/71057.png"
   },
   {
     "vnum": "71067",
-    "name": "Zw�j Przyw. - �.N. �ez",
+    "name": "Zwój Przyw. - Ż.N. Łez",
     "icon": "../assets/item-icons/item/71057.png"
   },
   {
     "vnum": "71068",
-    "name": "Pi�ro Ptaka Mi�o�ci",
+    "name": "Pióro Ptaka Miłości",
     "icon": "../assets/item-icons/item/70029.png"
   },
   {
@@ -26453,12 +26454,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71070",
-    "name": "Bransoleta Mi�o�ci",
+    "name": "Bransoleta Miłości",
     "icon": "../assets/item-icons/item/71070.png"
   },
   {
     "vnum": "71071",
-    "name": "Kolczyki Mi�o�ci",
+    "name": "Kolczyki Miłości",
     "icon": "../assets/item-icons/item/71071.png"
   },
   {
@@ -26468,7 +26469,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71073",
-    "name": "Naszyjnik Mi�o�ci",
+    "name": "Naszyjnik Miłości",
     "icon": "../assets/item-icons/item/71073.png"
   },
   {
@@ -26478,47 +26479,47 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71075",
-    "name": "Farba do W�os�w (Bia�a)",
+    "name": "Farba do Włosów (Biała)",
     "icon": "../assets/item-icons/item/70202.png"
   },
   {
     "vnum": "71076",
-    "name": "Farba do W�os�w (Blond)",
+    "name": "Farba do Włosów (Blond)",
     "icon": "../assets/item-icons/item/70203.png"
   },
   {
     "vnum": "71077",
-    "name": "Farba do W�os�w (Czerw.)",
+    "name": "Farba do Włosów (Czerw.)",
     "icon": "../assets/item-icons/item/70204.png"
   },
   {
     "vnum": "71078",
-    "name": "Farba do W�os�w (Br�z.)",
+    "name": "Farba do Włosów (Brąz.)",
     "icon": "../assets/item-icons/item/70205.png"
   },
   {
     "vnum": "71079",
-    "name": "Farba do W�os�w (Czarna)",
+    "name": "Farba do Włosów (Czarna)",
     "icon": "../assets/item-icons/item/70206.png"
   },
   {
     "vnum": "71080",
-    "name": "Kamie� Metin (S�aby)",
+    "name": "Kamień Metin (Słaby)",
     "icon": "../assets/item-icons/item/71080.png"
   },
   {
     "vnum": "71081",
-    "name": "Kamie� Metin (�redni)",
+    "name": "Kamień Metin (Średni)",
     "icon": "../assets/item-icons/item/71080.png"
   },
   {
     "vnum": "71082",
-    "name": "Kamie� Metin (Silny)",
+    "name": "Kamień Metin (Silny)",
     "icon": "../assets/item-icons/item/71080.png"
   },
   {
     "vnum": "71083",
-    "name": "Ksi�ga Obr�bki Kamienia",
+    "name": "Księga Obróbki Kamienia",
     "icon": "../assets/item-icons/item/71083.png"
   },
   {
@@ -26543,17 +26544,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71088",
-    "name": "Ksi�ga Misji (�atwa)",
+    "name": "Księga Misji (Łatwa)",
     "icon": "../assets/item-icons/71088.png"
   },
   {
     "vnum": "71089",
-    "name": "Ksi�ga Misji (Normalna)",
+    "name": "Księga Misji (Normalna)",
     "icon": "../assets/item-icons/71089.png"
   },
   {
     "vnum": "71090",
-    "name": "Ksi�ga Misji (Trudna)",
+    "name": "Księga Misji (Trudna)",
     "icon": "../assets/item-icons/71090.png"
   },
   {
@@ -26563,7 +26564,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71092",
-    "name": "Ksi�ga Polimorfii",
+    "name": "Księga Polimorfii",
     "icon": "../assets/item-icons/item/book_07.png"
   },
   {
@@ -26588,17 +26589,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71099",
-    "name": "Pier�cie� Zast�pstwa",
+    "name": "Pierścień Zastępstwa",
     "icon": "../assets/item-icons/item/80009.png"
   },
   {
     "vnum": "71100",
-    "name": "Zw�j Zmiany Profesji",
+    "name": "Zwój Zmiany Profesji",
     "icon": "../assets/item-icons/item/71100.png"
   },
   {
     "vnum": "71101",
-    "name": "Mikstura Po�piechu",
+    "name": "Mikstura Pośpiechu",
     "icon": "../assets/item-icons/item/71101.png"
   },
   {
@@ -26608,22 +26609,22 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71103",
-    "name": "Zw�j Redystrybucji (WIT)",
+    "name": "Zwój Redystrybucji (WIT)",
     "icon": "../assets/item-icons/item/71103.png"
   },
   {
     "vnum": "71104",
-    "name": "Zw�j Redystrybucji (INT)",
+    "name": "Zwój Redystrybucji (INT)",
     "icon": "../assets/item-icons/item/71104.png"
   },
   {
     "vnum": "71105",
-    "name": "Zw�j Redystrybucji (SI�)",
+    "name": "Zwój Redystrybucji (SIŁ)",
     "icon": "../assets/item-icons/item/71105.png"
   },
   {
     "vnum": "71106",
-    "name": "Zw�j Redystrybucji (ZR�)",
+    "name": "Zwój Redystrybucji (ZRĘ)",
     "icon": "../assets/item-icons/item/71106.png"
   },
   {
@@ -26638,7 +26639,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71109",
-    "name": "Zw�j Korekcji",
+    "name": "Zwój Korekcji",
     "icon": "../assets/item-icons/item/71109.png"
   },
   {
@@ -26648,47 +26649,47 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71113",
-    "name": "Szk�o Intuicji",
+    "name": "Szkło Intuicji",
     "icon": "../assets/item-icons/item/71113.png"
   },
   {
     "vnum": "71114",
-    "name": "Piecz�� Dzika (��ta)",
+    "name": "Pieczęć Dzika (żółta)",
     "icon": "../assets/item-icons/item/boss_box.png"
   },
   {
     "vnum": "71115",
-    "name": "Piecz�� Dzika (nieb.)",
+    "name": "Pieczęć Dzika (nieb.)",
     "icon": "../assets/item-icons/item/71119.png"
   },
   {
     "vnum": "71116",
-    "name": "Piecz�� Wilka (��ta)",
+    "name": "Pieczęć Wilka (żółta)",
     "icon": "../assets/item-icons/item/boss_box.png"
   },
   {
     "vnum": "71117",
-    "name": "Piecz�� Wilka (nieb.)",
+    "name": "Pieczęć Wilka (nieb.)",
     "icon": "../assets/item-icons/item/71119.png"
   },
   {
     "vnum": "71118",
-    "name": "Piecz�� Tygrysa (��ta)",
+    "name": "Pieczęć Tygrysa (żółta)",
     "icon": "../assets/item-icons/item/boss_box.png"
   },
   {
     "vnum": "71119",
-    "name": "Piecz�� Tygrysa (nieb.)",
+    "name": "Pieczęć Tygrysa (nieb.)",
     "icon": "../assets/item-icons/item/71119.png"
   },
   {
     "vnum": "71120",
-    "name": "Piecz�� Lwa (��ta)",
+    "name": "Pieczęć Lwa (żółta)",
     "icon": "../assets/item-icons/item/boss_box.png"
   },
   {
     "vnum": "71121",
-    "name": "Piecz�� Lwa (niebieska)",
+    "name": "Pieczęć Lwa (niebieska)",
     "icon": "../assets/item-icons/item/71119.png"
   },
   {
@@ -26698,32 +26699,32 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71123",
-    "name": "Smocza �uska",
+    "name": "Smocza Łuska",
     "icon": "../assets/item-icons/item/71123.png"
   },
   {
     "vnum": "71124",
-    "name": "Bia�y Lew",
+    "name": "Biały Lew",
     "icon": "../assets/item-icons/item/71124.png"
   },
   {
     "vnum": "71125",
-    "name": "Piecz�� Dzika Wojennego",
+    "name": "Pieczęć Dzika Wojennego",
     "icon": "../assets/item-icons/item/71125.png"
   },
   {
     "vnum": "71126",
-    "name": "Piecz�� Dzika",
+    "name": "Pieczęć Dzika",
     "icon": "../assets/item-icons/item/71126.png"
   },
   {
     "vnum": "71127",
-    "name": "Piecz�� Szar�. Tygrysa",
+    "name": "Pieczęć Szarż. Tygrysa",
     "icon": "../assets/item-icons/item/71127.png"
   },
   {
     "vnum": "71128",
-    "name": "Piecz�� Walecznego Lwa",
+    "name": "Pieczęć Walecznego Lwa",
     "icon": "../assets/item-icons/item/71128.png"
   },
   {
@@ -26738,72 +26739,72 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71131",
-    "name": "Piecz�� Czarnego Konia",
+    "name": "Pieczęć Czarnego Konia",
     "icon": "../assets/item-icons/item/71131.png"
   },
   {
     "vnum": "71132",
-    "name": "Piecz�� Czarnego Konia",
+    "name": "Pieczęć Czarnego Konia",
     "icon": "../assets/item-icons/item/71131.png"
   },
   {
     "vnum": "71133",
-    "name": "Piecz�� Czarnego Konia",
+    "name": "Pieczęć Czarnego Konia",
     "icon": "../assets/item-icons/item/71131.png"
   },
   {
     "vnum": "71134",
-    "name": "Piecz�� Czarnego Konia",
+    "name": "Pieczęć Czarnego Konia",
     "icon": "../assets/item-icons/item/71131.png"
   },
   {
     "vnum": "71135",
-    "name": "Pier�cie� P�ksi�yca",
+    "name": "Pierścień Półksiężyca",
     "icon": "../assets/item-icons/item/71130.png"
   },
   {
     "vnum": "71136",
-    "name": "Lizak Pot�gi",
+    "name": "Lizak Potęgi",
     "icon": "../assets/item-icons/item/71136.png"
   },
   {
     "vnum": "71137",
-    "name": "Piecz�� T.B. (niebieski)",
+    "name": "Pieczęć T.B. (niebieski)",
     "icon": "../assets/item-icons/item/71137.png"
   },
   {
     "vnum": "71138",
-    "name": "Piecz�� T.B. (czerwona)",
+    "name": "Pieczęć T.B. (czerwona)",
     "icon": "../assets/item-icons/item/71138.png"
   },
   {
     "vnum": "71139",
-    "name": "Piecz�� T.B. (z�oty)",
+    "name": "Pieczęć T.B. (złoty)",
     "icon": "../assets/item-icons/item/71139.png"
   },
   {
     "vnum": "71140",
-    "name": "Piecz�� T.B. (zielony)",
+    "name": "Pieczęć T.B. (zielony)",
     "icon": "../assets/item-icons/item/71140.png"
   },
   {
     "vnum": "71141",
-    "name": "Piecz�� T.B. (szary)",
+    "name": "Pieczęć T.B. (szary)",
     "icon": "../assets/item-icons/item/71142.png"
   },
   {
     "vnum": "71142",
-    "name": "Piecz�� T.B. (bia�y)",
+    "name": "Pieczęć T.B. (biały)",
     "icon": "../assets/item-icons/item/71141.png"
   },
   {
     "vnum": "71143",
-    "name": "Pier�cie� Rado�ci",
+    "name": "Pierścień Radości",
     "icon": "../assets/item-icons/item/71143.png"
   },
   {
     "vnum": "71144",
-    "name": "�wi�teczna Skrzynia",
+    "name": "Świąteczna Skrzynia",
     "icon": "../assets/item-icons/item/71144.png"
   },
   {
@@ -26813,7 +26814,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71146",
-    "name": "Skrzynia Amora (r�owa)",
+    "name": "Skrzynia Amora (różowa)",
     "icon": "../assets/item-icons/item/71146.png"
   },
   {
@@ -26823,12 +26824,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71148",
-    "name": "Pier�cie� Si�y Woli",
+    "name": "Pierścień Siły Woli",
     "icon": "../assets/item-icons/item/71148.png"
   },
   {
     "vnum": "71149",
-    "name": "Pier�cie� FULL BIOLOG",
+    "name": "Pierścień FULL BIOLOG",
     "icon": "../assets/item-icons/item/71149.png"
   },
   {
@@ -26843,12 +26844,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71152",
-    "name": "Zielona Si�a",
+    "name": "Zielona Siła",
     "icon": "../assets/item-icons/item/71152.png"
   },
   {
     "vnum": "71153",
-    "name": "Mikstura M�dro�ci",
+    "name": "Mikstura Mądrości",
     "icon": "../assets/item-icons/item/71153.png"
   },
   {
@@ -26858,7 +26859,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71155",
-    "name": "Mikstura M�dro�ci (3h)",
+    "name": "Mikstura Mądrości (3h)",
     "icon": "../assets/item-icons/item/71153.png"
   },
   {
@@ -26893,7 +26894,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71164",
-    "name": "Piecz�� Kometka",
+    "name": "Pieczęć Kometka",
     "icon": "../assets/item-icons/item/71131.png"
   },
   {
@@ -26903,17 +26904,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71166",
-    "name": "Pancerna Panda (Piecz��)",
+    "name": "Pancerna Panda (Pieczęć)",
     "icon": "../assets/item-icons/item/71131.png"
   },
   {
     "vnum": "71171",
-    "name": "Piecz�� Jednoro�ca",
+    "name": "Pieczęć Jednorożca",
     "icon": "../assets/item-icons/item/71171.png"
   },
   {
     "vnum": "71172",
-    "name": "Piecz�� Mary Sennej",
+    "name": "Pieczęć Mary Sennej",
     "icon": "../assets/item-icons/item/71172.png"
   },
   {
@@ -26948,7 +26949,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71179",
-    "name": "Nosoro�ec",
+    "name": "Nosorożec",
     "icon": "../assets/item-icons/item/71227.png"
   },
   {
@@ -26958,7 +26959,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71181",
-    "name": "Piecz�� Dzika",
+    "name": "Pieczęć Dzika",
     "icon": "../assets/item-icons/item/71227.png"
   },
   {
@@ -26983,7 +26984,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71226",
-    "name": "Br�zowy Tulu Bojowy",
+    "name": "Brązowy Tulu Bojowy",
     "icon": "../assets/item-icons/item/71226.png"
   },
   {
@@ -27008,12 +27009,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71231",
-    "name": "Bia�y Kr�lik",
+    "name": "Biały Królik",
     "icon": "../assets/item-icons/item/71231.png"
   },
   {
     "vnum": "71232",
-    "name": "Ksi�ycowy Kr�lik",
+    "name": "Księżycowy Królik",
     "icon": "../assets/item-icons/item/71232.png"
   },
   {
@@ -27028,7 +27029,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71235",
-    "name": "Cerber (z�oty)",
+    "name": "Cerber (złoty)",
     "icon": "../assets/item-icons/item/71235.png"
   },
   {
@@ -27048,17 +27049,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71244",
-    "name": "Nocne Skrzyd�a",
+    "name": "Nocne Skrzydła",
     "icon": "../assets/item-icons/item/71244.png"
   },
   {
     "vnum": "71245",
-    "name": "Mroczne Skrzyd�a",
+    "name": "Mroczne Skrzydła",
     "icon": "../assets/item-icons/item/71245.png"
   },
   {
     "vnum": "71246",
-    "name": "Mrok Ksi�yca",
+    "name": "Mrok Księżyca",
     "icon": "../assets/item-icons/item/71246.png"
   },
   {
@@ -27068,7 +27069,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71248",
-    "name": "Z�oty Byk Bojowy",
+    "name": "Złoty Byk Bojowy",
     "icon": "../assets/item-icons/item/71248.png"
   },
   {
@@ -27078,7 +27079,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71250",
-    "name": "Bia�y Sfinks",
+    "name": "Biały Sfinks",
     "icon": "../assets/item-icons/item/71250.png"
   },
   {
@@ -27098,22 +27099,22 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71254",
-    "name": "Bia�a Zimowa Lama",
+    "name": "Biała Zimowa Lama",
     "icon": "../assets/item-icons/item/71254.png"
   },
   {
     "vnum": "71255",
-    "name": "Br�zowa Zimowa Lama",
+    "name": "Brązowa Zimowa Lama",
     "icon": "../assets/item-icons/item/71255.png"
   },
   {
     "vnum": "71259",
-    "name": "Po�pieszny Kr�lik (r�.)",
+    "name": "Pośpieszny Królik (róż.)",
     "icon": "../assets/item-icons/item/71259.png"
   },
   {
     "vnum": "71260",
-    "name": "Po�pieszny Kr�lik (nie.)",
+    "name": "Pośpieszny Królik (nie.)",
     "icon": "../assets/item-icons/item/71260.png"
   },
   {
@@ -27138,42 +27139,42 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "71300",
-    "name": "Kapel. Mro�nego Smoka",
+    "name": "Kapel. Mroźnego Smoka",
     "icon": "../assets/item-icons/mehok/1.png"
   },
   {
     "vnum": "71301",
-    "name": "Ubranie Mro�. Smoka",
+    "name": "Ubranie Mroź. Smoka",
     "icon": "../assets/item-icons/mehok/2.png"
   },
   {
     "vnum": "72001",
-    "name": "Pier�cie� Do�wiadczenia",
+    "name": "Pierścień Doświadczenia",
     "icon": "../assets/item-icons/item/70005.png"
   },
   {
     "vnum": "72002",
-    "name": "Pier�cie� Do�wiadczenia",
+    "name": "Pierścień Doświadczenia",
     "icon": "../assets/item-icons/item/70005.png"
   },
   {
     "vnum": "72003",
-    "name": "Pier�cie� Do�wiadczenia",
+    "name": "Pierścień Doświadczenia",
     "icon": "../assets/item-icons/item/70005.png"
   },
   {
     "vnum": "72004",
-    "name": "R�kawica Z�odzieja",
+    "name": "Rękawica Złodzieja",
     "icon": "../assets/item-icons/item/70043.png"
   },
   {
     "vnum": "72005",
-    "name": "R�kawica Z�odzieja",
+    "name": "Rękawica Złodzieja",
     "icon": "../assets/item-icons/item/70043.png"
   },
   {
     "vnum": "72006",
-    "name": "R�kawica Z�odzieja",
+    "name": "Rękawica Złodzieja",
     "icon": "../assets/item-icons/item/70043.png"
   },
   {
@@ -27193,167 +27194,167 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "72010",
-    "name": "Pi�ro Ptaka Mi�o�ci",
+    "name": "Pióro Ptaka Miłości",
     "icon": "../assets/item-icons/72010.png"
   },
   {
     "vnum": "72011",
-    "name": "Pi�ro Ptaka Mi�o�ci",
+    "name": "Pióro Ptaka Miłości",
     "icon": "../assets/item-icons/72011.png"
   },
   {
     "vnum": "72012",
-    "name": "Pi�ro Ptaka Mi�o�ci",
+    "name": "Pióro Ptaka Miłości",
     "icon": "../assets/item-icons/72012.png"
   },
   {
     "vnum": "72013",
-    "name": "Rybie Wn�trzno�ci",
+    "name": "Rybie Wnętrzności",
     "icon": "../assets/item-icons/item/71008.png"
   },
   {
     "vnum": "72014",
-    "name": "Rybie Wn�trzno�ci",
+    "name": "Rybie Wnętrzności",
     "icon": "../assets/item-icons/item/71008.png"
   },
   {
     "vnum": "72015",
-    "name": "Rybie Wn�trzno�ci",
+    "name": "Rybie Wnętrzności",
     "icon": "../assets/item-icons/item/71008.png"
   },
   {
     "vnum": "72016",
-    "name": "Trzecia R�ka",
+    "name": "Trzecia Ręka",
     "icon": "../assets/item-icons/item/70002.png"
   },
   {
     "vnum": "72017",
-    "name": "Trzecia R�ka",
+    "name": "Trzecia Ręka",
     "icon": "../assets/item-icons/item/70002.png"
   },
   {
     "vnum": "72018",
-    "name": "Trzecia R�ka",
+    "name": "Trzecia Ręka",
     "icon": "../assets/item-icons/item/70002.png"
   },
   {
     "vnum": "72019",
-    "name": "Powi�kszony Sk�ad",
+    "name": "Powiększony Skład",
     "icon": "../assets/item-icons/item/71009.png"
   },
   {
     "vnum": "72020",
-    "name": "Powi�kszony Sk�ad",
+    "name": "Powiększony Skład",
     "icon": "../assets/item-icons/item/71009.png"
   },
   {
     "vnum": "72021",
-    "name": "Powi�kszony Sk�ad",
+    "name": "Powiększony Skład",
     "icon": "../assets/item-icons/item/71009.png"
   },
   {
     "vnum": "72022",
-    "name": "Medal Szcz�cia",
+    "name": "Medal Szczęścia",
     "icon": "../assets/item-icons/item/71017.png"
   },
   {
     "vnum": "72023",
-    "name": "Medal Szcz�cia",
+    "name": "Medal Szczęścia",
     "icon": "../assets/item-icons/item/71017.png"
   },
   {
     "vnum": "72024",
-    "name": "Medal Szcz�cia",
+    "name": "Medal Szczęścia",
     "icon": "../assets/item-icons/item/71017.png"
   },
   {
     "vnum": "72025",
-    "name": "D�o� Przebicia",
+    "name": "Dłoń Przebicia",
     "icon": "../assets/item-icons/item/71045.png"
   },
   {
     "vnum": "72026",
-    "name": "D�o� Krytyka",
+    "name": "Dłoń Krytyka",
     "icon": "../assets/item-icons/item/71045.png"
   },
   {
     "vnum": "72027",
-    "name": "D�o� Krytyka",
+    "name": "Dłoń Krytyka",
     "icon": "../assets/item-icons/item/71045.png"
   },
   {
     "vnum": "72028",
-    "name": "Maska Uczu�",
+    "name": "Maska Uczuć",
     "icon": "../assets/item-icons/item/71011.png"
   },
   {
     "vnum": "72029",
-    "name": "Maska Uczu�",
+    "name": "Maska Uczuć",
     "icon": "../assets/item-icons/item/71011.png"
   },
   {
     "vnum": "72030",
-    "name": "Maska Uczu�",
+    "name": "Maska Uczuć",
     "icon": "../assets/item-icons/item/71011.png"
   },
   {
     "vnum": "72031",
-    "name": "Atak Boga Smok�w",
+    "name": "Atak Boga Smoków",
     "icon": "../assets/item-icons/item/71028.png"
   },
   {
     "vnum": "72034",
-    "name": "Obrona Boga Smok�w",
+    "name": "Obrona Boga Smoków",
     "icon": "../assets/item-icons/item/71030.png"
   },
   {
     "vnum": "72037",
-    "name": "�ycie Boga Smok�w",
+    "name": "Życie Boga Smoków",
     "icon": "../assets/item-icons/item/71027.png"
   },
   {
     "vnum": "72040",
-    "name": "Inteligencja Boga Smok�w",
+    "name": "Inteligencja Boga Smoków",
     "icon": "../assets/item-icons/item/71029.png"
   },
   {
     "vnum": "72043",
-    "name": "Ksi��ka Lidera",
+    "name": "Książka Lidera",
     "icon": "../assets/item-icons/item/70003.png"
   },
   {
     "vnum": "72044",
-    "name": "Ksi��ka Lidera",
+    "name": "Książka Lidera",
     "icon": "../assets/item-icons/item/70003.png"
   },
   {
     "vnum": "72045",
-    "name": "Ksi��ka Lidera",
+    "name": "Książka Lidera",
     "icon": "../assets/item-icons/item/70003.png"
   },
   {
     "vnum": "72046",
-    "name": "D�o� Krytyka",
+    "name": "Dłoń Krytyka",
     "icon": "../assets/item-icons/item/71044.png"
   },
   {
     "vnum": "72047",
-    "name": "D�o� Krytyka",
+    "name": "Dłoń Krytyka",
     "icon": "../assets/item-icons/item/71044.png"
   },
   {
     "vnum": "72048",
-    "name": "D�o� Krytyka",
+    "name": "Dłoń Krytyka",
     "icon": "../assets/item-icons/item/71044.png"
   },
   {
     "vnum": "72049",
-    "name": "Pier�cie� Do�wiadczenia",
+    "name": "Pierścień Doświadczenia",
     "icon": "../assets/item-icons/item/72049.png"
   },
   {
     "vnum": "72050",
-    "name": "Pier�cie� Do�wiadczenia",
+    "name": "Pierścień Doświadczenia",
     "icon": "../assets/item-icons/item/72049.png"
   },
   {
@@ -27363,7 +27364,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "72301",
-    "name": "Zw�j B�ogos�awie�stwa",
+    "name": "Zwój Błogosławieństwa",
     "icon": "../assets/item-icons/item/25040.png"
   },
   {
@@ -27403,27 +27404,27 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "72309",
-    "name": "Pier�cie� Facebook",
+    "name": "Pierścień Facebook",
     "icon": "../assets/item-icons/item/72309.png"
   },
   {
     "vnum": "72310",
-    "name": "Pier�cie� Discord",
+    "name": "Pierścień Discord",
     "icon": "../assets/item-icons/item/72310.png"
   },
   {
     "vnum": "72311",
-    "name": "Pier. z Ko�ci Smoka",
+    "name": "Pier. z Kości Smoka",
     "icon": "../assets/item-icons/smok.png"
   },
   {
     "vnum": "72312",
-    "name": "Pier. z Ko�ci Tygrysa",
+    "name": "Pier. z Kości Tygrysa",
     "icon": "../assets/item-icons/tygrys.png"
   },
   {
     "vnum": "72313",
-    "name": "Pier�. Bia�ego Lwa",
+    "name": "Pierś. Białego Lwa",
     "icon": "../assets/item-icons/lew.png"
   },
   {
@@ -27433,12 +27434,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "72501",
-    "name": "Pier�cie� Do�w. (iCafe)",
+    "name": "Pierścień Dośw. (iCafe)",
     "icon": "../assets/item-icons/72501.png"
   },
   {
     "vnum": "72502",
-    "name": "R�kawica Z�odz. (iCafe)",
+    "name": "Rękawica Złodz. (iCafe)",
     "icon": "../assets/item-icons/72502.png"
   },
   {
@@ -27453,82 +27454,82 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "72703",
-    "name": "Kolczyk z ko�ci tygrysa",
+    "name": "Kolczyk z kości tygrysa",
     "icon": "../assets/item-icons/item/72703.png"
   },
   {
     "vnum": "72704",
-    "name": "Kolczyk z ko�ci smoka",
+    "name": "Kolczyk z kości smoka",
     "icon": "../assets/item-icons/item/72704.png"
   },
   {
     "vnum": "72705",
-    "name": "Brans. z ko�ci tygrysa",
+    "name": "Brans. z kości tygrysa",
     "icon": "../assets/item-icons/item/72705.png"
   },
   {
     "vnum": "72706",
-    "name": "Brans. z ko�ci smoka",
+    "name": "Brans. z kości smoka",
     "icon": "../assets/item-icons/item/72706.png"
   },
   {
     "vnum": "72709",
-    "name": "Kolczyk z ko�ci tygrysa",
+    "name": "Kolczyk z kości tygrysa",
     "icon": "../assets/item-icons/item/72703.png"
   },
   {
     "vnum": "72710",
-    "name": "Kolczyk z ko�ci smoka",
+    "name": "Kolczyk z kości smoka",
     "icon": "../assets/item-icons/item/72704.png"
   },
   {
     "vnum": "72711",
-    "name": "Brans. z ko�ci tygrysa",
+    "name": "Brans. z kości tygrysa",
     "icon": "../assets/item-icons/item/72705.png"
   },
   {
     "vnum": "72712",
-    "name": "Brans. z ko�ci smoka",
+    "name": "Brans. z kości smoka",
     "icon": "../assets/item-icons/item/72706.png"
   },
   {
     "vnum": "72723",
-    "name": "Eliksir S�o�ca (M)",
+    "name": "Eliksir Słońca (M)",
     "icon": "../assets/item-icons/item/72723.png"
   },
   {
     "vnum": "72724",
-    "name": "Eliksir S�o�ca (�)",
+    "name": "Eliksir Słońca (Ś)",
     "icon": "../assets/item-icons/item/72724.png"
   },
   {
     "vnum": "72725",
-    "name": "Eliksir S�o�ca (D)",
+    "name": "Eliksir Słońca (D)",
     "icon": "../assets/item-icons/item/72725.png"
   },
   {
     "vnum": "72726",
-    "name": "Eliksir S�o�ca (S)",
+    "name": "Eliksir Słońca (S)",
     "icon": "../assets/item-icons/item/72726.png"
   },
   {
     "vnum": "72727",
-    "name": "Eliksir Ksi�yca (M)",
+    "name": "Eliksir Księżyca (M)",
     "icon": "../assets/item-icons/item/72727.png"
   },
   {
     "vnum": "72728",
-    "name": "Eliksir Ksi�yca (�)",
+    "name": "Eliksir Księżyca (Ś)",
     "icon": "../assets/item-icons/item/72728.png"
   },
   {
     "vnum": "72729",
-    "name": "Eliksir Ksi�yca (D)",
+    "name": "Eliksir Księżyca (D)",
     "icon": "../assets/item-icons/item/72729.png"
   },
   {
     "vnum": "72730",
-    "name": "Eliksir Ksi�yca (S)",
+    "name": "Eliksir Księżyca (S)",
     "icon": "../assets/item-icons/item/72730.png"
   },
   {
@@ -27548,7 +27549,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "73004",
-    "name": "Modna Fryzura (br�z.)",
+    "name": "Modna Fryzura (brąz.)",
     "icon": "../assets/item-icons/item/73001.png"
   },
   {
@@ -27573,27 +27574,27 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "73009",
-    "name": "D�ugie W�osy (czar.)",
+    "name": "Długie Włosy (czar.)",
     "icon": "../assets/item-icons/item/73001.png"
   },
   {
     "vnum": "73010",
-    "name": "D�ugie W�osy (czerw.)",
+    "name": "Długie Włosy (czerw.)",
     "icon": "../assets/item-icons/item/73001.png"
   },
   {
     "vnum": "73011",
-    "name": "D�ugie W�osy (br�z.)",
+    "name": "Długie Włosy (brąz.)",
     "icon": "../assets/item-icons/item/73001.png"
   },
   {
     "vnum": "73012",
-    "name": "D�ugie W�osy (ziel.)",
+    "name": "Długie Włosy (ziel.)",
     "icon": "../assets/item-icons/item/73001.png"
   },
   {
     "vnum": "73251",
-    "name": "Kucyk (br�z.)",
+    "name": "Kucyk (brąz.)",
     "icon": "../assets/item-icons/item/73251.png"
   },
   {
@@ -27613,107 +27614,107 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "73255",
-    "name": "Kr�tkie W�osy (czerw.)",
+    "name": "Krótkie Włosy (czerw.)",
     "icon": "../assets/item-icons/item/73251.png"
   },
   {
     "vnum": "73256",
-    "name": "Kr�tkie W�osy (br�z.)",
+    "name": "Krótkie Włosy (brąz.)",
     "icon": "../assets/item-icons/item/73251.png"
   },
   {
     "vnum": "73257",
-    "name": "Kr�tkie W�osy (blond)",
+    "name": "Krótkie Włosy (blond)",
     "icon": "../assets/item-icons/item/73251.png"
   },
   {
     "vnum": "73258",
-    "name": "Kr�tkie W�osy (fiol.)",
+    "name": "Krótkie Włosy (fiol.)",
     "icon": "../assets/item-icons/item/73251.png"
   },
   {
     "vnum": "73259",
-    "name": "Kr�tkie (czerw.)",
+    "name": "Krótkie (czerw.)",
     "icon": "../assets/item-icons/item/73251.png"
   },
   {
     "vnum": "73260",
-    "name": "Kr�tkie (nieb.)",
+    "name": "Krótkie (nieb.)",
     "icon": "../assets/item-icons/item/73251.png"
   },
   {
     "vnum": "73261",
-    "name": "Kr�tkie (czar.)",
+    "name": "Krótkie (czar.)",
     "icon": "../assets/item-icons/item/73251.png"
   },
   {
     "vnum": "73262",
-    "name": "Kr�tkie (blond)",
+    "name": "Krótkie (blond)",
     "icon": "../assets/item-icons/item/73251.png"
   },
   {
     "vnum": "73501",
-    "name": "Spi�te (jasne)",
+    "name": "Spięte (jasne)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "73502",
-    "name": "Spi�te (br�z.)",
+    "name": "Spięte (brąz.)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "73503",
-    "name": "Spi�te (blond)",
+    "name": "Spięte (blond)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "73504",
-    "name": "Spi�te (ziel.)",
+    "name": "Spięte (ziel.)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "73505",
-    "name": "Charyzm. W�osy (bia�e)",
+    "name": "Charyzm. Włosy (białe)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "73506",
-    "name": "Charyzm. W�osy (czerw.)",
+    "name": "Charyzm. Włosy (czerw.)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "73507",
-    "name": "Charyzm. W�osy (czar.)",
+    "name": "Charyzm. Włosy (czar.)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "73508",
-    "name": "Charyzm. W�osy (purp.)",
+    "name": "Charyzm. Włosy (purp.)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "73509",
-    "name": "Zawini�te (bia�e)",
+    "name": "Zawinięte (białe)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "73510",
-    "name": "Zawini�te (nieb.)",
+    "name": "Zawinięte (nieb.)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "73511",
-    "name": "Zawini�te (czar.)",
+    "name": "Zawinięte (czar.)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "73512",
-    "name": "Zawini�te (br�z.)",
+    "name": "Zawinięte (brąz.)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "73751",
-    "name": "Spinka Motyl (br�z.)",
+    "name": "Spinka Motyl (brąz.)",
     "icon": "../assets/item-icons/item/73751.png"
   },
   {
@@ -27728,32 +27729,32 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "73754",
-    "name": "Spinka Motyl (bia�a)",
+    "name": "Spinka Motyl (biała)",
     "icon": "../assets/item-icons/item/73751.png"
   },
   {
     "vnum": "73755",
-    "name": "P�d�ugie W�osy (br�z.)",
+    "name": "Półdługie Włosy (brąz.)",
     "icon": "../assets/item-icons/item/73751.png"
   },
   {
     "vnum": "73756",
-    "name": "D�ugie W�osy (czar.)",
+    "name": "Długie Włosy (czar.)",
     "icon": "../assets/item-icons/item/73751.png"
   },
   {
     "vnum": "73757",
-    "name": "D�ugie W�osy (blond)",
+    "name": "Długie Włosy (blond)",
     "icon": "../assets/item-icons/item/73751.png"
   },
   {
     "vnum": "73758",
-    "name": "D�ugie W�osy (fiol.)",
+    "name": "Długie Włosy (fiol.)",
     "icon": "../assets/item-icons/item/73751.png"
   },
   {
     "vnum": "73759",
-    "name": "Dawna Fryzura (br�z.)",
+    "name": "Dawna Fryzura (brąz.)",
     "icon": "../assets/item-icons/item/73751.png"
   },
   {
@@ -27788,7 +27789,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "74004",
-    "name": "Dumna Fryzura (br�z.)",
+    "name": "Dumna Fryzura (brąz.)",
     "icon": "../assets/item-icons/item/73001.png"
   },
   {
@@ -27813,22 +27814,22 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "74009",
-    "name": "D�ugie W�osy (czarne)",
+    "name": "Długie Włosy (czarne)",
     "icon": "../assets/item-icons/item/73001.png"
   },
   {
     "vnum": "74010",
-    "name": "D�ugie W�osy (czerw.)",
+    "name": "Długie Włosy (czerw.)",
     "icon": "../assets/item-icons/item/73001.png"
   },
   {
     "vnum": "74011",
-    "name": "D�ugie W�osy (br�zowe)",
+    "name": "Długie Włosy (brązowe)",
     "icon": "../assets/item-icons/item/73001.png"
   },
   {
     "vnum": "74012",
-    "name": "D�ugie W�osy (ziel.)",
+    "name": "Długie Włosy (ziel.)",
     "icon": "../assets/item-icons/item/73001.png"
   },
   {
@@ -27843,12 +27844,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "74015",
-    "name": "He�m Wojownika",
+    "name": "Hełm Wojownika",
     "icon": "../assets/item-icons/item/73001.png"
   },
   {
     "vnum": "74016",
-    "name": "He�m Wojownika",
+    "name": "Hełm Wojownika",
     "icon": "../assets/item-icons/item/73001.png"
   },
   {
@@ -27873,7 +27874,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "74251",
-    "name": "Kucyk (br�z.)",
+    "name": "Kucyk (brąz.)",
     "icon": "../assets/item-icons/item/73251.png"
   },
   {
@@ -27893,42 +27894,42 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "74255",
-    "name": "Kr�tkie w�osy (czerw.)",
+    "name": "Krótkie włosy (czerw.)",
     "icon": "../assets/item-icons/item/73251.png"
   },
   {
     "vnum": "74256",
-    "name": "Kr�tkie w�osy (br�z.)",
+    "name": "Krótkie włosy (brąz.)",
     "icon": "../assets/item-icons/item/73251.png"
   },
   {
     "vnum": "74257",
-    "name": "Kr�tkie w�osy (jasne)",
+    "name": "Krótkie włosy (jasne)",
     "icon": "../assets/item-icons/item/73251.png"
   },
   {
     "vnum": "74258",
-    "name": "Kr�tkie w�osy (purp.)",
+    "name": "Krótkie włosy (purp.)",
     "icon": "../assets/item-icons/item/73251.png"
   },
   {
     "vnum": "74259",
-    "name": "Kr�tkie (czerw.)",
+    "name": "Krótkie (czerw.)",
     "icon": "../assets/item-icons/item/73251.png"
   },
   {
     "vnum": "74260",
-    "name": "Kr�t. Przyst. (b��k.)",
+    "name": "Krót. Przyst. (błęk.)",
     "icon": "../assets/item-icons/item/73251.png"
   },
   {
     "vnum": "74261",
-    "name": "Kr�t. Przyst. (czar.)",
+    "name": "Krót. Przyst. (czar.)",
     "icon": "../assets/item-icons/item/73251.png"
   },
   {
     "vnum": "74262",
-    "name": "Kr�t. Przyst. (blond)",
+    "name": "Krót. Przyst. (blond)",
     "icon": "../assets/item-icons/item/73251.png"
   },
   {
@@ -27973,12 +27974,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "74501",
-    "name": "Sport. Przystrz. (bia�e)",
+    "name": "Sport. Przystrz. (białe)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "74502",
-    "name": "Sport. Przystrz. (br�z.)",
+    "name": "Sport. Przystrz. (brąz.)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
@@ -27993,42 +27994,42 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "74505",
-    "name": "Charyzm. W�osy (bia�e)",
+    "name": "Charyzm. Włosy (białe)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "74506",
-    "name": "Charyzm. W�osy (czerw.)",
+    "name": "Charyzm. Włosy (czerw.)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "74507",
-    "name": "Charyzm. W�osy (czar.)",
+    "name": "Charyzm. Włosy (czar.)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "74508",
-    "name": "Charyzm. W�osy (fiol.)",
+    "name": "Charyzm. Włosy (fiol.)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "74509",
-    "name": "Zawini�te (bia�e)",
+    "name": "Zawinięte (białe)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "74510",
-    "name": "Zawini�te (b��k.)",
+    "name": "Zawinięte (błęk.)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "74511",
-    "name": "Zawini�te (czar.)",
+    "name": "Zawinięte (czar.)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "74512",
-    "name": "Zawini�te (br�z.)",
+    "name": "Zawinięte (brąz.)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
@@ -28043,12 +28044,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "74515",
-    "name": "He�m Sura (m)",
+    "name": "Hełm Sura (m)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "74516",
-    "name": "He�m Sura (m)",
+    "name": "Hełm Sura (m)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
@@ -28073,7 +28074,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "74751",
-    "name": "Spinka Motyl (br�z.)",
+    "name": "Spinka Motyl (brąz.)",
     "icon": "../assets/item-icons/item/73751.png"
   },
   {
@@ -28083,37 +28084,37 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "74753",
-    "name": "Spinka Motyl (b��k.)",
+    "name": "Spinka Motyl (błęk.)",
     "icon": "../assets/item-icons/item/73751.png"
   },
   {
     "vnum": "74754",
-    "name": "Spinka Motyl (bia�a)",
+    "name": "Spinka Motyl (biała)",
     "icon": "../assets/item-icons/item/73751.png"
   },
   {
     "vnum": "74755",
-    "name": "�r. D�ug. (br�z.)",
+    "name": "Śr. Dług. (brąz.)",
     "icon": "../assets/item-icons/item/73751.png"
   },
   {
     "vnum": "74756",
-    "name": "�r. D�ug. (czar.)",
+    "name": "Śr. Dług. (czar.)",
     "icon": "../assets/item-icons/item/73751.png"
   },
   {
     "vnum": "74757",
-    "name": "�r. D�ug. (blond)",
+    "name": "Śr. Dług. (blond)",
     "icon": "../assets/item-icons/item/73751.png"
   },
   {
     "vnum": "74758",
-    "name": "�r. D�ug. (fiol)",
+    "name": "Śr. Dług. (fiol)",
     "icon": "../assets/item-icons/item/73751.png"
   },
   {
     "vnum": "74759",
-    "name": "D�ugie W�osy (br�z.)",
+    "name": "Długie Włosy (brąz.)",
     "icon": "../assets/item-icons/item/73751.png"
   },
   {
@@ -28123,12 +28124,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "74761",
-    "name": "D�ugie w�osy (fiol.)",
+    "name": "Długie włosy (fiol.)",
     "icon": "../assets/item-icons/item/73751.png"
   },
   {
     "vnum": "74762",
-    "name": "D�ugie W�osy (czerw.)",
+    "name": "Długie Włosy (czerw.)",
     "icon": "../assets/item-icons/item/73751.png"
   },
   {
@@ -28188,12 +28189,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "75004",
-    "name": "Modna fryzura (br�zowa)",
+    "name": "Modna fryzura (brązowa)",
     "icon": "../assets/item-icons/item/73001.png"
   },
   {
     "vnum": "75005",
-    "name": "Opaska (br�zowe)",
+    "name": "Opaska (brązowe)",
     "icon": "../assets/item-icons/item/73001.png"
   },
   {
@@ -28213,22 +28214,22 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "75009",
-    "name": "W�osy (czar.)",
+    "name": "Włosy (czar.)",
     "icon": "../assets/item-icons/item/73001.png"
   },
   {
     "vnum": "75010",
-    "name": "W�osy (czerw.)",
+    "name": "Włosy (czerw.)",
     "icon": "../assets/item-icons/item/73001.png"
   },
   {
     "vnum": "75011",
-    "name": "W�osy (br�z.)",
+    "name": "Włosy (brąz.)",
     "icon": "../assets/item-icons/item/73001.png"
   },
   {
     "vnum": "75012",
-    "name": "W�osy (ziel.)",
+    "name": "Włosy (ziel.)",
     "icon": "../assets/item-icons/item/73001.png"
   },
   {
@@ -28273,7 +28274,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "75201",
-    "name": "Kucyk (br�z.)",
+    "name": "Kucyk (brąz.)",
     "icon": "../assets/item-icons/item/73251.png"
   },
   {
@@ -28298,7 +28299,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "75206",
-    "name": "Chusta (br�z.)",
+    "name": "Chusta (brąz.)",
     "icon": "../assets/item-icons/item/73251.png"
   },
   {
@@ -28313,22 +28314,22 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "75209",
-    "name": "Kud�ate W�osy (czerw.)",
+    "name": "Kudłate Włosy (czerw.)",
     "icon": "../assets/item-icons/item/73251.png"
   },
   {
     "vnum": "75210",
-    "name": "Kud�ate W�osy (nieb.)",
+    "name": "Kudłate Włosy (nieb.)",
     "icon": "../assets/item-icons/item/73251.png"
   },
   {
     "vnum": "75211",
-    "name": "Kud�ate W�osy (czar.)",
+    "name": "Kudłate Włosy (czar.)",
     "icon": "../assets/item-icons/item/73251.png"
   },
   {
     "vnum": "75212",
-    "name": "Kud�ate W�osy (blond)",
+    "name": "Kudłate Włosy (blond)",
     "icon": "../assets/item-icons/item/73251.png"
   },
   {
@@ -28343,12 +28344,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "75215",
-    "name": "He�m Ninja (m)",
+    "name": "Hełm Ninja (m)",
     "icon": "../assets/item-icons/item/73251.png"
   },
   {
     "vnum": "75216",
-    "name": "He�m Ninja (m)",
+    "name": "Hełm Ninja (m)",
     "icon": "../assets/item-icons/item/73251.png"
   },
   {
@@ -28373,62 +28374,62 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "75401",
-    "name": "Spi�te (jasne)",
+    "name": "Spięte (jasne)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "75402",
-    "name": "Spi�te (br�z.)",
+    "name": "Spięte (brąz.)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "75403",
-    "name": "Spi�te (blond)",
+    "name": "Spięte (blond)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "75404",
-    "name": "Spi�te (ziel.)",
+    "name": "Spięte (ziel.)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "75405",
-    "name": "D�ugie W�osy (bia�e)",
+    "name": "Długie Włosy (białe)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "75406",
-    "name": "D�ugie W�osy (czerw.)",
+    "name": "Długie Włosy (czerw.)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "75407",
-    "name": "D�ugie W�osy (czar.)",
+    "name": "Długie Włosy (czar.)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "75408",
-    "name": "D�ugie W�osy (fiol.)",
+    "name": "Długie Włosy (fiol.)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "75409",
-    "name": "D�ugi Kucyk (bia�y)",
+    "name": "Długi Kucyk (biały)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "75410",
-    "name": "D�ugi Kucyk (nieb.)",
+    "name": "Długi Kucyk (nieb.)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "75411",
-    "name": "D�ugi Kucyk (czar.)",
+    "name": "Długi Kucyk (czar.)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
     "vnum": "75412",
-    "name": "D�ugi Kucyk (br�z.)",
+    "name": "Długi Kucyk (brąz.)",
     "icon": "../assets/item-icons/item/73501.png"
   },
   {
@@ -28473,47 +28474,47 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "75601",
-    "name": "Modnie �ci�te (br�z.)",
+    "name": "Modnie Ścięte (brąz.)",
     "icon": "../assets/item-icons/item/73751.png"
   },
   {
     "vnum": "75602",
-    "name": "Modnie �ci�te (czar.)",
+    "name": "Modnie Ścięte (czar.)",
     "icon": "../assets/item-icons/item/73751.png"
   },
   {
     "vnum": "75603",
-    "name": "Modnie �ci�te (nieb.)",
+    "name": "Modnie Ścięte (nieb.)",
     "icon": "../assets/item-icons/item/73751.png"
   },
   {
     "vnum": "75604",
-    "name": "Modnie �ci�te (jasne)",
+    "name": "Modnie Ścięte (jasne)",
     "icon": "../assets/item-icons/item/73751.png"
   },
   {
     "vnum": "75605",
-    "name": "D�ugie W�osy (br�zowe)",
+    "name": "Długie Włosy (brązowe)",
     "icon": "../assets/item-icons/item/73751.png"
   },
   {
     "vnum": "75606",
-    "name": "D�ugie W�osy (czarne)",
+    "name": "Długie Włosy (czarne)",
     "icon": "../assets/item-icons/item/73751.png"
   },
   {
     "vnum": "75607",
-    "name": "D�ugie W�osy (blond)",
+    "name": "Długie Włosy (blond)",
     "icon": "../assets/item-icons/item/73751.png"
   },
   {
     "vnum": "75608",
-    "name": "D�ugie W�osy (fiol.)",
+    "name": "Długie Włosy (fiol.)",
     "icon": "../assets/item-icons/item/73751.png"
   },
   {
     "vnum": "75609",
-    "name": "Dawna Fryzura (br�z.)",
+    "name": "Dawna Fryzura (brąz.)",
     "icon": "../assets/item-icons/item/73751.png"
   },
   {
@@ -28543,12 +28544,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "75615",
-    "name": "He�m Szamana",
+    "name": "Hełm Szamana",
     "icon": "../assets/item-icons/item/73751.png"
   },
   {
     "vnum": "75616",
-    "name": "He�m Szamana",
+    "name": "Hełm Szamana",
     "icon": "../assets/item-icons/item/73751.png"
   },
   {
@@ -28578,27 +28579,27 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "76001",
-    "name": "Zw�j Powrotu Statusu",
+    "name": "Zwój Powrotu Statusu",
     "icon": "../assets/item-icons/item/76001.png"
   },
   {
     "vnum": "76002",
-    "name": "Zasuszona G�owa",
+    "name": "Zasuszona Głowa",
     "icon": "../assets/item-icons/item/76002.png"
   },
   {
     "vnum": "76003",
-    "name": "Mikstura Po�piechu",
+    "name": "Mikstura Pośpiechu",
     "icon": "../assets/item-icons/item/76003.png"
   },
   {
     "vnum": "76004",
-    "name": "Eliksir Ksi�yca (M)",
+    "name": "Eliksir Księżyca (M)",
     "icon": "../assets/item-icons/item/76004.png"
   },
   {
     "vnum": "76005",
-    "name": "Eliksir Ksi�yca (�)",
+    "name": "Eliksir Księżyca (Ś)",
     "icon": "../assets/item-icons/item/76005.png"
   },
   {
@@ -28608,7 +28609,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "76007",
-    "name": "Peleryna M�stwa",
+    "name": "Peleryna Męstwa",
     "icon": "../assets/item-icons/item/76007.png"
   },
   {
@@ -28618,22 +28619,22 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "76009",
-    "name": "Zw�j Boga Smok�w",
+    "name": "Zwój Boga Smoków",
     "icon": "../assets/item-icons/item/76009.png"
   },
   {
     "vnum": "76010",
-    "name": "Krwisty Kamie�",
+    "name": "Krwisty Kamień",
     "icon": "../assets/item-icons/item/76010.png"
   },
   {
     "vnum": "76011",
-    "name": "Ksi��ka Lidera",
+    "name": "Książka Lidera",
     "icon": "../assets/item-icons/item/76011.png"
   },
   {
     "vnum": "76012",
-    "name": "Mikstura Szybko�ci",
+    "name": "Mikstura Szybkości",
     "icon": "../assets/item-icons/item/76012.png"
   },
   {
@@ -28648,12 +28649,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "76015",
-    "name": "Marmur B�ogos�awie�stwa",
+    "name": "Marmur Błogosławieństwa",
     "icon": "../assets/item-icons/item/76015.png"
   },
   {
     "vnum": "76016",
-    "name": "Zw�j B�ogos�awie�stwa",
+    "name": "Zwój Błogosławieństwa",
     "icon": "../assets/item-icons/item/76016.png"
   },
   {
@@ -28678,12 +28679,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "76021",
-    "name": "Eliksir S�o�ca (M)",
+    "name": "Eliksir Słońca (M)",
     "icon": "../assets/item-icons/item/76021.png"
   },
   {
     "vnum": "76022",
-    "name": "Eliksir S�o�ca (�)",
+    "name": "Eliksir Słońca (Ś)",
     "icon": "../assets/item-icons/item/76022.png"
   },
   {
@@ -28693,42 +28694,42 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "76024",
-    "name": "Zielona Si�a",
+    "name": "Zielona Siła",
     "icon": "../assets/item-icons/item/76024.png"
   },
   {
     "vnum": "76025",
-    "name": "Wykrywacz �y�",
+    "name": "Wykrywacz Żył",
     "icon": "../assets/item-icons/item/76025.png"
   },
   {
     "vnum": "79501",
-    "name": "Ko�czan",
+    "name": "Kołczan",
     "icon": "../assets/item-icons/item/79501.png"
   },
   {
     "vnum": "79502",
-    "name": "Ko�czan",
+    "name": "Kołczan",
     "icon": "../assets/item-icons/item/79501.png"
   },
   {
     "vnum": "79503",
-    "name": "Ko�czan",
+    "name": "Kołczan",
     "icon": "../assets/item-icons/item/79501.png"
   },
   {
     "vnum": "79504",
-    "name": "Ko�czan",
+    "name": "Kołczan",
     "icon": "../assets/item-icons/item/79501.png"
   },
   {
     "vnum": "80000",
-    "name": "Peleryna M�stwa+",
+    "name": "Peleryna Męstwa+",
     "icon": "../assets/item-icons/item/peleplus.png"
   },
   {
     "vnum": "80001",
-    "name": "Sakiewka Na Pieni�dze",
+    "name": "Sakiewka Na Pieniądze",
     "icon": "../assets/item-icons/80001.png"
   },
   {
@@ -28748,22 +28749,22 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "80005",
-    "name": "Z�ota Sztab.(500k Yang)",
+    "name": "Złota Sztab.(500k Yang)",
     "icon": "../assets/item-icons/item/80005.png"
   },
   {
     "vnum": "80006",
-    "name": "Z�ota Sztab.(1Mil.Yang)",
+    "name": "Złota Sztab.(1Mil.Yang)",
     "icon": "../assets/item-icons/item/80006.png"
   },
   {
     "vnum": "80007",
-    "name": "Z�ota Sztab.(2Mil.Yang)",
+    "name": "Złota Sztab.(2Mil.Yang)",
     "icon": "../assets/item-icons/item/80007.png"
   },
   {
     "vnum": "80008",
-    "name": "Bry�a Z�ota",
+    "name": "Bryła Złota",
     "icon": "../assets/item-icons/item/80008.png"
   },
   {
@@ -28828,12 +28829,12 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "80038",
-    "name": "Pakiet PREMIUM Diab�a",
+    "name": "Pakiet PREMIUM Diabła",
     "icon": "../assets/item-icons/80038.png"
   },
   {
     "vnum": "80039",
-    "name": "Pakiet PREMIUM Otch�ani",
+    "name": "Pakiet PREMIUM Otchłani",
     "icon": "../assets/item-icons/80039.png"
   },
   {
@@ -28843,7 +28844,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "80041",
-    "name": "Pakiet PREMIUM Mro�. Sm.",
+    "name": "Pakiet PREMIUM Mroź. Sm.",
     "icon": "../assets/item-icons/80041.png"
   },
   {
@@ -28858,7 +28859,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "90001",
-    "name": "Pusta Butelka Na Wod�",
+    "name": "Pusta Butelka Na Wodę",
     "icon": "../assets/item-icons/90001.png"
   },
   {
@@ -28868,7 +28869,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "90003",
-    "name": "Kryszta�",
+    "name": "Kryształ",
     "icon": "../assets/item-icons/90003.png"
   },
   {
@@ -28878,27 +28879,27 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "90005",
-    "name": "Kamie� Wodny",
+    "name": "Kamień Wodny",
     "icon": "../assets/item-icons/90005.png"
   },
   {
     "vnum": "90006",
-    "name": "Kamie� Duszy",
+    "name": "Kamień Duszy",
     "icon": "../assets/item-icons/90006.png"
   },
   {
     "vnum": "90007",
-    "name": "Minera�",
+    "name": "Minerał",
     "icon": "../assets/item-icons/90007.png"
   },
   {
     "vnum": "90010",
-    "name": "Kamie� W�gielny",
+    "name": "Kamień Węgielny",
     "icon": "../assets/item-icons/item/90010.png"
   },
   {
     "vnum": "90011",
-    "name": "Pie�",
+    "name": "Pień",
     "icon": "../assets/item-icons/item/90011.png"
   },
   {
@@ -28918,52 +28919,52 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "90043",
-    "name": "Pier�cie� Bohatera +0",
+    "name": "Pierścień Bohatera +0",
     "icon": "../assets/item-icons/mon2/pierek1.png"
   },
   {
     "vnum": "90044",
-    "name": "Pier�cie� Bohatera +1",
+    "name": "Pierścień Bohatera +1",
     "icon": "../assets/item-icons/mon2/pierek1.png"
   },
   {
     "vnum": "90045",
-    "name": "Pier�cie� Bohatera +2",
+    "name": "Pierścień Bohatera +2",
     "icon": "../assets/item-icons/mon2/pierek1.png"
   },
   {
     "vnum": "90046",
-    "name": "Pier�cie� Bohatera +3",
+    "name": "Pierścień Bohatera +3",
     "icon": "../assets/item-icons/mon2/pierek1.png"
   },
   {
     "vnum": "90047",
-    "name": "Pier�cie� Bohatera +4",
+    "name": "Pierścień Bohatera +4",
     "icon": "../assets/item-icons/mon2/pierek1.png"
   },
   {
     "vnum": "90048",
-    "name": "Pier�cie� Bohatera +5",
+    "name": "Pierścień Bohatera +5",
     "icon": "../assets/item-icons/mon2/pierek1.png"
   },
   {
     "vnum": "90049",
-    "name": "Pier�cie� Bohatera +6",
+    "name": "Pierścień Bohatera +6",
     "icon": "../assets/item-icons/mon2/pierek1.png"
   },
   {
     "vnum": "90050",
-    "name": "Pier�cie� Bohatera +7",
+    "name": "Pierścień Bohatera +7",
     "icon": "../assets/item-icons/mon2/pierek1.png"
   },
   {
     "vnum": "90051",
-    "name": "Pier�cie� Bohatera +8",
+    "name": "Pierścień Bohatera +8",
     "icon": "../assets/item-icons/mon2/pierek1.png"
   },
   {
     "vnum": "90052",
-    "name": "Pier�cie� Bohatera +9",
+    "name": "Pierścień Bohatera +9",
     "icon": "../assets/item-icons/mon2/pierek1.png"
   },
   {
@@ -28973,17 +28974,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "90054",
-    "name": "Zw�j Blasku",
+    "name": "Zwój Blasku",
     "icon": "../assets/item-icons/mon2/zwoj2.png"
   },
   {
     "vnum": "90055",
-    "name": "Plan Ose�ki 75",
+    "name": "Plan Osełki 75",
     "icon": "../assets/item-icons/mon2/po75.png"
   },
   {
     "vnum": "90056",
-    "name": "Plan Ose�ki 95",
+    "name": "Plan Osełki 95",
     "icon": "../assets/item-icons/mon2/po95.png"
   },
   {
@@ -28993,57 +28994,57 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "90058",
-    "name": "Pier�cie� Marudera",
+    "name": "Pierścień Marudera",
     "icon": "../assets/item-icons/mon2/maruder.png"
   },
   {
     "vnum": "90060",
-    "name": "Pier. Blasku Ksi�yca +0",
+    "name": "Pier. Blasku Księżyca +0",
     "icon": "../assets/item-icons/mon2/pierek2.png"
   },
   {
     "vnum": "90061",
-    "name": "Pier. Blasku Ksi�yca +1",
+    "name": "Pier. Blasku Księżyca +1",
     "icon": "../assets/item-icons/mon2/pierek2.png"
   },
   {
     "vnum": "90062",
-    "name": "Pier. Blasku Ksi�yca +2",
+    "name": "Pier. Blasku Księżyca +2",
     "icon": "../assets/item-icons/mon2/pierek2.png"
   },
   {
     "vnum": "90063",
-    "name": "Pier. Blasku Ksi�yca +3",
+    "name": "Pier. Blasku Księżyca +3",
     "icon": "../assets/item-icons/mon2/pierek2.png"
   },
   {
     "vnum": "90064",
-    "name": "Pier. Blasku Ksi�yca +4",
+    "name": "Pier. Blasku Księżyca +4",
     "icon": "../assets/item-icons/mon2/pierek2.png"
   },
   {
     "vnum": "90065",
-    "name": "Pier. Blasku Ksi�yca +5",
+    "name": "Pier. Blasku Księżyca +5",
     "icon": "../assets/item-icons/mon2/pierek2.png"
   },
   {
     "vnum": "90066",
-    "name": "Pier. Blasku Ksi�yca +6",
+    "name": "Pier. Blasku Księżyca +6",
     "icon": "../assets/item-icons/mon2/pierek2.png"
   },
   {
     "vnum": "90067",
-    "name": "Pier. Blasku Ksi�yca +7",
+    "name": "Pier. Blasku Księżyca +7",
     "icon": "../assets/item-icons/mon2/pierek2.png"
   },
   {
     "vnum": "90068",
-    "name": "Pier. Blasku Ksi�yca +8",
+    "name": "Pier. Blasku Księżyca +8",
     "icon": "../assets/item-icons/mon2/pierek2.png"
   },
   {
     "vnum": "90069",
-    "name": "Pier. Blasku Ksi�yca +9",
+    "name": "Pier. Blasku Księżyca +9",
     "icon": "../assets/item-icons/mon2/pierek2.png"
   },
   {
@@ -29058,7 +29059,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "90072",
-    "name": "Skat. Nak� Morskiej",
+    "name": "Skat. Nakł Morskiej",
     "icon": "../assets/item-icons/mon2/szkat-nakladek.png"
   },
   {
@@ -29068,7 +29069,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "100001",
-    "name": "Eliksir Czasu (�)",
+    "name": "Eliksir Czasu (Ś)",
     "icon": "../assets/item-icons/item/100001.png"
   },
   {
@@ -29078,17 +29079,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "100100",
-    "name": "Smocze C�gi",
+    "name": "Smocze Cęgi",
     "icon": "../assets/item-icons/item/100100.png"
   },
   {
     "vnum": "100101",
-    "name": "Smocze C�gi+",
+    "name": "Smocze Cęgi+",
     "icon": "../assets/item-icons/item/100101.png"
   },
   {
     "vnum": "100200",
-    "name": "C�gi Czasu",
+    "name": "Cęgi Czasu",
     "icon": "../assets/item-icons/item/100200.png"
   },
   {
@@ -29103,7 +29104,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "100500",
-    "name": "R�owa Smocza Fasola",
+    "name": "Różowa Smocza Fasola",
     "icon": "../assets/item-icons/item/100500.png"
   },
   {
@@ -29868,17 +29869,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "243223",
-    "name": "Kostium Ksi�yca",
+    "name": "Kostium Księżyca",
     "icon": "../assets/item-icons/easter2025_1/e2025_1_costume_m.png"
   },
   {
     "vnum": "243224",
-    "name": "Ubranie Diab�a",
+    "name": "Ubranie Diabła",
     "icon": "../assets/item-icons/halloween2024_1/h2024_1_costume_m.png"
   },
   {
     "vnum": "243225",
-    "name": "Ubranie Otch�ani",
+    "name": "Ubranie Otchłani",
     "icon": "../assets/item-icons/halloween2025_2/h2025_2_costume_m.png"
   },
   {
@@ -29888,7 +29889,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "243228",
-    "name": "Ubi�r Ducha Bambusa",
+    "name": "Ubiór Ducha Bambusa",
     "icon": "../assets/item-icons/panda/panda_costume_m.png"
   },
   {
@@ -29903,22 +29904,22 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "243231",
-    "name": "Ubranie Mro�. Smoka",
+    "name": "Ubranie Mroź. Smoka",
     "icon": "../assets/item-icons/summer2025_2/sum25_2_costume_m.png"
   },
   {
     "vnum": "243232",
-    "name": "Ubranie Mro�. Woj.",
+    "name": "Ubranie Mroź. Woj.",
     "icon": "../assets/item-icons/ch2025_7/ch2025_7_warrior_m.png"
   },
   {
     "vnum": "243233",
-    "name": "Ubranie Og. Kr�la",
+    "name": "Ubranie Og. Króla",
     "icon": "../assets/item-icons/fk/fk_costume_m.png"
   },
   {
     "vnum": "243234",
-    "name": "Ubranie Baron�wnej",
+    "name": "Ubranie Baronównej",
     "icon": "../assets/item-icons/spider/44031.png"
   },
   {
@@ -29948,17 +29949,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "245223",
-    "name": "Fryzura Ksi�yca",
+    "name": "Fryzura Księżyca",
     "icon": "../assets/item-icons/easter2025_1/e2025_1_hair_m.png"
   },
   {
     "vnum": "245224",
-    "name": "Kapel. Diab�a",
+    "name": "Kapel. Diabła",
     "icon": "../assets/item-icons/halloween2024_1/h2024_1_costume_m_h.png"
   },
   {
     "vnum": "245225",
-    "name": "Kapel. Otch�ani",
+    "name": "Kapel. Otchłani",
     "icon": "../assets/item-icons/halloween2025_2/h2025_2_costume_m_h.png"
   },
   {
@@ -29983,22 +29984,22 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "245231",
-    "name": "Kapel. Mro�. Smoka",
+    "name": "Kapel. Mroź. Smoka",
     "icon": "../assets/item-icons/summer2025_2/sum25_2_costume_m_h.png"
   },
   {
     "vnum": "245232",
-    "name": "Kapel. Mro�. Woj.",
+    "name": "Kapel. Mroź. Woj.",
     "icon": "../assets/item-icons/ch2025_7/ch2025_7_warrior_m_h.png"
   },
   {
     "vnum": "245233",
-    "name": "Kapel. Og. Kr�la",
+    "name": "Kapel. Og. Króla",
     "icon": "../assets/item-icons/fk/fk_costume_m_h.png"
   },
   {
     "vnum": "245234",
-    "name": "Kapel. Baron�wnej",
+    "name": "Kapel. Baronównej",
     "icon": "../assets/item-icons/spider/44032.png"
   },
   {
@@ -30028,17 +30029,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "247031",
-    "name": "Miecz Ksi�yca",
+    "name": "Miecz Księżyca",
     "icon": "../assets/item-icons/easter2025_1/e2025_1_sword.png"
   },
   {
     "vnum": "247032",
-    "name": "Miecz Diab�a",
+    "name": "Miecz Diabła",
     "icon": "../assets/item-icons/halloween2024_1/h2024_1_sword.png"
   },
   {
     "vnum": "247033",
-    "name": "Miecz Otch�ani",
+    "name": "Miecz Otchłani",
     "icon": "../assets/item-icons/halloween2025_2/h2025_2_sword.png"
   },
   {
@@ -30063,22 +30064,22 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "247039",
-    "name": "Miecz Mro�. Smoka",
+    "name": "Miecz Mroź. Smoka",
     "icon": "../assets/item-icons/summer2025_2/sum25_2_sword.png"
   },
   {
     "vnum": "247040",
-    "name": "Miecz Mro�. Woj.",
+    "name": "Miecz Mroź. Woj.",
     "icon": "../assets/item-icons/ch2025_7/ch2025_7_sword.png"
   },
   {
     "vnum": "247041",
-    "name": "Miecz Og. Kr�la",
+    "name": "Miecz Og. Króla",
     "icon": "../assets/item-icons/fk/fk_sword.png"
   },
   {
     "vnum": "247042",
-    "name": "Miecz Baron�wnej",
+    "name": "Miecz Baronównej",
     "icon": "../assets/item-icons/spider/44033.png"
   },
   {
@@ -30103,22 +30104,22 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "247130",
-    "name": "W��cznia Krw. Samuraja",
+    "name": "Włócznia Krw. Samuraja",
     "icon": "../assets/item-icons/doom/c_oni_twohand.png"
   },
   {
     "vnum": "247131",
-    "name": "W��cznia Ksi�yca",
+    "name": "Włócznia Księżyca",
     "icon": "../assets/item-icons/easter2025_1/e2025_1_twohand.png"
   },
   {
     "vnum": "247132",
-    "name": "W��cznia Diab�a",
+    "name": "Włócznia Diabła",
     "icon": "../assets/item-icons/halloween2024_1/h2024_1_twohand.png"
   },
   {
     "vnum": "247133",
-    "name": "W��cznia Otch�ani",
+    "name": "Włócznia Otchłani",
     "icon": "../assets/item-icons/halloween2025_2/h2025_2_twohand.png"
   },
   {
@@ -30128,7 +30129,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "247136",
-    "name": "W��cznia Ducha Bamb",
+    "name": "Włócznia Ducha Bamb",
     "icon": "../assets/item-icons/panda/panda_twohand.png"
   },
   {
@@ -30143,27 +30144,27 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "247139",
-    "name": "W��cznia Mro�. Smoka",
+    "name": "Włócznia Mroź. Smoka",
     "icon": "../assets/item-icons/summer2025_2/sum25_2_twohand.png"
   },
   {
     "vnum": "247140",
-    "name": "W��cznia Mro�. Woj.",
+    "name": "Włócznia Mroź. Woj.",
     "icon": "../assets/item-icons/ch2025_7/ch2025_7_twohand.png"
   },
   {
     "vnum": "247141",
-    "name": "W��cznia Og. Kr�la",
+    "name": "Włócznia Og. Króla",
     "icon": "../assets/item-icons/fk/fk_twohand.png"
   },
   {
     "vnum": "247142",
-    "name": "W��cznia Baron�wnej",
+    "name": "Włócznia Baronównej",
     "icon": "../assets/item-icons/spider/44037.png"
   },
   {
     "vnum": "247143",
-    "name": "W��cznia Wakacyjny",
+    "name": "Włócznia Wakacyjny",
     "icon": "../assets/item-icons/item/sum26_4_twohand.png"
   },
   {
@@ -30183,22 +30184,22 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "247230",
-    "name": "No�e Krw. Samuraja",
+    "name": "Noże Krw. Samuraja",
     "icon": "../assets/item-icons/doom/c_oni_dagger.png"
   },
   {
     "vnum": "247231",
-    "name": "Sztylety Ksi�yca",
+    "name": "Sztylety Księżyca",
     "icon": "../assets/item-icons/easter2025_1/e2025_1_dagger.png"
   },
   {
     "vnum": "247232",
-    "name": "Sztylety Diab�a",
+    "name": "Sztylety Diabła",
     "icon": "../assets/item-icons/halloween2024_1/h2024_1_dagger.png"
   },
   {
     "vnum": "247233",
-    "name": "Sztylety Otch�ani",
+    "name": "Sztylety Otchłani",
     "icon": "../assets/item-icons/halloween2025_2/h2025_2_dagger.png"
   },
   {
@@ -30223,22 +30224,22 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "247239",
-    "name": "Sztylety Mro�. Smoka",
+    "name": "Sztylety Mroź. Smoka",
     "icon": "../assets/item-icons/summer2025_2/sum25_2_dagger.png"
   },
   {
     "vnum": "247240",
-    "name": "Sztylety Mro�. Woj.",
+    "name": "Sztylety Mroź. Woj.",
     "icon": "../assets/item-icons/ch2025_7/ch2025_7_dagger.png"
   },
   {
     "vnum": "247241",
-    "name": "Sztylety Og. Kr�la",
+    "name": "Sztylety Og. Króla",
     "icon": "../assets/item-icons/fk/fk_dagger.png"
   },
   {
     "vnum": "247242",
-    "name": "Sztylety Baron�wnej",
+    "name": "Sztylety Baronównej",
     "icon": "../assets/item-icons/spider/44035.png"
   },
   {
@@ -30263,22 +30264,22 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "247330",
-    "name": "�uk Krw. Samuraja",
+    "name": "Łuk Krw. Samuraja",
     "icon": "../assets/item-icons/doom/c_oni_bow.png"
   },
   {
     "vnum": "247331",
-    "name": "�uk Ksi�yca",
+    "name": "Łuk Księżyca",
     "icon": "../assets/item-icons/easter2025_1/e2025_1_bow.png"
   },
   {
     "vnum": "247332",
-    "name": "�uk Diab�a",
+    "name": "Łuk Diabła",
     "icon": "../assets/item-icons/halloween2024_1/h2024_1_bow.png"
   },
   {
     "vnum": "247333",
-    "name": "�uk Otch�ani",
+    "name": "Łuk Otchłani",
     "icon": "../assets/item-icons/halloween2025_2/h2025_2_bow.png"
   },
   {
@@ -30288,7 +30289,7 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "247336",
-    "name": "�uk Ducha Bambusa",
+    "name": "Łuk Ducha Bambusa",
     "icon": "../assets/item-icons/panda/panda_bow.png"
   },
   {
@@ -30303,27 +30304,27 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "247339",
-    "name": "�uk Mro�. Smoka",
+    "name": "Łuk Mroź. Smoka",
     "icon": "../assets/item-icons/summer2025_2/sum25_2_bow.png"
   },
   {
     "vnum": "247340",
-    "name": "�uk Mro�. Woj.",
+    "name": "Łuk Mroź. Woj.",
     "icon": "../assets/item-icons/ch2025_7/ch2025_7_bow.png"
   },
   {
     "vnum": "247341",
-    "name": "�uk Og. Kr�la",
+    "name": "Łuk Og. Króla",
     "icon": "../assets/item-icons/fk/fk_bow.png"
   },
   {
     "vnum": "247342",
-    "name": "�uk Baron�wnej",
+    "name": "Łuk Baronównej",
     "icon": "../assets/item-icons/spider/44036.png"
   },
   {
     "vnum": "247343",
-    "name": "�uk Wakacyjny",
+    "name": "Łuk Wakacyjny",
     "icon": "../assets/item-icons/item/sum26_4_bow.png"
   },
   {
@@ -30348,17 +30349,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "247431",
-    "name": "Dzwon Ksi�yca",
+    "name": "Dzwon Księżyca",
     "icon": "../assets/item-icons/easter2025_1/e2025_1_bell.png"
   },
   {
     "vnum": "247432",
-    "name": "Dzwon Diab�a",
+    "name": "Dzwon Diabła",
     "icon": "../assets/item-icons/halloween2024_1/h2024_1_bell.png"
   },
   {
     "vnum": "247433",
-    "name": "Dzwon Otch�ani",
+    "name": "Dzwon Otchłani",
     "icon": "../assets/item-icons/halloween2025_2/h2025_2_bell.png"
   },
   {
@@ -30383,22 +30384,22 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "247439",
-    "name": "Dzwon Mro�. Smoka",
+    "name": "Dzwon Mroź. Smoka",
     "icon": "../assets/item-icons/summer2025_2/sum25_2_bell.png"
   },
   {
     "vnum": "247440",
-    "name": "Dzwon Mro�. Woj.",
+    "name": "Dzwon Mroź. Woj.",
     "icon": "../assets/item-icons/ch2025_7/ch2025_7_bell.png"
   },
   {
     "vnum": "247441",
-    "name": "Dzwon Og. Kr�la",
+    "name": "Dzwon Og. Króla",
     "icon": "../assets/item-icons/fk/fk_bell.png"
   },
   {
     "vnum": "247442",
-    "name": "Dzwon Baron�wnej",
+    "name": "Dzwon Baronównej",
     "icon": "../assets/item-icons/spider/44038.png"
   },
   {
@@ -30428,17 +30429,17 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "247531",
-    "name": "Wachlarz Ksi�yca",
+    "name": "Wachlarz Księżyca",
     "icon": "../assets/item-icons/easter2025_1/e2025_1_fan.png"
   },
   {
     "vnum": "247532",
-    "name": "Wachlarz Diab�a",
+    "name": "Wachlarz Diabła",
     "icon": "../assets/item-icons/halloween2024_1/h2024_1_fan.png"
   },
   {
     "vnum": "247533",
-    "name": "Wachlarz Otch�ani",
+    "name": "Wachlarz Otchłani",
     "icon": "../assets/item-icons/halloween2025_2/h2025_2_fan.png"
   },
   {
@@ -30463,22 +30464,22 @@ window.ITEM_DATABASE = [
   },
   {
     "vnum": "247539",
-    "name": "Wachlarz Mro�. Smoka",
+    "name": "Wachlarz Mroź. Smoka",
     "icon": "../assets/item-icons/summer2025_2/sum25_2_fan.png"
   },
   {
     "vnum": "247540",
-    "name": "Wachlarz Mro�. Woj.",
+    "name": "Wachlarz Mroź. Woj.",
     "icon": "../assets/item-icons/ch2025_7/ch2025_7_fan.png"
   },
   {
     "vnum": "247541",
-    "name": "Wachlarz Og. Kr�la",
+    "name": "Wachlarz Og. Króla",
     "icon": "../assets/item-icons/fk/fk_fan.png"
   },
   {
     "vnum": "247542",
-    "name": "Wachlarz Baron�wnej",
+    "name": "Wachlarz Baronównej",
     "icon": "../assets/item-icons/spider/44039.png"
   },
   {
