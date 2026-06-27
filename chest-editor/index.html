@@ -147,14 +147,28 @@
       </section>
 
       <aside class="side-stack">
-        <section class="panel summary-panel" aria-label="Podsumowanie">
+        <section class="panel stats-panel" aria-label="Średni drop">
           <div class="section-head">
             <div>
-              <h2>Podsumowanie</h2>
-              <span id="totalChance">Suma chance: 0</span>
+              <h2>Średnio wydropi</h2>
+              <span id="totalAverage">0 itemów</span>
+            </div>
+            <label class="sample-control">
+              <span>Próbka</span>
+              <input id="sampleSize" type="number" min="1" step="1" value="1">
+            </label>
+          </div>
+          <div id="averageChart" class="average-chart"></div>
+        </section>
+
+        <section class="panel preview-panel" aria-label="Podgląd skrzynki">
+          <div class="section-head">
+            <div>
+              <h2>Podgląd skrzynki</h2>
+              <span id="previewMeta">9 slotów w rzędzie</span>
             </div>
           </div>
-          <div id="chanceBreakdown" class="chance-breakdown"></div>
+          <div id="chestPreview" class="drop-preview-window"></div>
         </section>
 
         <section class="panel output-panel" aria-label="Output">

@@ -45,8 +45,11 @@
     rewardMeta: document.getElementById("rewardMeta"),
     clearRewards: document.getElementById("clearRewards"),
     rewardRows: document.getElementById("rewardRows"),
-    totalChance: document.getElementById("totalChance"),
-    chanceBreakdown: document.getElementById("chanceBreakdown"),
+    sampleSize: document.getElementById("sampleSize"),
+    averageChart: document.getElementById("averageChart"),
+    totalAverage: document.getElementById("totalAverage"),
+    previewMeta: document.getElementById("previewMeta"),
+    chestPreview: document.getElementById("chestPreview"),
     outputMeta: document.getElementById("outputMeta"),
     showEntryOutput: document.getElementById("showEntryOutput"),
     showFileOutput: document.getElementById("showFileOutput"),
@@ -347,6 +350,14 @@
     return total > 0 ? (Math.max(0, toNumber(reward.chance, 0)) / total) * 100 : 0;
   }
 
+  function getSample() {
+    return Math.max(1, Math.floor(toNumber(els.sampleSize.value, 1)));
+  }
+
+  function averageQuantity(reward, sample) {
+    return (getActualPercent(reward) / 100) * Math.max(1, toInt(reward.count, 1)) * sample;
+  }
+
   function createEntry(type) {
     if (type === "categories") {
       return normalizeEntry({
@@ -579,42 +590,96 @@
     }).join("");
   }
 
-  function renderSummary() {
-    var rewards = getRewards();
-    var total = getTotalChance();
-    els.totalChance.textContent = "Suma chance: " + formatNumber(total, 2);
+  function renderAverageIcon(item) {
+    return [
+      '<span class="average-icon">',
+      '<span class="slot-fallback">' + escapeHtml(item.vnum) + "</span>",
+      '<img src="' + escapeHtml(item.icon) + '" alt="" loading="lazy" onerror="this.remove()">',
+      "</span>"
+    ].join("");
+  }
 
-    if (!rewards.length) {
-      els.chanceBreakdown.innerHTML = '<div class="empty-state">Brak nagród do przeliczenia</div>';
+  function renderStats() {
+    var sample = getSample();
+    var totals = new Map();
+
+    getRewards().forEach(function (reward) {
+      var item = getItem(reward.vnum);
+      var current = totals.get(item.vnum) || {
+        item: item,
+        quantity: 0
+      };
+      current.quantity += averageQuantity(reward, sample);
+      totals.set(item.vnum, current);
+    });
+
+    var stats = Array.from(totals.values()).sort(function (a, b) {
+      return b.quantity - a.quantity;
+    });
+    var max = stats.reduce(function (highest, entry) {
+      return Math.max(highest, entry.quantity);
+    }, 0);
+    var total = stats.reduce(function (sum, entry) {
+      return sum + entry.quantity;
+    }, 0);
+
+    els.totalAverage.textContent = formatNumber(total, 2) + " itemów / " + sample;
+
+    if (!stats.length) {
+      els.averageChart.innerHTML = '<div class="empty-state">Brak danych</div>';
       return;
     }
 
-    els.chanceBreakdown.innerHTML = rewards.map(function (reward) {
-      var item = getItem(reward.vnum);
-      var count = Math.max(1, toInt(reward.count, 1));
-      var countLabel = count > 1 ? '<span class="summary-count">' + escapeHtml(count) + "</span>" : "";
-      var chance = formatNumber(reward.chance, 2);
-      var percent = formatNumber(getActualPercent(reward), 2);
-      var title = item.name + " | VNUM " + item.vnum + " | chance " + chance + " | udział " + percent + "%";
-
+    els.averageChart.innerHTML = stats.map(function (entry) {
+      var width = max > 0 ? Math.max(4, (entry.quantity / max) * 100) : 0;
       return [
-        '<article class="summary-slot-card" title="' + escapeHtml(title) + '">',
-        '<span class="summary-slot">',
-        '<span class="slot-fallback">' + escapeHtml(item.vnum) + "</span>",
-        '<img src="' + escapeHtml(item.icon) + '" alt="" loading="lazy" onerror="this.remove()">',
-        countLabel,
-        "</span>",
-        '<div class="summary-slot-copy">',
-        '<strong>' + escapeHtml(item.name) + '</strong>',
-        '<small>VNUM ' + escapeHtml(item.vnum) + '</small>',
-        '<dl>',
-        '<div><dt>Chance</dt><dd>' + escapeHtml(chance) + '</dd></div>',
-        '<div><dt>Udział</dt><dd>' + escapeHtml(percent) + '%</dd></div>',
-        '</dl>',
-        '</div>',
-        '</article>'
+        '<div class="average-row">',
+        renderAverageIcon(entry.item),
+        '<div class="average-main">',
+        '<div class="average-label">',
+        "<strong>" + escapeHtml(entry.item.name) + "</strong>",
+        "<span>" + escapeHtml(formatNumber(entry.quantity, 2)) + "</span>",
+        "</div>",
+        '<div class="bar-track"><span style="width: ' + width + '%"></span></div>',
+        "</div>",
+        "</div>"
       ].join("");
     }).join("");
+  }
+
+  function renderPreviewSlot(reward, index) {
+    if (!reward) {
+      return '<span class="preview-slot empty" aria-hidden="true"></span>';
+    }
+
+    var item = getItem(reward.vnum);
+    var count = Math.max(1, toInt(reward.count, 1));
+    var countLabel = count > 1 ? '<span class="preview-count">' + escapeHtml(count) + "</span>" : "";
+    var chance = formatNumber(reward.chance, 2);
+    var percent = formatNumber(getActualPercent(reward), 2);
+    var title = item.name + " | VNUM " + item.vnum + " | chance " + chance + " | " + percent + "%";
+
+    return [
+      '<span class="preview-slot" title="' + escapeHtml(title) + '" style="--slot-delay: ' + (index % 9) + '">',
+      '<span class="slot-fallback">' + escapeHtml(item.vnum) + "</span>",
+      '<img src="' + escapeHtml(item.icon) + '" alt="" loading="lazy" onerror="this.remove()">',
+      countLabel,
+      "</span>"
+    ].join("");
+  }
+
+  function renderChestPreview() {
+    var rewards = getRewards();
+    var minSlots = 45;
+    var slotCount = Math.max(minSlots, Math.ceil(rewards.length / 9) * 9);
+    var slots = [];
+
+    for (var i = 0; i < slotCount; i += 1) {
+      slots.push(renderPreviewSlot(rewards[i], i));
+    }
+
+    els.previewMeta.textContent = rewards.length + " pozycji / 9 w rzędzie";
+    els.chestPreview.innerHTML = slots.join("");
   }
 
   function renderOutput() {
@@ -630,7 +695,8 @@
     renderMeta();
     renderCatalog();
     renderRewards();
-    renderSummary();
+    renderStats();
+    renderChestPreview();
     renderOutput();
     renderCustomItemCount();
   }
@@ -685,7 +751,8 @@
       chance: 1
     });
     renderRewards();
-    renderSummary();
+    renderStats();
+    renderChestPreview();
     renderOutput();
     showToast("Dodano " + item.name);
   }
@@ -881,7 +948,8 @@
       }
 
       updateActualChanceCells();
-      renderSummary();
+      renderStats();
+      renderChestPreview();
       renderOutput();
     });
 
@@ -914,7 +982,8 @@
       }
 
       renderRewards();
-      renderSummary();
+      renderStats();
+      renderChestPreview();
       renderOutput();
     });
 
@@ -925,10 +994,13 @@
       }
       entry.rewards = [];
       renderRewards();
-      renderSummary();
+      renderStats();
+      renderChestPreview();
       renderOutput();
       showToast("Wyczyszczono nagrody");
     });
+
+    els.sampleSize.addEventListener("input", renderStats);
 
     els.loadImport.addEventListener("click", function () {
       loadFromText(els.importText.value);
