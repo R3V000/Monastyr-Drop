@@ -1,0 +1,20 @@
+# Blacklista VNUM-ow itemow ukrywanych z globalnej bazy edytorow.
+#
+# Generator data/items.generated.js pomija kazdy VNUM wpisany w tym pliku.
+# Dziala to dla mob-drop-item-editor oraz chest-editor, bo oba edytory
+# korzystaja ze wspolnej wygenerowanej bazy.
+#
+# Dozwolone formaty:
+#
+# 50513
+# 71084 71085 71086
+# 25040, 25041, 25042
+# 30000-30010
+#
+# Mozesz mieszac spacje, przecinki, sredniki i nowe linie.
+# Linie zaczynajace sie od # sa komentarzem.
+#
+# Przyklad:
+# 1
+# 2, 3, 4
+# 1000-1010

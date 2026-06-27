@@ -6,6 +6,9 @@
 window.ITEM_DATABASE_SOURCE = {
   "type": "item_proto",
   "itemCount": 6117,
+  "blacklistFile": "data/item_blacklist.txt",
+  "blacklistCount": 0,
+  "skippedItemCount": 0,
   "iconPath": "../assets/item-icons/{vnum}.png"
 };
 window.ITEM_DATABASE = [
